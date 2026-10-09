@@ -253,6 +253,16 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
 @media(max-width:420px){.hud{gap:6px}.hud .pt{max-width:120px}.hbtn{gap:8px}.hbtn small{font-size:10px}.hero-art-home{width:42px;height:62px}.hero-art-list{height:160px}.spirit-detail{padding:0 10px 14px}#spiritlist{gap:8px}.portrait-name{font-size:12px}.opening{padding:24px 0;min-height:calc(100svh - 54px)}.opening-copy{font-size:12px}.opening-subtitle{font-size:15px}.item{flex-wrap:wrap}.item>.btn{margin-left:auto}.rank{font-size:14px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
 
+.daily{display:flex;gap:12px;align-items:center;border:2px solid var(--gold);border-radius:18px;padding:12px 14px;margin-bottom:12px;background:var(--card)}
+.daily .dic{font-size:30px;line-height:1}
+.daily .dbody{flex:1;min-width:0}
+.daily .dtt{display:flex;justify-content:space-between;align-items:baseline;gap:8px;font-weight:900;font-size:15px}
+.daily .dtt small{font-size:13px;color:var(--sub);font-weight:700;white-space:nowrap}
+.daily .dbar{height:8px;background:var(--soft);border-radius:99px;overflow:hidden;margin:6px 0 4px}
+.daily .dbar i{display:block;height:100%;background:var(--gold);transition:width .3s}
+.daily .dd{font-size:12px;color:var(--sub);line-height:1.45}
+.daily.clear{background:var(--ctx)}
+.daily.clear .dtt{color:var(--gold)}
 </style>
 </head>
 <body>
@@ -273,6 +283,7 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
   <section id="home" class="hide">
     <div class="hud"><span class="lv" id="lvH"></span><span class="pt" id="ptH"></span><span class="gem" id="gemH"></span><button class="mute" id="mute" type="button" aria-label="音のオンオフ">🔊</button></div>
     <header class="home-heading"><p class="eyebrow">PREPARE YOUR JOURNEY</p><h1 tabindex="-1" id="home-title">冒険の支度</h1><p class="lead">算数 一問一答 ─ 英雄召喚の聖堂</p></header>
+    <div class="daily" id="daily" role="status" aria-live="polite"></div>
     <div class="heroes">
       <button class="hbtn" id="gearbtn" type="button"><span class="ic" id="gicon">🛠️</span><span><b id="gname">装備</b><small id="gprog"></small></span></button>
       <button class="hbtn" id="spiritbtn" type="button"><span class="ic" id="sicon">✨</span><span><b id="sname">英雄の魂</b><small id="sprog"></small></span></button>
@@ -395,7 +406,7 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
     <div class="panel">
       <p class="info" id="gemtxt"></p>
       <button class="btn gold" id="summon">召喚する（星のかけら×3）</button>
-      <p class="info">星のかけら：その日はじめての正解で2つ、難問以上の正解で1つ、3問以上のパーフェクトで1つ。正解ごとにも約20%の確率で1つ。さらにレベルが5上がるごとに2つ。</p>
+      <p class="info">星のかけら：その日はじめての正解で2つ、難問以上の正解で1つ、3問以上のパーフェクトで1つ。正解ごとにも約20%の確率で1つ。さらにレベルが5上がるごとに2つ。デイリークエスト（1日5問）達成で3つ、7日れんぞく達成でさらに3つ。</p>
     </div>
     <div class="panel" id="spiritlist"></div>
   </div>
@@ -428,7 +439,7 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
   function save(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} }
   var S = load(KEY, {});   // 問題ID → {r:正解の回数(ランク), d:次に出す時刻, w:まちがえた回数, f:3日後に必ず出す}
   var P = load(PKEY, {});
-  var PDEF = {xp:0, gem:0, mute:false, day:'', streak:0, easy:0, grade:'', fig:'avail', area:{}, gear:[], heroes:{}, hero:'', summons:0};
+  var PDEF = {xp:0, gem:0, mute:false, day:'', streak:0, easy:0, grade:'', fig:'avail', area:{}, gear:[], heroes:{}, hero:'', summons:0, dq:{day:'', n:0, done:false}, dqStreak:0, dqLast:'', dqTotal:0};
   Object.keys(PDEF).forEach(function(k){ if (P[k] === undefined) P[k] = PDEF[k]; });
   if (P.fig === 'desc') P.fig = 'avail';
   function saveS(){ save(KEY, S); }
@@ -584,6 +595,42 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
   function bond(id){ return (P.heroes && P.heroes[id] && P.heroes[id].b) || 0; }
   function bondLv(b){ return b >= 200 ? 5 : b >= 100 ? 4 : b >= 50 ? 3 : b >= 20 ? 2 : 1; }
   function addGem(n){ n = Math.max(0, n); P.gem = (P.gem || 0) + n; return n; }
+  // ===== デイリークエスト（1日5問で星のかけら） =====
+  var DQ_N = 5, DQ_GEM = 3, DQ_WEEK = 7, DQ_WEEK_GEM = 3;
+  function dqToday(){
+    var t = todayJST();
+    if (!P.dq || P.dq.day !== t) P.dq = {day:t, n:0, done:false};
+    return P.dq;
+  }
+  // 1問解くたびに呼ぶ。クリアした瞬間なら、もらったごほうびの文を返す
+  function dqCount(){
+    var d = dqToday();
+    if (d.done) return null;
+    d.n++;
+    if (d.n < DQ_N) return null;
+    d.done = true;
+    var y = new Date(Date.now() + 9*HOUR - DAY).toISOString().slice(0,10);
+    P.dqStreak = (P.dqLast === y) ? (P.dqStreak||0) + 1 : 1;
+    P.dqLast = d.day; P.dqTotal = (P.dqTotal||0) + 1;
+    var g = addGem(DQ_GEM), msg = '📜 デイリークエスト達成! 🔮 +' + g;
+    if (P.dqStreak % DQ_WEEK === 0){ var w = addGem(DQ_WEEK_GEM); g += w; msg += '　' + DQ_WEEK + '日れんぞく達成ボーナス 🔮 +' + w; }
+    return {gem:g, msg:msg};
+  }
+  function renderDaily(){
+    var d = dqToday(), el = $('daily');
+    var y = new Date(Date.now() + 9*HOUR - DAY).toISOString().slice(0,10);
+    var st = (P.dqLast === d.day || P.dqLast === y) ? (P.dqStreak||0) : 0;
+    var toWeek = DQ_WEEK - (st % DQ_WEEK);
+    el.classList.toggle('clear', d.done);
+    el.innerHTML = '<span class="dic" aria-hidden="true">' + (d.done ? '🏆' : '📜') + '</span><div class="dbody">' +
+      '<div class="dtt"><span>' + (d.done ? 'デイリークエスト達成!' : 'デイリークエスト：今日' + DQ_N + '問とく') + '</span><small>' + Math.min(d.n, DQ_N) + ' / ' + DQ_N + '</small></div>' +
+      '<div class="dbar"><i style="width:' + (Math.min(d.n, DQ_N) / DQ_N * 100) + '%"></i></div>' +
+      '<div class="dd">' + (d.done
+        ? 'ごほうびの星のかけらを受け取った。また明日!' + (st ? '　' + st + '日れんぞく' : '')
+        : 'ごほうび：🔮 星のかけら ×' + DQ_GEM + '（どのクエストでもOK・正解でもまちがいでも数える）') +
+      (st && !d.done ? '　いま' + st + '日れんぞく' : '') +
+      '<br>' + DQ_WEEK + '日れんぞくで、さらに 🔮 ×' + DQ_WEEK_GEM + '（あと' + (d.done && st % DQ_WEEK === 0 ? DQ_WEEK : toWeek) + '日）</div></div>';
+  }
   function summon(){
     if ((P.gem || 0) < 3) return null;
     var lv = lvOf(P.xp).lv;
@@ -906,7 +953,7 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
     return b;
   }
   function renderHome(){
-    hud();
+    hud(); renderDaily();
     var m = $('modes'); m.innerHTML = '';
     MODES.forEach(function(md){ m.appendChild(chip(md.n, md.s, sel.mode === md.id, function(){ sel.mode = md.id; if (md.id === 'calc' && sel.lv !== 'mix' && sel.lv > 3) sel.lv = 1; if (md.id === 'rev') sel.lv = 'mix'; renderHome(); })); });
     $('areabox').classList.toggle('hide', sel.mode !== 'all');
@@ -968,6 +1015,7 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
       '<p><b>まちがえた問題</b>は3日後、その分野・難易度で出題するときに必ずもう一度出ます（数値替えはしません）。<b>できた問題</b>は、1回目は1週間後、2回目は1か月後、3回目は2か月後、4回目からは6か月後にまた出ます。</p>' +
       '<p><b>図</b>：図のある問題は図をいっしょに表示します（図をタップすると大きくなる）。図を1つだけ切り出せなかったものは、図版のページをまるごと表示するので、ラベル（p.○ や図の名前）で探してね。図の中身が文章で書いてある問題は、その説明を表示します。図形の必勝手筋はカードの問題面（カラー）をそのまま出します。</p>' +
       '<p><b>pt・レベル</b>：pt は正解したときだけ。れんぞく正解で+10%ずつ（最大+100%）。まれに会心（2倍）。装備・英雄の魂の効果はここにかかります。レベルは最初の数十レベルは数問でどんどん上がり、だんだん必要なptがふえます（目安：1日7〜8ptで約14か月でレベル500。1日10ptなら約10か月）。</p>' +
+      '<p><b>デイリークエスト</b>：1日に5問とくとクリアで、星のかけら3つ（英雄の魂を1回召喚できる数）。どのクエスト・難易度でもよく、正解でもまちがいでも1問と数えます（「わからない」で答えを見たものは数えません）。7日れんぞくでクリアすると、さらに星のかけら3つ。日付は日本時間でかわります。</p>' +
       '<p><b>装備</b>：分野の問題を解くと、その分野の武具が手に入り、ランクが上がると強い武具に進化します（<b>コモン→レア→スーパーレア→伝説→神話</b>）。進化には、プレイヤーのレベルと、その分野の正解数が両方いります。つけられるのは3つまで。8分野ぜんぶが神話になるのがレベル500です。</p>' +
       '<table><tr><th>ランク</th><th>レベル</th><th>その分野の正解</th><th>もう1つの条件</th></tr>' + rk + '</table>' +
       '<p><b>英雄の魂</b>：星のかけら3つで、歴史や伝説の英雄の魂を1人召喚（★1〜★5、10回に1回は★4以上、まだ会っていない英雄が出やすい）。召喚できる英雄の魂はレベルが上がると増え、レベル500で全' + HEROES.length + '人がそろいます。連れていけるのは1人。連れている間に正解すると絆がたまり、効果が強くなり、逸話が読めるようになります。同じ英雄が出たら絆+10。星のかけらは、正解するとときどき（約5回に1回）もらえるほか、その日の最初の正解で2つ、レベルが5上がるごとにも2つもらえます。</p>';
@@ -1092,7 +1140,7 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
     var q = G.list[G.idx];
     var prevS = S[q.id] ? JSON.parse(JSON.stringify(S[q.id])) : null;
     var hs = heroOf();
-    var snap = {xp:P.xp, gem:P.gem, areaN:areaCount(q.ar), bond: hs ? bond(hs.id) : 0, heroId: hs ? hs.id : '', combo:G.combo, right:G.right, gained:G.gained, gemGot:G.gemGot, wrongsN:G.wrongs.length, guardUsed:G.guardUsed, firstToday:P.firstToday, day:P.day, streak:P.streak};
+    var snap = {dq:JSON.stringify(dqToday()), dqStreak:P.dqStreak, dqLast:P.dqLast, dqTotal:P.dqTotal, xp:P.xp, gem:P.gem, areaN:areaCount(q.ar), bond: hs ? bond(hs.id) : 0, heroId: hs ? hs.id : '', combo:G.combo, right:G.right, gained:G.gained, gemGot:G.gemGot, wrongsN:G.wrongs.length, guardUsed:G.guardUsed, firstToday:P.firstToday, day:P.day, streak:P.streak};
     G.hist.push({id:q.id, prevS:prevS, snap:snap});
     dayCheck();
     var lvB = lvOf(P.xp).lv, rk0 = gearRanks(lvB);
@@ -1122,6 +1170,10 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
       if (miss){ P.xp += miss; G.gained += miss; }
       G.wrongs.push(q);
     }
+    if (how !== 'dunno'){
+      var dqr = dqCount();
+      if (dqr){ G.gemGot += dqr.gem; G.dqClear = true; extra.push(dqr.msg); }
+    }
     // レベルアップ・武具の進化・英雄の魂の出現
     var lvA = lvOf(P.xp).lv, rk1 = gearRanks(lvA);
     GEAR.forEach(function(g){ if (rk1[g.ar] > rk0[g.ar]) extra.push('🛠️ ' + g.names[rk1[g.ar]-1] + '（' + RANKS[rk1[g.ar]-1].n + '）' + (rk0[g.ar] ? 'に進化!' : 'を手に入れた!')); });
@@ -1149,12 +1201,12 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
     var h = G.hist.pop();
     if (h.prevS) S[h.id] = h.prevS; else delete S[h.id];
     var sn = h.snap;
-    P.xp = sn.xp; P.gem = sn.gem; P.firstToday = sn.firstToday; P.day = sn.day; P.streak = sn.streak;
+    P.xp = sn.xp; P.gem = sn.gem; P.dq = JSON.parse(sn.dq); P.dqStreak = sn.dqStreak; P.dqLast = sn.dqLast; P.dqTotal = sn.dqTotal; P.firstToday = sn.firstToday; P.day = sn.day; P.streak = sn.streak;
     var q = null; for (var i=0;i<G.list.length;i++) if (G.list[i].id === h.id) q = G.list[i];
     if (q) P.area[q.ar] = sn.areaN;
     if (sn.heroId && P.heroes[sn.heroId]) P.heroes[sn.heroId].b = sn.bond;
     G.combo = sn.combo; G.right = sn.right; G.gained = sn.gained; G.gemGot = sn.gemGot; G.wrongs.length = sn.wrongsN; G.guardUsed = sn.guardUsed;
-    G.finished = false; G.finBonus = 0; G.finGem = 0;       // セット終了ボーナスは、最後の問題の記録をもどせば一緒にもどる
+    G.finished = false; G.finBonus = 0; G.finGem = 0; if (!P.dq.done) G.dqClear = false;       // セット終了ボーナスは、最後の問題の記録をもどせば一緒にもどる
     saveS(); saveP();
     G.idx = Math.max(0, G.idx - 1); G.busy = false; G.waitNext = false;
     clearFx();
@@ -1179,7 +1231,8 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
     $('sc').textContent = G.right; $('tot').textContent = n;
     $('rmsg').textContent = perfect ? 'パーフェクト!' + (gg ? ' 星のかけらを1つ手に入れた' : '') : G.right >= n*0.7 ? 'いい調子!' : G.right > 0 ? 'まちがえた問題は3日後にまた出るよ' : '今日は難しかったね。3日後にもう一度';
     $('rpt').textContent = '+' + G.gained + 'pt' + (bonus ? '（セット終了ボーナス+' + bonus + '）' : '') + (G.gemGot ? '　🔮+' + G.gemGot : '') + '　→ レベル ' + lvOf(P.xp).lv;
-    $('drops').innerHTML = ((P.gem||0) >= 3) ? '<p class="lvup">星のかけらが3つ以上ある! 「英雄の魂」から召喚できる</p>' : '';
+    var dqd = dqToday();
+    $('drops').innerHTML = (G.dqClear ? '<p class="lvup">📜 デイリークエスト達成! 星のかけら ×' + DQ_GEM + ' を手に入れた</p>' : (!dqd.done ? '<p class="info">デイリークエスト：あと' + (DQ_N - dqd.n) + '問でクリア</p>' : '')) + (((P.gem||0) >= 3) ? '<p class="lvup">星のかけらが3つ以上ある! 「英雄の魂」から召喚できる</p>' : '');
     $('wrongwrap').classList.toggle('hide', !G.wrongs.length);
     var ul = $('wrongs'); ul.innerHTML = '';
     G.wrongs.forEach(function(q){ var li = document.createElement('li'); li.textContent = q.q.slice(0, 140) + (q.q.length > 140 ? '…' : ''); var b = document.createElement('b'); b.textContent = '答え：' + q.a; li.appendChild(b); ul.appendChild(li); });
@@ -1255,6 +1308,9 @@ h1,h2,.screen-heading,.opening-title{font-family:"Noto Serif JP","Yu Mincho",ser
     Object.keys(ph).forEach(function(k){ if (!P.heroes[k]) P.heroes[k] = ph[k]; else P.heroes[k].b = Math.max(P.heroes[k].b||0, ph[k].b||0); });
     if (!P.hero && p.hero) P.hero = p.hero;
     P.summons = Math.max(P.summons||0, p.summons||0);
+    if (p.dq && p.dq.day === todayJST()){ var d0 = dqToday(); d0.n = Math.max(d0.n, p.dq.n||0); d0.done = d0.done || !!p.dq.done; }
+    if ((p.dqLast||'') > (P.dqLast||'')){ P.dqLast = p.dqLast; P.dqStreak = p.dqStreak||0; }
+    P.dqTotal = Math.max(P.dqTotal||0, p.dqTotal||0);
     saveS(); saveP();
   }
 
