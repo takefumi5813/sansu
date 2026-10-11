@@ -1,0 +1,2868 @@
+{
+  "problems": [
+    {
+      "id": "R24H①-2",
+      "unitId": "work.parallel.complete",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある仕事を仕上げるのに、A1人では36日、B1人では45日かかります。この仕事をAとBの2人で仕上げるのに何日かかりますか。",
+      "sourceText": "ある仕事を仕上げるのに、A1人では36日、B1人では45日かかります。この仕事をAとBの2人で仕上げるのに何日かかりますか。",
+      "source": {
+        "title": "R24H①-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ①-2、PDF通しp.31（再チャレンジp.32）、公式解答p.45",
+        "pdfPage": 31,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある仕事を仕上げるのに、A1人では36日、B1人では45日かかります。この仕事をAとBの2人で仕上げるのに何日かかりますか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★1",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある仕事を仕上げるのに、A1人では36日、B1人では45日かかります。この仕事をAとBの2人で仕上げるのに何日かかりますか。",
+        "notionSourceText": "ある仕事を仕上げるのに、A1人では36日、B1人では45日かかります。この仕事をAとBの2人で仕上げるのに何日かかりますか。",
+        "url": "https://app.notion.com/3f52b010743c81bb8f5bebb3a38546f2",
+        "notionId": "3f52b010-743c-81bb-8f5b-ebb3a38546f2",
+        "notionProperties": {
+          "id": "3f52b010-743c-81bb-8f5b-ebb3a38546f2",
+          "url": "https://app.notion.com/3f52b010743c81bb8f5bebb3a38546f2",
+          "createdTime": "2026-10-10 01:19:45Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8112b47fcfc284f3c724\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "20日",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★1",
+          "問題": "R24H①-2"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "20日",
+        "notionPageLastEditedAt": "2026-10-10T07:57:39.422Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "20",
+        "d": "1",
+        "unit": "日",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全体の仕事をそろえる",
+            "body": "36と45の最小公倍数180を全体の仕事量にします。2人とも同じ仕事を完成させる点が大切です。",
+            "equation": "全体＝180"
+          },
+          {
+            "id": "s2",
+            "title": "1日分へ直す",
+            "body": "Aは180を36日で、Bは180を45日で終えるので、日数で割ります。",
+            "equation": "A：180÷36＝5、B：180÷45＝4"
+          },
+          {
+            "id": "s3",
+            "title": "同時に進める量を足す",
+            "body": "1日にAの5とBの4が進みます。36日と45日を直接足したり平均したりしません。",
+            "equation": "5＋4＝9",
+            "checkpoint": {
+              "id": "R24H①-2-reason",
+              "prompt": "仕事全体を180とすると、2人が1日で進める仕事量はいくつですか。",
+              "answer": {
+                "n": "9",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "全体を1日分で割る",
+            "body": "毎日9ずつ進むので、180を9で割ります。",
+            "equation": "180÷9＝20日"
+          },
+          {
+            "id": "s5",
+            "title": "元の条件で確かめる",
+            "body": "20日でAが100、Bが80進め、合わせて全体の180になります。",
+            "equation": "5×20＋4×20＝180"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 2
+    },
+    {
+      "id": "R24H①-3",
+      "unitId": "work.phases.known_rates",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある仕事を仕上げるのに、A1人では24日、B1人では40日かかります。この仕事を2人で12日働いて、残りをB1人で仕上げました。この仕事は全部で何日かかりましたか。",
+      "sourceText": "ある仕事を仕上げるのに、A1人では24日、B1人では40日かかります。この仕事を2人で12日働いて、残りをB1人で仕上げました。この仕事は全部で何日かかりましたか。",
+      "source": {
+        "title": "R24H①-3",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ①-3、PDF通しp.31（再チャレンジp.32）、公式解答p.45",
+        "pdfPage": 31,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある仕事を仕上げるのに、A1人では24日、B1人では40日かかります。この仕事を2人で12日働いて、残りをB1人で仕上げました。この仕事は全部で何日かかりましたか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★1〜2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある仕事を仕上げるのに、A1人では24日、B1人では40日かかります。この仕事を2人で12日働いて、残りをB1人で仕上げました。この仕事は全部で何日かかりましたか。",
+        "notionSourceText": "ある仕事を仕上げるのに、A1人では24日、B1人では40日かかります。この仕事を2人で12日働いて、残りをB1人で仕上げました。この仕事は全部で何日かかりましたか。",
+        "url": "https://app.notion.com/3f52b010743c812eaf31fdcab597f8cf",
+        "notionId": "3f52b010-743c-812e-af31-fdcab597f8cf",
+        "notionProperties": {
+          "id": "3f52b010-743c-812e-af31-fdcab597f8cf",
+          "url": "https://app.notion.com/3f52b010743c812eaf31fdcab597f8cf",
+          "createdTime": "2026-10-10 01:19:45Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8175a96fe93e755fa373\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "20日",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★1〜2",
+          "問題": "R24H①-3"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "20日",
+        "notionPageLastEditedAt": "2026-10-10T07:57:41.736Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "20",
+        "d": "1",
+        "unit": "日",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全体を120とおく",
+            "body": "24と40の最小公倍数120を使うと、1日分を整数で表せます。",
+            "equation": "全体＝120"
+          },
+          {
+            "id": "s2",
+            "title": "各人の1日分を出す",
+            "body": "Aが5、Bが3なので、2人で働く日は8進みます。",
+            "equation": "120÷24＝5、120÷40＝3、5＋3＝8"
+          },
+          {
+            "id": "s3",
+            "title": "途中までの仕事を引く",
+            "body": "2人で12日働いた仕事量を、全体から引きます。",
+            "equation": "120－8×12＝24",
+            "checkpoint": {
+              "id": "R24H①-3-reason",
+              "prompt": "全体を120とすると、2人で12日働いた後に残る仕事量はいくつですか。",
+              "answer": {
+                "n": "24",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "残りの日数を求める",
+            "body": "残り24を、これから働くBの1日分3で割ります。",
+            "equation": "24÷3＝8日"
+          },
+          {
+            "id": "s5",
+            "title": "最初の日数も加える",
+            "body": "8日はBだけの期間です。問われた全部の日数は最初の12日を含みます。",
+            "equation": "12＋8＝20日"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 3
+    },
+    {
+      "id": "R24H①-4",
+      "unitId": "work.parallel.subtract",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある仕事を仕上げるのに、A1人では30日、AとBの2人では18日かかります。この仕事をB1人で仕上げるのに何日かかりますか。",
+      "sourceText": "ある仕事を仕上げるのに、A1人では30日、AとBの2人では18日かかります。この仕事をB1人で仕上げるのに何日かかりますか。",
+      "source": {
+        "title": "R24H①-4",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ①-4、PDF通しp.31（再チャレンジp.32）、公式解答p.45",
+        "pdfPage": 31,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある仕事を仕上げるのに、A1人では30日、AとBの2人では18日かかります。この仕事をB1人で仕上げるのに何日かかりますか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★1",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある仕事を仕上げるのに、A1人では30日、AとBの2人では18日かかります。この仕事をB1人で仕上げるのに何日かかりますか。",
+        "notionSourceText": "ある仕事を仕上げるのに、A1人では30日、AとBの2人では18日かかります。この仕事をB1人で仕上げるのに何日かかりますか。",
+        "url": "https://app.notion.com/3f52b010743c8186985ecdf1c914a739",
+        "notionId": "3f52b010-743c-8186-985e-cdf1c914a739",
+        "notionProperties": {
+          "id": "3f52b010-743c-8186-985e-cdf1c914a739",
+          "url": "https://app.notion.com/3f52b010743c8186985ecdf1c914a739",
+          "createdTime": "2026-10-10 01:19:45Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c816fa079ec0215a17f06\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "45日",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★1",
+          "問題": "R24H①-4"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "45日",
+        "notionPageLastEditedAt": "2026-10-10T07:57:44.366Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "45",
+        "d": "1",
+        "unit": "日",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全体を90とおく",
+            "body": "30と18の最小公倍数90を仕事全体とします。",
+            "equation": "全体＝90"
+          },
+          {
+            "id": "s2",
+            "title": "Aと2人の1日分を出す",
+            "body": "Aだけでは3、AとBでは5ずつ進みます。",
+            "equation": "A：90÷30＝3、A＋B：90÷18＝5"
+          },
+          {
+            "id": "s3",
+            "title": "Bの1日分を引き算で出す",
+            "body": "2人の1日分5からAの3を引くと、Bの1日分になります。",
+            "equation": "B：5－3＝2",
+            "checkpoint": {
+              "id": "R24H①-4-reason",
+              "prompt": "全体を90とすると、Bが1日で進める仕事量はいくつですか。",
+              "answer": {
+                "n": "2",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "Bだけの日数を求める",
+            "body": "全体90をBの1日分2で割ります。",
+            "equation": "90÷2＝45日"
+          },
+          {
+            "id": "s5",
+            "title": "速さの和で確かめる",
+            "body": "Aの3とBの2を合わせると5。90を5で割ると18日に戻ります。",
+            "equation": "90÷(3＋2)＝18日"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 3
+    },
+    {
+      "id": "R24H①-5",
+      "unitId": "work.overlap.three_rates",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある仕事を仕上げるのに、AとBの2人では30日かかり、BとCの2人では20日かかります。また、A、B、Cの3人では16日かかります。この仕事をB1人で仕上げるのに何日かかりますか。",
+      "sourceText": "ある仕事を仕上げるのに、AとBの2人では30日かかり、BとCの2人では20日かかります。また、A、B、Cの3人では16日かかります。この仕事をB1人で仕上げるのに何日かかりますか。",
+      "source": {
+        "title": "R24H①-5",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ①-5、PDF通しp.31（再チャレンジp.32）、公式解答p.45",
+        "pdfPage": 31,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある仕事を仕上げるのに、AとBの2人では30日かかり、BとCの2人では20日かかります。また、A、B、Cの3人では16日かかります。この仕事をB1人で仕上げるのに何日かかりますか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある仕事を仕上げるのに、AとBの2人では30日かかり、BとCの2人では20日かかります。また、A、B、Cの3人では16日かかります。この仕事をB1人で仕上げるのに何日かかりますか。",
+        "notionSourceText": "ある仕事を仕上げるのに、AとBの2人では30日かかり、BとCの2人では20日かかります。また、A、B、Cの3人では16日かかります。この仕事をB1人で仕上げるのに何日かかりますか。",
+        "url": "https://app.notion.com/3f52b010743c81de8f35e91eebbd6890",
+        "notionId": "3f52b010-743c-81de-8f35-e91eebbd6890",
+        "notionProperties": {
+          "id": "3f52b010-743c-81de-8f35-e91eebbd6890",
+          "url": "https://app.notion.com/3f52b010743c81de8f35e91eebbd6890",
+          "createdTime": "2026-10-10 01:19:45Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c814e8f63f36574e2f9f5\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "48日",
+          "図": "なし",
+          "上乗せ": 1,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★2",
+          "問題": "R24H①-5"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "48日",
+        "notionPageLastEditedAt": "2026-10-10T07:57:46.789Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "48",
+        "d": "1",
+        "unit": "日",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "共通の仕事量を240にする",
+            "body": "30、20、16の最小公倍数を使って、3つの組を同じ全体で比べます。",
+            "equation": "全体＝240"
+          },
+          {
+            "id": "s2",
+            "title": "それぞれの組の1日分を出す",
+            "body": "日数で割ると、AとBは8、BとCは12、3人では15です。",
+            "equation": "A＋B＝8、B＋C＝12、A＋B＋C＝15"
+          },
+          {
+            "id": "s3",
+            "title": "Bだけが余る形にする",
+            "body": "8と12を足すとBが2回入ります。そこから3人分を引けばB1人分だけ残ります。",
+            "equation": "8＋12－15＝5",
+            "checkpoint": {
+              "id": "R24H①-5-reason",
+              "prompt": "全体を240とすると、Bが1日で進める仕事量はいくつですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "Bだけで仕上げる日数を出す",
+            "body": "全体240をBの1日分5で割ります。",
+            "equation": "240÷5＝48日"
+          },
+          {
+            "id": "s5",
+            "title": "各組の条件へ戻す",
+            "body": "Aは3、Cは7です。AとBが8、BとCが12、3人が15になり、全条件と一致します。",
+            "equation": "A＝8－5＝3、C＝12－5＝7"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 5
+    },
+    {
+      "id": "R24H②-1",
+      "unitId": "work.phases.infer_remaining_rate",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "A1人では28日かかる仕事を、Aが8日した残りをB1人ですると、さらに15日かかりました。この仕事をAとBの2人ですると何日かかりますか。",
+      "sourceText": "A1人では28日かかる仕事を、Aが8日した残りをB1人ですると、さらに15日かかりました。この仕事をAとBの2人ですると何日かかりますか。",
+      "source": {
+        "title": "R24H②-1",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ②-1、PDF通しp.33（再チャレンジp.34）、公式解答p.45",
+        "pdfPage": 33,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "A1人では28日かかる仕事を、Aが8日した残りをB1人ですると、さらに15日かかりました。この仕事をAとBの2人ですると何日かかりますか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "A1人では28日かかる仕事を、Aが8日した残りをB1人ですると、さらに15日かかりました。この仕事をAとBの2人ですると何日かかりますか。",
+        "notionSourceText": "A1人では28日かかる仕事を、Aが8日した残りをB1人ですると、さらに15日かかりました。この仕事をAとBの2人ですると何日かかりますか。",
+        "url": "https://app.notion.com/3f52b010743c81b1b447dcb9da0858eb",
+        "notionId": "3f52b010-743c-81b1-b447-dcb9da0858eb",
+        "notionProperties": {
+          "id": "3f52b010-743c-81b1-b447-dcb9da0858eb",
+          "url": "https://app.notion.com/3f52b010743c81b1b447dcb9da0858eb",
+          "createdTime": "2026-10-10 01:19:45Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8148920fcbdae5318620\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "12日",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★2",
+          "問題": "R24H②-1"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "12日",
+        "notionPageLastEditedAt": "2026-10-10T07:57:49.363Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "12",
+        "d": "1",
+        "unit": "日",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全体を84とおく",
+            "body": "Aが28日で終わる仕事を84とおくと、Aの1日分は3です。",
+            "equation": "84÷28＝3"
+          },
+          {
+            "id": "s2",
+            "title": "Aが進めた量と残りを出す",
+            "body": "8日分24を全体から引くと、Bが仕上げた仕事量です。",
+            "equation": "A：3×8＝24、残り：84－24＝60"
+          },
+          {
+            "id": "s3",
+            "title": "Bの1日分を逆算する",
+            "body": "Bは残り60を15日で終えたので、1日分は60を15で割ります。",
+            "equation": "B：60÷15＝4",
+            "checkpoint": {
+              "id": "R24H②-1-reason",
+              "prompt": "全体を84とすると、Bが1日で進める仕事量はいくつですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "2人分を合わせて全体を割る",
+            "body": "2人が1日に進める量は7。全体84を7で割ります。",
+            "equation": "84÷(3＋4)＝12日"
+          },
+          {
+            "id": "s5",
+            "title": "Bの条件も確かめる",
+            "body": "Bの1日分4で15日働くと60。Aの24と合わせて84になります。",
+            "equation": "4×15＋3×8＝84"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 4
+    },
+    {
+      "id": "R24H②-2",
+      "unitId": "work.fractions.infer_both_rates",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある仕事を仕上げるのに、A1人で8日働いて全体の1/4をしました。残りの仕事をB1人で40日かかって仕上げました。AとBの2人でこの仕事を仕上げるのに何日かかりますか。",
+      "sourceText": "ある仕事を仕上げるのに、A1人で8日働いて全体の1/4をしました。残りの仕事をB1人で40日かかって仕上げました。AとBの2人でこの仕事を仕上げるのに何日かかりますか。",
+      "source": {
+        "title": "R24H②-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ②-2、PDF通しp.33（再チャレンジp.34）、公式解答p.45",
+        "pdfPage": 33,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある仕事を仕上げるのに、A1人で8日働いて全体の1/4をしました。残りの仕事をB1人で40日かかって仕上げました。AとBの2人でこの仕事を仕上げるのに何日かかりますか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある仕事を仕上げるのに、A1人で8日働いて全体の1/4をしました。残りの仕事をB1人で40日かかって仕上げました。AとBの2人でこの仕事を仕上げるのに何日かかりますか。",
+        "notionSourceText": "ある仕事を仕上げるのに、A1人で8日働いて全体の1/4をしました。残りの仕事をB1人で40日かかって仕上げました。AとBの2人でこの仕事を仕上げるのに何日かかりますか。",
+        "url": "https://app.notion.com/3f52b010743c8157acfed5d4f4c7df6a",
+        "notionId": "3f52b010-743c-8157-acfe-d5d4f4c7df6a",
+        "notionProperties": {
+          "id": "3f52b010-743c-8157-acfe-d5d4f4c7df6a",
+          "url": "https://app.notion.com/3f52b010743c8157acfed5d4f4c7df6a",
+          "createdTime": "2026-10-10 01:19:45Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8135a9c5ea1a2d122ed1\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "20日",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★2",
+          "問題": "R24H②-2"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "20日",
+        "notionPageLastEditedAt": "2026-10-10T07:57:51.744Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "20",
+        "d": "1",
+        "unit": "日",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "割合を量に置き換える",
+            "body": "全体を160とすると、Aがした1/4は40、Bがした残り3/4は120です。",
+            "equation": "Aの分：160÷4＝40、Bの分：160－40＝120"
+          },
+          {
+            "id": "s2",
+            "title": "Aの1日分を出す",
+            "body": "Aの8日は全体160ではなく、仕事量40に対応しています。",
+            "equation": "A：40÷8＝5",
+            "checkpoint": {
+              "id": "R24H②-2-reason",
+              "prompt": "全体を160とすると、Aが1日で進める仕事量はいくつですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "Bの1日分を出す",
+            "body": "Bの40日は残り120に対応しています。同じ全体160で比べましょう。",
+            "equation": "B：120÷40＝3"
+          },
+          {
+            "id": "s4",
+            "title": "2人の量で全体を割る",
+            "body": "2人なら1日に8進むので、160を8で割ります。",
+            "equation": "160÷(5＋3)＝20日"
+          },
+          {
+            "id": "s5",
+            "title": "対応する仕事量を確かめる",
+            "body": "Aの8日で40、Bの40日で120となり、割合の条件も満たします。",
+            "equation": "5×8＝40、3×40＝120"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 4
+    },
+    {
+      "id": "R24H②-3",
+      "unitId": "work.fractions.elapsed_unknown",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "AとBの2人で働くと40日間で仕上げることができる仕事を、はじめAだけで何日か働いて全体の2/3を終わらせ、続いてその残りをBだけが30日間働いて仕上げました。Aは何日間働きましたか。",
+      "sourceText": "AとBの2人で働くと40日間で仕上げることができる仕事を、はじめAだけで何日か働いて全体の2/3を終わらせ、続いてその残りをBだけが30日間働いて仕上げました。Aは何日間働きましたか。",
+      "source": {
+        "title": "R24H②-3",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ②-3、PDF通しp.33（再チャレンジp.34）、公式解答p.45",
+        "pdfPage": 33,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "AとBの2人で働くと40日間で仕上げることができる仕事を、はじめAだけで何日か働いて全体の2/3を終わらせ、続いてその残りをBだけが30日間働いて仕上げました。Aは何日間働きましたか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "AとBの2人で働くと40日間で仕上げることができる仕事を、はじめAだけで何日か働いて全体の2/3を終わらせ、続いてその残りをBだけが30日間働いて仕上げました。Aは何日間働きましたか。",
+        "notionSourceText": "AとBの2人で働くと40日間で仕上げることができる仕事を、はじめAだけで何日か働いて全体の2/3を終わらせ、続いてその残りをBだけが30日間働いて仕上げました。Aは何日間働きましたか。",
+        "url": "https://app.notion.com/3f52b010743c8117a9add1971d4e488f",
+        "notionId": "3f52b010-743c-8117-a9ad-d1971d4e488f",
+        "notionProperties": {
+          "id": "3f52b010-743c-8117-a9ad-d1971d4e488f",
+          "url": "https://app.notion.com/3f52b010743c8117a9add1971d4e488f",
+          "createdTime": "2026-10-10 01:19:45Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8124812cf3382d9974e5\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "48日間",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★2",
+          "問題": "R24H②-3"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "48日間",
+        "notionPageLastEditedAt": "2026-10-10T07:57:54.047Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "48",
+        "d": "1",
+        "unit": "日間",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全体と共同能力をそろえる",
+            "body": "全体を360とすると、2人が40日で終えるので1日分は9です。",
+            "equation": "A＋B：360÷40＝9"
+          },
+          {
+            "id": "s2",
+            "title": "残りからBの能力を出す",
+            "body": "Bがしたのは残り1/3の120です。これに30日かかったのでBの1日分は4です。",
+            "equation": "B：(360÷3)÷30＝4"
+          },
+          {
+            "id": "s3",
+            "title": "共同能力からAの能力を引き出す",
+            "body": "AとBで9、Bが4なので、Aだけなら5進みます。",
+            "equation": "A：9－4＝5",
+            "checkpoint": {
+              "id": "R24H②-3-reason",
+              "prompt": "全体を360とすると、Aが1日で進める仕事量はいくつですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "Aの担当量をAの能力で割る",
+            "body": "Aがした2/3は240。全体360をそのまま割らないようにします。",
+            "equation": "(360×2/3)÷5＝48日間"
+          },
+          {
+            "id": "s5",
+            "title": "全体に戻ることを確かめる",
+            "body": "Aの48日分240とBの30日分120で、仕事全体360を仕上げます。",
+            "equation": "5×48＋4×30＝360"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 5
+    },
+    {
+      "id": "R24H②-4",
+      "unitId": "work.fractions.joint_then_subtract",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある仕事を仕上げるのに、AとBの2人で12日働いて全体の2/3をしました。残りの仕事をA1人で15日かかって仕上げました。この仕事をB1人で仕上げるのに何日かかりますか。",
+      "sourceText": "ある仕事を仕上げるのに、AとBの2人で12日働いて全体の2/3をしました。残りの仕事をA1人で15日かかって仕上げました。この仕事をB1人で仕上げるのに何日かかりますか。",
+      "source": {
+        "title": "R24H②-4",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ②-4、PDF通しp.33（再チャレンジp.34）、公式解答p.45",
+        "pdfPage": 33,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある仕事を仕上げるのに、AとBの2人で12日働いて全体の2/3をしました。残りの仕事をA1人で15日かかって仕上げました。この仕事をB1人で仕上げるのに何日かかりますか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある仕事を仕上げるのに、AとBの2人で12日働いて全体の2/3をしました。残りの仕事をA1人で15日かかって仕上げました。この仕事をB1人で仕上げるのに何日かかりますか。",
+        "notionSourceText": "ある仕事を仕上げるのに、AとBの2人で12日働いて全体の2/3をしました。残りの仕事をA1人で15日かかって仕上げました。この仕事をB1人で仕上げるのに何日かかりますか。",
+        "url": "https://app.notion.com/3f52b010743c81c0bc28ecb3735c1b11",
+        "notionId": "3f52b010-743c-81c0-bc28-ecb3735c1b11",
+        "notionProperties": {
+          "id": "3f52b010-743c-81c0-bc28-ecb3735c1b11",
+          "url": "https://app.notion.com/3f52b010743c81c0bc28ecb3735c1b11",
+          "createdTime": "2026-10-10 01:19:45Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8101ad93c184d7882f89\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "30日",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★2",
+          "問題": "R24H②-4"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "30日",
+        "notionPageLastEditedAt": "2026-10-10T07:57:56.575Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "30",
+        "d": "1",
+        "unit": "日",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "共同作業の1日分を求める",
+            "body": "全体を180とすると、2人で進めた2/3は120です。12日で進めたので1日分は10です。",
+            "equation": "A＋B：(180×2/3)÷12＝10"
+          },
+          {
+            "id": "s2",
+            "title": "残りからAの能力を求める",
+            "body": "残り1/3の60をAが15日で仕上げたので、Aの1日分は4です。",
+            "equation": "A：(180÷3)÷15＝4"
+          },
+          {
+            "id": "s3",
+            "title": "Bの能力を引き算で求める",
+            "body": "2人の1日分10からAの4を引きます。",
+            "equation": "B：10－4＝6",
+            "checkpoint": {
+              "id": "R24H②-4-reason",
+              "prompt": "全体を180とすると、Bが1日で進める仕事量はいくつですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "B1人で全体をする日数を出す",
+            "body": "質問は残りではなく全体をB1人で仕上げる日数です。全体180を6で割ります。",
+            "equation": "180÷6＝30日"
+          },
+          {
+            "id": "s5",
+            "title": "2つの期間を確かめる",
+            "body": "2人の12日で120、Aの15日で60。合わせて180となります。",
+            "equation": "10×12＋4×15＝180"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 5
+    },
+    {
+      "id": "R24H③-1",
+      "unitId": "work.absence.one_unknown",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある仕事を仕上げるのに、A1人では16日、B1人では12日かかります。この仕事を2人で同時に始めましたが、途中でBが休んだため、仕上がるまでに8日かかりました。Bは何日休みましたか。",
+      "sourceText": "ある仕事を仕上げるのに、A1人では16日、B1人では12日かかります。この仕事を2人で同時に始めましたが、途中でBが休んだため、仕上がるまでに8日かかりました。Bは何日休みましたか。",
+      "source": {
+        "title": "R24H③-1",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ③-1、PDF通しp.35（再チャレンジp.36）、公式解答p.45",
+        "pdfPage": 35,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある仕事を仕上げるのに、A1人では16日、B1人では12日かかります。この仕事を2人で同時に始めましたが、途中でBが休んだため、仕上がるまでに8日かかりました。Bは何日休みましたか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある仕事を仕上げるのに、A1人では16日、B1人では12日かかります。この仕事を2人で同時に始めましたが、途中でBが休んだため、仕上がるまでに8日かかりました。Bは何日休みましたか。",
+        "notionSourceText": "ある仕事を仕上げるのに、A1人では16日、B1人では12日かかります。この仕事を2人で同時に始めましたが、途中でBが休んだため、仕上がるまでに8日かかりました。Bは何日休みましたか。",
+        "url": "https://app.notion.com/3f52b010743c81bc978cf6d91a8b877a",
+        "notionId": "3f52b010-743c-81bc-978c-f6d91a8b877a",
+        "notionProperties": {
+          "id": "3f52b010-743c-81bc-978c-f6d91a8b877a",
+          "url": "https://app.notion.com/3f52b010743c81bc978cf6d91a8b877a",
+          "createdTime": "2026-10-10 01:19:45Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c819287d0c44db23996a8\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "2日",
+          "図": "なし",
+          "上乗せ": 1,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★2",
+          "問題": "R24H③-1"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "2日",
+        "notionPageLastEditedAt": "2026-10-10T07:59:21.951Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "2",
+        "d": "1",
+        "unit": "日",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全体と1日分を出す",
+            "body": "全体を48とすると、Aは3、Bは4ずつ進めます。",
+            "equation": "A：48÷16＝3、B：48÷12＝4"
+          },
+          {
+            "id": "s2",
+            "title": "休まなかったAの量を出す",
+            "body": "Aは始めから終わりまで8日働いたので24進めました。Bの担当量は残り24です。",
+            "equation": "A：3×8＝24、B：48－24＝24"
+          },
+          {
+            "id": "s3",
+            "title": "Bの実働日数を出す",
+            "body": "Bの担当量24を、Bの1日分4で割ります。これは休んだ日数ではありません。",
+            "equation": "24÷4＝6日",
+            "checkpoint": {
+              "id": "R24H③-1-reason",
+              "prompt": "全体を48とすると、Bが実際に働いたのは何日ですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "日",
+                "dimension": "time"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "経過日数から実働日数を引く",
+            "body": "8日のうち6日働いたので、休みは2日です。",
+            "equation": "8－6＝2日"
+          },
+          {
+            "id": "s5",
+            "title": "仕事が完成することを確かめる",
+            "body": "Aは8日、Bは6日働いて、48をちょうど完成させます。",
+            "equation": "3×8＋4×6＝48"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 4
+    },
+    {
+      "id": "R24H③-2",
+      "unitId": "work.absence.elapsed_unknown",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある仕事を仕上げるのにA1人では15日、B1人では24日かかります。この仕事を、AとBの2人で始めましたが、仕事が終わるまでに、Aは3日、Bは5日休みました。この仕事を始めてから終わるまでに何日かかりますか。",
+      "sourceText": "ある仕事を仕上げるのにA1人では15日、B1人では24日かかります。この仕事を、AとBの2人で始めましたが、仕事が終わるまでに、Aは3日、Bは5日休みました。この仕事を始めてから終わるまでに何日かかりますか。",
+      "source": {
+        "title": "R24H③-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ③-2、PDF通しp.35（再チャレンジp.36）、公式解答p.45",
+        "pdfPage": 35,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある仕事を仕上げるのにA1人では15日、B1人では24日かかります。この仕事を、AとBの2人で始めましたが、仕事が終わるまでに、Aは3日、Bは5日休みました。この仕事を始めてから終わるまでに何日かかりますか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある仕事を仕上げるのにA1人では15日、B1人では24日かかります。この仕事を、AとBの2人で始めましたが、仕事が終わるまでに、Aは3日、Bは5日休みました。この仕事を始めてから終わるまでに何日かかりますか。",
+        "notionSourceText": "ある仕事を仕上げるのにA1人では15日、B1人では24日かかります。この仕事を、AとBの2人で始めましたが、仕事が終わるまでに、Aは3日、Bは5日休みました。この仕事を始めてから終わるまでに何日かかりますか。",
+        "url": "https://app.notion.com/3f52b010743c81909901ebae2cc31af0",
+        "notionId": "3f52b010-743c-8190-9901-ebae2cc31af0",
+        "notionProperties": {
+          "id": "3f52b010-743c-8190-9901-ebae2cc31af0",
+          "url": "https://app.notion.com/3f52b010743c81909901ebae2cc31af0",
+          "createdTime": "2026-10-10 01:19:45Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8170b807e95f5ec5bb35\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "13日",
+          "図": "なし",
+          "上乗せ": 1,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★2",
+          "問題": "R24H③-2"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "13日",
+        "notionPageLastEditedAt": "2026-10-10T07:59:24.261Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "13",
+        "d": "1",
+        "unit": "日",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全体と各人の1日分を出す",
+            "body": "全体を120とするとAは8、Bは5ずつ進めます。",
+            "equation": "A：120÷15＝8、B：120÷24＝5"
+          },
+          {
+            "id": "s2",
+            "title": "休みのため進まなかった量を出す",
+            "body": "Aの3日分とBの5日分を、それぞれの能力で計算して足します。",
+            "equation": "8×3＋5×5＝49",
+            "checkpoint": {
+              "id": "R24H③-2-reason",
+              "prompt": "全体を120とすると、2人が休んだために進まなかった仕事量は合計いくつですか。",
+              "answer": {
+                "n": "49",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "毎日2人で働いた場合に補う",
+            "body": "実際に進んだ120に、休んだ分49を加えると、同じ日数を2人とも休まず働いた仕事量です。",
+            "equation": "120＋49＝169"
+          },
+          {
+            "id": "s4",
+            "title": "1日分の和で割る",
+            "body": "休まずなら1日に13進むので、169を13で割ります。",
+            "equation": "169÷(8＋5)＝13日"
+          },
+          {
+            "id": "s5",
+            "title": "実際の働いた日数で確かめる",
+            "body": "Aは13－3＝10日、Bは13－5＝8日働きます。",
+            "equation": "8×10＋5×8＝120"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 5
+    },
+    {
+      "id": "R24H④-5",
+      "unitId": "work.equal_times.total_duration",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある道のりを行くのに、車なら10分、自転車なら18分、徒歩なら1時間30分かかります。この道のりを車、自転車、徒歩でそれぞれ同じ時間ずつかけて行くとすると、何分かかりますか。",
+      "sourceText": "ある道のりを行くのに、車なら10分、自転車なら18分、徒歩なら1時間30分かかります。この道のりを車、自転車、徒歩でそれぞれ同じ時間ずつかけて行くとすると、何分かかりますか。",
+      "source": {
+        "title": "R24H④-5",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ④-5、PDF通しp.37（再チャレンジp.38）、公式解答p.45",
+        "pdfPage": 37,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある道のりを行くのに、車なら10分、自転車なら18分、徒歩なら1時間30分かかります。この道のりを車、自転車、徒歩でそれぞれ同じ時間ずつかけて行くとすると、何分かかりますか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。 このHのNotion本文は数値条件のみ。数値替え元R24N④-5のNotion本文と原本H p.37を照合し、同じH問題の原本全文を補完。Notion本文を上書きしていない。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある道のりを行くのに、車なら10分、自転車なら18分、徒歩なら1時間30分かかります。この道のりを車、自転車、徒歩でそれぞれ同じ時間ずつかけて行くとすると、何分かかりますか。",
+        "notionSourceText": "［R24N④-5の数値替え］\n10分・18分・1時間30分",
+        "url": "https://app.notion.com/3f52b010743c8119bcb8d80daeac1d7c",
+        "notionId": "3f52b010-743c-8119-bcb8-d80daeac1d7c",
+        "notionProperties": {
+          "id": "3f52b010-743c-8119-bcb8-d80daeac1d7c",
+          "url": "https://app.notion.com/3f52b010743c8119bcb8d80daeac1d7c",
+          "createdTime": "2026-10-10 00:45:22Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c81c2b4cfc090a631a009\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "18分",
+          "図": "なし",
+          "上乗せ": 1,
+          "時期": "5年前期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f42b010743c81f58d20c42b66016a4d\",\"https://app.notion.com/3f42b010743c810da1eac31fd41f6a22\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": null,
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★2",
+          "問題": "R24H④-5"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/p/3f42b010743c81f58d20c42b66016a4d",
+            "name": "速さの3公式・単位換算",
+            "code": "X01",
+            "baseDifficulty": 2,
+            "description": "速さ＝道のり÷時間ほか。時速・分速・秒速の換算"
+          },
+          {
+            "url": "https://app.notion.com/p/3f42b010743c810da1eac31fd41f6a22",
+            "name": "公倍数でそろえる",
+            "code": "X04",
+            "baseDifficulty": 2,
+            "description": "1周や全体の道のりを、かかる時間の公倍数で置く"
+          }
+        ],
+        "sourceAnswer": "18分",
+        "notionPageLastEditedAt": "2026-10-10T00:45:22.615Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "notionParentUrl": "https://app.notion.com/p/3f52b010743c81c2b4cfc090a631a009?pvs=204",
+        "textOrigin": "original-pdf-completion-of-selected-notion-record"
+      },
+      "answer": {
+        "n": "18",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time",
+        "acceptedUnits": {
+          "分": "1",
+          "min": "1",
+          "秒": "1/60",
+          "s": "1/60",
+          "時間": "60"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "時間の単位をそろえる",
+            "body": "徒歩の1時間30分は90分です。道のり全体も90とおきます。",
+            "equation": "1時間30分＝90分、全体の道のり＝90"
+          },
+          {
+            "id": "s2",
+            "title": "1分で進む道のりを出す",
+            "body": "車は9、自転車は5、徒歩は1ずつ進みます。各方法を1分ずつ使う3分間で15進むと捉えます。",
+            "equation": "90÷10＝9、90÷18＝5、90÷90＝1"
+          },
+          {
+            "id": "s3",
+            "title": "各方法に使う同じ時間を出す",
+            "body": "それぞれ6分使うと、車54、自転車30、徒歩6で道のり90になります。",
+            "equation": "90÷(9＋5＋1)＝6分ずつ",
+            "checkpoint": {
+              "id": "R24H④-5-reason",
+              "prompt": "全体の道のりを90とすると、車・自転車・徒歩それぞれに使う時間は何分ですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "分",
+                "dimension": "time"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "実際の合計時間を出す",
+            "body": "3つの方法を順に使うので、6分を3回分合わせます。6分を答えにしないようにします。",
+            "equation": "6×3＝18分"
+          },
+          {
+            "id": "s5",
+            "title": "道のりと時間を両方確かめる",
+            "body": "進む道のりは90、使う時間は18分です。3方法を同時に行う問題とは異なります。",
+            "equation": "9×6＋5×6＋1×6＝90、6＋6＋6＝18"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 5
+    },
+    {
+      "id": "R24H⑤-1",
+      "unitId": "work.persondays.change_staff",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "1日に8人ずつで働くと25日で終わる仕事を、はじめの16日は7人ずつで働き、17日目からは1人増えて8人ずつで働きました。この仕事を終えるのに、全部で何日かかりましたか。",
+      "sourceText": "1日に8人ずつで働くと25日で終わる仕事を、はじめの16日は7人ずつで働き、17日目からは1人増えて8人ずつで働きました。この仕事を終えるのに、全部で何日かかりましたか。",
+      "source": {
+        "title": "R24H⑤-1",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ⑤-1、PDF通しp.39（再チャレンジp.40）、公式解答p.45",
+        "pdfPage": 39,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "1日に8人ずつで働くと25日で終わる仕事を、はじめの16日は7人ずつで働き、17日目からは1人増えて8人ずつで働きました。この仕事を終えるのに、全部で何日かかりましたか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★1",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "1日に8人ずつで働くと25日で終わる仕事を、はじめの16日は7人ずつで働き、17日目からは1人増えて8人ずつで働きました。この仕事を終えるのに、全部で何日かかりましたか。",
+        "notionSourceText": "1日に8人ずつで働くと25日で終わる仕事を、はじめの16日は7人ずつで働き、17日目からは1人増えて8人ずつで働きました。この仕事を終えるのに、全部で何日かかりましたか。",
+        "url": "https://app.notion.com/3f52b010743c81a9b1e0d39ae0f7398f",
+        "notionId": "3f52b010-743c-81a9-b1e0-d39ae0f7398f",
+        "notionProperties": {
+          "id": "3f52b010-743c-81a9-b1e0-d39ae0f7398f",
+          "url": "https://app.notion.com/3f52b010743c81a9b1e0d39ae0f7398f",
+          "createdTime": "2026-10-10 01:20:43Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c81039ab3f28e25998ddb\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "27日",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★1",
+          "問題": "R24H⑤-1"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "27日",
+        "notionPageLastEditedAt": "2026-10-10T07:59:38.057Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "27",
+        "d": "1",
+        "unit": "日",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "1人1日を1として全体を出す",
+            "body": "同じ能力の人なので、人数×日数で仕事量を表せます。",
+            "equation": "全体：8×25＝200"
+          },
+          {
+            "id": "s2",
+            "title": "前半の仕事量を引く",
+            "body": "最初の16日は7人ずつなので112進めました。残りは88です。",
+            "equation": "200－7×16＝88",
+            "checkpoint": {
+              "id": "R24H⑤-1-reason",
+              "prompt": "1人が1日働く量を1とすると、16日働いた後に残る仕事量はいくつですか。",
+              "answer": {
+                "n": "88",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "残りにかかる日数を出す",
+            "body": "17日目からは8人ずつです。残り88を8で割ります。",
+            "equation": "88÷8＝11日"
+          },
+          {
+            "id": "s4",
+            "title": "前半と後半を合わせる",
+            "body": "11日は後半だけの日数なので、前半16日を加えます。",
+            "equation": "16＋11＝27日"
+          },
+          {
+            "id": "s5",
+            "title": "人数と日数の対応を確かめる",
+            "body": "最初の16日を8人で計算しないことを確認します。",
+            "equation": "7×16＋8×11＝200"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 3
+    },
+    {
+      "id": "R24H⑤-2",
+      "unitId": "work.persondays.additional_staff",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "6人で20日かかる仕事があります。この仕事を6人で始めてから5日たったあと、残りの仕事を10日間で仕上げるには、あと何人増やせばよいですか。",
+      "sourceText": "6人で20日かかる仕事があります。この仕事を6人で始めてから5日たったあと、残りの仕事を10日間で仕上げるには、あと何人増やせばよいですか。",
+      "source": {
+        "title": "R24H⑤-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ⑤-2、PDF通しp.39（再チャレンジp.40）、公式解答p.45",
+        "pdfPage": 39,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "6人で20日かかる仕事があります。この仕事を6人で始めてから5日たったあと、残りの仕事を10日間で仕上げるには、あと何人増やせばよいですか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★1",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "6人で20日かかる仕事があります。この仕事を6人で始めてから5日たったあと、残りの仕事を10日間で仕上げるには、あと何人増やせばよいですか。",
+        "notionSourceText": "6人で20日かかる仕事があります。この仕事を6人で始めてから5日たったあと、残りの仕事を10日間で仕上げるには、あと何人増やせばよいですか。",
+        "url": "https://app.notion.com/3f52b010743c8185a777efc18b41e577",
+        "notionId": "3f52b010-743c-8185-a777-efc18b41e577",
+        "notionProperties": {
+          "id": "3f52b010-743c-8185-a777-efc18b41e577",
+          "url": "https://app.notion.com/3f52b010743c8185a777efc18b41e577",
+          "createdTime": "2026-10-10 01:20:43Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8197bcb1f578c6847efd\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "3人",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★1",
+          "問題": "R24H⑤-2"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "3人",
+        "notionPageLastEditedAt": "2026-10-10T07:59:40.419Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "3",
+        "d": "1",
+        "unit": "人",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "仕事全体を人日で出す",
+            "body": "6人が20日働くので、全体は120人日です。",
+            "equation": "全体：6×20＝120"
+          },
+          {
+            "id": "s2",
+            "title": "初めの5日分を引く",
+            "body": "6人が5日働いた30人日を全体から引きます。",
+            "equation": "残り：120－6×5＝90"
+          },
+          {
+            "id": "s3",
+            "title": "期限までに必要な総人数を出す",
+            "body": "残り90を10日で終えるには、毎日9人が必要です。",
+            "equation": "90÷10＝9人",
+            "checkpoint": {
+              "id": "R24H⑤-2-reason",
+              "prompt": "残りの仕事を10日で終えるために必要な人数は、全部で何人ですか。",
+              "answer": {
+                "n": "9",
+                "d": "1",
+                "unit": "人",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "現在の人数との差を答える",
+            "body": "問われたのは総人数ではなく、あと何人増やすかです。",
+            "equation": "9－6＝3人"
+          },
+          {
+            "id": "s5",
+            "title": "増員後に間に合うか確かめる",
+            "body": "6人に3人を加えた9人で10日働けば、残り90を終えられます。",
+            "equation": "(6＋3)×10＝90"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 4
+    },
+    {
+      "id": "R24H⑤-3",
+      "unitId": "work.persondays.fraction_total",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある仕事をするのに、毎日18人で6日働いて全体のちょうど6割が終わりました。残りの仕事を毎日何人で働くと、あと6日でちょうど終わりますか。",
+      "sourceText": "ある仕事をするのに、毎日18人で6日働いて全体のちょうど6割が終わりました。残りの仕事を毎日何人で働くと、あと6日でちょうど終わりますか。",
+      "source": {
+        "title": "R24H⑤-3",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ⑤-3、PDF通しp.39（再チャレンジp.40）、公式解答p.45",
+        "pdfPage": 39,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある仕事をするのに、毎日18人で6日働いて全体のちょうど6割が終わりました。残りの仕事を毎日何人で働くと、あと6日でちょうど終わりますか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある仕事をするのに、毎日18人で6日働いて全体のちょうど6割が終わりました。残りの仕事を毎日何人で働くと、あと6日でちょうど終わりますか。",
+        "notionSourceText": "ある仕事をするのに、毎日18人で6日働いて全体のちょうど6割が終わりました。残りの仕事を毎日何人で働くと、あと6日でちょうど終わりますか。",
+        "url": "https://app.notion.com/3f52b010743c8102914ffbfd1f25b7c9",
+        "notionId": "3f52b010-743c-8102-914f-fbfd1f25b7c9",
+        "notionProperties": {
+          "id": "3f52b010-743c-8102-914f-fbfd1f25b7c9",
+          "url": "https://app.notion.com/3f52b010743c8102914ffbfd1f25b7c9",
+          "createdTime": "2026-10-10 01:20:43Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8123a3d5eaba8e3dc2e0\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "12人",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★2",
+          "問題": "R24H⑤-3"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+            "name": "仕事算の基本",
+            "code": "P15",
+            "baseDifficulty": 3,
+            "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+          }
+        ],
+        "sourceAnswer": "12人",
+        "notionPageLastEditedAt": "2026-10-10T07:59:42.555Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "12",
+        "d": "1",
+        "unit": "人",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "終えた仕事量を求める",
+            "body": "18人で6日働いた108人日が全体の6割に当たります。",
+            "equation": "18×6＝108"
+          },
+          {
+            "id": "s2",
+            "title": "全体を割合で逆算する",
+            "body": "6割は0.6。108を0.6で割ると全体180になります。",
+            "equation": "108÷0.6＝180"
+          },
+          {
+            "id": "s3",
+            "title": "残りの量を出す",
+            "body": "全体から終えた量を引くと、残り4割の72人日です。",
+            "equation": "180－108＝72",
+            "checkpoint": {
+              "id": "R24H⑤-3-reason",
+              "prompt": "1人が1日働く量を1とすると、残り4割の仕事量はいくつですか。",
+              "answer": {
+                "n": "72",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "残り日数で割って人数を出す",
+            "body": "あと6日で72人日を終えるには、毎日12人必要です。",
+            "equation": "72÷6＝12人"
+          },
+          {
+            "id": "s5",
+            "title": "全体の割合を確かめる",
+            "body": "初めの108と残り72で180。108は180の6割です。",
+            "equation": "108＋12×6＝180、108÷180＝0.6"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 4
+    },
+    {
+      "id": "R24H⑤-4",
+      "unitId": "work.persondays.different_abilities",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある仕事をするのに、6人の高校生だと9日かかり、9人の中学生だと10日かかります。この仕事を3人の高校生と4人の中学生でするとき何日かかりますか。",
+      "sourceText": "ある仕事をするのに、6人の高校生だと9日かかり、9人の中学生だと10日かかります。この仕事を3人の高校生と4人の中学生でするとき何日かかりますか。",
+      "source": {
+        "title": "R24H⑤-4",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ⑤-4、PDF通しp.39（再チャレンジp.40）、公式解答p.45",
+        "pdfPage": 39,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある仕事をするのに、6人の高校生だと9日かかり、9人の中学生だと10日かかります。この仕事を3人の高校生と4人の中学生でするとき何日かかりますか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある仕事をするのに、6人の高校生だと9日かかり、9人の中学生だと10日かかります。この仕事を3人の高校生と4人の中学生ですると何日かかりますか。",
+        "notionSourceText": "ある仕事をするのに、6人の高校生だと9日かかり、9人の中学生だと10日かかります。この仕事を3人の高校生と4人の中学生でするとき何日かかりますか。",
+        "url": "https://app.notion.com/3f52b010743c811993f7e76daeed7e80",
+        "notionId": "3f52b010-743c-8119-93f7-e76daeed7e80",
+        "notionProperties": {
+          "id": "3f52b010-743c-8119-93f7-e76daeed7e80",
+          "url": "https://app.notion.com/3f52b010743c811993f7e76daeed7e80",
+          "createdTime": "2026-10-10 01:20:43Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c818da360ff116de16fda\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "10日",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c812cb8adcea7e71646bf\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★2",
+          "問題": "R24H⑤-4"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c812cb8adcea7e71646bf",
+            "name": "仕事算の応用",
+            "code": "P16",
+            "baseDifficulty": 4,
+            "description": "途中で休む・人数が変わる・のべ算・ニュートン算"
+          }
+        ],
+        "sourceAnswer": "10日",
+        "notionPageLastEditedAt": "2026-10-10T07:59:44.804Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "10",
+        "d": "1",
+        "unit": "日",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全体を共通の270とおく",
+            "body": "高校生は6×9＝54人日、中学生は9×10＝90人日で同じ全体を終えます。54と90の最小公倍数270を使います。",
+            "equation": "全体＝270"
+          },
+          {
+            "id": "s2",
+            "title": "各種類の1人1日分を出す",
+            "body": "高校生1人は5、中学生1人は3です。7人いるから7進むとは計算できません。",
+            "equation": "高校生：270÷54＝5、中学生：270÷90＝3"
+          },
+          {
+            "id": "s3",
+            "title": "実際の組の1日分を合わせる",
+            "body": "高校生3人分と中学生4人分を、それぞれの能力で計算して足します。",
+            "equation": "5×3＋3×4＝27",
+            "checkpoint": {
+              "id": "R24H⑤-4-reason",
+              "prompt": "全体を270とすると、高校生3人と中学生4人が1日で進める仕事量はいくつですか。",
+              "answer": {
+                "n": "27",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "全体を1日分で割る",
+            "body": "毎日27ずつ進むので、270を27で割ります。",
+            "equation": "270÷27＝10日"
+          },
+          {
+            "id": "s5",
+            "title": "元の組でも全体を確かめる",
+            "body": "高校生だけの条件、中学生だけの条件でも270になります。",
+            "equation": "5×6×9＝270、3×9×10＝270"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 5
+    },
+    {
+      "id": "R24H⑥-1",
+      "unitId": "work.replacement.infer_two_rates",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "A、B2人で働けば15日間で仕上がる仕事があります。もし、Aが7日休むと、Bが5日多く働かなければこの仕事は仕上がりません。A1人でこの仕事を仕上げるためには何日間働けばよいですか。",
+      "sourceText": "A、B2人で働けば15日間で仕上がる仕事があります。もし、Aが7日休むと、Bが5日多く働かなければこの仕事は仕上がりません。A1人でこの仕事を仕上げるためには何日間働けばよいですか。",
+      "source": {
+        "title": "R24H⑥-1",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ⑥-1、PDF通しp.41（再チャレンジp.42）、公式解答p.45",
+        "pdfPage": 41,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "A、B2人で働けば15日間で仕上がる仕事があります。もし、Aが7日休むと、Bが5日多く働かなければこの仕事は仕上がりません。A1人でこの仕事を仕上げるためには何日間働けばよいですか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★3",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "A、B2人で働けば15日間で仕上がる仕事があります。もし、Aが7日休むと、Bが5日多く働かなければこの仕事は仕上がりません。A1人でこの仕事を仕上げるためには何日間働けばよいですか。",
+        "notionSourceText": "A、B2人で働けば15日間で仕上がる仕事があります。もし、Aが7日休むと、Bが5日多く働かなければこの仕事は仕上がりません。A1人でこの仕事を仕上げるためには何日間働けばよいですか。",
+        "url": "https://app.notion.com/3f52b010743c8105be1dd0e1335a2a1d",
+        "notionId": "3f52b010-743c-8105-be1d-d0e1335a2a1d",
+        "notionProperties": {
+          "id": "3f52b010-743c-8105-be1d-d0e1335a2a1d",
+          "url": "https://app.notion.com/3f52b010743c8105be1dd0e1335a2a1d",
+          "createdTime": "2026-10-10 01:20:43Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c81b2bc57f9c83ce7473d\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "36日間",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c812cb8adcea7e71646bf\",\"https://app.notion.com/3f52b010743c8126b758c2ec5d0e0bb4\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★3",
+          "問題": "R24H⑥-1"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c812cb8adcea7e71646bf",
+            "name": "仕事算の応用",
+            "code": "P16",
+            "baseDifficulty": 4,
+            "description": "途中で休む・人数が変わる・のべ算・ニュートン算"
+          },
+          {
+            "url": "https://app.notion.com/p/3f52b010743c8126b758c2ec5d0e0bb4",
+            "name": "連比・逆比",
+            "code": "P12",
+            "baseDifficulty": 3,
+            "description": "比をそろえて連比にする。A×○＝B×△ならA:B＝△:○"
+          }
+        ],
+        "sourceAnswer": "36日間",
+        "notionPageLastEditedAt": "2026-10-10T07:59:49.813Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "36",
+        "d": "1",
+        "unit": "日間",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "穴埋めした仕事量を等しくする",
+            "body": "Aが休んだ7日分を、Bが追加した5日分で埋めています。日数の比をそのまま能力比にしません。",
+            "equation": "Aの1日分×7＝Bの1日分×5"
+          },
+          {
+            "id": "s2",
+            "title": "1日の仕事量の比を出す",
+            "body": "Aを5、Bを7とすると、どちらも35になって同じ量です。",
+            "equation": "A：B＝5：7、5×7＝7×5",
+            "checkpoint": {
+              "id": "R24H⑥-1-reason",
+              "prompt": "Aが1日に進める量を5とすると、Bが1日に進める量はいくつですか。",
+              "answer": {
+                "n": "7",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "共同作業の日数から全体を出す",
+            "body": "2人は1日に12進むので、15日分は180です。",
+            "equation": "全体：(5＋7)×15＝180"
+          },
+          {
+            "id": "s4",
+            "title": "Aだけの日数を求める",
+            "body": "全体180をAの1日分5で割ります。",
+            "equation": "180÷5＝36日間"
+          },
+          {
+            "id": "s5",
+            "title": "休んだ場合を確かめる",
+            "body": "Aは15－7＝8日、Bは15＋5＝20日働けば、同じ全体180になります。",
+            "equation": "5×8＋7×20＝180"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 6
+    },
+    {
+      "id": "R24H⑥-2",
+      "unitId": "work.replacement.infer_three_rates",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "A、B、C3人で働けば9日間で仕上がる仕事があります。もし、Cが4日休むと、その分をAとB2人が3日ずつ多く働くか、またはA1人が8日多く働かなければ、この仕事は仕上がりません。A1人でこの仕事を仕上げるためには何日間働けばよいですか。",
+      "sourceText": "A、B、C3人で働けば9日間で仕上がる仕事があります。もし、Cが4日休むと、その分をAとB2人が3日ずつ多く働くか、またはA1人が8日多く働かなければ、この仕事は仕上がりません。A1人でこの仕事を仕上げるためには何日間働けばよいですか。",
+      "source": {
+        "title": "R24H⑥-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ⑥-2、PDF通しp.41（再チャレンジp.42）、公式解答p.45",
+        "pdfPage": 41,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "A、B、C3人で働けば9日間で仕上がる仕事があります。もし、Cが4日休むと、その分をAとB2人が3日ずつ多く働くか、またはA1人が8日多く働かなければ、この仕事は仕上がりません。A1人でこの仕事を仕上げるためには何日間働けばよいですか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★3",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。 Notionと原本はA1人8日で一致。ローカルmdのB1人8日は不一致。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "A、B、C3人で働けば9日間で仕上がる仕事があります。もし、Cが4日休むと、その分をAとB2人が3日ずつ多く働くか、またはA1人が8日多く働かなければ、この仕事は仕上がりません。A1人でこの仕事を仕上げるためには何日間働けばよいですか。",
+        "notionSourceText": "A、B、C3人で働けば9日間で仕上がる仕事があります。もし、Cが4日休むと、その分をAとB2人が3日ずつ多く働くか、またはA1人が8日多く働かなければ、この仕事は仕上がりません。A1人でこの仕事を仕上げるためには何日間働けばよいですか。",
+        "url": "https://app.notion.com/3f52b010743c81ad847ae4f5a60c091a",
+        "notionId": "3f52b010-743c-81ad-847a-e4f5a60c091a",
+        "notionProperties": {
+          "id": "3f52b010-743c-81ad-847a-e4f5a60c091a",
+          "url": "https://app.notion.com/3f52b010743c81ad847ae4f5a60c091a",
+          "createdTime": "2026-10-10 01:20:43Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8154a8f7c95233c88d91\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "42日間",
+          "図": "なし",
+          "上乗せ": 1,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c812cb8adcea7e71646bf\",\"https://app.notion.com/3f52b010743c8126b758c2ec5d0e0bb4\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★3",
+          "問題": "R24H⑥-2"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c812cb8adcea7e71646bf",
+            "name": "仕事算の応用",
+            "code": "P16",
+            "baseDifficulty": 4,
+            "description": "途中で休む・人数が変わる・のべ算・ニュートン算"
+          },
+          {
+            "url": "https://app.notion.com/p/3f52b010743c8126b758c2ec5d0e0bb4",
+            "name": "連比・逆比",
+            "code": "P12",
+            "baseDifficulty": 3,
+            "description": "比をそろえて連比にする。A×○＝B×△ならA:B＝△:○"
+          }
+        ],
+        "sourceAnswer": "42日間",
+        "notionPageLastEditedAt": "2026-10-10T08:00:16.777Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "42",
+        "d": "1",
+        "unit": "日間",
+        "dimension": "time",
+        "acceptedUnits": {
+          "日": "1440",
+          "日間": "1440",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "2通りの補い方を同じ量で結ぶ",
+            "body": "Cが休んだ4日分を、AとBが3日ずつ、またはAだけが8日で補います。原本はAだけが8日です。",
+            "equation": "C×4＝(A＋B)×3＝A×8"
+          },
+          {
+            "id": "s2",
+            "title": "まずAとCの比を決める",
+            "body": "C×4＝A×8なので、Cの1日分はAの2倍です。Aを3とするとCは6です。",
+            "equation": "A：C＝1：2＝3：6"
+          },
+          {
+            "id": "s3",
+            "title": "共同能力からBを取り出す",
+            "body": "Cの4日分は24。AとBは3日で24進めるので1日に8、Aの3を引くとBは5です。",
+            "equation": "A＋B＝6×4÷3＝8、B＝8－3＝5",
+            "checkpoint": {
+              "id": "R24H⑥-2-reason",
+              "prompt": "Aの1日分を3、Cの1日分を6とすると、Bの1日分はいくつですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "全体を出してAの能力で割る",
+            "body": "3人は1日に14進め、9日で126。A1人なら126を3で割ります。",
+            "equation": "(3＋5＋6)×9÷3＝42日間"
+          },
+          {
+            "id": "s5",
+            "title": "同じ穴埋め量か確かめる",
+            "body": "Cの4日分24、AとBの3日分24、Aだけの8日分24がすべて一致します。",
+            "equation": "6×4＝(3＋5)×3＝3×8＝24"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 7
+    },
+    {
+      "id": "R24H⑦-2",
+      "unitId": "work.cycles.ordinal_finish",
+      "category": "oneline",
+      "domain": "仕事算",
+      "text": "ある仕事をするのに、A1人では24日、B1人では15日、C1人では30日かかります。この仕事を3人が毎日A、B、Cの順番で1人ずつ交代して働くとき、仕事は何日目に終わりますか。",
+      "sourceText": "ある仕事をするのに、A1人では24日、B1人では15日、C1人では30日かかります。この仕事を3人が毎日A、B、Cの順番で1人ずつ交代して働くとき、仕事は何日目に終わりますか。",
+      "source": {
+        "title": "R24H⑦-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "locator": "51N-H24 家庭学習用 ⑦-2、PDF通しp.43（再チャレンジp.44）、公式解答p.45",
+        "pdfPage": 43,
+        "scopeUnits": [
+          "R24"
+        ],
+        "sourceText": "ある仕事をするのに、A1人では24日、B1人では15日、C1人では30日かかります。この仕事を3人が毎日A、B、Cの順番で1人ずつ交代して働くとき、仕事は何日目に終わりますか。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "databaseText": "★2",
+        "verification": "2026-10-11、Notion R24H全29候補と型を読み取り選定。本文・答えを原本PDFの同一問題/公式解答p.45と目視照合し、答えとcheckpointを独立検算。Notion解き筋下書きは元N数値が残るため教材解説は独立制作。元データ変更なし。",
+        "sha256": "f32edc2b191d5fba4cea91c254246cf6d581f9b9ab1b20ae4a9285771c5be959",
+        "pdfSourceText": "ある仕事をするのに、A1人では24日、B1人では15日、C1人では30日かかります。この仕事を3人が毎日A、B、Cの順番で1人ずつ交代して働くとき、仕事は何日目に終わりますか。",
+        "notionSourceText": "ある仕事をするのに、A1人では24日、B1人では15日、C1人では30日かかります。この仕事を3人が毎日A、B、Cの順番で1人ずつ交代して働くとき、仕事は何日目に終わりますか。",
+        "url": "https://app.notion.com/3f52b010743c818cb486e7b0e928d044",
+        "notionId": "3f52b010-743c-818c-b486-e7b0e928d044",
+        "notionProperties": {
+          "id": "3f52b010-743c-818c-b486-e7b0e928d044",
+          "url": "https://app.notion.com/3f52b010743c818cb486e7b0e928d044",
+          "createdTime": "2026-10-10 01:21:23Z",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8153833aff3f59f1f756\"]",
+          "記録": null,
+          "旧難易度（6段階）": null,
+          "区分": "家庭学習用H",
+          "決め手": null,
+          "確度": null,
+          "答え": "22日目",
+          "図": "なし",
+          "上乗せ": 0,
+          "時期": "5年後期",
+          "正答率": null,
+          "教材": "5年授業",
+          "数値替え": null,
+          "型": "[\"https://app.notion.com/3f52b010743c812cb8adcea7e71646bf\",\"https://app.notion.com/3f42b010743c810da1eac31fd41f6a22\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c815da4a0cec896a76a7f\"]",
+          "メモ": "本文は原本から全文（2026-10-10）／抽出時の迷い：H本文はDBに数値条件のみ。",
+          "ステップ数": null,
+          "難易度の出どころ": "元問題から",
+          "原本の難": "★2",
+          "問題": "R24H⑦-2"
+        },
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c812cb8adcea7e71646bf",
+            "name": "仕事算の応用",
+            "code": "P16",
+            "baseDifficulty": 4,
+            "description": "途中で休む・人数が変わる・のべ算・ニュートン算"
+          },
+          {
+            "url": "https://app.notion.com/p/3f42b010743c810da1eac31fd41f6a22",
+            "name": "公倍数でそろえる",
+            "code": "X04",
+            "baseDifficulty": 2,
+            "description": "1周や全体の道のりを、かかる時間の公倍数で置く"
+          }
+        ],
+        "sourceAnswer": "22日目",
+        "notionPageLastEditedAt": "2026-10-10T08:00:26.216Z",
+        "notionTruncated": false,
+        "notionUnknownBlockCount": 0,
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。formula結果URLは評価値でないため確認済プロパティから再計算。",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "22",
+        "d": "1",
+        "unit": "日目",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "日目": "1"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全体と3人の1日分を出す",
+            "body": "全体を120とすると、Aは5、Bは8、Cは4ずつ進めます。",
+            "equation": "A：120÷24＝5、B：120÷15＝8、C：120÷30＝4"
+          },
+          {
+            "id": "s2",
+            "title": "3日を1周期としてまとめる",
+            "body": "A、B、Cが1日ずつ働く3日間で、17進みます。毎日17進むわけではありません。",
+            "equation": "1周期3日：5＋8＋4＝17"
+          },
+          {
+            "id": "s3",
+            "title": "終わる前の周期と残りを出す",
+            "body": "7周期では119までなので、まだ1残ります。経過日数は7×3＝21日です。",
+            "equation": "120＝17×7＋1、7×3＝21日",
+            "checkpoint": {
+              "id": "R24H⑦-2-reason",
+              "prompt": "全体を120とすると、7周期（21日）働いた後に残る仕事量はいくつですか。",
+              "answer": {
+                "n": "1",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "次に働く人の量と比べる",
+            "body": "22日目はAの番です。Aは1日に5進められるため、残り1はこの日の途中で終わります。",
+            "equation": "残り1＜Aの1日分5 → 22日目"
+          },
+          {
+            "id": "s5",
+            "title": "日目と実働時間を区別する",
+            "body": "問いは何日目かです。22日目の途中に終わるので22日目と答え、21.2日という経過量を答えません。",
+            "equation": "21日＋次のAの日＝22日目"
+          }
+        ]
+      },
+      "authoredDifficultyDraft": 6
+    }
+  ],
+  "units": [
+    {
+      "id": "work.parallel.complete",
+      "name": "2人の仕事量を合わせる",
+      "domain": "仕事算",
+      "definition": "全体を共通の量にそろえ、同時に働く1日分を足して全体を割る。日数の平均を取らない。",
+      "decision": "全体を共通の量にそろえ、同時に働く1日分を足して全体を割る。日数の平均を取らない。",
+      "representativeId": "R24H①-2",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.phases.known_rates",
+      "name": "同時作業から1人作業へ",
+      "domain": "仕事算",
+      "definition": "途中までの2人の仕事量を引き、残りをBの1日分で割り、最初の12日を加える。",
+      "decision": "途中までの2人の仕事量を引き、残りをBの1日分で割り、最初の12日を加える。",
+      "representativeId": "R24H①-3",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.parallel.subtract",
+      "name": "2人の量から1人分を引く",
+      "domain": "仕事算",
+      "definition": "2人で働く速さからAの速さを引いてBの速さを出す。所要日数どうしを引かない。",
+      "decision": "2人で働く速さからAの速さを引いてBの速さを出す。所要日数どうしを引かない。",
+      "representativeId": "R24H①-4",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.overlap.three_rates",
+      "name": "重なっている1人分を取り出す",
+      "domain": "仕事算",
+      "definition": "(A+B)+(B+C)にはBが2回含まれるので、3人分を1回引いてBを残す。",
+      "decision": "(A+B)+(B+C)にはBが2回含まれるので、3人分を1回引いてBを残す。",
+      "representativeId": "R24H①-5",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.phases.infer_remaining_rate",
+      "name": "残りを仕上げた人の量を求める",
+      "domain": "仕事算",
+      "definition": "Aの既知の能力から残りの仕事量を求め、その残りをBの作業日数で割って能力を逆算する。",
+      "decision": "Aの既知の能力から残りの仕事量を求め、その残りをBの作業日数で割って能力を逆算する。",
+      "representativeId": "R24H②-1",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.fractions.infer_both_rates",
+      "name": "仕事の割合から2人の能力を出す",
+      "domain": "仕事算",
+      "definition": "全体の分数と作業日数から各人の1日分を求める。8日や40日は全体を仕上げる日数ではない。",
+      "decision": "全体の分数と作業日数から各人の1日分を求める。8日や40日は全体を仕上げる日数ではない。",
+      "representativeId": "R24H②-2",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.fractions.elapsed_unknown",
+      "name": "共同能力から逆算して作業日数を出す",
+      "domain": "仕事算",
+      "definition": "残りの分数からBの能力を出し、共同能力との差でAの能力を求め、Aの担当量を割る。",
+      "decision": "残りの分数からBの能力を出し、共同能力との差でAの能力を求め、Aの担当量を割る。",
+      "representativeId": "R24H②-3",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.fractions.joint_then_subtract",
+      "name": "共同作業の割合から1人分を引く",
+      "domain": "仕事算",
+      "definition": "共同作業の部分量を12日で割り、残りから求めたAの能力を引く。12日は全体の日数ではない。",
+      "decision": "共同作業の部分量を12日で割り、残りから求めたAの能力を引く。12日は全体の日数ではない。",
+      "representativeId": "R24H②-4",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.absence.one_unknown",
+      "name": "休んだ人の日数を求める",
+      "domain": "仕事算",
+      "definition": "Aは全8日働いたと捉え、Bの担当量から実働日数を求めて、経過8日との差を取る。",
+      "decision": "Aは全8日働いたと捉え、Bの担当量から実働日数を求めて、経過8日との差を取る。",
+      "representativeId": "R24H③-1",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.absence.elapsed_unknown",
+      "name": "休みの分を補って経過日数を出す",
+      "domain": "仕事算",
+      "definition": "2人とも毎日働いた仮想仕事量に休みの分を補い、1日分の和で割って経過日数を求める。",
+      "decision": "2人とも毎日働いた仮想仕事量に休みの分を補い、1日分の和で割って経過日数を求める。",
+      "representativeId": "R24H③-2",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.equal_times.total_duration",
+      "name": "同じ時間ずつ使う移動",
+      "domain": "仕事算",
+      "definition": "3つの方法を同時に使った時間ではなく、各方法に使う同じ時間を求めて3倍する。",
+      "decision": "3つの方法を同時に使った時間ではなく、各方法に使う同じ時間を求めて3倍する。",
+      "representativeId": "R24H④-5",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/p/3f42b010743c81f58d20c42b66016a4d",
+          "name": "速さの3公式・単位換算",
+          "code": "X01",
+          "baseDifficulty": 2,
+          "description": "速さ＝道のり÷時間ほか。時速・分速・秒速の換算"
+        },
+        {
+          "url": "https://app.notion.com/p/3f42b010743c810da1eac31fd41f6a22",
+          "name": "公倍数でそろえる",
+          "code": "X04",
+          "baseDifficulty": 2,
+          "description": "1周や全体の道のりを、かかる時間の公倍数で置く"
+        }
+      ]
+    },
+    {
+      "id": "work.persondays.change_staff",
+      "name": "人数が変わる仕事の所要日数",
+      "domain": "仕事算",
+      "definition": "人日で全体と前半を求め、残りを後半人数で割った日数に前半16日を加える。",
+      "decision": "人日で全体と前半を求め、残りを後半人数で割った日数に前半16日を加える。",
+      "representativeId": "R24H⑤-1",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.persondays.additional_staff",
+      "name": "期限に間に合わせる増員人数",
+      "domain": "仕事算",
+      "definition": "残り量÷残り日数で必要総人数を出し、現在6人との差だけを増員として答える。",
+      "decision": "残り量÷残り日数で必要総人数を出し、現在6人との差だけを増員として答える。",
+      "representativeId": "R24H⑤-2",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.persondays.fraction_total",
+      "name": "終えた割合から人日を逆算する",
+      "domain": "仕事算",
+      "definition": "18人×6日は全体の6割であり、割合から残り4割の人日を求め、残り6日で割る。",
+      "decision": "18人×6日は全体の6割であり、割合から残り4割の人日を求め、残り6日で割る。",
+      "representativeId": "R24H⑤-3",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c819abda3f1d1f57f3f98",
+          "name": "仕事算の基本",
+          "code": "P15",
+          "baseDifficulty": 3,
+          "description": "全体の仕事を1（または公倍数）とおき、1日あたりの量で割る"
+        }
+      ]
+    },
+    {
+      "id": "work.persondays.different_abilities",
+      "name": "2種類の人の能力をそろえる",
+      "domain": "仕事算",
+      "definition": "高校生と中学生を同じ1人分とせず、人数×日数の逆比で1人の能力を出して組み合わせる。",
+      "decision": "高校生と中学生を同じ1人分とせず、人数×日数の逆比で1人の能力を出して組み合わせる。",
+      "representativeId": "R24H⑤-4",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c812cb8adcea7e71646bf",
+          "name": "仕事算の応用",
+          "code": "P16",
+          "baseDifficulty": 4,
+          "description": "途中で休む・人数が変わる・のべ算・ニュートン算"
+        }
+      ]
+    },
+    {
+      "id": "work.replacement.infer_two_rates",
+      "name": "休みと追加労働から能力比を作る",
+      "domain": "仕事算",
+      "definition": "Aの7日分とBの5日分が同じなので能力比を逆比5:7にし、2人15日分から全体を出す。",
+      "decision": "Aの7日分とBの5日分が同じなので能力比を逆比5:7にし、2人15日分から全体を出す。",
+      "representativeId": "R24H⑥-1",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c812cb8adcea7e71646bf",
+          "name": "仕事算の応用",
+          "code": "P16",
+          "baseDifficulty": 4,
+          "description": "途中で休む・人数が変わる・のべ算・ニュートン算"
+        },
+        {
+          "url": "https://app.notion.com/p/3f52b010743c8126b758c2ec5d0e0bb4",
+          "name": "連比・逆比",
+          "code": "P12",
+          "baseDifficulty": 3,
+          "description": "比をそろえて連比にする。A×○＝B×△ならA:B＝△:○"
+        }
+      ]
+    },
+    {
+      "id": "work.replacement.infer_three_rates",
+      "name": "2通りの補い方から3人の能力比を作る",
+      "domain": "仕事算",
+      "definition": "Cの4日分＝(A+B)の3日分＝Aの8日分を連結し、Bを差で取り出して3人の能力比を決める。",
+      "decision": "Cの4日分＝(A+B)の3日分＝Aの8日分を連結し、Bを差で取り出して3人の能力比を決める。",
+      "representativeId": "R24H⑥-2",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c812cb8adcea7e71646bf",
+          "name": "仕事算の応用",
+          "code": "P16",
+          "baseDifficulty": 4,
+          "description": "途中で休む・人数が変わる・のべ算・ニュートン算"
+        },
+        {
+          "url": "https://app.notion.com/p/3f52b010743c8126b758c2ec5d0e0bb4",
+          "name": "連比・逆比",
+          "code": "P12",
+          "baseDifficulty": 3,
+          "description": "比をそろえて連比にする。A×○＝B×△ならA:B＝△:○"
+        }
+      ]
+    },
+    {
+      "id": "work.cycles.ordinal_finish",
+      "name": "交代周期の最後の日を特定する",
+      "domain": "仕事算",
+      "definition": "1周期3日の仕事量を出し、完了しない整数周期を消化した後、Aから順に残量を比べて終了日を決める。",
+      "decision": "1周期3日の仕事量を出し、完了しない整数周期を消化した後、Aから順に残量を比べて終了日を決める。",
+      "representativeId": "R24H⑦-2",
+      "prerequisites": [
+        "work.parallel.complete"
+      ],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c812cb8adcea7e71646bf",
+          "name": "仕事算の応用",
+          "code": "P16",
+          "baseDifficulty": 4,
+          "description": "途中で休む・人数が変わる・のべ算・ニュートン算"
+        },
+        {
+          "url": "https://app.notion.com/p/3f42b010743c810da1eac31fd41f6a22",
+          "name": "公倍数でそろえる",
+          "code": "X04",
+          "baseDifficulty": 2,
+          "description": "1周や全体の道のりを、かかる時間の公倍数で置く"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "from": "work.parallel.complete",
+      "to": "work.parallel.subtract",
+      "relation": "contrast",
+      "difference": "同時の仕事量を足すことから、共同能力からAを引いてBを出すことへ変わる。"
+    },
+    {
+      "from": "work.parallel.complete",
+      "to": "work.phases.known_rates",
+      "relation": "extension",
+      "difference": "同時作業だけでなく、途中で1人に切り替わるので残りの仕事量を引いて期間を足す。"
+    },
+    {
+      "from": "work.parallel.subtract",
+      "to": "work.overlap.three_rates",
+      "relation": "extension",
+      "difference": "2人分から1人を引く形から、重なるBを含む2組の和と3人全体の差を取る形へ広げる。"
+    },
+    {
+      "from": "work.phases.known_rates",
+      "to": "work.phases.infer_remaining_rate",
+      "relation": "extension",
+      "difference": "各人の能力既知から、後半の残り量と日数を使ってBの能力自体を逆算する問題へ。"
+    },
+    {
+      "from": "work.phases.infer_remaining_rate",
+      "to": "work.fractions.infer_both_rates",
+      "relation": "contrast",
+      "difference": "Aの全体日数が与えられず、Aも担当割合と実働日数から能力を求める。"
+    },
+    {
+      "from": "work.parallel.subtract",
+      "to": "work.fractions.joint_then_subtract",
+      "relation": "extension",
+      "difference": "共同の全体日数がなく、部分の割合と12日から共同能力を求めてから引く。"
+    },
+    {
+      "from": "work.fractions.infer_both_rates",
+      "to": "work.fractions.elapsed_unknown",
+      "relation": "extension",
+      "difference": "2人の能力を足して全体日数を出す形から、共同能力との差を使いAの担当量の日数を出す。"
+    },
+    {
+      "from": "work.absence.one_unknown",
+      "to": "work.absence.elapsed_unknown",
+      "relation": "extension",
+      "difference": "経過日数既知で休みを求める形から、休み既知で仮想仕事量を補って経過日数を求める。"
+    },
+    {
+      "from": "work.parallel.complete",
+      "to": "work.equal_times.total_duration",
+      "relation": "contrast",
+      "difference": "同時に作業するのでなく3方法を順に同時間ずつ使う。逆算した6分を3倍して実時間を出す。"
+    },
+    {
+      "from": "work.phases.known_rates",
+      "to": "work.persondays.change_staff",
+      "relation": "transfer",
+      "difference": "個人の1日分を固定した切替から、同能力の人数×日数を仕事量として切替を扱う。"
+    },
+    {
+      "from": "work.persondays.change_staff",
+      "to": "work.persondays.additional_staff",
+      "relation": "extension",
+      "difference": "後半人数が既知で日数を出す形から、後半日数が既知で必要人数と増員を出す。"
+    },
+    {
+      "from": "work.persondays.additional_staff",
+      "to": "work.persondays.fraction_total",
+      "relation": "contrast",
+      "difference": "全体人数×日数が既知から、進んだ割合を使って全体人日を逆算する条件へ変わる。"
+    },
+    {
+      "from": "work.persondays.additional_staff",
+      "to": "work.persondays.different_abilities",
+      "relation": "extension",
+      "difference": "同能力の人数の合計から、種類ごとに異なる1人分をそろえて組を作る。"
+    },
+    {
+      "from": "work.persondays.different_abilities",
+      "to": "work.replacement.infer_two_rates",
+      "relation": "extension",
+      "difference": "各集団の完成日数から能力を知る条件から、休みを代わりに働いた等量条件で比を推定する。"
+    },
+    {
+      "from": "work.replacement.infer_two_rates",
+      "to": "work.replacement.infer_three_rates",
+      "relation": "extension",
+      "difference": "1つの代替条件で2人比を出す形から、2つの代替条件を連結して3人比を出す。"
+    },
+    {
+      "from": "work.parallel.complete",
+      "to": "work.cycles.ordinal_finish",
+      "relation": "contrast",
+      "difference": "同時に働く和ではなく、3日周期の和で数え、残りを次のAの日に当てはめて終了日を決める。"
+    }
+  ],
+  "analysis": [
+    {
+      "kind": "selection_basis",
+      "detail": "Notion問題DBからR24H全29件を列挙し全ページ本文をfetch。型DBのP15/P16/P12/X04/T01/T04を起点に、同じ型でも必要判断が変わる場合だけ18小単位へ分けた。8問は同型統合、3問は複数答保留。"
+    },
+    {
+      "kind": "difficulty",
+      "detail": "Dは確認済Notion型の基礎難度の最大値＋問題の上乗せ。独自仮判定はauthoredDifficultyDraftとして監査用に保持するが出題難度には不使用。D1-4標準、D5-6応用、D7-8難問。"
+    },
+    {
+      "kind": "source_discrepancy",
+      "problemId": "R24H⑥-2",
+      "detail": "Notion本文と原本はA1人8日で42日と一致。ローカルmd略記B1人8日なら126/5日となり不一致。元DB変更なし。"
+    },
+    {
+      "kind": "scope_limit",
+      "detail": "R24は10/2までに履修済み。R25〜27は未習なので今回の対象から除外。"
+    },
+    {
+      "kind": "variant_policy",
+      "detail": "固定代表18問と各問数値checkpoint。根拠のない自由数値替えは付けない。"
+    }
+  ]
+}

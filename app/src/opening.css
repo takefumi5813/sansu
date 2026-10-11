@@ -1,0 +1,19 @@
+body[data-screen="opening"]>.topbar,body[data-screen="opening"]>main{display:none}
+body[data-screen="opening"]::before{background:linear-gradient(180deg,#0b11204d,#0b11205c 40%,#0b1120eb),url('assets/sanctuary.webp') center 35%/cover no-repeat}
+#opening{position:relative;isolation:isolate;min-height:100svh;display:flex;align-items:center;justify-content:center;padding:70px 28px 110px;text-align:center;background:radial-gradient(ellipse at 50% 38%,#0e172b30,#080e1b66);box-sizing:border-box}
+#opening[hidden]{display:none}
+.opening-frame{position:absolute;inset:25px;border:1px solid #d4b47b4d;pointer-events:none}
+.opening-frame::before,.opening-frame::after{content:"";position:absolute;width:42px;height:42px;border-color:#d6b67a;border-style:solid}
+.opening-frame::before{left:-1px;top:-1px;border-width:2px 0 0 2px}.opening-frame::after{right:-1px;bottom:-1px;border-width:0 2px 2px 0}
+.opening-content{width:min(100%,520px);text-shadow:0 2px 24px #050a17}
+.opening-kicker{font-size:11px;letter-spacing:.4em;color:#d4c39f;margin:0 0 28px}
+.opening-seal{width:66px;height:66px;display:grid;place-items:center;margin:0 auto 30px;color:#e4c68c;filter:drop-shadow(0 0 18px #dcc18d50)}.opening-seal svg{width:100%;height:100%}
+#opening-title{font-family:"Yu Mincho",serif;font-weight:400;font-size:clamp(66px,9vw,100px);line-height:1.25;letter-spacing:.1em;color:#f3e9d6;margin:0}
+#opening-title span{display:block;font-size:18px;letter-spacing:.26em;margin-top:20px;color:#d3c5ac}
+.opening-rule{display:flex;align-items:center;gap:20px;width:235px;margin:27px auto 20px;color:#d4b77b;font-size:12px}.opening-rule::before,.opening-rule::after{content:"";height:1px;flex:1;background:linear-gradient(90deg,transparent,#d4b77b80)}.opening-rule::after{transform:rotate(180deg)}
+.opening-lead{font-family:"Yu Mincho",serif;font-size:16px;line-height:2;letter-spacing:.1em;margin:0 0 32px;color:#e6ddcc}
+.opening-continue{width:min(100%,340px);min-height:64px;font-family:"Yu Mincho",serif;font-size:21px;letter-spacing:.12em;background:linear-gradient(125deg,#ead3a5,#c7a569);border:1px solid #eedbb5;box-shadow:0 0 0 4px #d7b77817,0 14px 40px #050a1755}.opening-continue span{margin-left:20px}.opening-continue:focus-visible{outline:2px solid #f2d9a6;outline-offset:7px}
+.opening-record{font-size:11px;letter-spacing:.08em;color:#b6b5bb;margin-top:24px;min-height:22px}
+.opening-colophon{position:absolute;bottom:35px;left:0;width:100%;margin:0;font-size:10px;letter-spacing:.35em;color:#c4b491}
+@media(max-width:560px){.opening-frame{inset:14px}#opening{padding:64px 28px 96px}.opening-kicker{font-size:9px}.opening-seal{width:54px;height:54px;margin-bottom:25px}#opening-title{font-size:72px}#opening-title span{font-size:16px}.opening-lead{font-size:13px}.opening-continue{font-size:19px;min-height:60px}.opening-colophon{bottom:28px}}
+@media(max-height:620px){#opening{padding-top:40px;padding-bottom:65px}.opening-kicker{margin-bottom:12px}.opening-seal{width:40px;height:40px;margin-bottom:15px}#opening-title{font-size:58px}.opening-rule{margin:15px auto}.opening-lead{margin-bottom:18px}.opening-colophon{bottom:18px}}

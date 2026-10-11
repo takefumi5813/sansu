@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "legacyCatalog": "references/legacy-catalog.json",
+    "scienceSnapshot": "references/rika-index.html",
+    "reviewed": "2026-10-11",
+    "note": "Existing hero records and IDs are retained. Legacy rank/unlockLevel fields are archival metadata only; active heroes are drawn uniformly without level gates. Reserved scientists remain valid owned records but are excluded from new summons/exchange offers."
+  },
+  "heroes": [
+    {
+      "id": "arthur",
+      "name": "アーサー王",
+      "icon": "🗡️",
+      "description": "岩に刺さった剣を抜いてブリテンの王になったという伝説の騎士王。円卓の騎士をひきいた。",
+      "rank": 5,
+      "unlockLevel": 10
+    },
+    {
+      "id": "gilgamesh",
+      "name": "ギルガメシュ",
+      "icon": "👑",
+      "description": "世界最古の物語『ギルガメシュ叙事詩』の主人公。ウルクの王で、不老不死の草を探す旅に出た。",
+      "rank": 5,
+      "unlockLevel": 20
+    },
+    {
+      "id": "alexander",
+      "name": "アレクサンドロス大王",
+      "icon": "🐎",
+      "description": "愛馬ブケファラスとともに、ギリシャからインドの手前まで10年あまりで遠征した。",
+      "rank": 4,
+      "unlockLevel": 30
+    },
+    {
+      "id": "nobunaga",
+      "name": "織田信長",
+      "icon": "🔥",
+      "description": "楽市楽座で商売を自由にし、長篠の戦いでは鉄砲を大量に使った戦国武将。",
+      "rank": 4,
+      "unlockLevel": 40
+    },
+    {
+      "id": "yoshitsune",
+      "name": "源義経",
+      "icon": "🏯",
+      "description": "一ノ谷では崖をかけ下り（鵯越）、壇ノ浦では船から船へ飛び移った（八艘飛び）と伝わる。",
+      "rank": 4,
+      "unlockLevel": 50
+    },
+    {
+      "id": "jeanne",
+      "name": "ジャンヌ・ダルク",
+      "icon": "🚩",
+      "description": "17歳でフランス軍の先頭に立ち、包囲されたオルレアンを救った「オルレアンの乙女」。",
+      "rank": 4,
+      "unlockLevel": 60
+    },
+    {
+      "id": "heracles",
+      "name": "ヘラクレス",
+      "icon": "🦁",
+      "description": "ギリシャ神話最大の英雄。ライオン退治など「12の難業」をすべてやりとげた。",
+      "rank": 4,
+      "unlockLevel": 70
+    },
+    {
+      "id": "kongming",
+      "name": "諸葛孔明",
+      "icon": "🪶",
+      "description": "三国志の天才軍師。「天下三分の計」を説き、赤壁の戦いでは風を読んだと語られる。",
+      "rank": 4,
+      "unlockLevel": 80
+    },
+    {
+      "id": "davinci",
+      "name": "レオナルド・ダ・ヴィンチ",
+      "icon": "🖌️",
+      "description": "『モナ・リザ』を描き、空飛ぶ機械や水の流れの研究もした万能の天才。",
+      "rank": 4,
+      "unlockLevel": 90
+    },
+    {
+      "id": "napoleon",
+      "name": "ナポレオン",
+      "icon": "🎖️",
+      "description": "フランス皇帝。「余の辞書に不可能の文字はない」の言葉で知られる。",
+      "rank": 4,
+      "unlockLevel": 100
+    },
+    {
+      "id": "musashi",
+      "name": "宮本武蔵",
+      "icon": "⚔️",
+      "description": "二刀流「二天一流」の剣豪。巌流島で佐々木小次郎と戦った。『五輪書』を書いた。",
+      "rank": 3,
+      "unlockLevel": 110
+    },
+    {
+      "id": "kojiro",
+      "name": "佐々木小次郎",
+      "icon": "🌙",
+      "description": "長い刀「物干し竿」と、ツバメを斬るという「燕返し」の伝説で知られる剣士。",
+      "rank": 2,
+      "unlockLevel": 120
+    },
+    {
+      "id": "okita",
+      "name": "沖田総司",
+      "icon": "🌸",
+      "description": "新選組一番隊の組長。目にもとまらぬ「三段突き」の使い手と伝わる。",
+      "rank": 3,
+      "unlockLevel": 130
+    },
+    {
+      "id": "hijikata",
+      "name": "土方歳三",
+      "icon": "🛡️",
+      "description": "新選組の副長。きびしい隊のきまりを作り、最後まで戦いぬいた「鬼の副長」。",
+      "rank": 2,
+      "unlockLevel": 140
+    },
+    {
+      "id": "hannibal",
+      "name": "ハンニバル",
+      "icon": "🐘",
+      "description": "カルタゴの将軍。ゾウをつれて雪のアルプス山脈をこえ、ローマへ攻めこんだ。",
+      "rank": 3,
+      "unlockLevel": 150
+    },
+    {
+      "id": "cleopatra",
+      "name": "クレオパトラ",
+      "icon": "🐍",
+      "description": "古代エジプト最後の女王。何か国語も話し、外交でエジプトを守ろうとした。",
+      "rank": 3,
+      "unlockLevel": 160
+    },
+    {
+      "id": "himiko",
+      "name": "卑弥呼",
+      "icon": "🔮",
+      "description": "邪馬台国の女王。うらないで国を治めたと中国の歴史書『魏志』倭人伝に書かれている。",
+      "rank": 3,
+      "unlockLevel": 170
+    },
+    {
+      "id": "shotoku",
+      "name": "聖徳太子",
+      "icon": "📜",
+      "description": "十七条の憲法や冠位十二階を定めた。10人の話を一度に聞き分けたという伝説がある。",
+      "rank": 3,
+      "unlockLevel": 180
+    },
+    {
+      "id": "seimei",
+      "name": "安倍晴明",
+      "icon": "☯️",
+      "description": "平安時代の陰陽師。星の動きや暦を読み、こよみ作りにかかわった。",
+      "rank": 3,
+      "unlockLevel": 190
+    },
+    {
+      "id": "ryoma",
+      "name": "坂本龍馬",
+      "icon": "⚓",
+      "description": "仲の悪かった薩摩と長州を結びつけた（薩長同盟）。日本初の会社のような「亀山社中」を作った。",
+      "rank": 3,
+      "unlockLevel": 200
+    },
+    {
+      "id": "tell",
+      "name": "ウィリアム・テル",
+      "icon": "🍎",
+      "description": "息子の頭の上のリンゴを矢で射ぬいたというスイスの伝説の弓の名人。",
+      "rank": 2,
+      "unlockLevel": 210
+    },
+    {
+      "id": "robin",
+      "name": "ロビン・フッド",
+      "icon": "🏹",
+      "description": "シャーウッドの森にすみ、弱い人を助けたというイギリスの伝説の弓の名人。",
+      "rank": 2,
+      "unlockLevel": 220
+    },
+    {
+      "id": "kintoki",
+      "name": "坂田金時",
+      "icon": "🐻",
+      "description": "昔話「金太郎」のモデル。クマとすもうをとった怪力の少年で、のちに源頼光の家来になった。",
+      "rank": 2,
+      "unlockLevel": 230
+    },
+    {
+      "id": "tomoe",
+      "name": "巴御前",
+      "icon": "🏇",
+      "description": "木曽義仲にしたがって戦った女武者。弓も馬もすぐれていたと『平家物語』にある。",
+      "rank": 2,
+      "unlockLevel": 240
+    },
+    {
+      "id": "kanu",
+      "name": "関羽",
+      "icon": "🐉",
+      "description": "三国志の武将。長いひげと「青龍偃月刀」で知られ、のちに神としてまつられた。",
+      "rank": 3,
+      "unlockLevel": 250
+    },
+    {
+      "id": "tesla",
+      "name": "ニコラ・テスラ",
+      "icon": "⚡",
+      "description": "交流電気のしくみを広めた発明家。頭の中だけで機械を組み立てて試せたといわれる。",
+      "rank": 3,
+      "unlockLevel": 260
+    },
+    {
+      "id": "momotaro",
+      "name": "桃太郎",
+      "icon": "🍑",
+      "description": "イヌ・サル・キジを仲間にして鬼ヶ島へ向かった昔話の主人公。",
+      "rank": 1,
+      "unlockLevel": 270
+    },
+    {
+      "id": "urashima",
+      "name": "浦島太郎",
+      "icon": "🐢",
+      "description": "助けたカメにつれられて竜宮城へ。帰ると長い年月がたっていた昔話の主人公。",
+      "rank": 1,
+      "unlockLevel": 280
+    },
+    {
+      "id": "kaguya",
+      "name": "かぐや姫",
+      "icon": "🎋",
+      "description": "竹の中から生まれ、5人の求婚者に難題を出して、月へ帰った『竹取物語』の姫。",
+      "rank": 1,
+      "unlockLevel": 290
+    },
+    {
+      "id": "toyotomi",
+      "name": "豊臣秀吉",
+      "icon": "🌅",
+      "description": "農民の子から天下人にのぼりつめた。太閤検地で全国の田畑の広さを同じ物差しではかり直し、収穫量（石高）を数字で調べた。",
+      "rank": 4,
+      "unlockLevel": 300
+    },
+    {
+      "id": "sanada",
+      "name": "真田幸村",
+      "icon": "🔴",
+      "description": "大坂の陣で、徳川家康の本陣に何度も突撃し、「日本一の兵」とたたえられたと伝わる。本名は信繁。赤い鎧の「赤備え」で知られる。",
+      "rank": 4,
+      "unlockLevel": 310
+    },
+    {
+      "id": "goku",
+      "name": "孫悟空",
+      "icon": "🐵",
+      "description": "『西遊記』の主人公。きん斗雲に乗れば一飛びで十万八千里、如意棒は自在にのび縮みする。三蔵法師のお供で天竺をめざした。",
+      "rank": 4,
+      "unlockLevel": 320
+    },
+    {
+      "id": "newton",
+      "name": "アイザック・ニュートン",
+      "icon": "🌠",
+      "description": "りんごが落ちるのを見て万有引力を思いついたという話で有名。物の動きの法則をまとめ、微分・積分のもとも作った。",
+      "rank": 4,
+      "unlockLevel": 330
+    },
+    {
+      "id": "tokugawa",
+      "name": "徳川家康",
+      "icon": "🐦",
+      "description": "江戸幕府をひらき、260年あまり続く平和な時代の土台をつくった。じっくり待つのが得意な「たぬき」とよばれた。",
+      "rank": 5,
+      "unlockLevel": 340
+    },
+    {
+      "id": "archimedes",
+      "name": "アルキメデス",
+      "icon": "🛁",
+      "description": "ふろに入って水があふれるのを見て「ユーレカ（わかった）！」とさけび、王かんが金のにせものかを見やぶる方法を思いついたという。てこや円周率の研究でも知られる。",
+      "rank": 5,
+      "unlockLevel": 350
+    },
+    {
+      "id": "shihuang",
+      "name": "始皇帝",
+      "icon": "🐲",
+      "description": "中国をはじめて統一した皇帝。長さ・重さ・ますの大きさ（度量衡）や文字、車輪のはばまでそろえた。万里の長城や兵馬俑でも知られる。",
+      "rank": 5,
+      "unlockLevel": 360
+    },
+    {
+      "id": "takeda",
+      "name": "武田信玄",
+      "icon": "⛰️",
+      "description": "甲斐の戦国大名。「疾きこと風の如く、徐かなること林の如く…」の「風林火山」の旗をかかげた。川の水を防ぐ信玄堤をつくったとも伝わる。",
+      "rank": 3,
+      "unlockLevel": 370
+    },
+    {
+      "id": "uesugi",
+      "name": "上杉謙信",
+      "icon": "🏔️",
+      "description": "越後（いまの新潟県）の戦国大名。「越後の龍」とよばれ、義を大切にしたといわれる。武田信玄と川中島で何度も戦った。",
+      "rank": 3,
+      "unlockLevel": 380
+    },
+    {
+      "id": "murasaki",
+      "name": "紫式部",
+      "icon": "📖",
+      "description": "平安時代に、世界でもっとも古い長編小説のひとつ『源氏物語』を書いた。全部で五十四帖もある大作。",
+      "rank": 3,
+      "unlockLevel": 390
+    },
+    {
+      "id": "ino",
+      "name": "伊能忠敬",
+      "icon": "📐",
+      "description": "50歳をすぎてから測量を学び、17年かけて日本中を歩いて測って、正確な日本地図のもとをつくった。歩はばを一定にして距離をはかったという。",
+      "rank": 3,
+      "unlockLevel": 400
+    },
+    {
+      "id": "hokusai",
+      "name": "葛飾北斎",
+      "icon": "🎨",
+      "description": "『富嶽三十六景』の「神奈川沖浪裏」（大きな波の絵）で世界的に有名な浮世絵師。90年ちかい生涯で何万枚もの絵をかいた。",
+      "rank": 3,
+      "unlockLevel": 410
+    },
+    {
+      "id": "galileo",
+      "name": "ガリレオ・ガリレイ",
+      "icon": "🔭",
+      "description": "望遠鏡で木星の衛星や月のでこぼこを観察し、地動説を支持した。「それでも地球は動く」と言ったという話は有名（実話かはわからない）。",
+      "rank": 3,
+      "unlockLevel": 420
+    },
+    {
+      "id": "pythagoras",
+      "name": "ピタゴラス",
+      "icon": "📏",
+      "description": "直角三角形の3辺の関係「三平方の定理（ピタゴラスの定理）」で名高い古代ギリシャの数学者。「万物は数である」と考えた。",
+      "rank": 3,
+      "unlockLevel": 430
+    },
+    {
+      "id": "kukai",
+      "name": "空海",
+      "icon": "🪷",
+      "description": "唐（中国）で仏教を学び、日本に真言宗を伝えた。高野山をひらき、讃岐の満濃池の大工事を指導したとも伝わる。",
+      "rank": 3,
+      "unlockLevel": 440
+    },
+    {
+      "id": "seishonagon",
+      "name": "清少納言",
+      "icon": "🍂",
+      "description": "『枕草子』で「春はあけぼの」と書き出した、平安時代の宮廷の女性。身のまわりのものを鋭く観察して書いた。",
+      "rank": 2,
+      "unlockLevel": 450
+    },
+    {
+      "id": "gennai",
+      "name": "平賀源内",
+      "icon": "⚙️",
+      "description": "エレキテル（静電気を起こす装置）を修理して広めた江戸時代の発明家。土用の丑の日にうなぎを食べる習慣を広めたともいわれる。",
+      "rank": 2,
+      "unlockLevel": 460
+    },
+    {
+      "id": "euclid",
+      "name": "ユークリッド",
+      "icon": "🔺",
+      "description": "『原論』という本で、図形の性質をいくつかの決まりから順に証明していく方法をまとめた。2000年以上、図形の教科書として読まれた。",
+      "rank": 2,
+      "unlockLevel": 470
+    },
+    {
+      "id": "issun",
+      "name": "一寸法師",
+      "icon": "🥢",
+      "description": "身長が一寸（約3cm）しかないのに、お椀の舟とはしのかいで都へ上り、針の刀で鬼を退治した昔話の主人公。",
+      "rank": 1,
+      "unlockLevel": 480
+    },
+    {
+      "id": "ikkyu",
+      "name": "一休さん",
+      "icon": "🧘",
+      "description": "室町時代の僧・一休宗純がモデル。「このはし（橋）わたるべからず」の立て札を見て、橋のはしではなく真ん中を渡った、などのとんち話で知られる。",
+      "rank": 1,
+      "unlockLevel": 490
+    },
+    {
+      "id": "curie",
+      "name": "マリー・キュリー",
+      "icon": "🧪",
+      "description": "放射能の研究で、物理学賞と化学賞の2つのノーベル賞を受けた。ポロニウムとラジウムという新しい元素を発見した。",
+      "rank": 3,
+      "unlockLevel": 500
+    },
+    {
+      "id": "genghis",
+      "name": "チンギス・ハーン",
+      "icon": "🐎",
+      "description": "モンゴル帝国を築いた人物。遊牧民の諸部族をまとめた。"
+    },
+    {
+      "id": "lancelot",
+      "name": "ランスロット",
+      "icon": "🗡️",
+      "description": "アーサー王の物語に登場する、円卓の騎士の一人。"
+    },
+    {
+      "id": "caesar",
+      "name": "カエサル",
+      "icon": "🏛️",
+      "description": "古代ローマの政治家・軍人。ガリア遠征を指揮した。"
+    },
+    {
+      "id": "yamato",
+      "name": "日本武尊",
+      "icon": "⚔️",
+      "description": "『古事記』『日本書紀』に登場する伝説の人物。ヤマトタケルとも呼ばれる。"
+    },
+    {
+      "id": "augustus",
+      "name": "アウグストゥス",
+      "icon": "👑",
+      "description": "古代ローマの初代皇帝。オクタウィアヌスとも呼ばれる。"
+    },
+    {
+      "id": "taigong",
+      "name": "太公望",
+      "icon": "📜",
+      "description": "周の武王を助けた伝説的な軍師。釣りをしていたところを見いだされたという逸話でも知られる。"
+    },
+    {
+      "id": "beowulf",
+      "name": "ベーオウルフ",
+      "icon": "🛡️",
+      "description": "古英語の英雄叙事詩の主人公。怪物グレンデルや竜に立ち向かう勇士。"
+    }
+  ],
+  "activeIds": [
+    "arthur",
+    "gilgamesh",
+    "alexander",
+    "nobunaga",
+    "yoshitsune",
+    "jeanne",
+    "heracles",
+    "kongming",
+    "davinci",
+    "napoleon",
+    "musashi",
+    "kojiro",
+    "okita",
+    "hijikata",
+    "hannibal",
+    "cleopatra",
+    "himiko",
+    "shotoku",
+    "seimei",
+    "ryoma",
+    "tell",
+    "robin",
+    "kintoki",
+    "tomoe",
+    "kanu",
+    "momotaro",
+    "urashima",
+    "kaguya",
+    "toyotomi",
+    "sanada",
+    "goku",
+    "tokugawa",
+    "shihuang",
+    "takeda",
+    "uesugi",
+    "murasaki",
+    "hokusai",
+    "pythagoras",
+    "kukai",
+    "seishonagon",
+    "euclid",
+    "issun",
+    "ikkyu",
+    "genghis",
+    "lancelot",
+    "caesar",
+    "yamato",
+    "augustus",
+    "taigong",
+    "beowulf"
+  ],
+  "reservedIds": [
+    "tesla",
+    "newton",
+    "archimedes",
+    "ino",
+    "galileo",
+    "gennai",
+    "curie"
+  ],
+  "scientistOverlap": [
+    {
+      "heroId": "tesla",
+      "heroName": "ニコラ・テスラ",
+      "scientistId": "tesla",
+      "scientistName": "テスラ"
+    },
+    {
+      "heroId": "newton",
+      "heroName": "アイザック・ニュートン",
+      "scientistId": "newton",
+      "scientistName": "ニュートン"
+    },
+    {
+      "heroId": "archimedes",
+      "heroName": "アルキメデス",
+      "scientistId": "arch",
+      "scientistName": "アルキメデス"
+    },
+    {
+      "heroId": "ino",
+      "heroName": "伊能忠敬",
+      "scientistId": "inoh",
+      "scientistName": "伊能忠敬"
+    },
+    {
+      "heroId": "galileo",
+      "heroName": "ガリレオ・ガリレイ",
+      "scientistId": "gal",
+      "scientistName": "ガリレオ・ガリレイ"
+    },
+    {
+      "heroId": "gennai",
+      "heroName": "平賀源内",
+      "scientistId": "gennai",
+      "scientistName": "平賀源内"
+    },
+    {
+      "heroId": "curie",
+      "heroName": "マリー・キュリー",
+      "scientistId": "curie",
+      "scientistName": "マリー・キュリー"
+    }
+  ],
+  "requiredActiveIds": [
+    "gilgamesh",
+    "genghis",
+    "lancelot",
+    "shihuang",
+    "caesar",
+    "kongming",
+    "yamato",
+    "augustus",
+    "napoleon"
+  ]
+}

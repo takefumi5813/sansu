@@ -1,0 +1,360 @@
+{
+  "problems": [
+    {
+      "id": "geo-ts13-1",
+      "unitId": "geometry.area.split-known-heights",
+      "category": "geometry",
+      "revision": 1,
+      "text": "次のアカい部分の面積を求めよ．",
+      "source": {
+        "title": "カードで鍛える 図形の必勝手筋 平面図形編 手筋13(1)",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+        "locator": "PDF第20頁（印刷p.22）手筋13(1)。図クロップPDF座標[66.666667,134.666667,213.333333,233.333333]、4倍PNG",
+        "verification": "原本問題・解答を目視照合。共通設問を原文で保持し(1)だけを独立切出し。原本PDF第6頁（印刷p.8）の共通単位規約により長さcm・面積cm²。Fractionで23を独立検算済み。"
+      },
+      "sourceConvention": "原本の約束：図の長さはcm、面積はcm²です。",
+      "answer": {
+        "n": "23",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area",
+        "acceptedUnits": {
+          "cm²": "1",
+          "cm2": "1",
+          "平方センチメートル": "1",
+          "m²": "10000",
+          "m2": "10000"
+        }
+      },
+      "difficulty": 3,
+      "figure": "figs/geo-ts13-1.png",
+      "figureRequired": true,
+      "scopeUnits": [],
+      "homeStudy": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "split",
+            "title": "色のついた四角形を分けよう",
+            "body": "左上の頂点と右下の頂点を結ぶと、色のついた四角形は二つの三角形になります。底辺と高さが分かる組を、ひとつずつ探しましょう。",
+            "equation": "四角形の面積＝二つの三角形の面積の和",
+            "visual": {
+              "kind": "image",
+              "src": "figs/explain-geo-ts13-1.svg",
+              "alt": "元の問題図への解説用の補助線（正答後だけ表示）"
+            }
+          },
+          {
+            "id": "lower",
+            "title": "下側は底辺3、高さ6",
+            "body": "下側の三角形では、長さ3の辺を底辺にします。左上から底辺の延長に垂直に下ろした長さ6が高さです。高さが三角形の外にあっても使えます。",
+            "equation": "3×6÷2＝9 cm²",
+            "checkpoint": {
+              "prompt": "下側の三角形の面積は何cm²ですか。",
+              "answer": {
+                "n": "9",
+                "d": "1",
+                "unit": "cm²",
+                "dimension": "area"
+              }
+            }
+          },
+          {
+            "id": "upper",
+            "title": "上側は底辺4、高さ7",
+            "body": "上側の三角形では、長さ4の辺を底辺にします。右下からその辺の延長へ垂直に測った長さ7が高さです。底辺4に、高さ6を組み合わせないようにしましょう。",
+            "equation": "4×7÷2＝14 cm²",
+            "checkpoint": {
+              "prompt": "上側の三角形の高さは何cmですか。",
+              "answer": {
+                "n": "7",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "sum",
+            "title": "重なりなく足そう",
+            "body": "二つの三角形は重ならず、合わせると色のついた四角形になります。面積を足して答えを出します。",
+            "equation": "9＋14＝23 cm²"
+          },
+          {
+            "id": "check",
+            "title": "底辺と高さの組を確かめよう",
+            "body": "高さは底辺に垂直な長さです。直角の印を使い、3と6、4と7がそれぞれ組になっていることを確かめましょう。",
+            "equation": "(3×6＋4×7)÷2＝23",
+            "checkpoint": {
+              "prompt": "二つの三角形の面積を足すと何cm²ですか。",
+              "answer": {
+                "n": "23",
+                "d": "1",
+                "unit": "cm²",
+                "dimension": "area"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "geo-ts13-2",
+      "unitId": "geometry.area.recover-shared-height",
+      "category": "geometry",
+      "revision": 1,
+      "text": "次のアカい部分の面積を求めよ．",
+      "source": {
+        "title": "カードで鍛える 図形の必勝手筋 平面図形編 手筋13(2)",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+        "locator": "PDF第20頁（印刷p.22）手筋13(2)。図クロップPDF座標[320,134.666667,520,220]、4倍PNG",
+        "verification": "原本問題・解答を目視照合。共通設問を原文で保持し(2)だけを独立切出し。(1)への依存なし。単位規約PDF第6頁を確認。Fractionで面積6、高さ12/5、面積24/5を独立検算済み。"
+      },
+      "sourceConvention": "原本の約束：図の長さはcm、面積はcm²です。",
+      "answer": {
+        "n": "24",
+        "d": "5",
+        "unit": "cm²",
+        "dimension": "area",
+        "acceptedUnits": {
+          "cm²": "1",
+          "cm2": "1",
+          "平方センチメートル": "1",
+          "m²": "10000",
+          "m2": "10000"
+        }
+      },
+      "difficulty": 4,
+      "figure": "figs/geo-ts13-2.png",
+      "figureRequired": true,
+      "scopeUnits": [],
+      "homeStudy": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "right-triangle",
+            "title": "面積が分かる三角形を見つけよう",
+            "body": "左側の白い三角形には、長さ4と3の辺の間に直角の印があります。まず、この二つを底辺と高さとして面積を求めます。",
+            "equation": "4×3÷2＝6 cm²",
+            "checkpoint": {
+              "prompt": "左側の白い三角形の面積は何cm²ですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "cm²",
+                "dimension": "area"
+              }
+            }
+          },
+          {
+            "id": "new-base",
+            "title": "底辺を5に変えて考えよう",
+            "body": "同じ白い三角形で、今度は下側の長さ5の辺を底辺にします。頂点から下の直線へ垂直に下ろした高さを□とすると、面積は同じ6です。長さ3の斜めの辺を、この高さにしてはいけません。",
+            "equation": "5×□÷2＝6"
+          },
+          {
+            "id": "height",
+            "title": "面積から高さを逆算しよう",
+            "body": "面積を2倍して、底辺5で割れば高さが求まります。",
+            "equation": "□＝6×2÷5＝2.4 cm",
+            "checkpoint": {
+              "prompt": "下の直線から頂点までの高さは何cmですか。",
+              "answer": {
+                "n": "12",
+                "d": "5",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            },
+            "visual": {
+              "kind": "image",
+              "src": "figs/explain-geo-ts13-2.svg",
+              "alt": "元の問題図への解説用の補助線（正答後だけ表示）"
+            }
+          },
+          {
+            "id": "shared-height",
+            "title": "色のついた三角形も高さは同じ",
+            "body": "白い三角形の底辺5と、色のついた三角形の底辺4は、同じ一直線上にあります。頂点も共通なので、高さはどちらも2.4です。",
+            "equation": "4×2.4÷2＝4.8 cm²"
+          },
+          {
+            "id": "ratio-check",
+            "title": "面積比でも確かめよう",
+            "body": "高さが等しい三角形の面積比は、底辺の比と同じです。白い三角形の面積6の4/5になっていることを確かめます。",
+            "equation": "6×4÷5＝4.8 cm²",
+            "checkpoint": {
+              "prompt": "色のついた三角形の面積は何cm²ですか。",
+              "answer": {
+                "n": "24",
+                "d": "5",
+                "unit": "cm²",
+                "dimension": "area"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "geo-ts26-1",
+      "unitId": "geometry.area-ratio.trapezoid-triangle-length",
+      "category": "geometry",
+      "revision": 1,
+      "text": "アとイの面積比が3：2のとき，BEの長さを求めよ．",
+      "source": {
+        "title": "カードで鍛える 図形の必勝手筋 平面図形編 手筋26(1)",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+        "locator": "PDF第33頁（印刷p.35）手筋26(1)。図クロップPDF座標[92,135.333333,220,246.666667]、4倍PNG",
+        "verification": "原本問題・解答を目視照合。図中の台形条件・7・8・頂点名・赤線BEを元のカラーのまま保持。共通単位規約PDF第6頁を確認。FractionでBE=2、(7+2)/(8-2)=3/2を独立検算済み。"
+      },
+      "sourceConvention": "原本の約束：図の長さはcm、面積はcm²です。",
+      "answer": {
+        "n": "2",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length",
+        "acceptedUnits": {
+          "cm": "1",
+          "センチメートル": "1",
+          "m": "100",
+          "mm": "0.1"
+        }
+      },
+      "difficulty": 5,
+      "figure": "figs/geo-ts26-1.png",
+      "figureRequired": true,
+      "scopeUnits": [],
+      "homeStudy": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "compare",
+            "title": "二つの部分の高さに注目しよう",
+            "body": "ABCDは台形なので、上のADと下のBCは平行です。アは台形ABED、イは三角形DEC。どちらもADとBCの間の高さを使えます。",
+            "equation": "アとイの高さは等しい",
+            "visual": {
+              "kind": "image",
+              "src": "figs/explain-geo-ts26-1.svg",
+              "alt": "元の問題図への解説用の補助線（正答後だけ表示）"
+            }
+          },
+          {
+            "id": "area-expressions",
+            "title": "面積を長さで表そう",
+            "body": "BEを□、共通の高さをhとします。アの上底と下底の和は7＋□、イの底辺ECは8－□です。",
+            "equation": "ア＝(7＋□)×h÷2、イ＝(8－□)×h÷2"
+          },
+          {
+            "id": "cancel-height",
+            "title": "共通の高さを比から取り除こう",
+            "body": "どちらにも同じh÷2がかかっているので、面積の比は7＋□と8－□の比になります。台形の上底7を忘れないようにしましょう。",
+            "equation": "(7＋□)：(8－□)＝3：2"
+          },
+          {
+            "id": "sum-parts",
+            "title": "二つを足すと15になる",
+            "body": "7＋□と8－□を足すと、増えた□と減った□が打ち消し合って15です。この15を3：2に分けます。",
+            "equation": "15÷(3＋2)×3＝9",
+            "checkpoint": {
+              "prompt": "7＋BEの長さは何cmですか。",
+              "answer": {
+                "n": "9",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "find-be",
+            "title": "BEだけを求めよう",
+            "body": "7＋BEが9なので、BEは9から7を引いた長さです。",
+            "equation": "BE＝9－7＝2 cm"
+          },
+          {
+            "id": "verify",
+            "title": "元の面積比に戻して確かめよう",
+            "body": "BEが2なら、アの上底と下底の和は9、イの底辺は6です。9：6は3：2になり、元の条件に合います。",
+            "equation": "(7＋2)：(8－2)＝9：6＝3：2",
+            "checkpoint": {
+              "prompt": "BEが2cmのとき、ECは何cmですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "geometry.area.split-known-heights",
+      "name": "二つの三角形に分けて面積を足す",
+      "domain": "面積",
+      "definition": "求める四角形を対角線で二つの三角形に分け、それぞれ与えられた底辺に対応する外側の高さを使い、面積を合計する。",
+      "representativeId": "geo-ts13-1",
+      "decision": "垂直の印で底辺と高さの組を対応させ、面積を加える",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.area.recover-shared-height",
+      "name": "既知の面積から共通の高さを求める",
+      "domain": "面積",
+      "definition": "直角をはさむ辺から一方の三角形の面積を求め、別の底辺に対する高さを逆算し、同一直線上の底辺と共通頂点を持つ別三角形へ使う。面積比を直接用いる別解も許容。",
+      "representativeId": "geo-ts13-2",
+      "decision": "斜辺を高さと誤認せず、面積の不変性または等高面積比を使う",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.area-ratio.trapezoid-triangle-length",
+      "name": "等しい高さの台形と三角形の面積比",
+      "domain": "面積比",
+      "definition": "共通の高さを持つ台形と三角形で、台形の上底と下底の和と三角形の底辺の比へ面積比を変換し、一定和を比例配分して未知の分割長を出す。",
+      "representativeId": "geo-ts26-1",
+      "decision": "台形の上底を含めた長さと三角形の底辺を比べ、未知の長さが消える和を使う",
+      "prerequisites": []
+    }
+  ],
+  "links": [
+    {
+      "from": "geometry.area.split-known-heights",
+      "to": "geometry.area.recover-shared-height",
+      "relation": "extension",
+      "difference": "与えられた高さを使う段階から、既知の面積で高さを逆算し隣の三角形へ使う判断へ進む。難度3→4。"
+    },
+    {
+      "from": "geometry.area.recover-shared-height",
+      "to": "geometry.area-ratio.trapezoid-triangle-length",
+      "relation": "transfer",
+      "difference": "等しい高さの面積比を、三角形同士から台形と三角形へ広げる。台形は上底と下底の和が必要。難度4→5。"
+    }
+  ],
+  "analysis": [
+    {
+      "problemId": "geo-ts13-1",
+      "whyRepresentative": "式は単純だが、外に出る高さと底辺の対応の見極めが必要。",
+      "verification": "原本目視＋正確な分数計算",
+      "variantStatus": "なし：元図の形・高さ・辺の条件を保つ数値替えテンプレートは未検証",
+      "limitations": "同難度の別型関連先なし。家庭学習Hではないため次回グノレブ対象外。"
+    },
+    {
+      "problemId": "geo-ts13-2",
+      "whyRepresentative": "同じ面積公式でも未知高さの復元が加わるため13(1)と別単位。",
+      "verification": "原本目視＋正確な分数計算",
+      "variantStatus": "なし：直角三角形の辺4・3・5の整合を保つ図生成は未実装",
+      "limitations": "解法は高さを出す手順と底辺比の別解を併記。同難度関連先なし。"
+    },
+    {
+      "problemId": "geo-ts26-1",
+      "whyRepresentative": "比を取る対象が台形の上底下底の和であるという新しい判断を含む。",
+      "verification": "原本目視＋BE代入検算",
+      "variantStatus": "なし：元のラベルを残したまま数値だけ替えると図と問題が矛盾するため未採用",
+      "limitations": "難度6の拡張先なし。面積比の自由記述採点は行わず長さだけを判定。"
+    }
+  ]
+}

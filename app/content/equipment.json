@@ -1,0 +1,16 @@
+{
+  "equipment": [
+    {"id":"starter-dagger","name":"旅立ちの短剣","rank":1,"familyId":"dagger","type":"短剣","domain":""},
+    {"id":"star-sword","name":"星刻の長剣","rank":1,"familyId":"sword","type":"長剣","domain":""},
+    {"id":"dawn-greatsword","name":"暁の大剣","rank":1,"familyId":"greatsword","type":"大剣","domain":""},
+    {"id":"sky-spear","name":"天翔の槍","rank":1,"familyId":"spear","type":"槍","domain":""},
+    {"id":"gale-bow","name":"疾風の弓","rank":1,"familyId":"bow","type":"弓","domain":""},
+    {"id":"wisdom-staff","name":"叡智の杖","rank":1,"familyId":"staff","type":"杖","domain":""},
+    {"id":"storm-axe","name":"裂空の戦斧","rank":1,"familyId":"axe","type":"戦斧","domain":""},
+    {"id":"forge-hammer","name":"天工の鍛冶槌","rank":1,"familyId":"hammer","type":"槌","domain":""},
+    {"id":"mirror-shield","name":"相似の鏡盾","rank":1,"familyId":"shield","type":"盾","domain":""},
+    {"id":"arcane-tome","name":"万象の魔導書","rank":1,"familyId":"tome","type":"魔導書","domain":""},
+    {"id":"eternal-ring","name":"輪廻の指輪","rank":1,"familyId":"ring","type":"指輪","domain":""},
+    {"id":"wind-boots","name":"追風の靴","rank":1,"familyId":"boots","type":"靴","domain":""}
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "fixtureNote": "Test fixture containing only question identifiers, text, answer and source URL; workspace metadata removed.",
+  "rows": [
+    {
+      "問題": "R24K-30"
+    },
+    {
+      "問題": "R24K-32"
+    },
+    {
+      "問題": "R24K-34"
+    },
+    {
+      "問題": "R24K-37"
+    },
+    {
+      "問題": "R24K-33"
+    },
+    {
+      "問題": "R24K-49"
+    },
+    {
+      "問題": "R24K-17"
+    },
+    {
+      "問題": "R24K-42"
+    },
+    {
+      "問題": "R24K-18"
+    },
+    {
+      "問題": "R24K-2"
+    },
+    {
+      "問題": "R24K-38"
+    },
+    {
+      "問題": "R24K-28"
+    },
+    {
+      "問題": "R24K-22"
+    },
+    {
+      "問題": "R24K-39"
+    },
+    {
+      "問題": "R24K-7"
+    },
+    {
+      "問題": "R24K-25"
+    },
+    {
+      "問題": "R24K-45"
+    },
+    {
+      "問題": "R24K-15"
+    },
+    {
+      "問題": "R24K-46"
+    },
+    {
+      "問題": "R24K-8"
+    },
+    {
+      "問題": "R24K-5"
+    },
+    {
+      "問題": "R24K-27"
+    },
+    {
+      "問題": "R24K-14"
+    },
+    {
+      "問題": "R24K-3"
+    },
+    {
+      "問題": "R24K-31"
+    },
+    {
+      "問題": "R24K-23"
+    },
+    {
+      "問題": "R24K-44"
+    },
+    {
+      "問題": "R24K-9"
+    },
+    {
+      "問題": "R24K-13"
+    },
+    {
+      "問題": "R24K-19"
+    },
+    {
+      "問題": "R24K-47"
+    },
+    {
+      "問題": "R24K-35"
+    },
+    {
+      "問題": "R24K-20"
+    },
+    {
+      "問題": "R24K-11"
+    },
+    {
+      "問題": "R24K-12"
+    },
+    {
+      "問題": "R24K-40"
+    },
+    {
+      "問題": "R24K-1"
+    },
+    {
+      "問題": "R24K-48"
+    },
+    {
+      "問題": "R24K-4"
+    },
+    {
+      "問題": "R24K-43"
+    },
+    {
+      "問題": "R24K-10"
+    },
+    {
+      "問題": "R24K-21"
+    },
+    {
+      "問題": "R24K-26"
+    },
+    {
+      "問題": "R24K-16"
+    },
+    {
+      "問題": "R24K-24"
+    },
+    {
+      "問題": "R24K-41"
+    },
+    {
+      "問題": "R24K-29"
+    },
+    {
+      "問題": "R24K-50"
+    },
+    {
+      "問題": "R24K-36"
+    },
+    {
+      "問題": "R24K-6"
+    },
+    {
+      "問題": "R21K-3"
+    },
+    {
+      "問題": "R21K-4"
+    },
+    {
+      "問題": "R21K-6"
+    },
+    {
+      "問題": "R21K-9"
+    },
+    {
+      "問題": "R23K-16"
+    },
+    {
+      "問題": "R20K-16"
+    },
+    {
+      "問題": "R20K-4"
+    },
+    {
+      "問題": "R20K-3"
+    },
+    {
+      "問題": "R20K-28"
+    },
+    {
+      "問題": "R20K-7"
+    }
+  ],
+  "pages": [
+    {
+      "id": "R24K-25",
+      "url": "https://app.notion.com/p/3f52b010743c8160bb26ed5f02392b7a?pvs=204",
+      "problemText": "(3.5−7×3/14)÷5/8−3×1/5÷3/8＝□（平成27年，成城学園 第1回 1(4)）",
+      "answerText": "1と3/5"
+    },
+    {
+      "id": "R24K-1",
+      "url": "https://app.notion.com/p/3f52b010743c81bda533fe6ee38d7c32?pvs=204",
+      "problemText": "1と1/18−2/9＝□",
+      "answerText": "5/6"
+    },
+    {
+      "id": "R24K-4",
+      "url": "https://app.notion.com/p/3f52b010743c81c4ba33eba1dae6e6b3?pvs=204",
+      "problemText": "10−4と5/9＝□",
+      "answerText": "5と4/9"
+    },
+    {
+      "id": "R24K-7",
+      "url": "https://app.notion.com/p/3f52b010743c8158bbf0f69f85513dc0?pvs=204",
+      "problemText": "3と5/6＋1と7/15＝□",
+      "answerText": "5と3/10"
+    },
+    {
+      "id": "R24K-9",
+      "url": "https://app.notion.com/p/3f52b010743c819a8e68f52ddfebeba5?pvs=204",
+      "problemText": "6と3/14−3と5/6＝□",
+      "answerText": "2と8/21"
+    },
+    {
+      "id": "R24K-10",
+      "url": "https://app.notion.com/p/3f52b010743c81d2b963e280342e3fe4?pvs=204",
+      "problemText": "123と2/119×3＝□",
+      "answerText": "369と6/119"
+    },
+    {
+      "id": "R24K-11",
+      "url": "https://app.notion.com/p/3f52b010743c81aebebff298d9c459f3?pvs=204",
+      "problemText": "11×11×3.14×120/360−5×5×3.14×120/360＝□",
+      "answerText": "100.48"
+    },
+    {
+      "id": "R24K-12",
+      "url": "https://app.notion.com/p/3f52b010743c81af84abf490a4c0845b?pvs=204",
+      "problemText": "5.4−2と5/6＝□",
+      "answerText": "2と17/30"
+    },
+    {
+      "id": "R24K-14",
+      "url": "https://app.notion.com/p/3f52b010743c818dac56eff612299452?pvs=204",
+      "problemText": "17÷26×39÷51＝□",
+      "answerText": "1/2"
+    },
+    {
+      "id": "R24K-26",
+      "url": "https://app.notion.com/p/3f52b010743c81df899ddb341a97d303?pvs=204",
+      "problemText": "1と29/42−6/7＝□",
+      "answerText": "5/6"
+    },
+    {
+      "id": "R24K-29",
+      "url": "https://app.notion.com/p/3f52b010743c81f09979de73b8e29b25?pvs=204",
+      "problemText": "10−3と1/7＝□",
+      "answerText": "6と6/7"
+    },
+    {
+      "id": "R24K-32",
+      "url": "https://app.notion.com/p/3f52b010743c811d9567dbeb2228a2e6?pvs=204",
+      "problemText": "3と19/20＋1と19/30＝□",
+      "answerText": "5と7/12"
+    },
+    {
+      "id": "R24K-34",
+      "url": "https://app.notion.com/p/3f52b010743c81218bb3d63d56fe51ed?pvs=204",
+      "problemText": "6と2/21−3と13/15＝□",
+      "answerText": "2と8/35"
+    },
+    {
+      "id": "R24K-35",
+      "url": "https://app.notion.com/p/3f52b010743c81a8b400c2e7a2fc8ce3?pvs=204",
+      "problemText": "12321と5/989×3＝□",
+      "answerText": "36963と15/989"
+    },
+    {
+      "id": "R24K-36",
+      "url": "https://app.notion.com/p/3f52b010743c81fab843df27e0f10af7?pvs=204",
+      "problemText": "13×13×3.14×120/360−5×5×3.14×120/360＝□",
+      "answerText": "150.72"
+    },
+    {
+      "id": "R24K-37",
+      "url": "https://app.notion.com/p/3f52b010743c812397a9d3f49488f01d?pvs=204",
+      "problemText": "7.6−2と2/3＝□",
+      "answerText": "4と14/15"
+    },
+    {
+      "id": "R24K-39",
+      "url": "https://app.notion.com/p/3f52b010743c8158b764d950eef01e7f?pvs=204",
+      "problemText": "46÷19×38÷69＝□",
+      "answerText": "1と1/3"
+    },
+    {
+      "id": "R23K-16",
+      "url": "https://app.notion.com/p/3f62b010743c81e9a17ada528e1d5a97?pvs=204",
+      "problemText": "4.375÷1.75＝□",
+      "answerText": "2と1/2"
+    },
+    {
+      "id": "R21K-3",
+      "url": "https://app.notion.com/p/3f62b010743c81aea678ce6d9b68336b?pvs=204",
+      "problemText": "3.4＋7.6＝□",
+      "answerText": "11"
+    },
+    {
+      "id": "R21K-4",
+      "url": "https://app.notion.com/p/3f62b010743c81afae3ef3d93a5e091d?pvs=204",
+      "problemText": "7.7−0.66＝□",
+      "answerText": "7.04"
+    },
+    {
+      "id": "R21K-6",
+      "url": "https://app.notion.com/p/3f62b010743c81ce8cd4de04be1330e8?pvs=204",
+      "problemText": "9.1÷7＝□",
+      "answerText": "1.3"
+    },
+    {
+      "id": "R21K-9",
+      "url": "https://app.notion.com/p/3f62b010743c819f9108ee5b3a1836a5?pvs=204",
+      "problemText": "1.35×0.6＝□",
+      "answerText": "0.81"
+    },
+    {
+      "id": "R20K-3",
+      "url": "https://app.notion.com/p/3f62b010743c811a9a9bfb0ad0efdf54?pvs=204",
+      "problemText": "2.9＋7.1＝□",
+      "answerText": "10"
+    },
+    {
+      "id": "R20K-7",
+      "url": "https://app.notion.com/p/3f62b010743c8138a94bed608973a91d?pvs=204",
+      "problemText": "1300×400＝□",
+      "answerText": "520000"
+    },
+    {
+      "id": "R20K-28",
+      "url": "https://app.notion.com/p/3f62b010743c811f8e99e5f00b5da077?pvs=204",
+      "problemText": "12×12×3.14×45/360＝□",
+      "answerText": "56.52"
+    },
+    {
+      "id": "R20K-4",
+      "url": "https://app.notion.com/p/3f62b010743c81ccb769f7de33dd4e47?pvs=204",
+      "problemText": "8.8−0.77＝□",
+      "answerText": "8.03"
+    },
+    {
+      "id": "R20K-16",
+      "url": "https://app.notion.com/p/3f62b010743c8165a333cc9d6d39b2aa?pvs=204",
+      "problemText": "12×234÷6＝□",
+      "answerText": "468"
+    },
+    {
+      "id": "R24K-30",
+      "url": "https://app.notion.com/p/3f52b010743c811789cdddce8a3581c9?pvs=204",
+      "problemText": "2.875をもっともかんたんな帯分数に直すと，□です。",
+      "answerText": "2と7/8"
+    },
+    {
+      "id": "R24K-33",
+      "url": "https://app.notion.com/p/3f52b010743c812795b7c8fefd275cac?pvs=204",
+      "problemText": "48で8を割ると□になります。",
+      "answerText": "1/6"
+    },
+    {
+      "id": "R24K-49",
+      "url": "https://app.notion.com/p/3f52b010743c812ba275cb8e229b0be1?pvs=204",
+      "problemText": "7を30個かけあわせたときの一の位の数は□です。",
+      "answerText": "9"
+    },
+    {
+      "id": "R24K-17",
+      "url": "https://app.notion.com/p/3f52b010743c8137b49ce0ffb6b0d90f?pvs=204",
+      "problemText": "時速162kmで180m進むには□秒かかります。（平成27年，桐蔭学園 1次 1(3)）",
+      "answerText": "4"
+    },
+    {
+      "id": "R24K-42",
+      "url": "https://app.notion.com/p/3f52b010743c813c9595ef14cf29147f?pvs=204",
+      "problemText": "時速126kmで210m進むには□秒かかります。",
+      "answerText": "6"
+    },
+    {
+      "id": "R24K-18",
+      "url": "https://app.notion.com/p/3f52b010743c814c9a19c09a24fdeddf?pvs=204",
+      "problemText": "1と11/25÷□＝1と1/15",
+      "answerText": "1と7/20"
+    },
+    {
+      "id": "R24K-2",
+      "url": "https://app.notion.com/p/3f52b010743c814e9facf6bbf92b8bc7?pvs=204",
+      "problemText": "4と6/25を小数に直すと、□です。",
+      "answerText": "4.24"
+    },
+    {
+      "id": "R24K-38",
+      "url": "https://app.notion.com/p/3f52b010743c81528fa9ddb14c91ff99?pvs=204",
+      "problemText": "□×□×□＝4096（□には同じ数が入ります。）",
+      "answerText": "16"
+    },
+    {
+      "id": "R24K-28",
+      "url": "https://app.notion.com/p/3f52b010743c815384b2ec0684dd0a51?pvs=204",
+      "problemText": "0.75×□＝27",
+      "answerText": "36"
+    },
+    {
+      "id": "R24K-22",
+      "url": "https://app.notion.com/p/3f52b010743c815387c5fe778e2d54c1?pvs=204",
+      "problemText": "8Lの3割と，4dLの17%の合計は□mLです。",
+      "answerText": "2468"
+    },
+    {
+      "id": "R24K-45",
+      "url": "https://app.notion.com/p/3f52b010743c81669612c23f2975239d?pvs=204",
+      "problemText": "空の水そうに12L/分で水を入れます。160Lになるのは□分□秒後です。",
+      "answerText": "13分20秒"
+    },
+    {
+      "id": "R24K-15",
+      "url": "https://app.notion.com/p/3f52b010743c816da6ced4c5529b24e7?pvs=204",
+      "problemText": "4＋7＋10＋……＋49＋52＝□",
+      "answerText": "476"
+    },
+    {
+      "id": "R24K-46",
+      "url": "https://app.notion.com/p/3f52b010743c81788397dc8b68235186?pvs=204",
+      "problemText": "Aの5/9とBの6倍が等しいとき，A：B＝□：□です。",
+      "answerText": "54：5"
+    },
+    {
+      "id": "R24K-8",
+      "url": "https://app.notion.com/p/3f52b010743c8181bb53ea0e6ad23e7e?pvs=204",
+      "problemText": "36で12を割ると□になります。",
+      "answerText": "1/3"
+    },
+    {
+      "id": "R24K-5",
+      "url": "https://app.notion.com/p/3f52b010743c818ab981c3453f17e94f?pvs=204",
+      "problemText": "3.625をもっともかんたんな帯分数に直すと、□です",
+      "answerText": "3と5/8"
+    },
+    {
+      "id": "R24K-27",
+      "url": "https://app.notion.com/p/3f52b010743c818caf68de746a5c7d1a?pvs=204",
+      "problemText": "3と13/20を小数に直すと，□です。",
+      "answerText": "3.65"
+    },
+    {
+      "id": "R24K-3",
+      "url": "https://app.notion.com/p/3f52b010743c818e8858d8005a559354?pvs=204",
+      "problemText": "0.75×□＝36",
+      "answerText": "48"
+    },
+    {
+      "id": "R24K-31",
+      "url": "https://app.notion.com/p/3f52b010743c818f806acf804b0501b8?pvs=204",
+      "problemText": "10分÷3＝□分□秒",
+      "answerText": "3分20秒"
+    },
+    {
+      "id": "R24K-23",
+      "url": "https://app.notion.com/p/3f52b010743c818f9b02f26193d41d02?pvs=204",
+      "problemText": "AはBの2.4倍で，CはBの1と1/3のとき，A：B：C＝□：□：□です。",
+      "answerText": "36：15：20"
+    },
+    {
+      "id": "R24K-44",
+      "url": "https://app.notion.com/p/3f52b010743c81988d27cc941ea9eacd?pvs=204",
+      "problemText": "3.24：18/5を最も簡単な整数の比にすると，□：□です。",
+      "answerText": "9：10"
+    },
+    {
+      "id": "R24K-13",
+      "url": "https://app.notion.com/p/3f52b010743c819ba208f4ec9b330783?pvs=204",
+      "problemText": "□×□×□＝1728（□には同じ数が入ります。）",
+      "answerText": "12"
+    },
+    {
+      "id": "R24K-19",
+      "url": "https://app.notion.com/p/3f52b010743c81a198b8da351e03f3f1?pvs=204",
+      "problemText": "1.44：9/5を最も簡単な整数の比にすると，□：□です。",
+      "answerText": "4：5"
+    },
+    {
+      "id": "R24K-47",
+      "url": "https://app.notion.com/p/3f52b010743c81a7bbbbf0127c2d4e31?pvs=204",
+      "problemText": "7Lの4割と，3dLの28%の合計は□mLです。",
+      "answerText": "2884"
+    },
+    {
+      "id": "R24K-20",
+      "url": "https://app.notion.com/p/3f52b010743c81ae91c3fe61d74a6e0a?pvs=204",
+      "problemText": "空の水そうに15L/分で水を入れます。100Lになるのは□分□秒後です。",
+      "answerText": "6分40秒"
+    },
+    {
+      "id": "R24K-40",
+      "url": "https://app.notion.com/p/3f52b010743c81af9fbac4c88c5a9d93?pvs=204",
+      "problemText": "4＋10＋16＋……＋70＋76＝□",
+      "answerText": "520"
+    },
+    {
+      "id": "R24K-48",
+      "url": "https://app.notion.com/p/3f52b010743c81c18247f7196fa2d992?pvs=204",
+      "problemText": "AはBの3.2倍で，AはCの2と2/5のとき，A：B：C＝□：□：□です。",
+      "answerText": "48：15：20"
+    },
+    {
+      "id": "R24K-43",
+      "url": "https://app.notion.com/p/3f52b010743c81c9a2efd7e903a767f0?pvs=204",
+      "problemText": "1と11/25÷□＝1と7/20",
+      "answerText": "1と1/15"
+    },
+    {
+      "id": "R24K-21",
+      "url": "https://app.notion.com/p/3f52b010743c81d7b78ce3bb1367d614?pvs=204",
+      "problemText": "Aの6/7とBの3倍が等しいとき，A：B＝□：□です。",
+      "answerText": "7：2"
+    },
+    {
+      "id": "R24K-16",
+      "url": "https://app.notion.com/p/3f52b010743c81e4bceae90b1ad61542?pvs=204",
+      "problemText": "10時間25分12秒÷3＝□時間□分□秒",
+      "answerText": "3時間28分24秒"
+    },
+    {
+      "id": "R24K-24",
+      "url": "https://app.notion.com/p/3f52b010743c81e5af56e48b9df3aa5e?pvs=204",
+      "problemText": "3を30個かけあわせたときの一の位の数は□です。",
+      "answerText": "9"
+    },
+    {
+      "id": "R24K-41",
+      "url": "https://app.notion.com/p/3f52b010743c81ea9837e8f386755530?pvs=204",
+      "problemText": "23時間56分39秒÷3＝□時間□分□秒",
+      "answerText": "7時間58分53秒"
+    },
+    {
+      "id": "R24K-50",
+      "url": "https://app.notion.com/p/3f52b010743c81f295b1f9029c728034?pvs=204",
+      "problemText": "(1と7/8−13/48÷2/9)÷(3.5−□÷3と3/7)＝0.25（平成27年，横浜雙葉 1(1)②）",
+      "answerText": "3"
+    },
+    {
+      "id": "R24K-6",
+      "url": "https://app.notion.com/p/3f52b010743c81ff8b78cd7984503645?pvs=204",
+      "problemText": "8分÷3＝□分□秒",
+      "answerText": "2分40秒"
+    }
+  ]
+}

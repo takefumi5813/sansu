@@ -1,0 +1,2978 @@
+{
+  "problems": [
+    {
+      "id": "R24K-1",
+      "unitId": "calc.r24.k1",
+      "category": "calc",
+      "text": "1と1/18−2/9＝□",
+      "sourceText": "1と1/18−2/9＝□",
+      "source": {
+        "title": "R24 計算マスター K-1",
+        "path": "https://app.notion.com/p/3f52b010743c81bda533fe6ee38d7c32?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c81bda533fe6ee38d7c32?pvs=204",
+        "locator": "Notion 問題DB > R24K-1 > 問題/答えブロック",
+        "sourceText": "1と1/18−2/9＝□",
+        "sourceAnswer": "5/6",
+        "notionPageId": "3f52b010743c81bda533fe6ee38d7c32",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c81bda533fe6ee38d7c32",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-1",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81bd-a533-fe6ee38d7c32/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f52b010743c81df899ddb341a97d303"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "5/6",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81bd-a533-fe6ee38d7c32/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:02.959Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2301",
+        "localReferenceText": "1と1/18−2/9＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-26"
+      },
+      "answer": {
+        "n": "5",
+        "d": "6",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "19/18-2/9",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数・帯分数・小数を分数でそろえる",
+            "body": "整数の部分も分母に合わせた分子へ直します。小数は位に合わせた分母にしてから約分します。",
+            "equation": "1と1/18＝19/18",
+            "id": "step-1"
+          },
+          {
+            "title": "もう一方も分数にする",
+            "body": "分数の形をそろえておくと、次に通分しやすくなります。",
+            "equation": "2/9＝2/9",
+            "checkpoint": {
+              "prompt": "2/9を分母9の分数にすると、分子はいくつですか。",
+              "answer": {
+                "n": "2",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "同じ分母にそろえる",
+            "body": "分母を18にそろえます。分母を何倍したかと同じだけ、分子も何倍します。",
+            "equation": "19/18−2/9＝19/18−4/18",
+            "id": "step-3"
+          },
+          {
+            "title": "分子を計算して約分する",
+            "body": "分母はそのままで分子を計算し、分子と分母の共通の約数で割ります。",
+            "equation": "19/18−4/18＝5/6",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆向きの計算をして、はじめの数に戻るか確かめます。",
+            "equation": "5/6＋2/9＝19/18",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 19,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R24K-4",
+      "unitId": "calc.r24.k4",
+      "category": "calc",
+      "text": "10−4と5/9＝□",
+      "sourceText": "10−4と5/9＝□",
+      "source": {
+        "title": "R24 計算マスター K-4",
+        "path": "https://app.notion.com/p/3f52b010743c81c4ba33eba1dae6e6b3?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c81c4ba33eba1dae6e6b3?pvs=204",
+        "locator": "Notion 問題DB > R24K-4 > 問題/答えブロック",
+        "sourceText": "10−4と5/9＝□",
+        "sourceAnswer": "5と4/9",
+        "notionPageId": "3f52b010743c81c4ba33eba1dae6e6b3",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c81c4ba33eba1dae6e6b3",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-4",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81c4-ba33-eba1dae6e6b3/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f52b010743c81f09979de73b8e29b25"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "5と4/9",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81c4-ba33-eba1dae6e6b3/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:02.959Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2304",
+        "localReferenceText": "10−4と5/9＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-29"
+      },
+      "answer": {
+        "n": "49",
+        "d": "9",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "10-41/9",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数・帯分数・小数を分数でそろえる",
+            "body": "整数の部分も分母に合わせた分子へ直します。小数は位に合わせた分母にしてから約分します。",
+            "equation": "10＝10",
+            "id": "step-1"
+          },
+          {
+            "title": "もう一方も分数にする",
+            "body": "分数の形をそろえておくと、次に通分しやすくなります。",
+            "equation": "4と5/9＝41/9",
+            "checkpoint": {
+              "prompt": "4と5/9を分母9の分数にすると、分子はいくつですか。",
+              "answer": {
+                "n": "41",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "同じ分母にそろえる",
+            "body": "分母を9にそろえます。分母を何倍したかと同じだけ、分子も何倍します。",
+            "equation": "10−41/9＝90/9−41/9",
+            "id": "step-3"
+          },
+          {
+            "title": "分子を計算して約分する",
+            "body": "分母はそのままで分子を計算し、分子と分母の共通の約数で割ります。",
+            "equation": "90/9−41/9＝49/9",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆向きの計算をして、はじめの数に戻るか確かめます。",
+            "equation": "49/9＋41/9＝10",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 13,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R24K-7",
+      "unitId": "calc.r24.k7",
+      "category": "calc",
+      "text": "3と5/6＋1と7/15＝□",
+      "sourceText": "3と5/6＋1と7/15＝□",
+      "source": {
+        "title": "R24 計算マスター K-7",
+        "path": "https://app.notion.com/p/3f52b010743c8158bbf0f69f85513dc0?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c8158bbf0f69f85513dc0?pvs=204",
+        "locator": "Notion 問題DB > R24K-7 > 問題/答えブロック",
+        "sourceText": "3と5/6＋1と7/15＝□",
+        "sourceAnswer": "5と3/10",
+        "notionPageId": "3f52b010743c8158bbf0f69f85513dc0",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c8158bbf0f69f85513dc0",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-7",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-8158-bbf0-f69f85513dc0/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f52b010743c811d9567dbeb2228a2e6"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "5と3/10",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-8158-bbf0-f69f85513dc0/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:02.959Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2307",
+        "localReferenceText": "3と5/6＋1と7/15＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-32"
+      },
+      "answer": {
+        "n": "53",
+        "d": "10",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "23/6+22/15",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数・帯分数・小数を分数でそろえる",
+            "body": "整数の部分も分母に合わせた分子へ直します。小数は位に合わせた分母にしてから約分します。",
+            "equation": "3と5/6＝23/6",
+            "id": "step-1"
+          },
+          {
+            "title": "もう一方も分数にする",
+            "body": "分数の形をそろえておくと、次に通分しやすくなります。",
+            "equation": "1と7/15＝22/15",
+            "checkpoint": {
+              "prompt": "1と7/15を分母15の分数にすると、分子はいくつですか。",
+              "answer": {
+                "n": "22",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "同じ分母にそろえる",
+            "body": "分母を30にそろえます。分母を何倍したかと同じだけ、分子も何倍します。",
+            "equation": "23/6＋22/15＝115/30＋44/30",
+            "id": "step-3"
+          },
+          {
+            "title": "分子を計算して約分する",
+            "body": "分母はそのままで分子を計算し、分子と分母の共通の約数で割ります。",
+            "equation": "115/30＋44/30＝53/10",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆向きの計算をして、はじめの数に戻るか確かめます。",
+            "equation": "53/10−22/15＝23/6",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 17,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R24K-9",
+      "unitId": "calc.r24.k9",
+      "category": "calc",
+      "text": "6と3/14−3と5/6＝□",
+      "sourceText": "6と3/14−3と5/6＝□",
+      "source": {
+        "title": "R24 計算マスター K-9",
+        "path": "https://app.notion.com/p/3f52b010743c819a8e68f52ddfebeba5?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c819a8e68f52ddfebeba5?pvs=204",
+        "locator": "Notion 問題DB > R24K-9 > 問題/答えブロック",
+        "sourceText": "6と3/14−3と5/6＝□",
+        "sourceAnswer": "2と8/21",
+        "notionPageId": "3f52b010743c819a8e68f52ddfebeba5",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c819a8e68f52ddfebeba5",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-9",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-819a-8e68-f52ddfebeba5/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f52b010743c81218bb3d63d56fe51ed"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "2と8/21",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-819a-8e68-f52ddfebeba5/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:02.959Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2309",
+        "localReferenceText": "6と3/14−3と5/6＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-34"
+      },
+      "answer": {
+        "n": "50",
+        "d": "21",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "87/14-23/6",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数・帯分数・小数を分数でそろえる",
+            "body": "整数の部分も分母に合わせた分子へ直します。小数は位に合わせた分母にしてから約分します。",
+            "equation": "6と3/14＝87/14",
+            "id": "step-1"
+          },
+          {
+            "title": "もう一方も分数にする",
+            "body": "分数の形をそろえておくと、次に通分しやすくなります。",
+            "equation": "3と5/6＝23/6",
+            "checkpoint": {
+              "prompt": "3と5/6を分母6の分数にすると、分子はいくつですか。",
+              "answer": {
+                "n": "23",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "同じ分母にそろえる",
+            "body": "分母を42にそろえます。分母を何倍したかと同じだけ、分子も何倍します。",
+            "equation": "87/14−23/6＝261/42−161/42",
+            "id": "step-3"
+          },
+          {
+            "title": "分子を計算して約分する",
+            "body": "分母はそのままで分子を計算し、分子と分母の共通の約数で割ります。",
+            "equation": "261/42−161/42＝50/21",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆向きの計算をして、はじめの数に戻るか確かめます。",
+            "equation": "50/21＋23/6＝87/14",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 19,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R24K-10",
+      "unitId": "calc.r24.k10",
+      "category": "calc",
+      "text": "123と2/119×3＝□",
+      "sourceText": "123と2/119×3＝□",
+      "source": {
+        "title": "R24 計算マスター K-10",
+        "path": "https://app.notion.com/p/3f52b010743c81d2b963e280342e3fe4?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c81d2b963e280342e3fe4?pvs=204",
+        "locator": "Notion 問題DB > R24K-10 > 問題/答えブロック",
+        "sourceText": "123と2/119×3＝□",
+        "sourceAnswer": "369と6/119",
+        "notionPageId": "3f52b010743c81d2b963e280342e3fe4",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c81d2b963e280342e3fe4",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-10",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81d2-b963-e280342e3fe4/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f52b010743c81a8b400c2e7a2fc8ce3"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "369と6/119",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81d2-b963-e280342e3fe4/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:02.959Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2310",
+        "localReferenceText": "123と2/119×3＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-35"
+      },
+      "answer": {
+        "n": "43917",
+        "d": "119",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "14639/119*3",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数と分数に分ける",
+            "body": "帯分数は整数の部分と分数の部分に分けられます。どちらも3倍しましょう。",
+            "equation": "123と2/119＝123＋2/119",
+            "id": "step-1"
+          },
+          {
+            "title": "整数の部分を3倍する",
+            "body": "位をそろえて整数どうしのかけ算をします。",
+            "equation": "123×3＝369",
+            "checkpoint": {
+              "prompt": "123を3倍するといくつですか。",
+              "answer": {
+                "n": "369",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "分数の部分を3倍する",
+            "body": "分母はそのまま、分子を3倍します。",
+            "equation": "2/119×3＝6/119",
+            "id": "step-3"
+          },
+          {
+            "title": "二つの部分を合わせる",
+            "body": "整数と分数を合わせると答えです。分数部分は1より小さいことも確かめましょう。",
+            "equation": "369＋6/119＝369と6/119",
+            "id": "step-4"
+          },
+          {
+            "title": "3で割ってもとに戻す",
+            "body": "答えを3で割って、はじめの帯分数に戻るか確認します。",
+            "equation": "(369＋6/119)÷3＝123と2/119",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 32,
+      "star": 3,
+      "difficulty": 7
+    },
+    {
+      "id": "R24K-11",
+      "unitId": "calc.r24.k11",
+      "category": "calc",
+      "text": "11×11×3.14×120/360−5×5×3.14×120/360＝□",
+      "sourceText": "11×11×3.14×120/360−5×5×3.14×120/360＝□",
+      "source": {
+        "title": "R24 計算マスター K-11",
+        "path": "https://app.notion.com/p/3f52b010743c81aebebff298d9c459f3?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c81aebebff298d9c459f3?pvs=204",
+        "locator": "Notion 問題DB > R24K-11 > 問題/答えブロック",
+        "sourceText": "11×11×3.14×120/360−5×5×3.14×120/360＝□",
+        "sourceAnswer": "100.48",
+        "notionPageId": "3f52b010743c81aebebff298d9c459f3",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c81aebebff298d9c459f3",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 1,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-11",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81ae-bebf-f298d9c459f3/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f52b010743c81fab843df27e0f10af7"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "100.48",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81ae-bebf-f298d9c459f3/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:02.959Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2311",
+        "localReferenceText": "11×11×3.14×120/360−5×5×3.14×120/360＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-36"
+      },
+      "answer": {
+        "n": "2512",
+        "d": "25",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "11*11*3.14*120/360-5*5*3.14*120/360",
+      "explanation": {
+        "steps": [
+          {
+            "title": "共通のかけ算を見つける",
+            "body": "二つの項には、3.14と120/360が共通しています。残りの部分の差を先に出すと計算が短くなります。",
+            "equation": "11×11×3.14×120/360−5×5×3.14×120/360＝(11×11−5×5)×3.14×120/360",
+            "id": "step-1"
+          },
+          {
+            "title": "平方の差を計算する",
+            "body": "同じ数をかけた部分を計算してから引きます。",
+            "equation": "11×11−5×5＝96",
+            "id": "step-2"
+          },
+          {
+            "title": "分数を小さくする",
+            "body": "120も360も120で割れます。120/360は1/3です。",
+            "equation": "120/360＝1/3",
+            "id": "step-3"
+          },
+          {
+            "title": "3で割るところを先に済ませる",
+            "body": "3.14をかける前に整数を3で割りましょう。",
+            "equation": "96÷3＝32",
+            "checkpoint": {
+              "prompt": "96を3で割るといくつですか。",
+              "answer": {
+                "n": "32",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-4"
+          },
+          {
+            "title": "最後に3.14をかける",
+            "body": "ここで小数のかけ算を1回すれば答えが出ます。",
+            "equation": "32×3.14＝2512/25",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 87,
+      "star": 3,
+      "difficulty": 7
+    },
+    {
+      "id": "R24K-12",
+      "unitId": "calc.r24.k12",
+      "category": "calc",
+      "text": "5.4−2と5/6＝□",
+      "sourceText": "5.4−2と5/6＝□",
+      "source": {
+        "title": "R24 計算マスター K-12",
+        "path": "https://app.notion.com/p/3f52b010743c81af84abf490a4c0845b?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c81af84abf490a4c0845b?pvs=204",
+        "locator": "Notion 問題DB > R24K-12 > 問題/答えブロック",
+        "sourceText": "5.4−2と5/6＝□",
+        "sourceAnswer": "2と17/30",
+        "notionPageId": "3f52b010743c81af84abf490a4c0845b",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c81af84abf490a4c0845b",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 1,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-12",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81af-84ab-f490a4c0845b/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f52b010743c812397a9d3f49488f01d"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "2と17/30",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81af-84ab-f490a4c0845b/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:02.959Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2312",
+        "localReferenceText": "5.4−2と5/6＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-37"
+      },
+      "answer": {
+        "n": "77",
+        "d": "30",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "5.4-17/6",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数・帯分数・小数を分数でそろえる",
+            "body": "整数の部分も分母に合わせた分子へ直します。小数は位に合わせた分母にしてから約分します。",
+            "equation": "5.4＝27/5",
+            "id": "step-1"
+          },
+          {
+            "title": "もう一方も分数にする",
+            "body": "分数の形をそろえておくと、次に通分しやすくなります。",
+            "equation": "2と5/6＝17/6",
+            "checkpoint": {
+              "prompt": "2と5/6を分母6の分数にすると、分子はいくつですか。",
+              "answer": {
+                "n": "17",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "同じ分母にそろえる",
+            "body": "分母を30にそろえます。分母を何倍したかと同じだけ、分子も何倍します。",
+            "equation": "27/5−17/6＝162/30−85/30",
+            "id": "step-3"
+          },
+          {
+            "title": "分子を計算して約分する",
+            "body": "分母はそのままで分子を計算し、分子と分母の共通の約数で割ります。",
+            "equation": "162/30−85/30＝77/30",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆向きの計算をして、はじめの数に戻るか確かめます。",
+            "equation": "77/30＋17/6＝27/5",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 23,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R24K-14",
+      "unitId": "calc.r24.k14",
+      "category": "calc",
+      "text": "17÷26×39÷51＝□",
+      "sourceText": "17÷26×39÷51＝□",
+      "source": {
+        "title": "R24 計算マスター K-14",
+        "path": "https://app.notion.com/p/3f52b010743c818dac56eff612299452?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c818dac56eff612299452?pvs=204",
+        "locator": "Notion 問題DB > R24K-14 > 問題/答えブロック",
+        "sourceText": "17÷26×39÷51＝□",
+        "sourceAnswer": "1/2",
+        "notionPageId": "3f52b010743c818dac56eff612299452",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c818dac56eff612299452",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 1,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-14",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-818d-ac56-eff612299452/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f52b010743c8158b764d950eef01e7f"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "1/2",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-818d-ac56-eff612299452/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:02.959Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2314",
+        "localReferenceText": "17÷26×39÷51＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-39"
+      },
+      "answer": {
+        "n": "1",
+        "d": "2",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "17÷26*39÷51",
+      "explanation": {
+        "steps": [
+          {
+            "title": "割り算を分数にする",
+            "body": "かけ算と割り算だけの式です。分子と分母をまとめて、約分できる組を見つけましょう。",
+            "equation": "17÷26×39÷51＝17/26×39/51",
+            "id": "step-1"
+          },
+          {
+            "title": "17と51を約分する",
+            "body": "51は17の3倍です。この組は1と3になります。",
+            "equation": "17/51＝1/3",
+            "id": "step-2"
+          },
+          {
+            "title": "39と26を約分する",
+            "body": "39も26も13で割れます。この組は3と2になります。",
+            "equation": "39/26＝3/2",
+            "checkpoint": {
+              "prompt": "39を13で割るといくつですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "残った数をかける",
+            "body": "分子と分母の3を消すと、1/2が残ります。",
+            "equation": "1/3×3/2＝1/2",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 18,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R24K-25",
+      "unitId": "calc.r24.k25",
+      "category": "calc",
+      "text": "(3.5−7×3/14)÷5/8−3×1/5÷3/8＝□（平成27年，成城学園 第1回 1(4)）",
+      "sourceText": "(3.5−7×3/14)÷5/8−3×1/5÷3/8＝□（平成27年，成城学園 第1回 1(4)）",
+      "source": {
+        "title": "R24 計算マスター K-25",
+        "path": "https://app.notion.com/p/3f52b010743c8160bb26ed5f02392b7a?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c8160bb26ed5f02392b7a?pvs=204",
+        "locator": "Notion 問題DB > R24K-25 > 問題/答えブロック",
+        "sourceText": "(3.5−7×3/14)÷5/8−3×1/5÷3/8＝□（平成27年，成城学園 第1回 1(4)）",
+        "sourceAnswer": "1と3/5",
+        "notionPageId": "3f52b010743c8160bb26ed5f02392b7a",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c8160bb26ed5f02392b7a",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 1,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-25",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-8160-bb26-ed5f02392b7a/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f52b010743c81f295b1f9029c728034"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "1と3/5",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-8160-bb26-ed5f02392b7a/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:02.959Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2325",
+        "localReferenceText": "(3.5−7×3/14)÷5/8−3×1/5÷3/8＝（平成27年 成城学園 第1回 1(4)）",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-50"
+      },
+      "answer": {
+        "n": "8",
+        "d": "5",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "(3.5-7*3/14)÷5/8-3*1/5÷3/8",
+      "explanation": {
+        "steps": [
+          {
+            "title": "かっこの中のかけ算から",
+            "body": "かけ算を引き算より先にします。7と14を約分すると計算が短くなります。",
+            "equation": "7×3/14＝3/2",
+            "checkpoint": {
+              "prompt": "7×3/14の答えを分数で入力しましょう。",
+              "answer": {
+                "n": "3",
+                "d": "2",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-1"
+          },
+          {
+            "title": "かっこの中をまとめる",
+            "body": "3/2は1.5です。3.5から引きます。",
+            "equation": "3.5−3/2＝2",
+            "id": "step-2"
+          },
+          {
+            "title": "前半の割り算をする",
+            "body": "分数で割るときは、逆数をかけます。",
+            "equation": "2÷5/8＝16/5",
+            "id": "step-3"
+          },
+          {
+            "title": "後半も左から順に計算する",
+            "body": "3×1/5を計算し、3/8の逆数をかけます。",
+            "equation": "3×1/5÷3/8＝8/5",
+            "id": "step-4"
+          },
+          {
+            "title": "同じ分母どうしで引く",
+            "body": "分母5がそろっているので、分子だけ引きます。",
+            "equation": "16/5−8/5＝8/5",
+            "id": "step-5"
+          },
+          {
+            "title": "帯分数でも確かめる",
+            "body": "8は5より3大きいので、1と3/5と表せます。",
+            "equation": "8/5＝1と3/5",
+            "id": "step-6"
+          }
+        ]
+      },
+      "score": 38,
+      "star": 3,
+      "difficulty": 7
+    },
+    {
+      "id": "R24K-26",
+      "unitId": "calc.r24.k26",
+      "category": "calc",
+      "text": "1と29/42−6/7＝□",
+      "sourceText": "1と29/42−6/7＝□",
+      "source": {
+        "title": "R24 計算マスター K-26",
+        "path": "https://app.notion.com/p/3f52b010743c81df899ddb341a97d303?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c81df899ddb341a97d303?pvs=204",
+        "locator": "Notion 問題DB > R24K-26 > 問題/答えブロック",
+        "sourceText": "1と29/42−6/7＝□",
+        "sourceAnswer": "5/6",
+        "notionPageId": "3f52b010743c81df899ddb341a97d303",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c81df899ddb341a97d303",
+          "メモ": "計算マスター（裏）。R24K-1 の数値替え",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-26",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81df-899d-db341a97d303/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え元": [
+            "https://app.notion.com/p/3f52b010743c81bda533fe6ee38d7c32"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "5/6",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81df-899d-db341a97d303/b1x5dg",
+          "難易度の出どころ": "元問題から"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:48.770Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2326",
+        "localReferenceText": "1と29/42−6/7＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-1"
+      },
+      "answer": {
+        "n": "5",
+        "d": "6",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "71/42-6/7",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数・帯分数・小数を分数でそろえる",
+            "body": "整数の部分も分母に合わせた分子へ直します。小数は位に合わせた分母にしてから約分します。",
+            "equation": "1と29/42＝71/42",
+            "id": "step-1"
+          },
+          {
+            "title": "もう一方も分数にする",
+            "body": "分数の形をそろえておくと、次に通分しやすくなります。",
+            "equation": "6/7＝6/7",
+            "checkpoint": {
+              "prompt": "6/7を分母7の分数にすると、分子はいくつですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "同じ分母にそろえる",
+            "body": "分母を42にそろえます。分母を何倍したかと同じだけ、分子も何倍します。",
+            "equation": "71/42−6/7＝71/42−36/42",
+            "id": "step-3"
+          },
+          {
+            "title": "分子を計算して約分する",
+            "body": "分母はそのままで分子を計算し、分子と分母の共通の約数で割ります。",
+            "equation": "71/42−36/42＝5/6",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆向きの計算をして、はじめの数に戻るか確かめます。",
+            "equation": "5/6＋6/7＝71/42",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 19,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R24K-29",
+      "unitId": "calc.r24.k29",
+      "category": "calc",
+      "text": "10−3と1/7＝□",
+      "sourceText": "10−3と1/7＝□",
+      "source": {
+        "title": "R24 計算マスター K-29",
+        "path": "https://app.notion.com/p/3f52b010743c81f09979de73b8e29b25?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c81f09979de73b8e29b25?pvs=204",
+        "locator": "Notion 問題DB > R24K-29 > 問題/答えブロック",
+        "sourceText": "10−3と1/7＝□",
+        "sourceAnswer": "6と6/7",
+        "notionPageId": "3f52b010743c81f09979de73b8e29b25",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c81f09979de73b8e29b25",
+          "メモ": "計算マスター（裏）。R24K-4 の数値替え",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-29",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81f0-9979-de73b8e29b25/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え元": [
+            "https://app.notion.com/p/3f52b010743c81c4ba33eba1dae6e6b3"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "6と6/7",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81f0-9979-de73b8e29b25/b1x5dg",
+          "難易度の出どころ": "元問題から"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:48.770Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2329",
+        "localReferenceText": "10−3と1/7＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-4"
+      },
+      "answer": {
+        "n": "48",
+        "d": "7",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "10-22/7",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数・帯分数・小数を分数でそろえる",
+            "body": "整数の部分も分母に合わせた分子へ直します。小数は位に合わせた分母にしてから約分します。",
+            "equation": "10＝10",
+            "id": "step-1"
+          },
+          {
+            "title": "もう一方も分数にする",
+            "body": "分数の形をそろえておくと、次に通分しやすくなります。",
+            "equation": "3と1/7＝22/7",
+            "checkpoint": {
+              "prompt": "3と1/7を分母7の分数にすると、分子はいくつですか。",
+              "answer": {
+                "n": "22",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "同じ分母にそろえる",
+            "body": "分母を7にそろえます。分母を何倍したかと同じだけ、分子も何倍します。",
+            "equation": "10−22/7＝70/7−22/7",
+            "id": "step-3"
+          },
+          {
+            "title": "分子を計算して約分する",
+            "body": "分母はそのままで分子を計算し、分子と分母の共通の約数で割ります。",
+            "equation": "70/7−22/7＝48/7",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆向きの計算をして、はじめの数に戻るか確かめます。",
+            "equation": "48/7＋22/7＝10",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 13,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R24K-32",
+      "unitId": "calc.r24.k32",
+      "category": "calc",
+      "text": "3と19/20＋1と19/30＝□",
+      "sourceText": "3と19/20＋1と19/30＝□",
+      "source": {
+        "title": "R24 計算マスター K-32",
+        "path": "https://app.notion.com/p/3f52b010743c811d9567dbeb2228a2e6?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c811d9567dbeb2228a2e6?pvs=204",
+        "locator": "Notion 問題DB > R24K-32 > 問題/答えブロック",
+        "sourceText": "3と19/20＋1と19/30＝□",
+        "sourceAnswer": "5と7/12",
+        "notionPageId": "3f52b010743c811d9567dbeb2228a2e6",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c811d9567dbeb2228a2e6",
+          "メモ": "計算マスター（裏）。R24K-7 の数値替え",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-32",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-811d-9567-dbeb2228a2e6/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え元": [
+            "https://app.notion.com/p/3f52b010743c8158bbf0f69f85513dc0"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "5と7/12",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-811d-9567-dbeb2228a2e6/b1x5dg",
+          "難易度の出どころ": "元問題から"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:48.770Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2332",
+        "localReferenceText": "3と19/20＋1と19/30＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-7"
+      },
+      "answer": {
+        "n": "67",
+        "d": "12",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "79/20+49/30",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数・帯分数・小数を分数でそろえる",
+            "body": "整数の部分も分母に合わせた分子へ直します。小数は位に合わせた分母にしてから約分します。",
+            "equation": "3と19/20＝79/20",
+            "id": "step-1"
+          },
+          {
+            "title": "もう一方も分数にする",
+            "body": "分数の形をそろえておくと、次に通分しやすくなります。",
+            "equation": "1と19/30＝49/30",
+            "checkpoint": {
+              "prompt": "1と19/30を分母30の分数にすると、分子はいくつですか。",
+              "answer": {
+                "n": "49",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "同じ分母にそろえる",
+            "body": "分母を60にそろえます。分母を何倍したかと同じだけ、分子も何倍します。",
+            "equation": "79/20＋49/30＝237/60＋98/60",
+            "id": "step-3"
+          },
+          {
+            "title": "分子を計算して約分する",
+            "body": "分母はそのままで分子を計算し、分子と分母の共通の約数で割ります。",
+            "equation": "237/60＋98/60＝67/12",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆向きの計算をして、はじめの数に戻るか確かめます。",
+            "equation": "67/12−49/30＝79/20",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 19,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R24K-34",
+      "unitId": "calc.r24.k34",
+      "category": "calc",
+      "text": "6と2/21−3と13/15＝□",
+      "sourceText": "6と2/21−3と13/15＝□",
+      "source": {
+        "title": "R24 計算マスター K-34",
+        "path": "https://app.notion.com/p/3f52b010743c81218bb3d63d56fe51ed?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c81218bb3d63d56fe51ed?pvs=204",
+        "locator": "Notion 問題DB > R24K-34 > 問題/答えブロック",
+        "sourceText": "6と2/21−3と13/15＝□",
+        "sourceAnswer": "2と8/35",
+        "notionPageId": "3f52b010743c81218bb3d63d56fe51ed",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c81218bb3d63d56fe51ed",
+          "メモ": "計算マスター（裏）。R24K-9 の数値替え",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-34",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-8121-8bb3-d63d56fe51ed/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え元": [
+            "https://app.notion.com/p/3f52b010743c819a8e68f52ddfebeba5"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "2と8/35",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-8121-8bb3-d63d56fe51ed/b1x5dg",
+          "難易度の出どころ": "元問題から"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:48.770Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2334",
+        "localReferenceText": "6と2/21−3と13/15＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-9"
+      },
+      "answer": {
+        "n": "78",
+        "d": "35",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "128/21-58/15",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数・帯分数・小数を分数でそろえる",
+            "body": "整数の部分も分母に合わせた分子へ直します。小数は位に合わせた分母にしてから約分します。",
+            "equation": "6と2/21＝128/21",
+            "id": "step-1"
+          },
+          {
+            "title": "もう一方も分数にする",
+            "body": "分数の形をそろえておくと、次に通分しやすくなります。",
+            "equation": "3と13/15＝58/15",
+            "checkpoint": {
+              "prompt": "3と13/15を分母15の分数にすると、分子はいくつですか。",
+              "answer": {
+                "n": "58",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "同じ分母にそろえる",
+            "body": "分母を105にそろえます。分母を何倍したかと同じだけ、分子も何倍します。",
+            "equation": "128/21−58/15＝640/105−406/105",
+            "id": "step-3"
+          },
+          {
+            "title": "分子を計算して約分する",
+            "body": "分母はそのままで分子を計算し、分子と分母の共通の約数で割ります。",
+            "equation": "640/105−406/105＝78/35",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆向きの計算をして、はじめの数に戻るか確かめます。",
+            "equation": "78/35＋58/15＝128/21",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 25,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R24K-35",
+      "unitId": "calc.r24.k35",
+      "category": "calc",
+      "text": "12321と5/989×3＝□",
+      "sourceText": "12321と5/989×3＝□",
+      "source": {
+        "title": "R24 計算マスター K-35",
+        "path": "https://app.notion.com/p/3f52b010743c81a8b400c2e7a2fc8ce3?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c81a8b400c2e7a2fc8ce3?pvs=204",
+        "locator": "Notion 問題DB > R24K-35 > 問題/答えブロック",
+        "sourceText": "12321と5/989×3＝□",
+        "sourceAnswer": "36963と15/989",
+        "notionPageId": "3f52b010743c81a8b400c2e7a2fc8ce3",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c81a8b400c2e7a2fc8ce3",
+          "メモ": "計算マスター（裏）。R24K-10 の数値替え",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-35",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81a8-b400-c2e7a2fc8ce3/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え元": [
+            "https://app.notion.com/p/3f52b010743c81d2b963e280342e3fe4"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "36963と15/989",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81a8-b400-c2e7a2fc8ce3/b1x5dg",
+          "難易度の出どころ": "元問題から"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:48.770Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2335",
+        "localReferenceText": "12321と5/989×3＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-10"
+      },
+      "answer": {
+        "n": "36556422",
+        "d": "989",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "12185474/989*3",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数と分数に分ける",
+            "body": "帯分数は整数の部分と分数の部分に分けられます。どちらも3倍しましょう。",
+            "equation": "12321と5/989＝12321＋5/989",
+            "id": "step-1"
+          },
+          {
+            "title": "整数の部分を3倍する",
+            "body": "位をそろえて整数どうしのかけ算をします。",
+            "equation": "12321×3＝36963",
+            "checkpoint": {
+              "prompt": "12321を3倍するといくつですか。",
+              "answer": {
+                "n": "36963",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "分数の部分を3倍する",
+            "body": "分母はそのまま、分子を3倍します。",
+            "equation": "5/989×3＝15/989",
+            "id": "step-3"
+          },
+          {
+            "title": "二つの部分を合わせる",
+            "body": "整数と分数を合わせると答えです。分数部分は1より小さいことも確かめましょう。",
+            "equation": "36963＋15/989＝36963と15/989",
+            "id": "step-4"
+          },
+          {
+            "title": "3で割ってもとに戻す",
+            "body": "答えを3で割って、はじめの帯分数に戻るか確認します。",
+            "equation": "(36963＋15/989)÷3＝12321と5/989",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 44,
+      "star": 3,
+      "difficulty": 7
+    },
+    {
+      "id": "R24K-36",
+      "unitId": "calc.r24.k36",
+      "category": "calc",
+      "text": "13×13×3.14×120/360−5×5×3.14×120/360＝□",
+      "sourceText": "13×13×3.14×120/360−5×5×3.14×120/360＝□",
+      "source": {
+        "title": "R24 計算マスター K-36",
+        "path": "https://app.notion.com/p/3f52b010743c81fab843df27e0f10af7?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c81fab843df27e0f10af7?pvs=204",
+        "locator": "Notion 問題DB > R24K-36 > 問題/答えブロック",
+        "sourceText": "13×13×3.14×120/360−5×5×3.14×120/360＝□",
+        "sourceAnswer": "150.72",
+        "notionPageId": "3f52b010743c81fab843df27e0f10af7",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c81fab843df27e0f10af7",
+          "メモ": "計算マスター（裏）。R24K-11 の数値替え",
+          "上乗せ": 1,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-36",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81fa-b843-df27e0f10af7/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え元": [
+            "https://app.notion.com/p/3f52b010743c81aebebff298d9c459f3"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "150.72",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-81fa-b843-df27e0f10af7/b1x5dg",
+          "難易度の出どころ": "元問題から"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:48.770Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2336",
+        "localReferenceText": "13×13×3.14×120/360−5×5×3.14×120/360＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-11"
+      },
+      "answer": {
+        "n": "3768",
+        "d": "25",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "13*13*3.14*120/360-5*5*3.14*120/360",
+      "explanation": {
+        "steps": [
+          {
+            "title": "共通のかけ算を見つける",
+            "body": "二つの項には、3.14と120/360が共通しています。残りの部分の差を先に出すと計算が短くなります。",
+            "equation": "13×13×3.14×120/360−5×5×3.14×120/360＝(13×13−5×5)×3.14×120/360",
+            "id": "step-1"
+          },
+          {
+            "title": "平方の差を計算する",
+            "body": "同じ数をかけた部分を計算してから引きます。",
+            "equation": "13×13−5×5＝144",
+            "id": "step-2"
+          },
+          {
+            "title": "分数を小さくする",
+            "body": "120も360も120で割れます。120/360は1/3です。",
+            "equation": "120/360＝1/3",
+            "id": "step-3"
+          },
+          {
+            "title": "3で割るところを先に済ませる",
+            "body": "3.14をかける前に整数を3で割りましょう。",
+            "equation": "144÷3＝48",
+            "checkpoint": {
+              "prompt": "144を3で割るといくつですか。",
+              "answer": {
+                "n": "48",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-4"
+          },
+          {
+            "title": "最後に3.14をかける",
+            "body": "ここで小数のかけ算を1回すれば答えが出ます。",
+            "equation": "48×3.14＝3768/25",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 87,
+      "star": 3,
+      "difficulty": 7
+    },
+    {
+      "id": "R24K-37",
+      "unitId": "calc.r24.k37",
+      "category": "calc",
+      "text": "7.6−2と2/3＝□",
+      "sourceText": "7.6−2と2/3＝□",
+      "source": {
+        "title": "R24 計算マスター K-37",
+        "path": "https://app.notion.com/p/3f52b010743c812397a9d3f49488f01d?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c812397a9d3f49488f01d?pvs=204",
+        "locator": "Notion 問題DB > R24K-37 > 問題/答えブロック",
+        "sourceText": "7.6−2と2/3＝□",
+        "sourceAnswer": "4と14/15",
+        "notionPageId": "3f52b010743c812397a9d3f49488f01d",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c812397a9d3f49488f01d",
+          "メモ": "計算マスター（裏）。R24K-12 の数値替え",
+          "上乗せ": 1,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-37",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-8123-97a9-d3f49488f01d/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え元": [
+            "https://app.notion.com/p/3f52b010743c81af84abf490a4c0845b"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "4と14/15",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-8123-97a9-d3f49488f01d/b1x5dg",
+          "難易度の出どころ": "元問題から"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:48.770Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2337",
+        "localReferenceText": "7.6−2と2/3＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-12"
+      },
+      "answer": {
+        "n": "74",
+        "d": "15",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "7.6-8/3",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数・帯分数・小数を分数でそろえる",
+            "body": "整数の部分も分母に合わせた分子へ直します。小数は位に合わせた分母にしてから約分します。",
+            "equation": "7.6＝38/5",
+            "id": "step-1"
+          },
+          {
+            "title": "もう一方も分数にする",
+            "body": "分数の形をそろえておくと、次に通分しやすくなります。",
+            "equation": "2と2/3＝8/3",
+            "checkpoint": {
+              "prompt": "2と2/3を分母3の分数にすると、分子はいくつですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "同じ分母にそろえる",
+            "body": "分母を15にそろえます。分母を何倍したかと同じだけ、分子も何倍します。",
+            "equation": "38/5−8/3＝114/15−40/15",
+            "id": "step-3"
+          },
+          {
+            "title": "分子を計算して約分する",
+            "body": "分母はそのままで分子を計算し、分子と分母の共通の約数で割ります。",
+            "equation": "114/15−40/15＝74/15",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆向きの計算をして、はじめの数に戻るか確かめます。",
+            "equation": "74/15＋8/3＝38/5",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 21,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R24K-39",
+      "unitId": "calc.r24.k39",
+      "category": "calc",
+      "text": "46÷19×38÷69＝□",
+      "sourceText": "46÷19×38÷69＝□",
+      "source": {
+        "title": "R24 計算マスター K-39",
+        "path": "https://app.notion.com/p/3f52b010743c8158b764d950eef01e7f?pvs=204",
+        "url": "https://app.notion.com/p/3f52b010743c8158b764d950eef01e7f?pvs=204",
+        "locator": "Notion 問題DB > R24K-39 > 問題/答えブロック",
+        "sourceText": "46÷19×38÷69＝□",
+        "sourceAnswer": "1と1/3",
+        "notionPageId": "3f52b010743c8158b764d950eef01e7f",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f52b010743c8158b764d950eef01e7f",
+          "メモ": "計算マスター（裏）。R24K-14 の数値替え",
+          "上乗せ": 1,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R24K-39",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-8158-b764-d950eef01e7f/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815da4a0cec896a76a7f"
+          ],
+          "数値替え元": [
+            "https://app.notion.com/p/3f52b010743c818dac56eff612299452"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "1と1/3",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f52b010-743c-8158-b764-d950eef01e7f/b1x5dg",
+          "難易度の出どころ": "元問題から"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-10T08:04:48.770Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行2339",
+        "localReferenceText": "46÷19×38÷69＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R24K-14"
+      },
+      "answer": {
+        "n": "4",
+        "d": "3",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "46÷19*38÷69",
+      "explanation": {
+        "steps": [
+          {
+            "title": "分子と分母をまとめる",
+            "body": "かけ算と割り算だけなので、約分する相手を探します。",
+            "equation": "46÷19×38÷69＝46/69×38/19",
+            "id": "step-1"
+          },
+          {
+            "title": "46と69を約分する",
+            "body": "46も69も23で割れます。",
+            "equation": "46/69＝2/3",
+            "id": "step-2"
+          },
+          {
+            "title": "38と19を約分する",
+            "body": "38は19の2倍です。",
+            "equation": "38÷19＝2",
+            "checkpoint": {
+              "prompt": "38を19で割るといくつですか。",
+              "answer": {
+                "n": "2",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "残った数をかける",
+            "body": "2/3の2倍なので4/3です。帯分数では1と1/3です。",
+            "equation": "2/3×2＝1と1/3",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 20,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R23K-16",
+      "unitId": "calc.r23.k16",
+      "category": "calc",
+      "text": "4.375÷1.75＝□",
+      "sourceText": "4.375÷1.75＝□",
+      "source": {
+        "title": "R23 計算マスター K-16",
+        "path": "https://app.notion.com/p/3f62b010743c81e9a17ada528e1d5a97?pvs=204",
+        "url": "https://app.notion.com/p/3f62b010743c81e9a17ada528e1d5a97?pvs=204",
+        "locator": "Notion 問題DB > R23K-16 > 問題/答えブロック",
+        "sourceText": "4.375÷1.75＝□",
+        "sourceAnswer": "2と1/2",
+        "notionPageId": "3f62b010743c81e9a17ada528e1d5a97",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f62b010743c81e9a17ada528e1d5a97",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R23K-16",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e9-a17a-da528e1d5a97/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f62b010743c81efa80cf2053aba5e13"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "2と1/2",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e9-a17a-da528e1d5a97/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-11T05:37:10.845Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行1914",
+        "localReferenceText": "4.375÷1.75＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R23K-46"
+      },
+      "answer": {
+        "n": "5",
+        "d": "2",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R23"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "4.375÷1.75",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数点を同じだけ動かす",
+            "body": "割る数と割られる数をどちらも1000倍すると、商は変わりません。",
+            "equation": "4.375÷1.75＝4375÷1750",
+            "id": "step-1"
+          },
+          {
+            "title": "整数の割り算を分数にする",
+            "body": "4375を1750で割る形です。分子と分母を同じ数で割って小さくします。",
+            "equation": "4375÷1750＝4375/1750",
+            "checkpoint": {
+              "prompt": "1.75を1000倍するといくつですか。",
+              "answer": {
+                "n": "1750",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "875で約分する",
+            "body": "4375は875の5倍、1750は875の2倍です。",
+            "equation": "4375/1750＝5/2",
+            "id": "step-3"
+          },
+          {
+            "title": "帯分数に直して確かめる",
+            "body": "5/2は2と1/2です。1.75をその数だけかけると4.375に戻ります。",
+            "equation": "1.75×5/2＝4.375",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 4,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R21K-3",
+      "unitId": "calc.r21.k3",
+      "category": "calc",
+      "text": "3.4＋7.6＝□",
+      "sourceText": "3.4＋7.6＝□",
+      "source": {
+        "title": "R21 計算マスター K-3",
+        "path": "https://app.notion.com/p/3f62b010743c81aea678ce6d9b68336b?pvs=204",
+        "url": "https://app.notion.com/p/3f62b010743c81aea678ce6d9b68336b?pvs=204",
+        "locator": "Notion 問題DB > R21K-3 > 問題/答えブロック",
+        "sourceText": "3.4＋7.6＝□",
+        "sourceAnswer": "11",
+        "notionPageId": "3f62b010743c81aea678ce6d9b68336b",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f62b010743c81aea678ce6d9b68336b",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R21K-3",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ae-a678-ce6d9b68336b/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f62b010743c81e99601ca9c0fb505ad"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "11",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ae-a678-ce6d9b68336b/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-11T05:28:43.176Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行794",
+        "localReferenceText": "3.4+7.6=",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R21K-33"
+      },
+      "answer": {
+        "n": "11",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R21"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "3.4+7.6",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数点をそろえる",
+            "body": "十分の一の位どうし、一の位どうしをそろえて足します。",
+            "equation": "3.4＋7.6＝34/10＋76/10",
+            "id": "step-1"
+          },
+          {
+            "title": "十分の一を合わせる",
+            "body": "0.1が何個分かで考えると、34個と76個を合わせればよいと分かります。",
+            "equation": "34＋76＝110",
+            "checkpoint": {
+              "prompt": "34と76を合わせるといくつですか。",
+              "answer": {
+                "n": "110",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "10個で1に戻す",
+            "body": "0.1が110個あるので、10で割ります。",
+            "equation": "110÷10＝11",
+            "id": "step-3"
+          },
+          {
+            "title": "引き算で確かめる",
+            "body": "答えから片方を引いて、もう片方に戻るか確かめます。",
+            "equation": "11−7.6＝3.4",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 4,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R21K-4",
+      "unitId": "calc.r21.k4",
+      "category": "calc",
+      "text": "7.7−0.66＝□",
+      "sourceText": "7.7−0.66＝□",
+      "source": {
+        "title": "R21 計算マスター K-4",
+        "path": "https://app.notion.com/p/3f62b010743c81afae3ef3d93a5e091d?pvs=204",
+        "url": "https://app.notion.com/p/3f62b010743c81afae3ef3d93a5e091d?pvs=204",
+        "locator": "Notion 問題DB > R21K-4 > 問題/答えブロック",
+        "sourceText": "7.7−0.66＝□",
+        "sourceAnswer": "7.04",
+        "notionPageId": "3f62b010743c81afae3ef3d93a5e091d",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f62b010743c81afae3ef3d93a5e091d",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R21K-4",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81af-ae3e-f3d93a5e091d/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f62b010743c81e58df9fe335ca7dd44"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "7.04",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81af-ae3e-f3d93a5e091d/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-11T05:28:43.176Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行795",
+        "localReferenceText": "7.7−0.66=",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R21K-34"
+      },
+      "answer": {
+        "n": "176",
+        "d": "25",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R21"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "7.7-0.66",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数の位をそろえる",
+            "body": "7.7は7.70と同じ数です。小数点をそろえましょう。",
+            "equation": "7.7＝7.70",
+            "id": "step-1"
+          },
+          {
+            "title": "百分の一が何個かで引く",
+            "body": "7.70は0.01が770個、0.66は66個です。",
+            "equation": "770−66＝704",
+            "checkpoint": {
+              "prompt": "770から66を引くといくつですか。",
+              "answer": {
+                "n": "704",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "小数に戻す",
+            "body": "0.01が704個なので100で割ります。",
+            "equation": "704÷100＝7.04",
+            "id": "step-3"
+          },
+          {
+            "title": "足して確かめる",
+            "body": "答えに引いた数を足すと、はじめの数に戻ります。",
+            "equation": "7.04＋0.66＝7.7",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 9,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R21K-6",
+      "unitId": "calc.r21.k6",
+      "category": "calc",
+      "text": "9.1÷7＝□",
+      "sourceText": "9.1÷7＝□",
+      "source": {
+        "title": "R21 計算マスター K-6",
+        "path": "https://app.notion.com/p/3f62b010743c81ce8cd4de04be1330e8?pvs=204",
+        "url": "https://app.notion.com/p/3f62b010743c81ce8cd4de04be1330e8?pvs=204",
+        "locator": "Notion 問題DB > R21K-6 > 問題/答えブロック",
+        "sourceText": "9.1÷7＝□",
+        "sourceAnswer": "1.3",
+        "notionPageId": "3f62b010743c81ce8cd4de04be1330e8",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f62b010743c81ce8cd4de04be1330e8",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R21K-6",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ce-8cd4-de04be1330e8/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f62b010743c81c497f8ce2317f71884"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "1.3",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ce-8cd4-de04be1330e8/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-11T05:28:43.176Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行797",
+        "localReferenceText": "9.1÷7=",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R21K-36"
+      },
+      "answer": {
+        "n": "13",
+        "d": "10",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R21"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "9.1÷7",
+      "explanation": {
+        "steps": [
+          {
+            "title": "十分の一を単位にする",
+            "body": "9.1は0.1が91個です。その91個を7つに分けます。",
+            "equation": "9.1＝91/10",
+            "id": "step-1"
+          },
+          {
+            "title": "91を7で割る",
+            "body": "7の段を使って考えましょう。",
+            "equation": "91÷7＝13",
+            "checkpoint": {
+              "prompt": "91を7で割るといくつですか。",
+              "answer": {
+                "n": "13",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "十分の一13個を小数に戻す",
+            "body": "0.1が13個なので1.3になります。",
+            "equation": "13/10＝1.3",
+            "id": "step-3"
+          },
+          {
+            "title": "かけ算で確かめる",
+            "body": "答えを7倍して、はじめの9.1に戻るか確認します。",
+            "equation": "1.3×7＝9.1",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 6,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R21K-9",
+      "unitId": "calc.r21.k9",
+      "category": "calc",
+      "text": "1.35×0.6＝□",
+      "sourceText": "1.35×0.6＝□",
+      "source": {
+        "title": "R21 計算マスター K-9",
+        "path": "https://app.notion.com/p/3f62b010743c819f9108ee5b3a1836a5?pvs=204",
+        "url": "https://app.notion.com/p/3f62b010743c819f9108ee5b3a1836a5?pvs=204",
+        "locator": "Notion 問題DB > R21K-9 > 問題/答えブロック",
+        "sourceText": "1.35×0.6＝□",
+        "sourceAnswer": "0.81",
+        "notionPageId": "3f62b010743c819f9108ee5b3a1836a5",
+        "notionProperties": {
+          "url": "https://app.notion.com/p/3f62b010743c819f9108ee5b3a1836a5",
+          "メモ": "計算マスター（表）",
+          "上乗せ": 0,
+          "区分": "計算マスター",
+          "原本の難": "",
+          "問題": "R21K-9",
+          "図": "",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+          ],
+          "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-819f-9108-ee5b3a1836a5/RHI6dw",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+          ],
+          "数値替え": [
+            "https://app.notion.com/p/3f62b010743c8134abf1f76a6251b392"
+          ],
+          "時期": "5年後期",
+          "正答率": "",
+          "決め手": "",
+          "確度": "高",
+          "答え": "0.81",
+          "記録": "",
+          "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-819f-9108-ee5b3a1836a5/b1x5dg",
+          "難易度の出どころ": "判定"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionLastEditedAt": "2026-10-11T05:28:43.176Z",
+        "localReferencePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "Markdown行800",
+        "localReferenceText": "1.35×0.6=",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "Notionは解答□を明示。全角演算子・過去問注記の表記差あり。数値/演算/正答は一致。"
+        },
+        "verification": "2026-10-11 Notion問題DBをスキーマ取得→SQL候補取得→ページ本文fetchで選定。問題/答えブロックとプロパティ確認済み。ローカルDBは照合用。独立Fraction検算とcore.calcScore/core.grade照合。Notion native verificationはunverified。原教材PDFの再照合は未実施。",
+        "pairId": "R21K-39"
+      },
+      "answer": {
+        "n": "81",
+        "d": "100",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R21"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "1.35*0.6",
+      "explanation": {
+        "steps": [
+          {
+            "title": "整数のかけ算に分ける",
+            "body": "1.35は135/100、0.6は6/10です。",
+            "equation": "1.35×0.6＝135/100×6/10",
+            "id": "step-1"
+          },
+          {
+            "title": "整数どうしをかける",
+            "body": "135を6倍します。",
+            "equation": "135×6＝810",
+            "checkpoint": {
+              "prompt": "135を6倍するといくつですか。",
+              "answer": {
+                "n": "810",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "小数の位を戻す",
+            "body": "100と10をかけて1000です。810を1000で割ります。",
+            "equation": "810/1000＝0.81",
+            "id": "step-3"
+          },
+          {
+            "title": "大きさを確かめる",
+            "body": "0.6倍は1倍より小さい数です。答えから1.35で割ると0.6に戻ります。",
+            "equation": "0.81÷1.35＝0.6",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 8,
+      "star": 1,
+      "difficulty": 2
+    }
+  ],
+  "units": [
+    {
+      "id": "calc.r24.k1",
+      "name": "R24計算 K-1",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-1",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k4",
+      "name": "R24計算 K-4",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-4",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k7",
+      "name": "R24計算 K-7",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-7",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k9",
+      "name": "R24計算 K-9",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-9",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k10",
+      "name": "R24計算 K-10",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-10",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k11",
+      "name": "R24計算 K-11",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-11",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k12",
+      "name": "R24計算 K-12",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-12",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k14",
+      "name": "R24計算 K-14",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-14",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k25",
+      "name": "R24計算 K-25",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-25",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k26",
+      "name": "R24計算 K-26",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-26",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k29",
+      "name": "R24計算 K-29",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-29",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k32",
+      "name": "R24計算 K-32",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-32",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k34",
+      "name": "R24計算 K-34",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-34",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k35",
+      "name": "R24計算 K-35",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-35",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k36",
+      "name": "R24計算 K-36",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-36",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k37",
+      "name": "R24計算 K-37",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-37",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r24.k39",
+      "name": "R24計算 K-39",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R24K-39",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r23.k16",
+      "name": "R23計算 K-16",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R23K-16",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r21.k3",
+      "name": "R21計算 K-3",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R21K-3",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r21.k4",
+      "name": "R21計算 K-4",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R21K-4",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r21.k6",
+      "name": "R21計算 K-6",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R21K-6",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r21.k9",
+      "name": "R21計算 K-9",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R21K-9",
+      "decision": "計算は原式単位で採用。表裏の実在する数値替えも独立問題として保持。",
+      "prerequisites": []
+    }
+  ],
+  "links": [],
+  "analysis": [
+    {
+      "kind": "selection",
+      "detail": "Notion問題DBのR24K全50ページ本文/プロパティから採否検討し、通常数値計算17問を採用。標準不足をNotionのR23K16/R21K3,4,6,9の5問で補う。R24を優先し、計算は学年・授業範囲で制限しない。"
+    },
+    {
+      "kind": "normalization_limit",
+      "detail": "text/sourceTextはDB本文を保持。expressionは全角演算子を正規化し帯分数を同値な仮分数へ変換。÷を分数横線へ変換しない。仮分数化で桁特徴が変わるためスコアは元の帯分数の学習難度と同一ではない。低補正なし。"
+    },
+    {
+      "kind": "unsupported",
+      "detail": "R24の逆算・比・単位換算・数列・一の位等は原文のまま現parserが評価できず除外。勝手な改題、逆算式の答え側への変換はしない。"
+    },
+    {
+      "kind": "coverage",
+      "detail": "直近R24は2026-10-02授業。ユーザー訂正によりR25..27は未習なので今回の出題/選定から除外する。K表裏はいずれも計算マスターでありH教材ではないためhomeStudy:false。"
+    }
+  ],
+  "existingVerification": [
+    {
+      "id": "R20K-3",
+      "url": "https://app.notion.com/p/3f62b010743c811a9a9bfb0ad0efdf54?pvs=204",
+      "notionPageId": "3f62b010743c811a9a9bfb0ad0efdf54",
+      "notionProperties": {
+        "url": "https://app.notion.com/p/3f62b010743c811a9a9bfb0ad0efdf54",
+        "メモ": "計算マスター（表）",
+        "上乗せ": 0,
+        "区分": "計算マスター",
+        "原本の難": "",
+        "問題": "R20K-3",
+        "図": "",
+        "型": [
+          "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+        ],
+        "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-811a-9a9b-fb0ad0efdf54/RHI6dw",
+        "教材": "5年授業",
+        "教材回": [
+          "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+        ],
+        "数値替え": [
+          "https://app.notion.com/p/3f62b010743c81efb973dd98d397c13f"
+        ],
+        "時期": "5年後期",
+        "正答率": "",
+        "決め手": "",
+        "確度": "高",
+        "答え": "10",
+        "記録": "",
+        "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-811a-9a9b-fb0ad0efdf54/b1x5dg",
+        "難易度の出どころ": "判定"
+      },
+      "notionText": "2.9＋7.1＝□",
+      "existingText": "2.9＋7.1＝□",
+      "exactTextMatch": true,
+      "normalizedExpressionMatch": true,
+      "answerMatch": true,
+      "difference": "完全一致",
+      "verification": {
+        "state": "unverified"
+      },
+      "checkedAt": "2026-10-11"
+    },
+    {
+      "id": "R20K-7",
+      "url": "https://app.notion.com/p/3f62b010743c8138a94bed608973a91d?pvs=204",
+      "notionPageId": "3f62b010743c8138a94bed608973a91d",
+      "notionProperties": {
+        "url": "https://app.notion.com/p/3f62b010743c8138a94bed608973a91d",
+        "メモ": "計算マスター（表）",
+        "上乗せ": 0,
+        "区分": "計算マスター",
+        "原本の難": "",
+        "問題": "R20K-7",
+        "図": "",
+        "型": [
+          "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+        ],
+        "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8138-a94b-ed608973a91d/RHI6dw",
+        "教材": "5年授業",
+        "教材回": [
+          "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+        ],
+        "数値替え": [
+          "https://app.notion.com/p/3f62b010743c81dd80b8d679919740ed"
+        ],
+        "時期": "5年後期",
+        "正答率": "",
+        "決め手": "",
+        "確度": "高",
+        "答え": "520000",
+        "記録": "",
+        "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8138-a94b-ed608973a91d/b1x5dg",
+        "難易度の出どころ": "判定"
+      },
+      "notionText": "1300×400＝□",
+      "existingText": "1300×400＝□",
+      "exactTextMatch": true,
+      "normalizedExpressionMatch": true,
+      "answerMatch": true,
+      "difference": "完全一致",
+      "verification": {
+        "state": "unverified"
+      },
+      "checkedAt": "2026-10-11"
+    },
+    {
+      "id": "R20K-28",
+      "url": "https://app.notion.com/p/3f62b010743c811f8e99e5f00b5da077?pvs=204",
+      "notionPageId": "3f62b010743c811f8e99e5f00b5da077",
+      "notionProperties": {
+        "url": "https://app.notion.com/p/3f62b010743c811f8e99e5f00b5da077",
+        "メモ": "計算マスター（表）",
+        "上乗せ": 1,
+        "区分": "計算マスター",
+        "原本の難": "",
+        "問題": "R20K-28",
+        "図": "",
+        "型": [
+          "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+        ],
+        "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-811f-8e99-e5f00b5da077/RHI6dw",
+        "教材": "5年授業",
+        "教材回": [
+          "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+        ],
+        "数値替え": [
+          "https://app.notion.com/p/3f62b010743c812a81ebd08d38094f71"
+        ],
+        "時期": "5年後期",
+        "正答率": "",
+        "決め手": "",
+        "確度": "高",
+        "答え": "56.52",
+        "記録": "",
+        "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-811f-8e99-e5f00b5da077/b1x5dg",
+        "難易度の出どころ": "判定"
+      },
+      "notionText": "12×12×3.14×45/360＝□",
+      "existingText": "12×12×3.14×45/360＝□",
+      "exactTextMatch": true,
+      "normalizedExpressionMatch": true,
+      "answerMatch": true,
+      "difference": "完全一致",
+      "verification": {
+        "state": "unverified"
+      },
+      "checkedAt": "2026-10-11"
+    },
+    {
+      "id": "R20K-4",
+      "url": "https://app.notion.com/p/3f62b010743c81ccb769f7de33dd4e47?pvs=204",
+      "notionPageId": "3f62b010743c81ccb769f7de33dd4e47",
+      "notionProperties": {
+        "url": "https://app.notion.com/p/3f62b010743c81ccb769f7de33dd4e47",
+        "メモ": "計算マスター（表）",
+        "上乗せ": 0,
+        "区分": "計算マスター",
+        "原本の難": "",
+        "問題": "R20K-4",
+        "図": "",
+        "型": [
+          "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+        ],
+        "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81cc-b769-f7de33dd4e47/RHI6dw",
+        "教材": "5年授業",
+        "教材回": [
+          "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+        ],
+        "数値替え": [
+          "https://app.notion.com/p/3f62b010743c81e79578c4496d4dbacc"
+        ],
+        "時期": "5年後期",
+        "正答率": "",
+        "決め手": "",
+        "確度": "高",
+        "答え": "8.03",
+        "記録": "",
+        "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81cc-b769-f7de33dd4e47/b1x5dg",
+        "難易度の出どころ": "判定"
+      },
+      "notionText": "8.8−0.77＝□",
+      "existingText": "8.8－0.77＝□",
+      "exactTextMatch": false,
+      "normalizedExpressionMatch": true,
+      "answerMatch": true,
+      "difference": "マイナスの字形（－/−）だけが異なる。式・数値・正答は同じ。",
+      "verification": {
+        "state": "unverified"
+      },
+      "checkedAt": "2026-10-11"
+    },
+    {
+      "id": "R20K-16",
+      "url": "https://app.notion.com/p/3f62b010743c8165a333cc9d6d39b2aa?pvs=204",
+      "notionPageId": "3f62b010743c8165a333cc9d6d39b2aa",
+      "notionProperties": {
+        "url": "https://app.notion.com/p/3f62b010743c8165a333cc9d6d39b2aa",
+        "メモ": "計算マスター（表）",
+        "上乗せ": 1,
+        "区分": "計算マスター",
+        "原本の難": "",
+        "問題": "R20K-16",
+        "図": "",
+        "型": [
+          "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+        ],
+        "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8165-a333-cc9d6d39b2aa/RHI6dw",
+        "教材": "5年授業",
+        "教材回": [
+          "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+        ],
+        "数値替え": [
+          "https://app.notion.com/p/3f62b010743c81e69421d31b0ecb437c"
+        ],
+        "時期": "5年後期",
+        "正答率": "",
+        "決め手": "",
+        "確度": "高",
+        "答え": "468",
+        "記録": "",
+        "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8165-a333-cc9d6d39b2aa/b1x5dg",
+        "難易度の出どころ": "判定"
+      },
+      "notionText": "12×234÷6＝□",
+      "existingText": "12×234÷6＝□",
+      "exactTextMatch": true,
+      "normalizedExpressionMatch": true,
+      "answerMatch": true,
+      "difference": "完全一致",
+      "verification": {
+        "state": "unverified"
+      },
+      "checkedAt": "2026-10-11"
+    }
+  ]
+}

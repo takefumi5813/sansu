@@ -1,0 +1,848 @@
+{
+  "problems": [
+    {
+      "id": "R20K-3",
+      "unitId": "calc.decimal.add",
+      "category": "calc",
+      "text": "2.9＋7.1＝□",
+      "source": {
+        "title": "R20K-3",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "locator": "R20 > K 計算マスター > No.3",
+        "url": "https://app.notion.com/p/3f62b010743c811a9a9bfb0ad0efdf54?pvs=204",
+        "verification": "2026-10-11、Notion問題本文・答えを読取確認、厳密計算で照合。Notion native verificationはunverified。原本PDFとの再照合は未実施。完全一致",
+        "sourceText": "2.9＋7.1＝□",
+        "notionPageId": "3f62b010743c811a9a9bfb0ad0efdf54"
+      },
+      "answer": {
+        "n": "10",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "2.9+7.1",
+      "star": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "place",
+            "title": "小数点をそろえる",
+            "body": "十分の一の位どうし、一の位どうしを足します。小数点を基準にそろえましょう。",
+            "equation": "2.9＋7.1"
+          },
+          {
+            "id": "tenths",
+            "title": "十分の一を足す",
+            "body": "0.9と0.1を合わせると1になります。一の位へ1を繰り上げます。",
+            "equation": "0.9＋0.1＝1",
+            "checkpoint": {
+              "prompt": "0.9と0.1を足すといくつですか。",
+              "answer": {
+                "n": "1",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "ones",
+            "title": "一の位を足す",
+            "body": "2と7と、繰り上がった1を合わせます。",
+            "equation": "2＋7＋1＝10"
+          },
+          {
+            "id": "check",
+            "title": "引き算で確かめる",
+            "body": "答えから7.1を引いて2.9に戻れば、足し算が確かめられます。",
+            "equation": "10－7.1＝2.9"
+          }
+        ]
+      },
+      "score": 6
+    },
+    {
+      "id": "R20K-7",
+      "unitId": "calc.integer.zero.multiply",
+      "category": "calc",
+      "text": "1300×400＝□",
+      "source": {
+        "title": "R20K-7",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "locator": "R20 > K 計算マスター > No.7",
+        "url": "https://app.notion.com/p/3f62b010743c8138a94bed608973a91d?pvs=204",
+        "verification": "2026-10-11、Notion問題本文・答えを読取確認、厳密計算で照合。Notion native verificationはunverified。原本PDFとの再照合は未実施。完全一致",
+        "sourceText": "1300×400＝□",
+        "notionPageId": "3f62b010743c8138a94bed608973a91d"
+      },
+      "answer": {
+        "n": "520000",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "1300*400",
+      "star": 2,
+      "explanation": {
+        "steps": [
+          {
+            "id": "split",
+            "title": "100のまとまりに分ける",
+            "body": "1300は13個の100、400は4個の100と考えられます。",
+            "equation": "1300＝13×100、400＝4×100"
+          },
+          {
+            "id": "small",
+            "title": "小さい数を先に掛ける",
+            "body": "掛ける順序を変え、13と4を先に計算します。",
+            "equation": "13×4＝52",
+            "checkpoint": {
+              "prompt": "13×4はいくつですか。",
+              "answer": {
+                "n": "52",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "scale",
+            "title": "100を二つ掛ける",
+            "body": "100×100は10000です。末尾の0は合計4個になります。",
+            "equation": "52×10000＝520000"
+          },
+          {
+            "id": "check",
+            "title": "大きさを確かめる",
+            "body": "400は4の100倍です。1300×4＝5200を100倍した値と一致します。",
+            "equation": "5200×100＝520000"
+          }
+        ]
+      },
+      "score": 26
+    },
+    {
+      "id": "R20K-28",
+      "unitId": "calc.product.fraction",
+      "category": "calc",
+      "text": "12×12×3.14×45/360＝□",
+      "source": {
+        "title": "R20K-28",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "locator": "R20 > K 計算マスター > No.28",
+        "url": "https://app.notion.com/p/3f62b010743c811f8e99e5f00b5da077?pvs=204",
+        "verification": "2026-10-11、Notion問題本文・答えを読取確認、厳密計算で照合。Notion native verificationはunverified。原本PDFとの再照合は未実施。完全一致",
+        "sourceText": "12×12×3.14×45/360＝□",
+        "notionPageId": "3f62b010743c811f8e99e5f00b5da077"
+      },
+      "answer": {
+        "n": "1413",
+        "d": "25",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "expression": "12*12*3.14*45/360",
+      "star": 3,
+      "explanation": {
+        "steps": [
+          {
+            "id": "fraction",
+            "title": "分数の部分を簡単にする",
+            "body": "45/360を約分します。上下を45で割ると1/8です。掛け算では順序を変えられます。",
+            "equation": "45/360＝1/8",
+            "checkpoint": {
+              "prompt": "45/360を約分したとき、分母はいくつですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "square",
+            "title": "整数の積を計算する",
+            "body": "12を二つ掛けて144にします。",
+            "equation": "12×12＝144"
+          },
+          {
+            "id": "divide",
+            "title": "小数を掛ける前に割る",
+            "body": "144の1/8を先に求めると、計算する数が小さくなります。",
+            "equation": "144÷8＝18"
+          },
+          {
+            "id": "decimal",
+            "title": "3.14を掛ける",
+            "body": "18を20－2と考えると、掛け算を二つの差で計算できます。",
+            "equation": "3.14×20－3.14×2＝62.8－6.28＝56.52"
+          },
+          {
+            "id": "check",
+            "title": "逆に確かめる",
+            "body": "答えを8倍すると、144×3.14と同じになります。",
+            "equation": "56.52×8＝452.16＝144×3.14"
+          }
+        ]
+      },
+      "score": 54
+    },
+    {
+      "id": "R20H①-1",
+      "unitId": "speed.meet.same_start.time",
+      "category": "oneline",
+      "text": "1200mはなれたP、Q両地点をAは分速70mでPからQへ、Bは分速50mでQからPへ同時に出発しました。2人は何分後に出会いますか。",
+      "source": {
+        "title": "R20H①-1",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "locator": "R20 > H 家庭学習用 > R20H①-1",
+        "url": "https://app.notion.com/p/3f42b010743c81cf9adcd5461b55f722",
+        "verification": "2026-10-11取得のNotion問題本文とローカルDB本文の一致を確認。教材原本PDFとの照合は未実施。Notion native verification は unverified。",
+        "sourceText": "1200mはなれたP、Q両地点をAは分速70mでPからQへ、Bは分速50mでQからPへ同時に出発しました。2人は何分後に出会いますか。"
+      },
+      "answer": {
+        "n": "10",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "read",
+            "title": "向きを確認する",
+            "body": "2人は向かい合って同時に進みます。出会うまでに2人が進んだ道のりの合計が、初めの間隔になります。",
+            "equation": "Aの道のり＋Bの道のり＝1200m"
+          },
+          {
+            "id": "relative",
+            "title": "1分間に縮まる間隔",
+            "body": "Aが進む分とBが進む分の両方だけ、2人の間隔が縮まります。速さを足す理由はここにあります。",
+            "equation": "70＋50＝120（m/分）",
+            "checkpoint": {
+              "prompt": "2人の間隔は1分間に何m縮まりますか。",
+              "answer": {
+                "n": "120",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "time",
+            "title": "何分分かを求める",
+            "body": "1200mの間隔が1分ごとに120mずつ縮まるので、割り算で時間を求めます。",
+            "equation": "1200÷120＝10（分）"
+          },
+          {
+            "id": "check",
+            "title": "進んだ道のりで確認する",
+            "body": "同じ時間で2人が進んだ距離を足し、初めの間隔に戻るか確かめます。",
+            "equation": "70×10＋50×10＝1200（m）"
+          }
+        ]
+      },
+      "variant": {
+        "text": "900mはなれたP、Q両地点をAは分速60mでPからQへ、Bは分速40mでQからPへ同時に出発しました。2人は何分後に出会いますか。",
+        "answer": {
+          "n": "9",
+          "d": "1",
+          "unit": "分",
+          "dimension": "time"
+        },
+        "explanation": {
+          "steps": [
+            {
+              "id": "read",
+              "title": "向きを確認する",
+              "body": "2人は向かい合って同時に進みます。出会うまでに2人が進んだ道のりの合計が、初めの間隔になります。",
+              "equation": "Aの道のり＋Bの道のり＝900m"
+            },
+            {
+              "id": "relative",
+              "title": "1分間に縮まる間隔",
+              "body": "Aが進む分とBが進む分の両方だけ、2人の間隔が縮まります。速さを足す理由はここにあります。",
+              "equation": "60＋40＝100（m/分）",
+              "checkpoint": {
+                "prompt": "2人の間隔は1分間に何m縮まりますか。",
+                "answer": {
+                  "n": "100",
+                  "d": "1",
+                  "unit": "m",
+                  "dimension": "length"
+                }
+              }
+            },
+            {
+              "id": "time",
+              "title": "何分分かを求める",
+              "body": "900mの間隔が1分ごとに100mずつ縮まるので、割り算で時間を求めます。",
+              "equation": "900÷100＝9（分）"
+            },
+            {
+              "id": "check",
+              "title": "進んだ道のりで確認する",
+              "body": "同じ時間で2人が進んだ距離を足し、初めの間隔に戻るか確かめます。",
+              "equation": "60×9＋40×9＝900（m）"
+            }
+          ]
+        },
+        "origin": "generated_verified",
+        "label": "理解確認用の数値替え（生成・検算済み）",
+        "verification": "(60+40)*9=900。元問題と異なる答え。"
+      }
+    },
+    {
+      "id": "R20H①-2",
+      "unitId": "speed.meet.same_start.rate",
+      "category": "oneline",
+      "text": "1600mはなれた両地点からAとBが向かい合って同時に出発すると10分後に2人は出会います。Aの速さを分速90mとするとき、Bの速さを求めなさい。",
+      "source": {
+        "title": "R20H①-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "locator": "R20 > H 家庭学習用 > R20H①-2",
+        "url": "https://app.notion.com/p/3f42b010743c81f5b8c2dd474cfe49e4",
+        "verification": "2026-10-11取得のNotion問題本文とローカルDB本文の一致を確認。教材原本PDFとの照合は未実施。Notion native verification は unverified。",
+        "sourceText": "1600mはなれた両地点からAとBが向かい合って同時に出発すると10分後に2人は出会います。Aの速さを分速90mとするとき、Bの速さを求めなさい。"
+      },
+      "answer": {
+        "n": "70",
+        "d": "1",
+        "unit": "m/分",
+        "dimension": "speed"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "read",
+            "title": "分かっている量を整理する",
+            "body": "向かい合って10分後に出会います。10分間で2人が進む道のりの合計は1600mです。",
+            "equation": "Aの道のり＋Bの道のり＝1600m"
+          },
+          {
+            "id": "sum",
+            "title": "2人合わせた1分間の進みを求める",
+            "body": "全体の道のりを時間で割ると、1分間に2人が進む道のりの合計が分かります。これが速さの和です。",
+            "equation": "1600÷10＝160（m/分）",
+            "checkpoint": {
+              "prompt": "AとBの速さの和は分速何mですか。",
+              "answer": {
+                "n": "160",
+                "d": "1",
+                "unit": "m/分",
+                "dimension": "speed"
+              }
+            }
+          },
+          {
+            "id": "subtract",
+            "title": "Aの分を取り除く",
+            "body": "速さの和にはAとBの両方が入っています。分かっているAの速さを引いてBだけを取り出します。",
+            "equation": "160－90＝70（m/分）"
+          },
+          {
+            "id": "check",
+            "title": "出会う条件に戻す",
+            "body": "求めたBの速さを使い、2人の道のりの合計が元の距離になるか確かめます。",
+            "equation": "（90＋70）×10＝1600（m）"
+          }
+        ]
+      },
+      "variant": {
+        "text": "1500mはなれた両地点からAとBが向かい合って同時に出発すると10分後に2人は出会います。Aの速さを分速85mとするとき、Bの速さを求めなさい。",
+        "answer": {
+          "n": "65",
+          "d": "1",
+          "unit": "m/分",
+          "dimension": "speed"
+        },
+        "explanation": {
+          "steps": [
+            {
+              "id": "read",
+              "title": "分かっている量を整理する",
+              "body": "向かい合って10分後に出会います。10分間で2人が進む道のりの合計は1500mです。",
+              "equation": "Aの道のり＋Bの道のり＝1500m"
+            },
+            {
+              "id": "sum",
+              "title": "2人合わせた1分間の進みを求める",
+              "body": "全体の道のりを時間で割ると、1分間に2人が進む道のりの合計が分かります。これが速さの和です。",
+              "equation": "1500÷10＝150（m/分）",
+              "checkpoint": {
+                "prompt": "AとBの速さの和は分速何mですか。",
+                "answer": {
+                  "n": "150",
+                  "d": "1",
+                  "unit": "m/分",
+                  "dimension": "speed"
+                }
+              }
+            },
+            {
+              "id": "subtract",
+              "title": "Aの分を取り除く",
+              "body": "速さの和にはAとBの両方が入っています。分かっているAの速さを引いてBだけを取り出します。",
+              "equation": "150－85＝65（m/分）"
+            },
+            {
+              "id": "check",
+              "title": "出会う条件に戻す",
+              "body": "求めたBの速さを使い、2人の道のりの合計が元の距離になるか確かめます。",
+              "equation": "（85＋65）×10＝1500（m）"
+            }
+          ]
+        },
+        "origin": "generated_verified",
+        "label": "理解確認用の数値替え（生成・検算済み）",
+        "verification": "(85+65)*10=1500。元問題と異なる答え。"
+      }
+    },
+    {
+      "id": "R20H①-5",
+      "unitId": "speed.track.same_direction.time",
+      "category": "oneline",
+      "text": "1周1500mの池があります。分速90mのAと分速60mのBが同じ地点から同時に出発して同じ方向に進みます。AがBにはじめて追いつくのは何分後ですか。",
+      "source": {
+        "title": "R20H①-5",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "locator": "R20 > H 家庭学習用 > R20H①-5",
+        "url": "https://app.notion.com/p/3f42b010743c8180a7c6d617cbf7d61c",
+        "verification": "2026-10-11取得のNotion問題本文とローカルDB本文の一致を確認。教材原本PDFとの照合は未実施。Notion native verification は unverified。",
+        "sourceText": "1周1500mの池があります。分速90mのAと分速60mのBが同じ地点から同時に出発して同じ方向に進みます。AがBにはじめて追いつくのは何分後ですか。"
+      },
+      "answer": {
+        "n": "50",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "lap",
+            "title": "追いつくときの道のりの差",
+            "body": "同じ地点から同じ向きに出発しています。速いAが初めて追いつくには、Bよりちょうど1周分多く進む必要があります。",
+            "equation": "Aの道のり－Bの道のり＝1500m"
+          },
+          {
+            "id": "difference",
+            "title": "1分間に広がる道のりの差",
+            "body": "1分ごとにAがBより多く進む分を求めます。同じ向きなので、使うのは速さの差です。",
+            "equation": "90－60＝30（m/分）",
+            "checkpoint": {
+              "prompt": "AがBより1分間に多く進むのは何mですか。",
+              "answer": {
+                "n": "30",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "time",
+            "title": "1周分の差がつく時間",
+            "body": "1分で広がる道のりの差を何回分重ねると1周になるか、割り算で求めます。",
+            "equation": "1500÷30＝50（分）"
+          },
+          {
+            "id": "check",
+            "title": "道のりの差で確かめる",
+            "body": "同じ時間の道のりを計算します。その差が1周分になり、2人は同じ場所にいます。",
+            "equation": "90×50－60×50＝1500（m）"
+          }
+        ]
+      },
+      "variant": {
+        "text": "1周1200mの池があります。分速100mのAと分速70mのBが同じ地点から同時に出発して同じ方向に進みます。AがBにはじめて追いつくのは何分後ですか。",
+        "answer": {
+          "n": "40",
+          "d": "1",
+          "unit": "分",
+          "dimension": "time"
+        },
+        "explanation": {
+          "steps": [
+            {
+              "id": "lap",
+              "title": "追いつくときの道のりの差",
+              "body": "同じ地点から同じ向きに出発しています。速いAが初めて追いつくには、Bよりちょうど1周分多く進む必要があります。",
+              "equation": "Aの道のり－Bの道のり＝1200m"
+            },
+            {
+              "id": "difference",
+              "title": "1分間に広がる道のりの差",
+              "body": "1分ごとにAがBより多く進む分を求めます。同じ向きなので、使うのは速さの差です。",
+              "equation": "100－70＝30（m/分）",
+              "checkpoint": {
+                "prompt": "AがBより1分間に多く進むのは何mですか。",
+                "answer": {
+                  "n": "30",
+                  "d": "1",
+                  "unit": "m",
+                  "dimension": "length"
+                }
+              }
+            },
+            {
+              "id": "time",
+              "title": "1周分の差がつく時間",
+              "body": "1分で広がる道のりの差を何回分重ねると1周になるか、割り算で求めます。",
+              "equation": "1200÷30＝40（分）"
+            },
+            {
+              "id": "check",
+              "title": "道のりの差で確かめる",
+              "body": "同じ時間の道のりを計算します。その差が1周分になり、2人は同じ場所にいます。",
+              "equation": "100×40－70×40＝1200（m）"
+            }
+          ]
+        },
+        "origin": "generated_verified",
+        "label": "理解確認用の数値替え（生成・検算済み）",
+        "verification": "(100-70)*40=1200。元問題と異なる答え。"
+      }
+    },
+    {
+      "id": "R20K-4",
+      "unitId": "calc.decimal.subtract",
+      "text": "8.8−0.77＝□",
+      "expression": "8.8-0.77",
+      "star": 1,
+      "score": 11,
+      "answer": {
+        "n": "803",
+        "d": "100",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "category": "calc",
+      "revision": 1,
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": false,
+      "source": {
+        "title": "R20K-4",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "locator": "R20 > K 計算マスター > No.4",
+        "sourceText": "8.8−0.77＝□",
+        "verification": "2026-10-11、Notion問題本文・答えを読取確認、厳密計算で照合。Notion native verificationはunverified。原本PDFとの再照合は未実施。マイナスの字形（－/−）だけが異なる。式・数値・正答は同じ。",
+        "url": "https://app.notion.com/p/3f62b010743c81ccb769f7de33dd4e47?pvs=204",
+        "notionPageId": "3f62b010743c81ccb769f7de33dd4e47"
+      },
+      "explanation": {
+        "steps": [
+          {
+            "id": "align",
+            "title": "小数点をそろえる",
+            "body": "8.8を8.80と書いても値は変わりません。小数点をそろえ、同じ位どうしを引きます。",
+            "equation": "8.8＝8.80"
+          },
+          {
+            "id": "borrow",
+            "title": "百分の一の位を引く",
+            "body": "百分の一の位の0から7は引けないので、十分の一から1を借りて10にします。10－7で3です。",
+            "equation": "10－7＝3",
+            "checkpoint": {
+              "prompt": "百分の一の位に書く数字はいくつですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "subtract",
+            "title": "残りの位を引く",
+            "body": "十分の一は8から1を貸して7になりました。7－7＝0、一の位は8－0＝8です。",
+            "equation": "8.80－0.77＝8.03"
+          },
+          {
+            "id": "verify",
+            "title": "足して元に戻るか確認する",
+            "body": "引いた数0.77を答えに足し、8.80に戻ることを確かめます。",
+            "equation": "8.03＋0.77＝8.80"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R20K-16",
+      "unitId": "calc.product.cancel-integer",
+      "text": "12×234÷6＝□",
+      "expression": "12*234÷6",
+      "star": 2,
+      "score": 19,
+      "answer": {
+        "n": "468",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "category": "calc",
+      "revision": 1,
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": false,
+      "source": {
+        "title": "R20K-16",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "locator": "R20 > K 計算マスター > No.16",
+        "sourceText": "12×234÷6＝□",
+        "verification": "2026-10-11、Notion問題本文・答えを読取確認、厳密計算で照合。Notion native verificationはunverified。原本PDFとの再照合は未実施。完全一致",
+        "url": "https://app.notion.com/p/3f62b010743c8165a333cc9d6d39b2aa?pvs=204",
+        "notionPageId": "3f62b010743c8165a333cc9d6d39b2aa"
+      },
+      "explanation": {
+        "steps": [
+          {
+            "id": "whole",
+            "title": "式全体の意味を見る",
+            "body": "12と234の積を6で割る式です。途中に足し算や引き算がないので、掛ける数の12を先に6で割れます。",
+            "equation": "12×234÷6＝(12÷6)×234"
+          },
+          {
+            "id": "cancel",
+            "title": "12を先に6で割る",
+            "body": "大きな積を計算する前に12÷6をすると、掛ける数が2になります。",
+            "equation": "12÷6＝2",
+            "checkpoint": {
+              "prompt": "12÷6はいくつですか。",
+              "answer": {
+                "n": "2",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "multiply",
+            "title": "234を2倍する",
+            "body": "残った234を2倍します。200、30、4に分けてそれぞれ2倍しても計算できます。",
+            "equation": "2×234＝400＋60＋8＝468"
+          },
+          {
+            "id": "verify",
+            "title": "元の積に戻して確かめる",
+            "body": "答えを6倍した値が12×234と一致することを確かめます。",
+            "equation": "468×6＝2808＝12×234"
+          }
+        ]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "calc.decimal.add",
+      "name": "小数の加法",
+      "domain": "計算",
+      "definition": "小数点をそろえ、同じ位を足し、必要なら繰り上げる。",
+      "representativeId": "R20K-3",
+      "decision": "小数点をそろえ、同じ位を足し、必要なら繰り上げる。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.integer.zero.multiply",
+      "name": "末尾に0のある整数の乗法",
+      "domain": "計算",
+      "definition": "10の累乗を分離して係数どうしを掛け、位を戻す。",
+      "representativeId": "R20K-7",
+      "decision": "10の累乗を分離して係数どうしを掛け、位を戻す。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.product.fraction",
+      "name": "小数と分数を含む積の整理",
+      "domain": "計算",
+      "definition": "純粋な積の順序を入れ替え、分数の約分をしてから小数を掛ける。",
+      "representativeId": "R20K-28",
+      "decision": "純粋な積の順序を入れ替え、分数の約分をしてから小数を掛ける。",
+      "prerequisites": []
+    },
+    {
+      "id": "speed.meet.same_start.time",
+      "name": "同時出発の出会いの時間",
+      "domain": "速さ",
+      "definition": "向かい合う二人の速さと初期間隔から、間隔が速さの和で縮まることを使って時間を求める。時間差出発と折り返しを含めない。",
+      "representativeId": "R20H①-1",
+      "decision": "向かい合う二人の速さと初期間隔から、間隔が速さの和で縮まることを使って時間を求める。時間差出発と折り返しを含めない。",
+      "prerequisites": [
+        "speed.distance_rate_time"
+      ]
+    },
+    {
+      "id": "speed.meet.same_start.rate",
+      "name": "同時出発の出会いから一人の速さ",
+      "domain": "速さ",
+      "definition": "向かい合う二人の距離・出会う時間・一方の速さから、速さの和を逆算し一方を引く。",
+      "representativeId": "R20H①-2",
+      "decision": "向かい合う二人の距離・出会う時間・一方の速さから、速さの和を逆算し一方を引く。",
+      "prerequisites": [
+        "speed.distance_rate_time"
+      ]
+    },
+    {
+      "id": "speed.track.same_direction.time",
+      "name": "同方向の周回で初めて追いつく時間",
+      "domain": "速さ",
+      "definition": "同地点同方向の周回で、進んだ道のりの差が初めて1周分になる時間を速さの差から求める。時間差出発や何回目も含めない。",
+      "representativeId": "R20H①-5",
+      "decision": "同地点同方向の周回で、進んだ道のりの差が初めて1周分になる時間を速さの差から求める。時間差出発や何回目も含めない。",
+      "prerequisites": [
+        "speed.distance_rate_time"
+      ]
+    },
+    {
+      "id": "calc.decimal.subtract",
+      "name": "小数の減法",
+      "domain": "計算",
+      "definition": "8.8を8.80と書いても値は変わりません。小数点をそろえ、同じ位どうしを引きます。",
+      "representativeId": "R20K-4",
+      "decision": "8.8を8.80と書いても値は変わりません。小数点をそろえ、同じ位どうしを引きます。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.product.cancel-integer",
+      "name": "積を割る整数計算の工夫",
+      "domain": "計算",
+      "definition": "12と234の積を6で割る式です。途中に足し算や引き算がないので、掛ける数の12を先に6で割れます。",
+      "representativeId": "R20K-16",
+      "decision": "12と234の積を6で割る式です。途中に足し算や引き算がないので、掛ける数の12を先に6で割れます。",
+      "prerequisites": []
+    }
+  ],
+  "links": [
+    {
+      "from": "speed.meet.same_start.time",
+      "to": "speed.meet.same_start.rate",
+      "relation": "contrast",
+      "difference": "求めるものが時間から一人の速さへ変わる。距離÷時間で速さの和を出し、既知の速さを引く判断が必要。"
+    },
+    {
+      "from": "speed.meet.same_start.rate",
+      "to": "speed.meet.same_start.time",
+      "relation": "contrast",
+      "difference": "速さの和を逆算する代わりに、既知の二人の速さを足して時間を割り出す。"
+    },
+    {
+      "from": "speed.meet.same_start.time",
+      "to": "speed.track.same_direction.time",
+      "relation": "contrast",
+      "difference": "向かい合う間隔の縮まりではなく、同方向の道のりの差が1周になることを捉え、和でなく差を使う。"
+    },
+    {
+      "from": "speed.track.same_direction.time",
+      "to": "speed.meet.same_start.time",
+      "relation": "contrast",
+      "difference": "周回の一周差から、向かい合う二人の間隔へ変わり、速さの差でなく和を使う。"
+    }
+  ],
+  "analysis": [
+    {
+      "kind": "source_fidelity",
+      "status": "db_text_verified_original_pdf_unchecked",
+      "problemIds": [
+        "R20K-3",
+        "R20K-7",
+        "R20K-28",
+        "R20H①-1",
+        "R20H①-2",
+        "R20H①-5"
+      ],
+      "detail": "全6問のNotion本文とローカルDB本文が一致。原教材PDFの文字照合は未実施。原文と呼ぶ範囲はDB本文であり、原本保証とは区別する。"
+    },
+    {
+      "kind": "difficulty",
+      "problemIds": [
+        "R20H①-1",
+        "R20H①-2",
+        "R20H①-5"
+      ],
+      "detail": "Notion型T01・T03・T05・T02の基礎難度3、全問題の上乗せ0を確認しD3。速さの基本X01は前提のみ。計算のdifficulty=2はフィルタ用の暫定値でありDB難度を検証した値ではない。★は算出器による再計算を最終値とする。"
+    },
+    {
+      "kind": "missing_prerequisite",
+      "unitId": "speed.distance_rate_time",
+      "detail": "前提として存在するがパイロット収録はしない。前提問題へ移動するボタンは候補がないため出さない。"
+    },
+    {
+      "kind": "related_gap",
+      "detail": "同難度の対比は4リンク。一段上のD4問題は今回は未収録であり、上の難しさボタンを水増ししない。"
+    },
+    {
+      "kind": "calc_formula_limit",
+      "detail": "末尾0の1300×400は工夫すると13×4だけで済むが、設計式は元の桁数からw=10、z=4でS=26、★2と評価する。原文の解法による簡易化はスコアに反映しない。"
+    },
+    {
+      "kind": "variant_limit",
+      "detail": "各非計算に検算済みの固定数値替えを1問同梱。一般生成器は未実装。自由生成やテンプレート100組検証を実施したとは扱わない。"
+    },
+    {
+      "kind": "calc_scoring_verified",
+      "detail": "core calcScore verified S=6/26/54 and stars=1/2/3; literal fraction 45/360 excluded from operation count n=3."
+    },
+    {
+      "kind": "additional_calculations",
+      "problemIds": [
+        "R20K-4",
+        "R20K-16"
+      ],
+      "detail": "計算日課5問を構成する追加2問。ローカルDBのみ本文照合、Notion再照合とPDF照合は未実施。答えをFractionで再検算しcoreスコア11★1/19★2を確認。R20K-16の÷は除算演算子として保持し、分数横線へ書き換えない。"
+    }
+  ]
+}
