@@ -178,7 +178,7 @@
       let response;
       if(active.purpose==='normal'&&active.result&&(!active.result.correct||active.assisted||!active.result.qualified)) await enqueue(s=>{response=C.completeLearning(s,active.problem,{attemptId:active.id,day:active.day,checkpointId:step.checkpoint.id||step.id});return response.state;});
       if(!currentSession(active)||view!=='explanation'||active.step!==stepIndex)return;
-      $('#checkpoint-message').textContent=`合っています。${response?.result.xp?'＋'+response.result.xp+'pt。':''}${equipmentLotteryText(response?.result.equipmentLottery)}${response?.result.equipmentBoxes&&!response?.result.equipmentLottery?'装備箱＋'+response.result.equipmentBoxes+'。':''}${response?.result.materials?`鍛造素材＋${response.result.materials}。理解を記録しました。`:response?.result.souls?`英雄の魂＋${response.result.souls}。理解を記録しました。`:''}`;
+      $('#checkpoint-message').textContent=`合っています。${equipmentLotteryText(response?.result.equipmentLottery)}${response?.result.equipmentBoxes&&!response?.result.equipmentLottery?'装備箱＋'+response.result.equipmentBoxes+'。':''}${response?.result.materials?`鍛造素材＋${response.result.materials}。理解を記録しました。`:response?.result.souls?`英雄の魂＋${response.result.souls}。理解を記録しました。`:''}`;
       if(session.step===steps.length-1)renderExplanationEnd();
     };
   }

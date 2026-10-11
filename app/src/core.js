@@ -99,13 +99,6 @@ function daily(s,day){return s.daily[day]||(s.daily[day]={completed:[],calcPaid:
 const expressionKey=p=>norm(p.expression||p.text).replace(/[×✕]/g,'*').replace(/÷/g,'/').replace(/\s/g,'');
 function learningCurrency(s,p,day,checkpoint=false){const unit='learning:'+day+':'+p.unitId,expr='calc-material:'+day+':'+expressionKey(p);if(p.category!=='calc')return reward(s,unit,0,0,1);if(s.rewards[expr]||(checkpoint&&s.rewards[unit]))return false;reward(s,expr,0,1,0);reward(s,unit);return true;}
 function markComplete(s,p,a,random=Math.random){const d=daily(s,a.day),key=p.category==='calc'?'calc:'+p.id:'unit:'+p.unitId;a.completed=true;if(d.completed.includes(key))return;d.completed.push(key);const calc=d.completed.filter(x=>x.startsWith('calc:')).length,noncalc=d.completed.filter(x=>x.startsWith('unit:')).length;if(p.category==='calc'&&calc===5&&reward(s,'daily-material:'+a.day,0,5,0)){const missesBefore=s.gearPity,guaranteed=missesBefore===9,won=guaranteed||random()<0.1;s.gearPity=won?0:missesBefore+1;d.equipmentLottery={won,guaranteed,missesBefore,missesAfter:s.gearPity};s.rewards['daily-material:'+a.day].equipmentLottery={...d.equipmentLottery};if(won){s.equipmentBoxes++;s.rewards['daily-material:'+a.day].equipmentBoxes=1;}}if(p.category!=='calc'&&noncalc===2)reward(s,'daily-soul:'+a.day,0,0,2);}
-// Calc XP: the first 5 distinct calculations completed each day (the daily mission) earn full star XP;
-// later ones earn 1pt. Completing through the explanation checkpoint earns half (rounded up) within the first 5.
-const CALC_DAILY=5,CALC_AFTER_DAILY=1;
-function calcSlot(s,p,day){return daily(s,day).completed.indexOf('calc:'+p.id);}
-function payCalc(s,p,day,viaCheckpoint){const d=daily(s,day),expr=expressionKey(p),full=[0,3,5,7][p.star]||0,slot=calcSlot(s,p,day),inDaily=slot>=0&&slot<CALC_DAILY;
- if(viaCheckpoint){if(d.calcPaid.includes(expr)||!inDaily)return false;return reward(s,'calc-check:'+day+':'+expr,Math.ceil(full/2));}
- if(d.calcPaid.includes(expr))return false;d.calcPaid.push(expr);const earlier=s.rewards['calc-check:'+day+':'+expr]?.xp||0,target=inDaily?full:CALC_AFTER_DAILY;return reward(s,'calc:'+day+':'+expr,Math.max(0,target-earlier));}
 function commitAttempt(state,p,options){
  const o={purpose:'normal',...options},spec=o.purpose==='variant'?p.variant?.answer:p.answer;
  if(!spec)return {state,result:{valid:false,error:'数値替えがありません'}};const g=grade(o.raw,spec);if(!g.valid)return {state,result:g};
@@ -117,8 +110,8 @@ function commitAttempt(state,p,options){
  const d=daily(s,o.day),hadLottery=!!d.equipmentLottery;let u=clone(old),paid=false;
  if(o.purpose==='normal'){
   if(p.category==='calc'){
-   if(g.correct&&!o.assisted){const fresh=!d.calcPaid.includes(expressionKey(p));if(fresh)learningCurrency(s,p,o.day);markComplete(s,p,a,o.random);if(fresh)paid=payCalc(s,p,o.day,false);}
-   else if(o.checkpointPassed){learningCurrency(s,p,o.day,true);markComplete(s,p,a,o.random);payCalc(s,p,o.day,true);}
+   if(g.correct&&!o.assisted){const expr=expressionKey(p);if(!d.calcPaid.includes(expr)){d.calcPaid.push(expr);paid=reward(s,'calc:'+o.day+':'+expr,[0,3,5,7][p.star]||0);learningCurrency(s,p,o.day);}markComplete(s,p,a,o.random);}
+   else if(o.checkpointPassed){learningCurrency(s,p,o.day,true);markComplete(s,p,a,o.random);}
   }else if(due&&u.stage!==4){
    const pass=g.correct&&!o.assisted&&!(old.stage===3&&o.checkpointPassed===false);
    if(pass){u.stage++;u.highestStageEver=Math.max(u.highestStageEver||0,u.stage);u.due=u.stage===4?null:addDays(o.day,[0,14,60,180][u.stage]);u.dueReason=u.stage===4?null:'review';u.awardedStages=u.awardedStages||[];
@@ -135,7 +128,7 @@ function completeLearning(state,p,{attemptId,day,checkpointId,random=Math.random
  const a=state.attempts.find(x=>x.id===attemptId&&x.problemId===p.id&&x.day===day&&x.purpose==='normal');
  if(!a||a.completed||a.correct&&!a.assisted&&a.result.qualified)return {state,result:{valid:false,error:'確認対象の解答がありません'}};
  if(!(p.explanation?.steps||[]).some(x=>x.checkpoint&&(x.checkpoint.id||x.id)===checkpointId))return {state,result:{valid:false,error:'確認問題が一致しません'}};
- const s=normalizeState(state),next=s.attempts.find(x=>x.id===attemptId),bm=s.materials,bs=s.souls,bb=s.equipmentBoxes,hadLottery=!!s.daily[day]?.equipmentLottery;const bx=s.xp;learningCurrency(s,p,day,true);markComplete(s,p,next,random);if(p.category==='calc')payCalc(s,p,day,true);const result={valid:true,xp:s.xp-bx,stars:0,materials:s.materials-bm,souls:s.souls-bs,equipmentBoxes:s.equipmentBoxes-bb,completed:true};if(!hadLottery&&s.daily[day].equipmentLottery)result.equipmentLottery={...s.daily[day].equipmentLottery};return {state:s,result};
+ const s=normalizeState(state),next=s.attempts.find(x=>x.id===attemptId),bm=s.materials,bs=s.souls,bb=s.equipmentBoxes,hadLottery=!!s.daily[day]?.equipmentLottery;learningCurrency(s,p,day,true);markComplete(s,p,next,random);const result={valid:true,xp:0,stars:0,materials:s.materials-bm,souls:s.souls-bs,equipmentBoxes:s.equipmentBoxes-bb,completed:true};if(!hadLottery&&s.daily[day].equipmentLottery)result.equipmentLottery={...s.daily[day].equipmentLottery};return {state:s,result};
 }
 function getRelated(problems,links,current,state,{direction,filters={},day=dayKey()}){
  if((filters.mode||'all')==='all'&&!getCampaignStatus(problems,state,filters,day).allUnlocked)return null;
