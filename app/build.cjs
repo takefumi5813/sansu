@@ -17,6 +17,13 @@ for(const hero of catalog.heroes){
 }
 const data = {version:'pilot-2026-10-12-integrated-expedition-v2',problems:sources.flatMap(x=>x.problems),units:sources.flatMap(x=>x.units),links:sources.flatMap(x=>x.links),catalog,reservedHeroes:roster.heroes.filter(h=>roster.reservedIds.includes(h.id)).map(cleanHero),legacyEquipment:legacyCatalog.equipment,assets};
 const C = require('./src/core.js');
+// Canonical input for each answer format: single → "n/d", ratio → "a:b(:c)", parts → array of each part's canonical input.
+function canonicalRaw(spec){
+  if(!spec||typeof spec!=='object')throw Error('Missing answer spec');
+  if(Array.isArray(spec.parts)){if(!spec.parts.length)throw Error('Empty answer parts');return spec.parts.map(part=>{if(Array.isArray(part.parts))throw Error('Nested answer parts');return canonicalRaw(part);});}
+  if(spec.dimension==='ratio'){if(!Array.isArray(spec.terms)||spec.terms.length<2)throw Error('Ratio needs 2+ terms');return spec.terms.join(':');}
+  return spec.n+'/'+spec.d;
+}
 const unitIds=new Set();
 for(const u of data.units){
   if(unitIds.has(u.id))throw Error('Duplicate learning unit '+u.id);unitIds.add(u.id);
@@ -35,7 +42,7 @@ for (const p of data.problems) {
   if(!/^https:\/\/(?:app\.)?notion\.(?:com|so)\//.test(p.source?.url||''))throw Error('Missing Notion selection source '+p.id);
   if((p.scopeUnits||[]).some(u=>excludedUnits.has(u)))throw Error('Unlearned lesson in selection '+p.id);
   if(!data.units.some(u=>u.id===p.unitId))throw Error('Missing unit '+p.unitId);
-  if(!C.grade(p.answer.n+'/'+p.answer.d,p.answer).correct)throw Error('Invalid answer '+p.id);
+  if(!C.grade(canonicalRaw(p.answer),p.answer).correct)throw Error('Invalid answer '+p.id);
   if(p.figureRequired&&(!p.figure||!fs.existsSync(path.join(root,'dist',p.figure))))throw Error('Missing figure '+p.id);
   if(p.category==='calc'){
     const s=C.calcScore(p.expression);

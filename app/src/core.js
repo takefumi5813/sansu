@@ -14,6 +14,8 @@ const units={scalar:{'': '1'},length:{m:'1',cm:'1/100',mm:'1/1000',km:'1000','�
 function unitNorm(s){return norm(s).replace(/²/g,'2').replace(/³/g,'3').replace(/\s/g,'');}
 function parseSingleAnswer(raw,spec={}){try{let s=norm(raw);if(!s||s.length>200)throw Error('答えを入力してください');const m=s.match(/^([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:(?:\s+|と)\d+\s*\/\s*\d+|\s*\/\s*\d+)?)(.*)$/);if(!m)throw Error('数値と単位を確かめてください');let r=number(m[1].trim());const dim=spec.dimension||'scalar',canonical=unitNorm(spec.unit||''),given=unitNorm(m[2]||canonical);const sourceMap=spec.acceptedUnits?{[canonical]:'1',...spec.acceptedUnits}:(units[dim]||{});const map={};for(const [key,value] of Object.entries(sourceMap))map[unitNorm(key)]=value;if(given!==canonical){if(map[given]==null||map[canonical]==null)throw Error('指定された単位で入力してください');const a=typeof map[given]==='object'?rat(map[given].n,map[given].d):number(String(map[given]));const b=typeof map[canonical]==='object'?rat(map[canonical].n,map[canonical].d):number(String(map[canonical]));r=times(r,times(a,rat(b.d,b.n)));}return {valid:true,value:out(r)};}catch(e){return {valid:false,error:e.message};}}
 function parseAnswer(raw,spec={}){
+ if(isParts(spec)){const g=gradeParts(raw,spec);return g.valid?{valid:true,value:g.normalized}:{valid:false,error:g.error};}
+ if(isRatio(spec))return parseRatio(raw,spec);
  const s=norm(raw).replace(/\s/g,'');
  if(spec.dimension==='time'&&s.length<=200){
   const parts=[...s.matchAll(/(\d+\/\d+|\d+(?:\.\d+)?|\.\d+)(時間|分|秒)/g)];
@@ -29,7 +31,48 @@ function parseAnswer(raw,spec={}){
  }
  return parseSingleAnswer(raw,spec);
 }
-function grade(raw,spec){const p=parseAnswer(raw,spec);if(!p.valid)return p;const a=rat(p.value.n,p.value.d),b=rat(spec.n,spec.d);return {valid:true,correct:a.n===b.n&&a.d===b.d,normalized:p.value};}
+function gradeSingle(raw,spec){const p=parseAnswer(raw,spec);if(!p.valid)return p;const a=rat(p.value.n,p.value.d),b=rat(spec.n,spec.d);return {valid:true,correct:a.n===b.n&&a.d===b.d,normalized:p.value};}
+// Answer formats: single {n,d,unit,dimension}; ratio {dimension:'ratio',terms:[...]}; multiple fields {parts:[{label,...single|ratio}]}.
+const RATIO_HINT='最も簡単な整数の比で答えよう';
+const isRatio=spec=>!!spec&&spec.dimension==='ratio'&&Array.isArray(spec.terms);
+const isParts=spec=>!!spec&&Array.isArray(spec.parts);
+function parseRatio(raw,spec){
+ if(typeof raw!=='string'&&typeof raw!=='number')return {valid:false,error:'答えを入力してください'};
+ const s=norm(raw).replace(/\s/g,'');if(!s)return {valid:false,error:'答えを入力してください'};if(s.length>200)return {valid:false,error:'比を確かめてください'};
+ const items=s.split(/[:対∶]/),count=spec.terms.length;
+ if(items.length!==count)return {valid:false,error:count+'つの数を「：」で区切って入力してください'};
+ if(items.some(x=>!/^\d+$/.test(x)))return {valid:false,error:'比の各項は整数で入力しよう（'+RATIO_HINT+'）'};
+ const terms=items.map(x=>BigInt(x));if(terms.some(x=>x===0n))return {valid:false,error:'比の各項は0より大きい整数で入力してください'};
+ return {valid:true,value:{terms:terms.map(String)}};
+}
+function gradeRatio(raw,spec){
+ const p=parseRatio(raw,spec);if(!p.valid)return p;
+ const given=p.value.terms.map(x=>BigInt(x)),expected=spec.terms.map(x=>BigInt(norm(x)));
+ const g=given.reduce((a,b)=>gcd(a,b)),e=expected.reduce((a,b)=>gcd(a,b)),correct=g===1n&&given.every((x,i)=>x===expected[i]);
+ const result={valid:true,correct,normalized:p.value};
+ // Equivalent but not reduced (6:4 for 3:2): recorded as incorrect, with a hint.
+ if(!correct&&g>1n&&given.every((x,k)=>x/g===expected[k]/e)){result.error=RATIO_HINT;result.hint=RATIO_HINT;}
+ return result;
+}
+function gradeOne(raw,spec){if(!spec||typeof spec!=='object'||isParts(spec))return {valid:false,error:'答えの形式を確認できません'};if(isRatio(spec))return gradeRatio(raw,spec);if(Array.isArray(raw))return {valid:false,error:'答えを入力してください'};return gradeSingle(raw,spec);}
+function gradeParts(raw,spec){
+ if(!spec.parts.length)return {valid:false,error:'答えの形式を確認できません'};
+ if(!Array.isArray(raw)||raw.length!==spec.parts.length)return {valid:false,error:'すべての欄に答えを入力してください',parts:spec.parts.map(()=>({valid:false,correct:false}))};
+ const results=spec.parts.map((part,i)=>gradeOne(raw[i],part)),parts=results.map(r=>{const x={valid:!!r.valid,correct:!!r.correct};if(r.error)x.error=r.error;if(r.hint)x.hint=r.hint;return x;});
+ const label=i=>spec.parts[i].label||'('+(i+1)+')',bad=results.findIndex(r=>!r.valid);
+ if(bad>=0)return {valid:false,error:label(bad)+' '+results[bad].error,invalidPart:bad,parts};
+ const result={valid:true,correct:results.every(r=>r.correct),normalized:results.map(r=>r.normalized),parts};
+ const hinted=results.findIndex(r=>r.hint);if(hinted>=0){result.hint=label(hinted)+' '+results[hinted].hint;result.error=result.hint;}
+ return result;
+}
+// Single answers keep the original path unchanged (gradeSingle), including raw coercion.
+function grade(raw,spec){if(isParts(spec))return gradeParts(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);return gradeSingle(raw,spec);}
+function formatAnswer(spec){
+ if(!spec)return '';
+ if(isParts(spec))return spec.parts.map((p,i)=>(p.label||'('+(i+1)+')')+' '+formatAnswer(p)).join('　');
+ if(isRatio(spec))return spec.terms.map(x=>norm(x)).join('：');
+ const value=String(spec.d)==='1'?String(spec.n):spec.n+'/'+spec.d;return spec.unit?value+' '+spec.unit:value;
+}
 function initialState(){return {schemaVersion:1,xp:0,stars:0,materials:0,souls:0,heroBonds:{},bondRuleVersion:2,heroSummons:0,heroEchoes:0,heroExchangeOffers:[],equipmentBoxes:0,equipmentTraining:{'starter-dagger':1},equipmentDiscoveries:0,gearPity:0,loadout:{hero:null,equipment:['starter-dagger']},units:{},attempts:[],rewards:{},daily:{},drafts:{},inventory:{heroes:[],equipment:['starter-dagger']}};}
 function normalizeState(state){const s=clone(state||initialState());if(s.materials==null)s.materials=0;if(s.souls==null)s.souls=0;if(s.heroBonds===undefined)s.heroBonds={};if(s.bondRuleVersion===undefined){if(s.heroBonds&&typeof s.heroBonds==='object'&&!Array.isArray(s.heroBonds)){for(const [id,value] of Object.entries(s.heroBonds))if(Number.isInteger(value)&&value>=0&&value<=300)s.heroBonds[id]=Math.min(value,150);}s.bondRuleVersion=2;}if(s.heroSummons==null)s.heroSummons=0;if(s.heroEchoes===undefined)s.heroEchoes=0;if(s.heroExchangeOffers===undefined)s.heroExchangeOffers=[];if(s.equipmentBoxes==null)s.equipmentBoxes=0;if(s.equipmentTraining==null)s.equipmentTraining={};if(s.equipmentDiscoveries==null)s.equipmentDiscoveries=0;if(s.gearPity==null)s.gearPity=0;if(!s.inventory.equipment.includes('starter-dagger'))s.inventory.equipment.push('starter-dagger');if(s.equipmentTraining['starter-dagger']==null)s.equipmentTraining['starter-dagger']=1;if(s.loadout==null)s.loadout={hero:null,equipment:[]};if(s.loadout.equipment.length<3&&!s.loadout.equipment.includes('starter-dagger'))s.loadout.equipment.push('starter-dagger');for(const d of Object.values(s.daily||{})){if(d.completed==null)d.completed=[];if(d.calcPaid==null)d.calcPaid=[];if(d.chainXp==null)d.chainXp=0;}return s;}
 function migrateHeroRoster(state,reservedIds){const next=normalizeState(state),reserved=new Set(Array.isArray(reservedIds)?reservedIds.filter(id=>typeof id==='string'):[]);if(Array.isArray(next.heroExchangeOffers))next.heroExchangeOffers=next.heroExchangeOffers.filter(id=>typeof id!=='string'||!reserved.has(id));return next;}
@@ -156,5 +199,5 @@ function getRelated(problems,links,current,state,{direction,filters={},day=dayKe
 function calcScore(expression){try{let input=norm(expression).replace(/[×✕]/g,'*').replace(/[{}\[\]]/g,x=>'{['.includes(x)?'(':')');if(input.length>500||/[□=a-zA-Z]/.test(input))throw Error('逆算・未知数はこの試作の自動評価対象外です');let i=0;const features={n:0,f:0,d:0,u:0,p:0,z:1,t:1,h:0,w:0,B:0,A:0},denoms=new Set();const digits=x=>String(abs(x)).length;const digitDecimal=s=>{const r=dec(s);features.d|=s.includes('.')?1:0;features.z=Math.max(features.z,(s.split('.')[0].replace(/^[-+]/,'')||'0').length);features.t=Math.max(features.t,digits(r.d));return r;};function spaces(){while(/\s/.test(input[i]||'')&&i<input.length)i++;}function atom(depth){spaces();if(input[i]==='('){i++;features.p=Math.max(features.p,depth+1);const a=sum(depth+1);spaces();if(input[i++]!==')')throw Error('括弧を確かめてください');return a;}if(input[i]==='+'||input[i]==='-'){const sign=input[i++];const a=atom(depth);return sign==='-'?rat(-a.n,a.d):a;}const m=input.slice(i).match(/^(\d+(?:\.\d*)?|\.\d+)/);if(!m)throw Error('対応していない数式です');i+=m[0].length;let value=digitDecimal(m[0]);const frac=input.slice(i).match(/^\s*\/\s*(\d+)(?![\d.])/);if(frac&&!m[0].includes('.')){i+=frac[0].length;features.f=1;denoms.add(frac[1]);features.t=Math.max(features.t,frac[1].length);value=rat(value.n,frac[1]);}return value;}function op(a,b,c){features.n++;const da=digits(a.n),db=digits(b.n);features.w+=c==='+'||c==='-'?Math.max(0,Math.max(da,db)-2):c==='*'?Math.max(0,da*db-2):Math.max(0,da+db-3);let r;if(c==='+'||c==='-'){if(a.d!==b.d)features.h++;features.t=Math.max(features.t,digits(a.d/gcd(a.d,b.d)*b.d));r=plus(a,rat(c==='-'?-b.n:b.n,b.d));}else r=times(a,c==='/'?rat(b.d,b.n):b);features.t=Math.max(features.t,digits(r.d));return r;}function product(depth){let a=atom(depth);for(;;){spaces();const c=input[i];if(c!=='*'&&c!=='/'&&c!=='÷')return a;i++;a=op(a,atom(depth),c==='÷'?'/':c);}}function sum(depth){let a=product(depth);for(;;){spaces();const c=input[i];if(c!=='+'&&c!=='-')return a;i++;a=op(a,product(depth),c);}}const answer=sum(0);spaces();if(i!==input.length)throw Error('対応していない数式です');if(denoms.size){const v=Math.max(...[...denoms].map(x=>x.length));features.B=denoms.size===1?2*(v-1):4*(v-1)**2;}let q=answer.d,two=0,five=0;while(q%2n===0n){q/=2n;two++;}while(q%5n===0n){q/=5n;five++;}features.A=q===1n?(Math.max(two,five)>3?2:0):(answer.d<=99n?2:4);const {n,f,d,u,p,z,t,h,w,B,A}=features;const score=3*Math.max(n-1,0)+6*f+4*d+4*f*d+10*u+3*p+2*Math.max(z-1,0)+B+2*Math.max(t-1,0)+3*h+2*w+A;return {supported:true,score,star:score<=12?1:score<=27?2:3,answer:out(answer),features};}catch(e){return {supported:false,error:e.message};}}
 
 function createStorage(dbName='sansu-pilot-v1'){let dbPromise;function db(){return dbPromise||(dbPromise=new Promise((resolve,reject)=>{if(typeof indexedDB==='undefined')return reject(Error('この環境では保存機能を利用できません'));const r=indexedDB.open(dbName,1);r.onupgradeneeded=()=>r.result.createObjectStore('state');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error||Error('保存領域を開けません'));r.onblocked=()=>reject(Error('他の画面が保存領域を使用中です'));}));}let queue=Promise.resolve();return {async load(){await queue;const connection=await db();return new Promise((resolve,reject)=>{const tx=connection.transaction('state','readonly');let value;const r=tx.objectStore('state').get('current');r.onsuccess=()=>{value=r.result;};tx.oncomplete=()=>{if(value&&value.schemaVersion!==1)reject(Error('保存データの版が対応外です'));else resolve(normalizeState(value||initialState()));};tx.onerror=tx.onabort=()=>reject(tx.error||Error('保存データを読めません'));});},save(state){const snapshot=clone(state);const action=queue.catch(()=>{}).then(async()=>{const connection=await db();return new Promise((resolve,reject)=>{const tx=connection.transaction('state','readwrite');tx.objectStore('state').put(snapshot,'current');tx.oncomplete=()=>resolve();tx.onerror=tx.onabort=()=>reject(tx.error||Error('端末への保存に失敗しました'));});});queue=action;return action;},async close(){await queue.catch(()=>{});if(dbPromise)(await dbPromise).close();}};}
-const api={initialState,normalizeState,migrateHeroRoster,bondProgress,summonHero,prepareHeroExchange,exchangeHero,getCampaignStatus,dayKey,addDays,level,parseAnswer,grade,selectProblem,commitAttempt,completeLearning,getRelated,calcScore,createStorage};if(typeof module!=='undefined'&&module.exports)module.exports=api;root.SansuCore=api;
+const api={initialState,normalizeState,migrateHeroRoster,bondProgress,summonHero,prepareHeroExchange,exchangeHero,getCampaignStatus,dayKey,addDays,level,parseAnswer,grade,formatAnswer,selectProblem,commitAttempt,completeLearning,getRelated,calcScore,createStorage};if(typeof module!=='undefined'&&module.exports)module.exports=api;root.SansuCore=api;
 })(typeof globalThis!=='undefined'?globalThis:this);

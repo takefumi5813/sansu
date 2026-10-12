@@ -80,14 +80,35 @@
   function scratchMarkup(review=false) {
     return `<section class="scratch-card"><div class="scratch-toolbar"><div class="tool-group"><button id="tool-pen" class="${tool==='pen'?'active':''}">ペン</button><button id="tool-erase" class="${tool==='eraser'?'active':''}">消しゴム</button><button id="ink-undo" class="quiet">1本戻す</button></div><div class="tool-group">${['#203c42','#29669b','#aa493d'].map(c=>`<button class="color-btn ${color===c?'active':''}" data-color="${c}" style="background:${c}" aria-label="${c==='#203c42'?'黒':c==='#29669b'?'青':'赤'}ペン"></button>`).join('')}<select id="pen-width" aria-label="ペンの太さ"><option value="2" ${width===2?'selected':''}>細</option><option value="3" ${width===3?'selected':''}>標準</option><option value="5" ${width===5?'selected':''}>太</option></select></div></div><div class="scratch-viewport"><div class="scratch-inner"><canvas id="scratch-canvas" class="scratch-canvas" aria-label="計算と図の下書き"></canvas></div></div><div class="scratch-foot"><label><input type="checkbox" id="finger-mode" ${finger?'checked':''}> 指でも書く</label><div><button id="ink-zoom" class="quiet" style="min-height:30px;padding:0 9px">拡大 ${zoom}×</button> <span id="ink-saved">${storageBroken?'未保存':'下書きは端末に保存'}</span></div></div></section>`;
   }
+  // Answer formats: single {n,d,unit,dimension}; ratio {dimension:'ratio',terms}; multiple fields {parts:[{label,...}]}.
+  const isPartsSpec=spec=>Array.isArray(spec?.parts);
+  const isRatioSpec=spec=>spec?.dimension==='ratio';
+  function answerFieldsMarkup(spec){
+    const field=(part,id,label)=>`<input id="${id}" class="answer-input" type="text" inputmode="${isRatioSpec(part)?'text':'decimal'}" autocomplete="off" maxlength="200" placeholder="${isRatioSpec(part)?'比を入力（例 3：2）':'数を入力'}" aria-describedby="answer-error"${label?` aria-label="${esc(label)}の答え"`:''}><span class="unit-label"${label?' style="min-width:2.2em"':''}>${esc(part.unit||'')}</span>`;
+    if(!isPartsSpec(spec))return `<label for="answer">答え</label>${field(spec||{},'answer')}`;
+    return `<label>答え</label><div class="answer-parts" style="display:flex;flex-direction:column;gap:8px;width:100%">${spec.parts.map((part,i)=>{const label=part.label||`(${i+1})`;return `<div class="answer-part" data-part="${i}" style="display:flex;align-items:center;gap:10px;flex-wrap:nowrap"><span class="part-label" style="min-width:2.6em;font-weight:700">${esc(label)}</span>${field(part,'answer-'+i,label)}</div>`;}).join('')}</div>`;
+  }
+  function keypadMarkup(spec){
+    const ratio=isPartsSpec(spec)?spec.parts.some(isRatioSpec):isRatioSpec(spec);
+    const keys=['7','8','9','4','5','6','／','1','2','3','0','．','−','⌫'];if(ratio)keys.splice(13,0,'：');
+    return `<div class="keypad" aria-label="数字と分数の入力"${ratio?' style="grid-template-columns:repeat(8,1fr)"':''}>${keys.map(x=>`<button type="button" data-key="${x}">${x}</button>`).join('')}</div>`;
+  }
+  function answerInputs(){return $$('#answer-form .answer-input');}
+  function answerRaw(spec){return isPartsSpec(spec)?answerInputs().map(input=>input.value):$('#answer').value;}
+  function lockAnswer(){answerInputs().forEach(input=>input.disabled=true);$('#hint-open').disabled=true;}
+  function partsSummary(r,spec){
+    if(!isPartsSpec(spec)||!Array.isArray(r.parts))return '';
+    return `<p class="caption part-results">${spec.parts.map((part,i)=>`${esc(part.label||`(${i+1})`)} ${r.parts[i]?.correct?'○':'×'}`).join('　')}</p>`;
+  }
   function renderQuestion() {
     disposeCanvases(); const p=effectiveProblem();
-    app.innerHTML=`<div class="learning-head"><div><span class="pill">${names[p.category]}</span> <span class="caption">${session.purpose==='variant'?'理解を確かめる1問 · 経験値0pt':session.purpose==='practice'?'練習 · 経験値0pt':p.category==='calc'?({1:'標準',2:'応用',3:'難問'}[p.star]):'答えにたどり着く考え方を探そう'}</span></div><button id="leave-question" class="quiet">今日はここまで</button></div><div class="learning-grid">${questionPaper(p)}<div>${scratchMarkup()}</div></div><form id="answer-form" class="answer-panel"><label for="answer">答え</label><input id="answer" class="answer-input" type="text" inputmode="decimal" autocomplete="off" maxlength="200" placeholder="数を入力" aria-describedby="answer-error"><span class="unit-label">${esc(p.answer.unit)}</span><button id="submit-answer" type="submit" class="primary">OK</button><button id="hint-open" type="button" class="quiet">考え方のヒント</button><p id="answer-error" class="answer-message" hidden></p></form><div class="keypad" aria-label="数字と分数の入力">${['7','8','9','4','5','6','／','1','2','3','0','．','−','⌫'].map(x=>`<button type="button" data-key="${x}">${x}</button>`).join('')}</div><div id="answer-result"></div>`;
+    app.innerHTML=`<div class="learning-head"><div><span class="pill">${names[p.category]}</span> <span class="caption">${session.purpose==='variant'?'理解を確かめる1問 · 経験値0pt':session.purpose==='practice'?'練習 · 経験値0pt':p.category==='calc'?({1:'標準',2:'応用',3:'難問'}[p.star]):'答えにたどり着く考え方を探そう'}</span></div><button id="leave-question" class="quiet">今日はここまで</button></div><div class="learning-grid">${questionPaper(p)}<div>${scratchMarkup()}</div></div><form id="answer-form" class="answer-panel">${answerFieldsMarkup(p.answer)}<button id="submit-answer" type="submit" class="primary">OK</button><button id="hint-open" type="button" class="quiet">考え方のヒント</button><p id="answer-error" class="answer-message" hidden></p></form>${keypadMarkup(p.answer)}<div id="answer-result"></div>`;
     bindPaper();bindScratch();
     $('#leave-question').onclick=finish;
     $('#answer-form').onsubmit=submitAnswer;
     $('#hint-open').onclick=()=>{session.assisted=true;const step=p.explanation.steps[0];toast(step?.body||'問題の条件と、求めたいものを整理してみよう。');$('#hint-open').textContent='ヒントを利用中';};
-    $$('[data-key]').forEach(b=>b.onclick=()=>{const input=$('#answer');if(input.disabled)return;const k=b.dataset.key;input.value=k==='⌫'?input.value.slice(0,-1):input.value+({'／':'/','．':'.','−':'-'}[k]||k);input.focus();});
+    session.lastField=0;$$('.answer-input').forEach((input,i)=>input.addEventListener('focus',()=>{session.lastField=i;}));
+    $$('[data-key]').forEach(b=>b.onclick=()=>{const input=answerInputs()[session.lastField]||answerInputs()[0];if(!input||input.disabled)return;const k=b.dataset.key;input.value=k==='⌫'?input.value.slice(0,-1):input.value+({'／':'/','．':'.','−':'-','：':':'}[k]||k);input.focus();});
     if(session.purpose==='normal'&&state.attempts.some(a=>a.problemId===p.id)){
       const old=state.attempts.filter(a=>a.problemId===p.id).at(-1),draft=old&&state.drafts[old.id];
       if(draft){const b=document.createElement('button');b.type='button';b.className='quiet';b.textContent='前回の下書きを見る（補助）';b.onclick=()=>{session.assisted=true;ink=clone(draft.ink||[]);figureInk=clone(draft.figureInk||[]);renderQuestion();toast('前回の下書きを表示しました。今回の正解は独力正解に数えません。');};$('.scratch-foot').append(b);}
@@ -167,12 +188,12 @@
     e.preventDefault();if(!session||session.result||!checkDay())return;
     const active=session,options={id:active.id,day:active.day,assisted:active.assisted,purpose:active.purpose,chainIndex:active.chainIndex,mode:active.mode,heroId:active.heroId};
     const button=$('#submit-answer');button.disabled=true;$('#answer-error').hidden=true;
-    const raw=$('#answer').value;let response;
+    const spec=active.purpose==='variant'?active.problem.variant?.answer:active.problem.answer,raw=answerRaw(spec);let response;answerInputs().forEach(input=>input.removeAttribute('aria-invalid'));
     await enqueue(s=>{response=C.commitAttempt(s,active.problem,{...options,raw});return response.state;});
     if(!currentSession(active)||view!=='question')return;
-    if(!response.result.valid){$('#answer-error').textContent=response.result.error;$('#answer-error').hidden=false;button.disabled=false;return;}
-    if(response.result.needsGraduationCheck){session.pendingRaw=raw;$('#answer').disabled=true;$('#hint-open').disabled=true;renderGraduationCheck();return;}
-    session.result=response.result;$('#answer').disabled=true;$('#hint-open').disabled=true;renderResult();
+    if(!response.result.valid){$('#answer-error').textContent=response.result.error;$('#answer-error').hidden=false;button.disabled=false;const bad=Number.isInteger(response.result.invalidPart)?answerInputs()[response.result.invalidPart]:null;if(bad){bad.setAttribute('aria-invalid','true');bad.focus();}return;}
+    if(response.result.needsGraduationCheck){session.pendingRaw=raw;lockAnswer();renderGraduationCheck();return;}
+    session.result=response.result;lockAnswer();renderResult();
   }
   function renderGraduationCheck(){
     const cp=effectiveProblem().explanation.steps.find(x=>x.checkpoint)?.checkpoint;
@@ -184,7 +205,7 @@
     const r=session.result,p=effectiveProblem(),independent=r.correct&&r.qualified;
     const canSame=session.chainIndex<2&&session.purpose==='normal'&&independent&&C.getRelated(DATA.problems,DATA.links,session.problem,state,{direction:'same',filters:filters(),day:session.day});
     const canUp=session.chainIndex<2&&session.purpose==='normal'&&independent&&C.getRelated(DATA.problems,DATA.links,session.problem,state,{direction:'up',filters:filters(),day:session.day});
-    $('#answer-result').innerHTML=`<section class="result-card ${independent||r.correct&&session.purpose!=='normal'?'':'wrong'}"><h2>${r.graduated?'代表問題を卒業！':independent?'正解。ひとつ、力になりました。':r.correct?'答えは合っています。考え方も確かめよう。':'ここから、わかるに変えよう。'}</h2><p>${r.graduated?'間隔を空けて解き、考え方も確認できました。':session.purpose==='variant'?'説明を読んだ直後の理解確認です。元の問題の復習日は変わりません。':session.purpose==='practice'?'練習として記録しました。復習の段階と経験値は変わりません。':independent?(r.due?`次は ${r.due} ごろに復習します。`:'今日の計算を記録しました。'):(r.due?`解説で確かめて、${r.due} にもう一度。`:'解説のチェックポイントで、考え方を確かめましょう。')}</p><span class="xp-label">${r.xp?`＋${r.xp}pt`:'経験値の追加なし'}</span> <span class="caption">${r.materials?`· 鍛造素材 ＋${r.materials}`:r.souls?`· 英雄の魂 ＋${r.souls}`:''}</span>${r.equipmentBoxes&&!r.equipmentLottery?'<span class="caption box-reward"> · 装備箱 ＋'+r.equipmentBoxes+'</span>':''}${r.equipmentLottery?`<p class="caption equipment-lottery">${equipmentLotteryText(r.equipmentLottery)}</p>`:''}${bondResult(r.bond)}<div class="result-actions"><button id="explanation-open" class="${independent?'quiet':'primary'}">${independent?'解き方を振り返る':'解説を一つずつ見る'}</button>${canSame?'<button id="related-same" class="gold-btn">同じ難しさで広げる</button>':''}${canUp?'<button id="related-up" class="gold-btn">一段階上に挑戦</button>':''}${p.category==='calc'&&session.purpose==='normal'?'<button id="next-calculation" class="gold-btn">次の計算へ</button>':''}<button id="finish-session" class="${independent?'primary':'quiet'}">今日はここまで</button></div></section>`;
+    $('#answer-result').innerHTML=`<section class="result-card ${independent||r.correct&&session.purpose!=='normal'?'':'wrong'}"><h2>${r.graduated?'代表問題を卒業！':independent?'正解。ひとつ、力になりました。':r.correct?'答えは合っています。考え方も確かめよう。':'ここから、わかるに変えよう。'}</h2><p>${r.graduated?'間隔を空けて解き、考え方も確認できました。':session.purpose==='variant'?'説明を読んだ直後の理解確認です。元の問題の復習日は変わりません。':session.purpose==='practice'?'練習として記録しました。復習の段階と経験値は変わりません。':independent?(r.due?`次は ${r.due} ごろに復習します。`:'今日の計算を記録しました。'):(r.due?`解説で確かめて、${r.due} にもう一度。`:'解説のチェックポイントで、考え方を確かめましょう。')}</p>${partsSummary(r,p.answer)}${r.hint?`<p class="caption ratio-hint">${esc(r.hint)}</p>`:''}<span class="xp-label">${r.xp?`＋${r.xp}pt`:'経験値の追加なし'}</span> <span class="caption">${r.materials?`· 鍛造素材 ＋${r.materials}`:r.souls?`· 英雄の魂 ＋${r.souls}`:''}</span>${r.equipmentBoxes&&!r.equipmentLottery?'<span class="caption box-reward"> · 装備箱 ＋'+r.equipmentBoxes+'</span>':''}${r.equipmentLottery?`<p class="caption equipment-lottery">${equipmentLotteryText(r.equipmentLottery)}</p>`:''}${bondResult(r.bond)}<div class="result-actions"><button id="explanation-open" class="${independent?'quiet':'primary'}">${independent?'解き方を振り返る':'解説を一つずつ見る'}</button>${canSame?'<button id="related-same" class="gold-btn">同じ難しさで広げる</button>':''}${canUp?'<button id="related-up" class="gold-btn">一段階上に挑戦</button>':''}${p.category==='calc'&&session.purpose==='normal'?'<button id="next-calculation" class="gold-btn">次の計算へ</button>':''}<button id="finish-session" class="${independent?'primary':'quiet'}">今日はここまで</button></div></section>`;
     $('#explanation-open').onclick=()=>{view='explanation';session.step=0;renderExplanation();};$('#finish-session').onclick=finish;
     if($('#next-calculation'))$('#next-calculation').onclick=()=>{const next=C.selectProblem(DATA.problems,state,{...filters(),category:'calc'},today());if(next)startProblem(next);};
     if(canSame)$('#related-same').onclick=()=>startProblem(canSame,'normal',session.chainIndex+1);

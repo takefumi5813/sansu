@@ -5,6 +5,11 @@ All content is UTF-8 JSON. Never modify sources/, Notion, existing Dropbox files
 
 Content files contain {"problems":[],"units":[],"links":[],"analysis":[]}.
 Problem: id, unitId, category (calc/oneline/geometry), text (exact source), source {title,path,locator,url?,verification}, answer {n:string,d:string,unit:string,dimension:scalar|length|area|volume|time|speed|percent, acceptedUnits?:object}, difficulty:number, star?:1|2|3, score?:number, expression?:string, figure?:string (relative figs/ path), figureRequired:boolean, explanation:{steps:[{id,title,body,equation:string,visual?:{kind:string,...},checkpoint?:{prompt,answer:{n,d,unit,dimension}}}]}, variant?:{text,answer,explanation}, scopeUnits:string[], homeStudy:boolean, revision:1.
+Answer formats (2026-10-12 追加): answer is one of
+- single (unchanged): {n,d,unit,dimension,acceptedUnits?}
+- ratio: {dimension:'ratio',terms:string[] (2項以上の正の整数、既約で記入),unit:''}. 入力 "3:2" "3：2" "3対2"（全角可、3項以上も同形式）。項数・正の整数が守られていれば valid。既約かつ terms と完全一致のみ correct。既約でない等価な比は correct:false で error/hint「最も簡単な整数の比で答えよう」。
+- parts: {parts:[{label,...single|ratio},...]}（入れ子不可）。raw は欄数と同じ長さの文字列配列。全欄 correct のときだけ correct。無効な欄があれば valid:false, error「(label) …」, invalidPart。結果に parts:[{valid,correct,error?,hint?}]、normalized は各欄の配列。
+SansuCore.formatAnswer(spec) は表示用文字列（例「(1) 22 cm　(2) 56 cm²」「3：2」）。checkpoint.answer は single のまま。
 Unit: id,name,domain,definition,representativeId,decision,prerequisites:string[].
 Link: from,to,relation:contrast|extension|transfer|prerequisite,difference:string.
 Pilot examples should be 3 calc + 3 oneline + 3 geometry where source fidelity is actually verifiable; fewer is acceptable only with documented source limitation. No invented source text or reconstructed original figures. Original DB figures for geometry; educational SVG is allowed only in explanation.
