@@ -4516,6 +4516,92 @@
    "selectionKey": "T07/往路後の引返し位置と後発時間"
   },
   {
+   "id": "ready-fcdb65eaedb4e722",
+   "unitId": "selection.T08.speed.midpoint-offset.staggered-start",
+   "category": "oneline",
+   "domain": "速さ",
+   "text": "アオイさんは10時にA町を出て、分速60mの速さでB町に向かい、ナツキさんは10時4分にB町を出て、分速75mの速さでA町に向かいました。途中、A町とB町のまん中より60mA町に近いところで2人は出会いました。\n(1) 2人が出会ったのは、何時何分ですか。\n(2) A町とB町の間の距離は何mですか。",
+   "source": {
+    "title": "GW518-10② 1,2",
+    "url": "https://app.notion.com/3f42b010743c812db2bbdec81a39d1e5",
+    "locator": "Notion 指定小問 1,2",
+    "sourceText": "アオイさんは10時にA町を出て、分速60mの速さでB町に向かい、ナツキさんは10時4分にB町を出て、分速75mの速さでA町に向かいました。途中、A町とB町のまん中より60mA町に近いところで2人は出会いました。\n(1) 2人が出会ったのは、何時何分ですか。\n(2) A町とB町の間の距離は何mですか。",
+    "sourceAnswer": "(1) 10時28分　(2) 3480m",
+    "verification": "本文条件から作成者と検算者が別々に解き、資料の答えと一致を確認。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "dimension": "clock",
+      "h": "10",
+      "m": "28",
+      "unit": ""
+     },
+     {
+      "label": "(2)",
+      "n": "3480",
+      "d": "1",
+      "unit": "m",
+      "dimension": "length"
+     }
+    ]
+   },
+   "difficulty": 5,
+   "figureRequired": false,
+   "scopeUnits": [
+    "GW518"
+   ],
+   "homeStudy": false,
+   "reviewEligible": false,
+   "expeditionOnly": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "条件を整理する",
+      "body": "アオイさんは10時、ナツキさんは4分おそい10時4分に出発します。出会った場所はまん中よりA町側に60mなので、ナツキさんのほうが60×2＝120m多く進んでいます。",
+      "equation": "60×2＝120（m）"
+     },
+     {
+      "id": "s2",
+      "title": "同じ時間で比べる",
+      "body": "ナツキさんが出発してからは、2人とも同じ時間歩きます。その間、ナツキさんは1分に75−60＝15m多く進みます。",
+      "equation": "75−60＝15（m）"
+     },
+     {
+      "id": "s3",
+      "title": "アオイさんの先行分を入れる",
+      "body": "でも、アオイさんは先に4分で240m歩いています。ナツキさんが120m多くなるには、この240mもとりかえす必要があります。",
+      "equation": "（120＋60×4）÷15＝24（分）"
+     },
+     {
+      "id": "s4",
+      "title": "時刻と距離を出す",
+      "body": "ナツキさんは10時4分から24分歩いたので、出会ったのは10時28分です。2人の進んだ道のりを合わせると全体の距離になります。",
+      "equation": "60×28＋75×24＝3480（m）"
+     },
+     {
+      "id": "s5",
+      "title": "確かめる",
+      "body": "アオイさんは1680m、ナツキさんは1800m進み、差は120mです。まん中は1740mなので、出会った所はまん中よりA町に60m近い所です。",
+      "equation": "3480÷2−1680＝60（m）",
+      "checkpoint": {
+       "prompt": "ナツキさんが出発してから2人が出会うまで何分ですか。",
+       "answer": {
+        "n": "24",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time"
+       }
+      }
+     }
+    ]
+   },
+   "selectionKey": "T08/speed.midpoint-offset.staggered-start"
+  },
+  {
    "id": "ready-e454f4bb4dde3199",
    "unitId": "selection.T08.出会い後の同一区間で速度比を得る",
    "category": "oneline",
@@ -4602,6 +4688,93 @@
     ]
    },
    "selectionKey": "T08/出会い後の同一区間で速度比を得る"
+  },
+  {
+   "id": "ready-4c55a83030fadce4",
+   "unitId": "selection.T09.speed.three-people.staggered-common-meet",
+   "category": "oneline",
+   "domain": "速さ",
+   "text": "10mを進むのに、Aさんは6秒、Bさんは5秒、Cさんは10秒かかります。甲町と乙町を結ぶ道があり、Aさんは午前7時30分に甲町を、Bさんは午前8時に甲町をそれぞれ出発し乙町に向かいました。Cさんは午前8時30分に乙町を出発し甲町に向かったところ、3人は道の途中でちょうど出会いました。このとき、次の問に答えなさい。\n(1) 3人が道の途中でちょうど出会った時刻を求めなさい。\n(2) 甲町と乙町は何km離れていますか。\n（ラ・サール）",
+   "source": {
+    "title": "GW507-30① 1,2",
+    "url": "https://app.notion.com/3f42b010743c811d8edfe15c9bea4f68",
+    "locator": "Notion 指定小問 1,2",
+    "sourceText": "10mを進むのに、Aさんは6秒、Bさんは5秒、Cさんは10秒かかります。甲町と乙町を結ぶ道があり、Aさんは午前7時30分に甲町を、Bさんは午前8時に甲町をそれぞれ出発し乙町に向かいました。Cさんは午前8時30分に乙町を出発し甲町に向かったところ、3人は道の途中でちょうど出会いました。このとき、次の問に答えなさい。\n(1) 3人が道の途中でちょうど出会った時刻を求めなさい。\n(2) 甲町と乙町は何km離れていますか。\n（ラ・サール）",
+    "sourceAnswer": "(1) 午前10時30分　(2) 25.2km",
+    "verification": "本文条件から作成者と検算者が別々に解き、資料の答えと一致を確認。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "dimension": "clock",
+      "h": "10",
+      "m": "30",
+      "ampm": "午前",
+      "unit": ""
+     },
+     {
+      "label": "(2)",
+      "n": "126",
+      "d": "5",
+      "unit": "km",
+      "dimension": "length"
+     }
+    ]
+   },
+   "difficulty": 5,
+   "figureRequired": false,
+   "scopeUnits": [
+    "GW507"
+   ],
+   "homeStudy": false,
+   "reviewEligible": false,
+   "expeditionOnly": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "速さを分速にそろえる",
+      "body": "10mを進む時間から、1分（60秒）で進む道のりを出します。Aは分速100m、Bは分速120m、Cは分速60mです。",
+      "equation": "10×（60÷6）＝100（m）"
+     },
+     {
+      "id": "s2",
+      "title": "AとBの出会いを先に考える",
+      "body": "3人が同じ所で出会ったので、まずBがAに追いつく時刻を決めます。Bが出発する8時に、Aは30分で3000m先にいます。",
+      "equation": "100×30＝3000（m）"
+     },
+     {
+      "id": "s3",
+      "title": "追いつくまでの時間",
+      "body": "同じ方向に進むので、1分に速さの差20mずつ近づきます。",
+      "equation": "3000÷（120−100）＝150（分）"
+     },
+     {
+      "id": "s4",
+      "title": "時刻と道のり",
+      "body": "8時の150分後なので午前10時30分です。Aはここまで180分で18000m、Cは8時30分から120分で7200m進んでいます。",
+      "equation": "100×180＋60×120＝25200（m）"
+     },
+     {
+      "id": "s5",
+      "title": "確かめる",
+      "body": "Bも150分で120×150＝18000m進み、Aと同じ場所にいます。甲町から18000m、乙町から7200mなので、全体は25.2kmです。",
+      "equation": "25200m＝25.2km",
+      "checkpoint": {
+       "prompt": "Bが出発してからAに追いつくまで何分かかりますか。",
+       "answer": {
+        "n": "150",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time"
+       }
+      }
+     }
+    ]
+   },
+   "selectionKey": "T09/speed.three-people.staggered-common-meet"
   },
   {
    "id": "ready-ba156bc539739d76",
@@ -4986,6 +5159,92 @@
    "selectionKey": "T12/speed.rest-interval.overlap"
   },
   {
+   "id": "ready-24ca44ebc681febe",
+   "unitId": "selection.T12.speed.shared-arrival.rest-and-rate",
+   "category": "oneline",
+   "domain": "速さ",
+   "text": "A地点とB地点をむすぶ4800mのハイキングコースがあります。コースのとちゅう、A地点から1800mはなれたところに展望台があります。ケンタ君は8時にA地点を出発し、とちゅう、展望台で30分休んだあと、ふたたび歩いてB地点に着きました。ミドリさんも8時にB地点を出発し、とちゅう、展望台で46分休んだあと、ふたたび歩いてA地点に着きました。ケンタ君がB地点に着いたのと、ミドリさんがA地点に着いたのは同時でした。ケンタ君の歩く速さはいつも分速60mで、ミドリさんもいつも同じ速さで歩きました。\n「B町から展望台までは3000mよ。」\n(1) ケンタ君がB地点に着いたのは何時何分ですか。\n(2) ミドリさんの歩く速さは分速何mですか。",
+   "source": {
+    "title": "GW428-23② 1,2",
+    "url": "https://app.notion.com/3f42b010743c812891fae0fce59069b5",
+    "locator": "Notion 指定小問 1,2",
+    "sourceText": "A地点とB地点をむすぶ4800mのハイキングコースがあります。コースのとちゅう、A地点から1800mはなれたところに展望台があります。ケンタ君は8時にA地点を出発し、とちゅう、展望台で30分休んだあと、ふたたび歩いてB地点に着きました。ミドリさんも8時にB地点を出発し、とちゅう、展望台で46分休んだあと、ふたたび歩いてA地点に着きました。ケンタ君がB地点に着いたのと、ミドリさんがA地点に着いたのは同時でした。ケンタ君の歩く速さはいつも分速60mで、ミドリさんもいつも同じ速さで歩きました。(ふきだし：「B町から展望台までは3000mよ。」)\n(1) ケンタ君がB地点に着いたのは何時何分ですか。\n(2) ミドリさんの歩く速さは分速何mですか。\n(3) 2人がいっしょに展望台にいた時間は何分間ですか。",
+    "sourceAnswer": "(1) 9時50分　(2) 分速75m　(3) 20分間",
+    "verification": "本文条件から作成者と検算者が別々に解き、資料の答えと一致を確認。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "dimension": "clock",
+      "h": "9",
+      "m": "50",
+      "unit": ""
+     },
+     {
+      "label": "(2)",
+      "n": "75",
+      "d": "1",
+      "unit": "m/分",
+      "dimension": "speed"
+     }
+    ]
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "GW428"
+   ],
+   "homeStudy": false,
+   "reviewEligible": false,
+   "expeditionOnly": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "条件を整理する",
+      "body": "ケンタ君はA地点から展望台まで1800m、展望台からB地点まで4800−1800＝3000mを分速60mで歩き、とちゅう30分休みます。",
+      "equation": "4800−1800＝3000（m）"
+     },
+     {
+      "id": "s2",
+      "title": "ケンタ君のかかった時間",
+      "body": "歩いた時間と休んだ時間を合わせます。",
+      "equation": "1800÷60＋30＋3000÷60＝110（分）"
+     },
+     {
+      "id": "s3",
+      "title": "着いた時刻",
+      "body": "8時から110分後なので、9時50分にB地点に着きます。",
+      "equation": "8時＋1時間50分＝9時50分"
+     },
+     {
+      "id": "s4",
+      "title": "ミドリさんの歩いた時間",
+      "body": "ミドリさんも8時に出て9時50分に着いたので110分かかりました。休んだ46分を引いた時間で4800m歩いています。",
+      "equation": "4800÷（110−46）＝75（m/分）"
+     },
+     {
+      "id": "s5",
+      "title": "確かめる",
+      "body": "ミドリさんはB地点から展望台まで3000÷75＝40分、展望台からA地点まで1800÷75＝24分歩きます。40＋46＋24＝110分で、ケンタ君と同時に着きます。",
+      "equation": "40＋46＋24＝110（分）",
+      "checkpoint": {
+       "prompt": "ミドリさんが歩いていた時間は合わせて何分ですか。",
+       "answer": {
+        "n": "64",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time"
+       }
+      }
+     }
+    ]
+   },
+   "selectionKey": "T12/speed.shared-arrival.rest-and-rate"
+  },
+  {
    "id": "ready-8dc2d376e1c1852e",
    "unitId": "selection.T12.休憩による欠落距離と速度差",
    "category": "oneline",
@@ -5077,6 +5336,92 @@
     ]
    },
    "selectionKey": "T12/休憩による欠落距離と速度差"
+  },
+  {
+   "id": "ready-e7adb6d2de2408b1",
+   "unitId": "selection.T16.speed.arrival-difference.with-start-time",
+   "category": "oneline",
+   "domain": "速さ",
+   "text": "ミドリさんは7時55分に家を出て、分速80mで歩くと、始業時刻に5分遅れて学校に着きます。また、分速100mで歩くと始業時刻の1分前に着きます。\n(1) 家から学校までの距離を求めなさい。\n(2) 学校の始業時刻を求めなさい。",
+   "source": {
+    "title": "R20H④-4 1,2",
+    "url": "https://app.notion.com/3f52b010743c815fb2e8c672b505297b",
+    "locator": "Notion 指定小問 1,2",
+    "sourceText": "ミドリさんは7時55分に家を出て、分速80mで歩くと、始業時刻に5分遅れて学校に着きます。また、分速100mで歩くと始業時刻の1分前に着きます。\n(1) 家から学校までの距離を求めなさい。\n(2) 学校の始業時刻を求めなさい。",
+    "sourceAnswer": "(1) 2400m　(2) 8時20分",
+    "verification": "本文条件から作成者と検算者が別々に解き、資料の答えと一致を確認。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "2400",
+      "d": "1",
+      "unit": "m",
+      "dimension": "length"
+     },
+     {
+      "label": "(2)",
+      "dimension": "clock",
+      "h": "8",
+      "m": "20",
+      "unit": ""
+     }
+    ]
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R20"
+   ],
+   "homeStudy": false,
+   "reviewEligible": false,
+   "expeditionOnly": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "条件を整理する",
+      "body": "分速80mでは始業の5分後、分速100mでは始業の1分前に着きます。かかる時間の差は5＋1＝6分です。",
+      "equation": "5＋1＝6（分）"
+     },
+     {
+      "id": "s2",
+      "title": "1mあたりの時間の差",
+      "body": "1mにかかる時間は、分速80mなら1/80分、分速100mなら1/100分で、その差は1/400分です。",
+      "equation": "1/80−1/100＝1/400（分）"
+     },
+     {
+      "id": "s3",
+      "title": "距離を出す",
+      "body": "1mにつき1/400分の差が、全体では6分の差になります。",
+      "equation": "6÷1/400＝2400（m）"
+     },
+     {
+      "id": "s4",
+      "title": "始業時刻を出す",
+      "body": "分速80mでは2400÷80＝30分かかり、7時55分に出て8時25分に着きます。これが5分遅れなので、始業は8時20分です。",
+      "equation": "8時25分−5分＝8時20分"
+     },
+     {
+      "id": "s5",
+      "title": "確かめる",
+      "body": "分速100mでは2400÷100＝24分で、8時19分に着きます。これは始業の1分前で、条件に合います。",
+      "equation": "7時55分＋24分＝8時19分",
+      "checkpoint": {
+       "prompt": "2つの歩き方で、かかる時間の差は何分ですか。",
+       "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time"
+       }
+      }
+     }
+    ]
+   },
+   "selectionKey": "T16/speed.arrival-difference.with-start-time"
   },
   {
    "id": "ready-75ed9e4ded8c23e9",
@@ -5417,6 +5762,81 @@
     ]
    },
    "selectionKey": "T18/speed.river.common-current-and-ability-ratio"
+  },
+  {
+   "id": "ready-15a53b5f8aba7d83",
+   "unitId": "selection.T22.clock.inaccurate.display-after-elapsed",
+   "category": "oneline",
+   "domain": "速さ",
+   "text": "8時間で3分遅れる時計があります。この時計を正午の時報に合わせると、その日の午後10時には　時　分　秒を示しています。",
+   "source": {
+    "title": "GN比③例4",
+    "url": "https://app.notion.com/3f52b010743c81178425ca66ef266676",
+    "locator": "Notion 全体",
+    "sourceText": "8時間で3分遅れる時計があります。この時計を正午の時報に合わせると、その日の午後10時には　時　分　秒を示しています。",
+    "sourceAnswer": "9時56分15秒",
+    "verification": "本文条件から作成者と検算者が別々に解き、資料の答えと一致を確認。"
+   },
+   "answer": {
+    "dimension": "clock",
+    "h": "9",
+    "m": "56",
+    "s": "15",
+    "unit": ""
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "scopeUnits": [
+    "GN比"
+   ],
+   "homeStudy": false,
+   "reviewEligible": false,
+   "expeditionOnly": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "条件を整理する",
+      "body": "この時計は正しい時間で8時間たつごとに3分遅れます。正午から午後10時までは10時間です。",
+      "equation": "午後10時−正午＝10時間"
+     },
+     {
+      "id": "s2",
+      "title": "遅れは時間に比例する",
+      "body": "遅れ方はいつも同じなので、遅れる量はたった時間に比例します。1時間あたりの遅れを出してから10倍します。",
+      "equation": "3÷8×10＝3と3/4（分）"
+     },
+     {
+      "id": "s3",
+      "title": "分と秒に直す",
+      "body": "3/4分は60×3/4＝45秒なので、遅れは3分45秒です。",
+      "equation": "60×3/4＝45（秒）"
+     },
+     {
+      "id": "s4",
+      "title": "時計の示す時刻",
+      "body": "正しい時刻10時より3分45秒もどった時刻を示します。",
+      "equation": "10時−3分45秒＝9時56分15秒"
+     },
+     {
+      "id": "s5",
+      "title": "確かめる",
+      "body": "8時間で3分遅れるので、10時間なら8時間の1.25倍、遅れも3×1.25＝3.75分です。",
+      "equation": "3×1.25＝3.75（分）",
+      "checkpoint": {
+       "prompt": "この時計は、正午から午後10時までに何分遅れますか。",
+       "answer": {
+        "n": "15",
+        "d": "4",
+        "unit": "分",
+        "dimension": "time"
+       }
+      }
+     }
+    ]
+   },
+   "selectionKey": "T22/clock.inaccurate.display-after-elapsed"
   },
   {
    "id": "ready-ac16eef7ae3fca22",
@@ -7169,6 +7589,74 @@
    "selectionKey": "Q06/Q06-U05"
   },
   {
+   "id": "ready-0d4e30f097f628d2",
+   "unitId": "selection.T03.speed.staggered-start.opposite",
+   "category": "oneline",
+   "domain": "速さ",
+   "text": "AとBの家は、道にそって3kmはなれています。Aは8時に家を出てBの家へ向かいました。Bは8時6分に家を出てAの家へ向かいました。2人は何時何分に出会いますか。Aは分速75m、Bは分速95mです。",
+   "source": {
+    "title": "R20N①-3",
+    "url": "https://app.notion.com/3f42b010743c814d90b1d92f40e340a1",
+    "locator": "Notion 全体",
+    "sourceText": "AとBの家は、道にそって3kmはなれています。Aは8時に家を出てBの家へ向かいました。Bは8時6分に家を出てAの家へ向かいました。2人は何時何分に出会いますか。Aは分速75m、Bは分速95mです。",
+    "sourceAnswer": "8時21分",
+    "verification": "本文条件から作成者と検算者が別々に解き、資料の答えと一致を確認。"
+   },
+   "answer": {
+    "dimension": "clock",
+    "h": "8",
+    "m": "21",
+    "unit": ""
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R20"
+   ],
+   "homeStudy": false,
+   "reviewEligible": false,
+   "expeditionOnly": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "条件の整理",
+      "body": "AはBより6分早く出発します。道のりは3km＝3000mです。",
+      "equation": "3km＝3000m"
+     },
+     {
+      "id": "s2",
+      "title": "先に進んだ道のり",
+      "body": "Bが出発するまでの6分で、Aだけが進みます。",
+      "equation": "75×6＝450（m）"
+     },
+     {
+      "id": "s3",
+      "title": "向かい合って近づく",
+      "body": "Bが出発してからは、2人の速さの和で近づきます。",
+      "equation": "（3000－450）÷（75＋95）＝15（分）"
+     },
+     {
+      "id": "s4",
+      "title": "確かめ",
+      "body": "出会うのはBが出発してから15分後なので、8時6分の15分後です。",
+      "equation": "8時6分＋15分＝8時21分",
+      "checkpoint": {
+       "prompt": "Bが出発する8時6分までに、Aは何m進んでいますか。",
+       "answer": {
+        "n": "450",
+        "d": "1",
+        "unit": "m",
+        "dimension": "length"
+       }
+      }
+     }
+    ]
+   },
+   "selectionKey": "T03/speed.staggered-start.opposite"
+  },
+  {
    "id": "ready-78c0593d580489fc",
    "unitId": "selection.T05.speed.track.sum-and-difference",
    "category": "oneline",
@@ -7323,6 +7811,87 @@
    "selectionKey": "T05/周回反対向きの初出会い"
   },
   {
+   "id": "ready-ea6a926e51eef8a6",
+   "unitId": "selection.T08.speed.staggered-midpoint.equal-distance",
+   "category": "oneline",
+   "domain": "速さ",
+   "text": "Aの分速は60m、Bの分速は90mです。Aは午前7時40分に公園から学校へ、Bは午前7時50分に学校から公園へ向かって出発しました。すると2人は学校と公園のちょうど真ん中で出会いました。\n(1) 2人が出会った時刻を求めなさい。\n(2) 学校から公園までの距離は何mですか。",
+   "source": {
+    "title": "R07N⑤-4 1,2",
+    "url": "https://app.notion.com/3f42b010743c812c981af53b30ea3029",
+    "locator": "Notion 指定小問 1,2",
+    "sourceText": "Aの分速は60m、Bの分速は90mです。Aは午前7時40分に公園から学校へ、Bは午前7時50分に学校から公園へ向かって出発しました。すると2人は学校と公園のちょうど真ん中で出会いました。\n(1) 2人が出会った時刻を求めなさい。\n(2) 学校から公園までの距離は何mですか。",
+    "sourceAnswer": "(1)午前8時10分 (2)3600m",
+    "verification": "本文条件から作成者と検算者が別々に解き、資料の答えと一致を確認。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "dimension": "clock",
+      "h": "8",
+      "m": "10",
+      "ampm": "午前",
+      "unit": ""
+     },
+     {
+      "label": "(2)",
+      "n": "3600",
+      "d": "1",
+      "unit": "m",
+      "dimension": "length"
+     }
+    ]
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R07"
+   ],
+   "homeStudy": false,
+   "reviewEligible": false,
+   "expeditionOnly": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "条件の整理",
+      "body": "真ん中で出会うので、2人の進んだ道のりは同じです。AはBより10分早く出発します。",
+      "equation": "7時50分－7時40分＝10分"
+     },
+     {
+      "id": "s2",
+      "title": "先に進んだ道のり",
+      "body": "Bが出発するまでにAは10分進みます。",
+      "equation": "60×10＝600（m）"
+     },
+     {
+      "id": "s3",
+      "title": "同じ道のりにそろえる",
+      "body": "Bが出発してからは、1分ごとにBがAより30m多く進みます。600mの差がうまると同じ道のりになります。",
+      "equation": "600÷（90－60）＝20（分）"
+     },
+     {
+      "id": "s4",
+      "title": "時刻と全体の距離",
+      "body": "7時50分の20分後に出会います。Bは90×20＝1800m進み、これが半分です。",
+      "equation": "1800×2＝3600（m）",
+      "checkpoint": {
+       "prompt": "Bが出発してから2人が出会うまで何分ですか。",
+       "answer": {
+        "n": "20",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time"
+       }
+      }
+     }
+    ]
+   },
+   "selectionKey": "T08/speed.staggered-midpoint.equal-distance"
+  },
+  {
    "id": "ready-711baa4dd9a58325",
    "unitId": "selection.T14.speed.crossroad.absolute-distance-two-events",
    "category": "oneline",
@@ -7407,6 +7976,101 @@
     ]
    },
    "selectionKey": "T14/speed.crossroad.absolute-distance-two-events"
+  },
+  {
+   "id": "ready-7c57e94449164719",
+   "unitId": "selection.T16.speed.mistaken-appointment-meeting-return",
+   "category": "oneline",
+   "domain": "速さ",
+   "text": "ミドリさんの家は駅から1320mの所にあります。買い物に出たミドリさんは荷物が多かったので、兄に午後8時に駅にむかえに来てくれるようにお母さんに電話でたのみました。午後8時に駅に着きましたが、兄の姿が見当たりません。都合が悪くなったのだと思い、家に向かって分速60mの速さで歩き出しました。途中、A地点で駅に向かう兄に出会いました。兄はまちがえて午後8時15分に駅に着く予定で、分速120mの速さで急いでいるところでした。2人はA地点から分速80mの速さで歩き家に帰りました。\n(1) 兄が家を出た時刻を求めなさい。\n(2) 駅からA地点までの距離を求めなさい。\n(3) 2人が家に着いた時刻を求めなさい。",
+   "source": {
+    "title": "GW508-25① 1,2,3",
+    "url": "https://app.notion.com/3f52b010743c810bb8f0fc9fcc216387",
+    "locator": "Notion 指定小問 1,2,3",
+    "sourceText": "ミドリさんの家は駅から1320mの所にあります。買い物に出たミドリさんは荷物が多かったので、兄に午後8時に駅にむかえに来てくれるようにお母さんに電話でたのみました。午後8時に駅に着きましたが、兄の姿が見当たりません。都合が悪くなったのだと思い、家に向かって分速60mの速さで歩き出しました。途中、A地点で駅に向かう兄に出会いました。兄はまちがえて午後8時15分に駅に着く予定で、分速120mの速さで急いでいるところでした。2人はA地点から分速80mの速さで歩き家に帰りました。\n(1) 兄が家を出た時刻を求めなさい。\n(2) 駅からA地点までの距離を求めなさい。\n(3) 2人が家に着いた時刻を求めなさい。\n［図：たて軸 駅・A地点・家、兄とミドリの進み方の略図］\n［図：図 の図版 p.37（シート9）］",
+    "sourceAnswer": "(1) 午後8時4分　(2) 600m　(3) 午後8時19分",
+    "verification": "本文条件から作成者と検算者が別々に解き、資料の答えと一致を確認。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "dimension": "clock",
+      "h": "20",
+      "m": "4",
+      "ampm": "午後",
+      "unit": ""
+     },
+     {
+      "label": "(2)",
+      "n": "600",
+      "d": "1",
+      "unit": "m",
+      "dimension": "length"
+     },
+     {
+      "label": "(3)",
+      "dimension": "clock",
+      "h": "20",
+      "m": "19",
+      "ampm": "午後",
+      "unit": ""
+     }
+    ]
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "GW508"
+   ],
+   "homeStudy": false,
+   "reviewEligible": false,
+   "expeditionOnly": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "兄が家を出た時刻",
+      "body": "兄は分速120mで1320mを行き、8時15分に駅に着く予定でした。",
+      "equation": "1320÷120＝11（分）→8時15分－11分＝8時4分"
+     },
+     {
+      "id": "s2",
+      "title": "ミドリさんが先に歩く",
+      "body": "ミドリさんは8時に駅を出ますが、兄が家を出るのは8時4分です。その4分間はミドリさんだけが進みます。",
+      "equation": "60×4＝240（m）"
+     },
+     {
+      "id": "s3",
+      "title": "向かい合って近づく",
+      "body": "8時4分には2人の間は1320－240＝1080mです。ここからは速さの和で近づきます。",
+      "equation": "1080÷（60＋120）＝6（分）→8時10分"
+     },
+     {
+      "id": "s4",
+      "title": "A地点の位置",
+      "body": "ミドリさんは8時から10分歩いたので、駅からA地点までは600mです。",
+      "equation": "60×10＝600（m）"
+     },
+     {
+      "id": "s5",
+      "title": "家に着く時刻",
+      "body": "A地点から家までは1320－600＝720mを分速80mで歩きます。",
+      "equation": "720÷80＝9（分）→8時19分",
+      "checkpoint": {
+       "prompt": "兄が家を出た8時4分までに、ミドリさんは駅から何m進んでいますか。",
+       "answer": {
+        "n": "240",
+        "d": "1",
+        "unit": "m",
+        "dimension": "length"
+       }
+      }
+     }
+    ]
+   },
+   "selectionKey": "T16/speed.mistaken-appointment-meeting-return"
   },
   {
    "id": "ready-d687a660315a3a0b",
@@ -9456,12 +10120,30 @@
    "prerequisites": []
   },
   {
+   "id": "selection.T08.speed.midpoint-offset.staggered-start",
+   "name": "時差出発分と中点ずれによる距離差を同じ式にする",
+   "domain": "速さ",
+   "definition": "時差出発分と中点ずれによる距離差を同じ式にする",
+   "representativeId": "ready-fcdb65eaedb4e722",
+   "decision": "時差出発分と中点ずれによる距離差を同じ式にする",
+   "prerequisites": []
+  },
+  {
    "id": "selection.T08.出会い後の同一区間で速度比を得る",
    "name": "出会い後の同一区間で速度比を得る：A×10=B×16、距離差360",
    "domain": "速さ",
    "definition": "出会い後の同一区間で速度比を得る：A×10=B×16、距離差360",
    "representativeId": "ready-e454f4bb4dde3199",
    "decision": "出会い後の同一区間で速度比を得る：A×10=B×16、距離差360",
+   "prerequisites": []
+  },
+  {
+   "id": "selection.T09.speed.three-people.staggered-common-meet",
+   "name": "同方向2人の追いつきで共通時刻を固定して3人目の道のりを足す",
+   "domain": "速さ",
+   "definition": "同方向2人の追いつきで共通時刻を固定して3人目の道のりを足す",
+   "representativeId": "ready-4c55a83030fadce4",
+   "decision": "同方向2人の追いつきで共通時刻を固定して3人目の道のりを足す",
    "prerequisites": []
   },
   {
@@ -9510,12 +10192,30 @@
    "prerequisites": []
   },
   {
+   "id": "selection.T12.speed.shared-arrival.rest-and-rate",
+   "name": "同時到着の総時間から各人の休止を除く",
+   "domain": "速さ",
+   "definition": "同時到着の総時間から各人の休止を除く",
+   "representativeId": "ready-24ca44ebc681febe",
+   "decision": "同時到着の総時間から各人の休止を除く",
+   "prerequisites": []
+  },
+  {
    "id": "selection.T12.休憩による欠落距離と速度差",
    "name": "休憩による欠落距離と速度差：4.8(T−.25)=4T",
    "domain": "速さ",
    "definition": "休憩による欠落距離と速度差：4.8(T−.25)=4T",
    "representativeId": "ready-8dc2d376e1c1852e",
    "decision": "休憩による欠落距離と速度差：4.8(T−.25)=4T",
+   "prerequisites": []
+  },
+  {
+   "id": "selection.T16.speed.arrival-difference.with-start-time",
+   "name": "早遅の合計時間差から道のりと予定時刻",
+   "domain": "速さ",
+   "definition": "早遅の合計時間差から道のりと予定時刻",
+   "representativeId": "ready-e7adb6d2de2408b1",
+   "decision": "早遅の合計時間差から道のりと予定時刻",
    "prerequisites": []
   },
   {
@@ -9552,6 +10252,15 @@
    "definition": "共通流速を消去し三艘の静水比を復元",
    "representativeId": "ready-f5be2db1dccad0e7",
    "decision": "共通流速を消去し三艘の静水比を復元",
+   "prerequisites": []
+  },
+  {
+   "id": "selection.T22.clock.inaccurate.display-after-elapsed",
+   "name": "正しい経過と進み・遅れが比例する関係を順逆に使い、基準日時へ足す。日時を求める未知位置違いは一単位とする。",
+   "domain": "速さ",
+   "definition": "正しい経過と進み・遅れが比例する関係を順逆に使い、基準日時へ足す。日時を求める未知位置違いは一単位とする。",
+   "representativeId": "ready-15a53b5f8aba7d83",
+   "decision": "正しい経過と進み・遅れが比例する関係を順逆に使い、基準日時へ足す。日時を求める未知位置違いは一単位とする。",
    "prerequisites": []
   },
   {
@@ -9753,6 +10462,15 @@
    "prerequisites": []
   },
   {
+   "id": "selection.T03.speed.staggered-start.opposite",
+   "name": "遅い出発までの先行距離を引いて向かい合う",
+   "domain": "速さ",
+   "definition": "遅い出発までの先行距離を引いて向かい合う",
+   "representativeId": "ready-0d4e30f097f628d2",
+   "decision": "遅い出発までの先行距離を引いて向かい合う",
+   "prerequisites": []
+  },
+  {
    "id": "selection.T05.speed.track.sum-and-difference",
    "name": "反対向きと同方向の再会間隔から速度和と差を復元",
    "domain": "速さ",
@@ -9771,12 +10489,30 @@
    "prerequisites": []
   },
   {
+   "id": "selection.T08.speed.staggered-midpoint.equal-distance",
+   "name": "中点出会いを両者同道のりへ変換し先行分を速度差で埋める",
+   "domain": "速さ",
+   "definition": "中点出会いを両者同道のりへ変換し先行分を速度差で埋める",
+   "representativeId": "ready-ea6a926e51eef8a6",
+   "decision": "中点出会いを両者同道のりへ変換し先行分を速度差で埋める",
+   "prerequisites": []
+  },
+  {
    "id": "selection.T14.speed.crossroad.absolute-distance-two-events",
    "name": "交差点の手前/通過後で原点までの距離を和差に分ける",
    "domain": "速さ",
    "definition": "交差点の手前/通過後で原点までの距離を和差に分ける",
    "representativeId": "ready-711baa4dd9a58325",
    "decision": "交差点の手前/通過後で原点までの距離を和差に分ける",
+   "prerequisites": []
+  },
+  {
+   "id": "selection.T16.speed.mistaken-appointment-meeting-return",
+   "name": "迎え予定から出発を逆算し時差出会い後共同速度へ切替",
+   "domain": "速さ",
+   "definition": "迎え予定から出発を逆算し時差出会い後共同速度へ切替",
+   "representativeId": "ready-7c57e94449164719",
+   "decision": "迎え予定から出発を逆算し時差出会い後共同速度へ切替",
    "prerequisites": []
   },
   {

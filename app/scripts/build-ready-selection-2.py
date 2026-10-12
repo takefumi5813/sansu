@@ -19,7 +19,7 @@ verified = {}
 for f in sorted(glob.glob(str(WORK/'verified/*.json'))):
     for v in json.loads(Path(f).read_text(encoding='utf-8')):
         verified[v['id']] = v
-Q = r'(ですか|ますか|でしょうか|なさい|ましょう|か。|か？|　　|□|答え)'
+Q = r'(ですか|ますか|でしょうか|なさい|ましょう|か。|か？|　　|□|答え|[はがを]　[^\s　]|には　)'
 def memo_like(text):
     """True when the stored text is a note-style summary rather than textbook wording (e.g. "…B電車の速さ")."""
     t = re.sub(r'【[^】]*】', '', text)
@@ -27,7 +27,7 @@ def memo_like(text):
     lead, *subs = re.split(r'\(\d+\)|（\d+）', t)
     if re.search(r'(求めなさい|答えなさい|あてはまる|書きなさい)', lead): return False
     return any(not re.search(Q, p.strip()) for p in (subs or [lead]) if p.strip())
-DIMS = {'scalar', 'length', 'area', 'volume', 'time', 'speed', 'percent', 'ratio'}
+DIMS = {'scalar', 'length', 'area', 'volume', 'time', 'speed', 'percent', 'ratio', 'clock'}
 
 def check_spec(s):
     if 'parts' in s:
@@ -39,6 +39,8 @@ def check_spec(s):
     assert s.get('dimension', 'scalar') in DIMS, s
     if s.get('dimension') == 'ratio':
         assert len(s['terms']) >= 2 and all(str(t).isdigit() and int(t) > 0 for t in s['terms'])
+    elif s.get('dimension') == 'clock':
+        assert 0 <= int(s['h']) <= 23 and 0 <= int(s['m']) <= 59; s.setdefault('unit', '')
     else:
         assert str(s['n']).lstrip('-').isdigit() and str(s['d']).isdigit() and int(s['d']) > 0, s
         s.setdefault('unit', '')

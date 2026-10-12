@@ -83,7 +83,7 @@ test('ratio problem through commitAttempt and stage-3 graduation with array raw'
 const clock={dimension:'clock',h:'8',m:'19',unit:''};
 const clockPm={dimension:'clock',h:'13',m:'5',unit:''};
 const clockAm={dimension:'clock',h:'8',m:'19',ampm:'午前',unit:''};
-const clockAskPm={dimension:'clock',h:'13',m:'5',ampm:'午後',unit:''};
+const clockAskPm={dimension:'clock',h:'13',m:'5',ampm:'午後',requireAmpm:true,unit:''};
 const clockSec={dimension:'clock',h:'8',m:'19',s:'30',unit:''};
 const CLOCK_HINT='午前・午後もつけて答えよう';
 test('clock: 24-hour, h:mm, 午前/午後 and full-width input',()=>{
@@ -107,7 +107,12 @@ test('clock: answers that must name 午前/午後',()=>{
  assert.equal(C.grade('午後1時5分',clockAskPm).correct,true);assert.equal(C.grade('13時5分',clockAskPm).correct,true);
  for(const raw of ['1時5分','1:05']){const r=C.grade(raw,clockAskPm);assert.equal(r.valid,true,raw);assert.equal(r.correct,false,raw);assert.equal(r.hint,CLOCK_HINT);assert.equal(r.error,CLOCK_HINT);}
  assert.equal(C.grade('2時5分',clockAskPm).hint,undefined);assert.equal(C.grade('1時6分',clockAskPm).hint,undefined);
- const noon={dimension:'clock',h:'12',m:'30',ampm:'午後',unit:''};assert.equal(C.grade('12時30分',noon).hint,CLOCK_HINT);assert.equal(C.grade('午後0時30分',noon).correct,true);
+ const noon={dimension:'clock',h:'12',m:'30',ampm:'午後',requireAmpm:true,unit:''};assert.equal(C.grade('12時30分',noon).hint,CLOCK_HINT);assert.equal(C.grade('午後0時30分',noon).correct,true);
+});
+test('clock: 午後 context answer accepts bare 12-hour time unless 午前/午後 is required',()=>{
+ const pm={dimension:'clock',h:'20',m:'4',ampm:'午後',unit:''};
+ for(const raw of ['8時4分','午後8時4分','20時4分','20:04'])assert.equal(C.grade(raw,pm).correct,true,raw);
+ assert.equal(C.grade('午前8時4分',pm).correct,false);assert.equal(C.grade('8時5分',pm).correct,false);
 });
 test('clock: invalid inputs',()=>{
  for(const raw of ['','abc','8','8時19','24時0分','8時60分','8時19分60秒','午後13時0分','午前8:19午後','8分19時','8時間19分','3:2:1:0',null,['8:19']])assert.equal(C.grade(raw,clock).valid,false,JSON.stringify(raw));
@@ -115,7 +120,7 @@ test('clock: invalid inputs',()=>{
  assert.equal(C.grade('8:19',{dimension:'clock',h:'8',m:'19',ampm:'午後',unit:''}).valid,false);
 });
 test('clock: inside parts and formatAnswer',()=>{
- const p={parts:[{label:'(1)',dimension:'clock',h:'8',m:'19',ampm:'午前',unit:''},{label:'(2)',n:'40',d:'1',unit:'分',dimension:'time'},{label:'(3)',dimension:'clock',h:'13',m:'5',ampm:'午後',unit:''}]};
+ const p={parts:[{label:'(1)',dimension:'clock',h:'8',m:'19',ampm:'午前',unit:''},{label:'(2)',n:'40',d:'1',unit:'分',dimension:'time'},{label:'(3)',dimension:'clock',h:'13',m:'5',ampm:'午後',requireAmpm:true,unit:''}]};
  const ok=C.grade(['午前8時19分','40','午後1時5分'],p);assert.equal(ok.valid,true);assert.equal(ok.correct,true);assert.deepEqual(ok.normalized[0],{h:'8',m:'19',ampm:'午前'});
  const h=C.grade(['8時19分','40','1時5分'],p);assert.equal(h.valid,true);assert.equal(h.correct,false);assert.deepEqual(h.parts.map(x=>x.correct),[true,true,false]);assert.equal(h.hint,'(3) '+CLOCK_HINT);
  const bad=C.grade(['8時19分','40','x'],p);assert.equal(bad.valid,false);assert.equal(bad.invalidPart,2);assert.match(bad.error,/^\(3\) /);

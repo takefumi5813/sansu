@@ -30,3 +30,5 @@ Root owns src/app.js, src/style.css, src/shell.html, build script, combined data
 Core agent owns src/core.js, tests/core.test.cjs, reports/core-report.md and references/legacy-* snapshots/catalog JSON.
 Arithmetic content agent owns content/arithmetic.json and reports/arithmetic-analysis.md.
 Geometry agent owns content/geometry.json, dist/figs/* and reports/geometry-analysis.md.
+
+- clock: `requireAmpm:true` を付けたときだけ、午前/午後なしの12時間表記を午後の正答に対して不正解（ヒント付き）にする。付けない場合、午前/午後なしの「8時4分」は ampm が示す午前・午後の時刻として受け付ける。

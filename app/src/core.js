@@ -81,9 +81,9 @@ function gradeClock(raw,spec){
  const p=parseClock(raw,spec);if(!p.valid)return p;
  const v=p.value,secs=(h,m,s)=>(h*60+m)*60+s,given=secs(Number(v.h),Number(v.m),Number(v.s||0));
  // Answer that must name 午前/午後, input in 12-hour form without it (hour ≤12 matching h or h-12):
- // accepted for a 午前 answer, valid but incorrect with a hint for a 午後 answer.
+ // accepted unless the problem itself requires 午前/午後 (requireAmpm:true); then a 午後 answer gets a hint.
  if(spec.ampm&&!v.ampm&&p.hour<=12&&(p.hour===e.h||p.hour===e.h-12)&&secs(0,Number(v.m),Number(v.s||0))===secs(0,e.m,e.s)){
-  if(spec.ampm==='午前')return {valid:true,correct:true,normalized:v};
+  if(spec.ampm==='午前'||spec.requireAmpm!==true)return {valid:true,correct:true,normalized:v};
   return {valid:true,correct:false,normalized:v,error:CLOCK_HINT,hint:CLOCK_HINT};
  }
  return {valid:true,correct:given===secs(e.h,e.m,e.s),normalized:v};
