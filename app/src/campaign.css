@@ -163,3 +163,98 @@ dialog::backdrop{background:#040813d6;backdrop-filter:blur(9px)}
 @media(prefers-reduced-motion:reduce){.won .treasure-item{opacity:1;transform:translate(-50%,-64%)}.gem-found .found-gem{opacity:1;transform:translate(-50%,-100px)}.gem-slot.offered,.gems-lost .gem-slot.filled{opacity:0}.won .treasure-rays{opacity:.4}}
 
 .answer-reveal{border-color:#dfcc9f;background:#202f43;color:#e5dcc7}.answer-reveal span{color:#dfcc9f}
+
+/* ===== 英雄の能力・紹介ページ・同行の編成 (hero-ui.js) ===== */
+.ability-chip{display:inline-flex;align-items:center;gap:5px;font-size:11px;line-height:1;padding:5px 9px 5px 7px;border-radius:999px;border:1px solid #6d6290;background:#2a2640;color:#e2d4f5;white-space:nowrap;margin:4px 0}
+.ability-chip .ui-icon{width:13px;height:13px}
+.ability-soul{border-color:#7a6cb0;color:#d9cdfb}.ability-forge{border-color:#9c7c4a;color:#efd3a0;background:#30281f}.ability-mission{border-color:#a3645a;color:#f6c2b5;background:#33221f}.ability-treasure{border-color:#4f8a8a;color:#b8ecea;background:#1d2e31}.ability-luck{border-color:#9b9150;color:#f1e7a8;background:#2c2b1d}.ability-echo{border-color:#5e79b2;color:#c4d4fb;background:#1f2741}.ability-bond{border-color:#a1658e;color:#f5c6e5;background:#33213a}
+.hero-collection{display:block;width:100%;padding:0;text-align:left;color:inherit;cursor:pointer;font:inherit}
+.hero-collection:hover{border-color:#8d7fae;background:#222d45}
+.hero-collection:focus-visible,.roster-pick:focus-visible,.party-slot button:focus-visible{outline:2px solid #e4cc96;outline-offset:2px}
+.collection-epithet{font-size:11px!important;color:#cdbb92!important;margin:0 0 2px!important}
+.party-shortcut{display:flex;align-items:center;gap:9px;width:100%;margin:0 0 14px;padding:13px 15px;background:linear-gradient(110deg,#3a3053,#1e2840);border:1px solid #8a79ad;color:#efe2c4;font-size:13px;text-align:left}
+.party-shortcut>span{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:11px;color:#c9bfdc}
+.party-shortcut .ui-icon{width:18px;height:18px}
+.party-board{border:1px solid #6f6296;border-radius:12px;padding:18px;background:radial-gradient(ellipse at 20% 0,#4c3f6a55,transparent 70%),#171c31}
+.party-intro h3{font-family:"Yu Mincho",serif;font-weight:500;font-size:20px;margin:6px 0;color:#efdcb7}
+.party-intro p{font-size:12px;line-height:1.8;color:#b9bfd3;margin:0 0 14px}
+.party-intro p b{color:#f0d79f;font-weight:600}
+.party-slots{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.party-slot{border:2px dashed #4b5470;border-radius:12px;padding:12px;background:#1b2338;display:flex;flex-direction:column;gap:6px;color:inherit;font:inherit;text-align:center}
+.party-slot.selected{border:2px solid #e4c88f;box-shadow:0 0 0 4px #e4c88f22,0 0 26px #d9b16b33;background:#262a40}
+.party-slot.empty{align-items:center;justify-content:center;min-height:250px;cursor:pointer}
+.party-slot.empty strong{font-size:14px;color:#d4d9e8}.party-slot.empty small{font-size:11px;color:#9aa6c0}
+.slot-empty-mark{font-size:42px;line-height:1;color:#8592b3}
+.slot-label{display:block;font-size:11px;letter-spacing:.08em;color:#d6bf8e;font-weight:600}
+.slot-main{display:flex;flex-direction:column;align-items:center;gap:5px;background:transparent;border:0;padding:4px;color:inherit;font:inherit;cursor:pointer;width:100%}
+.slot-main:hover{background:#ffffff08}
+.slot-main .hero-art{width:120px;height:140px;object-fit:contain;background:radial-gradient(ellipse at bottom,#6c5d7944,transparent 70%)}
+.slot-main strong{font-family:"Yu Mincho",serif;font-size:17px;font-weight:500;color:#f1e1bf}
+.slot-main small{font-size:11px;color:#b6bdd2}
+.slot-tools{display:flex;justify-content:center;gap:16px}
+.party-slot .bond-card.compact{margin-top:2px;text-align:left}
+.text-button{background:transparent;border:0;color:#b9c6e6;font-size:12px;text-decoration:underline;text-underline-offset:3px;padding:4px 2px;min-height:0;cursor:pointer}
+.text-button:hover{background:transparent;color:#efd9a8}
+.party-roster{margin-top:20px}
+.party-roster h3{font-size:14px;margin:0 0 4px}
+.roster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:10px}
+.roster-card{border:1px solid #39445d;border-radius:10px;background:#1c263a;display:flex;flex-direction:column;align-items:stretch;overflow:hidden}
+.roster-card.in-party{border-color:#cdb27c;background:#2a2b3d}
+.roster-pick{position:relative;display:flex;flex-direction:column;align-items:center;gap:3px;background:transparent;border:0;padding:10px 8px 6px;color:inherit;font:inherit;cursor:pointer}
+.roster-pick:hover{background:#ffffff0a}
+.roster-pick .hero-art{width:86px;height:100px;object-fit:contain}
+.roster-pick strong{font-size:13px;color:#ecdfc4}
+.roster-pick small{font-size:10px;color:#a9b3ca;text-align:center}
+.party-badge{position:absolute;top:7px;right:7px;font-style:normal;font-size:10px;font-weight:700;color:#1a2130;background:#e2c58d;border-radius:999px;padding:3px 8px}
+.roster-card .text-button{font-size:11px;padding:0 0 8px}
+.party-card{padding-bottom:0}
+.party-mini{display:grid;gap:8px;margin:4px 0 14px}
+.party-mini-slot{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid #4a4566;border-radius:9px;background:#201f36}
+.party-mini-slot.empty{border-style:dashed;color:#8f97b0}
+.party-mini-slot .mini-art{width:48px;height:56px;border-radius:24px 24px 6px 6px;overflow:hidden;flex:none;background:linear-gradient(#33324d,#242339);display:flex;align-items:center;justify-content:center;font-size:22px;color:#8592b3}
+.party-mini-slot .mini-art img{width:100%;height:100%;object-fit:cover;object-position:top}
+.party-mini-slot small{display:block;font-size:10px;color:#c8b48a}
+.party-mini-slot strong{display:block;font-size:14px;font-weight:500;color:#eadcc0}
+.party-mini-slot .ability-chip{font-size:10px;padding:3px 7px;margin:3px 0 0}
+.hero-profile{position:relative}
+.profile-back{margin-bottom:8px}
+.profile-hero{display:grid;grid-template-columns:220px 1fr;gap:22px;align-items:center;border:1px solid #5f557f;border-radius:14px;padding:18px;background:radial-gradient(ellipse at 15% 60%,#5a4a7a66,transparent 65%),#171c31}
+.profile-portrait .hero-art{width:100%;height:260px;object-fit:contain}
+.profile-identity h3{font-family:"Yu Mincho",serif;font-size:30px;font-weight:500;color:#f3e2bd;margin:6px 0 10px;letter-spacing:.06em}
+.profile-identity .eyebrow{font-size:12px;color:#cfb27a;letter-spacing:.12em}
+.profile-facts{display:grid;gap:6px;margin:0 0 6px}
+.profile-facts div{display:flex;gap:10px;font-size:13px}
+.profile-facts dt{color:#9aa4bd;min-width:3em}
+.profile-facts dd{margin:0;color:#dfe4f1}
+.profile-story,.profile-ability{margin-top:16px;border:1px solid #39445d;border-radius:12px;padding:16px 18px;background:#1a2235}
+.profile-story h4,.profile-ability h4{font-family:"Yu Mincho",serif;font-weight:500;font-size:18px;margin:0 0 8px;color:#efdcb8}
+.profile-story p{font-size:14px;line-height:2;color:#d5dbe9;margin:0}
+.ability-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.ability-head h4{margin:0}
+.ability-flavor{font-size:12px;color:#b8acd0;font-style:italic;margin:6px 0 12px}
+.ability-tiers{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.ability-tiers li{position:relative;border:1px solid #39445d;border-radius:9px;padding:10px 12px;background:#151c2d;opacity:.75}
+.ability-tiers li span{font-size:11px;color:#a6b0c8;font-weight:600}
+.ability-tiers li p{margin:4px 0 0;font-size:13px;line-height:1.7;color:#d8deeb}
+.ability-tiers li.current{opacity:1;border-color:#d8bb83;background:#2a2a3c;box-shadow:0 0 18px #d6b26b22}
+.ability-tiers li.current span{color:#ecd19b}
+.ability-tiers li.passed{opacity:.55}
+.ability-tiers em{position:absolute;top:9px;right:10px;font-style:normal;font-size:10px;font-weight:700;color:#1a2130;background:#e2c58d;border-radius:999px;padding:2px 8px}
+.ability-note{font-size:11px;color:#9aa6c0;margin:10px 0 0}
+.profile-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.profile-actions button{min-height:44px;padding:8px 18px;font-size:13px}
+.profile-locked{margin-top:16px;font-size:13px;color:#a6aec4}
+.ability-reward{margin-top:14px;padding:12px 15px;border:1px solid #5c6f9a77;border-radius:9px;background:#1d2840aa}
+.ability-reward small{font-size:10px;letter-spacing:.1em;color:#a8b7d9}
+.ability-reward ul{margin:6px 0 0;padding-left:18px;font-size:12px;line-height:1.9;color:#dbe2f2}
+.ability-reward b{color:#efd9a8;font-weight:600}
+.reveal-ability{font-size:12px!important;color:#e6d6f5!important;margin:2px 0 8px!important}
+.echo-refund{display:block;margin-top:6px}
+.gem-bonus{color:#b8ecea}
+@media (max-width:800px){.profile-hero{grid-template-columns:150px 1fr}.profile-portrait .hero-art{height:190px}}
+@media (max-width:560px){.party-slots{grid-template-columns:1fr 1fr;gap:8px}.party-slot{padding:8px}.slot-main .hero-art{width:84px;height:100px}.slot-main strong{font-size:14px}.party-slot.empty{min-height:190px}.profile-hero{grid-template-columns:1fr;text-align:center}.profile-facts div{justify-content:center}.profile-portrait .hero-art{height:200px}.profile-identity h3{font-size:24px}.roster-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.guild-tabs{overflow-x:auto}.guild-tabs button{white-space:nowrap}}
+.ability-chip .resource-art{width:14px;height:14px;object-fit:contain}
+.party-mini-slot .ability-chip .resource-art{width:12px;height:12px}
+.party-slot:not(.empty){border-style:solid}
+.slot-tools .text-button{white-space:nowrap}
+@media (max-width:560px){.slot-tools{gap:10px}.slot-tools .text-button{font-size:11px}}
