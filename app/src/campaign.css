@@ -113,13 +113,14 @@ dialog::backdrop{background:#040813d6;backdrop-filter:blur(9px)}
 .treasure-seal:after{inset:44px;border-style:dashed;opacity:.6}
 .treasure-seal span{position:absolute;top:-13px;left:calc(50% - 12px);padding:0 6px;background:#111e30;color:#ae9565;font-size:16px}
 .treasure-chest{position:relative;flex:none;width:clamp(185px,27vw,270px);aspect-ratio:240/200;margin-top:105px;margin-bottom:6px;animation:chest-arrive 1.2s ease-out both}
-.chest-svg{width:100%;height:100%;overflow:visible;filter:drop-shadow(0 15px 24px #02081299)}
-.chest-lid{transform-box:view-box;transform-origin:30px 100px;transition:transform 1s cubic-bezier(.2,.7,.3,1)}
-.chest-glow{opacity:0;transition:opacity .8s}
-.shaking .chest-svg{animation:chest-breathe 1.5s ease-in-out infinite}
+.chest-art{position:absolute;inset:-30px -24px;filter:drop-shadow(0 15px 24px #02081299);pointer-events:none}
+.chest-art img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;transition:opacity .75s ease,transform .9s ease}
+.chest-opened{opacity:0;transform:translateY(5px)}
+.opened .chest-closed{opacity:0}
+.opened .chest-opened{opacity:1;transform:none}
+.chest-glow{position:absolute;inset:-22% -15% 5%;background:radial-gradient(ellipse at 50% 57%,#e4c78e55,transparent 62%);opacity:0;transition:opacity .8s;pointer-events:none}
+.shaking .chest-art{animation:chest-breathe 1.5s ease-in-out infinite}
 .shaking .chest-glow,.offering .chest-glow{opacity:.65;animation:glow-pulse 1.3s ease-in-out infinite alternate}
-.opened .chest-lid{transform:translate(-3px,-24px) rotate(-14deg)}
-.won .chest-lid{transform:translate(-10px,-32px) rotate(-22deg)}
 .won .chest-glow{opacity:.85}
 .treasure-burst{position:absolute;left:50%;top:40%;pointer-events:none}
 .treasure-burst i{position:absolute;width:2px;height:5px;background:#dbc697;box-shadow:0 0 8px #dfc28d66;opacity:0}

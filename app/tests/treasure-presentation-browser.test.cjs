@@ -19,6 +19,8 @@ async function scenario(name,{before=0,won=false,guaranteed=false,roll=.5,skip=f
   if(skip){await p.locator('#treasure-skip').click();}else{
    await p.locator('#treasure-open').click();await p.locator('#treasure-close').waitFor({timeout:15000});await p.waitForTimeout(reduced?50:1600);
    assert.equal(await p.locator('.gem-slot.filled').count(),won?0:before+1);
+   const chest=await p.locator('.chest-opened').boundingBox();assert(Math.abs(chest.x+chest.width/2-width/2)<2,'chest must stay centered');
+   assert(await p.locator('.chest-opened').evaluate(e=>e.complete&&e.naturalWidth>0),'painted chest asset must load');
    assert.equal(await p.locator('.gem-row').getAttribute('aria-label'),`宝石 ${won?0:before+1}/9`);
    const visible=await p.evaluate(()=>{const q=document.querySelector('.treasure-item .weapon-art')||document.querySelector('.found-gem');return q&&Number(getComputedStyle(q.closest('.treasure-item,.found-gem')).opacity)>.9;});assert(visible,'result art must remain visible, including reduced motion');
    if(width>=height||height>=667){const box=await p.locator('#treasure-close').boundingBox();assert(box.y>=0&&box.y+box.height<=height,'continue must fit the viewport');}
