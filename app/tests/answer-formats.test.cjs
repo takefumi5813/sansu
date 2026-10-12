@@ -130,3 +130,9 @@ test('clock: inside parts and formatAnswer',()=>{
  const r=C.commitAttempt(C.initialState(),{...base,id:'clock',answer:p},{id:'c1',day:'2026-10-11',raw:['８：１９','40','午後1時5分']});
  assert.equal(r.result.correct,true);assert.equal(r.state.units.u.stage,1);assert.deepEqual(JSON.parse(JSON.stringify(r.state)),r.state);
 });
+test('speed answers written as 分速/時速/秒速 are accepted',()=>{
+ assert.equal(C.grade('分速200m',{n:'200',d:'1',unit:'m/分',dimension:'speed'}).correct,true);
+ assert.equal(C.grade('時速24km',{n:'24',d:'1',unit:'km/時',dimension:'speed'}).correct,true);
+ assert.equal(C.grade('秒速3cm',{n:'3',d:'1',unit:'cm/秒',dimension:'speed'}).correct,true);
+ assert.equal(C.grade('分速210m',{n:'200',d:'1',unit:'m/分',dimension:'speed'}).correct,false);
+});

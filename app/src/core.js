@@ -17,7 +17,8 @@ function parseAnswer(raw,spec={}){
  if(isParts(spec)){const g=gradeParts(raw,spec);return g.valid?{valid:true,value:g.normalized}:{valid:false,error:g.error};}
  if(isRatio(spec))return parseRatio(raw,spec);
  if(isClock(spec)){const p=parseClock(raw,spec);return p.valid?{valid:true,value:p.value}:p;}
- const s=norm(raw).replace(/\s/g,'');
+ let s=norm(raw).replace(/\s/g,'');
+ if(spec.dimension==='speed'){const m=s.match(/^(分速|時速|秒速)(\d+\/\d+|\d+(?:\.\d+)?|\.\d+)(km|cm|m)?$/);if(m){s=m[2]+(m[3]?m[3]+'/'+{分速:'分',時速:'時',秒速:'秒'}[m[1]]:'');return parseSingleAnswer(s,spec);}}
  if(spec.dimension==='time'&&s.length<=200){
   const parts=[...s.matchAll(/(\d+\/\d+|\d+(?:\.\d+)?|\.\d+)(時間|分|秒)/g)];
   if(parts.length>=2&&parts.map(p=>p[0]).join('')===s){
