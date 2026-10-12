@@ -6,7 +6,10 @@ Inputs (outside the repo build):
 Outputs:
   app/content/expedition-ready-2.json      problems served in the normal free expedition
   app/content/expedition-prepared-hold.json authored rows that are not yet servable (figure, format, mismatch)
+  work/figured/out-*.json      rows completed with a cropped original figure (figureOk/textOk/answerOk)
+  work/figverified/out-*.json  blind re-solve of figure rows using the text and the figure image
 Only rows that are authored as ready AND pass the independent check are served.
+A figure row overrides its authored row when cropping and its own independent check both pass.
 """
 import json, sys, glob, re
 from pathlib import Path
@@ -19,6 +22,20 @@ verified = {}
 for f in sorted(glob.glob(str(WORK/'verified/*.json'))):
     for v in json.loads(Path(f).read_text(encoding='utf-8')):
         verified[v['id']] = v
+for f in sorted(glob.glob(str(WORK/'figured/out-*.json'))):
+    figrows = {x['id']: x for x in json.loads(Path(f).read_text(encoding='utf-8'))}
+    for i, a in enumerate(authored):
+        x = figrows.get(a['id'])
+        if x and x.get('figureOk') and x.get('textOk') and x.get('answerOk'):
+            authored[i] = {**a, 'status': 'ready', 'figureRequired': True, 'figure': x['figure'], 'text': x['text'],
+                           'answer': x['answer'], 'steps': x['steps'], 'checkpoint': x['checkpoint'], 'figureRow': True}
+            authored[i].pop('holdReason', None)
+        elif x:
+            authored[i] = {**a, 'figureAttempt': x.get('reason') or '図の切り出し不可'}
+figverified = {}
+for f in sorted(glob.glob(str(WORK/'figverified/*.json'))):
+    for v in json.loads(Path(f).read_text(encoding='utf-8')):
+        figverified[v['id']] = v
 Q = r'(ですか|ますか|でしょうか|なさい|ましょう|か。|か？|　　|□|答え|[はがを]　[^\s　]|には　)'
 def memo_like(text):
     """True when the stored text is a note-style summary rather than textbook wording (e.g. "…B電車の速さ")."""
@@ -48,7 +65,7 @@ def check_spec(s):
 problems, units, hold, problems_ids = [], [], [], set()
 for r in authored:
     e = bank[r['id']]
-    v = verified.get(r['id'])
+    v = figverified.get(r['id']) if r.get('figureRow') else verified.get(r['id'])
     reason = None
     if r.get('status') != 'ready':
         reason = r.get('holdReason') or 'hold'
@@ -58,7 +75,7 @@ for r in authored:
         reason = '独立検算で不一致：' + (v.get('note') or '')
     elif any(u in excluded for u in e['source']['scopeUnits']):
         reason = '未習範囲'
-    elif r.get('figureRequired'):
+    elif r.get('figureRequired') and not (r.get('figure') and (ROOT/'dist'/r['figure']).exists()):
         reason = '原図が必要'
     elif memo_like(r.get('text') or ''):
         reason = '本文が要約メモ形式（原本の文面が必要）'
@@ -67,7 +84,7 @@ for r in authored:
             check_spec(r['answer'])
             assert 4 <= len(r['steps']) <= 8
             cp = r['checkpoint']; check_spec(cp['answer']); assert 'parts' not in cp['answer'] and cp['answer'].get('dimension') != 'ratio'
-            assert r['text'].strip() and '［図' not in r['text']
+            assert r['text'].strip() and '［図' not in r['text'] and '図版p' not in r['text'].replace(' ', '')
         except Exception as ex:  # malformed authored data stays out of the served pool
             reason = '形式エラー：' + repr(ex)
     if reason:
@@ -83,8 +100,8 @@ for r in authored:
     problems.append({'id': pid, 'unitId': uid, 'category': e['category'], 'domain': e['domain'], 'text': re.sub(r'ふきだし[：:]\s*(「[^」]*」)', r'\1', re.sub(r'[（(]ふきだし[：:]\s*(「[^」]*」)\s*[)）]', r'\n\1', r['text'])).strip(),
         'source': {'title': e['source']['title'] + ('' if targets == ['all'] else ' ' + loc), 'url': e['source']['url'],
                    'locator': 'Notion ' + ('全体' if targets == ['all'] else '指定小問 ' + loc), 'sourceText': e['problemText'],
-                   'sourceAnswer': e['sourceAnswerText'], 'verification': '本文条件から作成者と検算者が別々に解き、資料の答えと一致を確認。'},
-        'answer': r['answer'], 'difficulty': max(1, min(10, e['baseDifficulty'] + e['uplift'])), 'figureRequired': False,
+                   'sourceAnswer': e['sourceAnswerText'], 'verification': ('原本図版から図を切り出し、本文と図から作成者と検算者が別々に解いて資料の答えと一致を確認。' if r.get('figureRow') else '本文条件から作成者と検算者が別々に解き、資料の答えと一致を確認。')},
+        'answer': r['answer'], 'difficulty': max(1, min(10, e['baseDifficulty'] + e['uplift'])), 'figureRequired': bool(r.get('figureRow')), **({'figure': r['figure']} if r.get('figureRow') else {}),
         'scopeUnits': e['source']['scopeUnits'], 'homeStudy': False, 'reviewEligible': False, 'expeditionOnly': True, 'revision': 1,
         'explanation': {'steps': steps}, 'selectionKey': e['selectionKey']})
     units.append({'id': uid, 'name': e['learningDecision'], 'domain': e['domain'], 'definition': e['learningDecision'],
