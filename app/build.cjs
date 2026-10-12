@@ -17,11 +17,12 @@ for(const hero of catalog.heroes){
 }
 const data = {version:'pilot-2026-10-12-integrated-expedition-v2',problems:sources.flatMap(x=>x.problems),units:sources.flatMap(x=>x.units),links:sources.flatMap(x=>x.links),catalog,reservedHeroes:roster.heroes.filter(h=>roster.reservedIds.includes(h.id)).map(cleanHero),legacyEquipment:legacyCatalog.equipment,assets};
 const C = require('./src/core.js');
-// Canonical input for each answer format: single → "n/d", ratio → "a:b(:c)", parts → array of each part's canonical input.
+// Canonical input for each answer format: single → "n/d", ratio → "a:b(:c)", clock → "(午前|午後)h時m分(s秒)", parts → array of each part's canonical input.
 function canonicalRaw(spec){
   if(!spec||typeof spec!=='object')throw Error('Missing answer spec');
   if(Array.isArray(spec.parts)){if(!spec.parts.length)throw Error('Empty answer parts');return spec.parts.map(part=>{if(Array.isArray(part.parts))throw Error('Nested answer parts');return canonicalRaw(part);});}
   if(spec.dimension==='ratio'){if(!Array.isArray(spec.terms)||spec.terms.length<2)throw Error('Ratio needs 2+ terms');return spec.terms.join(':');}
+  if(spec.dimension==='clock'){if(spec.h==null||spec.m==null)throw Error('Clock needs h and m');return (spec.ampm||'')+(spec.ampm?Number(spec.h)%12:Number(spec.h))+'時'+spec.m+'分'+(spec.s!=null&&spec.s!==''?spec.s+'秒':'');}
   return spec.n+'/'+spec.d;
 }
 const unitIds=new Set();

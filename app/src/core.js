@@ -16,6 +16,7 @@ function parseSingleAnswer(raw,spec={}){try{let s=norm(raw);if(!s||s.length>200)
 function parseAnswer(raw,spec={}){
  if(isParts(spec)){const g=gradeParts(raw,spec);return g.valid?{valid:true,value:g.normalized}:{valid:false,error:g.error};}
  if(isRatio(spec))return parseRatio(raw,spec);
+ if(isClock(spec)){const p=parseClock(raw,spec);return p.valid?{valid:true,value:p.value}:p;}
  const s=norm(raw).replace(/\s/g,'');
  if(spec.dimension==='time'&&s.length<=200){
   const parts=[...s.matchAll(/(\d+\/\d+|\d+(?:\.\d+)?|\.\d+)(時間|分|秒)/g)];
@@ -32,7 +33,7 @@ function parseAnswer(raw,spec={}){
  return parseSingleAnswer(raw,spec);
 }
 function gradeSingle(raw,spec){const p=parseAnswer(raw,spec);if(!p.valid)return p;const a=rat(p.value.n,p.value.d),b=rat(spec.n,spec.d);return {valid:true,correct:a.n===b.n&&a.d===b.d,normalized:p.value};}
-// Answer formats: single {n,d,unit,dimension}; ratio {dimension:'ratio',terms:[...]}; multiple fields {parts:[{label,...single|ratio}]}.
+// Answer formats: single {n,d,unit,dimension}; ratio {dimension:'ratio',terms:[...]}; clock {dimension:'clock',h,m,s?,ampm?}; multiple fields {parts:[{label,...single|ratio|clock}]}.
 const RATIO_HINT='最も簡単な整数の比で答えよう';
 const isRatio=spec=>!!spec&&spec.dimension==='ratio'&&Array.isArray(spec.terms);
 const isParts=spec=>!!spec&&Array.isArray(spec.parts);
@@ -54,7 +55,44 @@ function gradeRatio(raw,spec){
  if(!correct&&g>1n&&given.every((x,k)=>x/g===expected[k]/e)){result.error=RATIO_HINT;result.hint=RATIO_HINT;}
  return result;
 }
-function gradeOne(raw,spec){if(!spec||typeof spec!=='object'||isParts(spec))return {valid:false,error:'答えの形式を確認できません'};if(isRatio(spec))return gradeRatio(raw,spec);if(Array.isArray(raw))return {valid:false,error:'答えを入力してください'};return gradeSingle(raw,spec);}
+// Clock: {dimension:'clock',h:'0'..'23'(24h),m,s?,ampm?:'午前'|'午後',unit:''}. ampm only says the answer must be written with 午前/午後.
+const CLOCK_HINT='午前・午後もつけて答えよう';
+const isClock=spec=>!!spec&&spec.dimension==='clock';
+const clockInt=(x,max)=>{const t=x==null?'':norm(x);return /^\d{1,2}$/.test(t)&&Number(t)<=max?Number(t):null;};
+function clockSpec(spec){
+ const h=clockInt(spec.h,23),m=clockInt(spec.m,59),sec=spec.s==null||spec.s===''?0:clockInt(spec.s,59);
+ if(h===null||m===null||sec===null)return null;
+ if(spec.ampm!=null&&!(spec.ampm==='午前'&&h<12||spec.ampm==='午後'&&h>=12))return null;
+ return {h,m,s:sec};
+}
+function parseClock(raw,spec){
+ if(typeof raw!=='string'&&typeof raw!=='number')return {valid:false,error:'答えを入力してください'};
+ const s=norm(raw).replace(/\s/g,'');if(!s)return {valid:false,error:'答えを入力してください'};
+ const m=s.length<=40&&(s.match(/^(午前|午後)?(\d{1,2})時(?:(\d{1,2})分(?:(\d{1,2})秒)?)?$/)||s.match(/^(午前|午後)?(\d{1,2}):(\d{1,2})(?::(\d{1,2}))?$/));
+ if(!m)return {valid:false,error:'「8時19分」のように時刻で答えよう'};
+ const ampm=m[1]||null,h=Number(m[2]),min=m[3]===undefined?0:Number(m[3]),sec=m[4]===undefined?null:Number(m[4]);
+ if(h>(ampm?12:23)||min>59||(sec??0)>59)return {valid:false,error:ampm?'午前・午後のときは0〜12時で入力してください':'時は0〜23、分・秒は0〜59で入力してください'};
+ // 午前12時 is 0時, 午後 adds 12 (午後0時=12時, 午後12時=12時).
+ const h24=ampm?h%12+(ampm==='午後'?12:0):h,value={h:String(h24),m:String(min)};if(sec!==null)value.s=String(sec);if(ampm)value.ampm=ampm;
+ return {valid:true,value,hour:h};
+}
+function gradeClock(raw,spec){
+ const e=clockSpec(spec);if(!e)return {valid:false,error:'答えの形式を確認できません'};
+ const p=parseClock(raw,spec);if(!p.valid)return p;
+ const v=p.value,secs=(h,m,s)=>(h*60+m)*60+s,given=secs(Number(v.h),Number(v.m),Number(v.s||0));
+ // Answer that must name 午前/午後, input in 12-hour form without it (hour ≤12 matching h or h-12):
+ // accepted for a 午前 answer, valid but incorrect with a hint for a 午後 answer.
+ if(spec.ampm&&!v.ampm&&p.hour<=12&&(p.hour===e.h||p.hour===e.h-12)&&secs(0,Number(v.m),Number(v.s||0))===secs(0,e.m,e.s)){
+  if(spec.ampm==='午前')return {valid:true,correct:true,normalized:v};
+  return {valid:true,correct:false,normalized:v,error:CLOCK_HINT,hint:CLOCK_HINT};
+ }
+ return {valid:true,correct:given===secs(e.h,e.m,e.s),normalized:v};
+}
+function formatClock(spec){
+ const h=Number(norm(spec.h)),hour=spec.ampm?spec.ampm+(h%12):String(h),sec=spec.s!=null&&spec.s!==''&&Number(norm(spec.s))!==0?Number(norm(spec.s))+'秒':'';
+ return hour+'時'+Number(norm(spec.m))+'分'+sec;
+}
+function gradeOne(raw,spec){if(!spec||typeof spec!=='object'||isParts(spec))return {valid:false,error:'答えの形式を確認できません'};if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);if(Array.isArray(raw))return {valid:false,error:'答えを入力してください'};return gradeSingle(raw,spec);}
 function gradeParts(raw,spec){
  if(!spec.parts.length)return {valid:false,error:'答えの形式を確認できません'};
  if(!Array.isArray(raw)||raw.length!==spec.parts.length)return {valid:false,error:'すべての欄に答えを入力してください',parts:spec.parts.map(()=>({valid:false,correct:false}))};
@@ -66,12 +104,17 @@ function gradeParts(raw,spec){
  return result;
 }
 // Single answers keep the original path unchanged (gradeSingle), including raw coercion.
-function grade(raw,spec){if(isParts(spec))return gradeParts(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);return gradeSingle(raw,spec);}
+function grade(raw,spec){if(isParts(spec))return gradeParts(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);return gradeSingle(raw,spec);}
 function formatAnswer(spec){
  if(!spec)return '';
  if(isParts(spec))return spec.parts.map((p,i)=>(p.label||'('+(i+1)+')')+' '+formatAnswer(p)).join('　');
  if(isRatio(spec))return spec.terms.map(x=>norm(x)).join('：');
- const value=String(spec.d)==='1'?String(spec.n):spec.n+'/'+spec.d;return spec.unit?value+' '+spec.unit:value;
+ if(isClock(spec))return formatClock(spec);
+ const value=String(spec.d)==='1'?String(spec.n):spec.n+'/'+spec.d,plain=spec.unit?value+' '+spec.unit:value;
+ if(spec.dimension==='time'&&String(spec.d)==='1'&&/^\d+$/.test(String(spec.n))){const n=Number(spec.n),u=unitNorm(spec.unit||'');
+  if((u==='秒'||u==='s')&&n>=60)return Math.floor(n/60)+'分'+(n%60?n%60+'秒':'')+'（'+plain+'）';
+  if((u==='分'||u==='min')&&n>=60)return Math.floor(n/60)+'時間'+(n%60?n%60+'分':'')+'（'+plain+'）';}
+ return plain;
 }
 function initialState(){return {schemaVersion:1,xp:0,stars:0,materials:0,souls:0,heroBonds:{},bondRuleVersion:2,heroSummons:0,heroEchoes:0,heroExchangeOffers:[],equipmentBoxes:0,equipmentTraining:{'starter-dagger':1},equipmentDiscoveries:0,gearPity:0,loadout:{hero:null,equipment:['starter-dagger']},units:{},attempts:[],rewards:{},daily:{},drafts:{},inventory:{heroes:[],equipment:['starter-dagger']}};}
 function normalizeState(state){const s=clone(state||initialState());if(s.materials==null)s.materials=0;if(s.souls==null)s.souls=0;if(s.heroBonds===undefined)s.heroBonds={};if(s.bondRuleVersion===undefined){if(s.heroBonds&&typeof s.heroBonds==='object'&&!Array.isArray(s.heroBonds)){for(const [id,value] of Object.entries(s.heroBonds))if(Number.isInteger(value)&&value>=0&&value<=300)s.heroBonds[id]=Math.min(value,150);}s.bondRuleVersion=2;}if(s.heroSummons==null)s.heroSummons=0;if(s.heroEchoes===undefined)s.heroEchoes=0;if(s.heroExchangeOffers===undefined)s.heroExchangeOffers=[];if(s.equipmentBoxes==null)s.equipmentBoxes=0;if(s.equipmentTraining==null)s.equipmentTraining={};if(s.equipmentDiscoveries==null)s.equipmentDiscoveries=0;if(s.gearPity==null)s.gearPity=0;if(!s.inventory.equipment.includes('starter-dagger'))s.inventory.equipment.push('starter-dagger');if(s.equipmentTraining['starter-dagger']==null)s.equipmentTraining['starter-dagger']=1;if(s.loadout==null)s.loadout={hero:null,equipment:[]};if(s.loadout.equipment.length<3&&!s.loadout.equipment.includes('starter-dagger'))s.loadout.equipment.push('starter-dagger');for(const d of Object.values(s.daily||{})){if(d.completed==null)d.completed=[];if(d.calcPaid==null)d.calcPaid=[];if(d.chainXp==null)d.chainXp=0;}return s;}

@@ -80,18 +80,21 @@
   function scratchMarkup(review=false) {
     return `<section class="scratch-card"><div class="scratch-toolbar"><div class="tool-group"><button id="tool-pen" class="${tool==='pen'?'active':''}">ペン</button><button id="tool-erase" class="${tool==='eraser'?'active':''}">消しゴム</button><button id="ink-undo" class="quiet">1本戻す</button></div><div class="tool-group">${['#203c42','#29669b','#aa493d'].map(c=>`<button class="color-btn ${color===c?'active':''}" data-color="${c}" style="background:${c}" aria-label="${c==='#203c42'?'黒':c==='#29669b'?'青':'赤'}ペン"></button>`).join('')}<select id="pen-width" aria-label="ペンの太さ"><option value="2" ${width===2?'selected':''}>細</option><option value="3" ${width===3?'selected':''}>標準</option><option value="5" ${width===5?'selected':''}>太</option></select></div></div><div class="scratch-viewport"><div class="scratch-inner"><canvas id="scratch-canvas" class="scratch-canvas" aria-label="計算と図の下書き"></canvas></div></div><div class="scratch-foot"><label><input type="checkbox" id="finger-mode" ${finger?'checked':''}> 指でも書く</label><div><button id="ink-zoom" class="quiet" style="min-height:30px;padding:0 9px">拡大 ${zoom}×</button> <span id="ink-saved">${storageBroken?'未保存':'下書きは端末に保存'}</span></div></div></section>`;
   }
-  // Answer formats: single {n,d,unit,dimension}; ratio {dimension:'ratio',terms}; multiple fields {parts:[{label,...}]}.
+  // Answer formats: single {n,d,unit,dimension}; ratio {dimension:'ratio',terms}; clock {dimension:'clock',h,m,s?,ampm?}; multiple fields {parts:[{label,...}]}.
   const isPartsSpec=spec=>Array.isArray(spec?.parts);
   const isRatioSpec=spec=>spec?.dimension==='ratio';
+  const isClockSpec=spec=>spec?.dimension==='clock';
+  const fieldPlaceholder=part=>isRatioSpec(part)?'比を入力（例 3：2）':isClockSpec(part)?'時刻を入力（例 8時19分）':'数を入力';
   function answerFieldsMarkup(spec){
-    const field=(part,id,label)=>`<input id="${id}" class="answer-input" type="text" inputmode="${isRatioSpec(part)?'text':'decimal'}" autocomplete="off" maxlength="200" placeholder="${isRatioSpec(part)?'比を入力（例 3：2）':'数を入力'}" aria-describedby="answer-error"${label?` aria-label="${esc(label)}の答え"`:''}><span class="unit-label"${label?' style="min-width:2.2em"':''}>${esc(part.unit||'')}</span>`;
+    const field=(part,id,label)=>`<input id="${id}" class="answer-input" type="text" inputmode="${isRatioSpec(part)||isClockSpec(part)?'text':'decimal'}" autocomplete="off" maxlength="200" placeholder="${fieldPlaceholder(part)}" aria-describedby="answer-error"${label?` aria-label="${esc(label)}の答え"`:''}><span class="unit-label"${label?' style="min-width:2.2em"':''}>${esc(part.unit||'')}</span>`;
     if(!isPartsSpec(spec))return `<label for="answer">答え</label>${field(spec||{},'answer')}`;
     return `<label>答え</label><div class="answer-parts" style="display:flex;flex-direction:column;gap:8px;width:100%">${spec.parts.map((part,i)=>{const label=part.label||`(${i+1})`;return `<div class="answer-part" data-part="${i}" style="display:flex;align-items:center;gap:10px;flex-wrap:nowrap"><span class="part-label" style="min-width:2.6em;font-weight:700">${esc(label)}</span>${field(part,'answer-'+i,label)}</div>`;}).join('')}</div>`;
   }
   function keypadMarkup(spec){
-    const ratio=isPartsSpec(spec)?spec.parts.some(isRatioSpec):isRatioSpec(spec);
-    const keys=['7','8','9','4','5','6','／','1','2','3','0','．','−','⌫'];if(ratio)keys.splice(13,0,'：');
-    return `<div class="keypad" aria-label="数字と分数の入力"${ratio?' style="grid-template-columns:repeat(8,1fr)"':''}>${keys.map(x=>`<button type="button" data-key="${x}">${x}</button>`).join('')}</div>`;
+    const has=test=>isPartsSpec(spec)?spec.parts.some(test):test(spec),ratio=has(isRatioSpec),clock=has(isClockSpec);
+    const keys=['7','8','9','4','5','6','／','1','2','3','0','．','−','⌫'];if(ratio)keys.splice(13,0,'：');if(clock)keys.splice(keys.length-1,0,'時','分');
+    const columns=7+(ratio?1:0)+(clock?1:0);
+    return `<div class="keypad" aria-label="数字と分数の入力"${columns>7?` style="grid-template-columns:repeat(${columns},1fr)"`:''}>${keys.map(x=>`<button type="button" data-key="${x}">${x}</button>`).join('')}</div>`;
   }
   function answerInputs(){return $$('#answer-form .answer-input');}
   function answerRaw(spec){return isPartsSpec(spec)?answerInputs().map(input=>input.value):$('#answer').value;}
