@@ -12,7 +12,23 @@ function norm(s){return String(s).normalize('NFKC').replace(/[−–]/g,'-').rep
 function number(s){let m=s.match(/^([+-]?\d+)(?:\s+|と)(\d+)\s*\/\s*(\d+)$/);if(m){const whole=BigInt(m[1]),a=BigInt(m[2]),b=BigInt(m[3]);if(!b||a>=b)throw Error('帯分数の分数部分を確かめてください');return rat((abs(whole)*b+a)*(m[1][0]==='-'?-1n:1n),b);}m=s.match(/^([+-]?\d+)\s*\/\s*(\d+)$/);return m?rat(m[1],m[2]):dec(s);}
 const units={scalar:{'': '1'},length:{m:'1',cm:'1/100',mm:'1/1000',km:'1000','メートル':'1'},area:{'m2':'1','m^2':'1','㎡':'1','cm2':'1/10000','cm^2':'1/10000','平方センチメートル':'1/10000'},volume:{'m3':'1','cm3':'1/1000000',L:'1/1000',mL:'1/1000000'},time:{min:'1','分':'1',s:'1/60','秒':'1/60',h:'60','時間':'60'},speed:{'m/min':'1','m/分':'1','m/s':'60','km/h':'50/3'},percent:{'%':'1','パーセント':'1'}};
 function unitNorm(s){return norm(s).replace(/²/g,'2').replace(/³/g,'3').replace(/\s/g,'');}
-function parseAnswer(raw,spec={}){try{let s=norm(raw);if(!s||s.length>200)throw Error('答えを入力してください');const m=s.match(/^([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:(?:\s+|と)\d+\s*\/\s*\d+|\s*\/\s*\d+)?)(.*)$/);if(!m)throw Error('数値と単位を確かめてください');let r=number(m[1].trim());const dim=spec.dimension||'scalar',canonical=unitNorm(spec.unit||''),given=unitNorm(m[2]||canonical);const sourceMap=spec.acceptedUnits?{[canonical]:'1',...spec.acceptedUnits}:(units[dim]||{});const map={};for(const [key,value] of Object.entries(sourceMap))map[unitNorm(key)]=value;if(given!==canonical){if(map[given]==null||map[canonical]==null)throw Error('指定された単位で入力してください');const a=typeof map[given]==='object'?rat(map[given].n,map[given].d):number(String(map[given]));const b=typeof map[canonical]==='object'?rat(map[canonical].n,map[canonical].d):number(String(map[canonical]));r=times(r,times(a,rat(b.d,b.n)));}return {valid:true,value:out(r)};}catch(e){return {valid:false,error:e.message};}}
+function parseSingleAnswer(raw,spec={}){try{let s=norm(raw);if(!s||s.length>200)throw Error('答えを入力してください');const m=s.match(/^([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:(?:\s+|と)\d+\s*\/\s*\d+|\s*\/\s*\d+)?)(.*)$/);if(!m)throw Error('数値と単位を確かめてください');let r=number(m[1].trim());const dim=spec.dimension||'scalar',canonical=unitNorm(spec.unit||''),given=unitNorm(m[2]||canonical);const sourceMap=spec.acceptedUnits?{[canonical]:'1',...spec.acceptedUnits}:(units[dim]||{});const map={};for(const [key,value] of Object.entries(sourceMap))map[unitNorm(key)]=value;if(given!==canonical){if(map[given]==null||map[canonical]==null)throw Error('指定された単位で入力してください');const a=typeof map[given]==='object'?rat(map[given].n,map[given].d):number(String(map[given]));const b=typeof map[canonical]==='object'?rat(map[canonical].n,map[canonical].d):number(String(map[canonical]));r=times(r,times(a,rat(b.d,b.n)));}return {valid:true,value:out(r)};}catch(e){return {valid:false,error:e.message};}}
+function parseAnswer(raw,spec={}){
+ const s=norm(raw).replace(/\s/g,'');
+ if(spec.dimension==='time'&&s.length<=200){
+  const parts=[...s.matchAll(/(\d+\/\d+|\d+(?:\.\d+)?|\.\d+)(時間|分|秒)/g)];
+  if(parts.length>=2&&parts.map(p=>p[0]).join('')===s){
+   let total=rat(0),previous=4;const order={'時間':3,'分':2,'秒':1};
+   for(const part of parts){
+    if(order[part[2]]>=previous)return {valid:false,error:'時間・分・秒の順で、各単位を1回ずつ入力してください'};
+    previous=order[part[2]];const value=parseSingleAnswer(part[0],spec);if(!value.valid)return value;
+    total=plus(total,rat(value.value.n,value.value.d));
+   }
+   return {valid:true,value:out(total)};
+  }
+ }
+ return parseSingleAnswer(raw,spec);
+}
 function grade(raw,spec){const p=parseAnswer(raw,spec);if(!p.valid)return p;const a=rat(p.value.n,p.value.d),b=rat(spec.n,spec.d);return {valid:true,correct:a.n===b.n&&a.d===b.d,normalized:p.value};}
 function initialState(){return {schemaVersion:1,xp:0,stars:0,materials:0,souls:0,heroBonds:{},bondRuleVersion:2,heroSummons:0,heroEchoes:0,heroExchangeOffers:[],equipmentBoxes:0,equipmentTraining:{'starter-dagger':1},equipmentDiscoveries:0,gearPity:0,loadout:{hero:null,equipment:['starter-dagger']},units:{},attempts:[],rewards:{},daily:{},drafts:{},inventory:{heroes:[],equipment:['starter-dagger']}};}
 function normalizeState(state){const s=clone(state||initialState());if(s.materials==null)s.materials=0;if(s.souls==null)s.souls=0;if(s.heroBonds===undefined)s.heroBonds={};if(s.bondRuleVersion===undefined){if(s.heroBonds&&typeof s.heroBonds==='object'&&!Array.isArray(s.heroBonds)){for(const [id,value] of Object.entries(s.heroBonds))if(Number.isInteger(value)&&value>=0&&value<=300)s.heroBonds[id]=Math.min(value,150);}s.bondRuleVersion=2;}if(s.heroSummons==null)s.heroSummons=0;if(s.heroEchoes===undefined)s.heroEchoes=0;if(s.heroExchangeOffers===undefined)s.heroExchangeOffers=[];if(s.equipmentBoxes==null)s.equipmentBoxes=0;if(s.equipmentTraining==null)s.equipmentTraining={};if(s.equipmentDiscoveries==null)s.equipmentDiscoveries=0;if(s.gearPity==null)s.gearPity=0;if(!s.inventory.equipment.includes('starter-dagger'))s.inventory.equipment.push('starter-dagger');if(s.equipmentTraining['starter-dagger']==null)s.equipmentTraining['starter-dagger']=1;if(s.loadout==null)s.loadout={hero:null,equipment:[]};if(s.loadout.equipment.length<3&&!s.loadout.equipment.includes('starter-dagger'))s.loadout.equipment.push('starter-dagger');for(const d of Object.values(s.daily||{})){if(d.completed==null)d.completed=[];if(d.calcPaid==null)d.calcPaid=[];if(d.chainXp==null)d.chainXp=0;}return s;}
@@ -68,7 +84,7 @@ function addDays(day,n){if(!/^\d{4}-\d{2}-\d{2}$/.test(day))throw Error('Invalid
 function level(xp){return xp>=12000?900:Math.floor(900-899*Math.exp(-Math.max(0,xp)/1500));}
 function status(s,p){return s.units[p.unitId]||{stage:0,highestStageEver:0,due:null,dueReason:null,awardedStages:[]};}
 function remaining(p,state,day){const u=status(state,p);return u.stage!==4&&((u.stage===0&&!u.due)||(u.due&&u.due<=day));}
-function inScope(p,scope,mode='gnorev'){return (p.homeStudy||(mode==='review'&&p.reviewEligible===true))&&(p.scopeUnits||[]).some(x=>(scope||[]).includes(x));}
+function inScope(p,scope,mode='gnorev'){return !p.expeditionOnly&&(p.homeStudy||(mode==='review'&&p.reviewEligible===true))&&(p.scopeUnits||[]).some(x=>(scope||[]).includes(x));}
 function getCampaignStatus(problems,state,filters={},day=dayKey()){
  const valid=problems.filter(p=>p.category!=='calc'&&(!p.figureRequired||p.figure)&&!(Number(filters.grade||5)===5&&p.difficulty>8)&&remaining(p,state,day));
  const count=(scope,mode)=>new Set(valid.filter(p=>inScope(p,scope,mode)).map(p=>p.unitId)).size;

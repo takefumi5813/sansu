@@ -236,6 +236,10 @@
     const s=value?.state?unlockInventory(value.state):null,object=x=>!!x&&typeof x==='object'&&!Array.isArray(x),strings=x=>Array.isArray(x)&&x.every(v=>typeof v==='string'),natural=x=>Number.isSafeInteger(x)&&x>=0,date=x=>typeof x==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(x)&&!Number.isNaN(Date.parse(x));
     const reject=()=>{throw Error('記録の形式を確認できません。この試作版の正常なバックアップを選んでください。');};
     if(value?.application!=='sansu-pilot'||value.schemaVersion!==1||s?.schemaVersion!==1||!natural(s.xp)||!natural(s.stars)||!natural(s.materials)||!natural(s.souls)||!natural(s.heroEchoes)||!Array.isArray(s.attempts)||!['units','rewards','daily','drafts','inventory'].every(k=>object(s[k])))reject();
+    if(s.bankPractice!==undefined){
+      if(!object(s.bankPractice))reject();
+      for(const [id,r] of Object.entries(s.bankPractice))if(!/^selected-[a-f0-9]{16}$/.test(id)||!object(r)||typeof r.answerText!=='string'||r.answerText.length>5000||!date(r.day)||(r.result!==undefined&&!['understood','retry'].includes(r.result)))reject();
+    }
     if(JSON.stringify(value).length>15000000)throw Error('バックアップが大きすぎます');
     for(const key of ['heroes','equipment'])if(!strings(s.inventory[key]))reject();
     for(const u of Object.values(s.units))if(!object(u)||!natural(u.stage)||u.stage>4||!natural(u.highestStageEver)||u.highestStageEver>4||!(u.due===null||date(u.due))||!Array.isArray(u.awardedStages)||!u.awardedStages.every(n=>natural(n)&&n>=1&&n<=4))reject();

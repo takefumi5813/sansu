@@ -1,0 +1,2051 @@
+{
+  "problems": [
+    {
+      "id": "4R02N①-1",
+      "unitId": "geometry.angle.full-turn-remainder",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "右の図のアの角度を求めなさい。\n［図：1つの点から出る2本の線（左へのびる線と右上へのびる線）がつくる角が120°。アはその反対側（1周のうちの残り）の角］",
+      "sourceText": "右の図のアの角度を求めなさい。\n［図：1つの点から出る2本の線（左へのびる線と右上へのびる線）がつくる角が120°。アはその反対側（1周のうちの残り）の角］",
+      "source": {
+        "title": "4R02N①-1",
+        "url": "https://app.notion.com/p/3f52b010743c8143b9c2c6ba19a16e41",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "右の図のアの角度を求めなさい。\n［図：1つの点から出る2本の線（左へのびる線と右上へのびる線）がつくる角が120°。アはその反対側（1周のうちの残り）の角］",
+        "notionOriginalText": "右の図のアの角度を求めなさい。\n［図：1つの点から出る2本の線（左へのびる線と右上へのびる線）がつくる角が120°。アはその反対側（1周のうちの残り）の角］",
+        "notionProperties": {
+          "問題": "4R02N①-1",
+          "教材": "4年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c8140a0e3ea8a58aead58"
+          ],
+          "時期": "4年前期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81d0b729f7ac9d637a9b"
+          ],
+          "上乗せ": 0,
+          "答え": "240度",
+          "図": "図版p.625",
+          "原本の難": "★1"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.625",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 2
+      },
+      "answer": {
+        "n": "240",
+        "d": "1",
+        "unit": "度",
+        "dimension": "angle"
+      },
+      "difficulty": 2,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-01.svg",
+      "scopeUnits": [
+        "4R02"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "一周を見つける",
+            "body": "1つの点のまわりを、ぐるりと一周する角は360度です。",
+            "equation": "一周＝360度"
+          },
+          {
+            "id": "s2",
+            "title": "示された角を確かめる",
+            "body": "120度の印は小さい方の角です。アは反対側にあります。",
+            "equation": "示された角＝120度",
+            "checkpoint": {
+              "prompt": "図に示された小さい角は何度ですか。",
+              "answer": {
+                "n": "120",
+                "d": "1",
+                "unit": "度",
+                "dimension": "angle"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "残りを引き算する",
+            "body": "一周から、わかっている120度を引きます。",
+            "equation": "ア＝360−120＝240度"
+          },
+          {
+            "id": "s4",
+            "title": "図の側を見直す",
+            "body": "アは180度より大きい側です。120度を答えにしていないか確かめましょう。",
+            "equation": "240＋120＝360度"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "4R35H③-3",
+      "unitId": "geometry.angle.regular-pentagon-diagonals",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "右の図は、正五角形に対角線を引いたものです。アの角の大きさを求めなさい。\n［図：正五角形の左の頂点から、右の頂点と右下の頂点へ2本の対角線を引いた図。アはその2本の対角線の間の角。］",
+      "sourceText": "右の図は、正五角形に対角線を引いたものです。アの角の大きさを求めなさい。\n［図：正五角形の左の頂点から、右の頂点と右下の頂点へ2本の対角線を引いた図。アはその2本の対角線の間の角。］",
+      "source": {
+        "title": "4R35H③-3",
+        "url": "https://app.notion.com/p/3f52b010743c8143a2e6f54a8899b1eb",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "右の図は、正五角形に対角線を引いたものです。アの角の大きさを求めなさい。\n［図：正五角形の左の頂点から、右の頂点と右下の頂点へ2本の対角線を引いた図。アはその2本の対角線の間の角。］",
+        "notionOriginalText": "右の図は、正五角形に対角線を引いたものです。アの角の大きさを求めなさい。\n［図：正五角形の左の頂点から、右の頂点と右下の頂点へ2本の対角線を引いた図。アはその2本の対角線の間の角。］",
+        "notionProperties": {
+          "問題": "4R35H③-3",
+          "教材": "4年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c810893e8eb711c993173"
+          ],
+          "時期": "4年前期",
+          "区分": "家庭学習用H",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81ae8c32f055417d8f6e"
+          ],
+          "上乗せ": 0,
+          "答え": "36度",
+          "図": "図版p.1123",
+          "原本の難": "★3"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.1123",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 3
+      },
+      "answer": {
+        "n": "36",
+        "d": "1",
+        "unit": "度",
+        "dimension": "angle"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-02.svg",
+      "scopeUnits": [
+        "4R35"
+      ],
+      "homeStudy": true,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "正五角形の内角を出す",
+            "body": "五角形は三角形3つに分けられます。正五角形の5つの内角は等しいです。",
+            "equation": "1つの内角＝180×3÷5＝108度"
+          },
+          {
+            "id": "s2",
+            "title": "端の二等辺三角形を見る",
+            "body": "正五角形の辺は等しいので、対角線と2本の辺でできる三角形の底角は等しいです。",
+            "equation": "底角＝(180−108)÷2＝36度",
+            "checkpoint": {
+              "prompt": "この二等辺三角形の底角は何度ですか。",
+              "answer": {
+                "n": "36",
+                "d": "1",
+                "unit": "度",
+                "dimension": "angle"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "左の内角を三つに分ける",
+            "body": "左の頂点の108度から、上と下にある36度ずつを取り除きます。",
+            "equation": "ア＝108−36−36＝36度"
+          },
+          {
+            "id": "s4",
+            "title": "角の位置を見直す",
+            "body": "求めるのは2本の対角線の間です。正五角形の内角108度そのものではありません。",
+            "equation": "36＋36＋36＝108度"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "R02N⑤-3",
+      "unitId": "geometry.area.square-expansion",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "正方形の土地ABCDのたてと横を5mずつ広げると面積が105m²増えました。もとの正方形の面積（図版p.534）",
+      "sourceText": "正方形の土地ABCDのたてと横を5mずつ広げると面積が105m²増えました。もとの正方形の面積（図版p.534）",
+      "source": {
+        "title": "R02N⑤-3",
+        "url": "https://app.notion.com/p/3f52b010743c8167abadc7e829af2528",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "正方形の土地ABCDのたてと横を5mずつ広げると面積が105m²増えました。もとの正方形の面積（図版p.534）",
+        "notionOriginalText": "正方形の土地ABCDのたてと横を5mずつ広げると面積が105m²増えました。もとの正方形の面積（図版p.534）",
+        "notionProperties": {
+          "問題": "R02N⑤-3",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81789f0ed6855ecf069d"
+          ],
+          "時期": "4年前期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81ff8d38de8f1fb3939d"
+          ],
+          "上乗せ": 1,
+          "答え": "64m²",
+          "図": "図版p.534",
+          "原本の難": "★2〜3"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.534",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 2
+      },
+      "answer": {
+        "n": "64",
+        "d": "1",
+        "unit": "m²",
+        "dimension": "area"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-03.svg",
+      "scopeUnits": [
+        "R02"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "増えた部分を分ける",
+            "body": "もとの一辺を□mとすると、幅5mの長方形が2つと、一辺5mの正方形が増えます。",
+            "equation": "増分＝□×5×2＋5×5"
+          },
+          {
+            "id": "s2",
+            "title": "角の正方形を除く",
+            "body": "増えた105m²から角の25m²を取り除きます。",
+            "equation": "長方形2つ＝105−25＝80m²",
+            "checkpoint": {
+              "prompt": "増えた長方形2つの面積の合計は何m²ですか。",
+              "answer": {
+                "n": "80",
+                "d": "1",
+                "unit": "m²",
+                "dimension": "area"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "もとの一辺を求める",
+            "body": "幅5mの長方形2つを合わせると、幅は10mです。",
+            "equation": "もとの一辺＝80÷10＝8m"
+          },
+          {
+            "id": "s4",
+            "title": "求める量は面積",
+            "body": "8mは一辺の長さです。もとの正方形の面積に直します。",
+            "equation": "面積＝8×8＝64m²"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "R01N⑥-2",
+      "unitId": "geometry.circle.inscribed-square-radius-product",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "※円周率は3.14とします。\n1辺4cmの正方形がぴったりと入る円の面積を求めなさい。",
+      "sourceText": "※円周率は3.14とします。\n1辺4cmの正方形がぴったりと入る円の面積を求めなさい。",
+      "source": {
+        "title": "R01N⑥-2",
+        "url": "https://app.notion.com/p/3f52b010743c81919395e41912c62018",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "※円周率は3.14とします。\n1辺4cmの正方形がぴったりと入る円の面積を求めなさい。",
+        "notionOriginalText": "※円周率は3.14とします。\n1辺4cmの正方形がぴったりと入る円の面積を求めなさい。",
+        "notionProperties": {
+          "問題": "R01N⑥-2",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815892fdca3f7a51a6cf"
+          ],
+          "時期": "4年夏期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c8123b97ef4ae31403d98",
+            "https://app.notion.com/p/3f52b010743c8154ab01e17110d3a095"
+          ],
+          "上乗せ": 1,
+          "答え": "25.12cm²",
+          "図": "図版p.423",
+          "原本の難": "★2〜3"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.423",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 2
+      },
+      "answer": {
+        "n": "628",
+        "d": "25",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-04.svg",
+      "scopeUnits": [
+        "R01"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "正方形の面積を出す",
+            "body": "一辺が4cmなので、正方形の面積は16cm²です。",
+            "equation": "4×4＝16cm²"
+          },
+          {
+            "id": "s2",
+            "title": "中心から四つに分ける",
+            "body": "円の中心と正方形の頂点を結ぶと、底辺と高さがともに半径の三角形が4つできます。",
+            "equation": "半径×半径＝16÷2＝8",
+            "checkpoint": {
+              "prompt": "半径×半径の値はいくつですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "円の公式へ移す",
+            "body": "半径の長さそのものを求めなくても、半径×半径の8が使えます。",
+            "equation": "円の面積＝8×3.14"
+          },
+          {
+            "id": "s4",
+            "title": "円周率をかける",
+            "body": "問題の円周率3.14を使って仕上げます。",
+            "equation": "8×3.14＝25.12cm²"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "R01N③-1",
+      "unitId": "geometry.circle.semicircle-chain",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "※円周率は3.14とします。\n図のように半円があります。・と・の間隔がどれも3cmのとき、曲線部分の長さの合計を求めなさい。\n［図：一直線上に・が3cm間隔で並び、直径3cm・6cm・9cm・12cmの半円が上下交互につながったうずまき］",
+      "sourceText": "※円周率は3.14とします。\n図のように半円があります。・と・の間隔がどれも3cmのとき、曲線部分の長さの合計を求めなさい。\n［図：一直線上に・が3cm間隔で並び、直径3cm・6cm・9cm・12cmの半円が上下交互につながったうずまき］",
+      "source": {
+        "title": "R01N③-1",
+        "url": "https://app.notion.com/p/3f52b010743c816f9ca7c7b81eadf6d0",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "※円周率は3.14とします。\n図のように半円があります。・と・の間隔がどれも3cmのとき、曲線部分の長さの合計を求めなさい。\n［図：一直線上に・が3cm間隔で並び、直径3cm・6cm・9cm・12cmの半円が上下交互につながったうずまき］",
+        "notionOriginalText": "※円周率は3.14とします。\n図のように半円があります。・と・の間隔がどれも3cmのとき、曲線部分の長さの合計を求めなさい。\n［図：一直線上に・が3cm間隔で並び、直径3cm・6cm・9cm・12cmの半円が上下交互につながったうずまき］",
+        "notionProperties": {
+          "問題": "R01N③-1",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815892fdca3f7a51a6cf"
+          ],
+          "時期": "4年夏期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c810c9dd6e2914e25a988"
+          ],
+          "上乗せ": 0,
+          "答え": "47.1cm",
+          "図": "図版p.412",
+          "原本の難": "★2"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.412",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 4
+      },
+      "answer": {
+        "n": "471",
+        "d": "10",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-05.svg",
+      "scopeUnits": [
+        "R01"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "直径を読み取る",
+            "body": "点の間隔は3cmです。四つの半円の直径は3、6、9、12cmです。",
+            "equation": "直径＝3、6、9、12cm"
+          },
+          {
+            "id": "s2",
+            "title": "直径を全部足す",
+            "body": "半円の曲線の長さは、直径×3.14÷2です。先に直径をまとめます。",
+            "equation": "直径の合計＝3＋6＋9＋12＝30cm",
+            "checkpoint": {
+              "prompt": "四つの直径の合計は何cmですか。",
+              "answer": {
+                "n": "30",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "半円の公式を使う",
+            "body": "曲線だけなので、直径の直線部分は足しません。",
+            "equation": "30×3.14÷2"
+          },
+          {
+            "id": "s4",
+            "title": "計算して確認する",
+            "body": "上下に分かれていても、半円の弧の長さを足す考え方は同じです。",
+            "equation": "30×3.14÷2＝47.1cm"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "R01N③-2",
+      "unitId": "geometry.circle.concentric-arcs-and-segments",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "※円周率は3.14とします。\n図のようにおうぎ形があります。太い線の長さの合計を求めなさい。\n［図：中心角54°のおうぎ形4つ。共通の中心から下の辺にそって1cm・2cm・3cm・4cmと区切られ、半径1cm・3cm・6cm・10cmのおうぎ形の弧と、階段状の直線部分（1cm・2cm・3cm・4cmの部分）が太線］",
+      "sourceText": "※円周率は3.14とします。\n図のようにおうぎ形があります。太い線の長さの合計を求めなさい。\n［図：中心角54°のおうぎ形4つ。共通の中心から下の辺にそって1cm・2cm・3cm・4cmと区切られ、半径1cm・3cm・6cm・10cmのおうぎ形の弧と、階段状の直線部分（1cm・2cm・3cm・4cmの部分）が太線］",
+      "source": {
+        "title": "R01N③-2",
+        "url": "https://app.notion.com/p/3f52b010743c810db133e32612037595",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "※円周率は3.14とします。\n図のようにおうぎ形があります。太い線の長さの合計を求めなさい。\n［図：中心角54°のおうぎ形4つ。共通の中心から下の辺にそって1cm・2cm・3cm・4cmと区切られ、半径1cm・3cm・6cm・10cmのおうぎ形の弧と、階段状の直線部分（1cm・2cm・3cm・4cmの部分）が太線］",
+        "notionOriginalText": "※円周率は3.14とします。\n図のようにおうぎ形があります。太い線の長さの合計を求めなさい。\n［図：中心角54°のおうぎ形4つ。共通の中心から下の辺にそって1cm・2cm・3cm・4cmと区切られ、半径1cm・3cm・6cm・10cmのおうぎ形の弧と、階段状の直線部分（1cm・2cm・3cm・4cmの部分）が太線］",
+        "notionProperties": {
+          "問題": "R01N③-2",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c815892fdca3f7a51a6cf"
+          ],
+          "時期": "4年夏期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c818db0b2ea137d2afca0"
+          ],
+          "上乗せ": 0,
+          "答え": "28.84cm",
+          "図": "図版p.413",
+          "原本の難": "★2"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.413",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 3
+      },
+      "answer": {
+        "n": "721",
+        "d": "25",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-06.svg",
+      "scopeUnits": [
+        "R01"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "半径を累積して読む",
+            "body": "1、2、3、4cmは区間の長さです。半径は順に1、3、6、10cmになります。",
+            "equation": "半径＝1、1＋2、1＋2＋3、1＋2＋3＋4"
+          },
+          {
+            "id": "s2",
+            "title": "半径の合計を出す",
+            "body": "四つのおうぎ形はすべて中心角54度です。半径をまとめて弧を計算できます。",
+            "equation": "半径の合計＝1＋3＋6＋10＝20cm",
+            "checkpoint": {
+              "prompt": "四つの半径の合計は何cmですか。",
+              "answer": {
+                "n": "20",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "弧だけを計算する",
+            "body": "円周に54÷360をかけて、弧の長さを求めます。",
+            "equation": "20×2×3.14×54÷360＝18.84cm"
+          },
+          {
+            "id": "s4",
+            "title": "太い直線も足す",
+            "body": "太線には1、2、3、4cmの直線も含まれます。弧だけで終わらないようにしましょう。",
+            "equation": "18.84＋1＋2＋3＋4＝28.84cm"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "4R20N⑥-1",
+      "unitId": "geometry.area.translation-equal-remainders",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "右の図の三角形DEFは、直角三角形ABCを辺BCと平行に移動させたものです。斜線部分の面積を求めなさい。\n［図：角C・角Fが直角。B、E、C、Fはこの順に一直線上にあり、BE＝5cm。GはACとDEの交わる点で、AG＝4cm。DF＝10cm。斜線部分は四角形ABEG］",
+      "sourceText": "右の図の三角形DEFは、直角三角形ABCを辺BCと平行に移動させたものです。斜線部分の面積を求めなさい。\n［図：角C・角Fが直角。B、E、C、Fはこの順に一直線上にあり、BE＝5cm。GはACとDEの交わる点で、AG＝4cm。DF＝10cm。斜線部分は四角形ABEG］",
+      "source": {
+        "title": "4R20N⑥-1",
+        "url": "https://app.notion.com/p/3f52b010743c81f3a78cf325540cbf9f",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "右の図の三角形DEFは、直角三角形ABCを辺BCと平行に移動させたものです。斜線部分の面積を求めなさい。\n［図：角C・角Fが直角。B、E、C、Fはこの順に一直線上にあり、BE＝5cm。GはACとDEの交わる点で、AG＝4cm。DF＝10cm。斜線部分は四角形ABEG］",
+        "notionOriginalText": "右の図の三角形DEFは、直角三角形ABCを辺BCと平行に移動させたものです。斜線部分の面積を求めなさい。\n［図：角C・角Fが直角。B、E、C、Fはこの順に一直線上にあり、BE＝5cm。GはACとDEの交わる点で、AG＝4cm。DF＝10cm。斜線部分は四角形ABEG］",
+        "notionProperties": {
+          "問題": "4R20N⑥-1",
+          "教材": "4年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81a6aae3c80a132c07d4"
+          ],
+          "時期": "4年後期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81779dd7f6866c05a3ea",
+            "https://app.notion.com/p/3f52b010743c8123b97ef4ae31403d98"
+          ],
+          "上乗せ": 0,
+          "答え": "40cm²",
+          "図": "図版p.90",
+          "原本の難": "★2"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.90",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 4
+      },
+      "answer": {
+        "n": "40",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-07.svg",
+      "scopeUnits": [
+        "4R20"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "同じ三角形を見つける",
+            "body": "ABCとDEFは平行移動した同じ三角形です。重なりを除いた部分の面積も同じです。",
+            "equation": "斜線ABEG＝台形GDFC"
+          },
+          {
+            "id": "s2",
+            "title": "台形の短い辺を出す",
+            "body": "AC＝DF＝10cmで、AG＝4cmです。残ったGCを求めます。",
+            "equation": "GC＝10−4＝6cm",
+            "checkpoint": {
+              "prompt": "GCは何cmですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "台形の高さを読む",
+            "body": "GCとDFは平行です。この2本の間の距離CFは、移動した長さBEと同じ5cmです。",
+            "equation": "CF＝BE＝5cm"
+          },
+          {
+            "id": "s4",
+            "title": "台形の公式で計算する",
+            "body": "元の斜線を直接分けず、同じ面積の台形で求めます。",
+            "equation": "(6＋10)×5÷2＝40cm²"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "4R20N③-1",
+      "unitId": "geometry.area.common-height-base-sum",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "右の図の四角形ABCDは長方形です。斜線部分の面積の合計を求めなさい。\n［図：AB＝8cm、BC＝12cm。斜線部分は、底辺がすべて辺BC上にあって、3つの底辺をつなげるとBC全体になり、頂点がすべて辺AD上にある3つの三角形］",
+      "sourceText": "右の図の四角形ABCDは長方形です。斜線部分の面積の合計を求めなさい。\n［図：AB＝8cm、BC＝12cm。斜線部分は、底辺がすべて辺BC上にあって、3つの底辺をつなげるとBC全体になり、頂点がすべて辺AD上にある3つの三角形］",
+      "source": {
+        "title": "4R20N③-1",
+        "url": "https://app.notion.com/p/3f52b010743c81089ab3c8f43745007c",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "右の図の四角形ABCDは長方形です。斜線部分の面積の合計を求めなさい。\n［図：AB＝8cm、BC＝12cm。斜線部分は、底辺がすべて辺BC上にあって、3つの底辺をつなげるとBC全体になり、頂点がすべて辺AD上にある3つの三角形］",
+        "notionOriginalText": "右の図の四角形ABCDは長方形です。斜線部分の面積の合計を求めなさい。\n［図：AB＝8cm、BC＝12cm。斜線部分は、底辺がすべて辺BC上にあって、3つの底辺をつなげるとBC全体になり、頂点がすべて辺AD上にある3つの三角形］",
+        "notionProperties": {
+          "問題": "4R20N③-1",
+          "教材": "4年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81a6aae3c80a132c07d4"
+          ],
+          "時期": "4年前期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c8170b3ecd2ea055400f8"
+          ],
+          "上乗せ": 0,
+          "答え": "48cm²",
+          "図": "図版p.80",
+          "原本の難": "★1"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.80",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 4
+      },
+      "answer": {
+        "n": "48",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-08.svg",
+      "scopeUnits": [
+        "4R20"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "三つの高さを見る",
+            "body": "3つの三角形の底辺はBC上、頂点は平行なAD上にあります。どれも高さは8cmです。",
+            "equation": "高さ＝AB＝8cm"
+          },
+          {
+            "id": "s2",
+            "title": "底辺をまとめる",
+            "body": "3つの底辺をつなげるとBC全体になります。合計は12cmです。",
+            "equation": "底辺の合計＝12cm",
+            "checkpoint": {
+              "prompt": "三つの底辺の合計は何cmですか。",
+              "answer": {
+                "n": "12",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "一つの式にする",
+            "body": "高さが同じなので、それぞれの底辺を調べずに合計を使えます。",
+            "equation": "面積の合計＝12×8÷2"
+          },
+          {
+            "id": "s4",
+            "title": "面積を計算する",
+            "body": "長方形全体96cm²の半分になることでも確かめられます。",
+            "equation": "12×8÷2＝48cm²"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "4R04N④-1",
+      "unitId": "geometry.area.rhombus-grid-diagonals",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "ひし形ABCDの面積を求めなさい。（2つの図は同じものです。）\n［図：1目盛り1cmの方眼。対角線BDが6目盛り＝6cm、対角線ACが4目盛り＝4cm］",
+      "sourceText": "ひし形ABCDの面積を求めなさい。（2つの図は同じものです。）\n［図：1目盛り1cmの方眼。対角線BDが6目盛り＝6cm、対角線ACが4目盛り＝4cm］",
+      "source": {
+        "title": "4R04N④-1",
+        "url": "https://app.notion.com/p/3f52b010743c8107bc09c7f56d263bff",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "ひし形ABCDの面積を求めなさい。（2つの図は同じものです。）\n［図：1目盛り1cmの方眼。対角線BDが6目盛り＝6cm、対角線ACが4目盛り＝4cm］",
+        "notionOriginalText": "ひし形ABCDの面積を求めなさい。（2つの図は同じものです。）\n［図：1目盛り1cmの方眼。対角線BDが6目盛り＝6cm、対角線ACが4目盛り＝4cm］",
+        "notionProperties": {
+          "問題": "4R04N④-1",
+          "教材": "4年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81c080bee700016c46c1"
+          ],
+          "時期": "4年前期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c8123b97ef4ae31403d98"
+          ],
+          "上乗せ": 0,
+          "答え": "12cm²",
+          "図": "図版p.147",
+          "原本の難": "★1"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.147",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 2
+      },
+      "answer": {
+        "n": "12",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 2,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-09.svg",
+      "scopeUnits": [
+        "4R04"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "一目盛りを確かめる",
+            "body": "方眼の一目盛りは1cmです。図の大きさを見た感じで決めず、目盛りを数えます。",
+            "equation": "1目盛り＝1cm"
+          },
+          {
+            "id": "s2",
+            "title": "対角線を読む",
+            "body": "左右の対角線BDは6目盛り、上下の対角線ACは4目盛りです。",
+            "equation": "BD＝6cm、AC＝4cm",
+            "checkpoint": {
+              "prompt": "対角線BDの長さは何cmですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "対角線の公式を使う",
+            "body": "ひし形の面積は2本の対角線の積の半分です。辺の長さは使いません。",
+            "equation": "面積＝6×4÷2"
+          },
+          {
+            "id": "s4",
+            "title": "単位を確認する",
+            "body": "長さのcmではなく、面積のcm²で答えます。",
+            "equation": "6×4÷2＝12cm²"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "4R21T②-4",
+      "unitId": "geometry.area.rectangle-interior-opposite-sums",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "長方形ABCDの中の点Eから4つの頂点に線をひき、ア（上）・イ（左）・ウ（下）・エ（右）の4つの三角形に分けた。ア＝11cm²、イ＝10cm²、ウ＝7cm²のとき、エの面積【図版p.478】",
+      "sourceText": "長方形ABCDの中の点Eから4つの頂点に線をひき、ア（上）・イ（左）・ウ（下）・エ（右）の4つの三角形に分けた。ア＝11cm²、イ＝10cm²、ウ＝7cm²のとき、エの面積【図版p.478】",
+      "source": {
+        "title": "4R21T②-4",
+        "url": "https://app.notion.com/p/3f52b010743c81008c22fa930f79e028",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "長方形ABCDの中の点Eから4つの頂点に線をひき、ア（上）・イ（左）・ウ（下）・エ（右）の4つの三角形に分けた。ア＝11cm²、イ＝10cm²、ウ＝7cm²のとき、エの面積【図版p.478】",
+        "notionOriginalText": "長方形ABCDの中の点Eから4つの頂点に線をひき、ア（上）・イ（左）・ウ（下）・エ（右）の4つの三角形に分けた。ア＝11cm²、イ＝10cm²、ウ＝7cm²のとき、エの面積【図版p.478】",
+        "notionProperties": {
+          "問題": "4R21T②-4",
+          "教材": "4年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81e1bd41de138b65c785"
+          ],
+          "時期": "4年前期",
+          "区分": "T授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c8170b3ecd2ea055400f8"
+          ],
+          "上乗せ": 0,
+          "答え": "8cm²",
+          "図": "図版p.478",
+          "原本の難": "★2"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.478",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 4
+      },
+      "answer": {
+        "n": "8",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-10.svg",
+      "scopeUnits": [
+        "4R21"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "上下の三角形を合わせる",
+            "body": "上と下は底辺が長方形の横の長さで、高さの合計が長方形のたての長さです。合わせて長方形の半分です。",
+            "equation": "ア＋ウ＝長方形の半分"
+          },
+          {
+            "id": "s2",
+            "title": "半分の面積を出す",
+            "body": "上が11cm²、下が7cm²なので、合計は18cm²です。",
+            "equation": "11＋7＝18cm²",
+            "checkpoint": {
+              "prompt": "上と下の面積の合計は何cm²ですか。",
+              "answer": {
+                "n": "18",
+                "d": "1",
+                "unit": "cm²",
+                "dimension": "area"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "左右も半分になる",
+            "body": "左と右も同じように、合わせて長方形の半分になります。",
+            "equation": "イ＋エ＝18cm²"
+          },
+          {
+            "id": "s4",
+            "title": "わかっている左を引く",
+            "body": "左の10cm²を引いて、右のエだけにします。",
+            "equation": "エ＝18−10＝8cm²"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "4R21T③-3",
+      "unitId": "geometry.area.right-triangle-similar-height",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "三角形ABEの面積。A・D・Bは一直線で AD＝9cm、DB＝4cm、BC＝6cm（∠B＝90°）、E は AC 上で DE⊥AB【図版p.481】",
+      "sourceText": "三角形ABEの面積。A・D・Bは一直線で AD＝9cm、DB＝4cm、BC＝6cm（∠B＝90°）、E は AC 上で DE⊥AB【図版p.481】",
+      "source": {
+        "title": "4R21T③-3",
+        "url": "https://app.notion.com/p/3f52b010743c811c8cd9d100b4b217f9",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "三角形ABEの面積。A・D・Bは一直線で AD＝9cm、DB＝4cm、BC＝6cm（∠B＝90°）、E は AC 上で DE⊥AB【図版p.481】",
+        "notionOriginalText": "三角形ABEの面積。A・D・Bは一直線で AD＝9cm、DB＝4cm、BC＝6cm（∠B＝90°）、E は AC 上で DE⊥AB【図版p.481】",
+        "notionProperties": {
+          "問題": "4R21T③-3",
+          "教材": "4年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81e1bd41de138b65c785"
+          ],
+          "時期": "4年後期",
+          "区分": "T授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c8170b3ecd2ea055400f8",
+            "https://app.notion.com/p/3f52b010743c81769c55febc6e8ccb36"
+          ],
+          "上乗せ": 0,
+          "答え": "27cm²",
+          "図": "図版p.481",
+          "原本の難": "★2〜3"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.481",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 4
+      },
+      "answer": {
+        "n": "27",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-11.svg",
+      "scopeUnits": [
+        "4R21"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全体の底辺を出す",
+            "body": "A・D・Bはこの順に一直線上にあります。ADとDBを足してABを求めます。",
+            "equation": "AB＝9＋4＝13cm"
+          },
+          {
+            "id": "s2",
+            "title": "相似な三角形を見つける",
+            "body": "ADEとABCは直角をもち、Aの角を共有します。対応する底辺はADとABです。",
+            "equation": "AD：AB＝9：13",
+            "checkpoint": {
+              "prompt": "三角形ABCの底辺ABは何cmですか。",
+              "answer": {
+                "n": "13",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "必要な高さを出す",
+            "body": "DEはBCの9/13倍です。分数のまま進めると、次で約分できます。",
+            "equation": "DE＝6×9/13＝54/13cm"
+          },
+          {
+            "id": "s4",
+            "title": "ABEの面積に使う",
+            "body": "ABEの底辺はAB、高さはDEです。AEやBEを高さにしないようにしましょう。",
+            "equation": "13×54/13÷2＝27cm²"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "S09H①-2(4)",
+      "unitId": "geometry.symmetry.odd-regular-polygon-axes",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "次の図形は線対称な図形です。対称の軸は何本ありますか。\n(4) 正十五角形",
+      "sourceText": "次の図形は線対称な図形です。対称の軸は何本ありますか。\n(4) 正十五角形",
+      "source": {
+        "title": "S09H①-2(4)",
+        "url": "https://app.notion.com/p/3f52b010743c812c8df0f1eed34b2cdc",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。 小問(4)のみ独立採用。",
+        "sourceText": "次の図形は線対称な図形です。対称の軸は何本ありますか。\n(4) 正十五角形",
+        "notionOriginalText": "次の図形は線対称な図形です。対称の軸は何本ありますか。\n(1) 正三角形\n(2) ひし形\n(3) 正八角形\n(4) 正十五角形",
+        "notionProperties": {
+          "問題": "S09H①-2",
+          "教材": "夏期講習",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c818c90a3fa4b4eb30b45"
+          ],
+          "時期": "5年夏期",
+          "区分": "家庭学習用H",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c818c91a9e61873a7b42c"
+          ],
+          "上乗せ": 0,
+          "答え": "(1)3本　(2)2本　(3)8本　(4)15本",
+          "図": "なし",
+          "原本の難": "★1"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "なし",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 2
+      },
+      "answer": {
+        "n": "15",
+        "d": "1",
+        "unit": "本",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-12.svg",
+      "scopeUnits": [
+        "S09"
+      ],
+      "homeStudy": true,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "正十五角形を確認する",
+            "body": "15本の辺と15個の頂点がある正多角形です。長さと角がそろっています。",
+            "equation": "頂点の数＝15"
+          },
+          {
+            "id": "s2",
+            "title": "一つの軸を考える",
+            "body": "1つの頂点から、向かい側の辺の真ん中へ線を引くと、左右が重なります。",
+            "equation": "1頂点につき1本",
+            "checkpoint": {
+              "prompt": "一つの頂点から引くこの対称軸は何本ですか。",
+              "answer": {
+                "n": "1",
+                "d": "1",
+                "unit": "本",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "すべての頂点で数える",
+            "body": "頂点が15個あるので、それぞれから1本ずつ軸を引けます。",
+            "equation": "対称の軸＝15×1"
+          },
+          {
+            "id": "s4",
+            "title": "奇数角形の特徴を見る",
+            "body": "向かい合う頂点どうしの線はありません。頂点と向かい側の辺の真ん中を結ぶ15本です。",
+            "equation": "15×1＝15本"
+          }
+        ]
+      },
+      "domain": "平面図形",
+      "domains": [
+        "平面図形"
+      ]
+    },
+    {
+      "id": "4R18N①-3",
+      "unitId": "geometry.volume.cube-corner-subtraction",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "右の立体は、立方体から立方体を切り取ったものです。この立体の体積を求めなさい。\n［図：1辺5cmの立方体（5cm・5cm・5cm）の上の手前のかどから、1辺2cmの立方体を切り取った立体］",
+      "sourceText": "右の立体は、立方体から立方体を切り取ったものです。この立体の体積を求めなさい。\n［図：1辺5cmの立方体（5cm・5cm・5cm）の上の手前のかどから、1辺2cmの立方体を切り取った立体］",
+      "source": {
+        "title": "4R18N①-3",
+        "url": "https://app.notion.com/p/3f52b010743c816f9950ce89617af2ea",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "右の立体は、立方体から立方体を切り取ったものです。この立体の体積を求めなさい。\n［図：1辺5cmの立方体（5cm・5cm・5cm）の上の手前のかどから、1辺2cmの立方体を切り取った立体］",
+        "notionOriginalText": "右の立体は、立方体から立方体を切り取ったものです。この立体の体積を求めなさい。\n［図：1辺5cmの立方体（5cm・5cm・5cm）の上の手前のかどから、1辺2cmの立方体を切り取った立体］",
+        "notionProperties": {
+          "問題": "4R18N①-3",
+          "教材": "4年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c811da38ee72c8b9ef42f"
+          ],
+          "時期": "4年前期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81dc9647d168439770db",
+            "https://app.notion.com/p/3f52b010743c813b96a8c89531e4cad6"
+          ],
+          "上乗せ": 0,
+          "答え": "117cm³",
+          "図": "図版p.840",
+          "原本の難": "★1〜2"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.840",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 3
+      },
+      "answer": {
+        "n": "117",
+        "d": "1",
+        "unit": "cm³",
+        "dimension": "volume"
+      },
+      "difficulty": 2,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-13.svg",
+      "scopeUnits": [
+        "4R18"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "元の立方体を考える",
+            "body": "一辺5cmの立方体の体積から、切り取った部分を引きます。",
+            "equation": "元の体積＝5×5×5"
+          },
+          {
+            "id": "s2",
+            "title": "元の体積を出す",
+            "body": "立方体の体積は一辺を3回かけます。",
+            "equation": "5×5×5＝125cm³",
+            "checkpoint": {
+              "prompt": "元の立方体の体積は何cm³ですか。",
+              "answer": {
+                "n": "125",
+                "d": "1",
+                "unit": "cm³",
+                "dimension": "volume"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "切り取った体積を出す",
+            "body": "小さい立方体は一辺2cmです。",
+            "equation": "2×2×2＝8cm³"
+          },
+          {
+            "id": "s4",
+            "title": "残った体積を求める",
+            "body": "切り取ると表面の形は複雑ですが、体積は引き算で求められます。",
+            "equation": "125−8＝117cm³"
+          }
+        ]
+      },
+      "domain": "立体図形",
+      "domains": [
+        "立体図形"
+      ]
+    },
+    {
+      "id": "4R17N⑤-2",
+      "unitId": "geometry.solid.net-surface-inverse-height",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "右の図は直方体の展開図で、この直方体の表面積は228cm²です。□にあてはまる長さを求めなさい。\n［図：十字形の展開図。上の面（いちばん上の長方形）は横6cm・たて4cm、その下に横長の長方形（側面4つ。たての長さ□cm）、その下に上の面と同じ長方形］",
+      "sourceText": "右の図は直方体の展開図で、この直方体の表面積は228cm²です。□にあてはまる長さを求めなさい。\n［図：十字形の展開図。上の面（いちばん上の長方形）は横6cm・たて4cm、その下に横長の長方形（側面4つ。たての長さ□cm）、その下に上の面と同じ長方形］",
+      "source": {
+        "title": "4R17N⑤-2",
+        "url": "https://app.notion.com/p/3f52b010743c8104a8d7fcff22487b57",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "右の図は直方体の展開図で、この直方体の表面積は228cm²です。□にあてはまる長さを求めなさい。\n［図：十字形の展開図。上の面（いちばん上の長方形）は横6cm・たて4cm、その下に横長の長方形（側面4つ。たての長さ□cm）、その下に上の面と同じ長方形］",
+        "notionOriginalText": "右の図は直方体の展開図で、この直方体の表面積は228cm²です。□にあてはまる長さを求めなさい。\n［図：十字形の展開図。上の面（いちばん上の長方形）は横6cm・たて4cm、その下に横長の長方形（側面4つ。たての長さ□cm）、その下に上の面と同じ長方形］",
+        "notionProperties": {
+          "問題": "4R17N⑤-2",
+          "教材": "4年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81b1a33beddd69223583"
+          ],
+          "時期": "4年前期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81dc9647d168439770db",
+            "https://app.notion.com/p/3f52b010743c8181bc99ddd9fa95b223"
+          ],
+          "上乗せ": 1,
+          "答え": "9cm",
+          "図": "図版p.824",
+          "原本の難": "★2〜3"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.824",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 3
+      },
+      "answer": {
+        "n": "9",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-14.svg",
+      "scopeUnits": [
+        "4R17"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "底面を二つ取り除く",
+            "body": "上面と底面はどちらも6cm×4cmです。側面だけの面積を求めます。",
+            "equation": "底面2枚＝6×4×2＝48cm²"
+          },
+          {
+            "id": "s2",
+            "title": "側面積を求める",
+            "body": "表面積228cm²から底面2枚を引きます。",
+            "equation": "側面積＝228−48＝180cm²",
+            "checkpoint": {
+              "prompt": "側面4枚の面積の合計は何cm²ですか。",
+              "answer": {
+                "n": "180",
+                "d": "1",
+                "unit": "cm²",
+                "dimension": "area"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "側面を一枚の帯にする",
+            "body": "帯の横の長さは底面のまわりの長さです。6＋4＋6＋4＝20cmになります。",
+            "equation": "帯の横＝(6＋4)×2＝20cm"
+          },
+          {
+            "id": "s4",
+            "title": "帯のたてを逆算する",
+            "body": "側面積を帯の横20cmで割れば、求める□の長さです。",
+            "equation": "□＝180÷20＝9cm"
+          }
+        ]
+      },
+      "domain": "立体図形",
+      "domains": [
+        "立体図形"
+      ]
+    },
+    {
+      "id": "4R17N⑦-3",
+      "unitId": "geometry.solid.staircase-six-direction-surface",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "1辺が1cmの立方体を35個つみ重ねて、図のような立体を作りました。この立体の表面積を求めなさい。\n［図：上から1個・3個・6個・10個・15個の5段で三角形の階段状につみ重ねた立体（真上から見ると正方形が1＋2＋3＋4＋5＝15個見える）］",
+      "sourceText": "1辺が1cmの立方体を35個つみ重ねて、図のような立体を作りました。この立体の表面積を求めなさい。\n［図：上から1個・3個・6個・10個・15個の5段で三角形の階段状につみ重ねた立体（真上から見ると正方形が1＋2＋3＋4＋5＝15個見える）］",
+      "source": {
+        "title": "4R17N⑦-3",
+        "url": "https://app.notion.com/p/3f52b010743c8132913ac400930ca194",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "1辺が1cmの立方体を35個つみ重ねて、図のような立体を作りました。この立体の表面積を求めなさい。\n［図：上から1個・3個・6個・10個・15個の5段で三角形の階段状につみ重ねた立体（真上から見ると正方形が1＋2＋3＋4＋5＝15個見える）］",
+        "notionOriginalText": "1辺が1cmの立方体を35個つみ重ねて、図のような立体を作りました。この立体の表面積を求めなさい。\n［図：上から1個・3個・6個・10個・15個の5段で三角形の階段状につみ重ねた立体（真上から見ると正方形が1＋2＋3＋4＋5＝15個見える）］",
+        "notionProperties": {
+          "問題": "4R17N⑦-3",
+          "教材": "4年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81b1a33beddd69223583"
+          ],
+          "時期": "4年前期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81aebcc6e2c70a297d7b",
+            "https://app.notion.com/p/3f52b010743c81dc9647d168439770db"
+          ],
+          "上乗せ": 0,
+          "答え": "90cm²",
+          "図": "図版p.829",
+          "原本の難": "★3"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.829",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 4
+      },
+      "answer": {
+        "n": "90",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-15.svg",
+      "scopeUnits": [
+        "4R17"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "上から見た面を数える",
+            "body": "上からは、1＋2＋3＋4＋5個の正方形が見えます。",
+            "equation": "1＋2＋3＋4＋5＝15個"
+          },
+          {
+            "id": "s2",
+            "title": "一方向の面積にする",
+            "body": "一辺1cmの小さい面は1cm²です。上から見た面積は15cm²です。",
+            "equation": "上から見た面積＝15cm²",
+            "checkpoint": {
+              "prompt": "真上から見える小さい面は何個ですか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "個",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "ほかの五方向も確かめる",
+            "body": "この三角形の階段状の積み方では、下・前・後ろ・左・右も各15枚分です。段の内側の面を二重に足しません。",
+            "equation": "六方向とも15cm²"
+          },
+          {
+            "id": "s4",
+            "title": "六方向を合計する",
+            "body": "六方向に分けた外側の面を足します。体積35cm³をそのまま使わないようにしましょう。",
+            "equation": "15×6＝90cm²"
+          }
+        ]
+      },
+      "domain": "立体図形",
+      "domains": [
+        "立体図形"
+      ]
+    },
+    {
+      "id": "R12N③-2",
+      "unitId": "geometry.water.transfer-weighted-depth",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "内のりの底面の直径が10cmと20cmの容器A・Bがあり、それぞれ深さ4cm、14cmまで水が入っています。Bの水の一部をAに移して深さを同じにします。深さは何cm（円周率3.14）",
+      "sourceText": "内のりの底面の直径が10cmと20cmの容器A・Bがあり、それぞれ深さ4cm、14cmまで水が入っています。Bの水の一部をAに移して深さを同じにします。深さは何cm（円周率3.14）",
+      "source": {
+        "title": "R12N③-2",
+        "url": "https://app.notion.com/p/3f52b010743c81c09824dc91a20aac4a",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "内のりの底面の直径が10cmと20cmの容器A・Bがあり、それぞれ深さ4cm、14cmまで水が入っています。Bの水の一部をAに移して深さを同じにします。深さは何cm（円周率3.14）",
+        "notionOriginalText": "内のりの底面の直径が10cmと20cmの容器A・Bがあり、それぞれ深さ4cm、14cmまで水が入っています。Bの水の一部をAに移して深さを同じにします。深さは何cm（円周率3.14）",
+        "notionProperties": {
+          "問題": "R12N③-2",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c810e81a8d24f5790e447"
+          ],
+          "時期": "4年前期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c813580b0f53d92e7406d"
+          ],
+          "上乗せ": 1,
+          "答え": "12cm",
+          "図": "図版p.135",
+          "原本の難": "★2"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.135",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 3
+      },
+      "answer": {
+        "n": "12",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-16.svg",
+      "scopeUnits": [
+        "R12"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "底面積の比を見る",
+            "body": "直径が10cmと20cmなので、半径は5cmと10cmです。底面積の比は25：100＝1：4です。",
+            "equation": "底面積の比＝1：4"
+          },
+          {
+            "id": "s2",
+            "title": "水の量を同じ単位で表す",
+            "body": "底面積を1と4とすると、初めの水量は1×4と4×14に比例します。",
+            "equation": "水量の合計＝4＋56＝60",
+            "checkpoint": {
+              "prompt": "この比の単位で水量を足すといくつですか。",
+              "answer": {
+                "n": "60",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "底面積の合計で割る",
+            "body": "同じ深さになったときは、二つ合わせた底面積が1＋4＝5です。",
+            "equation": "共通の深さ＝60÷5"
+          },
+          {
+            "id": "s4",
+            "title": "単純平均と区別する",
+            "body": "大きいBに多くの水があるので、4と14の単純平均9cmにはなりません。",
+            "equation": "60÷5＝12cm"
+          }
+        ]
+      },
+      "domain": "立体図形",
+      "domains": [
+        "立体図形"
+      ]
+    },
+    {
+      "id": "R12N⑦-2",
+      "unitId": "geometry.water.paint-area-and-partial-insertion",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "水平に置いた容器A（10cm×10cm×高さ15cm）にペンキ1Lを入れ、直方体の木材B（5cm×6cm）をまっすぐ容器Aの底からxcmのところまで入れました。取り出すとペンキのついた部分の面積は184cm²。xを求めなさい",
+      "sourceText": "水平に置いた容器A（10cm×10cm×高さ15cm）にペンキ1Lを入れ、直方体の木材B（5cm×6cm）をまっすぐ容器Aの底からxcmのところまで入れました。取り出すとペンキのついた部分の面積は184cm²。xを求めなさい",
+      "source": {
+        "title": "R12N⑦-2",
+        "url": "https://app.notion.com/p/3f52b010743c8112ad15c1d019ee9e5b",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "水平に置いた容器A（10cm×10cm×高さ15cm）にペンキ1Lを入れ、直方体の木材B（5cm×6cm）をまっすぐ容器Aの底からxcmのところまで入れました。取り出すとペンキのついた部分の面積は184cm²。xを求めなさい",
+        "notionOriginalText": "水平に置いた容器A（10cm×10cm×高さ15cm）にペンキ1Lを入れ、直方体の木材B（5cm×6cm）をまっすぐ容器Aの底からxcmのところまで入れました。取り出すとペンキのついた部分の面積は184cm²。xを求めなさい",
+        "notionProperties": {
+          "問題": "R12N⑦-2",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c810e81a8d24f5790e447"
+          ],
+          "時期": "4年前期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c813580b0f53d92e7406d",
+            "https://app.notion.com/p/3f52b010743c81dc9647d168439770db"
+          ],
+          "上乗せ": 2,
+          "答え": "5.1",
+          "図": "図版p.139",
+          "原本の難": "★3"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.139",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 3
+      },
+      "answer": {
+        "n": "51",
+        "d": "10",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-17.svg",
+      "scopeUnits": [
+        "R12"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "ぬれた底面を分ける",
+            "body": "木材の底面積は5×6＝30cm²です。ペンキがついた184cm²から底面を除きます。",
+            "equation": "側面のぬれた面積＝184−30＝154cm²"
+          },
+          {
+            "id": "s2",
+            "title": "ぬれた長さを求める",
+            "body": "木材のまわりは(5＋6)×2＝22cmです。側面積をまわりで割ります。",
+            "equation": "ぬれた長さ＝154÷22＝7cm",
+            "checkpoint": {
+              "prompt": "木材のぬれた長さは何cmですか。",
+              "answer": {
+                "n": "7",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "木材の横にあるペンキを出す",
+            "body": "木材の横の断面積は容器の100から木材の30を引いた70cm²です。そこに高さ7cm分あります。",
+            "equation": "70×7＝490cm³"
+          },
+          {
+            "id": "s4",
+            "title": "下のすき間の水量を出す",
+            "body": "1L＝1000cm³から横の490cm³を引くと、木材より下にあるペンキの量です。",
+            "equation": "1000−490＝510cm³"
+          },
+          {
+            "id": "s5",
+            "title": "すき間の高さを求める",
+            "body": "下のすき間は容器全体の底面100cm²を使います。70で割らないようにしましょう。",
+            "equation": "x＝510÷100＝5.1cm"
+          }
+        ]
+      },
+      "domain": "立体図形",
+      "domains": [
+        "立体図形"
+      ]
+    },
+    {
+      "id": "R14N⑤-3",
+      "unitId": "geometry.water.tilt-trapezoid-cross-section",
+      "category": "geometry",
+      "revision": 1,
+      "expeditionOnly": true,
+      "text": "たて、横、高さがそれぞれ6cm、10cm、7cmの直方体の水そうがあります。この水そうに深さ5cmまで水を入れ、次に右の図のように水そうを傾けて75cm³の水をこぼしました。このときABの長さは何cmですか。\n［図：横10cm・高さ7cmの面を正面として傾けた図。左側の高さ7cmの辺の上に、水面との交点Aと、その下の頂点Bがある。水面はAから、横10cmの辺と高さ7cmの辺が交わる右の頂点まで］",
+      "sourceText": "たて、横、高さがそれぞれ6cm、10cm、7cmの直方体の水そうがあります。この水そうに深さ5cmまで水を入れ、次に右の図のように水そうを傾けて75cm³の水をこぼしました。このときABの長さは何cmですか。\n［図：横10cm・高さ7cmの面を正面として傾けた図。左側の高さ7cmの辺の上に、水面との交点Aと、その下の頂点Bがある。水面はAから、横10cmの辺と高さ7cmの辺が交わる右の頂点まで］",
+      "source": {
+        "title": "R14N⑤-3",
+        "url": "https://app.notion.com/p/3f52b010743c8109a0f6f0413ca63b39",
+        "locator": "Notion本文・図書き起こしから教材図を再作成。原本画像そのものではない。",
+        "sourceText": "たて、横、高さがそれぞれ6cm、10cm、7cmの直方体の水そうがあります。この水そうに深さ5cmまで水を入れ、次に右の図のように水そうを傾けて75cm³の水をこぼしました。このときABの長さは何cmですか。\n［図：横10cm・高さ7cmの面を正面として傾けた図。左側の高さ7cmの辺の上に、水面との交点Aと、その下の頂点Bがある。水面はAから、横10cmの辺と高さ7cmの辺が交わる右の頂点まで］",
+        "notionOriginalText": "たて、横、高さがそれぞれ6cm、10cm、7cmの直方体の水そうがあります。この水そうに深さ5cmまで水を入れ、次に右の図のように水そうを傾けて75cm³の水をこぼしました。このときABの長さは何cmですか。\n［図：横10cm・高さ7cmの面を正面として傾けた図。左側の高さ7cmの辺の上に、水面との交点Aと、その下の頂点Bがある。水面はAから、横10cmの辺と高さ7cmの辺が交わる右の頂点まで］",
+        "notionProperties": {
+          "問題": "R14N⑤-3",
+          "教材": "5年授業",
+          "教材回": [
+            "https://app.notion.com/p/3f52b010743c81258adeed195f55f6bf"
+          ],
+          "時期": "4年前期",
+          "区分": "N授業",
+          "型": [
+            "https://app.notion.com/p/3f52b010743c81b38c91c73085077671"
+          ],
+          "上乗せ": 0,
+          "答え": "0.5cm",
+          "図": "図版p.213",
+          "原本の難": "★3"
+        },
+        "verification": "Notion問題・答え・図記述を読取。独立有理数検算済み。図は条件を保つ教材SVGであり原図画像未照合。native verification=unverified",
+        "figureProvenance": {
+          "kind": "educational-svg-from-notion-description",
+          "originalFigureReference": "図版p.213",
+          "originalImageVerified": false
+        },
+        "notionBaseDifficulty": 4
+      },
+      "answer": {
+        "n": "1",
+        "d": "2",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/expedition/geo-18.svg",
+      "scopeUnits": [
+        "R14"
+      ],
+      "homeStudy": false,
+      "reviewEligible": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "初めの水量を出す",
+            "body": "水そうの底面は6cm×10cm、水の深さは5cmです。",
+            "equation": "初めの水量＝6×10×5＝300cm³"
+          },
+          {
+            "id": "s2",
+            "title": "残った水量を出す",
+            "body": "75cm³こぼれたので、残りは225cm³です。",
+            "equation": "残り＝300−75＝225cm³",
+            "checkpoint": {
+              "prompt": "こぼれたあとの水量は何cm³ですか。",
+              "answer": {
+                "n": "225",
+                "d": "1",
+                "unit": "cm³",
+                "dimension": "volume"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "正面の台形の面積を出す",
+            "body": "奥行き6cmの台形柱です。体積を奥行きで割ると正面の面積です。",
+            "equation": "正面の面積＝225÷6＝37.5cm²"
+          },
+          {
+            "id": "s4",
+            "title": "台形の式を立てる",
+            "body": "平行な2辺はABと7cm、その間の距離は10cmです。",
+            "equation": "(AB＋7)×10÷2＝37.5"
+          },
+          {
+            "id": "s5",
+            "title": "ABだけを取り出す",
+            "body": "平行な2辺の合計を出してから、7cmを引きます。",
+            "equation": "AB＝37.5×2÷10−7＝0.5cm"
+          }
+        ]
+      },
+      "domain": "立体図形",
+      "domains": [
+        "立体図形"
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "geometry.angle.full-turn-remainder",
+      "name": "一周の残りの角",
+      "domain": "平面図形",
+      "definition": "一周の残りの角",
+      "representativeId": "4R02N①-1",
+      "decision": "1つの点のまわりを、ぐるりと一周する角は360度です。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.angle.regular-pentagon-diagonals",
+      "name": "正五角形の対角線の角",
+      "domain": "平面図形",
+      "definition": "正五角形の対角線の角",
+      "representativeId": "4R35H③-3",
+      "decision": "五角形は三角形3つに分けられます。正五角形の5つの内角は等しいです。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.area.square-expansion",
+      "name": "正方形を広げた増分",
+      "domain": "平面図形",
+      "definition": "正方形を広げた増分",
+      "representativeId": "R02N⑤-3",
+      "decision": "もとの一辺を□mとすると、幅5mの長方形が2つと、一辺5mの正方形が増えます。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.circle.inscribed-square-radius-product",
+      "name": "正方形から半径の積",
+      "domain": "平面図形",
+      "definition": "正方形から半径の積",
+      "representativeId": "R01N⑥-2",
+      "decision": "一辺が4cmなので、正方形の面積は16cm²です。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.circle.semicircle-chain",
+      "name": "半円の直径をまとめる",
+      "domain": "平面図形",
+      "definition": "半円の直径をまとめる",
+      "representativeId": "R01N③-1",
+      "decision": "点の間隔は3cmです。四つの半円の直径は3、6、9、12cmです。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.circle.concentric-arcs-and-segments",
+      "name": "同じ中心角の弧と直線",
+      "domain": "平面図形",
+      "definition": "同じ中心角の弧と直線",
+      "representativeId": "R01N③-2",
+      "decision": "1、2、3、4cmは区間の長さです。半径は順に1、3、6、10cmになります。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.area.translation-equal-remainders",
+      "name": "平行移動の残りを台形に移す",
+      "domain": "平面図形",
+      "definition": "平行移動の残りを台形に移す",
+      "representativeId": "4R20N⑥-1",
+      "decision": "ABCとDEFは平行移動した同じ三角形です。重なりを除いた部分の面積も同じです。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.area.common-height-base-sum",
+      "name": "同じ高さの底辺を集める",
+      "domain": "平面図形",
+      "definition": "同じ高さの底辺を集める",
+      "representativeId": "4R20N③-1",
+      "decision": "3つの三角形の底辺はBC上、頂点は平行なAD上にあります。どれも高さは8cmです。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.area.rhombus-grid-diagonals",
+      "name": "方眼からひし形の対角線",
+      "domain": "平面図形",
+      "definition": "方眼からひし形の対角線",
+      "representativeId": "4R04N④-1",
+      "decision": "方眼の一目盛りは1cmです。図の大きさを見た感じで決めず、目盛りを数えます。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.area.rectangle-interior-opposite-sums",
+      "name": "内部点の向かい合う面積の和",
+      "domain": "平面図形",
+      "definition": "内部点の向かい合う面積の和",
+      "representativeId": "4R21T②-4",
+      "decision": "上と下は底辺が長方形の横の長さで、高さの合計が長方形のたての長さです。合わせて長方形の半分です。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.area.right-triangle-similar-height",
+      "name": "相似から三角形の高さ",
+      "domain": "平面図形",
+      "definition": "相似から三角形の高さ",
+      "representativeId": "4R21T③-3",
+      "decision": "A・D・Bはこの順に一直線上にあります。ADとDBを足してABを求めます。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.symmetry.odd-regular-polygon-axes",
+      "name": "奇数の正多角形の対称軸",
+      "domain": "平面図形",
+      "definition": "奇数の正多角形の対称軸",
+      "representativeId": "S09H①-2(4)",
+      "decision": "15本の辺と15個の頂点がある正多角形です。長さと角がそろっています。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.volume.cube-corner-subtraction",
+      "name": "立方体のかどを切り取る体積",
+      "domain": "立体図形",
+      "definition": "立方体のかどを切り取る体積",
+      "representativeId": "4R18N①-3",
+      "decision": "一辺5cmの立方体の体積から、切り取った部分を引きます。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.solid.net-surface-inverse-height",
+      "name": "展開図の側面積から高さ",
+      "domain": "立体図形",
+      "definition": "展開図の側面積から高さ",
+      "representativeId": "4R17N⑤-2",
+      "decision": "上面と底面はどちらも6cm×4cmです。側面だけの面積を求めます。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.solid.staircase-six-direction-surface",
+      "name": "階段積み木の六方向の面",
+      "domain": "立体図形",
+      "definition": "階段積み木の六方向の面",
+      "representativeId": "4R17N⑦-3",
+      "decision": "上からは、1＋2＋3＋4＋5個の正方形が見えます。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.water.transfer-weighted-depth",
+      "name": "水を移して同じ深さ",
+      "domain": "立体図形",
+      "definition": "水を移して同じ深さ",
+      "representativeId": "R12N③-2",
+      "decision": "直径が10cmと20cmなので、半径は5cmと10cmです。底面積の比は25：100＝1：4です。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.water.paint-area-and-partial-insertion",
+      "name": "塗れた側面から水面とすき間",
+      "domain": "立体図形",
+      "definition": "塗れた側面から水面とすき間",
+      "representativeId": "R12N⑦-2",
+      "decision": "木材の底面積は5×6＝30cm²です。ペンキがついた184cm²から底面を除きます。",
+      "prerequisites": []
+    },
+    {
+      "id": "geometry.water.tilt-trapezoid-cross-section",
+      "name": "傾けた水そうの台形断面",
+      "domain": "立体図形",
+      "definition": "傾けた水そうの台形断面",
+      "representativeId": "R14N⑤-3",
+      "decision": "水そうの底面は6cm×10cm、水の深さは5cmです。",
+      "prerequisites": []
+    }
+  ],
+  "links": [],
+  "analysis": [
+    {
+      "problemId": "4R02N①-1",
+      "notionTypeCodes": [
+        "F02"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "4R35H③-3",
+      "notionTypeCodes": [
+        "F03"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "R02N⑤-3",
+      "notionTypeCodes": [
+        "F05"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "R01N⑥-2",
+      "notionTypeCodes": [
+        "F06",
+        "F09"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "R01N③-1",
+      "notionTypeCodes": [
+        "F11"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "R01N③-2",
+      "notionTypeCodes": [
+        "F10"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "4R20N⑥-1",
+      "notionTypeCodes": [
+        "F12",
+        "F06"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "4R20N③-1",
+      "notionTypeCodes": [
+        "F08"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "4R04N④-1",
+      "notionTypeCodes": [
+        "F06"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "4R21T②-4",
+      "notionTypeCodes": [
+        "F08"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "4R21T③-3",
+      "notionTypeCodes": [
+        "F08",
+        "F15"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "S09H①-2(4)",
+      "notionTypeCodes": [
+        "F13"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "4R18N①-3",
+      "notionTypeCodes": [
+        "V02",
+        "V01"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "4R17N⑤-2",
+      "notionTypeCodes": [
+        "V02",
+        "V03"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "4R17N⑦-3",
+      "notionTypeCodes": [
+        "V04",
+        "V02"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "R12N③-2",
+      "notionTypeCodes": [
+        "V05"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "R12N⑦-2",
+      "notionTypeCodes": [
+        "V05",
+        "V02"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    },
+    {
+      "problemId": "R14N⑤-3",
+      "notionTypeCodes": [
+        "V07"
+      ],
+      "selectionBasis": "Notion原文に数値・求める量・必要な位置関係がある独立小問。数値替えだけの別問題は採らない。",
+      "difficultyBasis": "原型の基礎難度と必要判断数による教材内評価。親の最難小問評価を小問へ転用しない。",
+      "figureLimitation": "原図画像ではなくNotion記述に沿う教材SVG。原図の文体/配置を再現した証拠には使わない。"
+    }
+  ]
+}

@@ -3,6 +3,26 @@ const assert=require('node:assert/strict');
 const C=require('../src/core.js');
 const p={id:'p',unitId:'u',category:'oneline',difficulty:3,answer:{n:'8',d:'1',unit:'分',dimension:'time'},homeStudy:true,scopeUnits:['R24'],domain:'速さ',explanation:{steps:[{id:'cp',checkpoint:{answer:{n:'120',d:'1',unit:'',dimension:'scalar'}}}]},variant:{answer:{n:'4',d:'1',unit:'分',dimension:'time'}}};
 function submit(s,day,raw='8',more={}){return C.commitAttempt(s,p,{id:day+':'+raw,day,raw,...more});}
+test('duration answers accept compound hours/minutes/seconds exactly without accepting clock times or expressions',()=>{
+ const spec={n:'160',d:'1',unit:'分',dimension:'time'};
+ assert.equal(C.grade('２時間４０分',spec).correct,true);
+ assert.equal(C.grade('11時間15分',{...spec,n:'675'}).correct,true);
+ assert.equal(C.grade('1時間2分3秒',{...spec,n:'1241',d:'20'}).correct,true);
+ assert.equal(C.grade('1分1/4秒',{...spec,n:'241',d:'240'}).correct,true);
+ assert.equal(C.grade('2時間41分',spec).correct,false);
+ for(const raw of ['2時40分','2時間+40分','40分2時間','2時間1時間','-2時間40分','1分1/0秒'])assert.equal(C.grade(raw,spec).valid,false,raw);
+ assert.equal(C.grade('2時間40分',{...spec,dimension:'scalar'}).valid,false);
+});
+test('expedition-only H stays outside priority scopes and obeys the free-expedition gate',()=>{
+ const s=C.initialState(),free={...p,id:'free',unitId:'free',expeditionOnly:true,reviewEligible:true};
+ const f={category:'oneline',recentUnits:['R24'],scopeUnits:['R24'],grade:5};
+ assert.deepEqual(C.getCampaignStatus([free],s,f,'2026-10-11'),{review:0,gnorev:0,allUnlocked:true});
+ for(const mode of ['review','gnorev'])assert.equal(C.selectProblem([free],s,{...f,mode},'2026-10-11'),null);
+ assert.equal(C.selectProblem([free],s,{...f,mode:'all'},'2026-10-11').id,'free');
+ assert.equal(C.selectProblem([p,free],s,{...f,mode:'all'},'2026-10-11'),null);
+ s.units.u={stage:4,due:null};
+ assert.equal(C.selectProblem([p,free],s,{...f,mode:'all'},'2026-10-11').id,'free');
+});
 test('exact rational, decimals, mixed numbers, unicode, units and invalid forms',()=>{
 assert.equal(C.grade('２/４',{n:'1',d:'2',unit:'',dimension:'scalar'}).correct,true);
 assert.equal(C.grade('0.333',{n:'1',d:'3',unit:'',dimension:'scalar'}).correct,false);

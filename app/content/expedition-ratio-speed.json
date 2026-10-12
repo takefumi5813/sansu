@@ -1,0 +1,3159 @@
+{
+  "problems": [
+    {
+      "id": "R16N⑤-2",
+      "unitId": "ratio.reverse_increase",
+      "category": "oneline",
+      "domain": "割合の基本",
+      "text": "ある中学校の今年度の受験者数は300人で、これは昨年度より20%増えています。昨年度の受験者数は何人ですか。",
+      "sourceText": "ある中学校の今年度の受験者数は300人で、これは昨年度より20%増えています。昨年度の受験者数は何人ですか。",
+      "source": {
+        "title": "R16N⑤-2",
+        "url": "https://app.notion.com/3f52b010743c81fbae4ae0f807f5b29c",
+        "locator": "Notion問題DB「R16N⑤-2」問題節・答え・型プロパティ",
+        "sourceText": "ある中学校の今年度の受験者数は300人で、これは昨年度より20%増えています。昨年度の受験者数は何人ですか。",
+        "notionSourceText": "ある中学校の今年度の受験者数は300人で、これは昨年度より20%増えています。昨年度の受験者数は何人ですか。",
+        "notionProperties": {
+          "問題": "R16N⑤-2",
+          "url": "https://app.notion.com/3f52b010743c81fbae4ae0f807f5b29c",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c81b78d0ff92463d38929\",\"https://app.notion.com/3f52b010743c81889624eba585c66c67\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81199a45ffcec72a4815\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "250人",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P02",
+            "P03"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "R16"
+          ]
+        },
+        "sourceAnswer": "250人",
+        "scopeUnits": [
+          "R16"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:06:09.902Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "250",
+        "d": "1",
+        "unit": "人",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "人": "1"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R16"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "基準は昨年度",
+            "body": "20%増えたのは昨年度の人数を基準にした増加です。300人が基準ではありません。",
+            "equation": "昨年度＝1"
+          },
+          {
+            "id": "s2",
+            "title": "増加後の割合を作る",
+            "body": "元の1に20%を加えると、今年度は元の1.2倍です。",
+            "equation": "1＋0.2＝1.2",
+            "checkpoint": {
+              "id": "R16N⑤-2-reason",
+              "prompt": "昨年度を1とすると、今年度はどれだけにあたりますか。",
+              "answer": {
+                "n": "6",
+                "d": "5",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "増加後を倍率で割る",
+            "body": "1.2に対応する300人から、1にあたる人数を求めます。",
+            "equation": "300÷1.2＝250人"
+          },
+          {
+            "id": "s4",
+            "title": "条件へ戻す",
+            "body": "250人の20%は50人です。250人に50人を足すと今年度の300人になります。",
+            "equation": "250×1.2＝300"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R16N①-2",
+      "unitId": "ratio.same_base_remaining",
+      "category": "oneline",
+      "domain": "相当算",
+      "text": "ナツキさんは本を読みました。昨日は全体の1/2、今日は全体の1/3を読んだところ、30ページ残りました。この本は何ページありますか。",
+      "sourceText": "ナツキさんは本を読みました。昨日は全体の1/2、今日は全体の1/3を読んだところ、30ページ残りました。この本は何ページありますか。",
+      "source": {
+        "title": "R16N①-2",
+        "url": "https://app.notion.com/3f52b010743c81b288c6df36217e3ded",
+        "locator": "Notion問題DB「R16N①-2」問題節・答え・型プロパティ",
+        "sourceText": "ナツキさんは本を読みました。昨日は全体の1/2、今日は全体の1/3を読んだところ、30ページ残りました。この本は何ページありますか。",
+        "notionSourceText": "ナツキさんは本を読みました。昨日は全体の1/2、今日は全体の1/3を読んだところ、30ページ残りました。この本は何ページありますか。",
+        "notionProperties": {
+          "問題": "R16N①-2",
+          "url": "https://app.notion.com/3f52b010743c81b288c6df36217e3ded",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c81889624eba585c66c67\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81199a45ffcec72a4815\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "180ページ",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P03"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "R16"
+          ]
+        },
+        "sourceAnswer": "180ページ",
+        "scopeUnits": [
+          "R16"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:05:40.712Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "180",
+        "d": "1",
+        "unit": "ページ",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "ページ": "1"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R16"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "2つの割合の基準を確かめる",
+            "body": "昨日の1/2も今日の1/3も、どちらも本全体を基準にしています。",
+            "equation": "基準＝本全体"
+          },
+          {
+            "id": "s2",
+            "title": "残りの割合を出す",
+            "body": "全体1から読んだ2つの割合を引きます。",
+            "equation": "1－1/2－1/3＝1/6",
+            "checkpoint": {
+              "id": "R16N①-2-reason",
+              "prompt": "昨日と今日を読んだあとの残りは、全体の何倍ですか。",
+              "answer": {
+                "n": "1",
+                "d": "6",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "全体へ戻す",
+            "body": "残った30ページが全体の1/6なので、6倍します。",
+            "equation": "30÷(1/6)＝180ページ"
+          },
+          {
+            "id": "s4",
+            "title": "読んだ量で検算する",
+            "body": "昨日90ページ、今日60ページ、残り30ページの合計が180です。",
+            "equation": "90＋60＋30＝180"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R16N②-2",
+      "unitId": "ratio.changed_base_remaining",
+      "category": "oneline",
+      "domain": "相当算",
+      "text": "ナツキさんは本を読みました。昨日は全体の1/2、今日は残りの1/3を読んだところ、30ページ残りました。この本は何ページありますか。",
+      "sourceText": "ナツキさんは本を読みました。昨日は全体の1/2、今日は**残りの1/3**を読んだところ、30ページ残りました。この本は何ページありますか。",
+      "source": {
+        "title": "R16N②-2",
+        "url": "https://app.notion.com/3f52b010743c81ed854bfcbcf9a2028c",
+        "locator": "Notion問題DB「R16N②-2」問題節・答え・型プロパティ",
+        "sourceText": "ナツキさんは本を読みました。昨日は全体の1/2、今日は**残りの1/3**を読んだところ、30ページ残りました。この本は何ページありますか。",
+        "notionSourceText": "ナツキさんは本を読みました。昨日は全体の1/2、今日は**残りの1/3**を読んだところ、30ページ残りました。この本は何ページありますか。",
+        "notionProperties": {
+          "問題": "R16N②-2",
+          "url": "https://app.notion.com/3f52b010743c81ed854bfcbcf9a2028c",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c8168af55c91ebc13807c\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81199a45ffcec72a4815\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "90ページ",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P04"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "R16"
+          ]
+        },
+        "sourceAnswer": "90ページ",
+        "scopeUnits": [
+          "R16"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:05:40.712Z",
+        "textOrigin": "notion-problem-body-verbatim",
+        "displayNormalizations": [
+          "NotionのMarkdown太字記号**のみ除去。語句・数字・条件は変更せず原文はnotionSourceText/sourceTextで保持。"
+        ]
+      },
+      "answer": {
+        "n": "90",
+        "d": "1",
+        "unit": "ページ",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "ページ": "1"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R16"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "今日の基準を区別する",
+            "body": "今日の1/3は本全体ではなく、昨日読んだあとの残りを基準にします。",
+            "equation": "今日の基準＝昨日の残り"
+          },
+          {
+            "id": "s2",
+            "title": "今日読む前へ戻す",
+            "body": "今日の残り30ページは、今日読む前の2/3にあたります。",
+            "equation": "30÷(2/3)＝45ページ",
+            "checkpoint": {
+              "id": "R16N②-2-reason",
+              "prompt": "今日読む前に残っていたページ数はいくつですか。",
+              "answer": {
+                "n": "45",
+                "d": "1",
+                "unit": "ページ",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "昨日読む前へ戻す",
+            "body": "昨日の残り45ページは本全体の1/2なので、さらに2倍します。",
+            "equation": "45÷(1/2)＝90ページ"
+          },
+          {
+            "id": "s4",
+            "title": "順に読んで確かめる",
+            "body": "昨日45ページを読み、残り45ページの1/3で15ページを今日読むと30ページ残ります。",
+            "equation": "90－45－15＝30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R19N③-3",
+      "unitId": "ratio.shared_part_lengths",
+      "category": "oneline",
+      "domain": "相当算",
+      "text": "長さの差が20cmある竹ざおを、プールの底にとどくまでまっすぐに立てたら、長い方は3/5、短い方は2/3だけ水につかりました。プールの水の深さは何cmですか。",
+      "sourceText": "長さの差が20cmある竹ざおを、プールの底にとどくまでまっすぐに立てたら、長い方は3/5、短い方は2/3だけ水につかりました。プールの水の深さは何cmですか。",
+      "source": {
+        "title": "R19N③-3",
+        "url": "https://app.notion.com/3f52b010743c81219927de5720d5693f",
+        "locator": "Notion問題DB「R19N③-3」問題節・答え・型プロパティ",
+        "sourceText": "長さの差が20cmある竹ざおを、プールの底にとどくまでまっすぐに立てたら、長い方は3/5、短い方は2/3だけ水につかりました。プールの水の深さは何cmですか。",
+        "notionSourceText": "長さの差が20cmある竹ざおを、プールの底にとどくまでまっすぐに立てたら、長い方は3/5、短い方は2/3だけ水につかりました。プールの水の深さは何cmですか。",
+        "notionProperties": {
+          "問題": "R19N③-3",
+          "url": "https://app.notion.com/3f52b010743c81219927de5720d5693f",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c81efb0fddce5cf665e11\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81e3af15ebe8b75a1c36\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "120cm",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P05"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "R19"
+          ]
+        },
+        "sourceAnswer": "120cm",
+        "scopeUnits": [
+          "R19"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:07:45.478Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "120",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R19"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "水につかった長さは等しい",
+            "body": "2本とも底まで立てるので、水につかる部分は同じ水深です。竹全体の長さは異なります。",
+            "equation": "長い竹×3/5＝短い竹×2/3＝水深"
+          },
+          {
+            "id": "s2",
+            "title": "同じ部分を6にそろえる",
+            "body": "水深を6とおくと、長い竹は10、短い竹は9になります。",
+            "equation": "6÷(3/5)＝10、6÷(2/3)＝9",
+            "checkpoint": {
+              "id": "R19N③-3-reason",
+              "prompt": "水深を6の長さとおくと、長い竹ざお全体の長さはいくつですか。",
+              "answer": {
+                "n": "10",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "差から単位の長さを決める",
+            "body": "竹の差は10－9＝1で、実際の20cmにあたります。水深はその6倍です。",
+            "equation": "20÷(10－9)×6＝120cm"
+          },
+          {
+            "id": "s4",
+            "title": "割合を戻して確かめる",
+            "body": "長い竹200cmと短い竹180cmは20cm差で、つかる部分はどちらも120cmです。",
+            "equation": "200×3/5＝180×2/3＝120"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R17N①-3",
+      "unitId": "profit.part_to_cost",
+      "category": "oneline",
+      "domain": "売買損益",
+      "text": "ある品物に原価の3割にあたる利益をつけて売ったところ、利益は600円になりました。この品物の原価は何円ですか。",
+      "sourceText": "ある品物に原価の3割にあたる利益をつけて売ったところ、利益は600円になりました。この品物の原価は何円ですか。",
+      "source": {
+        "title": "R17N①-3",
+        "url": "https://app.notion.com/3f52b010743c816387e7eee57eafa756",
+        "locator": "Notion問題DB「R17N①-3」問題節・答え・型プロパティ",
+        "sourceText": "ある品物に原価の3割にあたる利益をつけて売ったところ、利益は600円になりました。この品物の原価は何円ですか。",
+        "notionSourceText": "ある品物に原価の3割にあたる利益をつけて売ったところ、利益は600円になりました。この品物の原価は何円ですか。",
+        "notionProperties": {
+          "問題": "R17N①-3",
+          "url": "https://app.notion.com/3f52b010743c816387e7eee57eafa756",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c8170b5f9f867b3ccda82\",\"https://app.notion.com/3f52b010743c815d97cef99b3aced69e\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81b0ab7cdf9a86a80632\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "2000円",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P06",
+            "P01"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "R17"
+          ]
+        },
+        "sourceAnswer": "2000円",
+        "scopeUnits": [
+          "R17"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:07:53.733Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "2000",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "円": "1"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R17"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "利益の基準を確認する",
+            "body": "3割は売値ではなく原価に対する利益の割合です。",
+            "equation": "原価＝1"
+          },
+          {
+            "id": "s2",
+            "title": "利益の割合を量に対応させる",
+            "body": "3割を0.3に直すと、原価の0.3倍が600円です。",
+            "equation": "原価×0.3＝600",
+            "checkpoint": {
+              "id": "R17N①-3-reason",
+              "prompt": "原価を1とすると、利益はどれだけにあたりますか。",
+              "answer": {
+                "n": "3",
+                "d": "10",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "原価を求める",
+            "body": "利益600円を0.3で割り、原価1にあたる金額を出します。",
+            "equation": "600÷0.3＝2000円"
+          },
+          {
+            "id": "s4",
+            "title": "売値と混同していないか確かめる",
+            "body": "原価2000円の3割は600円で、売値は2600円です。問いは原価です。",
+            "equation": "2000×0.3＝600"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R17N⑤-2",
+      "unitId": "profit.successive_bases",
+      "category": "oneline",
+      "domain": "売買損益",
+      "text": "ある品物に原価の2割増しの定価をつけましたが、売れないので定価の1割引きで売ったところ720円の利益がありました。この品物の原価。",
+      "sourceText": "ある品物に原価の2割増しの定価をつけましたが、売れないので定価の1割引きで売ったところ720円の利益がありました。この品物の原価。",
+      "source": {
+        "title": "R17N⑤-2",
+        "url": "https://app.notion.com/3f52b010743c81ef9a18e9440af958ab",
+        "locator": "Notion問題DB「R17N⑤-2」問題節・答え・型プロパティ",
+        "sourceText": "ある品物に原価の2割増しの定価をつけましたが、売れないので定価の1割引きで売ったところ720円の利益がありました。この品物の原価。",
+        "notionSourceText": "ある品物に原価の2割増しの定価をつけましたが、売れないので定価の1割引きで売ったところ720円の利益がありました。この品物の原価。",
+        "notionProperties": {
+          "問題": "R17N⑤-2",
+          "url": "https://app.notion.com/3f52b010743c81ef9a18e9440af958ab",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c817791dcfe46dedf7288\",\"https://app.notion.com/3f52b010743c8170b5f9f867b3ccda82\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81b0ab7cdf9a86a80632\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "9000円",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P07",
+            "P06"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "R17"
+          ]
+        },
+        "sourceAnswer": "9000円",
+        "scopeUnits": [
+          "R17"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:10:27.552Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "9000",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "円": "1"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R17"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "原価から定価へ直す",
+            "body": "2割増しなので定価は原価の1.2倍です。",
+            "equation": "原価＝1、定価＝1.2"
+          },
+          {
+            "id": "s2",
+            "title": "値引きの基準を確かめる",
+            "body": "1割引きは定価から引くので、売値は定価の0.9倍になります。2割と1割を直接引きません。",
+            "equation": "売値＝1.2×0.9＝1.08",
+            "checkpoint": {
+              "id": "R17N⑤-2-reason",
+              "prompt": "原価を1とすると、値引き後の売値は何倍ですか。",
+              "answer": {
+                "n": "27",
+                "d": "25",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "利益の割合から原価を出す",
+            "body": "利益は原価との差0.08にあたり、それが720円です。",
+            "equation": "720÷(1.08－1)＝9000円"
+          },
+          {
+            "id": "s4",
+            "title": "実際の金額へ戻す",
+            "body": "定価10800円から1080円引くと9720円。原価9000円との差は720円です。",
+            "equation": "9000×1.2×0.9－9000＝720"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R18N④-3",
+      "unitId": "salt.add_pure_salt",
+      "category": "oneline",
+      "domain": "食塩水",
+      "text": "4%の食塩水300gに食塩を加えて混ぜ、10%の食塩水を作ります。何gの食塩を混ぜればよいですか。",
+      "sourceText": "4%の食塩水300gに食塩を加えて混ぜ、10%の食塩水を作ります。何gの食塩を混ぜればよいですか。",
+      "source": {
+        "title": "R18N④-3",
+        "url": "https://app.notion.com/3f52b010743c8108a71cdf7e91d446ed",
+        "locator": "Notion問題DB「R18N④-3」問題節・答え・型プロパティ",
+        "sourceText": "4%の食塩水300gに食塩を加えて混ぜ、10%の食塩水を作ります。何gの食塩を混ぜればよいですか。",
+        "notionSourceText": "4%の食塩水300gに食塩を加えて混ぜ、10%の食塩水を作ります。何gの食塩を混ぜればよいですか。",
+        "notionProperties": {
+          "問題": "R18N④-3",
+          "url": "https://app.notion.com/3f52b010743c8108a71cdf7e91d446ed",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c810abbbbf6af7bb24183\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81eaa409ed3f3e4a01f5\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "20g",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P08"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "R18"
+          ]
+        },
+        "sourceAnswer": "20g",
+        "scopeUnits": [
+          "R18"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:05:20.070Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "20",
+        "d": "1",
+        "unit": "g",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "g": "1"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R18"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "初めの食塩量を求める",
+            "body": "4%の300gに含まれる食塩は12gです。",
+            "equation": "300×0.04＝12g"
+          },
+          {
+            "id": "s2",
+            "title": "食塩を加えると分母も増える",
+            "body": "加える食塩をx gとすると、食塩は12＋x、食塩水全体は300＋xです。",
+            "equation": "12＋x＝0.1×(300＋x)",
+            "checkpoint": {
+              "id": "R18N④-3-reason",
+              "prompt": "全体を300gのまま10%と考えたとき、初めの食塩量との差は何gですか。",
+              "answer": {
+                "n": "18",
+                "d": "1",
+                "unit": "g",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "増えた食塩の効き方をそろえる",
+            "body": "右辺を30＋0.1xに分けると、0.9xが30－12＝18gに対応します。",
+            "equation": "x＝18÷0.9＝20g"
+          },
+          {
+            "id": "s4",
+            "title": "濃度で確かめる",
+            "body": "食塩32g、全体320gになるので、濃度は10%です。",
+            "equation": "(12＋20)÷(300＋20)＝0.1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R18N③-2",
+      "unitId": "salt.mix_concentration",
+      "category": "oneline",
+      "domain": "食塩水",
+      "text": "15%の食塩水300gと5%の食塩水200gを混ぜ合わせると、何%の食塩水になりますか。",
+      "sourceText": "15%の食塩水300gと5%の食塩水200gを混ぜ合わせると、何%の食塩水になりますか。",
+      "source": {
+        "title": "R18N③-2",
+        "url": "https://app.notion.com/3f52b010743c81bdbf08f2436356d3bf",
+        "locator": "Notion問題DB「R18N③-2」問題節・答え・型プロパティ",
+        "sourceText": "15%の食塩水300gと5%の食塩水200gを混ぜ合わせると、何%の食塩水になりますか。",
+        "notionSourceText": "15%の食塩水300gと5%の食塩水200gを混ぜ合わせると、何%の食塩水になりますか。",
+        "notionProperties": {
+          "問題": "R18N③-2",
+          "url": "https://app.notion.com/3f52b010743c81bdbf08f2436356d3bf",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c8165b8d6c2ca65ba79d9\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81eaa409ed3f3e4a01f5\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "11%",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P09"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "R18"
+          ]
+        },
+        "sourceAnswer": "11%",
+        "scopeUnits": [
+          "R18"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:05:20.070Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "11",
+        "d": "1",
+        "unit": "%",
+        "dimension": "percent"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R18"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "それぞれの食塩量を出す",
+            "body": "濃度を直接平均せず、重さに割合をかけます。",
+            "equation": "300×0.15＝45g、200×0.05＝10g"
+          },
+          {
+            "id": "s2",
+            "title": "食塩と全体をそれぞれ足す",
+            "body": "食塩は55g、食塩水全体は500gです。",
+            "equation": "45＋10＝55g、300＋200＝500g",
+            "checkpoint": {
+              "id": "R18N③-2-reason",
+              "prompt": "2つの食塩水に含まれる食塩の重さの合計は何gですか。",
+              "answer": {
+                "n": "55",
+                "d": "1",
+                "unit": "g",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "混合後の割合を求める",
+            "body": "食塩量を食塩水全体で割り、百分率に直します。",
+            "equation": "55÷500×100＝11%"
+          },
+          {
+            "id": "s4",
+            "title": "元の濃度との関係を見る",
+            "body": "11%は5%と15%の間で、量の多い15%側に近くなっています。",
+            "equation": "500×0.11＝55g"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R18N③-4",
+      "unitId": "salt.infer_added_concentration",
+      "category": "oneline",
+      "domain": "食塩水",
+      "text": "6%の食塩水300gに、ある濃さの食塩水500gを加えて混ぜると、11%の食塩水になりました。加えた食塩水の濃さは何%ですか。",
+      "sourceText": "6%の食塩水300gに、ある濃さの食塩水500gを加えて混ぜると、11%の食塩水になりました。加えた食塩水の濃さは何%ですか。",
+      "source": {
+        "title": "R18N③-4",
+        "url": "https://app.notion.com/3f52b010743c81bda63cc7269e97960c",
+        "locator": "Notion問題DB「R18N③-4」問題節・答え・型プロパティ",
+        "sourceText": "6%の食塩水300gに、ある濃さの食塩水500gを加えて混ぜると、11%の食塩水になりました。加えた食塩水の濃さは何%ですか。",
+        "notionSourceText": "6%の食塩水300gに、ある濃さの食塩水500gを加えて混ぜると、11%の食塩水になりました。加えた食塩水の濃さは何%ですか。",
+        "notionProperties": {
+          "問題": "R18N③-4",
+          "url": "https://app.notion.com/3f52b010743c81bda63cc7269e97960c",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c8165b8d6c2ca65ba79d9\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81eaa409ed3f3e4a01f5\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "14%",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P09"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "R18"
+          ]
+        },
+        "sourceAnswer": "14%",
+        "scopeUnits": [
+          "R18"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:05:20.070Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "14",
+        "d": "1",
+        "unit": "%",
+        "dimension": "percent"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R18"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "混合後の食塩量を求める",
+            "body": "全体は800gで11%なので、含まれる食塩は88gです。",
+            "equation": "(300＋500)×0.11＝88g"
+          },
+          {
+            "id": "s2",
+            "title": "初めの食塩量を引く",
+            "body": "初めの300gに含まれる18gを引けば、加えた500gの食塩量が出ます。",
+            "equation": "88－300×0.06＝70g",
+            "checkpoint": {
+              "id": "R18N③-4-reason",
+              "prompt": "加えた500gの食塩水に含まれる食塩は何gですか。",
+              "answer": {
+                "n": "70",
+                "d": "1",
+                "unit": "g",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "加えた側の濃度を出す",
+            "body": "70gを加えた食塩水500gで割ります。全体800gを分母にしません。",
+            "equation": "70÷500×100＝14%"
+          },
+          {
+            "id": "s4",
+            "title": "食塩の合計で確かめる",
+            "body": "18gと70gを足すと88gになり、800gの11%に戻ります。",
+            "equation": "18＋500×0.14＝88"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GW516-21②",
+      "unitId": "salt.replace_with_water",
+      "category": "oneline",
+      "domain": "食塩水",
+      "text": "16%の食塩水が200gありましたが、いくらかをこぼしてしまいました。そこで、こぼした量と同量の水を入れたら濃度が12%になりました。こぼした食塩水は何gですか。",
+      "sourceText": "16%の食塩水が200gありましたが、いくらかをこぼしてしまいました。そこで、こぼした量と同量の水を入れたら濃度が12%になりました。こぼした食塩水は何gですか。",
+      "source": {
+        "title": "GW516-21②",
+        "url": "https://app.notion.com/3f52b010743c81998445f9d1ac34772d",
+        "locator": "Notion問題DB「GW516-21②」問題節・答え・型プロパティ",
+        "sourceText": "16%の食塩水が200gありましたが、いくらかをこぼしてしまいました。そこで、こぼした量と同量の水を入れたら濃度が12%になりました。こぼした食塩水は何gですか。",
+        "notionSourceText": "16%の食塩水が200gありましたが、いくらかをこぼしてしまいました。そこで、こぼした量と同量の水を入れたら濃度が12%になりました。こぼした食塩水は何gですか。",
+        "notionProperties": {
+          "問題": "GW516-21②",
+          "url": "https://app.notion.com/3f52b010743c81998445f9d1ac34772d",
+          "教材": "G脳ワークアウト",
+          "時期": "5年前期",
+          "区分": "G脳",
+          "型": "[\"https://app.notion.com/3f52b010743c81cf874ffc27de7f2323\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c8139b0dbfc381f85d5fb\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c81ab9b35c698e19f98ef\"]",
+          "図": "なし",
+          "答え": "50g",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P10"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "GW516"
+          ]
+        },
+        "sourceAnswer": "50g",
+        "scopeUnits": [
+          "GW516"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:24:35.837Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "50",
+        "d": "1",
+        "unit": "g",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "g": "1"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "GW516"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "入れ直したあとの全体を確認する",
+            "body": "こぼした量と同量の水を入れるので、全体は200gのままです。",
+            "equation": "全体＝200g"
+          },
+          {
+            "id": "s2",
+            "title": "減った食塩量を求める",
+            "body": "初めは32g、後は24gなので、こぼれた食塩は8gです。",
+            "equation": "200×0.16－200×0.12＝8g",
+            "checkpoint": {
+              "id": "GW516-21②-reason",
+              "prompt": "水を入れ直したあとの食塩の重さは何gですか。",
+              "answer": {
+                "n": "24",
+                "d": "1",
+                "unit": "g",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "こぼれた食塩水を逆算する",
+            "body": "こぼれた食塩水は初めと同じ16%。8gを0.16で割ります。",
+            "equation": "8÷0.16＝50g"
+          },
+          {
+            "id": "s4",
+            "title": "残量と加水で検算する",
+            "body": "150gの16%食塩水には24gの食塩。水50gを入れると200gで12%です。",
+            "equation": "(200－50)×0.16÷200＝0.12"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S06L⑥-2",
+      "unitId": "ratio.chain_with_average",
+      "category": "oneline",
+      "domain": "比",
+      "text": "3つの数A、B、Cの平均は86で、BはAの2.5倍、CはBの75%のとき、Cを求めなさい。",
+      "sourceText": "3つの数A、B、Cの平均は86で、BはAの2.5倍、CはBの75%のとき、Cを求めなさい。",
+      "source": {
+        "title": "S06L⑥-2",
+        "url": "https://app.notion.com/3f52b010743c81feab98f6e8a2d5b5df",
+        "locator": "Notion問題DB「S06L⑥-2」問題節・答え・型プロパティ",
+        "sourceText": "3つの数A、B、Cの平均は86で、BはAの2.5倍、CはBの75%のとき、Cを求めなさい。",
+        "notionSourceText": "3つの数A、B、Cの平均は86で、BはAの2.5倍、CはBの75%のとき、Cを求めなさい。",
+        "notionProperties": {
+          "問題": "S06L⑥-2",
+          "url": "https://app.notion.com/3f52b010743c81feab98f6e8a2d5b5df",
+          "教材": "夏期講習",
+          "時期": "5年夏期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c8126b758c2ec5d0e0bb4\",\"https://app.notion.com/3f52b010743c81afaf60f57153737416\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c810a9e31c40f9f01a3df\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "90",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P12",
+            "P11"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "S06"
+          ]
+        },
+        "sourceAnswer": "90",
+        "scopeUnits": [
+          "S06"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:09:38.902Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "90",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "S06"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "3数の合計を出す",
+            "body": "平均86の数が3つなので、合計は258です。",
+            "equation": "86×3＝258"
+          },
+          {
+            "id": "s2",
+            "title": "連続する関係を同じ比にする",
+            "body": "Aを8とするとBは20。CはBの75%なので15です。",
+            "equation": "A：B：C＝8：20：15",
+            "checkpoint": {
+              "id": "S06L⑥-2-reason",
+              "prompt": "Aを8とおくと、Cはいくつにあたりますか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "比の合計からCを出す",
+            "body": "比の合計43が258にあたるので1は6、Cは15個分です。",
+            "equation": "258÷43×15＝90"
+          },
+          {
+            "id": "s4",
+            "title": "元の関係を確かめる",
+            "body": "A48、B120、C90で、平均86と両方の倍関係に一致します。",
+            "equation": "(48＋120＋90)÷3＝86"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4R28N⑤-1",
+      "unitId": "ratio.affine_money_change",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "ミドリさんはアオイさんより200円多くお金を持っていました。ミドリさんはお父さんから500円もらい、アオイさんは240円使ったので、ミドリさんの持っているお金はアオイさんの持っているお金の4倍より100円多くなりました。はじめにミドリさんが持っていたお金を求めなさい。",
+      "sourceText": "ミドリさんはアオイさんより200円多くお金を持っていました。ミドリさんはお父さんから500円もらい、アオイさんは240円使ったので、ミドリさんの持っているお金はアオイさんの持っているお金の4倍より100円多くなりました。はじめにミドリさんが持っていたお金を求めなさい。",
+      "source": {
+        "title": "4R28N⑤-1",
+        "url": "https://app.notion.com/3f52b010743c81e196d7c658ed477939",
+        "locator": "Notion問題DB「4R28N⑤-1」問題節・答え・型プロパティ",
+        "sourceText": "ミドリさんはアオイさんより200円多くお金を持っていました。ミドリさんはお父さんから500円もらい、アオイさんは240円使ったので、ミドリさんの持っているお金はアオイさんの持っているお金の4倍より100円多くなりました。はじめにミドリさんが持っていたお金を求めなさい。",
+        "notionSourceText": "ミドリさんはアオイさんより200円多くお金を持っていました。ミドリさんはお父さんから500円もらい、アオイさんは240円使ったので、ミドリさんの持っているお金はアオイさんの持っているお金の4倍より100円多くなりました。はじめにミドリさんが持っていたお金を求めなさい。",
+        "notionProperties": {
+          "問題": "4R28N⑤-1",
+          "url": "https://app.notion.com/3f52b010743c81e196d7c658ed477939",
+          "教材": "4年授業",
+          "時期": "5年夏期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d\",\"https://app.notion.com/3f52b010743c81bfb555ff15a10c9bb7\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c817aa38bcd1098f7b8dc\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "720円",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P13",
+            "W06"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "4R28"
+          ]
+        },
+        "sourceAnswer": "720円",
+        "scopeUnits": [
+          "4R28"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T08:14:23.101Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "720",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "円": "1"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "4R28"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "差がどう変わったか追う",
+            "body": "もとの差200円に、ミドリの増加500円とアオイの減少240円が加わります。",
+            "equation": "増減後の差＝200＋500＋240＝940円"
+          },
+          {
+            "id": "s2",
+            "title": "倍数関係の差を作る",
+            "body": "増減後のミドリはアオイの4倍より100円多いので、差940円はアオイの3倍より100円多い量です。",
+            "equation": "増減後のアオイ×3＋100＝940",
+            "checkpoint": {
+              "id": "4R28N⑤-1-reason",
+              "prompt": "増減後の2人の所持金の差は何円ですか。",
+              "answer": {
+                "n": "940",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "元のミドリへ戻す",
+            "body": "アオイの増減後は280円、ミドリの増減後は1220円。500円を引いてもとへ戻します。",
+            "equation": "(940－100)÷3×4＋100－500＝720円"
+          },
+          {
+            "id": "s4",
+            "title": "最初の差と最後の条件を確かめる",
+            "body": "最初はミドリ720円、アオイ520円。最後は1220円と280円で4倍より100円多いです。",
+            "equation": "1220＝280×4＋100"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GN比③例7",
+      "unitId": "ratio.gear_inverse_turns",
+      "category": "oneline",
+      "domain": "正比例・反比例",
+      "text": "A、B2つの歯車がかみ合っています。Aの歯数は36で、Bの歯数は60です。Aが15回転すると、Bは　　回転します。",
+      "sourceText": "A、B2つの歯車がかみ合っています。Aの歯数は36で、Bの歯数は60です。Aが15回転すると、Bは　　回転します。",
+      "source": {
+        "title": "GN比③例7",
+        "url": "https://app.notion.com/3f52b010743c81cab069d4b7260dd007",
+        "locator": "Notion問題DB「GN比③例7」問題節・答え・型プロパティ",
+        "sourceText": "A、B2つの歯車がかみ合っています。Aの歯数は36で、Bの歯数は60です。Aが15回転すると、Bは　　回転します。",
+        "notionSourceText": "A、B2つの歯車がかみ合っています。Aの歯数は36で、Bの歯数は60です。Aが15回転すると、Bは　　回転します。",
+        "notionProperties": {
+          "問題": "GN比③例7",
+          "url": "https://app.notion.com/3f52b010743c81cab069d4b7260dd007",
+          "教材": "基本の制覇",
+          "時期": "5年夏期",
+          "区分": "基本の制覇",
+          "型": "[\"https://app.notion.com/3f52b010743c81479845ff74f7cbfd82\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81618a51c063952b12a8\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "9回転",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P14"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "GN比"
+          ]
+        },
+        "sourceAnswer": "9回転",
+        "scopeUnits": [
+          "GN比"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:08:05.456Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "9",
+        "d": "1",
+        "unit": "回転",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "回転": "1"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "GN比"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "かみ合う歯の総数は等しい",
+            "body": "同じ接点を通るので、両方の歯車で通過した歯の総数が一致します。",
+            "equation": "歯数×回転数が一定"
+          },
+          {
+            "id": "s2",
+            "title": "Aの通過歯数を出す",
+            "body": "1回転36個の歯が15回転通るので540個です。",
+            "equation": "36×15＝540",
+            "checkpoint": {
+              "id": "GN比③例7-reason",
+              "prompt": "Aが15回転したとき通過する歯の総数はいくつですか。",
+              "answer": {
+                "n": "540",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "Bの1回転分で割る",
+            "body": "Bは60個の歯で1回転するので、540を60で割ります。",
+            "equation": "540÷60＝9回転"
+          },
+          {
+            "id": "s4",
+            "title": "大小関係で確かめる",
+            "body": "歯数の多いBの方が回転数は少なくなり、総歯数も一致します。",
+            "equation": "36×15＝60×9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GN比①M2-9",
+      "unitId": "ratio.divide_total",
+      "category": "oneline",
+      "domain": "比",
+      "text": "2500円をA、Bの2人で2:3に分けると、Aの取り分は　　円になります。",
+      "sourceText": "2500円をA、Bの2人で2:3に分けると、Aの取り分は　　円になります。",
+      "source": {
+        "title": "GN比①M2-9",
+        "url": "https://app.notion.com/3f52b010743c8111a79ce594db399f17",
+        "locator": "Notion問題DB「GN比①M2-9」問題節・答え・型プロパティ",
+        "sourceText": "2500円をA、Bの2人で2:3に分けると、Aの取り分は　　円になります。",
+        "notionSourceText": "2500円をA、Bの2人で2:3に分けると、Aの取り分は　　円になります。",
+        "notionProperties": {
+          "問題": "GN比①M2-9",
+          "url": "https://app.notion.com/3f52b010743c8111a79ce594db399f17",
+          "教材": "基本の制覇",
+          "時期": "5年夏期",
+          "区分": "基本の制覇",
+          "型": "[\"https://app.notion.com/3f52b010743c81afaf60f57153737416\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81618a51c063952b12a8\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "1000円",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P11"
+          ],
+          "baseDifficulty": 2,
+          "unitCodes": [
+            "GN比"
+          ]
+        },
+        "sourceAnswer": "1000円",
+        "scopeUnits": [
+          "GN比"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:15:05.101Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "1000",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "円": "1"
+        }
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "GN比"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "比の合計を出す",
+            "body": "Aの2とBの3を合わせた5個分が、全体2500円です。",
+            "equation": "2＋3＝5"
+          },
+          {
+            "id": "s2",
+            "title": "比1個分の金額を出す",
+            "body": "2500円を5個に等分します。",
+            "equation": "2500÷5＝500円",
+            "checkpoint": {
+              "id": "GN比①M2-9-reason",
+              "prompt": "2500円は比の何個分にあたりますか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "Aの比の分だけ取る",
+            "body": "Aは比2個分なので500円を2倍します。",
+            "equation": "500×2＝1000円"
+          },
+          {
+            "id": "s4",
+            "title": "Bと合わせて確かめる",
+            "body": "Bは1500円。合計2500円で、1000:1500も2:3です。",
+            "equation": "1000＋1500＝2500"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S12L④-4",
+      "unitId": "salt.two_stage_mixing",
+      "category": "oneline",
+      "domain": "食塩水",
+      "text": "6%の食塩水と10%の食塩水を3:2の割合で混ぜた食塩水があります。この食塩水に20%の食塩水を240g混ぜたら14%の食塩水になりました。全部で何gの食塩水になりましたか。",
+      "sourceText": "6%の食塩水と10%の食塩水を3:2の割合で混ぜた食塩水があります。この食塩水に20%の食塩水を240g混ぜたら14%の食塩水になりました。全部で何gの食塩水になりましたか。",
+      "source": {
+        "title": "S12L④-4",
+        "url": "https://app.notion.com/3f52b010743c813f80e3f2f354630a7f",
+        "locator": "Notion問題DB「S12L④-4」問題節・答え・型プロパティ",
+        "sourceText": "6%の食塩水と10%の食塩水を3:2の割合で混ぜた食塩水があります。この食塩水に20%の食塩水を240g混ぜたら14%の食塩水になりました。全部で何gの食塩水になりましたか。",
+        "notionSourceText": "6%の食塩水と10%の食塩水を3:2の割合で混ぜた食塩水があります。この食塩水に20%の食塩水を240g混ぜたら14%の食塩水になりました。全部で何gの食塩水になりましたか。",
+        "notionProperties": {
+          "問題": "S12L④-4",
+          "url": "https://app.notion.com/3f52b010743c813f80e3f2f354630a7f",
+          "教材": "夏期講習",
+          "時期": "5年夏期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c81cf874ffc27de7f2323\",\"https://app.notion.com/3f52b010743c8165b8d6c2ca65ba79d9\",\"https://app.notion.com/3f52b010743c81afaf60f57153737416\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c814fa4eefabd28974168\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "465g",
+          "上乗せ": 0,
+          "typeCodes": [
+            "P10",
+            "P09",
+            "P11"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "S12"
+          ]
+        },
+        "sourceAnswer": "465g",
+        "scopeUnits": [
+          "S12"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T01:12:23.374Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "465",
+        "d": "1",
+        "unit": "g",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "g": "1"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "S12"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "最初の混合濃度を求める",
+            "body": "重さを3と2として食塩量を合計し、全体5で割ります。",
+            "equation": "(6×3＋10×2)÷5＝7.6%"
+          },
+          {
+            "id": "s2",
+            "title": "目標との差を比べる",
+            "body": "目標14%との差は低濃度側6.4、高濃度側6。混ぜる重さはこの差の逆比です。",
+            "equation": "7.6%側：20%側＝6：6.4＝15：16",
+            "checkpoint": {
+              "id": "S12L④-4-reason",
+              "prompt": "6%と10%を3:2で混ぜた食塩水の濃度は何%ですか。",
+              "answer": {
+                "n": "38",
+                "d": "5",
+                "unit": "%",
+                "dimension": "percent"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "既知の240gから全体を出す",
+            "body": "20%側の16が240gなので、比1個は15g。全体31個分は465gです。",
+            "equation": "240÷16×(15＋16)＝465g"
+          },
+          {
+            "id": "s4",
+            "title": "食塩量で確かめる",
+            "body": "最初の225gには17.1g、20%の240gには48gの食塩が含まれます。",
+            "equation": "(225×0.076＋240×0.2)÷465＝0.14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R07N④-2",
+      "unitId": "speed.return_meet_distance",
+      "category": "oneline",
+      "domain": "旅人算",
+      "text": "Aは分速90m、Bは分速110mで歩きます。いま、2人がP地点を同時に出発し、Q地へ向かいました。BはQ地に着くとただちに同じ道を引き返したところ、P地点を出発してから12分後に2人が出会いました。PQ間は何mはなれていますか。",
+      "sourceText": "Aは分速90m、Bは分速110mで歩きます。いま、2人がP地点を同時に出発し、Q地へ向かいました。BはQ地に着くとただちに同じ道を引き返したところ、P地点を出発してから12分後に2人が出会いました。PQ間は何mはなれていますか。",
+      "source": {
+        "title": "R07N④-2",
+        "url": "https://app.notion.com/3f42b010743c817b9ecac8f5039b658c",
+        "locator": "Notion問題DB「R07N④-2」問題節・答え・型プロパティ",
+        "sourceText": "Aは分速90m、Bは分速110mで歩きます。いま、2人がP地点を同時に出発し、Q地へ向かいました。BはQ地に着くとただちに同じ道を引き返したところ、P地点を出発してから12分後に2人が出会いました。PQ間は何mはなれていますか。",
+        "notionSourceText": "Aは分速90m、Bは分速110mで歩きます。いま、2人がP地点を同時に出発し、Q地へ向かいました。BはQ地に着くとただちに同じ道を引き返したところ、P地点を出発してから12分後に2人が出会いました。PQ間は何mはなれていますか。",
+        "notionProperties": {
+          "問題": "R07N④-2",
+          "url": "https://app.notion.com/3f42b010743c817b9ecac8f5039b658c",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f42b010743c81c8a3f1ef6a8e947b5f\",\"https://app.notion.com/3f42b010743c814190aad5a591c05014\"]",
+          "教材回": "[\"https://app.notion.com/3f42b010743c8107bdefde77c7f9af81\"]",
+          "数値替え元": null,
+          "図": "図版p.5（解説の図）、H④-2の解説は図版p.8",
+          "答え": "1200m",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T06",
+            "T04"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "R07"
+          ]
+        },
+        "sourceAnswer": "1200m",
+        "scopeUnits": [
+          "R07"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:10:01.204Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "1200",
+        "d": "1",
+        "unit": "m",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R07"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "2人の道のりを合わせる",
+            "body": "同じPから出発し、BだけがQで引き返して出会うので、歩いた距離の合計はPQの2倍です。",
+            "equation": "Aの道のり＋Bの道のり＝PQ×2"
+          },
+          {
+            "id": "s2",
+            "title": "出会いまでの合計を求める",
+            "body": "2人とも12分歩いているため、速さの合計に12分をかけます。",
+            "equation": "(90＋110)×12＝2400m",
+            "checkpoint": {
+              "id": "R07N④-2-reason",
+              "prompt": "出発から出会いまでに2人が歩いた距離の合計は何mですか。",
+              "answer": {
+                "n": "2400",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "PQ1つ分を出す",
+            "body": "合計2400mはPQ2つ分なので2で割ります。",
+            "equation": "2400÷2＝1200m"
+          },
+          {
+            "id": "s4",
+            "title": "引き返した分で確かめる",
+            "body": "Aは1080m、Bは1320m歩くので、BはQから120m戻っています。出会いはPから1080mです。",
+            "equation": "1200＋120＝1320、1200－120＝1080"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R20N②-3",
+      "unitId": "speed.forgotten_roundtrip_rate",
+      "category": "oneline",
+      "domain": "旅人算",
+      "text": "兄と妹がいっしょに家を出て、分速60mで歩きました。兄は6分後に忘れ物に気がつき急いで家に帰り、すぐに妹を追いかけて、別れてから10分後に同じ速さで歩いていた妹に追いつきました。兄が忘れ物をとりに帰って妹に追いつくまでの速さを一定とすると、その速さは分速何mですか。",
+      "sourceText": "兄と妹がいっしょに家を出て、分速60mで歩きました。兄は6分後に忘れ物に気がつき急いで家に帰り、すぐに妹を追いかけて、別れてから10分後に同じ速さで歩いていた妹に追いつきました。兄が忘れ物をとりに帰って妹に追いつくまでの速さを一定とすると、その速さは分速何mですか。",
+      "source": {
+        "title": "R20N②-3",
+        "url": "https://app.notion.com/3f42b010743c81b28e39dd894a1d969a",
+        "locator": "Notion問題DB「R20N②-3」問題節・答え・型プロパティ",
+        "sourceText": "兄と妹がいっしょに家を出て、分速60mで歩きました。兄は6分後に忘れ物に気がつき急いで家に帰り、すぐに妹を追いかけて、別れてから10分後に同じ速さで歩いていた妹に追いつきました。兄が忘れ物をとりに帰って妹に追いつくまでの速さを一定とすると、その速さは分速何mですか。",
+        "notionSourceText": "兄と妹がいっしょに家を出て、分速60mで歩きました。兄は6分後に忘れ物に気がつき急いで家に帰り、すぐに妹を追いかけて、別れてから10分後に同じ速さで歩いていた妹に追いつきました。兄が忘れ物をとりに帰って妹に追いつくまでの速さを一定とすると、その速さは分速何mですか。",
+        "notionProperties": {
+          "問題": "R20N②-3",
+          "url": "https://app.notion.com/3f42b010743c81b28e39dd894a1d969a",
+          "教材": "5年授業",
+          "時期": "5年後期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f42b010743c8115a839e18029224e15\"]",
+          "教材回": "[\"https://app.notion.com/3f42b010743c81f1b5fee7539a1bcfb8\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "分速132m",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T07"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "R20"
+          ]
+        },
+        "sourceAnswer": "分速132m",
+        "scopeUnits": [
+          "R20"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:10:23.187Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "132",
+        "d": "1",
+        "unit": "m/min",
+        "dimension": "speed"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "別れた地点を求める",
+            "body": "2人は分速60mで6分歩いたので、別れた場所は家から360mです。",
+            "equation": "60×6＝360m"
+          },
+          {
+            "id": "s2",
+            "title": "追いついた地点を求める",
+            "body": "妹はその後も10分歩くので、出発から16分の地点にいます。",
+            "equation": "60×(6＋10)＝960m",
+            "checkpoint": {
+              "id": "R20N②-3-reason",
+              "prompt": "兄が家へ戻り始めてから追いつくまでに歩く距離は合計何mですか。",
+              "answer": {
+                "n": "1320",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "兄の戻りと追いかけを足す",
+            "body": "兄は家へ360m戻り、家から妹まで960m進みます。10分で歩く合計は1320mです。",
+            "equation": "(360＋960)÷10＝132m/分"
+          },
+          {
+            "id": "s4",
+            "title": "戻りを落としていないか確認する",
+            "body": "追いつき地点までの960mだけを割ると、戻りの360mを数え忘れます。",
+            "equation": "132×10＝360＋960"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GR5-2(4)",
+      "unitId": "speed.midpoint_offset",
+      "category": "oneline",
+      "domain": "旅人算",
+      "text": "Aさんは分速55mで、Bさんは分速43mで学校と公園の間の道を進みます。Aさんは学校から公園へ、Bさんは公園から学校へ向かって同時に出発したところ、2人は学校と公園の真ん中より公園の方に120mだけ近い場所で出会いました。このとき、学校と公園は何mはなれていますか。\n［図：解説の線分図＝図版p.151］",
+      "sourceText": "Aさんは分速55mで、Bさんは分速43mで学校と公園の間の道を進みます。Aさんは学校から公園へ、Bさんは公園から学校へ向かって同時に出発したところ、2人は学校と公園の真ん中より公園の方に120mだけ近い場所で出会いました。このとき、学校と公園は何mはなれていますか。\n［図：解説の線分図＝図版p.151］",
+      "source": {
+        "title": "GR5-2(4)",
+        "url": "https://app.notion.com/3f42b010743c810caef8e79c7dd5fe70",
+        "locator": "Notion問題DB「GR5-2(4)」問題節・答え・型プロパティ",
+        "sourceText": "Aさんは分速55mで、Bさんは分速43mで学校と公園の間の道を進みます。Aさんは学校から公園へ、Bさんは公園から学校へ向かって同時に出発したところ、2人は学校と公園の真ん中より公園の方に120mだけ近い場所で出会いました。このとき、学校と公園は何mはなれていますか。\n［図：解説の線分図＝図版p.151］",
+        "notionSourceText": "Aさんは分速55mで、Bさんは分速43mで学校と公園の間の道を進みます。Aさんは学校から公園へ、Bさんは公園から学校へ向かって同時に出発したところ、2人は学校と公園の真ん中より公園の方に120mだけ近い場所で出会いました。このとき、学校と公園は何mはなれていますか。\n［図：解説の線分図＝図版p.151］",
+        "notionProperties": {
+          "問題": "GR5-2(4)",
+          "url": "https://app.notion.com/3f42b010743c810caef8e79c7dd5fe70",
+          "教材": "GnoRev",
+          "時期": "5年前期",
+          "区分": "テスト",
+          "型": "[\"https://app.notion.com/3f42b010743c8111a948c9e6186cfb8f\",\"https://app.notion.com/3f42b010743c81bb9d6ef1f436cacd79\"]",
+          "教材回": "[\"https://app.notion.com/3f42b010743c81ca823fc23655edaadf\"]",
+          "数値替え元": null,
+          "図": "なし（解説の線分図＝図版p.151）",
+          "答え": "1960m",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T08",
+            "T01"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "GR5"
+          ]
+        },
+        "sourceAnswer": "1960m",
+        "scopeUnits": [
+          "GR5"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:08:58.539Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "1960",
+        "d": "1",
+        "unit": "m",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "GR5"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "中点からのずれを2倍する",
+            "body": "Aは中点より120m多く、Bは120m少なく進むので、道のりの差は240mです。",
+            "equation": "120×2＝240m"
+          },
+          {
+            "id": "s2",
+            "title": "速さの差で共通時間を出す",
+            "body": "同じ時間歩いた道のり差240mは、1分あたりの差12mでできています。",
+            "equation": "240÷(55－43)＝20分",
+            "checkpoint": {
+              "id": "GR5-2(4)-reason",
+              "prompt": "出会うまでに2人が進んだ道のりの差は何mですか。",
+              "answer": {
+                "n": "240",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "合計の道のりを求める",
+            "body": "2人の道のりを足すと学校と公園の距離です。",
+            "equation": "(55＋43)×20＝1960m"
+          },
+          {
+            "id": "s4",
+            "title": "中点との差で確かめる",
+            "body": "中点は980m。Aは1100m進み、差は120mなので元の条件に一致します。",
+            "equation": "55×20－1960÷2＝120m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R07N⑥-2",
+      "unitId": "speed.three_people_meeting_gap",
+      "category": "oneline",
+      "domain": "旅人算",
+      "text": "2700mはなれたP、Q両地点を、A、B、Cの3人が同時に向かい合って進むことにしました。P地点からはAとBが、Q地点からはCが出発しました。すると、AとCが出会ってから2分後にBとCが出会いました。Aは分速80m、Cは分速70mです。Bの速さを求めなさい。",
+      "sourceText": "2700mはなれたP、Q両地点を、A、B、Cの3人が同時に向かい合って進むことにしました。P地点からはAとBが、Q地点からはCが出発しました。すると、AとCが出会ってから2分後にBとCが出会いました。Aは分速80m、Cは分速70mです。Bの速さを求めなさい。",
+      "source": {
+        "title": "R07N⑥-2",
+        "url": "https://app.notion.com/3f42b010743c81bca162d6a3e6beb13d",
+        "locator": "Notion問題DB「R07N⑥-2」問題節・答え・型プロパティ",
+        "sourceText": "2700mはなれたP、Q両地点を、A、B、Cの3人が同時に向かい合って進むことにしました。P地点からはAとBが、Q地点からはCが出発しました。すると、AとCが出会ってから2分後にBとCが出会いました。Aは分速80m、Cは分速70mです。Bの速さを求めなさい。",
+        "notionSourceText": "2700mはなれたP、Q両地点を、A、B、Cの3人が同時に向かい合って進むことにしました。P地点からはAとBが、Q地点からはCが出発しました。すると、AとCが出会ってから2分後にBとCが出会いました。Aは分速80m、Cは分速70mです。Bの速さを求めなさい。",
+        "notionProperties": {
+          "問題": "R07N⑥-2",
+          "url": "https://app.notion.com/3f42b010743c81bca162d6a3e6beb13d",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f42b010743c813bb85fdc71d0956bcf\",\"https://app.notion.com/3f42b010743c814190aad5a591c05014\",\"https://app.notion.com/3f42b010743c81bb9d6ef1f436cacd79\"]",
+          "教材回": "[\"https://app.notion.com/3f42b010743c8107bdefde77c7f9af81\"]",
+          "数値替え元": null,
+          "図": "なし（問題の図は文で足りる）",
+          "答え": "分速65m",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T09",
+            "T04",
+            "T01"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "R07"
+          ]
+        },
+        "sourceAnswer": "分速65m",
+        "scopeUnits": [
+          "R07"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:09:59.197Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "65",
+        "d": "1",
+        "unit": "m/min",
+        "dimension": "speed"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R07"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "AとCの出会い時間を出す",
+            "body": "AとCが向かい合う速さの和は150m/分です。",
+            "equation": "2700÷(80＋70)＝18分"
+          },
+          {
+            "id": "s2",
+            "title": "BとCの時間へ直す",
+            "body": "BとCの出会いはその2分後なので、出発から20分後です。",
+            "equation": "18＋2＝20分",
+            "checkpoint": {
+              "id": "R07N⑥-2-reason",
+              "prompt": "BとCが出会うのは、出発から何分後ですか。",
+              "answer": {
+                "n": "20",
+                "d": "1",
+                "unit": "分",
+                "dimension": "time"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "BとCの合成速度からCを引く",
+            "body": "20分で2700mを進む2人の和は135m/分。Cの70を引きます。",
+            "equation": "2700÷20－70＝65m/分"
+          },
+          {
+            "id": "s4",
+            "title": "同じ地点で出会うか確認する",
+            "body": "Bは1300m、Cは1400m進み、合計2700mになります。",
+            "equation": "65×20＋70×20＝2700"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4R33N③-1",
+      "unitId": "speed.total_with_rest",
+      "category": "oneline",
+      "domain": "速さの基本",
+      "text": "マサト君の家から公園までの道のりは2.4km。行きは分速80m、公園で1時間30分あそんで、帰りは分速60m。家を出てから帰ってくるまで何時間何分か",
+      "sourceText": "マサト君の家から公園までの道のりは2.4km。行きは分速80m、公園で1時間30分あそんで、帰りは分速60m。家を出てから帰ってくるまで何時間何分か",
+      "source": {
+        "title": "4R33N③-1",
+        "url": "https://app.notion.com/3f52b010743c816d95cac263b6eaaa4c",
+        "locator": "Notion問題DB「4R33N③-1」問題節・答え・型プロパティ",
+        "sourceText": "マサト君の家から公園までの道のりは2.4km。行きは分速80m、公園で1時間30分あそんで、帰りは分速60m。家を出てから帰ってくるまで何時間何分か",
+        "notionSourceText": "マサト君の家から公園までの道のりは2.4km。行きは分速80m、公園で1時間30分あそんで、帰りは分速60m。家を出てから帰ってくるまで何時間何分か",
+        "notionProperties": {
+          "問題": "4R33N③-1",
+          "url": "https://app.notion.com/3f52b010743c816d95cac263b6eaaa4c",
+          "教材": "4年授業",
+          "時期": "4年後期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f42b010743c81fb824fcc289a57c800\",\"https://app.notion.com/3f42b010743c81f58d20c42b66016a4d\"]",
+          "教材回": "[\"https://app.notion.com/3f42b010743c819c8d2ef0949bd0041f\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "2時間40分",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T12",
+            "X01"
+          ],
+          "baseDifficulty": 2,
+          "unitCodes": [
+            "4R33"
+          ]
+        },
+        "sourceAnswer": "2時間40分",
+        "scopeUnits": [
+          "4R33"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:31:43.875Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "160",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time",
+        "acceptedUnits": {
+          "分": "1",
+          "分間": "1",
+          "min": "1",
+          "秒": "1/60",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "4R33"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "道のりの単位をそろえる",
+            "body": "片道2.4kmを2400mに直し、分速と対応させます。",
+            "equation": "2.4km＝2400m"
+          },
+          {
+            "id": "s2",
+            "title": "行きと帰りの時間を別々に出す",
+            "body": "行き30分、帰り40分です。速さを平均して片道時間を出しません。",
+            "equation": "2400÷80＝30分、2400÷60＝40分",
+            "checkpoint": {
+              "id": "4R33N③-1-reason",
+              "prompt": "公園で遊んだ時間を分に直すと何分ですか。",
+              "answer": {
+                "n": "90",
+                "d": "1",
+                "unit": "分",
+                "dimension": "time"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "遊んだ時間も加える",
+            "body": "1時間30分は90分。家を出てから帰るまでの時間には遊んだ時間も含みます。",
+            "equation": "30＋90＋40＝160分"
+          },
+          {
+            "id": "s4",
+            "title": "時間と分に直して確かめる",
+            "body": "160分は2時間40分です。答え欄では160分でも同じ時間を表します。",
+            "equation": "160分＝2時間40分"
+          }
+        ]
+      },
+      "sourceConvention": "時間は数値と単位、または「1時間30分」の形で入力できます。"
+    },
+    {
+      "id": "4R33N⑥-1",
+      "unitId": "speed.infer_phase_time",
+      "category": "oneline",
+      "domain": "速さの基本",
+      "text": "A地からB地まで3kmの道のりを、はじめは分速100mで歩いたが、とちゅうから分速60mで歩いたところ全部で36分かかった。分速100mで歩いたのは何分間か",
+      "sourceText": "A地からB地まで3kmの道のりを、はじめは分速100mで歩いたが、とちゅうから分速60mで歩いたところ全部で36分かかった。分速100mで歩いたのは何分間か",
+      "source": {
+        "title": "4R33N⑥-1",
+        "url": "https://app.notion.com/3f52b010743c81158829d88cece6539a",
+        "locator": "Notion問題DB「4R33N⑥-1」問題節・答え・型プロパティ",
+        "sourceText": "A地からB地まで3kmの道のりを、はじめは分速100mで歩いたが、とちゅうから分速60mで歩いたところ全部で36分かかった。分速100mで歩いたのは何分間か",
+        "notionSourceText": "A地からB地まで3kmの道のりを、はじめは分速100mで歩いたが、とちゅうから分速60mで歩いたところ全部で36分かかった。分速100mで歩いたのは何分間か",
+        "notionProperties": {
+          "問題": "4R33N⑥-1",
+          "url": "https://app.notion.com/3f52b010743c81158829d88cece6539a",
+          "教材": "4年授業",
+          "時期": "4年後期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f42b010743c8128a95cd56e2cfac20f\"]",
+          "教材回": "[\"https://app.notion.com/3f42b010743c819c8d2ef0949bd0041f\"]",
+          "数値替え元": null,
+          "図": "解説の面積図：図版p.1",
+          "答え": "21分間",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T13"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "4R33"
+          ]
+        },
+        "sourceAnswer": "21分間",
+        "scopeUnits": [
+          "4R33"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:32:15.089Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "21",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time",
+        "acceptedUnits": {
+          "分": "1",
+          "分間": "1",
+          "min": "1",
+          "秒": "1/60",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "4R33"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全区間を遅い速さで仮定する",
+            "body": "3kmを3000mにそろえ、36分ずっと分速60mなら2160mと考えます。",
+            "equation": "60×36＝2160m"
+          },
+          {
+            "id": "s2",
+            "title": "速い時間が作った上積みを出す",
+            "body": "実際の3000mとの差840mは、速く歩いた時間による上積みです。",
+            "equation": "3000－2160＝840m",
+            "checkpoint": {
+              "id": "4R33N⑥-1-reason",
+              "prompt": "36分ずっと分速60mなら、実際の3000mとの差は何mですか。",
+              "answer": {
+                "n": "840",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "1分の上積みで割る",
+            "body": "速い分は1分につき40m多く進むので840を40で割ります。",
+            "equation": "840÷(100－60)＝21分"
+          },
+          {
+            "id": "s4",
+            "title": "残り時間も含めて確かめる",
+            "body": "遅い時間は15分。両区間の道のりを足すと3000mです。",
+            "equation": "100×21＋60×15＝3000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "S11L⑤-2",
+      "unitId": "speed.average_roundtrip",
+      "category": "oneline",
+      "domain": "速さの基本",
+      "text": "30km離れたA市とB市の間を往復するのに、行きは時速10km、帰りは時速6kmで進みました。行きと帰り往復の平均時速を求めなさい。",
+      "sourceText": "30km離れたA市とB市の間を往復するのに、行きは時速10km、帰りは時速6kmで進みました。行きと帰り往復の平均時速を求めなさい。",
+      "source": {
+        "title": "S11L⑤-2",
+        "url": "https://app.notion.com/3f52b010743c8120b1dbc59213cb8244",
+        "locator": "Notion問題DB「S11L⑤-2」問題節・答え・型プロパティ",
+        "sourceText": "30km離れたA市とB市の間を往復するのに、行きは時速10km、帰りは時速6kmで進みました。行きと帰り往復の平均時速を求めなさい。",
+        "notionSourceText": "30km離れたA市とB市の間を往復するのに、行きは時速10km、帰りは時速6kmで進みました。行きと帰り往復の平均時速を求めなさい。",
+        "notionProperties": {
+          "問題": "S11L⑤-2",
+          "url": "https://app.notion.com/3f52b010743c8120b1dbc59213cb8244",
+          "教材": "夏期講習",
+          "時期": "5年夏期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c81e6adb4edeeb616bbbd\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81479c7fd78bfe3e4448\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "時速7.5km",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T15"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "S11"
+          ]
+        },
+        "sourceAnswer": "時速7.5km",
+        "scopeUnits": [
+          "S11"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:34:29.375Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "15",
+        "d": "2",
+        "unit": "km/h",
+        "dimension": "speed"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "S11"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "平均の速さの定義を使う",
+            "body": "平均の速さは全体の道のりを全体の時間で割ります。10と6の平均ではありません。",
+            "equation": "平均の速さ＝総距離÷総時間"
+          },
+          {
+            "id": "s2",
+            "title": "片道ごとの時間を出す",
+            "body": "30kmずつ進むので、行きは3時間、帰りは5時間です。",
+            "equation": "30÷10＝3時間、30÷6＝5時間",
+            "checkpoint": {
+              "id": "S11L⑤-2-reason",
+              "prompt": "往復にかかった時間の合計は何時間ですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "時間",
+                "dimension": "time"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "往復で割る",
+            "body": "往復60kmを8時間で進むので、時速7.5kmです。",
+            "equation": "(30＋30)÷(3＋5)＝7.5km/時"
+          },
+          {
+            "id": "s4",
+            "title": "総距離へ戻す",
+            "body": "8時間を平均時速7.5kmで進めば、往復の60kmになります。",
+            "equation": "7.5×8＝60km"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R20N④-1",
+      "unitId": "speed.arrival_difference",
+      "category": "oneline",
+      "domain": "速さの基本",
+      "text": "分速140mで行けば、目的地に予定の時刻より10分早く着き、分速100mで行けば予定の時刻より4分早く着きます。目的地までの距離を求めなさい。",
+      "sourceText": "分速140mで行けば、目的地に予定の時刻より10分早く着き、分速100mで行けば予定の時刻より4分早く着きます。目的地までの距離を求めなさい。",
+      "source": {
+        "title": "R20N④-1",
+        "url": "https://app.notion.com/3f52b010743c81ce9941c4ffd5d4e3d2",
+        "locator": "Notion問題DB「R20N④-1」問題節・答え・型プロパティ",
+        "sourceText": "分速140mで行けば、目的地に予定の時刻より10分早く着き、分速100mで行けば予定の時刻より4分早く着きます。目的地までの距離を求めなさい。",
+        "notionSourceText": "分速140mで行けば、目的地に予定の時刻より10分早く着き、分速100mで行けば予定の時刻より4分早く着きます。目的地までの距離を求めなさい。",
+        "notionProperties": {
+          "問題": "R20N④-1",
+          "url": "https://app.notion.com/3f52b010743c81ce9941c4ffd5d4e3d2",
+          "教材": "5年授業",
+          "時期": "5年前期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c810b992ffd7b731d80d8\",\"https://app.notion.com/3f42b010743c816c8640d33bbbdcca45\"]",
+          "教材回": "[\"https://app.notion.com/3f42b010743c81f1b5fee7539a1bcfb8\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "2100m",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T16",
+            "T11"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "R20"
+          ]
+        },
+        "sourceAnswer": "2100m",
+        "scopeUnits": [
+          "R20"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:34:55.225Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "2100",
+        "d": "1",
+        "unit": "m",
+        "dimension": "length"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "予定時刻を消して時間差を出す",
+            "body": "どちらも予定より早いので、10分と4分の差6分が所要時間の差です。",
+            "equation": "10－4＝6分"
+          },
+          {
+            "id": "s2",
+            "title": "同じ距離の時間比にする",
+            "body": "速さ140:100は7:5。同じ距離なので時間は逆比5:7です。",
+            "equation": "速い時間：遅い時間＝5：7",
+            "checkpoint": {
+              "id": "R20N④-1-reason",
+              "prompt": "2通りの速さで進んだときの所要時間の差は何分ですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "分",
+                "dimension": "time"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "差2個分から速い時間を出す",
+            "body": "時間比の差2が6分なので1個3分、速い時間は15分です。",
+            "equation": "6÷(7－5)×5＝15分"
+          },
+          {
+            "id": "s4",
+            "title": "距離と遅い時間で確かめる",
+            "body": "速い方で2100m。遅い方は21分かかり、時間差は6分になります。",
+            "equation": "140×15＝2100m、2100÷100－15＝6分"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R21N④-1",
+      "unitId": "speed.river_changed_current",
+      "category": "oneline",
+      "domain": "流水算",
+      "text": "静水時の速さが時速12kmの船が、川を80km上るのに10時間かかりました。流速が2倍になったとき同じところを下ると何時間かかりますか。",
+      "sourceText": "静水時の速さが時速12kmの船が、川を80km上るのに10時間かかりました。流速が2倍になったとき同じところを下ると何時間かかりますか。",
+      "source": {
+        "title": "R21N④-1",
+        "url": "https://app.notion.com/3f52b010743c812fbbc9f26df2a5c1db",
+        "locator": "Notion問題DB「R21N④-1」問題節・答え・型プロパティ",
+        "sourceText": "静水時の速さが時速12kmの船が、川を80km上るのに10時間かかりました。流速が2倍になったとき同じところを下ると何時間かかりますか。",
+        "notionSourceText": "静水時の速さが時速12kmの船が、川を80km上るのに10時間かかりました。流速が2倍になったとき同じところを下ると何時間かかりますか。",
+        "notionProperties": {
+          "問題": "R21N④-1",
+          "url": "https://app.notion.com/3f52b010743c812fbbc9f26df2a5c1db",
+          "教材": "5年授業",
+          "時期": "5年後期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c81ed9e22e9fffc506c29\",\"https://app.notion.com/3f52b010743c812fbe3ad80f3509d996\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81b38485ce7cf7cc8451\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "4時間",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T18",
+            "T17"
+          ],
+          "baseDifficulty": 4,
+          "unitCodes": [
+            "R21"
+          ]
+        },
+        "sourceAnswer": "4時間",
+        "scopeUnits": [
+          "R21"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:35:30.581Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "4",
+        "d": "1",
+        "unit": "時間",
+        "dimension": "time"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R21"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "上りの実速度を出す",
+            "body": "80kmを10時間で上るので、上りの実速度は時速8kmです。",
+            "equation": "80÷10＝8km/時"
+          },
+          {
+            "id": "s2",
+            "title": "静水速との差が流速",
+            "body": "上りでは流れを引くため、静水12との差4が流速です。",
+            "equation": "12－8＝4km/時",
+            "checkpoint": {
+              "id": "R21N④-1-reason",
+              "prompt": "はじめの川の流れの速さは時速何kmですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "km/h",
+                "dimension": "speed"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "2倍の流速で下る",
+            "body": "流速が8に増え、下りは静水12と流れ8を足すので時速20kmです。",
+            "equation": "80÷(12＋4×2)＝4時間"
+          },
+          {
+            "id": "s4",
+            "title": "進んだ道のりで確かめる",
+            "body": "変化後の速さ20で4時間下ると、同じ80kmになります。",
+            "equation": "20×4＝80km"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R23N①-4",
+      "unitId": "speed.bridge_clearance",
+      "category": "oneline",
+      "domain": "通過算",
+      "text": "長さ120m・秒速20mの列車が、長さ300mの鉄橋を渡り始めてから渡り終わるまでの時間",
+      "sourceText": "長さ120m・秒速20mの列車が、長さ300mの鉄橋を渡り始めてから渡り終わるまでの時間",
+      "source": {
+        "title": "R23N①-4",
+        "url": "https://app.notion.com/3f52b010743c810792aecd37a3bee811",
+        "locator": "Notion問題DB「R23N①-4」問題節・答え・型プロパティ",
+        "sourceText": "長さ120m・秒速20mの列車が、長さ300mの鉄橋を渡り始めてから渡り終わるまでの時間",
+        "notionSourceText": "長さ120m・秒速20mの列車が、長さ300mの鉄橋を渡り始めてから渡り終わるまでの時間",
+        "notionProperties": {
+          "問題": "R23N①-4",
+          "url": "https://app.notion.com/3f52b010743c810792aecd37a3bee811",
+          "教材": "5年授業",
+          "時期": "5年後期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c8132a4cff68115482cb9\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c811f926bc69977d4ba06\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "21秒",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T19"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "R23"
+          ]
+        },
+        "sourceAnswer": "21秒",
+        "scopeUnits": [
+          "R23"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:32:57.743Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "21",
+        "d": "1",
+        "unit": "秒",
+        "dimension": "time"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R23"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "渡り終わる状態を考える",
+            "body": "先頭が橋の入口に来てから、最後尾が出口を抜けるまでを数えます。",
+            "equation": "先頭の移動距離＝橋の長さ＋列車の長さ"
+          },
+          {
+            "id": "s2",
+            "title": "必要な移動距離を出す",
+            "body": "橋300mに列車120mを加えるので、先頭は420m進みます。",
+            "equation": "300＋120＝420m",
+            "checkpoint": {
+              "id": "R23N①-4-reason",
+              "prompt": "列車の先頭が渡り始めてから最後尾が渡り終わるまで、先頭は何m進みますか。",
+              "answer": {
+                "n": "420",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "秒速で距離を割る",
+            "body": "毎秒20m進むので、420を20で割ります。",
+            "equation": "420÷20＝21秒"
+          },
+          {
+            "id": "s4",
+            "title": "入口と出口を確認する",
+            "body": "21秒後の先頭は入口から420m、最後尾は120m後ろなので出口の300mです。",
+            "equation": "20×21－120＝300m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R23N③-1",
+      "unitId": "speed.two_trains_opposite",
+      "category": "oneline",
+      "domain": "通過算",
+      "text": "長さ160m・秒速22mのA電車と、長さ110m・秒速23mのB電車がすれ違うのにかかる時間",
+      "sourceText": "長さ160m・秒速22mのA電車と、長さ110m・秒速23mのB電車がすれ違うのにかかる時間",
+      "source": {
+        "title": "R23N③-1",
+        "url": "https://app.notion.com/3f52b010743c818a9eeefb708517edd7",
+        "locator": "Notion問題DB「R23N③-1」問題節・答え・型プロパティ",
+        "sourceText": "長さ160m・秒速22mのA電車と、長さ110m・秒速23mのB電車がすれ違うのにかかる時間",
+        "notionSourceText": "長さ160m・秒速22mのA電車と、長さ110m・秒速23mのB電車がすれ違うのにかかる時間",
+        "notionProperties": {
+          "問題": "R23N③-1",
+          "url": "https://app.notion.com/3f52b010743c818a9eeefb708517edd7",
+          "教材": "5年授業",
+          "時期": "5年後期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c81d89fbedd824751965a\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c811f926bc69977d4ba06\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "6秒",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T20"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "R23"
+          ]
+        },
+        "sourceAnswer": "6秒",
+        "scopeUnits": [
+          "R23"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:33:22.935Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "秒",
+        "dimension": "time"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R23"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "すれ違いに必要な長さを出す",
+            "body": "互いの最後尾が抜けるまでには、両方の列車の長さを合わせた分だけ位置が変わる必要があります。",
+            "equation": "160＋110＝270m"
+          },
+          {
+            "id": "s2",
+            "title": "向かい合う速さを足す",
+            "body": "反対向きに進むので1秒に22＋23＝45mずつすれ違います。",
+            "equation": "22＋23＝45m/秒",
+            "checkpoint": {
+              "id": "R23N③-1-reason",
+              "prompt": "2列車の先頭どうしが合ってから、完全にすれ違うまでに埋める長さは何mですか。",
+              "answer": {
+                "n": "270",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "相対的な距離を速さで割る",
+            "body": "270mを1秒45mで処理する時間は6秒です。",
+            "equation": "270÷45＝6秒"
+          },
+          {
+            "id": "s4",
+            "title": "合計の進み方で確かめる",
+            "body": "Aが132m、Bが138m進み、合計が270mになります。",
+            "equation": "22×6＋23×6＝270m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R22N⑥-2",
+      "unitId": "speed.clock_angle_gap",
+      "category": "oneline",
+      "domain": "時計算",
+      "text": "ミドリさんはお母さんにおつかいをたのまれました。家を出るときに時計を見たら、4時と5時の間で、時計の長針と短針が重なっていました。おつかいをしてもどってきたら5時前で、時計の長針と短針が反対方向をさして一直線になっていました。おつかいにかかった時間を求めなさい。",
+      "sourceText": "ミドリさんはお母さんにおつかいをたのまれました。家を出るときに時計を見たら、4時と5時の間で、時計の長針と短針が重なっていました。おつかいをしてもどってきたら5時前で、時計の長針と短針が反対方向をさして一直線になっていました。おつかいにかかった時間を求めなさい。",
+      "source": {
+        "title": "R22N⑥-2",
+        "url": "https://app.notion.com/3f52b010743c81fd9c9ae031204442bb",
+        "locator": "Notion問題DB「R22N⑥-2」問題節・答え・型プロパティ",
+        "sourceText": "ミドリさんはお母さんにおつかいをたのまれました。家を出るときに時計を見たら、4時と5時の間で、時計の長針と短針が重なっていました。おつかいをしてもどってきたら5時前で、時計の長針と短針が反対方向をさして一直線になっていました。おつかいにかかった時間を求めなさい。",
+        "notionSourceText": "ミドリさんはお母さんにおつかいをたのまれました。家を出るときに時計を見たら、4時と5時の間で、時計の長針と短針が重なっていました。おつかいをしてもどってきたら5時前で、時計の長針と短針が反対方向をさして一直線になっていました。おつかいにかかった時間を求めなさい。",
+        "notionProperties": {
+          "問題": "R22N⑥-2",
+          "url": "https://app.notion.com/3f52b010743c81fd9c9ae031204442bb",
+          "教材": "5年授業",
+          "時期": "5年後期",
+          "区分": "N授業",
+          "型": "[\"https://app.notion.com/3f52b010743c815d9066cdab46f80427\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81028f6ac42786794f0d\"]",
+          "数値替え元": null,
+          "図": "なし",
+          "答え": "32と8/11分（180÷5.5）",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T21"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "R22"
+          ]
+        },
+        "sourceAnswer": "32と8/11分（180÷5.5）",
+        "scopeUnits": [
+          "R22"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-11T06:17:47.389Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "360",
+        "d": "11",
+        "unit": "分",
+        "dimension": "time",
+        "acceptedUnits": {
+          "分": "1",
+          "分間": "1",
+          "min": "1",
+          "秒": "1/60",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R22"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "出発と帰宅の角度差を見る",
+            "body": "出発時は針が重なり角度差0度。5時前に反対方向の一直線になると差180度です。",
+            "equation": "角度差の増加＝180度"
+          },
+          {
+            "id": "s2",
+            "title": "1分の角度差の増加を出す",
+            "body": "長針は毎分6度、短針は毎分0.5度なので、差は毎分5.5度ずつ広がります。",
+            "equation": "6－0.5＝5.5度/分",
+            "checkpoint": {
+              "id": "R22N⑥-2-reason",
+              "prompt": "長針と短針の角度の差は、1分に何度ずつ広がりますか。",
+              "answer": {
+                "n": "11",
+                "d": "2",
+                "unit": "度",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "角度差を相対角速度で割る",
+            "body": "180度になるまでの時間を、毎分5.5度で割ります。",
+            "equation": "180÷5.5＝360/11分＝32と8/11分"
+          },
+          {
+            "id": "s4",
+            "title": "5時前の条件と確かめる",
+            "body": "4時台の重なりから次の一直線までの時間を求めています。5時以降の別の一直線を選びません。",
+            "equation": "(360/11)×(11/2)＝180度"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R21H①-2",
+      "unitId": "speed.river_roundtrip",
+      "category": "oneline",
+      "domain": "流水算",
+      "text": "流速が時速2kmの川の上流にA町が、その30km下流にB町。静水時の速さが時速6kmの船が一往復する時間。",
+      "sourceText": "流速が時速2kmの川の上流にA町が、その30km下流にB町。静水時の速さが時速6kmの船が一往復する時間。",
+      "source": {
+        "title": "R21H①-2",
+        "url": "https://app.notion.com/3f52b010743c81829349d0e7205a95e9",
+        "locator": "Notion問題DB「R21H①-2」問題節・答え・型プロパティ",
+        "sourceText": "流速が時速2kmの川の上流にA町が、その30km下流にB町。静水時の速さが時速6kmの船が一往復する時間。",
+        "notionSourceText": "流速が時速2kmの川の上流にA町が、その30km下流にB町。静水時の速さが時速6kmの船が一往復する時間。",
+        "notionProperties": {
+          "問題": "R21H①-2",
+          "url": "https://app.notion.com/3f52b010743c81829349d0e7205a95e9",
+          "教材": "5年授業",
+          "時期": "5年後期",
+          "区分": "家庭学習用H",
+          "型": "[\"https://app.notion.com/3f52b010743c812fbe3ad80f3509d996\",\"https://app.notion.com/3f42b010743c81f58d20c42b66016a4d\"]",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81b38485ce7cf7cc8451\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c81df93e5d3218c182569\"]",
+          "図": "なし",
+          "答え": "11時間15分",
+          "上乗せ": 0,
+          "typeCodes": [
+            "T17",
+            "X01"
+          ],
+          "baseDifficulty": 3,
+          "unitCodes": [
+            "R21"
+          ]
+        },
+        "sourceAnswer": "11時間15分",
+        "scopeUnits": [
+          "R21"
+        ],
+        "verification": "2026-10-11、Notion実在レコードの本文・答え・型を読み取り選定。原文をそのまま保存し、答えとcheckpointは有理数で独立検算。今回原本PDF未照合。Notion本文が略記のものは略記を原文として保持。",
+        "notionPageLastEditedAt": "2026-10-10T00:47:20.818Z",
+        "textOrigin": "notion-problem-body-verbatim"
+      },
+      "answer": {
+        "n": "675",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time",
+        "acceptedUnits": {
+          "分": "1",
+          "分間": "1",
+          "min": "1",
+          "秒": "1/60",
+          "時間": "60",
+          "h": "60"
+        }
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "expeditionOnly": true,
+      "scopeUnits": [
+        "R21"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "下りは流れを足す",
+            "body": "上流Aから下流Bへは静水時6に流速2を足すので時速8kmです。",
+            "equation": "下り：6＋2＝8km/時"
+          },
+          {
+            "id": "s2",
+            "title": "上りは流れを引く",
+            "body": "戻る上りは流れに逆らうので時速4kmになります。",
+            "equation": "上り：6－2＝4km/時",
+            "checkpoint": {
+              "id": "R21H①-2-reason",
+              "prompt": "上りの速さは時速何kmですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "km/h",
+                "dimension": "speed"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "同じ片道を別々に割る",
+            "body": "30kmを下ると15/4時間、上ると15/2時間なので、合計45/4時間です。",
+            "equation": "30÷8＋30÷4＝45/4時間"
+          },
+          {
+            "id": "s4",
+            "title": "分へ直して検算する",
+            "body": "45/4時間は675分、11時間15分です。速さを平均して往復距離を割ることはできません。",
+            "equation": "45/4×60＝675分＝11時間15分"
+          }
+        ]
+      },
+      "sourceConvention": "時間は数値と単位、または「1時間30分」の形で入力できます。"
+    }
+  ],
+  "units": [
+    {
+      "id": "ratio.reverse_increase",
+      "name": "増加後から元を逆算",
+      "domain": "割合の基本",
+      "definition": "20%増えたのは昨年度の人数を基準にした増加です。300人が基準ではありません。 1.2に対応する300人から、1にあたる人数を求めます。",
+      "decision": "増加後から元を逆算",
+      "representativeId": "R16N⑤-2",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P02",
+        "P03"
+      ]
+    },
+    {
+      "id": "ratio.same_base_remaining",
+      "name": "同じ全体の割合を引く",
+      "domain": "相当算",
+      "definition": "昨日の1/2も今日の1/3も、どちらも本全体を基準にしています。 残った30ページが全体の1/6なので、6倍します。",
+      "decision": "同じ全体の割合を引く",
+      "representativeId": "R16N①-2",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P03"
+      ]
+    },
+    {
+      "id": "ratio.changed_base_remaining",
+      "name": "残りを新しい基準にする",
+      "domain": "相当算",
+      "definition": "今日の1/3は本全体ではなく、昨日読んだあとの残りを基準にします。 昨日の残り45ページは本全体の1/2なので、さらに2倍します。",
+      "decision": "残りを新しい基準にする",
+      "representativeId": "R16N②-2",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P04"
+      ]
+    },
+    {
+      "id": "ratio.shared_part_lengths",
+      "name": "同じ部分を基準に逆比でそろえる",
+      "domain": "相当算",
+      "definition": "2本とも底まで立てるので、水につかる部分は同じ水深です。竹全体の長さは異なります。 竹の差は10－9＝1で、実際の20cmにあたります。水深はその6倍です。",
+      "decision": "同じ部分を基準に逆比でそろえる",
+      "representativeId": "R19N③-3",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P05"
+      ]
+    },
+    {
+      "id": "profit.part_to_cost",
+      "name": "利益に対応する原価を逆算",
+      "domain": "売買損益",
+      "definition": "3割は売値ではなく原価に対する利益の割合です。 利益600円を0.3で割り、原価1にあたる金額を出します。",
+      "decision": "利益に対応する原価を逆算",
+      "representativeId": "R17N①-3",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P06",
+        "P01"
+      ]
+    },
+    {
+      "id": "profit.successive_bases",
+      "name": "定価と原価の基準を連結する",
+      "domain": "売買損益",
+      "definition": "2割増しなので定価は原価の1.2倍です。 利益は原価との差0.08にあたり、それが720円です。",
+      "decision": "定価と原価の基準を連結する",
+      "representativeId": "R17N⑤-2",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P07",
+        "P06"
+      ]
+    },
+    {
+      "id": "salt.add_pure_salt",
+      "name": "食塩と全体が同時に増える",
+      "domain": "食塩水",
+      "definition": "4%の300gに含まれる食塩は12gです。 右辺を30＋0.1xに分けると、0.9xが30－12＝18gに対応します。",
+      "decision": "食塩と全体が同時に増える",
+      "representativeId": "R18N④-3",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P08"
+      ]
+    },
+    {
+      "id": "salt.mix_concentration",
+      "name": "混ぜた食塩量を合計する",
+      "domain": "食塩水",
+      "definition": "濃度を直接平均せず、重さに割合をかけます。 食塩量を食塩水全体で割り、百分率に直します。",
+      "decision": "混ぜた食塩量を合計する",
+      "representativeId": "R18N③-2",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P09"
+      ]
+    },
+    {
+      "id": "salt.infer_added_concentration",
+      "name": "全体の食塩から既知分を引く",
+      "domain": "食塩水",
+      "definition": "全体は800gで11%なので、含まれる食塩は88gです。 70gを加えた食塩水500gで割ります。全体800gを分母にしません。",
+      "decision": "全体の食塩から既知分を引く",
+      "representativeId": "R18N③-4",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P09"
+      ]
+    },
+    {
+      "id": "salt.replace_with_water",
+      "name": "同量の水で置換する",
+      "domain": "食塩水",
+      "definition": "こぼした量と同量の水を入れるので、全体は200gのままです。 こぼれた食塩水は初めと同じ16%。8gを0.16で割ります。",
+      "decision": "同量の水で置換する",
+      "representativeId": "GW516-21②",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P10"
+      ]
+    },
+    {
+      "id": "ratio.chain_with_average",
+      "name": "連続する倍関係と平均を結ぶ",
+      "domain": "比",
+      "definition": "平均86の数が3つなので、合計は258です。 比の合計43が258にあたるので1は6、Cは15個分です。",
+      "decision": "連続する倍関係と平均を結ぶ",
+      "representativeId": "S06L⑥-2",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P12",
+        "P11"
+      ]
+    },
+    {
+      "id": "ratio.affine_money_change",
+      "name": "増減後の倍数差へ直す",
+      "domain": "倍数算",
+      "definition": "もとの差200円に、ミドリの増加500円とアオイの減少240円が加わります。 アオイの増減後は280円、ミドリの増減後は1220円。500円を引いてもとへ戻します。",
+      "decision": "増減後の倍数差へ直す",
+      "representativeId": "4R28N⑤-1",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P13",
+        "W06"
+      ]
+    },
+    {
+      "id": "ratio.gear_inverse_turns",
+      "name": "かみ合う歯数の総量をそろえる",
+      "domain": "正比例・反比例",
+      "definition": "同じ接点を通るので、両方の歯車で通過した歯の総数が一致します。 Bは60個の歯で1回転するので、540を60で割ります。",
+      "decision": "かみ合う歯数の総量をそろえる",
+      "representativeId": "GN比③例7",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P14"
+      ]
+    },
+    {
+      "id": "ratio.divide_total",
+      "name": "全体を比の合計で分ける",
+      "domain": "比",
+      "definition": "Aの2とBの3を合わせた5個分が、全体2500円です。 Aは比2個分なので500円を2倍します。",
+      "decision": "全体を比の合計で分ける",
+      "representativeId": "GN比①M2-9",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P11"
+      ]
+    },
+    {
+      "id": "salt.two_stage_mixing",
+      "name": "先に混合濃度を出して逆比へ",
+      "domain": "食塩水",
+      "definition": "重さを3と2として食塩量を合計し、全体5で割ります。 20%側の16が240gなので、比1個は15g。全体31個分は465gです。",
+      "decision": "先に混合濃度を出して逆比へ",
+      "representativeId": "S12L④-4",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "P10",
+        "P09",
+        "P11"
+      ]
+    },
+    {
+      "id": "speed.return_meet_distance",
+      "name": "折り返しまでの往復幅を使う",
+      "domain": "旅人算",
+      "definition": "同じPから出発し、BだけがQで引き返して出会うので、歩いた距離の合計はPQの2倍です。 合計2400mはPQ2つ分なので2で割ります。",
+      "decision": "折り返しまでの往復幅を使う",
+      "representativeId": "R07N④-2",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T06",
+        "T04"
+      ]
+    },
+    {
+      "id": "speed.forgotten_roundtrip_rate",
+      "name": "戻った距離を足して速さを出す",
+      "domain": "旅人算",
+      "definition": "2人は分速60mで6分歩いたので、別れた場所は家から360mです。 兄は家へ360m戻り、家から妹まで960m進みます。10分で歩く合計は1320mです。",
+      "decision": "戻った距離を足して速さを出す",
+      "representativeId": "R20N②-3",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T07"
+      ]
+    },
+    {
+      "id": "speed.midpoint_offset",
+      "name": "中点からのずれを道のり差へ",
+      "domain": "旅人算",
+      "definition": "Aは中点より120m多く、Bは120m少なく進むので、道のりの差は240mです。 2人の道のりを足すと学校と公園の距離です。",
+      "decision": "中点からのずれを道のり差へ",
+      "representativeId": "GR5-2(4)",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T08",
+        "T01"
+      ]
+    },
+    {
+      "id": "speed.three_people_meeting_gap",
+      "name": "2組の出会い時間をつなぐ",
+      "domain": "旅人算",
+      "definition": "AとCが向かい合う速さの和は150m/分です。 20分で2700mを進む2人の和は135m/分。Cの70を引きます。",
+      "decision": "2組の出会い時間をつなぐ",
+      "representativeId": "R07N⑥-2",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T09",
+        "T04",
+        "T01"
+      ]
+    },
+    {
+      "id": "speed.total_with_rest",
+      "name": "往復の移動時間と休憩を合計する",
+      "domain": "速さの基本",
+      "definition": "片道2.4kmを2400mに直し、分速と対応させます。 1時間30分は90分。家を出てから帰るまでの時間には遊んだ時間も含みます。",
+      "decision": "往復の移動時間と休憩を合計する",
+      "representativeId": "4R33N③-1",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T12",
+        "X01"
+      ]
+    },
+    {
+      "id": "speed.infer_phase_time",
+      "name": "2速さの合計から一方の時間を出す",
+      "domain": "速さの基本",
+      "definition": "3kmを3000mにそろえ、36分ずっと分速60mなら2160mと考えます。 速い分は1分につき40m多く進むので840を40で割ります。",
+      "decision": "2速さの合計から一方の時間を出す",
+      "representativeId": "4R33N⑥-1",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T13"
+      ]
+    },
+    {
+      "id": "speed.average_roundtrip",
+      "name": "往復全体の時間で平均する",
+      "domain": "速さの基本",
+      "definition": "平均の速さは全体の道のりを全体の時間で割ります。10と6の平均ではありません。 往復60kmを8時間で進むので、時速7.5kmです。",
+      "decision": "往復全体の時間で平均する",
+      "representativeId": "S11L⑤-2",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T15"
+      ]
+    },
+    {
+      "id": "speed.arrival_difference",
+      "name": "2速さの到着差から距離を出す",
+      "domain": "速さの基本",
+      "definition": "どちらも予定より早いので、10分と4分の差6分が所要時間の差です。 時間比の差2が6分なので1個3分、速い時間は15分です。",
+      "decision": "2速さの到着差から距離を出す",
+      "representativeId": "R20N④-1",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T16",
+        "T11"
+      ]
+    },
+    {
+      "id": "speed.river_changed_current",
+      "name": "上りから流速を逆算して変更する",
+      "domain": "流水算",
+      "definition": "80kmを10時間で上るので、上りの実速度は時速8kmです。 流速が8に増え、下りは静水12と流れ8を足すので時速20kmです。",
+      "decision": "上りから流速を逆算して変更する",
+      "representativeId": "R21N④-1",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T18",
+        "T17"
+      ]
+    },
+    {
+      "id": "speed.bridge_clearance",
+      "name": "列車長と橋長を足す",
+      "domain": "通過算",
+      "definition": "先頭が橋の入口に来てから、最後尾が出口を抜けるまでを数えます。 毎秒20m進むので、420を20で割ります。",
+      "decision": "列車長と橋長を足す",
+      "representativeId": "R23N①-4",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T19"
+      ]
+    },
+    {
+      "id": "speed.two_trains_opposite",
+      "name": "2列車の長さ和と速さ和",
+      "domain": "通過算",
+      "definition": "互いの最後尾が抜けるまでには、両方の列車の長さを合わせた分だけ位置が変わる必要があります。 270mを1秒45mで処理する時間は6秒です。",
+      "decision": "2列車の長さ和と速さ和",
+      "representativeId": "R23N③-1",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T20"
+      ]
+    },
+    {
+      "id": "speed.clock_angle_gap",
+      "name": "針の相対角速度で経過時間を出す",
+      "domain": "時計算",
+      "definition": "出発時は針が重なり角度差0度。5時前に反対方向の一直線になると差180度です。 180度になるまでの時間を、毎分5.5度で割ります。",
+      "decision": "針の相対角速度で経過時間を出す",
+      "representativeId": "R22N⑥-2",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T21"
+      ]
+    },
+    {
+      "id": "speed.river_roundtrip",
+      "name": "上り下りの速さを分ける",
+      "domain": "流水算",
+      "definition": "上流Aから下流Bへは静水時6に流速2を足すので時速8kmです。 30kmを下ると15/4時間、上ると15/2時間なので、合計45/4時間です。",
+      "decision": "上り下りの速さを分ける",
+      "representativeId": "R21H①-2",
+      "prerequisites": [],
+      "notionTypeCodes": [
+        "T17",
+        "X01"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "from": "ratio.same_base_remaining",
+      "to": "ratio.changed_base_remaining",
+      "relation": "contrast",
+      "difference": "同じ全体の1/3から、昨日の残りを基準にした1/3へ変わり、割合を直接足せなくなる。"
+    },
+    {
+      "from": "profit.part_to_cost",
+      "to": "profit.successive_bases",
+      "relation": "extension",
+      "difference": "原価の利益割合が直接分かる形から、原価→定価→売値の異なる基準の倍率を連結する。"
+    },
+    {
+      "from": "salt.mix_concentration",
+      "to": "salt.infer_added_concentration",
+      "relation": "contrast",
+      "difference": "2つの濃度既知で混合後を求める形から、混合後の食塩量を使い未知側の濃度を逆算する。"
+    },
+    {
+      "from": "salt.mix_concentration",
+      "to": "salt.two_stage_mixing",
+      "relation": "extension",
+      "difference": "混合後の濃度を出して終了する形から、その濃度を次の混合の入力にして未知の重さを逆比で出す。"
+    },
+    {
+      "from": "salt.add_pure_salt",
+      "to": "salt.replace_with_water",
+      "relation": "contrast",
+      "difference": "純食塩追加で全体と食塩が増える形から、全体一定で食塩だけ減る同量置換へ変わる。"
+    },
+    {
+      "from": "ratio.divide_total",
+      "to": "ratio.chain_with_average",
+      "relation": "extension",
+      "difference": "全体と2数比が直接与えられる形から、平均を合計へ直し連続する3数比を組み立てる。"
+    },
+    {
+      "from": "speed.total_with_rest",
+      "to": "speed.average_roundtrip",
+      "relation": "contrast",
+      "difference": "移動と休憩の総時間を答える形から、総距離を移動時間で割って平均速度を求める。"
+    },
+    {
+      "from": "speed.arrival_difference",
+      "to": "speed.infer_phase_time",
+      "relation": "contrast",
+      "difference": "同じ距離の2通りの総時間差から距離を出す形と、1回の移動で速さが変わり合計から区間時間を出す形を区別する。"
+    },
+    {
+      "from": "speed.bridge_clearance",
+      "to": "speed.two_trains_opposite",
+      "relation": "extension",
+      "difference": "固定された橋の長さと列車長から、動く2列車の長さ和・速度和を使う相対運動へ広げる。"
+    },
+    {
+      "from": "speed.midpoint_offset",
+      "to": "speed.three_people_meeting_gap",
+      "relation": "contrast",
+      "difference": "同時出会いの道のり差から共通時間を出す形から、異なる2組の出会い時刻差を結ぶ。"
+    }
+  ],
+  "analysis": [
+    {
+      "kind": "scope",
+      "detail": "自由遠征専用。ユーザー承認済みNotion登録から割合・比15、速さ13の28代表を選定。既存仕事18/速さ3は追加しない。元scopeUnits/homeStudyを保全。R25以降は対象外。"
+    },
+    {
+      "kind": "source_conflict",
+      "problemId": "R21N①-2",
+      "detail": "Notion本文は片道24km、静水6km/h、流れ3km/h。往復24/9+24/3=32/3時間となりNotion答え9時間と矛盾するため保留。代わりに同型の実在H①-2を別レコードとして選び直し、30/(6+2)+30/(6-2)=45/4時間=11時間15分がNotion答えと一致することを確認。勝手な数値修正はしない。"
+    },
+    {
+      "kind": "limits",
+      "detail": "図なしで条件が自足する実在Notion文面を保持。時刻を何時何分で答える問題、複数答、大問依存を除外。原本PDF未照合、個人ログなし、生成数値替えなし。"
+    },
+    {
+      "kind": "input_compatibility",
+      "problemIds": [
+        "4R33N③-1",
+        "R21H①-2"
+      ],
+      "detail": "原問の複合時間回答を維持。入力欄の採点はcoreで複合時間を厳密有理数へ変換し、分入力も同値として受け入れる。原問を単一単位へ改題していない。"
+    }
+  ]
+}

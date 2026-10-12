@@ -1,0 +1,3170 @@
+{
+  "problems": [
+    {
+      "id": "4春6L③-3",
+      "unitId": "number.rounding.range-count",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "十の位を四捨五入すると1000になる整数は全部で何個",
+      "sourceText": "十の位を四捨五入すると1000になる整数は全部で何個",
+      "source": {
+        "title": "4春6L③-3",
+        "url": "https://app.notion.com/3f52b010743c81ea951ec3b2df7ba155",
+        "locator": "Notion 問題DB > 4春6L③-3 > 問題/答えブロック",
+        "sourceText": "十の位を四捨五入すると1000になる整数は全部で何個",
+        "notionSourceText": "十の位を四捨五入すると1000になる整数は全部で何個",
+        "sourceAnswer": "100個",
+        "scopeUnits": [
+          "4春6"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81afbbb9c5e83757a39d",
+            "code": "N02",
+            "name": "数のしくみ・概数",
+            "baseDifficulty": 2
+          }
+        ],
+        "notionProperties": {
+          "問題": "4春6L③-3",
+          "教材": "4年講習",
+          "時期": "4年前期",
+          "区分": "N授業",
+          "教材回": "[\"https://app.notion.com/3f52b010743c8127ba87e98622ea15f4\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81afbbb9c5e83757a39d\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "100個"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T03:06:43.289Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "十の位を四捨五入する範囲を両端まで含めて数える。"
+      },
+      "answer": {
+        "n": "100",
+        "d": "1",
+        "unit": "個",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4春6"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "十の位を四捨五入するので、100の位までの概数にします。1000の手前と後ろの境目を考えます。",
+            "equation": "950以上1050未満"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "950は1000に切り上がり、1049も1000になります。1050は1100になるので入りません。",
+            "equation": "最小950、最大1049",
+            "checkpoint": {
+              "id": "4春6L③-3-reason",
+              "prompt": "丸める前の整数のうち、いちばん小さいものはいくつですか。",
+              "answer": {
+                "n": "950",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "整数の個数は、最後から最初を引いた差に1を足します。",
+            "equation": "1049−950＋1＝100個"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "950と1049の両方を含むため、差だけの99個にはしません。",
+            "equation": "950,951,…,1049の100個"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4R19N④-1",
+      "unitId": "number.fraction.open-bounds",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "3/8より大きく0.4より小さい分数で、分母が80のものを求める",
+      "sourceText": "3/8より大きく0.4より小さい分数で、分母が80のものを求める",
+      "source": {
+        "title": "4R19N④-1",
+        "url": "https://app.notion.com/3f52b010743c8143818ffcd7d741b19b",
+        "locator": "Notion 問題DB > 4R19N④-1 > 問題/答えブロック",
+        "sourceText": "3/8より大きく0.4より小さい分数で、分母が80のものを求める",
+        "notionSourceText": "3/8より大きく0.4より小さい分数で、分母が80のものを求める",
+        "sourceAnswer": "31/80",
+        "scopeUnits": [
+          "4R19"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81afbbb9c5e83757a39d",
+            "code": "N02",
+            "name": "数のしくみ・概数",
+            "baseDifficulty": 2
+          }
+        ],
+        "notionProperties": {
+          "問題": "4R19N④-1",
+          "教材": "4年授業",
+          "時期": "4年前期",
+          "区分": "N授業",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81dea0d4de271ba12152\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81afbbb9c5e83757a39d\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "31/80"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:38:41.806Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "端の値を分母80にそろえ、厳密な大小条件を満たす分子だけを選ぶ。"
+      },
+      "answer": {
+        "n": "31",
+        "d": "80",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R19"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "分母が80という条件を使い、二つの端の数を同じ分母にします。",
+            "equation": "3/8＝30/80"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "0.4は4/10です。分母80にすると分子は32です。",
+            "equation": "0.4＝32/80",
+            "checkpoint": {
+              "id": "4R19N④-1-reason",
+              "prompt": "0.4を分母80の分数に直したときの分子はいくつですか。",
+              "answer": {
+                "n": "32",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "30より大きく32より小さい整数は31だけです。端の30と32は含めません。",
+            "equation": "30＜31＜32 → 31/80"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "31/80は0.3875です。3/8の0.375より大きく、0.4より小さいことを確かめます。",
+            "equation": "0.375＜0.3875＜0.4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GN数性②M1-3",
+      "unitId": "number.divisor.distribution-remainders",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "りんご80個とみかん65個を、子どもたちにそれぞれ同じ数ずつ分けたところ、りんごは8個、みかんは11個あまりました。子どもは　　人です。",
+      "sourceText": "りんご80個とみかん65個を、子どもたちにそれぞれ同じ数ずつ分けたところ、りんごは8個、みかんは11個あまりました。子どもは　　人です。",
+      "source": {
+        "title": "GN数性②M1-3",
+        "url": "https://app.notion.com/3f52b010743c810081b3c40e44582fce",
+        "locator": "Notion 問題DB > GN数性②M1-3 > 問題/答えブロック",
+        "sourceText": "りんご80個とみかん65個を、子どもたちにそれぞれ同じ数ずつ分けたところ、りんごは8個、みかんは11個あまりました。子どもは　　人です。",
+        "notionSourceText": "りんご80個とみかん65個を、子どもたちにそれぞれ同じ数ずつ分けたところ、りんごは8個、みかんは11個あまりました。子どもは　　人です。",
+        "sourceAnswer": "18人",
+        "scopeUnits": [
+          "GN数性"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81c58094fdbd14ffac33",
+            "code": "N05",
+            "name": "余りの問題",
+            "baseDifficulty": 4
+          },
+          {
+            "url": "https://app.notion.com/3f52b010743c81c5903bf88324ad584d",
+            "code": "N03",
+            "name": "約数",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "GN数性②M1-3",
+          "教材": "基本の制覇",
+          "時期": "4年前期",
+          "区分": "基本の制覇",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81b2997ac2de2c770016\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81c58094fdbd14ffac33\",\"https://app.notion.com/3f52b010743c81c5903bf88324ad584d\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "18人"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T03:08:50.426Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "余りを引いて等分した量へ戻し、公約数のうち余りより大きい人数だけを選ぶ。"
+      },
+      "answer": {
+        "n": "18",
+        "d": "1",
+        "unit": "人",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN数性"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "配った量に戻す",
+            "body": "配った人数は、実際に配ったりんごとみかんの個数を両方とも割り切ります。まず余った分を取り除きます。",
+            "equation": "りんご80−8、みかん65−11"
+          },
+          {
+            "id": "s2",
+            "title": "両方の量をそろえる",
+            "body": "実際に配った量はりんご72個、みかん54個です。人数は72と54の公約数です。",
+            "equation": "80−8＝72、65−11＝54",
+            "checkpoint": {
+              "id": "GN数性②M1-3-reason",
+              "prompt": "実際に子どもたちへ配ったりんごは何個ですか。",
+              "answer": {
+                "n": "72",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "余りの条件で人数を絞る",
+            "body": "72と54の公約数は1、2、3、6、9、18です。できるだけ多く分けた余り11個は人数より小さいため、人数は18人だけです。",
+            "equation": "人数＞11 → 18人"
+          },
+          {
+            "id": "s4",
+            "title": "配った数と余りを確かめる",
+            "body": "18人ならりんご4個ずつ、みかん3個ずつ配れます。余り8個、11個はいずれも18人より小さい数です。",
+            "equation": "80＝18×4＋8、65＝18×3＋11"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GN数性③M1-4",
+      "unitId": "number.multiple.digit-sum-nine",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "5けたの整数42⑦31は9の倍数です。⑦にあてはまる数は　　です。",
+      "sourceText": "5けたの整数42⑦31は9の倍数です。⑦にあてはまる数は　　です。",
+      "source": {
+        "title": "GN数性③M1-4",
+        "url": "https://app.notion.com/3f52b010743c812eab3ac78db4c5c51c",
+        "locator": "Notion 問題DB > GN数性③M1-4 > 問題/答えブロック",
+        "sourceText": "5けたの整数42⑦31は9の倍数です。⑦にあてはまる数は　　です。",
+        "notionSourceText": "5けたの整数42⑦31は9の倍数です。⑦にあてはまる数は　　です。",
+        "sourceAnswer": "8",
+        "scopeUnits": [
+          "GN数性"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81618be7e7436b34138b",
+            "code": "N04",
+            "name": "倍数",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "GN数性③M1-4",
+          "教材": "基本の制覇",
+          "時期": "4年前期",
+          "区分": "基本の制覇",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81b2997ac2de2c770016\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81618be7e7436b34138b\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "8"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:39:38.622Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "各位の和に置き換え、0から9の一桁条件で絞る。"
+      },
+      "answer": {
+        "n": "8",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN数性"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "9の倍数は、各位の数字の和も9の倍数になります。丸数字は一桁の数字を表します。",
+            "equation": "4＋2＋⑦＋3＋1"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "分かっている数字を足すと10です。ここへ0から9のどれかを足します。",
+            "equation": "4＋2＋3＋1＝10",
+            "checkpoint": {
+              "id": "GN数性③M1-4-reason",
+              "prompt": "まだ分からない一桁を除いた、各位の数字の和はいくつですか。",
+              "answer": {
+                "n": "10",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "和は10から19の間です。この間の9の倍数は18だけなので、足す数字は8です。",
+            "equation": "18−10＝8"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "42831の各位の和は18で、9の倍数になっています。",
+            "equation": "42831÷9＝4759"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GN数性②M2-12",
+      "unitId": "number.remainder.quotient-equals",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "15で割ったとき、商とあまりが等しくなる2けたの整数のうち、最も大きいものは　　です。",
+      "sourceText": "15で割ったとき、商とあまりが等しくなる2けたの整数のうち、最も大きいものは　　です。",
+      "source": {
+        "title": "GN数性②M2-12",
+        "url": "https://app.notion.com/3f52b010743c8190b928ddd62a9367a1",
+        "locator": "Notion 問題DB > GN数性②M2-12 > 問題/答えブロック",
+        "sourceText": "15で割ったとき、商とあまりが等しくなる2けたの整数のうち、最も大きいものは　　です。",
+        "notionSourceText": "15で割ったとき、商とあまりが等しくなる2けたの整数のうち、最も大きいものは　　です。",
+        "sourceAnswer": "96",
+        "scopeUnits": [
+          "GN数性"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81c58094fdbd14ffac33",
+            "code": "N05",
+            "name": "余りの問題",
+            "baseDifficulty": 4
+          }
+        ],
+        "notionProperties": {
+          "問題": "GN数性②M2-12",
+          "教材": "基本の制覇",
+          "時期": "4年前期",
+          "区分": "基本の制覇",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81b2997ac2de2c770016\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81c58094fdbd14ffac33\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "96"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T03:10:43.999Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "整数を割る数と商と余りに分け、同じ商・余りを一つの数で表す。"
+      },
+      "answer": {
+        "n": "96",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN数性"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "整数は「15×商＋余り」です。商と余りが等しいので、どちらも同じ数と考えます。",
+            "equation": "整数＝15×商＋商＝16×商"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "2けたは99以下です。16の倍数で99以下の最大は96なので、商は6です。",
+            "equation": "16×6＝96、16×7＝112",
+            "checkpoint": {
+              "id": "GN数性②M2-12-reason",
+              "prompt": "条件を満たす2けたの整数が最大のとき、商はいくつですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "余り6は割る数15より小さいので、96は割り算の余りの条件も満たします。",
+            "equation": "96÷15＝6余り6"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "これより大きい商7では3けたになります。したがって2けたの最大は96です。",
+            "equation": "96＜100＜112"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R04H④-3",
+      "unitId": "number.multiple.two-digits-count",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "5けたの数2□61□が15の倍数になるとき、このような整数は何個ありますか。",
+      "sourceText": "5けたの数2□61□が15の倍数になるとき、このような整数は何個ありますか。",
+      "source": {
+        "title": "R04H④-3",
+        "url": "https://app.notion.com/3f52b010743c8104a084db39cbd0f929",
+        "locator": "Notion 問題DB > R04H④-3 > 問題/答えブロック",
+        "sourceText": "5けたの数2□61□が15の倍数になるとき、このような整数は何個ありますか。",
+        "notionSourceText": "5けたの数2□61□が15の倍数になるとき、このような整数は何個ありますか。",
+        "sourceAnswer": "7個",
+        "scopeUnits": [
+          "R04"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81618be7e7436b34138b",
+            "code": "N04",
+            "name": "倍数",
+            "baseDifficulty": 3
+          },
+          {
+            "url": "https://app.notion.com/3f52b010743c8174b735c267cbfebc71",
+            "code": "N07",
+            "name": "虫食い算・数の条件",
+            "baseDifficulty": 4
+          }
+        ],
+        "notionProperties": {
+          "問題": "R04H④-3",
+          "教材": "5年授業",
+          "時期": "4年夏期",
+          "区分": "家庭学習用H",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81b1bc80c19d0e8501c6\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81618be7e7436b34138b\",\"https://app.notion.com/3f52b010743c8174b735c267cbfebc71\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c811eb0c4ce543b4f59e7\"]",
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "7個"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T08:39:39.560Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "末尾の0/5で場合分けし、各位の和の3の倍数条件を重ねる。"
+      },
+      "answer": {
+        "n": "7",
+        "d": "1",
+        "unit": "個",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R04"
+      ],
+      "homeStudy": true,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "15の倍数は3の倍数であり5の倍数でもあります。一の位は0か5です。",
+            "equation": "15＝3×5"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "一の位が0なら各位の和は9に千の位を足した数です。千の位は0、3、6、9の四つです。",
+            "equation": "2＋6＋1＋0＝9 → 4個",
+            "checkpoint": {
+              "id": "R04H④-3-reason",
+              "prompt": "一の位を0にした場合、千の位に入る数字は何個ありますか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "一の位が5なら各位の和は14に千の位を足した数です。千の位は1、4、7の三つです。",
+            "equation": "4＋3＝7個"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "一の位0の場合と5の場合は重ならないので足します。千の位0でも先頭2があるため5けたです。",
+            "equation": "20610,23610,26610,29610／21615,24615,27615"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GW407-03①",
+      "unitId": "sumdiff.sum-and-difference",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "大小2つの箱にボールが入っています。ボールの数はあわせて22こで、大きい箱には、小さい箱よりも4こ多く入っています。小さい箱に入っているボールの数は何こですか。",
+      "sourceText": "大小2つの箱にボールが入っています。ボールの数はあわせて22こで、大きい箱には、小さい箱よりも4こ多く入っています。小さい箱に入っているボールの数は何こですか。",
+      "source": {
+        "title": "GW407-03①",
+        "url": "https://app.notion.com/3f52b010743c81808e55f6b1f57a6250",
+        "locator": "Notion 問題DB > GW407-03① > 問題/答えブロック",
+        "sourceText": "大小2つの箱にボールが入っています。ボールの数はあわせて22こで、大きい箱には、小さい箱よりも4こ多く入っています。小さい箱に入っているボールの数は何こですか。",
+        "notionSourceText": "大小2つの箱にボールが入っています。ボールの数はあわせて22こで、大きい箱には、小さい箱よりも4こ多く入っています。小さい箱に入っているボールの数は何こですか。",
+        "sourceAnswer": "9こ",
+        "scopeUnits": [
+          "GW407"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f42b010743c8132ba65e8d091437120",
+            "code": "X02",
+            "name": "和差算",
+            "baseDifficulty": 2
+          }
+        ],
+        "notionProperties": {
+          "問題": "GW407-03①",
+          "教材": "G脳ワークアウト",
+          "時期": "4年後期",
+          "区分": "G脳",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81229096de866370323f\"]",
+          "型": "[\"https://app.notion.com/3f42b010743c8132ba65e8d091437120\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "9こ"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:40:58.179Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "合計から差を取り除いて小さい数二つ分にそろえる。"
+      },
+      "answer": {
+        "n": "9",
+        "d": "1",
+        "unit": "こ",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GW407"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "大きい箱は小さい箱より4こ多く、二つの合計は22こです。",
+            "equation": "大＝小＋4、合計22"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "大きい箱の余分な4こを取り除くと、両方が小さい箱と同じ数になります。",
+            "equation": "22−4＝18こ",
+            "checkpoint": {
+              "id": "GW407-03①-reason",
+              "prompt": "大きい箱から多い4こを取り除いたとき、二つの箱の合計は何こですか。",
+              "answer": {
+                "n": "18",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "18こを二つに等しく分けると、小さい箱の数になります。",
+            "equation": "18÷2＝9こ"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "大きい箱は13こです。合計22こ、差4この両方を確かめます。",
+            "equation": "9＋13＝22、13−9＝4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GW429-17③",
+      "unitId": "sumdiff.multiple-offset",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "兄弟が持っているペンの数をくらべたら、その差は20本で、兄が持っている本数は弟の4倍より4本少ないそうです。兄はペンを何本持っていますか。",
+      "sourceText": "兄弟が持っているペンの数をくらべたら、その差は20本で、兄が持っている本数は弟の4倍より4本少ないそうです。兄はペンを何本持っていますか。",
+      "source": {
+        "title": "GW429-17③",
+        "url": "https://app.notion.com/3f52b010743c81f198bbd9412f22bd90",
+        "locator": "Notion 問題DB > GW429-17③ > 問題/答えブロック",
+        "sourceText": "兄弟が持っているペンの数をくらべたら、その差は20本で、兄が持っている本数は弟の4倍より4本少ないそうです。兄はペンを何本持っていますか。",
+        "notionSourceText": "兄弟が持っているペンの数をくらべたら、その差は20本で、兄が持っている本数は弟の4倍より4本少ないそうです。兄はペンを何本持っていますか。",
+        "sourceAnswer": "28本",
+        "scopeUnits": [
+          "GW429"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81d4a1a7e8fbc2318568",
+            "code": "W02",
+            "name": "分配算",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "GW429-17③",
+          "教材": "G脳ワークアウト",
+          "時期": "4年前期",
+          "区分": "G脳",
+          "教材回": "[\"https://app.notion.com/3f52b010743c812c9157fad552538091\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81d4a1a7e8fbc2318568\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "28本"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:42:32.547Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "倍の差から固定された少なさを補い、基準量を逆算する。"
+      },
+      "answer": {
+        "n": "28",
+        "d": "1",
+        "unit": "本",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GW429"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "弟の本数を1つ分とすると、兄は4つ分より4本少ない数です。",
+            "equation": "兄＝弟×4−4"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "兄弟の差20本に4本を補うと、弟の3つ分になります。",
+            "equation": "(20＋4)÷3＝8本",
+            "checkpoint": {
+              "id": "GW429-17③-reason",
+              "prompt": "弟が持っているペンは何本ですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "弟8本の4倍から4本を引いて、兄の本数を求めます。",
+            "equation": "8×4−4＝28本"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "兄28本と弟8本の差は20本です。兄は弟の4倍32本より4本少なくなっています。",
+            "equation": "28−8＝20、32−4＝28"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4R09H①-3",
+      "unitId": "sumdiff.planting.both-ends",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "長さ30mのまっすぐな道のかた側に、はしからはしまで木を5mおきに植えようと思います。木は何本必要ですか。",
+      "sourceText": "長さ30mのまっすぐな道のかた側に、はしからはしまで木を5mおきに植えようと思います。木は何本必要ですか。",
+      "source": {
+        "title": "4R09H①-3",
+        "url": "https://app.notion.com/3f52b010743c81c1b75df9b53a8c01f3",
+        "locator": "Notion 問題DB > 4R09H①-3 > 問題/答えブロック",
+        "sourceText": "長さ30mのまっすぐな道のかた側に、はしからはしまで木を5mおきに植えようと思います。木は何本必要ですか。",
+        "notionSourceText": "長さ30mのまっすぐな道のかた側に、はしからはしまで木を5mおきに植えようと思います。木は何本必要ですか。",
+        "sourceAnswer": "7本",
+        "scopeUnits": [
+          "4R09"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81ad9f6cd0b91a2cf5dd",
+            "code": "W03",
+            "name": "植木算",
+            "baseDifficulty": 2
+          }
+        ],
+        "notionProperties": {
+          "問題": "4R09H①-3",
+          "教材": "4年授業",
+          "時期": "4年前期",
+          "区分": "家庭学習用H",
+          "教材回": "[\"https://app.notion.com/3f52b010743c8147ae9ee1e1e10eabca\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81ad9f6cd0b91a2cf5dd\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c810591fccd9d87acb1d0\"]",
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "7本"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T08:29:25.278Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "長さから間の数を出し、両端があるため一本足す。"
+      },
+      "answer": {
+        "n": "7",
+        "d": "1",
+        "unit": "本",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R09"
+      ],
+      "homeStudy": true,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "道は30m、木と木の間は5mです。両端にも木を植えます。",
+            "equation": "道の長さ30m、間かく5m"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "まず間の数を出します。木の本数と間の数は異なります。",
+            "equation": "30÷5＝6か所",
+            "checkpoint": {
+              "id": "4R09H①-3-reason",
+              "prompt": "木と木の間は全部で何か所できますか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "まっすぐな道の両端に木があるので、本数は間の数より1多くなります。",
+            "equation": "6＋1＝7本"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "7本の木の間は6か所で、5mずつなら全体30mです。",
+            "equation": "(7−1)×5＝30m"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4R10H②-1",
+      "unitId": "sumdiff.cranes.all-high",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "90円の色紙と70円の色紙を合わせて12枚買ったところ、ねだんの合計は1000円でした。70円の色紙を何枚買いましたか。",
+      "sourceText": "90円の色紙と70円の色紙を合わせて12枚買ったところ、ねだんの合計は1000円でした。70円の色紙を何枚買いましたか。",
+      "source": {
+        "title": "4R10H②-1",
+        "url": "https://app.notion.com/3f52b010743c8155bdf3cb7059072bcc",
+        "locator": "Notion 問題DB > 4R10H②-1 > 問題/答えブロック",
+        "sourceText": "90円の色紙と70円の色紙を合わせて12枚買ったところ、ねだんの合計は1000円でした。70円の色紙を何枚買いましたか。",
+        "notionSourceText": "90円の色紙と70円の色紙を合わせて12枚買ったところ、ねだんの合計は1000円でした。70円の色紙を何枚買いましたか。",
+        "sourceAnswer": "4枚",
+        "scopeUnits": [
+          "4R10"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c8107abbef4edf292fe71",
+            "code": "W04",
+            "name": "つるかめ算",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "4R10H②-1",
+          "教材": "4年授業",
+          "時期": "4年前期",
+          "区分": "家庭学習用H",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81978a82d4cfa4d441ea\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c8107abbef4edf292fe71\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c816db4a2c0a5eae9bdfc\"]",
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "4枚"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T08:38:14.293Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "全量を高い品にそろえ、金額の超過を単価差で割る。"
+      },
+      "answer": {
+        "n": "4",
+        "d": "1",
+        "unit": "枚",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R10"
+      ],
+      "homeStudy": true,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "求めるのは70円の色紙の枚数です。まず12枚すべて90円だと考えます。",
+            "equation": "90円と70円、合計12枚"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "すべて90円なら1080円となり、実際の1000円より80円高くなります。",
+            "equation": "90×12＝1080円",
+            "checkpoint": {
+              "id": "4R10H②-1-reason",
+              "prompt": "12枚すべて90円の色紙なら、合計はいくらですか。",
+              "answer": {
+                "n": "1080",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "90円を70円に1枚替えると20円安くなります。80円下げるための枚数を出します。",
+            "equation": "(1080−1000)÷(90−70)＝4枚"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "70円4枚と90円8枚なら、枚数も金額も条件に合います。",
+            "equation": "4＋8＝12、70×4＋90×8＝1000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4R11H①-4",
+      "unitId": "sumdiff.excess.two-surpluses",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "色紙を子どもたちに同じ数ずつ配ります。1人に4枚ずつ配ると30枚あまります。1人に7枚ずつ配ると6枚あまります。用意した色紙の枚数は何枚ですか。",
+      "sourceText": "色紙を子どもたちに同じ数ずつ配ります。1人に4枚ずつ配ると30枚あまります。1人に7枚ずつ配ると6枚あまります。用意した色紙の枚数は何枚ですか。",
+      "source": {
+        "title": "4R11H①-4",
+        "url": "https://app.notion.com/3f52b010743c81ea876fec4a69f6a9d9",
+        "locator": "Notion 問題DB > 4R11H①-4 > 問題/答えブロック",
+        "sourceText": "色紙を子どもたちに同じ数ずつ配ります。1人に4枚ずつ配ると30枚あまります。1人に7枚ずつ配ると6枚あまります。用意した色紙の枚数は何枚ですか。",
+        "notionSourceText": "色紙を子どもたちに同じ数ずつ配ります。1人に4枚ずつ配ると30枚あまります。1人に7枚ずつ配ると6枚あまります。用意した色紙の枚数は何枚ですか。",
+        "sourceAnswer": "62枚",
+        "scopeUnits": [
+          "4R11"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c811fb759d591699f3c64",
+            "code": "W05",
+            "name": "過不足算",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "4R11H①-4",
+          "教材": "4年授業",
+          "時期": "4年前期",
+          "区分": "家庭学習用H",
+          "教材回": "[\"https://app.notion.com/3f52b010743c814b9ec1caacadba0daa\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c811fb759d591699f3c64\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c81dcba1be3a39ec40d79\"]",
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "62枚"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T08:40:02.628Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "余りの差を一人分の差で割り、人数から全体を戻す。"
+      },
+      "answer": {
+        "n": "62",
+        "d": "1",
+        "unit": "枚",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R11"
+      ],
+      "homeStudy": true,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "4枚ずつなら30枚余り、7枚ずつなら6枚余ります。色紙の総数は同じです。",
+            "equation": "1人分の差＝7−4＝3枚"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "余りが24枚減ったのは、一人あたり3枚多く配ったためです。",
+            "equation": "(30−6)÷3＝8人",
+            "checkpoint": {
+              "id": "4R11H①-4-reason",
+              "prompt": "色紙を配る子どもは何人いますか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "8人に4枚ずつ配った32枚と、余り30枚を合わせます。",
+            "equation": "8×4＋30＝62枚"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "7枚ずつ配る場合も、56枚配って6枚余るので同じ総数です。",
+            "equation": "8×7＋6＝62"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GW429-01⑤",
+      "unitId": "sumdiff.transfer.reverse-net",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "コウジ君とアオイさんがカードをやりとりします。まず、コウジ君がアオイさんから20まい受け取り、次にアオイさんがコウジ君から15まい受け取り、最後にコウジ君がアオイさんから10まい受け取りました。その結果、2人とも40まいずつになりました。コウジ君は、はじめにカードを何まいもっていましたか。",
+      "sourceText": "コウジ君とアオイさんがカードをやりとりします。まず、コウジ君がアオイさんから20まい受け取り、次にアオイさんがコウジ君から15まい受け取り、最後にコウジ君がアオイさんから10まい受け取りました。その結果、2人とも40まいずつになりました。コウジ君は、はじめにカードを何まいもっていましたか。",
+      "source": {
+        "title": "GW429-01⑤",
+        "url": "https://app.notion.com/3f52b010743c81668880d9cd77e2b84e",
+        "locator": "Notion 問題DB > GW429-01⑤ > 問題/答えブロック",
+        "sourceText": "コウジ君とアオイさんがカードをやりとりします。まず、コウジ君がアオイさんから20まい受け取り、次にアオイさんがコウジ君から15まい受け取り、最後にコウジ君がアオイさんから10まい受け取りました。その結果、2人とも40まいずつになりました。コウジ君は、はじめにカードを何まいもっていましたか。",
+        "notionSourceText": "コウジ君とアオイさんがカードをやりとりします。まず、コウジ君がアオイさんから20まい受け取り、次にアオイさんがコウジ君から15まい受け取り、最後にコウジ君がアオイさんから10まい受け取りました。その結果、2人とも40まいずつになりました。コウジ君は、はじめにカードを何まいもっていましたか。",
+        "sourceAnswer": "25まい",
+        "scopeUnits": [
+          "GW429"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81bfb555ff15a10c9bb7",
+            "code": "W06",
+            "name": "やりとり算・年齢算",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "GW429-01⑤",
+          "教材": "G脳ワークアウト",
+          "時期": "4年後期",
+          "区分": "G脳",
+          "教材回": "[\"https://app.notion.com/3f52b010743c812c9157fad552538091\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81bfb555ff15a10c9bb7\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "25まい"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:42:27.685Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "対象者の受取と譲渡を符号つきで合計し、最後から戻す。"
+      },
+      "answer": {
+        "n": "25",
+        "d": "1",
+        "unit": "まい",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GW429"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "コウジ君だけに注目します。受け取る20まいと10まいは増え、渡す15まいは減ります。",
+            "equation": "＋20、−15、＋10"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "増えた分をまとめると15まいです。",
+            "equation": "20−15＋10＝15まい",
+            "checkpoint": {
+              "id": "GW429-01⑤-reason",
+              "prompt": "やりとり全体で、コウジ君のカードは何まい増えましたか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "最後は40まいなので、増えた15まいを引くと初めの数が出ます。",
+            "equation": "40−15＝25まい"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "初め25まいから順にたどると、45、30、40まいとなります。",
+            "equation": "25＋20−15＋10＝40"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GN和差③例3",
+      "unitId": "sumdiff.elimination.pair-sums",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "りんごとみかんを1個ずつ買うと310円で、みかんとなしを1個ずつ買うと300円で、りんごとなしを1個ずつ買うと470円です。みかん1個の代金は　　円です。",
+      "sourceText": "りんごとみかんを1個ずつ買うと310円で、みかんとなしを1個ずつ買うと300円で、りんごとなしを1個ずつ買うと470円です。みかん1個の代金は　　円です。",
+      "source": {
+        "title": "GN和差③例3",
+        "url": "https://app.notion.com/3f52b010743c8142b1f7c8bceed5e123",
+        "locator": "Notion 問題DB > GN和差③例3 > 問題/答えブロック",
+        "sourceText": "りんごとみかんを1個ずつ買うと310円で、みかんとなしを1個ずつ買うと300円で、りんごとなしを1個ずつ買うと470円です。みかん1個の代金は　　円です。",
+        "notionSourceText": "りんごとみかんを1個ずつ買うと310円で、みかんとなしを1個ずつ買うと300円で、りんごとなしを1個ずつ買うと470円です。みかん1個の代金は　　円です。",
+        "sourceAnswer": "70円",
+        "scopeUnits": [
+          "GN和差"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c814fbdb0e77b2803f557",
+            "code": "W07",
+            "name": "消去算",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "GN和差③例3",
+          "教材": "基本の制覇",
+          "時期": "4年前期",
+          "区分": "基本の制覇",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81c88c37de61c775dfc6\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c814fbdb0e77b2803f557\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "70円"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T03:06:46.019Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "三つの和を合算して重複を二で割り、二品の和を引く。"
+      },
+      "answer": {
+        "n": "70",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN和差"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "三つの買い方を全部足すと、各くだものの代金が2回ずつ出てきます。",
+            "equation": "310＋300＋470＝1080円"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "2回分を2で割ると、三種類1個ずつの合計になります。",
+            "equation": "1080÷2＝540円",
+            "checkpoint": {
+              "id": "GN和差③例3-reason",
+              "prompt": "りんご、みかん、なしを1個ずつ買った合計はいくらですか。",
+              "answer": {
+                "n": "540",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "三種類の合計から、りんごとなしの470円を引けばみかんだけが残ります。",
+            "equation": "540−470＝70円"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "みかん70円なら、りんご240円、なし230円となり、三つの買い方すべてに合います。",
+            "equation": "240＋70＝310、70＋230＝300、240＋230＝470"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4R27H②-4",
+      "unitId": "sumdiff.average.missing-value",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "4つの整数A、B、C、Dの平均が52で、Aが61、Bが46、Cが52のとき、Dを求めなさい。",
+      "sourceText": "4つの整数A、B、C、Dの平均が52で、Aが61、Bが46、Cが52のとき、Dを求めなさい。",
+      "source": {
+        "title": "4R27H②-4",
+        "url": "https://app.notion.com/3f52b010743c81a99cd4e22ab021f6e9",
+        "locator": "Notion 問題DB > 4R27H②-4 > 問題/答えブロック",
+        "sourceText": "4つの整数A、B、C、Dの平均が52で、Aが61、Bが46、Cが52のとき、Dを求めなさい。",
+        "notionSourceText": "4つの整数A、B、C、Dの平均が52で、Aが61、Bが46、Cが52のとき、Dを求めなさい。",
+        "sourceAnswer": "49",
+        "scopeUnits": [
+          "4R27"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81a3892ac078a122aa52",
+            "code": "W09",
+            "name": "平均算",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "4R27H②-4",
+          "教材": "4年授業",
+          "時期": "4年後期",
+          "区分": "家庭学習用H",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81c08d7ae0505dc2b05f\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81a3892ac078a122aa52\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8186acd1d983d9b49698\"]",
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "49"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T08:33:40.525Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "平均×個数を総和に戻し、既知の数の和を引く。"
+      },
+      "answer": {
+        "n": "49",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R27"
+      ],
+      "homeStudy": true,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "平均52とは、四つを合わせて等しく分けると一つ52ということです。",
+            "equation": "個数4、平均52"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "合計は平均に個数を掛けると出ます。",
+            "equation": "52×4＝208",
+            "checkpoint": {
+              "id": "4R27H②-4-reason",
+              "prompt": "四つの整数A、B、C、Dの合計はいくつですか。",
+              "answer": {
+                "n": "208",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "A、B、Cの合計159を全体208から引いてDを求めます。",
+            "equation": "208−(61＋46＋52)＝49"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "四つを足して4で割ると、指定された平均52に戻ります。",
+            "equation": "(61＋46＋52＋49)÷4＝52"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4S03H⑤-3",
+      "unitId": "sumdiff.sets.overlap-from-neither",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "39人のクラスで、ピーマンが好きな人は13人、セロリが好きな人は10人、どちらも好きでない人は20人いました。どちらも好きな人は何人いますか。",
+      "sourceText": "39人のクラスで、ピーマンが好きな人は13人、セロリが好きな人は10人、どちらも好きでない人は20人いました。どちらも好きな人は何人いますか。",
+      "source": {
+        "title": "4S03H⑤-3",
+        "url": "https://app.notion.com/3f52b010743c8177a0c2f053dbfe0959",
+        "locator": "Notion 問題DB > 4S03H⑤-3 > 問題/答えブロック",
+        "sourceText": "39人のクラスで、ピーマンが好きな人は13人、セロリが好きな人は10人、どちらも好きでない人は20人いました。どちらも好きな人は何人いますか。",
+        "notionSourceText": "39人のクラスで、ピーマンが好きな人は13人、セロリが好きな人は10人、どちらも好きでない人は20人いました。どちらも好きな人は何人いますか。",
+        "sourceAnswer": "4人",
+        "scopeUnits": [
+          "4S03"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81aea438e3b1650c4750",
+            "code": "W10",
+            "name": "集合算",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "4S03H⑤-3",
+          "教材": "4年講習",
+          "時期": "4年前期",
+          "区分": "家庭学習用H",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81558794c4e7280fb772\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81aea438e3b1650c4750\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c81bc9d46c4954e0cb7bf\"]",
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "4人"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:53:43.942Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "全体からどちらでもない人数を引き、二集団の和の重複を出す。"
+      },
+      "answer": {
+        "n": "4",
+        "d": "1",
+        "unit": "人",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4S03"
+      ],
+      "homeStudy": true,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "全体39人のうち、どちらも好きでない人が20人います。",
+            "equation": "全体39人、どちらも好きでない20人"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "少なくとも一方が好きな人は、全体からどちらも好きでない人を引いた人数です。",
+            "equation": "39−20＝19人",
+            "checkpoint": {
+              "id": "4S03H⑤-3-reason",
+              "prompt": "ピーマンかセロリの少なくとも一方が好きな人は何人ですか。",
+              "answer": {
+                "n": "19",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "好きな人数13人と10人を足すと、両方好きな人だけ2回数えています。19人との差が重なりです。",
+            "equation": "13＋10−19＝4人"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "一方だけ好きな人は9人と6人です。両方4人とどちらも好きでない20人を合わせると39人です。",
+            "equation": "9＋6＋4＋20＝39"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GN和差②例8",
+      "unitId": "sumdiff.price.fixed-budget",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "たまごを20個買うつもりで、おつりがないように　　円持っていきましたが、今日は、1個の値段が4円安かったので、ちょうど25個買うことができました。",
+      "sourceText": "たまごを20個買うつもりで、おつりがないように　　円持っていきましたが、今日は、1個の値段が4円安かったので、ちょうど25個買うことができました。",
+      "source": {
+        "title": "GN和差②例8",
+        "url": "https://app.notion.com/3f52b010743c81f38cd4ec0c8dc6fbd0",
+        "locator": "Notion 問題DB > GN和差②例8 > 問題/答えブロック",
+        "sourceText": "たまごを20個買うつもりで、おつりがないように　　円持っていきましたが、今日は、1個の値段が4円安かったので、ちょうど25個買うことができました。",
+        "notionSourceText": "たまごを20個買うつもりで、おつりがないように　　円持っていきましたが、今日は、1個の値段が4円安かったので、ちょうど25個買うことができました。",
+        "sourceAnswer": "400円",
+        "scopeUnits": [
+          "GN和差"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81d3a71dc620fe29cd35",
+            "code": "W11",
+            "name": "差集め算・差の応用",
+            "baseDifficulty": 4
+          }
+        ],
+        "notionProperties": {
+          "問題": "GN和差②例8",
+          "教材": "基本の制覇",
+          "時期": "4年後期",
+          "区分": "基本の制覇",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81c88c37de61c775dfc6\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81d3a71dc620fe29cd35\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "400円"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T03:06:09.864Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "固定予算で生じた値下げ分を追加個数の代金へ対応させる。"
+      },
+      "answer": {
+        "n": "400",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN和差"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "初めの20個も1個4円ずつ安くなるので、同じ20個を買うと80円余ります。",
+            "equation": "20×4＝80円"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "その80円で新しい値段のたまごを5個多く買えます。",
+            "equation": "80÷(25−20)＝16円",
+            "checkpoint": {
+              "id": "GN和差②例8-reason",
+              "prompt": "値下げ後のたまご1個の値段はいくらですか。",
+              "answer": {
+                "n": "16",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "新しい値段16円で25個買えるお金を求めます。",
+            "equation": "16×25＝400円"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "元の値段は20円です。20個でも同じ400円になり、4円の値下げにも合います。",
+            "equation": "(16＋4)×20＝400"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4R29H①-1",
+      "unitId": "sequence.period.count-with-tail",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "○、△、□をあるきまりにしたがって、左から順に並べます。\n○△○□△○△○□△○△○□△…\n全部で162個の形を並べたとき、その中に△は全部で何個ありますか。",
+      "sourceText": "○、△、□をあるきまりにしたがって、左から順に並べます。\n○△○□△○△○□△○△○□△…\n全部で162個の形を並べたとき、その中に△は全部で何個ありますか。",
+      "source": {
+        "title": "4R29H①-1",
+        "url": "https://app.notion.com/3f52b010743c818fb321f76771ca7ca3",
+        "locator": "Notion 問題DB > 4R29H①-1 > 問題/答えブロック",
+        "sourceText": "○、△、□をあるきまりにしたがって、左から順に並べます。\n○△○□△○△○□△○△○□△…\n全部で162個の形を並べたとき、その中に△は全部で何個ありますか。",
+        "notionSourceText": "○、△、□をあるきまりにしたがって、左から順に並べます。\n○△○□△○△○□△○△○□△…\n全部で162個の形を並べたとき、その中に△は全部で何個ありますか。",
+        "sourceAnswer": "65個",
+        "scopeUnits": [
+          "4R29"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81239686eecf154d90aa",
+            "code": "Q01",
+            "name": "周期算",
+            "baseDifficulty": 2
+          }
+        ],
+        "notionProperties": {
+          "問題": "4R29H①-1",
+          "教材": "4年授業",
+          "時期": "4年前期",
+          "区分": "家庭学習用H",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81548877dbc63abb98be\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81239686eecf154d90aa\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c81dab07cd3687ae818ed\"]",
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "65個"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T08:11:38.775Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "一周期中の対象数を数え、整数周期と余りを分けて集計する。"
+      },
+      "answer": {
+        "n": "65",
+        "d": "1",
+        "unit": "個",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R29"
+      ],
+      "homeStudy": true,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "○△○□△の5個を一つのまとまりとして繰り返しています。一まとまりに△は2個です。",
+            "equation": "周期5個、△2個"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "162個は5個のまとまり32回と、余り2個に分かれます。",
+            "equation": "162÷5＝32余り2",
+            "checkpoint": {
+              "id": "4R29H①-1-reason",
+              "prompt": "162個の形には、5個ずつの完全なまとまりが何回入りますか。",
+              "answer": {
+                "n": "32",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "32回で△は64個です。余りの○△には△が1個あるので足します。",
+            "equation": "32×2＋1＝65個"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "最初の160個が完全な32周期です。残り2個だけを確認すれば重複も数え漏れも防げます。",
+            "equation": "160＋2＝162"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GR8-2(5)",
+      "unitId": "sequence.arithmetic.nth",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "(5) ある規則にしたがって、左から順に 100, 96, 92, 88, 84, 80, 76, …… と数がならんでいます。いちばん左の100から数えて18番目の数はいくつですか。",
+      "sourceText": "(5) ある規則にしたがって、左から順に 100, 96, 92, 88, 84, 80, 76, …… と数がならんでいます。いちばん左の100から数えて18番目の数はいくつですか。",
+      "source": {
+        "title": "GR8-2(5)",
+        "url": "https://app.notion.com/3f52b010743c81089434eac0630c5232",
+        "locator": "Notion 問題DB > GR8-2(5) > 問題/答えブロック",
+        "sourceText": "(5) ある規則にしたがって、左から順に 100, 96, 92, 88, 84, 80, 76, …… と数がならんでいます。いちばん左の100から数えて18番目の数はいくつですか。",
+        "notionSourceText": "(5) ある規則にしたがって、左から順に 100, 96, 92, 88, 84, 80, 76, …… と数がならんでいます。いちばん左の100から数えて18番目の数はいくつですか。",
+        "sourceAnswer": "32",
+        "scopeUnits": [
+          "GR8"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c8186a157d438543f6cc0",
+            "code": "Q02",
+            "name": "等差数列",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "GR8-2(5)",
+          "教材": "GnoRev",
+          "時期": "4年前期",
+          "区分": "テスト",
+          "教材回": "[\"https://app.notion.com/3f42b010743c812985b1ff0ced664e28\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c8186a157d438543f6cc0\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "32"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T03:07:03.093Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "項数より一つ少ない増減回数を使って指定位置を求める。"
+      },
+      "answer": {
+        "n": "32",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GR8"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "100、96、92と、右へ一つ進むたび4ずつ小さくなっています。",
+            "equation": "公差−4、最初100"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "1番目の100ではまだ引いていません。18番目までは17回引きます。",
+            "equation": "18−1＝17回",
+            "checkpoint": {
+              "id": "GR8-2(5)-reason",
+              "prompt": "1番目から18番目まで、4を引く操作を何回行いますか。",
+              "answer": {
+                "n": "17",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "17回分の68を100から引きます。",
+            "equation": "100−4×17＝32"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "17番目36、18番目32、19番目28となり、4ずつ減る並びに合います。",
+            "equation": "36、32、28"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GR4-4(3)",
+      "unitId": "sequence.groups.locate-term",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "(3) ある規則にしたがって、下のように分数が並んでいます。1/1, 1/2, 2/2, 1/3, 2/3, 3/3, 1/4, 2/4, 3/4 … 左から80番目の分数を求めなさい。",
+      "sourceText": "(3) ある規則にしたがって、下のように分数が並んでいます。1/1, 1/2, 2/2, 1/3, 2/3, 3/3, 1/4, 2/4, 3/4 … 左から80番目の分数を求めなさい。",
+      "source": {
+        "title": "GR4-4(3)",
+        "url": "https://app.notion.com/3f52b010743c81b0a0b9e3dc128c7a7b",
+        "locator": "Notion 問題DB > GR4-4(3) > 問題/答えブロック",
+        "sourceText": "(3) ある規則にしたがって、下のように分数が並んでいます。1/1, 1/2, 2/2, 1/3, 2/3, 3/3, 1/4, 2/4, 3/4 … 左から80番目の分数を求めなさい。",
+        "notionSourceText": "(3) ある規則にしたがって、下のように分数が並んでいます。1/1, 1/2, 2/2, 1/3, 2/3, 3/3, 1/4, 2/4, 3/4 … 左から80番目の分数を求めなさい。",
+        "sourceAnswer": "2/13",
+        "scopeUnits": [
+          "GR4"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c816a98b0df5e2eb09c85",
+            "code": "Q03",
+            "name": "数表・群数列",
+            "baseDifficulty": 4
+          }
+        ],
+        "notionProperties": {
+          "問題": "GR4-4(3)",
+          "教材": "GnoRev",
+          "時期": "4年前期",
+          "区分": "テスト",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81af8170dad41be2b91b\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c816a98b0df5e2eb09c85\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "2/13"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:39:58.930Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "累積個数で群を特定し、その群の中の位置を求める。"
+      },
+      "answer": {
+        "n": "2",
+        "d": "13",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GR4"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "分母1の群は1個、分母2の群は2個というように、分母と同じ個数が並びます。",
+            "equation": "群の個数：1,2,3,…"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "分母12までの個数を足すと78個です。80番目は次の分母13の群に入ります。",
+            "equation": "1＋2＋…＋12＝12×13÷2＝78",
+            "checkpoint": {
+              "id": "GR4-4(3)-reason",
+              "prompt": "分母12までの群を合わせると、分数は全部で何個ありますか。",
+              "answer": {
+                "n": "78",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "80番目は分母13の群の2番目です。この群は分子1から増えるので2/13です。",
+            "equation": "80−78＝2 → 2/13"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "分母13の群は全体79番目から91番目までです。80番目は確かにその2番目です。",
+            "equation": "79番目1/13、80番目2/13"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4W3H①-4",
+      "unitId": "sequence.groups.inverse-position",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "あるきまりにしたがって分数が並んでいます。1/1, 2/2, 1/2, 3/3, 2/3, 1/3, 4/4, 3/4, 2/4, 1/4, 5/5, 4/5, … 4/11は左から何番目にありますか。",
+      "sourceText": "あるきまりにしたがって分数が並んでいます。1/1, 2/2, 1/2, 3/3, 2/3, 1/3, 4/4, 3/4, 2/4, 1/4, 5/5, 4/5, … 4/11は左から何番目にありますか。",
+      "source": {
+        "title": "4W3H①-4",
+        "url": "https://app.notion.com/3f52b010743c8133a6bceb8314a7df66",
+        "locator": "Notion 問題DB > 4W3H①-4 > 問題/答えブロック",
+        "sourceText": "あるきまりにしたがって分数が並んでいます。1/1, 2/2, 1/2, 3/3, 2/3, 1/3, 4/4, 3/4, 2/4, 1/4, 5/5, 4/5, … 4/11は左から何番目にありますか。",
+        "notionSourceText": "あるきまりにしたがって分数が並んでいます。1/1, 2/2, 1/2, 3/3, 2/3, 1/3, 4/4, 3/4, 2/4, 1/4, 5/5, 4/5, … 4/11は左から何番目にありますか。",
+        "sourceAnswer": "63番目",
+        "scopeUnits": [
+          "4W3"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c816a98b0df5e2eb09c85",
+            "code": "Q03",
+            "name": "数表・群数列",
+            "baseDifficulty": 4
+          },
+          {
+            "url": "https://app.notion.com/3f52b010743c81a3a829efd9d988d329",
+            "code": "Q06",
+            "name": "いろいろな数列",
+            "baseDifficulty": 4
+          }
+        ],
+        "notionProperties": {
+          "問題": "4W3H①-4",
+          "教材": "4年講習",
+          "時期": "4年前期",
+          "区分": "家庭学習用H",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81eea252d244e08d938a\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c816a98b0df5e2eb09c85\",\"https://app.notion.com/3f52b010743c81a3a829efd9d988d329\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c810cb184e02593289d1b\"]",
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "63番目"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:54:33.366Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "前の群の累積と、分子が降順の群内位置を合わせる。"
+      },
+      "answer": {
+        "n": "63",
+        "d": "1",
+        "unit": "番目",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4W3"
+      ],
+      "homeStudy": true,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "分母11の群に入る前に、分母1から10までの群があります。群の個数は分母と同じです。",
+            "equation": "1,2,…,10個の群"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "前の群をすべて合わせると55個です。",
+            "equation": "1＋2＋…＋10＝10×11÷2＝55",
+            "checkpoint": {
+              "id": "4W3H①-4-reason",
+              "prompt": "分母10までの群には、分数が全部で何個ありますか。",
+              "answer": {
+                "n": "55",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "分母11の群は11/11から分子が減ります。4/11は8番目なので、55に8を足します。",
+            "equation": "11−4＋1＝8、55＋8＝63番目"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "分母11の群は56番目から66番目までです。分子4は56番目から7つ進んだ63番目です。",
+            "equation": "56番目11/11 → 63番目4/11"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4R13Tt①-2",
+      "unitId": "sequence.geometric.next",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "(2)1、3、9、27、□、243、…",
+      "sourceText": "(2)1、3、9、27、□、243、…",
+      "source": {
+        "title": "4R13Tt①-2",
+        "url": "https://app.notion.com/3f52b010743c81a09558c1f6e3ff145b",
+        "locator": "Notion 問題DB > 4R13Tt①-2 > 問題/答えブロック",
+        "sourceText": "(2)1、3、9、27、□、243、…",
+        "notionSourceText": "(2)1、3、9、27、□、243、…",
+        "sourceAnswer": "81",
+        "scopeUnits": [
+          "4R13"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81a3a829efd9d988d329",
+            "code": "Q06",
+            "name": "いろいろな数列",
+            "baseDifficulty": 4
+          }
+        ],
+        "notionProperties": {
+          "問題": "4R13Tt①-2",
+          "教材": "4年授業",
+          "時期": "4年前期",
+          "区分": "確認テスト",
+          "教材回": "[\"https://app.notion.com/3f52b010743c819b860ce345e8986d62\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81a3a829efd9d988d329\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c81f4b482cdc67a9f0e98\"]",
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "81"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:51:11.124Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "隣り合う数の倍率を確かめ、差ではなく倍率を使う。"
+      },
+      "answer": {
+        "n": "81",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R13"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "1から3、3から9、9から27の変わり方を比べます。差は一定ではありません。",
+            "equation": "3−1＝2、9−3＝6"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "どの隣り合う数も、後の数を前の数で割ると3です。",
+            "equation": "3÷1＝9÷3＝27÷9＝3",
+            "checkpoint": {
+              "id": "4R13Tt①-2-reason",
+              "prompt": "隣の数は、その前の数の何倍になっていますか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "27の次も3倍すれば81になります。",
+            "equation": "27×3＝81"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "さらに3倍すると、問題に示された次の243になります。",
+            "equation": "81×3＝243"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4S11L①-1",
+      "unitId": "counting.permutation.distinct",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "A、B、Cの3人が横1列に並ぶとき、並び順は全部で何通りありますか。",
+      "sourceText": "A、B、Cの3人が横1列に並ぶとき、並び順は全部で何通りありますか。",
+      "source": {
+        "title": "4S11L①-1",
+        "url": "https://app.notion.com/3f52b010743c81cabcd1fabd4eb7b973",
+        "locator": "Notion 問題DB > 4S11L①-1 > 問題/答えブロック",
+        "sourceText": "A、B、Cの3人が横1列に並ぶとき、並び順は全部で何通りありますか。",
+        "notionSourceText": "A、B、Cの3人が横1列に並ぶとき、並び順は全部で何通りありますか。",
+        "sourceAnswer": "6通り",
+        "scopeUnits": [
+          "4S11"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c813abe61d3f2fac0de95",
+            "code": "C01",
+            "name": "並べ方",
+            "baseDifficulty": 2
+          }
+        ],
+        "notionProperties": {
+          "問題": "4S11L①-1",
+          "教材": "4年講習",
+          "時期": "4年前期",
+          "区分": "N授業",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81f9bc4edf0401c18458\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c813abe61d3f2fac0de95\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "6通り"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:39:41.023Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "左から使える選択肢が一つずつ減る積で数える。"
+      },
+      "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4S11"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "左端にはA、B、Cの3人から誰でも選べます。",
+            "equation": "左端3通り"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "左端を決めたら残り2人です。真ん中は2通り、右端は残った1人です。",
+            "equation": "真ん中2通り、右端1通り",
+            "checkpoint": {
+              "id": "4S11L①-1-reason",
+              "prompt": "左端の人を決めた後、真ん中の人には何人の候補がありますか。",
+              "answer": {
+                "n": "2",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "各選び方を組み合わせるので掛けます。",
+            "equation": "3×2×1＝6通り"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "ABC、ACB、BAC、BCA、CAB、CBAの6通りを列挙しても一致します。",
+            "equation": "6種類の並び順"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4R30N③-1",
+      "unitId": "counting.combination.unordered-pair",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "A、B、C、Dの4人から2人の代表を選ぶ組み合わせは何通り",
+      "sourceText": "A、B、C、Dの4人から2人の代表を選ぶ組み合わせは何通り",
+      "source": {
+        "title": "4R30N③-1",
+        "url": "https://app.notion.com/3f52b010743c8159ba8fd9769018e1b3",
+        "locator": "Notion 問題DB > 4R30N③-1 > 問題/答えブロック",
+        "sourceText": "A、B、C、Dの4人から2人の代表を選ぶ組み合わせは何通り",
+        "notionSourceText": "A、B、C、Dの4人から2人の代表を選ぶ組み合わせは何通り",
+        "sourceAnswer": "6通り",
+        "scopeUnits": [
+          "4R30"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81e49716dc8341b78660",
+            "code": "C02",
+            "name": "組み合わせ",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "4R30N③-1",
+          "教材": "4年授業",
+          "時期": "4年前期",
+          "区分": "N授業",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81fb91f0fd465b64560d\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c81e49716dc8341b78660\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "6通り"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:39:00.489Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "順序つきの選択を数えて、同じ組の重複を二で割る。"
+      },
+      "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R30"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "4人から1人目を選び、残り3人から2人目を選びます。",
+            "equation": "1人目4通り、2人目3通り"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "順番つきなら12通りですが、AとB、BとAは同じ代表の組です。",
+            "equation": "4×3＝12通り",
+            "checkpoint": {
+              "id": "4R30N③-1-reason",
+              "prompt": "1人目、2人目と順番を付けて選ぶと何通りありますか。",
+              "answer": {
+                "n": "12",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "どの組も2回ずつ数えたので、2で割ります。",
+            "equation": "12÷2＝6通り"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "AB、AC、AD、BC、BD、CDの6組で、順番は区別しません。",
+            "equation": "6組"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GW416-08①",
+      "unitId": "counting.cards.repeated-digit",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "【1】、【2】、【2】、【5】、【6】の5まいのカードのうち、3まいを使って3けたの整数を作ります。全部で何通りできますか。\n［ヒントのふきだし：「同じカードを使わない場合と同じカードを2まいとも使う場合にわけて考えよう。」］",
+      "sourceText": "【1】、【2】、【2】、【5】、【6】の5まいのカードのうち、3まいを使って3けたの整数を作ります。全部で何通りできますか。\n［ヒントのふきだし：「同じカードを使わない場合と同じカードを2まいとも使う場合にわけて考えよう。」］",
+      "source": {
+        "title": "GW416-08①",
+        "url": "https://app.notion.com/3f52b010743c8173957dd30f26c5b52e",
+        "locator": "Notion 問題DB > GW416-08① > 問題/答えブロック",
+        "sourceText": "【1】、【2】、【2】、【5】、【6】の5まいのカードのうち、3まいを使って3けたの整数を作ります。全部で何通りできますか。\n［ヒントのふきだし：「同じカードを使わない場合と同じカードを2まいとも使う場合にわけて考えよう。」］",
+        "notionSourceText": "【1】、【2】、【2】、【5】、【6】の5まいのカードのうち、3まいを使って3けたの整数を作ります。全部で何通りできますか。\n［ヒントのふきだし：「同じカードを使わない場合と同じカードを2まいとも使う場合にわけて考えよう。」］",
+        "sourceAnswer": "33通り",
+        "scopeUnits": [
+          "GW416"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c8197894dee21fec214a0",
+            "code": "C03",
+            "name": "整数づくり・カード",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "GW416-08①",
+          "教材": "G脳ワークアウト",
+          "時期": "4年前期",
+          "区分": "G脳",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81c594aff474d997cea6\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c8197894dee21fec214a0\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "33通り"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:41:05.459Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "同じ数字を二枚使う場合と使わない場合に分け、同一整数を重ねて数えない。"
+      },
+      "answer": {
+        "n": "33",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GW416"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "数字は1、2、5、6の4種類です。同じ2のカードをどちらに替えても同じ整数になります。",
+            "equation": "異なる数字4種類"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "2を二つ使わない場合は、4種類から異なる3種類を順に置くので24通りです。",
+            "equation": "4×3×2＝24通り",
+            "checkpoint": {
+              "id": "GW416-08①-reason",
+              "prompt": "同じ数字の2を2枚とも使わない場合、3けたの整数は何通りできますか。",
+              "answer": {
+                "n": "24",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "2を二つ使う場合は、残りを1、5、6から選ぶ3通りと、その数字を置く位置3通りで9通りです。",
+            "equation": "24＋3×3＝33通り"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "二つの場合は2の使用枚数が異なるため重なりません。同じカードの個体差は数えません。",
+            "equation": "2が0/1枚の場合24、2枚の場合9"
+          }
+        ]
+      }
+    },
+    {
+      "id": "GW416-08②",
+      "unitId": "counting.cards.repeated-zero-leading",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "【0】、【0】、【2】、【3】、【3】、【5】の6まいのカードのうち、3まいを使って3けたの整数を作ります。全部で何通りできますか。",
+      "sourceText": "【0】、【0】、【2】、【3】、【3】、【5】の6まいのカードのうち、3まいを使って3けたの整数を作ります。全部で何通りできますか。",
+      "source": {
+        "title": "GW416-08②",
+        "url": "https://app.notion.com/3f52b010743c8129a7dad858a5e2bae8",
+        "locator": "Notion 問題DB > GW416-08② > 問題/答えブロック",
+        "sourceText": "【0】、【0】、【2】、【3】、【3】、【5】の6まいのカードのうち、3まいを使って3けたの整数を作ります。全部で何通りできますか。",
+        "notionSourceText": "【0】、【0】、【2】、【3】、【3】、【5】の6まいのカードのうち、3まいを使って3けたの整数を作ります。全部で何通りできますか。",
+        "sourceAnswer": "29通り",
+        "scopeUnits": [
+          "GW416"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c8197894dee21fec214a0",
+            "code": "C03",
+            "name": "整数づくり・カード",
+            "baseDifficulty": 3
+          }
+        ],
+        "notionProperties": {
+          "問題": "GW416-08②",
+          "教材": "G脳ワークアウト",
+          "時期": "4年前期",
+          "区分": "G脳",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81c594aff474d997cea6\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c8197894dee21fec214a0\"]",
+          "数値替え元": "[\"https://app.notion.com/3f52b010743c8173957dd30f26c5b52e\"]",
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "29通り"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:56:10.949Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "数字重複の分岐に加えて、百の位の0を除外する。"
+      },
+      "answer": {
+        "n": "29",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GW416"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "0、2、3、5の4種類を使います。百の位は0にできないので2、3、5の3通りです。",
+            "equation": "百の位3通り"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "異なる3数字を使う場合、十の位は残り3通り、一の位は残り2通りです。",
+            "equation": "3×3×2＝18通り",
+            "checkpoint": {
+              "id": "GW416-08②-reason",
+              "prompt": "同じ数字を2枚使わず、0、2、3、5から異なる3数字で作れる3けたの整数は何通りですか。",
+              "answer": {
+                "n": "18",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "0を2枚使う場合は200、300、500の3通りです。3を2枚使う場合は、残り0なら2通り、残り2/5なら各3通りです。",
+            "equation": "18＋3＋2＋3＋3＝29通り"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "同じ数字2枚を使う場合は、00と33だけです。先頭が0になる並びを入れないことを確かめます。",
+            "equation": "033は除外、303/330は採用"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4S12L③-1",
+      "unitId": "counting.distribution.positive",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "5個のりんごをA、B、Cの3人に配って残さずに分けるとき、分け方は何通りありますか。ただし、1人1個は必ず配るものとします。",
+      "sourceText": "5個のりんごをA、B、Cの3人に配って残さずに分けるとき、分け方は何通りありますか。ただし、1人1個は必ず配るものとします。",
+      "source": {
+        "title": "4S12L③-1",
+        "url": "https://app.notion.com/3f52b010743c81d4b103d78138208d79",
+        "locator": "Notion 問題DB > 4S12L③-1 > 問題/答えブロック",
+        "sourceText": "5個のりんごをA、B、Cの3人に配って残さずに分けるとき、分け方は何通りありますか。ただし、1人1個は必ず配るものとします。",
+        "notionSourceText": "5個のりんごをA、B、Cの3人に配って残さずに分けるとき、分け方は何通りありますか。ただし、1人1個は必ず配るものとします。",
+        "sourceAnswer": "6通り",
+        "scopeUnits": [
+          "4S12"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c812aa166c6431ee76a2e",
+            "code": "C06",
+            "name": "分け方・サイコロ・支払い方",
+            "baseDifficulty": 4
+          }
+        ],
+        "notionProperties": {
+          "問題": "4S12L③-1",
+          "教材": "4年講習",
+          "時期": "4年前期",
+          "区分": "N授業",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81c48852d5d26726a660\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c812aa166c6431ee76a2e\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "6通り"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T04:39:38.994Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "正の整数の分割を型で分け、受取人の違いを数える。"
+      },
+      "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4S12"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "5個を3人へ1個以上ずつ配ります。小さい順に個数を並べると、1・1・3と1・2・2の二つの型です。",
+            "equation": "5＝1＋1＋3＝1＋2＋2"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "1・1・3の型では、3個受け取る人を選べば決まり、3通りです。",
+            "equation": "3個を受け取る人：A/B/C",
+            "checkpoint": {
+              "id": "4S12L③-1-reason",
+              "prompt": "3個・1個・1個に分けるとき、誰が3個を受け取るかは何通りありますか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "1・2・2の型も1個受け取る人の選び方3通りです。二つの型を足します。",
+            "equation": "3＋3＝6通り"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "(3,1,1),(1,3,1),(1,1,3),(1,2,2),(2,1,2),(2,2,1)の6通りです。",
+            "equation": "全員1個以上、合計5個"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4W3L④-3",
+      "unitId": "counting.dice.ordered-sum",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "サイコロを3回ふって出た目の数を足すと7になりました。このような目の出方は何通りありますか。ただし、順番が異なる出方は別のものとします。",
+      "sourceText": "サイコロを3回ふって出た目の数を足すと7になりました。このような目の出方は何通りありますか。ただし、順番が異なる出方は別のものとします。",
+      "source": {
+        "title": "4W3L④-3",
+        "url": "https://app.notion.com/3f52b010743c81038f7ef73204d03683",
+        "locator": "Notion 問題DB > 4W3L④-3 > 問題/答えブロック",
+        "sourceText": "サイコロを3回ふって出た目の数を足すと7になりました。このような目の出方は何通りありますか。ただし、順番が異なる出方は別のものとします。",
+        "notionSourceText": "サイコロを3回ふって出た目の数を足すと7になりました。このような目の出方は何通りありますか。ただし、順番が異なる出方は別のものとします。",
+        "sourceAnswer": "15通り",
+        "scopeUnits": [
+          "4W3"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c812aa166c6431ee76a2e",
+            "code": "C06",
+            "name": "分け方・サイコロ・支払い方",
+            "baseDifficulty": 4
+          }
+        ],
+        "notionProperties": {
+          "問題": "4W3L④-3",
+          "教材": "4年講習",
+          "時期": "4年前期",
+          "区分": "N授業",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81eea252d244e08d938a\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c812aa166c6431ee76a2e\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "15通り"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T03:05:09.321Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "和が決まる組を列挙し、同数の重複を考慮して順列数を足す。"
+      },
+      "answer": {
+        "n": "15",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4W3"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "三つの目を小さい順に書くと、(1,1,5),(1,2,4),(1,3,3),(2,2,3)です。",
+            "equation": "和7の組は4種類"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "最初の目を1とした組が3種類、最初を2とした組が1種類です。最初を3以上にすると和は9以上になります。",
+            "equation": "3＋1＝4種類",
+            "checkpoint": {
+              "id": "4W3L④-3-reason",
+              "prompt": "順番を区別せず小さい順に並べた、和7の目の組は何種類ありますか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "二つ同じ組は各3通り、三つ異なる(1,2,4)は6通りなので足します。",
+            "equation": "3＋6＋3＋3＝15通り"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "順番が違えば別なので、115、151、511は別の出方です。各組の並びを漏らさず足します。",
+            "equation": "3回とも1〜6、合計7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4春5L③-1",
+      "unitId": "counting.coins.all-types-used",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "100円玉、50円玉、10円玉の3種類のコインがたくさんある。このコインを使ってちょうど340円はらう方法は全部で何通り。ただし、どのコインも1枚は使うとする",
+      "sourceText": "100円玉、50円玉、10円玉の3種類のコインがたくさんある。このコインを使ってちょうど340円はらう方法は全部で何通り。ただし、どのコインも1枚は使うとする",
+      "source": {
+        "title": "4春5L③-1",
+        "url": "https://app.notion.com/3f52b010743c8132896fd04eaf02d623",
+        "locator": "Notion 問題DB > 4春5L③-1 > 問題/答えブロック",
+        "sourceText": "100円玉、50円玉、10円玉の3種類のコインがたくさんある。このコインを使ってちょうど340円はらう方法は全部で何通り。ただし、どのコインも1枚は使うとする",
+        "notionSourceText": "100円玉、50円玉、10円玉の3種類のコインがたくさんある。このコインを使ってちょうど340円はらう方法は全部で何通り。ただし、どのコインも1枚は使うとする",
+        "sourceAnswer": "6通り",
+        "scopeUnits": [
+          "4春5"
+        ],
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c812aa166c6431ee76a2e",
+            "code": "C06",
+            "name": "分け方・サイコロ・支払い方",
+            "baseDifficulty": 4
+          }
+        ],
+        "notionProperties": {
+          "問題": "4春5L③-1",
+          "教材": "4年講習",
+          "時期": "4年前期",
+          "区分": "N授業",
+          "教材回": "[\"https://app.notion.com/3f52b010743c81c4bc2fefa2b837ea03\"]",
+          "型": "[\"https://app.notion.com/3f52b010743c812aa166c6431ee76a2e\"]",
+          "数値替え元": null,
+          "上乗せ": 0,
+          "図": "なし",
+          "答え": "6通り"
+        },
+        "notionVerification": {
+          "state": "unverified"
+        },
+        "notionPageLastEditedAt": "2026-10-10T03:05:19.839Z",
+        "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "selectionDecision": "高額硬貨の枚数で分け、各種類一枚以上という下限を守って数える。"
+      },
+      "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4春5"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の関係をつかむ",
+            "body": "100円玉も50円玉も10円玉も少なくとも1枚使います。100円玉は1枚、2枚、3枚に分けられます。",
+            "equation": "100円玉：1/2/3枚"
+          },
+          {
+            "id": "s2",
+            "title": "途中の量を求める",
+            "body": "100円玉1枚なら残り240円です。50円玉は1〜4枚にでき、そのたび残りを10円玉で払えます。",
+            "equation": "50円玉1,2,3,4枚 → 4通り",
+            "checkpoint": {
+              "id": "4春5L③-1-reason",
+              "prompt": "100円玉が1枚のとき、条件を満たす50円玉の枚数は何通りありますか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "求める答えにつなぐ",
+            "body": "100円玉2枚なら残り140円で50円玉1〜2枚の2通り。3枚なら残り40円で50円玉を使えないため0通りです。",
+            "equation": "4＋2＋0＝6通り"
+          },
+          {
+            "id": "s4",
+            "title": "条件に戻して確かめる",
+            "body": "100円玉が0枚、50円玉が0枚、10円玉が0枚の払い方は、どのコインも1枚という条件に反します。",
+            "equation": "100a＋50b＋10c＝340、a,b,c≧1"
+          }
+        ]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "number.rounding.range-count",
+      "name": "四捨五入の範囲と個数",
+      "domain": "数の性質",
+      "definition": "十の位を四捨五入する範囲を両端まで含めて数える。",
+      "decision": "十の位を四捨五入する範囲を両端まで含めて数える。",
+      "representativeId": "4春6L③-3",
+      "prerequisites": []
+    },
+    {
+      "id": "number.fraction.open-bounds",
+      "name": "分母をそろえて間の分数を探す",
+      "domain": "数の性質",
+      "definition": "端の値を分母80にそろえ、厳密な大小条件を満たす分子だけを選ぶ。",
+      "decision": "端の値を分母80にそろえ、厳密な大小条件を満たす分子だけを選ぶ。",
+      "representativeId": "4R19N④-1",
+      "prerequisites": []
+    },
+    {
+      "id": "number.divisor.distribution-remainders",
+      "name": "配った量と余りから人数を決める",
+      "domain": "数の性質",
+      "definition": "余りを引いて等分した量へ戻し、公約数のうち余りより大きい人数だけを選ぶ。",
+      "decision": "余りを引いて等分した量へ戻し、公約数のうち余りより大きい人数だけを選ぶ。",
+      "representativeId": "GN数性②M1-3",
+      "prerequisites": []
+    },
+    {
+      "id": "number.multiple.digit-sum-nine",
+      "name": "9の倍数になる一つの数字",
+      "domain": "数の性質",
+      "definition": "各位の和に置き換え、0から9の一桁条件で絞る。",
+      "decision": "各位の和に置き換え、0から9の一桁条件で絞る。",
+      "representativeId": "GN数性③M1-4",
+      "prerequisites": []
+    },
+    {
+      "id": "number.remainder.quotient-equals",
+      "name": "商と余りが等しい整数の最大",
+      "domain": "数の性質",
+      "definition": "整数を割る数と商と余りに分け、同じ商・余りを一つの数で表す。",
+      "decision": "整数を割る数と商と余りに分け、同じ商・余りを一つの数で表す。",
+      "representativeId": "GN数性②M2-12",
+      "prerequisites": []
+    },
+    {
+      "id": "number.multiple.two-digits-count",
+      "name": "15の倍数になる二つの空欄を数える",
+      "domain": "数の性質",
+      "definition": "末尾の0/5で場合分けし、各位の和の3の倍数条件を重ねる。",
+      "decision": "末尾の0/5で場合分けし、各位の和の3の倍数条件を重ねる。",
+      "representativeId": "R04H④-3",
+      "prerequisites": []
+    },
+    {
+      "id": "sumdiff.sum-and-difference",
+      "name": "合計と差から小さい数を出す",
+      "domain": "和と差",
+      "definition": "合計から差を取り除いて小さい数二つ分にそろえる。",
+      "decision": "合計から差を取り除いて小さい数二つ分にそろえる。",
+      "representativeId": "GW407-03①",
+      "prerequisites": []
+    },
+    {
+      "id": "sumdiff.multiple-offset",
+      "name": "倍より少ない量と差から逆算",
+      "domain": "和と差",
+      "definition": "倍の差から固定された少なさを補い、基準量を逆算する。",
+      "decision": "倍の差から固定された少なさを補い、基準量を逆算する。",
+      "representativeId": "GW429-17③",
+      "prerequisites": []
+    },
+    {
+      "id": "sumdiff.planting.both-ends",
+      "name": "両端に木を植える本数",
+      "domain": "和と差",
+      "definition": "長さから間の数を出し、両端があるため一本足す。",
+      "decision": "長さから間の数を出し、両端があるため一本足す。",
+      "representativeId": "4R09H①-3",
+      "prerequisites": []
+    },
+    {
+      "id": "sumdiff.cranes.all-high",
+      "name": "全部高い品だと仮定して個数を出す",
+      "domain": "和と差",
+      "definition": "全量を高い品にそろえ、金額の超過を単価差で割る。",
+      "decision": "全量を高い品にそろえ、金額の超過を単価差で割る。",
+      "representativeId": "4R10H②-1",
+      "prerequisites": []
+    },
+    {
+      "id": "sumdiff.excess.two-surpluses",
+      "name": "余りが二つある配り方",
+      "domain": "和と差",
+      "definition": "余りの差を一人分の差で割り、人数から全体を戻す。",
+      "decision": "余りの差を一人分の差で割り、人数から全体を戻す。",
+      "representativeId": "4R11H①-4",
+      "prerequisites": []
+    },
+    {
+      "id": "sumdiff.transfer.reverse-net",
+      "name": "やりとりの増減を逆にたどる",
+      "domain": "和と差",
+      "definition": "対象者の受取と譲渡を符号つきで合計し、最後から戻す。",
+      "decision": "対象者の受取と譲渡を符号つきで合計し、最後から戻す。",
+      "representativeId": "GW429-01⑤",
+      "prerequisites": []
+    },
+    {
+      "id": "sumdiff.elimination.pair-sums",
+      "name": "二つずつの和から一つを取り出す",
+      "domain": "和と差",
+      "definition": "三つの和を合算して重複を二で割り、二品の和を引く。",
+      "decision": "三つの和を合算して重複を二で割り、二品の和を引く。",
+      "representativeId": "GN和差③例3",
+      "prerequisites": []
+    },
+    {
+      "id": "sumdiff.average.missing-value",
+      "name": "平均から欠けた一つを出す",
+      "domain": "和と差",
+      "definition": "平均×個数を総和に戻し、既知の数の和を引く。",
+      "decision": "平均×個数を総和に戻し、既知の数の和を引く。",
+      "representativeId": "4R27H②-4",
+      "prerequisites": []
+    },
+    {
+      "id": "sumdiff.sets.overlap-from-neither",
+      "name": "どちらでもない人数から重なりを出す",
+      "domain": "和と差",
+      "definition": "全体からどちらでもない人数を引き、二集団の和の重複を出す。",
+      "decision": "全体からどちらでもない人数を引き、二集団の和の重複を出す。",
+      "representativeId": "4S03H⑤-3",
+      "prerequisites": []
+    },
+    {
+      "id": "sumdiff.price.fixed-budget",
+      "name": "値下げと買える個数の増加",
+      "domain": "和と差",
+      "definition": "固定予算で生じた値下げ分を追加個数の代金へ対応させる。",
+      "decision": "固定予算で生じた値下げ分を追加個数の代金へ対応させる。",
+      "representativeId": "GN和差②例8",
+      "prerequisites": []
+    },
+    {
+      "id": "sequence.period.count-with-tail",
+      "name": "周期の個数と余りを数える",
+      "domain": "規則性",
+      "definition": "一周期中の対象数を数え、整数周期と余りを分けて集計する。",
+      "decision": "一周期中の対象数を数え、整数周期と余りを分けて集計する。",
+      "representativeId": "4R29H①-1",
+      "prerequisites": []
+    },
+    {
+      "id": "sequence.arithmetic.nth",
+      "name": "等差数列の第何番目",
+      "domain": "規則性",
+      "definition": "項数より一つ少ない増減回数を使って指定位置を求める。",
+      "decision": "項数より一つ少ない増減回数を使って指定位置を求める。",
+      "representativeId": "GR8-2(5)",
+      "prerequisites": []
+    },
+    {
+      "id": "sequence.groups.locate-term",
+      "name": "群数列の位置から分数を求める",
+      "domain": "規則性",
+      "definition": "累積個数で群を特定し、その群の中の位置を求める。",
+      "decision": "累積個数で群を特定し、その群の中の位置を求める。",
+      "representativeId": "GR4-4(3)",
+      "prerequisites": []
+    },
+    {
+      "id": "sequence.groups.inverse-position",
+      "name": "分数から群数列の位置を求める",
+      "domain": "規則性",
+      "definition": "前の群の累積と、分子が降順の群内位置を合わせる。",
+      "decision": "前の群の累積と、分子が降順の群内位置を合わせる。",
+      "representativeId": "4W3H①-4",
+      "prerequisites": []
+    },
+    {
+      "id": "sequence.geometric.next",
+      "name": "同じ倍で増える数列",
+      "domain": "規則性",
+      "definition": "隣り合う数の倍率を確かめ、差ではなく倍率を使う。",
+      "decision": "隣り合う数の倍率を確かめ、差ではなく倍率を使う。",
+      "representativeId": "4R13Tt①-2",
+      "prerequisites": []
+    },
+    {
+      "id": "counting.permutation.distinct",
+      "name": "異なる3人の並び方",
+      "domain": "場合の数",
+      "definition": "左から使える選択肢が一つずつ減る積で数える。",
+      "decision": "左から使える選択肢が一つずつ減る積で数える。",
+      "representativeId": "4S11L①-1",
+      "prerequisites": []
+    },
+    {
+      "id": "counting.combination.unordered-pair",
+      "name": "4人から順序なしで2人を選ぶ",
+      "domain": "場合の数",
+      "definition": "順序つきの選択を数えて、同じ組の重複を二で割る。",
+      "decision": "順序つきの選択を数えて、同じ組の重複を二で割る。",
+      "representativeId": "4R30N③-1",
+      "prerequisites": []
+    },
+    {
+      "id": "counting.cards.repeated-digit",
+      "name": "同じ数字があるカードの整数",
+      "domain": "場合の数",
+      "definition": "同じ数字を二枚使う場合と使わない場合に分け、同一整数を重ねて数えない。",
+      "decision": "同じ数字を二枚使う場合と使わない場合に分け、同一整数を重ねて数えない。",
+      "representativeId": "GW416-08①",
+      "prerequisites": []
+    },
+    {
+      "id": "counting.cards.repeated-zero-leading",
+      "name": "重複カードと先頭0の除外",
+      "domain": "場合の数",
+      "definition": "数字重複の分岐に加えて、百の位の0を除外する。",
+      "decision": "数字重複の分岐に加えて、百の位の0を除外する。",
+      "representativeId": "GW416-08②",
+      "prerequisites": []
+    },
+    {
+      "id": "counting.distribution.positive",
+      "name": "同じ品を全員1個以上に分ける",
+      "domain": "場合の数",
+      "definition": "正の整数の分割を型で分け、受取人の違いを数える。",
+      "decision": "正の整数の分割を型で分け、受取人の違いを数える。",
+      "representativeId": "4S12L③-1",
+      "prerequisites": []
+    },
+    {
+      "id": "counting.dice.ordered-sum",
+      "name": "3回のサイコロの和を順序つきで数える",
+      "domain": "場合の数",
+      "definition": "和が決まる組を列挙し、同数の重複を考慮して順列数を足す。",
+      "decision": "和が決まる組を列挙し、同数の重複を考慮して順列数を足す。",
+      "representativeId": "4W3L④-3",
+      "prerequisites": []
+    },
+    {
+      "id": "counting.coins.all-types-used",
+      "name": "全種類使う硬貨の支払い方",
+      "domain": "場合の数",
+      "definition": "高額硬貨の枚数で分け、各種類一枚以上という下限を守って数える。",
+      "decision": "高額硬貨の枚数で分け、各種類一枚以上という下限を守って数える。",
+      "representativeId": "4春5L③-1",
+      "prerequisites": []
+    }
+  ],
+  "links": [
+    {
+      "from": "number.fraction.open-bounds",
+      "to": "number.multiple.digit-sum-nine",
+      "relation": "transfer",
+      "difference": "分母をそろえて整数の候補を絞る考えから、各位の和を一桁候補へ置き換えて絞る。"
+    },
+    {
+      "from": "number.multiple.digit-sum-nine",
+      "to": "number.multiple.two-digits-count",
+      "relation": "extension",
+      "difference": "一つの数字を決める条件から、末尾を分けて二つの数字を数える条件へ進む。"
+    },
+    {
+      "from": "sumdiff.sum-and-difference",
+      "to": "sumdiff.multiple-offset",
+      "relation": "extension",
+      "difference": "二つ分への等量化から、固定の少なさを補って三つ分にそろえる。"
+    },
+    {
+      "from": "sumdiff.cranes.all-high",
+      "to": "sumdiff.excess.two-surpluses",
+      "relation": "transfer",
+      "difference": "一枚ごとの単価差を使う計算から、一人ごとの配分差で人数を逆算する。"
+    },
+    {
+      "from": "sumdiff.average.missing-value",
+      "to": "sumdiff.elimination.pair-sums",
+      "relation": "contrast",
+      "difference": "平均から合計へ戻す方法と、重複する組の和から合計を作る方法を区別する。"
+    },
+    {
+      "from": "sequence.period.count-with-tail",
+      "to": "sequence.groups.locate-term",
+      "relation": "contrast",
+      "difference": "長さが一定の周期ではなく群の長さが変わるため、累積個数で群を特定する。"
+    },
+    {
+      "from": "sequence.groups.locate-term",
+      "to": "sequence.groups.inverse-position",
+      "relation": "contrast",
+      "difference": "位置から分数を出す場合と、分数から位置を出す場合で逆算の方向が変わる。"
+    },
+    {
+      "from": "sequence.arithmetic.nth",
+      "to": "sequence.geometric.next",
+      "relation": "contrast",
+      "difference": "一定の差で増減する数列と、一定の倍率で増える数列の関係を見分ける。"
+    },
+    {
+      "from": "counting.permutation.distinct",
+      "to": "counting.combination.unordered-pair",
+      "relation": "contrast",
+      "difference": "並び順を区別する条件から、同じ組の順番違いを割って除く条件へ変わる。"
+    },
+    {
+      "from": "counting.permutation.distinct",
+      "to": "counting.cards.repeated-digit",
+      "relation": "extension",
+      "difference": "異なる人を並べる計算に、同じ数字のカードの交換では別の整数にならない条件が加わる。"
+    },
+    {
+      "from": "counting.cards.repeated-digit",
+      "to": "counting.cards.repeated-zero-leading",
+      "relation": "extension",
+      "difference": "同じ数字の扱いに加えて、先頭が0になる整数を除外する必要がある。"
+    },
+    {
+      "from": "counting.combination.unordered-pair",
+      "to": "counting.dice.ordered-sum",
+      "relation": "contrast",
+      "difference": "同じ組の順番違いを除く代表選びと、回ごとの順番を区別するサイコロを比べる。"
+    },
+    {
+      "from": "counting.distribution.positive",
+      "to": "counting.coins.all-types-used",
+      "relation": "contrast",
+      "difference": "一人一個以上の条件と、硬貨の全種類を一枚以上使う条件を対応させて場合を数える。"
+    }
+  ],
+  "analysis": [
+    {
+      "kind": "scope",
+      "detail": "Notion収録済みの承認既習範囲から選定。全件自由遠征のみ。元の教材回と家庭学習区分を保持し、直近復習/次回範囲へ自動追加しない。"
+    },
+    {
+      "kind": "coverage",
+      "detail": "型×判断の作業見込み74のうち28を制作（数6/20、和差10/22、規則5/16、場合7/16）。既存21と同じ判断の新規追加0。残り46は未制作・複数小問/図/本文充足の確認を要する。74は固定の型数でも網羅保証でもない。"
+    },
+    {
+      "kind": "source",
+      "detail": "Notion解き筋下書きには元問題の数値が残る例があるため転用せず、確認済み問題本文から説明/途中確認を制作した。個人の解答記録は含めない。"
+    }
+  ]
+}
