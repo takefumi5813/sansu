@@ -810,7 +810,7 @@ function playTreasure(lottery){
   const isPartsSpec=spec=>Array.isArray(spec?.parts);
   const isRatioSpec=spec=>spec?.dimension==='ratio';
   const isClockSpec=spec=>spec?.dimension==='clock';
-  const fieldPlaceholder=part=>isRatioSpec(part)?'比を入力（例 3：2）':isClockSpec(part)?'時刻を入力（例 8時19分）':'数を入力';
+  const fieldPlaceholder=part=>isRatioSpec(part)?'比を入力（例 3：2）':isClockSpec(part)?'例 8時19分':'数を入力';
   function answerFieldsMarkup(spec){
     const field=(part,id,label)=>`<input id="${id}" class="answer-input" type="text" inputmode="${isRatioSpec(part)||isClockSpec(part)?'text':'decimal'}" autocomplete="off" maxlength="200" placeholder="${fieldPlaceholder(part)}" aria-describedby="answer-error"${label?` aria-label="${esc(label)}の答え"`:''}><span class="unit-label"${label?' style="min-width:2.2em"':''}>${esc(part.unit||'')}</span>`;
     if(!isPartsSpec(spec))return `<label for="answer">答え</label>${field(spec||{},'answer')}`;

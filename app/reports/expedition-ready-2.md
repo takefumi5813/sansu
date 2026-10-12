@@ -16,7 +16,7 @@
 1. 候補を7束に分け、作成担当が本文条件だけから解き、資料の答えと照合して ready/hold を判定し、問題文・答え・段階解説（4〜6段）・途中確認を作成（仕様：作業用 AUTHORING_SPEC）。
 2. 別の検算担当が、答えと解説を見る前に問題文だけから解き直し、答え・単位・解説・途中確認・本文の忠実さを検査（VERIFY_SPEC）。不合格は修正するか保留。
 3. `scripts/build-ready-selection-2.py` が「作成 ready ＋ 検算 pass ＋ 未習範囲でない ＋ 図不要 ＋ 要約メモ形式でない ＋ 形式検証」を満たす行だけを配信データにする。
-   - 作業ファイル（authored/verified）はリポジトリ外。再生成には `python3 app/scripts/build-ready-selection-2.py <作業フォルダ>`。
+   - 作業ファイル（authored/verified）はリポジトリ外。作業記録は `reports/expedition-ready-2-work/`。再生成は `python3 app/scripts/build-ready-selection-2.py app/reports/expedition-ready-2-work`。
 
 ## アプリ側の変更
 - 答えの形式を追加：比（`dimension:"ratio"`）、複数欄（`parts`）、時刻（`dimension:"clock"`）。仕様は CONTRACT.md。
