@@ -5,7 +5,8 @@ const read = p => fs.readFileSync(path.join(root,p),'utf8').replace(/^\uFEFF/,''
 const sources = ['content/arithmetic.json','content/selected-calc.json','content/selected-oneline.json','content/selected-geometry.json','content/expedition-foundations.json','content/expedition-ratio-speed.json','content/expedition-geometry.json','content/expedition-ready.json','content/expedition-ready-2.json'].map(p=>JSON.parse(read(p)));
 const legacyCatalog = JSON.parse(read('references/legacy-catalog.json'));
 const roster=JSON.parse(read('content/heroes.json'));
-const cleanHero=({rank,unlockLevel,...hero})=>hero;
+const profiles=JSON.parse(read('content/hero-profiles.json')).profiles;
+const cleanHero=({rank,unlockLevel,...hero})=>{const pr=profiles[hero.id];if(!pr||!pr.story||!pr.ability||!['soul','forge','mission','treasure','luck','echo','bond'].includes(pr.ability.type)||!pr.ability.name)throw Error('Missing hero profile/ability '+hero.id);return {...hero,...pr};};
 const catalog = {...legacyCatalog,heroes:roster.heroes.filter(h=>roster.activeIds.includes(h.id)).map(cleanHero),equipment:JSON.parse(read('content/equipment.json')).equipment};
 const assets = JSON.parse(read('references/visual-assets.json'));
 for(const group of Object.values(assets))for(const asset of Object.values(group)){
@@ -54,7 +55,7 @@ for (const p of data.problems) {
 }
 const json=JSON.stringify(data).replace(/</g,'\\u003c');
 let html=read('src/shell.html');
-for(const [key,value] of [['__DATA__',json],['/*__CSS__*/',read('src/style.css')+'\n'+read('src/campaign.css')+'\n'+read('src/visual-assets.css')+'\n'+read('src/opening.css')],['/*__CORE__*/',read('src/core.js')],['/*__GEAR__*/',read('src/gear.js')],['/*__APP__*/',read('src/app.js').replace('/*__CAMPAIGN_UI__*/',()=>read('src/campaign-ui.js'))]])html=html.replace(key,()=>value);
+for(const [key,value] of [['__DATA__',json],['/*__CSS__*/',read('src/style.css')+'\n'+read('src/campaign.css')+'\n'+read('src/visual-assets.css')+'\n'+read('src/opening.css')],['/*__CORE__*/',read('src/core.js')],['/*__GEAR__*/',read('src/gear.js')],['/*__APP__*/',read('src/app.js').replace('/*__CAMPAIGN_UI__*/',()=>read('src/campaign-ui.js')+'\n'+read('src/hero-ui.js'))]])html=html.replace(key,()=>value);
 fs.writeFileSync(path.join(root,'dist/index.html'),html);
 fs.writeFileSync(path.join(root,'content/combined.json'),JSON.stringify(data,null,2));
 console.log(JSON.stringify({problems:data.problems.length,units:data.units.length,links:data.links.length,htmlBytes:Buffer.byteLength(html),heroes:catalog.heroes.length,equipment:catalog.equipment.length}));
