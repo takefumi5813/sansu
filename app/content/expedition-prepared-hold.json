@@ -77,6 +77,60 @@
    "sourceTitle": "GN数性①例5"
   },
   {
+   "id": "selected-a719b12c9c308973",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "約数の個数が4個の整数を小さい方から順に並べると、35は何番目か",
+   "answer": {
+    "n": "12",
+    "d": "1",
+    "unit": "番目",
+    "dimension": "scalar"
+   },
+   "steps": [
+    {
+     "title": "条件を整理する",
+     "body": "約数がちょうど4個の整数を、35まで小さい順に全部さがします。",
+     "equation": ""
+    },
+    {
+     "title": "約数4個の形を知る",
+     "body": "約数が4個になるのは、ちがう2つの素数の積（例 6＝2×3）か、素数を3回かけた数（例 8＝2×2×2）です。",
+     "equation": "2×3＝6、2×2×2＝8"
+    },
+    {
+     "title": "35以下を書き出す",
+     "body": "ちがう2つの素数の積は6,10,14,15,21,22,26,33,34,35、素数を3回かけた数は8,27です。小さい順にすると6,8,10,14,15,21,22,26,27,33,34,35です。",
+     "equation": ""
+    },
+    {
+     "title": "順番を数える",
+     "body": "書き出した数を数えると、35は最後の12番目です。",
+     "equation": "10＋2＝12"
+    },
+    {
+     "title": "確かめ",
+     "body": "形で候補をしぼると、1つずつ約数を数えるより見落としが減ります。例えば12は約数が6個なので入りません。",
+     "equation": ""
+    }
+   ],
+   "checkpoint": {
+    "prompt": "35以下で、素数を3回かけてできる数（8など）は何個ありますか。",
+    "answer": {
+     "n": "2",
+     "d": "1",
+     "unit": "個",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "35以下で約数4個：6,8,10,14,15,21,22,26,27,33,34,35の12個→12番目。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "N03/N03-U03",
+   "sourceTitle": "R03N④-3"
+  },
+  {
    "id": "selected-1b4f4fd0de358176",
    "status": "hold",
    "holdReason": "回答形式：整数Cとして考えられるものを『すべて』答える列挙（7個）",
@@ -90,6 +144,72 @@
    "sourceAnswerMatch": true,
    "selectionKey": "N05/N05-U02",
    "sourceTitle": "GW410-28①"
+  },
+  {
+   "id": "selected-a0207c6635c2066e",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "4/7を小数で表し、小数第1位を1番目、…と並べた数の列5,7,1,…。(1)20番目の数 (2)1番目から2007番目までの合計",
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "7",
+      "d": "1",
+      "unit": "",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(2)",
+      "n": "9031",
+      "d": "1",
+      "unit": "",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件を整理する",
+     "body": "4÷7をわり算すると0.571428571428…となり、5,7,1,4,2,8の6個が同じ順にくり返されます。",
+     "equation": ""
+    },
+    {
+     "title": "くり返しに気づく理由",
+     "body": "わり算のあまりは1〜6しかないので、同じあまりが出たところから同じ数字がくり返します。6個で1周です。",
+     "equation": ""
+    },
+    {
+     "title": "(1)20番目",
+     "body": "20を6でわると3あまり2なので、3周したあとの2番目です。2番目の数は7です。",
+     "equation": "20÷6＝3あまり2"
+    },
+    {
+     "title": "(2)合計",
+     "body": "1周の和は27です。2007÷6＝334あまり3なので、334周と5,7,1の3個をたします。",
+     "equation": "27×334＋5＋7＋1＝9031"
+    },
+    {
+     "title": "確かめ",
+     "body": "周期の個数と、あまりの個数の分を別々に計算すると、長い列でもまちがえずに合計できます。",
+     "equation": "5＋7＋1＋4＋2＋8＝27"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "5,7,1,4,2,8の1周分の和はいくつですか。",
+    "answer": {
+     "n": "27",
+     "d": "1",
+     "unit": "",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "4/7=0.(571428)。20=6×3+2→7。2007=6×334+3、27×334+13=9031。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "N06/N06-U05",
+   "sourceTitle": "R05N⑥-3"
   },
   {
    "id": "selected-af53448fcebdb7ff",
@@ -195,6 +315,55 @@
    "sourceAnswerMatch": true,
    "selectionKey": "P14/自然長ありの非比例判定",
    "sourceTitle": "S03H①-3"
+  },
+  {
+   "id": "selected-4a073039e428287b",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "整数がならぶ「3、4、5、3、4、5、3、4、5、…」。左から100番目の数",
+   "answer": {
+    "n": "3",
+    "d": "1",
+    "unit": "",
+    "dimension": "scalar"
+   },
+   "steps": [
+    {
+     "title": "くり返しを見つける",
+     "body": "この数の列は「3、4、5」の3個が1組になってくり返しています。",
+     "equation": "1組＝3、4、5（3個）"
+    },
+    {
+     "title": "組の数とあまりを出す",
+     "body": "100番目までに何組あるかを、3で割って調べます。",
+     "equation": "100÷3＝33あまり1"
+    },
+    {
+     "title": "あまりで場所を決める",
+     "body": "33組ちょうど終わった次の1番目なので、組の1番目の数になります。組の1番目は3です。",
+     "equation": "あまり1→組の1番目＝3"
+    },
+    {
+     "title": "確かめる",
+     "body": "99番目は33組目の最後で5です。その次の100番目は新しい組の始まりなので3です。",
+     "equation": "3×33＝99（番目）→5"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "100番目までに「3、4、5」の組は何組ちょうど終わっていますか。",
+    "answer": {
+     "n": "33",
+     "d": "1",
+     "unit": "組",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "周期3、100=3×33+1→組の1番目=3。資料(1)3と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "Q01/Q01-U02",
+   "sourceTitle": "4R12N②-1"
   },
   {
    "id": "selected-e0d40b3c8e469277",
@@ -318,7 +487,7 @@
    },
    "solverCheck": "ナツキの歩行時間x分：75x−60(x+4)=120→x=24→10時28分。距離60×28+75×24=3480m。資料(1)10時28分(2)3480mと一致。",
    "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
+   "holdReason": "形式エラー：AssertionError({'label': '(1)', 'dimension': 'clock', 'h': '10', 'm': '28', 'unit': ''})",
    "selectionKey": "T08/speed.midpoint-offset.staggered-start",
    "sourceTitle": "GW518-10②"
   },
@@ -385,9 +554,63 @@
    },
    "solverCheck": "分速A100・B120・C60。Bの追いつき3000÷20=150分→午前10時30分。距離18000+60×120=25200m=25.2km。資料(1)午前10時30分(2)25.2kmと一致。",
    "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
+   "holdReason": "形式エラー：AssertionError({'label': '(1)', 'dimension': 'clock', 'h': '10', 'm': '30', 'ampm': '午前', 'unit': ''})",
    "selectionKey": "T09/speed.three-people.staggered-common-meet",
    "sourceTitle": "GW507-30①"
+  },
+  {
+   "id": "selected-bc561f8006715504",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "駅から公園まで、Aは16分、Bは12分。①速さの比 ②分速の差が20mのときの距離\n【答えるのは②だけです】",
+   "answer": {
+    "n": "960",
+    "d": "1",
+    "unit": "m",
+    "dimension": "length"
+   },
+   "steps": [
+    {
+     "title": "条件を整理する",
+     "body": "同じ駅から公園までを、Aは16分、Bは12分で進みます。道のりが同じなので、速さの比は時間の逆の比です。",
+     "equation": "A：B＝12：16＝3：4"
+    },
+    {
+     "title": "比の差を分速の差に合わせる",
+     "body": "速さの比の差は4−3＝1です。これが分速の差20mにあたります。",
+     "equation": "比の1＝20m/分"
+    },
+    {
+     "title": "それぞれの分速を出す",
+     "body": "Aは比の3、Bは比の4なので、分速が決まります。",
+     "equation": "A＝20×3＝60、B＝20×4＝80（m/分）"
+    },
+    {
+     "title": "道のりを出す",
+     "body": "Aは分速60mで16分歩きます。",
+     "equation": "60×16＝960（m）"
+    },
+    {
+     "title": "確かめる",
+     "body": "Bも分速80mで12分なので80×12＝960mとなり、同じ道のりです。",
+     "equation": "80×12＝960"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "Aの分速は何mですか。",
+    "answer": {
+     "n": "60",
+     "d": "1",
+     "unit": "m/分",
+     "dimension": "speed"
+    }
+   },
+   "solverCheck": "速さ比3:4、差1=20→A60・B80、60×16=960m。資料②と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "T11/speed.equal-distance.time-inverse-ratio",
+   "sourceTitle": "S10H③-4"
   },
   {
    "id": "selected-24ca44ebc681febe",
@@ -451,7 +674,7 @@
    },
    "solverCheck": "ケンタ30+30+50=110分→9時50分、ミドリ4800÷(110−46)=75m/分。資料(1)9時50分(2)分速75mと一致。ふきだし（本文から導ける情報）と出題しない(3)は削除。",
    "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
+   "holdReason": "形式エラー：AssertionError({'label': '(1)', 'dimension': 'clock', 'h': '9', 'm': '50', 'unit': ''})",
    "selectionKey": "T12/speed.shared-arrival.rest-and-rate",
    "sourceTitle": "GW428-23②"
   },
@@ -517,9 +740,75 @@
    },
    "solverCheck": "D÷80−D÷100=6→D=2400m、80m/分で30分→8時25分着が5分遅れ→始業8時20分（100m/分なら8時19分着で1分前）。資料(1)2400m(2)8時20分と一致。",
    "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
+   "holdReason": "形式エラー：AssertionError({'label': '(2)', 'dimension': 'clock', 'h': '8', 'm': '20', 'unit': ''})",
    "selectionKey": "T16/speed.arrival-difference.with-start-time",
    "sourceTitle": "R20H④-4"
+  },
+  {
+   "id": "selected-e4307b148c6fc638",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "ある川を船で56km上るのに7時間、下るときは流速が上ったときの3倍になっていたので4時間かかった。\n(1)上ったときの流速\n(2)この船の静水時の速さ",
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "3",
+      "d": "2",
+      "unit": "km/時",
+      "dimension": "speed"
+     },
+     {
+      "label": "(2)",
+      "n": "19",
+      "d": "2",
+      "unit": "km/時",
+      "dimension": "speed"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件を整理する",
+     "body": "56kmを上るのに7時間、下るのに4時間かかりました。上りと下りの速さを出します。",
+     "equation": "56÷7＝8、56÷4＝14（km/時）"
+    },
+    {
+     "title": "流速が変わることに注意",
+     "body": "上りは静水時の速さ−流速①、下りは静水時の速さ＋流速③です（上るときの流速を①とします）。",
+     "equation": "上り＝静水−①、下り＝静水＋③"
+    },
+    {
+     "title": "速さの差を流速で表す",
+     "body": "下りと上りの差は、①＋③＝④にあたります。",
+     "equation": "14−8＝6＝④"
+    },
+    {
+     "title": "流速と静水時の速さ",
+     "body": "①は6÷4＝1.5km/時です。静水時の速さは上りの速さに①を足します。",
+     "equation": "8＋1.5＝9.5（km/時）"
+    },
+    {
+     "title": "確かめる",
+     "body": "下りは9.5＋1.5×3＝14km/時で、56kmに4時間かかり条件に合います。",
+     "equation": "9.5＋4.5＝14"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "下りの速さと上りの速さの差は時速何kmですか。",
+    "answer": {
+     "n": "6",
+     "d": "1",
+     "unit": "km/時",
+     "dimension": "speed"
+    }
+   },
+   "solverCheck": "上8下14、差6=流速4つ分→1.5、静水8+1.5=9.5。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "T18/speed.river.different-currents-two-trips",
+   "sourceTitle": "R22Tt-4"
   },
   {
    "id": "selected-e385fefc2b3bf7bc",
@@ -571,7 +860,7 @@
    },
    "solverCheck": "長針6t、短針60+0.5t。二等分：6t=2(60+0.5t)→t=24→2時24分。資料と一致。",
    "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
    "selectionKey": "T22/clock.bisector.long-hand-to-twelve",
    "sourceTitle": "R23T⑤-1"
   },
@@ -641,9 +930,141 @@
    },
    "solverCheck": "10時間で3×10/8=3.75分=3分45秒遅れ→表示9時56分15秒。資料と一致。答えは空らん「　時　分　秒」に合わせ時計の文字盤の表記h=9（ampmなし）で入れた。",
    "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
    "selectionKey": "T22/clock.inaccurate.display-after-elapsed",
    "sourceTitle": "GN比③例4"
+  },
+  {
+   "id": "selected-e9430d66d0fbc833",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "180人の男子生徒が並んで、3列の中空方陣を作った。(1)いちばん外側の1辺には何人 (2)中の空いているところに女子生徒が男子生徒と同じ間かくで並んで、全体が中実方陣になるようにする。女子生徒は何人並ぶか",
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "18",
+      "d": "1",
+      "unit": "人",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(2)",
+      "n": "144",
+      "d": "1",
+      "unit": "人",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件を整理する",
+     "body": "3列の中空方陣を、1辺が「外側の1辺−3」人で3列の長方形4つに分けて考えます。",
+     "equation": "1つの長方形＝3×（1辺−3）"
+    },
+    {
+     "title": "1辺を逆算する",
+     "body": "長方形4つで180人なので、1つの長方形は45人です。たてが3列なので横の人数が出ます。",
+     "equation": "180÷4÷3＝15、15＋3＝18（人）"
+    },
+    {
+     "title": "中の空いた正方形",
+     "body": "外側の1辺18人から、両側の3列ずつを引くと、中の空いている正方形の1辺になります。",
+     "equation": "18−3×2＝12（人）"
+    },
+    {
+     "title": "女子の人数",
+     "body": "中の空いた所は1辺12人の正方形なので、ぎっしり並べた人数を出します。",
+     "equation": "12×12＝144（人）"
+    },
+    {
+     "title": "確かめる",
+     "body": "全体18×18＝324人から男子180人を引くと、144人で同じになります。",
+     "equation": "324−180＝144"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "中の空いている正方形の1辺には何人並びますか。",
+    "answer": {
+     "n": "12",
+     "d": "1",
+     "unit": "人",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "4×3×(n−3)=180→n=18、内辺12→144。全体324−180=144で検算。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "W08/W08-U01",
+   "sourceTitle": "4R26N③-3"
+  },
+  {
+   "id": "selected-1ee629ee7ba1c488",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "ご石を正方形の形にぎっしり並べたところ39個あまったので、たて・横ともに1列ずつ増やそうとしたら、4個足りなくなった。(1)はじめの正方形の1辺は何個 (2)ご石は全部で何個",
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "21",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(2)",
+      "n": "480",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件を整理する",
+     "body": "正方形に並べると39個あまり、たて・横を1列ずつ増やすには4個足りません。",
+     "equation": "増やすのに必要な数＝39＋4"
+    },
+    {
+     "title": "増やすのに必要な個数",
+     "body": "あまった39個を全部使って、さらに4個あれば1列ずつ増やせます。",
+     "equation": "39＋4＝43（個）"
+    },
+    {
+     "title": "増える部分の形を考える",
+     "body": "1辺の数をnとすると、たてと横に1列ずつ増やす分は、n個の列2本と角の1個です。",
+     "equation": "n×2＋1＝43"
+    },
+    {
+     "title": "1辺と全部の数",
+     "body": "1辺は（43−1）÷2＝21個です。全部の数は、はじめの正方形にあまりを足します。",
+     "equation": "21×21＋39＝480（個）"
+    },
+    {
+     "title": "確かめる",
+     "body": "1辺22個の正方形は484個で、480個では4個足りないので条件に合います。",
+     "equation": "22×22−480＝4"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "たて・横を1列ずつ増やすのに必要なご石は何個ですか。",
+    "answer": {
+     "n": "43",
+     "d": "1",
+     "unit": "個",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "2n+1=43→n=21、441+39=480。22²=484で4不足を確認。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "W08/W08-U03",
+   "sourceTitle": "4R26N④-3"
   },
   {
    "id": "selected-24ecfcfe27f61a20",
@@ -872,6 +1293,72 @@
    "sourceAnswerMatch": true,
    "selectionKey": "C04/C04-U05",
    "sourceTitle": "4S12L①-3"
+  },
+  {
+   "id": "selected-9cc6b375f8b9dc88",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "A、B、Cの3つの部分（横に1列に並ぶ）を赤、黄、黒の3色で、となり合う部分が同じ色にならないようにぬり分ける。使わない色があってもよい。(1)Aを赤でぬったとき (2)ぬり分け方は全部で何通り\n（(1)(2)とも、ぬり分け方が何通りかを答えなさい。）",
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "4",
+      "d": "1",
+      "unit": "通り",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(2)",
+      "n": "12",
+      "d": "1",
+      "unit": "通り",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "A、B、Cの順に横に並び、となり合うのはAとB、BとCです。",
+     "equation": "色は3色"
+    },
+    {
+     "title": "Bの色を決める",
+     "body": "Aを赤にすると、BはAとちがう色なので黄か黒の2通りです。",
+     "equation": "3－1＝2"
+    },
+    {
+     "title": "Cの色を決める",
+     "body": "CはすぐとなりのBとだけちがえばよいので、やはり2通りです。AとCは同じ色でもかまいません。",
+     "equation": "3－1＝2"
+    },
+    {
+     "title": "(1)を求める",
+     "body": "Bの2通りそれぞれにCが2通りあります。",
+     "equation": "2×2＝4"
+    },
+    {
+     "title": "(2)を求める",
+     "body": "Aの色は3通りあり、どれでも残りは4通りです。",
+     "equation": "3×4＝12"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "Aの色を決めたとき、Bにぬれる色は何通りありますか。",
+    "answer": {
+     "n": "2",
+     "d": "1",
+     "unit": "通り",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "全27通りを列挙して隣接同色を除くとA固定4、全体12。資料(1)4通り(2)12通りと一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "C05/C05-U01",
+   "sourceTitle": "4R30N⑥-2"
   },
   {
    "id": "selected-f5cb60edecb9a5bd",
@@ -1140,6 +1627,60 @@
    "sourceTitle": "S08L⑥-3"
   },
   {
+   "id": "selected-48776fc371d65313",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "たて65cm・横105cmの長方形のかべに、同じ大きさの正方形のタイルをはる。かべのはしとタイルの間も、タイルとタイルの間も1cmずつあける。タイルをできるだけ大きくすると、1辺は何cm。",
+   "answer": {
+    "n": "7",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "かべのはしとタイル、タイルとタイルの間をすべて1cmあけます。",
+     "equation": "すきま1cm"
+    },
+    {
+     "title": "ひと組を作る",
+     "body": "「タイル1枚＋右どなりのすきま1cm」をひと組にすると、左はしのすきま1cmだけが残ります。",
+     "equation": "65－1＝64、105－1＝104"
+    },
+    {
+     "title": "公約数を考える",
+     "body": "ひと組の長さは64と104をどちらも割り切ります。できるだけ大きくするので最大公約数です。",
+     "equation": "64と104の最大公約数＝8"
+    },
+    {
+     "title": "タイルの1辺",
+     "body": "ひと組8cmからすきま1cmを引きます。",
+     "equation": "8－1＝7"
+    },
+    {
+     "title": "確かめ",
+     "body": "たてに8枚、横に13枚並びます。",
+     "equation": "7×8＋9＝65、7×13＋14＝105"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "「タイル＋すきま」のひと組の長さは何cmですか。",
+    "answer": {
+     "n": "8",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    }
+   },
+   "solverCheck": "(65−1)=64,(105−1)=104、gcd=8、8−1=7cm。資料7cmと一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "N03/N03-U05",
+   "sourceTitle": "4S06L②-4"
+  },
+  {
    "id": "selected-65ba739920dfe0b6",
    "status": "hold",
    "holdReason": "回答形式：あてはまる数字をすべて答える（0,2,4,6,8の列挙）ため自動採点できない。本文も小問が略記",
@@ -1226,6 +1767,180 @@
    "sourceAnswerMatch": true,
    "selectionKey": "N06/N06-U03",
    "sourceTitle": "GW506-29①"
+  },
+  {
+   "id": "selected-8286f5a214c5d44d",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "35/53の分母と分子からそれぞれ同じ数を引いて約分すると4/7。引いた数",
+   "answer": {
+    "n": "11",
+    "d": "1",
+    "unit": "",
+    "dimension": "scalar"
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "35/53の分子と分母から同じ数を引きます。",
+     "equation": "35と53"
+    },
+    {
+     "title": "差に注目",
+     "body": "同じ数を引いても、分母と分子の差は変わりません。",
+     "equation": "53－35＝18"
+    },
+    {
+     "title": "差を合わせる",
+     "body": "4/7は分母と分子の差が3なので、差が18になるように6倍します。",
+     "equation": "4/7＝24/42"
+    },
+    {
+     "title": "引いた数",
+     "body": "分子が35から24になったので、引いた数がわかります。",
+     "equation": "35－24＝11"
+    },
+    {
+     "title": "確かめ",
+     "body": "分母も53から11を引くと42で、24/42＝4/7です。",
+     "equation": "53－11＝42"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "分母と分子の差はいくつですか。",
+    "answer": {
+     "n": "18",
+     "d": "1",
+     "unit": "",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "(35−x)/(53−x)=4/7→x=11（一意）。資料11と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "N06/N06-U04",
+   "sourceTitle": "R06N⑥-3"
+  },
+  {
+   "id": "selected-c7a530039ceb6c09",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "原価が1個200円の品物を600個仕入れ、仕入れ値の5割増しの定価をつけました。売れ行きが悪いので、途中から定価の4割引きで売ったら全部売り切れ、全体で2割2分の利益がありました。\n(1)定価\n(2)定価の4割引きで売ったときの売り値\n(3)定価の4割引きで売った個数。\n【答えるのは(3)だけです】",
+   "answer": {
+    "n": "280",
+    "d": "1",
+    "unit": "個",
+    "dimension": "scalar"
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "原価200円、定価は5割増しで300円、4割引きの売り値は180円です。",
+     "equation": "200×1.5＝300、300×0.6＝180"
+    },
+    {
+     "title": "売り上げ全体",
+     "body": "仕入れ総額は200×600＝120000円で、2割2分の利益なので売り上げは1.22倍です。",
+     "equation": "120000×1.22＝146400"
+    },
+    {
+     "title": "全部定価なら",
+     "body": "600個を全部300円で売ると180000円です。",
+     "equation": "300×600＝180000"
+    },
+    {
+     "title": "つるかめ算で考える",
+     "body": "1個を180円で売るごとに120円ずつ売り上げが減ります。",
+     "equation": "(180000－146400)÷120＝280"
+    },
+    {
+     "title": "確かめ",
+     "body": "300×320＋180×280＝146400円になります。",
+     "equation": "96000＋50400＝146400"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "仕入れ値の合計に対する売り上げの合計は何円ですか。",
+    "answer": {
+     "n": "146400",
+     "d": "1",
+     "unit": "円",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "総売上146400、(180000−146400)÷(300−180)=280。資料(3)280個と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "P07/profit.two-prices.quantity-from-overall-profit",
+   "sourceTitle": "R17N⑦-2"
+  },
+  {
+   "id": "selected-97b70a2cce4615a7",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "コップを1個あたり320円で仕入れました。1個400円で売ると、10個こわれて売れなかったとしても16000円の利益があります。\n(1)1個400円ですべて売れたときの利益\n(2)仕入れたコップの個数。",
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "20000",
+      "d": "1",
+      "unit": "円",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(2)",
+      "n": "250",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "仕入れ値320円、売り値400円で、10個売れなくても利益は16000円です。",
+     "equation": "1個のもうけ80円"
+    },
+    {
+     "title": "売れなかった分",
+     "body": "10個売れなかったので、400×10＝4000円の売り上げが入りませんでした。",
+     "equation": "400×10＝4000"
+    },
+    {
+     "title": "(1)を求める",
+     "body": "全部売れたら、その4000円も利益に加わります。",
+     "equation": "16000＋4000＝20000"
+    },
+    {
+     "title": "(2)を求める",
+     "body": "1個売るごとに80円のもうけなので、個数は利益を80で割ります。",
+     "equation": "20000÷80＝250"
+    },
+    {
+     "title": "確かめ",
+     "body": "仕入れ320×250＝80000円、売り上げ400×240＝96000円で利益16000円です。",
+     "equation": "96000－80000＝16000"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "売れなかった10個の分の売り上げは何円ですか。",
+    "answer": {
+     "n": "4000",
+     "d": "1",
+     "unit": "円",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "16000+4000=20000、20000÷80=250。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "P07/profit.unsold.sales-loss",
+   "sourceTitle": "R17N⑥-3"
   },
   {
    "id": "selected-49edda1ef6f74a71",
@@ -2351,6 +3066,126 @@
    "sourceTitle": "GW427-17①"
   },
   {
+   "id": "selected-81ca2d669bf765f3",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "A、B、Cの3つのテーブルがあり、Aに数字の書かれたカードがおかれている（1のカード＝数字1のカード）。つねに書かれている数が大きいカードが下にあるようにおく。1手につき1枚だけ移動でき、重なるカードは大きい数のカードが下。たとえば1、2、3の3枚のとき、すべてCに移すには最低7手。(1)1から4までの4枚のカードをすべてCに移すには最低何手 (4)1から8までの8枚をすべてCに移すには最低何手",
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "15",
+      "d": "1",
+      "unit": "手",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(4)",
+      "n": "255",
+      "d": "1",
+      "unit": "手",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "1、2、3の3枚なら最低7手で移せます。",
+     "equation": "3枚→7手"
+    },
+    {
+     "title": "いちばん大きいカードに注目",
+     "body": "4をCに動かす前に、上の3枚を全部Bに移し、4を動かした後でまた3枚をCに移します。",
+     "equation": "7＋1＋7"
+    },
+    {
+     "title": "(1)を求める",
+     "body": "4枚では3枚の手数の2倍に1を足します。",
+     "equation": "7×2＋1＝15"
+    },
+    {
+     "title": "(4)を求める",
+     "body": "同じように5枚31手、6枚63手、7枚127手、8枚255手と続きます。",
+     "equation": "127×2＋1＝255"
+    },
+    {
+     "title": "確かめ",
+     "body": "手数は2を枚数回かけて1を引いた数になっています。",
+     "equation": "2×2×2×2×2×2×2×2－1＝255"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "1から5までの5枚では最低何手ですか。",
+    "answer": {
+     "n": "31",
+     "d": "1",
+     "unit": "手",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "T(n)=2T(n−1)+1：T4=15、T8=255。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "Q06/Q06-U03",
+   "sourceTitle": "4R12T⑥-2"
+  },
+  {
+   "id": "selected-b3c416a45b5b1eec",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "A、B、Cの3つのテーブルがあり、Aに数字の書かれたカードがおかれている（1のカード＝数字1のカード）。つねに書かれている数が大きいカードが下にあるようにおく。1手につき1枚だけ移動でき、重なるカードは大きい数のカードが下。たとえば1、2、3の3枚のとき、すべてCに移すには最低7手。(1)1から4までの4枚のカードをすべてCに移すには最低何手 (2)(1)のとき2のカードは何回移動したか\n【答えるのは(2)だけです】",
+   "answer": {
+    "n": "4",
+    "d": "1",
+    "unit": "回",
+    "dimension": "scalar"
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "4枚を最低15手で移すとき、カード2が動く回数を数えます。",
+     "equation": "4枚→15手"
+    },
+    {
+     "title": "カード4を動かす前後",
+     "body": "4枚の手順は「3枚を移す→4を動かす→3枚を移す」です。",
+     "equation": "3枚の手順が2回"
+    },
+    {
+     "title": "3枚の手順の中",
+     "body": "3枚の手順は「2枚を移す→3を動かす→2枚を移す」で、2枚の手順の中でカード2は1回動きます。",
+     "equation": "3枚の手順でカード2は2回"
+    },
+    {
+     "title": "合計する",
+     "body": "3枚の手順が2回あるので、カード2は4回動きます。",
+     "equation": "2×2＝4"
+    },
+    {
+     "title": "確かめ",
+     "body": "カード4は1回、3は2回、2は4回、1は8回で、合わせて15手です。",
+     "equation": "1＋2＋4＋8＝15"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "1から3までの3枚を移すとき、カード2は何回動きますか。",
+    "answer": {
+     "n": "2",
+     "d": "1",
+     "unit": "回",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "4枚Hanoiでカード2の移動は2^(4−2)=4回（シミュレーション一致）。資料(2)4回と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "Q06/Q06-U04",
+   "sourceTitle": "4R12T⑥-2"
+  },
+  {
    "id": "selected-0d4e30f097f628d2",
    "status": "ready",
    "figureRequired": false,
@@ -2395,7 +3230,7 @@
    },
    "solverCheck": "75×6=450, (3000−450)÷(75+95)=15分, 8時6分+15分=8時21分。資料と一致。既知の疑義（下書きの別問題の10分）は解説で使っていない。",
    "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
+   "holdReason": "形式エラー：AssertionError({'dimension': 'clock', 'h': '8', 'm': '21', 'unit': ''})",
    "selectionKey": "T03/speed.staggered-start.opposite",
    "sourceTitle": "R20N①-3"
   },
@@ -2677,7 +3512,7 @@
    },
    "solverCheck": "先行60×10=600m, 600÷(90−60)=20分→午前8時10分, Bの1800mが半分→3600m。資料(1)午前8時10分(2)3600mと一致。",
    "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
+   "holdReason": "形式エラー：AssertionError({'label': '(1)', 'dimension': 'clock', 'h': '8', 'm': '10', 'ampm': '午前', 'unit': ''})",
    "selectionKey": "T08/speed.staggered-midpoint.equal-distance",
    "sourceTitle": "R07N⑤-4"
   },
@@ -2802,7 +3637,7 @@
    },
    "solverCheck": "通常1500÷60=25分→午前7時35分。300÷60+300÷100+1500÷100=23分, 25−23=2分。資料(1)午前7時35分(2)2分間と一致。",
    "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
    "selectionKey": "T12/speed.forgotten.wait-from-arrival",
    "sourceTitle": "4R33N⑦-1"
   },
@@ -3025,7 +3860,7 @@
    },
    "solverCheck": "歩行72−15=57分, (4200−60×57)÷20=39分→午前9時39分, 残り18分×60=1080m。資料(1)午前9時39分(2)1080mと一致。",
    "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
    "selectionKey": "T13/speed.phase-time.rest-excluded",
    "sourceTitle": "4R34T④-2"
   },
@@ -3100,9 +3935,124 @@
    },
    "solverCheck": "兄1320÷120=11分→午後8時4分発。妹先行60×4=240m、残1080÷180=6分→8時10分、駅からA=60×10=600m、残720÷80=9分→午後8時19分。資料と一致。［図］注記は略図で、本文だけで条件がそろい図への言及もないため削除。",
    "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
+   "holdReason": "独立検算で不一致：数値・解説・checkpoint・本文（［図］注記の削除のみ）は正しい。問題はanswerの形式：(1)(3)にampm:'午後'(h=20)が付いているが、本文は午前・午後をつけて答えるよう求めていない（CONTRACT違反）。このままだと児童が自然に書く「8時4分」「8時19分」がcorrect:falseになる。直し方：本文に答え方の指示「（時刻は午前・午後をつけて答えなさい。）」を足してampm:'午後'を残す（推奨。ampmを外すだけだと「8時4分」は8:04扱いでやはり不正解になる）。",
    "selectionKey": "T16/speed.mistaken-appointment-meeting-return",
    "sourceTitle": "GW508-25①"
+  },
+  {
+   "id": "selected-1fcbad17478b3d19",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "静水時 時速11kmの船Aが川上のP地点から、静水時 時速9kmの船Bが川下のQ地点から同時に出発して向かい合って進んだ。出発から4時間30分後に船Aと船Bがすれちがい、その3時間後に船AがQ地点に着いた。\n(1)PQ間の距離\n(2)この川の流速\n（(1)はkm、(2)は時速何kmかで答えなさい）",
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "90",
+      "d": "1",
+      "unit": "km",
+      "dimension": "length"
+     },
+     {
+      "label": "(2)",
+      "n": "1",
+      "d": "1",
+      "unit": "km/時",
+      "dimension": "speed"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "Aは川を下り、Bは川を上ります。4時間30分＝4.5時間ですれちがいました。",
+     "equation": "4時間30分＝4.5時間"
+    },
+    {
+     "title": "流れが消える",
+     "body": "Aの下りの速さは11＋流速、Bの上りの速さは9－流速です。足すと流速が消えて、静水時の速さの和になります。",
+     "equation": "11＋9＝20（km/時）"
+    },
+    {
+     "title": "PQ間の距離",
+     "body": "2せきは時速20kmで近づき、4.5時間ですれちがいました。",
+     "equation": "20×4.5＝90（km）"
+    },
+    {
+     "title": "Aの下りの速さ",
+     "body": "AはPからQまで4.5＋3＝7.5時間かかりました。",
+     "equation": "90÷7.5＝12（km/時）"
+    },
+    {
+     "title": "流速と確かめ",
+     "body": "下りの速さ12から静水時の11を引きます。Bの上りは9－1＝8で、4.5時間で（12＋8）×4.5＝90kmになり合います。",
+     "equation": "12－11＝1（km/時）"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "船Aが川を下る速さは時速何kmですか。",
+    "answer": {
+     "n": "12",
+     "d": "1",
+     "unit": "km/時",
+     "dimension": "speed"
+    }
+   },
+   "solverCheck": "(11+r)+(9−r)=20, 20×4.5=90km。A下り90÷7.5=12→r=1。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "T18/speed.river.opposite-shared-current-cancels",
+   "sourceTitle": "R22Tt-5"
+  },
+  {
+   "id": "selected-eb7ef236a1425c6d",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "長さ165mの列車が秒速15mでふみ切りを通りすぎた。ふみ切りに立っている人の前にさしかかってから、すっかり通りすぎるまでの時間（何秒かで答えなさい）",
+   "answer": {
+    "n": "11",
+    "d": "1",
+    "unit": "秒",
+    "dimension": "time"
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "列車の長さは165m、速さは秒速15mです。人は動かない点と考えます。",
+     "equation": "長さ165m、秒速15m"
+    },
+    {
+     "title": "進む道のり",
+     "body": "列車の先頭が人の前に来てから、最後尾が人の前を過ぎるまでに、列車は自分の長さだけ進みます。",
+     "equation": "進む道のり＝165m"
+    },
+    {
+     "title": "時間",
+     "body": "道のりを速さでわります。",
+     "equation": "165÷15＝11（秒）"
+    },
+    {
+     "title": "確かめ",
+     "body": "11秒で15×11＝165m進み、ちょうど列車の長さです。",
+     "equation": "15×11＝165"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "列車が人の前を通りすぎるまでに進む道のりは何mですか。",
+    "answer": {
+     "n": "165",
+     "d": "1",
+     "unit": "m",
+     "dimension": "length"
+    }
+   },
+   "solverCheck": "165÷15=11秒。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "T19/speed.train.point-clearance",
+   "sourceTitle": "R23N①-1"
   },
   {
    "id": "selected-b8a477725c303e56",
@@ -3164,6 +4114,180 @@
    "sourceAnswerMatch": true,
    "selectionKey": "T19/speed.train.two-clearance-conditions",
    "sourceTitle": "R24T②-3"
+  },
+  {
+   "id": "selected-fe2fd90e44ced76a",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "ある電車が1284mのトンネルを通過するのに61秒。速さを1.5倍にすると972mのトンネルを通過するのに32秒。電車の長さ（何mかで答えなさい）",
+   "answer": {
+    "n": "180",
+    "d": "1",
+    "unit": "m",
+    "dimension": "length"
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "トンネルを通過するときに進む道のりは、トンネルの長さ＋電車の長さです。",
+     "equation": "1284＋電車、972＋電車"
+    },
+    {
+     "title": "もとの速さにそろえる",
+     "body": "1.5倍の速さで32秒進む道のりは、もとの速さなら32×1.5＝48秒分です。",
+     "equation": "32×1.5＝48（秒）"
+    },
+    {
+     "title": "電車の長さを消す",
+     "body": "もとの速さで61秒と48秒の差の13秒で、1284－972＝312m進みます。",
+     "equation": "312÷13＝24（m/秒）"
+    },
+    {
+     "title": "電車の長さ",
+     "body": "61秒で進む道のりからトンネルの長さを引きます。",
+     "equation": "24×61－1284＝180（m）"
+    },
+    {
+     "title": "確かめ",
+     "body": "速さ36m/秒で972＋180＝1152mを進むと、1152÷36＝32秒で合います。",
+     "equation": "1152÷36＝32"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "もとの速さは秒速何mですか。",
+    "answer": {
+     "n": "24",
+     "d": "1",
+     "unit": "m/秒",
+     "dimension": "speed"
+    }
+   },
+   "solverCheck": "1.5倍32秒=もとの48秒分。312÷13=24, 24×61−1284=180m。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "T19/speed.train.two-tunnels.changed-speed",
+   "sourceTitle": "R23N⑦-2"
+  },
+  {
+   "id": "selected-ee923a7fbd966127",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "長さ120m・秒速20mのA電車が、長さ80mのB電車に追いついてから追い越すまでに50秒。B電車の速さ（秒速何mかで答えなさい）",
+   "answer": {
+    "n": "16",
+    "d": "1",
+    "unit": "m/秒",
+    "dimension": "speed"
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "A電車は長さ120mで秒速20m、B電車は長さ80mです。同じ向きに走り、追い越しに50秒かかりました。",
+     "equation": "120＋80＝200（m）"
+    },
+    {
+     "title": "追い越しで進む道のり",
+     "body": "AがBに追いついてから追い越すまでに、AはBより2つの電車の長さの和だけ多く進みます。",
+     "equation": "多く進む道のり＝200m"
+    },
+    {
+     "title": "速さの差",
+     "body": "200mの差を50秒でつくるので、1秒あたりの差がわかります。",
+     "equation": "200÷50＝4（m/秒）"
+    },
+    {
+     "title": "B電車の速さ",
+     "body": "AのほうがBより秒速4m速いです。",
+     "equation": "20－4＝16（m/秒）"
+    },
+    {
+     "title": "確かめ",
+     "body": "50秒でAは1000m、Bは800m進み、差は200mで2つの長さの和と合います。",
+     "equation": "20×50－16×50＝200"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "A電車とB電車の速さの差は秒速何mですか。",
+    "answer": {
+     "n": "4",
+     "d": "1",
+     "unit": "m/秒",
+     "dimension": "speed"
+    }
+   },
+   "solverCheck": "(120+80)÷50=4, 20−4=16m/秒。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "T20/speed.train.same-direction-length-sum",
+   "sourceTitle": "R23N③-5"
+  },
+  {
+   "id": "selected-2f419f892cc5a183",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "A電車は秒速25m、B電車は秒速40m。あるトンネルを通過するのにAは52秒、Bは30秒。AとBがすれ違うのに6秒。\n(1)長さの差\n(2)A電車の長さ\n（どちらも何mかで答えなさい）",
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "100",
+      "d": "1",
+      "unit": "m",
+      "dimension": "length"
+     },
+     {
+      "label": "(2)",
+      "n": "245",
+      "d": "1",
+      "unit": "m",
+      "dimension": "length"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "トンネルを通過するときに進む道のりは、トンネル＋電車の長さです。",
+     "equation": "Aは25×52、Bは40×30"
+    },
+    {
+     "title": "同じトンネルで比べる",
+     "body": "Aは1300m、Bは1200m進みました。トンネルは同じなので、差は電車の長さの差です。",
+     "equation": "25×52－40×30＝100（m）"
+    },
+    {
+     "title": "すれ違いから長さの和",
+     "body": "すれ違うときは2つの電車の長さの和を、速さの和で進みます。",
+     "equation": "（25＋40）×6＝390（m）"
+    },
+    {
+     "title": "和差算",
+     "body": "長さの和390mと差100mから、長いほうのAを求めます。",
+     "equation": "（390＋100）÷2＝245（m）"
+    },
+    {
+     "title": "確かめ",
+     "body": "Bは390－245＝145mです。トンネルは1300－245＝1055mで、Bは1055＋145＝1200mを30秒で進み合います。",
+     "equation": "1055＋145＝1200"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "A電車とB電車の長さの和は何mですか。",
+    "answer": {
+     "n": "390",
+     "d": "1",
+     "unit": "m",
+     "dimension": "length"
+    }
+   },
+   "solverCheck": "1300−1200=100, 65×6=390, (390+100)/2=245。B145, トンネル1055で検算一致。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "T20/speed.train.tunnel-difference-and-pass-sum",
+   "sourceTitle": "R23N④-4"
   },
   {
    "id": "selected-ec191e9984b77b4a",
@@ -3859,6 +4983,138 @@
    "sourceAnswerMatch": true,
    "selectionKey": "W03/W03-U03",
    "sourceTitle": "4R09H④-2"
+  },
+  {
+   "id": "selected-5aa5ea2c6fdb68c0",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "ケンタ君とマサト君がビー玉をやりとり。ケンタ→マサトに、マサトがそのとき持っていた数と同じ数、マサト→ケンタに、ケンタがそのとき持っていた数と同じ数、最後にケンタ→マサトに、マサトがそのとき持っていた数と同じ数をわたすと、2人とも32個。はじめの個数（それぞれ何個かで答えなさい）",
+   "answer": {
+    "parts": [
+     {
+      "label": "ケンタ君",
+      "n": "44",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar"
+     },
+     {
+      "label": "マサト君",
+      "n": "20",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "最後は2人とも32個で、合計64個はずっと変わりません。もらった人は、もらう前のちょうど2倍になっています。",
+     "equation": "32＋32＝64（個）"
+    },
+    {
+     "title": "3回目の前にもどす",
+     "body": "最後にマサト君は倍になったので、前は32÷2＝16個。ケンタ君は16個をわたしたので48個でした。",
+     "equation": "32÷2＝16、32＋16＝48"
+    },
+    {
+     "title": "2回目の前にもどす",
+     "body": "2回目はケンタ君が倍になったので、前は48÷2＝24個。マサト君は24個をわたしたので40個でした。",
+     "equation": "48÷2＝24、16＋24＝40"
+    },
+    {
+     "title": "1回目の前にもどす",
+     "body": "1回目はマサト君が倍になったので、前は40÷2＝20個。ケンタ君は20個をわたしたので44個でした。",
+     "equation": "40÷2＝20、24＋20＝44"
+    },
+    {
+     "title": "確かめ",
+     "body": "(44,20)→(24,40)→(48,16)→(32,32)となり合います。",
+     "equation": "44＋20＝64"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "最後のやりとりの前、マサト君は何個持っていましたか。",
+    "answer": {
+     "n": "16",
+     "d": "1",
+     "unit": "個",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "逆算 (32,32)→(48,16)→(24,40)→(44,20)。順算で検算一致。資料と一致。",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "W06/W06-U03",
+   "sourceTitle": "4R24N④-2"
+  },
+  {
+   "id": "selected-eedb3e11578fa034",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "なし3個の値段は、りんご4個の値段と等しい。なし6個とりんご5個を買ったら2340円。なしとりんご1個の値段（それぞれ何円かで答えなさい）",
+   "answer": {
+    "parts": [
+     {
+      "label": "なし",
+      "n": "240",
+      "d": "1",
+      "unit": "円",
+      "dimension": "scalar"
+     },
+     {
+      "label": "りんご",
+      "n": "180",
+      "d": "1",
+      "unit": "円",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "なし3個とりんご4個は同じ値段です。なし6個とりんご5個で2340円です。",
+     "equation": "なし3個＝りんご4個"
+    },
+    {
+     "title": "なしをりんごに置きかえる",
+     "body": "なし6個はなし3個の2倍なので、りんご4×2＝8個と同じ値段です。",
+     "equation": "なし6個＝りんご8個"
+    },
+    {
+     "title": "りんごだけで表す",
+     "body": "なし6個とりんご5個は、りんご8＋5＝13個と同じです。",
+     "equation": "2340÷13＝180（円）"
+    },
+    {
+     "title": "なしの値段",
+     "body": "りんご4個の値段がなし3個の値段です。",
+     "equation": "180×4÷3＝240（円）"
+    },
+    {
+     "title": "確かめ",
+     "body": "なし6個とりんご5個で240×6＋180×5＝2340円になります。",
+     "equation": "1440＋900＝2340"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "なし6個とりんご5個は、りんご何個分の値段ですか。",
+    "answer": {
+     "n": "13",
+     "d": "1",
+     "unit": "個",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "なし6=りんご8、計13個=2340→180、なし240。資料と一致。（本文末尾の教材番号は児童向けでないため削除）",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "W07/W07-U03",
+   "sourceTitle": "4R26T④-2"
   },
   {
    "id": "selected-57af00bf9a2c4774",
@@ -8374,62 +9630,6 @@
    "sourceTitle": "4S15H③-1"
   },
   {
-   "id": "selected-83a82ddc0915a75b",
-   "status": "ready",
-   "figureRequired": false,
-   "figureNote": "",
-   "text": "半径10cm、深さ40cmの円柱の容器に半径4cmの円柱の棒が入っています。あるところまで水を入れた後、棒を取り除いたところ水面は2cm下がりました。容器と棒の底面積の比を求めなさい。",
-   "answer": {
-    "dimension": "ratio",
-    "terms": [
-     "25",
-     "4"
-    ],
-    "unit": ""
-   },
-   "steps": [
-    {
-     "title": "条件を整理",
-     "body": "容器の底面は半径10cm、棒の底面は半径4cmの円です。底面積の比を求めるので、水面の高さはここでは使いません。",
-     "equation": ""
-    },
-    {
-     "title": "半径の比",
-     "body": "半径の比は10：4＝5：2です。",
-     "equation": ""
-    },
-    {
-     "title": "面積は半径×半径に比例",
-     "body": "円の面積は半径×半径×円周率なので、円周率は両方に共通です。半径×半径どうしを比べれば比が出ます。",
-     "equation": "10×10：4×4＝100：16"
-    },
-    {
-     "title": "簡単にする",
-     "body": "100と16を4で割ります。",
-     "equation": "100：16＝25：4"
-    },
-    {
-     "title": "確かめ",
-     "body": "半径の比5：2を2回かけた形になっています。",
-     "equation": "5×5：2×2＝25：4"
-    }
-   ],
-   "checkpoint": {
-    "prompt": "容器の半径は、棒の半径の何倍ですか。",
-    "answer": {
-     "n": "5",
-     "d": "2",
-     "unit": "倍",
-     "dimension": "scalar"
-    }
-   },
-   "solverCheck": "底面積比=10²:4²=100:16=25:4。資料(1)25：4と一致。（2)の疑義は(1)に無関係。",
-   "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
-   "selectionKey": "F10/G-b1f086915b",
-   "sourceTitle": "S14H⑥-1"
-  },
-  {
    "id": "selected-d44319b2a82db185",
    "status": "hold",
    "holdReason": "原図が必要（点Pの位置と斜線部分が図のみ）",
@@ -8514,7 +9714,7 @@
     },
     {
      "title": "計算と確かめ",
-     "body": "中心角は合わせて360°分なので、半径4cmの円1つの半分です。",
+     "body": "60°のおうぎ形3つで中心角は合わせて180°なので、半径4cmの円の半分です。",
      "equation": "4×4×3.14÷2＝25.12"
     }
    ],
@@ -8685,55 +9885,6 @@
    "sourceTitle": "4R23N⑤-3"
   },
   {
-   "id": "selected-f36a5111b90e21bf",
-   "status": "ready",
-   "figureRequired": false,
-   "figureNote": "",
-   "text": "直角三角形の中に、3つの頂点をそれぞれ中心とするおうぎ形をかきました。円周率は3.14とします。\n3つのおうぎ形の半径はどれも等しくなっています。\nおうぎ形の中心角の合計は何度ですか。",
-   "answer": {
-    "n": "180",
-    "d": "1",
-    "unit": "度",
-    "dimension": "scalar"
-   },
-   "steps": [
-    {
-     "title": "条件を整理",
-     "body": "おうぎ形は三角形の中にあり、中心は三角形の頂点です。",
-     "equation": ""
-    },
-    {
-     "title": "中心角はどこか",
-     "body": "三角形の中にかくので、それぞれのおうぎ形の中心角は、その頂点の三角形の角と同じです。",
-     "equation": ""
-    },
-    {
-     "title": "合計",
-     "body": "3つの中心角の合計は、三角形の3つの角の和です。",
-     "equation": "中心角の合計＝三角形の角の和＝180"
-    },
-    {
-     "title": "確かめ",
-     "body": "直角の頂点のおうぎ形は90°なので、残り2つの合計は90°です。",
-     "equation": "90＋90＝180"
-    }
-   ],
-   "checkpoint": {
-    "prompt": "直角の頂点を中心とするおうぎ形の中心角は何度ですか。",
-    "answer": {
-     "n": "90",
-     "d": "1",
-     "unit": "度",
-     "dimension": "scalar"
-    }
-   },
-   "solverCheck": "中心角=各内角→和180。資料(1)180度と一致。(1)は図なしで本文から決まる（図への言及なし）。",
-   "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
-   "selectionKey": "F10/G-f5bece5a7f",
-   "sourceTitle": "GW423-22①"
-  },
-  {
    "id": "selected-839a1e4c69ac5b10",
    "status": "hold",
    "holdReason": "原図が必要（本文が「右の図のように」で図を参照。条件は文中にそろうが、図への言及があるため改変せず保留）",
@@ -8896,60 +10047,6 @@
    "sourceAnswerMatch": true,
    "selectionKey": "F11/G-5c985f0cc6",
    "sourceTitle": "GN円③M1-1"
-  },
-  {
-   "id": "selected-199a1affd043ad93",
-   "status": "ready",
-   "figureRequired": false,
-   "figureNote": "",
-   "text": "円周率は3.14とします。\n1辺が3mの正三角形の建物の角に、犬がロープでつながれています。ロープの長さが4mのとき、犬の動ける範囲の面積を求めなさい。",
-   "answer": {
-    "n": "1099",
-    "d": "25",
-    "unit": "m²",
-    "dimension": "area"
-   },
-   "steps": [
-    {
-     "title": "条件を整理",
-     "body": "建物は1辺3mの正三角形で、犬は角に4mのロープでつながれています。正三角形の1つの角は60°です。",
-     "equation": ""
-    },
-    {
-     "title": "角のまわり",
-     "body": "建物の中には入れないので、まず360°−60°＝300°のおうぎ形を動けます。",
-     "equation": "4×4×3.14×300/360"
-    },
-    {
-     "title": "回りこむ",
-     "body": "となりの角まで3m進むと、ロープが1m残ります。そこを中心に、建物の辺をのばした外側に半径1mのおうぎ形ができます。中心角は180°−60°＝120°です。",
-     "equation": "4−3＝1"
-    },
-    {
-     "title": "合計",
-     "body": "左右に1つずつあるので2つ足します。",
-     "equation": "4×4×3.14×5/6＋1×1×3.14×1/3×2＝43.96"
-    },
-    {
-     "title": "確かめ",
-     "body": "円周率でまとめると(40/3＋2/3)×3.14＝14×3.14です。残り1mでは次の辺3mまで届かないので、これで全部です。",
-     "equation": "14×3.14＝43.96"
-    }
-   ],
-   "checkpoint": {
-    "prompt": "となりの角まで回りこんだあと、ロープは何m残りますか。",
-    "answer": {
-     "n": "1",
-     "d": "1",
-     "unit": "m",
-     "dimension": "length"
-    }
-   },
-   "solverCheck": "π(16×300/360+2×1×120/360)=14π=43.96。資料と一致。",
-   "sourceAnswerMatch": true,
-   "holdReason": "独立検算が未実施",
-   "selectionKey": "F11/G-75d918b046",
-   "sourceTitle": "R02H③-4"
   },
   {
    "id": "selected-8b05c1205590a99d",
@@ -9511,8 +10608,8 @@
     },
     {
      "title": "三角形BEF",
-     "body": "CE＝2cmです。長方形から周りの3つの三角形を引きます。",
-     "equation": "9×11−9×2÷2−7×9÷2−2×9÷2＝42.5"
+     "body": "CE＝2cm、ED＝9cmです。長方形から周りの3つの三角形を引きます。",
+     "equation": "9×11−9×2÷2−11×7÷2−9×2÷2＝42.5"
     },
     {
      "title": "確かめ",
@@ -11311,6 +12408,72 @@
    "sourceTitle": "春06L①-3"
   },
   {
+   "id": "selected-25a5b0fe3fb150a9",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "同じ大きさの立方体をすきまなく積み重ねて、たて56cm、横70cm、高さ42cmの直方体を作る。(1)できるだけ大きい立方体の1辺 (2)何個必要か\n（(1)はcm、(2)は個で答えなさい）",
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "14",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length"
+     },
+     {
+      "label": "(2)",
+      "n": "60",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "立方体の1辺は、たて56cm・横70cm・高さ42cmのどれもちょうどわり切れる長さでなければなりません。",
+     "equation": "1辺は56、70、42の公約数"
+    },
+    {
+     "title": "できるだけ大きく",
+     "body": "いちばん大きい1辺は、3つの数の最大公約数です。",
+     "equation": "56、70、42の最大公約数＝14"
+    },
+    {
+     "title": "各方向の個数",
+     "body": "たて・横・高さに何個ずつ並ぶかを求めます。",
+     "equation": "56÷14＝4、70÷14＝5、42÷14＝3"
+    },
+    {
+     "title": "全部の個数",
+     "body": "たて・横・高さの個数をかけます。",
+     "equation": "4×5×3＝60個"
+    },
+    {
+     "title": "確かめ",
+     "body": "体積で考えても、直方体の体積÷立方体1個の体積が同じになります。",
+     "equation": "164640÷2744＝60"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "たてに立方体は何個並びますか。",
+    "answer": {
+     "n": "4",
+     "d": "1",
+     "unit": "個",
+     "dimension": "scalar"
+    }
+   },
+   "solverCheck": "gcd(56,70,42)＝14、4×5×3＝60。資料と一致",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "V02/G-f864ac4859",
+   "sourceTitle": "R03N②-4"
+  },
+  {
    "id": "selected-a21e00724c6c7a13",
    "status": "hold",
    "holdReason": "回答形式：記号を複数選ぶ問題。原図（5つの展開図）も必要",
@@ -12315,6 +13478,67 @@
    "sourceAnswerMatch": true,
    "selectionKey": "V05/G-b9ac48023b",
    "sourceTitle": "R12H⑥-2"
+  },
+  {
+   "id": "selected-15ccce13b3020240",
+   "status": "ready",
+   "figureRequired": false,
+   "figureNote": "",
+   "text": "直方体の容器（底面16cm×25cm・高さ45cm）。(1)底面積 (2)6Lの水を入れたときの深さ\n（(1)はcm²、(2)はcmで答えなさい）",
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "400",
+      "d": "1",
+      "unit": "cm²",
+      "dimension": "area"
+     },
+     {
+      "label": "(2)",
+      "n": "15",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length"
+     }
+    ]
+   },
+   "steps": [
+    {
+     "title": "条件の整理",
+     "body": "容器の底面はたて16cm・横25cmの長方形です。6Lは6000cm³です。",
+     "equation": "6L＝6000cm³"
+    },
+    {
+     "title": "底面積",
+     "body": "長方形の面積を求めます。",
+     "equation": "16×25＝400cm²"
+    },
+    {
+     "title": "深さ＝水の量÷底面積",
+     "body": "底面積が一定の容器では、水の量を底面積でわると深さになります。",
+     "equation": "6000÷400＝15cm"
+    },
+    {
+     "title": "確かめ",
+     "body": "15cmは高さ45cmより低いので、こぼれていません。",
+     "equation": "400×15＝6000"
+    }
+   ],
+   "checkpoint": {
+    "prompt": "6Lは何cm³ですか。",
+    "answer": {
+     "n": "6000",
+     "d": "1",
+     "unit": "cm³",
+     "dimension": "volume"
+    }
+   },
+   "solverCheck": "16×25＝400、6000÷400＝15。資料と一致",
+   "sourceAnswerMatch": true,
+   "holdReason": "本文が要約メモ形式（原本の文面が必要）",
+   "selectionKey": "V05/G-f3bb0e2945",
+   "sourceTitle": "4R19T③-2"
   },
   {
    "id": "selected-0f5efee475fefdc0",
