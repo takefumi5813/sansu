@@ -674,7 +674,8 @@
       "n": "5",
       "d": "2",
       "unit": "%",
-      "dimension": "percent"
+      "dimension": "percent",
+      "display": "decimal"
      }
     ]
    },
@@ -2543,7 +2544,8 @@
       "n": "729",
       "d": "50",
       "unit": "%",
-      "dimension": "percent"
+      "dimension": "percent",
+      "display": "decimal"
      }
     ]
    },
@@ -2619,7 +2621,8 @@
     "n": "7",
     "d": "2",
     "unit": "g",
-    "dimension": "scalar"
+    "dimension": "scalar",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": false,
@@ -2779,7 +2782,8 @@
     "n": "7",
     "d": "10",
     "unit": "",
-    "dimension": "scalar"
+    "dimension": "scalar",
+    "display": "decimal"
    },
    "difficulty": 2,
    "figureRequired": false,
@@ -4229,7 +4233,8 @@
       "n": "24",
       "d": "5",
       "unit": "分",
-      "dimension": "time"
+      "dimension": "time",
+      "display": "decimal"
      }
     ]
    },
@@ -4718,7 +4723,8 @@
       "n": "126",
       "d": "5",
       "unit": "km",
-      "dimension": "length"
+      "dimension": "length",
+      "display": "decimal"
      }
     ]
    },
@@ -5028,7 +5034,8 @@
     "n": "5",
     "d": "2",
     "unit": "時間",
-    "dimension": "time"
+    "dimension": "time",
+    "display": "decimal"
    },
    "difficulty": 3,
    "figureRequired": false,
@@ -5265,14 +5272,16 @@
       "n": "6",
       "d": "5",
       "unit": "km",
-      "dimension": "length"
+      "dimension": "length",
+      "display": "decimal"
      },
      {
       "label": "(2)",
       "n": "3",
       "d": "2",
       "unit": "時間",
-      "dimension": "time"
+      "dimension": "time",
+      "display": "decimal"
      },
      {
       "label": "(3)",
@@ -7773,7 +7782,8 @@
       "n": "5",
       "d": "2",
       "unit": "m",
-      "dimension": "length"
+      "dimension": "length",
+      "display": "decimal"
      }
     ]
    },
@@ -9362,7 +9372,8 @@
       "n": "6",
       "d": "5",
       "unit": "km",
-      "dimension": "length"
+      "dimension": "length",
+      "display": "decimal"
      },
      {
       "label": "(3)",
@@ -9607,7 +9618,8 @@
       "n": "24",
       "d": "5",
       "unit": "km/時",
-      "dimension": "speed"
+      "dimension": "speed",
+      "display": "decimal"
      },
      {
       "label": "(3)",
@@ -12356,7 +12368,8 @@
     "n": "78",
     "d": "5",
     "unit": "cm",
-    "dimension": "length"
+    "dimension": "length",
+    "display": "decimal"
    },
    "difficulty": 2,
    "figureRequired": true,
@@ -13494,7 +13507,8 @@
     "n": "45",
     "d": "2",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -14283,14 +14297,16 @@
       "n": "1413",
       "d": "4",
       "unit": "cm²",
-      "dimension": "area"
+      "dimension": "area",
+      "display": "decimal"
      },
      {
       "label": "(2)",
       "n": "471",
       "d": "20",
       "unit": "cm",
-      "dimension": "length"
+      "dimension": "length",
+      "display": "decimal"
      }
     ]
    },
@@ -14445,14 +14461,16 @@
       "n": "1699",
       "d": "50",
       "unit": "cm",
-      "dimension": "length"
+      "dimension": "length",
+      "display": "decimal"
      },
      {
       "label": "面積",
       "n": "3297",
       "d": "50",
       "unit": "cm²",
-      "dimension": "area"
+      "dimension": "area",
+      "display": "decimal"
      }
     ]
    },
@@ -14532,14 +14550,16 @@
       "n": "871",
       "d": "25",
       "unit": "cm",
-      "dimension": "length"
+      "dimension": "length",
+      "display": "decimal"
      },
      {
       "label": "面積",
       "n": "1884",
       "d": "25",
       "unit": "cm²",
-      "dimension": "area"
+      "dimension": "area",
+      "display": "decimal"
      }
     ]
    },
@@ -14616,7 +14636,8 @@
     "n": "3297",
     "d": "50",
     "unit": "cm",
-    "dimension": "length"
+    "dimension": "length",
+    "display": "decimal"
    },
    "difficulty": 3,
    "figureRequired": true,
@@ -14685,7 +14706,8 @@
     "n": "912",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 3,
    "figureRequired": true,
@@ -14829,7 +14851,8 @@
     "n": "2313",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 5,
    "figureRequired": true,
@@ -14904,7 +14927,8 @@
     "n": "1548",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 3,
    "figureRequired": true,
@@ -14979,7 +15003,8 @@
     "n": "1071",
     "d": "25",
     "unit": "cm",
-    "dimension": "length"
+    "dimension": "length",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -15048,7 +15073,8 @@
     "n": "143",
     "d": "2",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -15123,7 +15149,8 @@
     "n": "1287",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -15208,7 +15235,8 @@
       "n": "3513",
       "d": "25",
       "unit": "cm²",
-      "dimension": "area"
+      "dimension": "area",
+      "display": "decimal"
      }
     ]
    },
@@ -15354,7 +15382,8 @@
     "n": "1884",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 3,
    "figureRequired": true,
@@ -15429,7 +15458,8 @@
     "n": "5024",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 3,
    "figureRequired": true,
@@ -15574,7 +15604,8 @@
     "n": "546",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -15649,7 +15680,8 @@
     "n": "628",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -15718,7 +15750,8 @@
     "n": "1413",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 3,
    "figureRequired": true,
@@ -15787,7 +15820,8 @@
     "n": "471",
     "d": "5",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 5,
    "figureRequired": true,
@@ -15856,7 +15890,8 @@
     "n": "471",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 5,
    "figureRequired": true,
@@ -15999,7 +16034,8 @@
     "n": "2669",
     "d": "10",
     "unit": "m²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -16155,7 +16191,8 @@
     "n": "607",
     "d": "5",
     "unit": "cm",
-    "dimension": "length"
+    "dimension": "length",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -16224,7 +16261,8 @@
     "n": "1099",
     "d": "25",
     "unit": "m²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": false,
@@ -16308,7 +16346,8 @@
       "n": "37",
       "d": "2",
       "unit": "cm²",
-      "dimension": "area"
+      "dimension": "area",
+      "display": "decimal"
      }
     ]
    },
@@ -16385,7 +16424,8 @@
     "n": "12089",
     "d": "100",
     "unit": "m²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -16457,14 +16497,16 @@
       "n": "2826",
       "d": "25",
       "unit": "cm",
-      "dimension": "length"
+      "dimension": "length",
+      "display": "decimal"
      },
      {
       "label": "(3)",
       "n": "29673",
       "d": "25",
       "unit": "cm²",
-      "dimension": "area"
+      "dimension": "area",
+      "display": "decimal"
      }
     ]
    },
@@ -16695,7 +16737,8 @@
       "n": "85",
       "d": "2",
       "unit": "cm²",
-      "dimension": "area"
+      "dimension": "area",
+      "display": "decimal"
      }
     ]
    },
@@ -16772,7 +16815,8 @@
     "n": "557",
     "d": "25",
     "unit": "cm",
-    "dimension": "length"
+    "dimension": "length",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -16844,7 +16888,8 @@
       "n": "81",
       "d": "2",
       "unit": "cm²",
-      "dimension": "area"
+      "dimension": "area",
+      "display": "decimal"
      },
      {
       "label": "(2)",
@@ -17066,7 +17111,8 @@
     "n": "696",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -17135,7 +17181,8 @@
     "n": "228",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -18057,7 +18104,8 @@
     "n": "1071",
     "d": "25",
     "unit": "cm",
-    "dimension": "length"
+    "dimension": "length",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -18126,7 +18174,8 @@
     "n": "6426",
     "d": "25",
     "unit": "cm²",
-    "dimension": "area"
+    "dimension": "area",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -18218,7 +18267,8 @@
       "n": "27",
       "d": "50",
       "unit": "",
-      "dimension": "scalar"
+      "dimension": "scalar",
+      "display": "decimal"
      }
     ]
    },
@@ -18824,7 +18874,8 @@
       "n": "1413",
       "d": "5",
       "unit": "cm³",
-      "dimension": "volume"
+      "dimension": "volume",
+      "display": "decimal"
      }
     ]
    },
@@ -19514,7 +19565,8 @@
       "n": "9",
       "d": "4",
       "unit": "cm",
-      "dimension": "length"
+      "dimension": "length",
+      "display": "decimal"
      }
     ]
    },
@@ -19680,7 +19732,8 @@
       "n": "23",
       "d": "2",
       "unit": "cm",
-      "dimension": "length"
+      "dimension": "length",
+      "display": "decimal"
      }
     ]
    },
@@ -19756,7 +19809,8 @@
     "n": "105",
     "d": "2",
     "unit": "cm",
-    "dimension": "length"
+    "dimension": "length",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -20341,7 +20395,8 @@
       "n": "18",
       "d": "5",
       "unit": "L",
-      "dimension": "volume"
+      "dimension": "volume",
+      "display": "decimal"
      },
      {
       "label": "(3)",
@@ -20594,7 +20649,8 @@
     "n": "21",
     "d": "5",
     "unit": "L",
-    "dimension": "volume"
+    "dimension": "volume",
+    "display": "decimal"
    },
    "difficulty": 4,
    "figureRequired": true,
@@ -20666,7 +20722,8 @@
       "n": "15",
       "d": "2",
       "unit": "L",
-      "dimension": "volume"
+      "dimension": "volume",
+      "display": "decimal"
      },
      {
       "label": "(2)",

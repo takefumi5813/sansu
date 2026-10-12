@@ -108,6 +108,23 @@ for r in authored:
     units.append({'id': uid, 'name': e['learningDecision'], 'domain': e['domain'], 'definition': e['learningDecision'],
                   'representativeId': pid, 'decision': e['learningDecision'], 'prerequisites': []})
 
+from fractions import Fraction
+def dec(n, d):
+    fr = Fraction(int(n), int(d)); q = fr.denominator
+    for p in (2, 5):
+        while q % p == 0: q //= p
+    if q != 1: return None
+    t = format(fr.numerator / fr.denominator, '.10f').rstrip('0').rstrip('.')
+    return t if Fraction(t) == fr else None
+def mark_decimal(spec, explanation_text):
+    """Show the answer as a decimal when the explanation itself works in that decimal (e.g. 51.48 rather than 1287/25)."""
+    for part in spec.get('parts', [spec]):
+        if part.get('dimension') in ('ratio', 'clock') or str(part.get('d', '1')) == '1': continue
+        t = dec(part['n'], part['d'])
+        if t and t in explanation_text: part['display'] = 'decimal'
+        else: part.pop('display', None)
+for p in problems:
+    mark_decimal(p['answer'], ' '.join(s['body'] + ' ' + s.get('equation', '') for s in p['explanation']['steps']).replace('．', '.'))
 out = {'problems': problems, 'units': units, 'links': [], 'analysis': []}
 (ROOT/'content/expedition-ready-2.json').write_text(json.dumps(out, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 (ROOT/'content/expedition-prepared-hold.json').write_text(json.dumps({'note': '教材化作業済みだが未配信の候補。holdReasonを解消すれば配信可能。', 'entries': hold}, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')

@@ -124,7 +124,7 @@
       if(img.complete)bind();else img.onload=bind;
       img.onerror=()=>{if(!img.isConnected)return;toast('必要な図版を読み込めません。この問題には解答できません。');if($('#submit-answer'))$('#submit-answer').disabled=true;};
       canvas.style.pointerEvents='none';$('#figure-write').onclick=()=>{writable=!writable;canvas.style.pointerEvents=writable?'auto':'none';$('#figure-write').textContent=writable?'図への記入を終了':'図に書き込む';$('#figure-write').classList.toggle('primary',writable);};
-      $('#figure-enlarge').onclick=()=>{const dialog=$('#settings-dialog');$('#settings-content').innerHTML=`<div class="settings-section"><img src="${esc(effectiveProblem().figure)}" alt="拡大した原本の図" style="width:100%"></div>`;dialog.showModal();};
+      $('#figure-enlarge').onclick=()=>{const dialog=$('#settings-dialog'),title=dialog.querySelector('.dialog-head h2');title.textContent='図を大きく見る';dialog.classList.add('figure-zoom');dialog.addEventListener('close',()=>{title.textContent='記録と設定';dialog.classList.remove('figure-zoom');},{once:true});$('#settings-content').innerHTML=`<div class="figure-zoom-view"><img src="${esc(effectiveProblem().figure)}" alt="拡大した原本の図"></div><p class="caption">図は原寸で表示しています。はみ出す部分は指で動かして見られます。</p>`;dialog.showModal();};
     }
   }
   function bindScratch() {

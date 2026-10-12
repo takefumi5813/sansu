@@ -32,3 +32,4 @@ Arithmetic content agent owns content/arithmetic.json and reports/arithmetic-ana
 Geometry agent owns content/geometry.json, dist/figs/* and reports/geometry-analysis.md.
 
 - clock: `requireAmpm:true` を付けたときだけ、午前/午後なしの12時間表記を午後の正答に対して不正解（ヒント付き）にする。付けない場合、午前/午後なしの「8時4分」は ampm が示す午前・午後の時刻として受け付ける。
+- 単一数値の答えに `display:"decimal"` を付けると、formatAnswer が有限小数で表示する（例 1287/25 → 51.48）。採点には影響しない。解説で小数を使っている答えに付ける。

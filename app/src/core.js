@@ -106,12 +106,13 @@ function gradeParts(raw,spec){
 }
 // Single answers keep the original path unchanged (gradeSingle), including raw coercion.
 function grade(raw,spec){if(isParts(spec))return gradeParts(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);return gradeSingle(raw,spec);}
+function decimalText(n,d){let N=BigInt(n),D=BigInt(d),neg=N<0n;if(neg)N=-N;let k=0,t=D;while(t%2n===0n){t/=2n;k++}let j=0;while(t%5n===0n){t/=5n;j++}if(t!==1n)return null;const e=Math.max(k,j),scaled=N*10n**BigInt(e)/D,str=scaled.toString().padStart(e+1,'0'),out=e?str.slice(0,-e)+'.'+str.slice(-e):str;return (neg?'-':'')+out;}
 function formatAnswer(spec){
  if(!spec)return '';
  if(isParts(spec))return spec.parts.map((p,i)=>(p.label||'('+(i+1)+')')+' '+formatAnswer(p)).join('　');
  if(isRatio(spec))return spec.terms.map(x=>norm(x)).join('：');
  if(isClock(spec))return formatClock(spec);
- const value=String(spec.d)==='1'?String(spec.n):spec.n+'/'+spec.d,plain=spec.unit?value+' '+spec.unit:value;
+ const value=String(spec.d)==='1'?String(spec.n):spec.display==='decimal'&&decimalText(spec.n,spec.d)||spec.n+'/'+spec.d,plain=spec.unit?value+' '+spec.unit:value;
  if(spec.dimension==='time'&&String(spec.d)==='1'&&/^\d+$/.test(String(spec.n))){const n=Number(spec.n),u=unitNorm(spec.unit||'');
   if((u==='秒'||u==='s')&&n>=60)return Math.floor(n/60)+'分'+(n%60?n%60+'秒':'')+'（'+plain+'）';
   if((u==='分'||u==='min')&&n>=60)return Math.floor(n/60)+'時間'+(n%60?n%60+'分':'')+'（'+plain+'）';}
