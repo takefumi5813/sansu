@@ -1,0 +1,50 @@
+[
+  {
+    "name": "desktop-new",
+    "ok": true
+  },
+  {
+    "name": "desktop-gem",
+    "ok": true
+  },
+  {
+    "name": "desktop-nine",
+    "ok": true
+  },
+  {
+    "name": "desktop-offering",
+    "ok": true
+  },
+  {
+    "name": "desktop-duplicate",
+    "ok": true
+  },
+  {
+    "name": "skip-win",
+    "ok": true
+  },
+  {
+    "name": "skip-gem",
+    "ok": true
+  },
+  {
+    "name": "mobile-new",
+    "ok": true
+  },
+  {
+    "name": "mobile-gem",
+    "ok": true
+  },
+  {
+    "name": "reduced-new",
+    "ok": true
+  },
+  {
+    "name": "reduced-gem",
+    "ok": true
+  },
+  {
+    "name": "five-calculations-daily-trigger",
+    "ok": true
+  }
+]

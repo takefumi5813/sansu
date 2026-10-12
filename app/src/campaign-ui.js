@@ -127,8 +127,26 @@ async function openGuild(tab='heroes'){
 // Treasure chest shown when the daily calculation mission rolls the equipment lottery.
 // The roll is already committed in core (gearPity = gems held). This scene only presents it and, on a win,
 // opens the earned equipment box with the normal discovery transaction.
-const CHEST_SVG=`<svg class="chest-svg" viewBox="0 0 240 200" aria-hidden="true"><defs><linearGradient id="cw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a5a33"/><stop offset="1" stop-color="#4e2f1b"/></linearGradient><linearGradient id="cg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe7a3"/><stop offset=".5" stop-color="#d4a13f"/><stop offset="1" stop-color="#8e6420"/></linearGradient><radialGradient id="cl" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff7d6"/><stop offset="1" stop-color="#ffd27000"/></radialGradient></defs><ellipse class="chest-glow" cx="120" cy="104" rx="110" ry="40" fill="url(#cl)"/><g class="chest-body"><rect x="30" y="100" width="180" height="88" rx="8" fill="url(#cw)" stroke="#2c1a0e" stroke-width="3"/><path d="M30 122h180M30 166h180" stroke="#3a2313" stroke-width="2" opacity=".6"/><rect x="48" y="100" width="18" height="88" fill="url(#cg)"/><rect x="174" y="100" width="18" height="88" fill="url(#cg)"/><rect x="30" y="100" width="180" height="10" fill="url(#cg)"/><rect x="104" y="108" width="32" height="38" rx="5" fill="url(#cg)" stroke="#6b4612" stroke-width="2"/><circle cx="120" cy="122" r="5" fill="#3a2313"/><rect x="118" y="124" width="4" height="12" fill="#3a2313"/></g><g class="chest-lid"><path d="M30 100V76c0-30 40-48 90-48s90 18 90 48v24z" fill="url(#cw)" stroke="#2c1a0e" stroke-width="3"/><path d="M48 100V58c10-14 10-18 18-22v64zM192 100V58c-10-14-10-18-18-22v64z" fill="url(#cg)"/><path d="M30 92h180v8H30z" fill="url(#cg)"/><circle cx="120" cy="58" r="11" fill="#7b4fd0" stroke="url(#cg)" stroke-width="4"/></g></svg>`;
-const GEM_SVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10l5 6-10 12L2 9z" fill="currentColor"/><path d="M2 9h20M7 3l5 18 5-18M7 3 9.5 9 12 3l2.5 6L17 3" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width=".9"/></svg>';
+const CHEST_SVG=`<svg class="chest-svg" viewBox="0 0 240 200" aria-hidden="true"><defs>
+<linearGradient id="relic-wood" x2=".2" y2="1"><stop stop-color="#364455"/><stop offset=".48" stop-color="#1e2b3c"/><stop offset="1" stop-color="#101b2a"/></linearGradient>
+<linearGradient id="relic-gold" x2=".7" y2="1"><stop stop-color="#dfcca0"/><stop offset=".3" stop-color="#a78d5b"/><stop offset=".65" stop-color="#655238"/><stop offset="1" stop-color="#b49a68"/></linearGradient>
+<linearGradient id="relic-lid" x2="0" y2="1"><stop stop-color="#55616b"/><stop offset=".3" stop-color="#2c3b4c"/><stop offset="1" stop-color="#172334"/></linearGradient>
+<radialGradient id="relic-light"><stop stop-color="#f2dfb0" stop-opacity=".9"/><stop offset="1" stop-color="#d0b071" stop-opacity="0"/></radialGradient>
+</defs><ellipse cx="120" cy="187" rx="96" ry="10" fill="#020711" opacity=".65"/>
+<ellipse class="chest-glow" cx="120" cy="101" rx="116" ry="55" fill="url(#relic-light)"/>
+<g class="chest-body"><path d="M26 98h174l15 15v61l-15 13H36l-10-9z" fill="url(#relic-wood)" stroke="#9c855a" stroke-width="1.3"/>
+<path d="M200 99l15 14v61l-15 13z" fill="#0e1928" stroke="#7b694a"/><path d="M36 112h154v63H36z" fill="none" stroke="#b49a68" stroke-opacity=".35"/>
+<path d="M26 100h174v8H26zM35 179h165v8H35zM46 108h9v71h-9zM173 108h9v71h-9z" fill="url(#relic-gold)"/>
+<path d="M63 123h31l-11 12 11 12H64m97-24h-23l11 12-11 12h23M69 161h91" fill="none" stroke="#aa9160" stroke-width=".8" opacity=".6"/>
+<path d="M120 108l18 18-18 27-18-27z" fill="#182433" stroke="url(#relic-gold)" stroke-width="2"/>
+<path d="M120 116l10 11-10 16-10-16z" fill="#b5aac5"/><path d="M120 116v27l10-16z" fill="#736a91"/><path d="M110 127h20" stroke="#e4deec" stroke-width=".7"/>
+<g fill="#d0b981"><circle cx="50" cy="114" r="1.3"/><circle cx="50" cy="172" r="1.3"/><circle cx="178" cy="114" r="1.3"/><circle cx="178" cy="172" r="1.3"/></g></g>
+<g class="chest-lid"><path d="M26 99V78q4-44 87-44 75 0 87 44v21z" fill="url(#relic-lid)" stroke="#b09a6c" stroke-width="1.4"/>
+<path d="M200 99V78l15 15v20z" fill="#152132" stroke="#7b694a"/><path d="M31 84q83-25 164 0M32 69q82-38 161 0M40 53q73-31 143 0" fill="none" stroke="#a0a5a8" stroke-opacity=".12"/>
+<path d="M45 99V65q3-12 10-17v51zM173 99V48q7 5 9 17v34zM26 93h174v6H26z" fill="url(#relic-gold)"/>
+<path d="M74 68q39-32 79 0-39 27-79 0zM89 68q25-19 49 0-25 17-49 0z" fill="none" stroke="#c1ab78" stroke-width=".85" opacity=".75"/>
+<path d="M114 49l7 19-7 17-7-17z" fill="#c7b180"/><circle cx="114" cy="68" r="4" fill="#d6ccdf"/><path d="M62 85h101" stroke="#b49a68" stroke-opacity=".5" stroke-width=".7"/></g></svg>`;
+const GEM_SVG='<svg viewBox="0 0 24 28" aria-hidden="true"><path d="M12 1 21 8v12l-9 7-9-7V8z" fill="currentColor" stroke="currentColor" stroke-width=".7"/><path d="m12 1 4 9-4 17-4-17z" fill="#eee6fa" fill-opacity=".3"/><path d="m3 8 5 2 4-9M21 8l-5 2 5 10M3 20l5-10h8l-4 17" fill="none" stroke="#f0e9ff" stroke-opacity=".55" stroke-width=".65"/><path d="M12 1 3 8v12l9 7" fill="#10182d" fill-opacity=".2"/></svg>';
 function gemRow(filled,cls=''){return `<div class="gem-row ${cls}" aria-label="宝石 ${filled}/9">${Array.from({length:9},(_,i)=>`<span class="gem-slot ${i<filled?'filled':''}" style="--i:${i}">${GEM_SVG}</span>`).join('')}</div>`;}
 function playTreasure(lottery){
   return new Promise(resolve=>{
@@ -136,8 +154,8 @@ function playTreasure(lottery){
     const wait=ms=>new Promise(r=>setTimeout(r,reduced?Math.min(ms,150):ms));
     const scene=document.createElement('dialog');scene.className='treasure-dialog'+(reduced?' treasure-static':'');scene.setAttribute('aria-labelledby','treasure-title');
     scene.innerHTML=`<div class="treasure-sky" aria-hidden="true"></div><div class="treasure-rays" aria-hidden="true"></div><button class="quiet treasure-skip" id="treasure-skip">演出をとばす</button>
-    <div class="treasure-stage"><p class="treasure-kicker">DAILY FORGE · 鍛冶師の修練 達成</p><h2 id="treasure-title">宝箱が現れた！</h2>
-    <div class="treasure-roulette" aria-hidden="true"><div class="roulette-window"></div></div>
+    <div class="treasure-stage"><p class="treasure-kicker">DAILY FORGE · 鍛冶師の修練 達成</p><h2 id="treasure-title">叡智の宝箱</h2><p class="treasure-subtitle">今日の修練が、新たな力を呼び覚ます。</p>
+    <div class="treasure-seal" aria-hidden="true"><span>✦</span></div>
     <div class="treasure-chest">${CHEST_SVG}<div class="treasure-burst" aria-hidden="true">${Array.from({length:22},(_,i)=>`<i style="--a:${i*16.36}deg;--d:${(i%5)*.05}s"></i>`).join('')}</div><div class="treasure-item" aria-hidden="true"></div><div class="found-gem" aria-hidden="true">${GEM_SVG}</div></div>
     <div class="treasure-gems"><small>集めた宝石</small>${gemRow(before)}</div>
     <p class="treasure-message" id="treasure-message" role="status" aria-live="polite">${before===9?'9つの宝石が光を放っている…。':before?`宝石を ${before}個 持っている。9個集めると、次の宝箱で必ず装備が見つかる。`:'中には装備が眠っているかもしれない。'}</p>
@@ -147,34 +165,28 @@ function playTreasure(lottery){
     const $s=q=>scene.querySelector(q),msg=t=>{$s('#treasure-message').innerHTML=t;};
     let done=false,phase='closed',outcome=null;
     const finish=()=>{if(done)return;done=true;if(scene.open)scene.close();scene.remove();document.body.style.overflow=overflow;if(view==='home')renderHome();resolve(outcome);};
-    const setGems=n=>{scene.querySelectorAll('.treasure-gems .gem-slot').forEach((g,i)=>g.classList.toggle('filled',i<n));};
+    const setGems=n=>{$s('.gem-row').setAttribute('aria-label',`宝石 ${n}/9`);scene.querySelectorAll('.treasure-gems .gem-slot').forEach((g,i)=>g.classList.toggle('filled',i<n));};
     async function discover(){let response;await enqueue(s=>{response=G.discoverEquipment(s,DATA.catalog.equipment);return response.result.valid?response.state:s;});return response.result.valid?response.result:null;}
-    async function roulette(finalItem){
-      const win=$s('.roulette-window'),items=DATA.catalog.equipment;$s('.treasure-roulette').classList.add('spinning');
-      let delay=60,i=Math.floor(Math.random()*items.length);const total=reduced?1:20;
-      for(let k=0;k<total&&!done;k++){const it=k===total-1&&finalItem?finalItem:items[i++%items.length];win.innerHTML=`<div class="roulette-card ${k===total-1?'last':''}">${weaponArt(it).replace('loading="lazy"','loading="eager"')}</div>`;await wait(delay);delay=Math.min(320,delay*1.14);}
-      if(!finalItem){win.innerHTML='<div class="roulette-card fade">？</div>';}
-    }
     async function open(){
       if(phase!=='closed')return;phase='opening';const openBtn=$s('#treasure-open');openBtn.disabled=true;openBtn.textContent='開けています…';
       $s('.treasure-skip').hidden=true;
-      if(lottery.guaranteed){scene.classList.add('offering');msg('<b>9つの宝石が捧げられた！</b><br>宝石の力で、宝箱の奥の装備が呼び覚まされる。');scene.querySelectorAll('.treasure-gems .gem-slot').forEach((g,i)=>{g.style.setProperty('--fly',i);g.classList.add('offered');});await wait(2300);scene.querySelectorAll('.treasure-gems .gem-slot').forEach(g=>g.classList.remove('offered'));setGems(0);}
+      if(lottery.guaranteed){scene.classList.add('offering');msg('<b>9つの宝石が、ひとつの光に。</b><br>宝石の力で、宝箱の奥の装備が呼び覚まされる。');scene.querySelectorAll('.treasure-gems .gem-slot').forEach((g,i)=>{g.style.setProperty('--fly',i);g.classList.add('offered');});await wait(2300);scene.querySelectorAll('.treasure-gems .gem-slot').forEach(g=>g.classList.remove('offered'));setGems(0);}
       else msg('宝箱の鍵がゆっくり回る…。');
       scene.classList.add('shaking');
       let found=null;if(lottery.won)found=await discover();
       const item=found?DATA.catalog.equipment.find(x=>x.id===found.gearId):null;
-      await Promise.all([roulette(item),wait(reduced?0:2600)]);if(done)return;
+      await wait(reduced?0:2600);if(done)return;
       scene.classList.remove('shaking');
       if(lottery.won){
-        outcome={won:true,found};scene.classList.add('opened','won');$s('#treasure-title').textContent=found?(found.duplicate?'装備を発見！（所持済み）':'装備を発見！'):'装備箱を手に入れた！';
+        outcome={won:true,found};scene.classList.add('opened','won');$s('#treasure-title').textContent=found?(found.duplicate?'再び出会った装備':'新たな装備との出会い'):'装備箱を手に入れました';
         if(item)$s('.treasure-item').innerHTML=weaponArt(item).replace('loading="lazy"','loading="eager"');await wait(1100);
         const lostGems=!lottery.guaranteed&&before>0;
         msg(item?`<b class="item-name">${esc(item.name)}</b><br>${found.duplicate?'同じ装備だったので、鍛造素材 ＋3 に変わった。':'新しい装備が仲間に加わった。工房で鍛えられる。'}`:'装備箱は工房に保管しました。工房で開けられます。');
         if(lostGems){await wait(1500);scene.classList.add('gems-lost');msg(`${$s('#treasure-message').innerHTML}<br><span class="gems-lost-note">装備が見つかったので、集めた宝石 ${before}個は光となって消えた…。</span>`);await wait(1300);setGems(0);}
       }else{
-        outcome={won:false};scene.classList.add('opened','lost');$s('#treasure-title').textContent='装備は見つからなかった…';await wait(1000);
-        scene.classList.add('gem-found');$s('#treasure-title').textContent='でも、宝石を見つけた！';
-        msg(after===9?'<b>宝石が9個そろった！</b><br>次の宝箱では、宝石が捧げられて必ず装備が見つかる。':`宝石 ${after}/9。9個そろうと、次の宝箱で必ず装備が見つかる。<br><small>途中で装備が見つかると、宝石は消えてしまう。</small>`);
+        outcome={won:false};scene.classList.add('opened','lost');$s('#treasure-title').textContent='宝箱の奥に、淡い光が。';await wait(1000);
+        scene.classList.add('gem-found');$s('#treasure-title').textContent='叡智の結晶を発見';
+        msg(after===9?'<b>9つの宝石がそろいました。</b><br>次の宝箱では、宝石が捧げられて必ず装備が見つかる。':`宝石 ${after}/9。9個そろうと、次の宝箱で必ず装備が見つかる。<br><small>途中で装備が見つかると、宝石は消えてしまう。</small>`);
         await wait(900);setGems(after);
       }
       phase='done';$s('.treasure-actions').innerHTML=`<button class="primary" id="treasure-close">続ける ${icon('arrow')}</button>`;$s('#treasure-close').onclick=finish;$s('#treasure-close').focus();$s('.treasure-skip').hidden=false;$s('.treasure-skip').textContent='閉じる';

@@ -111,73 +111,70 @@ dialog::backdrop{background:#040813d6;backdrop-filter:blur(9px)}
 .hero-collection.locked>.unknown-hero-art{filter:none;opacity:1;background:transparent;padding:8px 0}.hero-collection.locked{background:radial-gradient(ellipse at 50% 26%,#736a8b3b,transparent 58%),#1c263a}.hero-collection.locked h3{letter-spacing:.18em;color:#9aa6bf}
 
 .exchange-choices{grid-template-columns:repeat(3,minmax(0,1fr));max-height:none;overflow:visible}.exchange-choice .hero-art{height:170px}.exchange-choices:empty{display:none}@media(max-width:560px){.exchange-choice .hero-art{height:105px}}
-/* Treasure chest event */
-.treasure-dialog{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;overflow:hidden;background:#070b19;color:#f3e7cc;isolation:isolate}
-.treasure-dialog::backdrop{background:#02040c;backdrop-filter:blur(10px)}
-.treasure-sky{position:absolute;inset:0;z-index:-3;background:radial-gradient(ellipse at 50% 55%,#3b2c1a 0%,#18142a 45%,#070b19 80%),url('assets/sanctuary.webp') center 70%/cover no-repeat;background-blend-mode:normal,soft-light;opacity:.95}
-.treasure-rays{position:absolute;left:50%;top:47%;width:170vmax;height:170vmax;transform:translate(-50%,-50%);z-index:-2;opacity:0;background:repeating-conic-gradient(from 0deg,#ffe5a033 0deg 6deg,transparent 6deg 18deg);-webkit-mask:radial-gradient(circle,#000 0,transparent 55%);mask:radial-gradient(circle,#000 0,transparent 55%);pointer-events:none}
-.won .treasure-rays{animation:treasure-rays-in 1s ease-out forwards,treasure-spin 24s linear infinite}
-.treasure-skip{position:absolute;top:20px;right:22px;z-index:5;background:#0b1229bf;border-color:#c9b48f66;color:#ddd5c2;font-size:12px;padding:9px 14px}
-.treasure-stage{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:40px 18px;text-align:center}
-.treasure-kicker{margin:0;font:11px Georgia,serif;letter-spacing:.32em;color:#c7b17c}
-.treasure-stage h2{margin:2px 0 4px;font:clamp(26px,4.4vw,44px)/1.35 "Yu Mincho","Hiragino Mincho ProN",serif;color:#f8e3b0;letter-spacing:.08em;text-shadow:0 2px 24px #d9a84a55;animation:treasure-fade .8s ease both}
-.treasure-roulette{height:118px;flex:none;width:150px;display:flex;align-items:center;justify-content:center;visibility:hidden}
-.treasure-roulette.spinning{visibility:visible}
-.opened .treasure-roulette{visibility:hidden}
-.roulette-window{width:118px;height:118px;border-radius:16px;border:2px solid #d9b56e;background:radial-gradient(circle,#3a2a50,#140f22);box-shadow:0 0 30px #d9b56e44,inset 0 0 20px #0008;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.roulette-card{width:100%;height:100%;display:flex;align-items:center;justify-content:center;animation:roulette-tick .12s ease-out;font:44px "Yu Mincho",serif;color:#bda5e0}
-.roulette-card .weapon-art{width:92px;height:92px;object-fit:contain;filter:brightness(.85) saturate(.7)}
-.roulette-card.last .weapon-art{filter:none}.roulette-card.fade{animation:treasure-fade .5s ease both;opacity:.6}
-.treasure-chest{position:relative;width:min(62vw,270px);aspect-ratio:240/200;animation:chest-drop .95s cubic-bezier(.2,1.6,.4,1) both}
-.chest-svg{width:100%;height:100%;overflow:visible;filter:drop-shadow(0 18px 24px #000a)}
-.chest-lid{transform-box:view-box;transform-origin:30px 100px;transition:transform .7s cubic-bezier(.2,1.5,.4,1)}
-.chest-glow{opacity:0;transition:opacity .4s}
-.shaking .chest-svg{animation:chest-shake .16s linear infinite}
-.shaking .chest-glow{opacity:.7;animation:glow-pulse .5s ease-in-out infinite alternate}
-.opened .chest-lid{transform:translate(-6px,-34px) rotate(-22deg)}
-.lost .chest-lid{transform:translate(-2px,-14px) rotate(-9deg)}
-.won .chest-glow{opacity:1}
-.treasure-burst{position:absolute;left:50%;top:48%;pointer-events:none}
-.treasure-burst i{position:absolute;width:7px;height:7px;border-radius:50%;background:#ffe39a;box-shadow:0 0 12px #ffd36a,0 0 26px #fff1c0;opacity:0}
-.won .treasure-burst i{animation:burst-out 1.3s var(--d) cubic-bezier(.1,.8,.3,1) both}
-.treasure-burst i:nth-child(3n){background:#cdb2ff;box-shadow:0 0 12px #b693ff}
-.treasure-item{position:absolute;left:50%;top:4%;width:58%;aspect-ratio:1;transform:translate(-50%,30%) scale(.2);opacity:0;pointer-events:none}
-.treasure-item .weapon-art{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 0 26px #ffe1a0) drop-shadow(0 0 60px #ffcf6a88)}
-.won .treasure-item{animation:item-rise 1.2s .25s cubic-bezier(.16,1.3,.3,1) forwards}
-.found-gem{position:absolute;left:50%;top:30%;width:44px;height:44px;color:#b78cff;opacity:0;transform:translate(-50%,40px) scale(.3);filter:drop-shadow(0 0 14px #c6a2ff)}
-.won .chest-lid{transform:translate(-24px,-44px) rotate(-34deg)}
-.gem-found .found-gem{animation:gem-rise 1.4s cubic-bezier(.16,1.2,.3,1) forwards}
-.treasure-gems{display:flex;flex-direction:column;align-items:center;gap:4px;margin-top:8px}
-.treasure-gems small{font-size:10px;letter-spacing:.2em;color:#a99f8d}
-.gem-row{display:flex;gap:7px}
-.gem-slot{width:26px;height:26px;color:#3a3550;opacity:.75;transition:color .5s,opacity .5s,transform .5s}
+/* Relic discovery shares the sanctuary's ink, antique gold and muted amethyst. */
+.treasure-dialog{position:fixed;inset:0;width:100%;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;overflow:auto;background:#0b1424;color:#ded8ca;isolation:isolate}
+.treasure-dialog::backdrop{background:#050b16;backdrop-filter:blur(10px)}
+.treasure-sky{position:fixed;inset:0;z-index:-3;background:radial-gradient(ellipse at 50% 46%,#13213822,#0b1424e8 78%),linear-gradient(#101a2ccc,#0b1424b8),url('assets/sanctuary.webp') center 62%/cover no-repeat}
+.treasure-sky:after{content:"";position:absolute;inset:22px;border:1px solid #b49a6833;box-shadow:inset 0 0 80px #030a1444;pointer-events:none}
+.treasure-rays{position:fixed;left:50%;top:44%;width:100vmax;height:100vmax;transform:translate(-50%,-50%);z-index:-2;opacity:0;background:repeating-conic-gradient(from 12deg,#c9ae7420 0deg 2deg,transparent 2deg 30deg);mask:radial-gradient(circle,#000 0,transparent 53%);pointer-events:none}
+.won .treasure-rays{animation:treasure-rays-in 1.4s ease-out forwards,treasure-spin 80s linear infinite}
+.treasure-skip{position:fixed;top:35px;right:38px;z-index:5;background:#0d1828d9;border-color:#b49a6844;color:#c6bda9;font-size:11px;padding:8px 13px}
+.treasure-stage{position:relative;min-height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:70px 24px 38px;text-align:center;box-sizing:border-box}
+.treasure-kicker{margin:0;font:10px/1.8 Georgia,"Yu Mincho",serif;letter-spacing:.26em;color:#b7a37c}
+.treasure-stage h2{margin:4px 0 0;font:clamp(25px,3.2vw,36px)/1.5 "Yu Mincho","Hiragino Mincho ProN",serif;color:#e3d4b3;letter-spacing:.12em;animation:treasure-fade .8s ease both}
+.treasure-subtitle{margin:0;color:#929eb0;font:12px/1.8 "Yu Mincho",serif;letter-spacing:.08em}
+.treasure-seal{position:absolute;left:50%;top:44%;width:min(74vw,370px);aspect-ratio:1;border:1px solid #bba16d20;border-radius:50%;transform:translate(-50%,-50%);pointer-events:none;z-index:-1;box-shadow:0 0 70px #c3a4670c,inset 0 0 70px #c3a4670c}
+.treasure-seal:before,.treasure-seal:after{content:"";position:absolute;inset:12px;border:1px solid #bba16d18;border-radius:50%}
+.treasure-seal:after{inset:44px;border-style:dashed;opacity:.6}
+.treasure-seal span{position:absolute;top:-13px;left:calc(50% - 12px);padding:0 6px;background:#111e30;color:#ae9565;font-size:16px}
+.treasure-chest{position:relative;flex:none;width:clamp(185px,27vw,270px);aspect-ratio:240/200;margin-top:105px;margin-bottom:6px;animation:chest-arrive 1.2s ease-out both}
+.chest-svg{width:100%;height:100%;overflow:visible;filter:drop-shadow(0 15px 24px #02081299)}
+.chest-lid{transform-box:view-box;transform-origin:30px 100px;transition:transform 1s cubic-bezier(.2,.7,.3,1)}
+.chest-glow{opacity:0;transition:opacity .8s}
+.shaking .chest-svg{animation:chest-breathe 1.5s ease-in-out infinite}
+.shaking .chest-glow,.offering .chest-glow{opacity:.65;animation:glow-pulse 1.3s ease-in-out infinite alternate}
+.opened .chest-lid{transform:translate(-3px,-24px) rotate(-14deg)}
+.won .chest-lid{transform:translate(-10px,-32px) rotate(-22deg)}
+.won .chest-glow{opacity:.85}
+.treasure-burst{position:absolute;left:50%;top:40%;pointer-events:none}
+.treasure-burst i{position:absolute;width:2px;height:5px;background:#dbc697;box-shadow:0 0 8px #dfc28d66;opacity:0}
+.won .treasure-burst i{animation:burst-out 2s var(--d) ease-out both}
+.treasure-burst i:nth-child(3n){background:#b5abc9}
+.treasure-item{position:absolute;left:50%;top:4%;width:66%;aspect-ratio:1;transform:translate(-50%,-30%) scale(.85);opacity:0;pointer-events:none}
+.treasure-item .weapon-art{width:100%;height:100%;object-fit:contain;padding:0;filter:drop-shadow(0 0 16px #ddc28d66) drop-shadow(0 12px 18px #020811)}
+.won .treasure-item{animation:item-rise 1.5s .15s ease-out forwards}
+.found-gem{position:absolute;left:50%;top:30%;width:42px;height:49px;color:#b0a1c8;opacity:0;transform:translate(-50%,0);filter:drop-shadow(0 0 14px #b9a5d344)}
+.gem-found .found-gem{animation:gem-rise 1.4s ease-out forwards}
+.treasure-gems{display:flex;flex-direction:column;align-items:center;gap:12px;padding:14px 25px 12px;border-top:1px solid #b49a682e;border-bottom:1px solid #b49a682e}
+.treasure-gems small{font:10px "Yu Mincho",serif;letter-spacing:.2em;color:#b8aa90}
+.gem-row{display:flex;gap:12px}
+.gem-slot{width:18px;height:23px;color:#293247;opacity:.7;transition:color .6s,opacity .6s,transform .6s}
 .gem-slot svg{width:100%;height:100%;display:block}
-.gem-slot.filled{color:#b48cff;opacity:1;filter:drop-shadow(0 0 7px #b48cffaa);animation:gem-pop .55s calc(var(--i)*.05s) ease-out both}
-.gem-slot.offered{animation:gem-offer 1.1s calc(var(--fly)*.12s) cubic-bezier(.5,0,.7,.4) forwards}
+.gem-slot:not(.filled) svg{opacity:.25;filter:grayscale(1)}
+.gem-slot.filled{color:#a99bbf;opacity:1;filter:drop-shadow(0 0 5px #c5b6dd44)}
+.gem-slot.offered{animation:gem-offer 1.4s calc(var(--fly)*.09s) ease-in forwards}
 .gems-lost .gem-slot.filled{animation:gem-vanish 1.2s calc(var(--i)*.07s) ease-in forwards}
-.offering .chest-glow{opacity:1;animation:glow-pulse .35s ease-in-out infinite alternate}
-.treasure-message{min-height:58px;max-width:520px;margin:6px 0 2px;font-size:14px;line-height:1.8;color:#e6dcc6}
-.treasure-message b{color:#ffe1a0;font-weight:600}.treasure-message .item-name{font:22px "Yu Mincho",serif;letter-spacing:.06em}
-.gems-lost-note{color:#c7b6e6;font-size:13px}.treasure-message small{color:#a99f8d}
-.treasure-actions .primary{min-width:200px;min-height:52px;font-size:16px;background:linear-gradient(180deg,#e2be6c,#b68631);color:#2a1a07;box-shadow:0 6px 24px #d9a84a55}
-.treasure-open:not(:disabled){animation:open-beckon 1.6s ease-in-out infinite}
-@keyframes chest-drop{0%{opacity:0;transform:translateY(-120px) scale(.7)}60%{opacity:1}100%{opacity:1;transform:none}}
-@keyframes chest-shake{0%,100%{transform:translate(0,0) rotate(0)}25%{transform:translate(-3px,1px) rotate(-1.5deg)}75%{transform:translate(3px,-1px) rotate(1.5deg)}}
-@keyframes glow-pulse{from{opacity:.45}to{opacity:1}}
-@keyframes burst-out{0%{opacity:1;transform:rotate(var(--a)) translateX(0) scale(1.2)}100%{opacity:0;transform:rotate(var(--a)) translateX(min(42vw,300px)) scale(.4)}}
-@keyframes item-rise{0%{opacity:0;transform:translate(-50%,30%) scale(.2)}100%{opacity:1;transform:translate(-50%,-90%) scale(1)}}
-@keyframes gem-rise{0%{opacity:0;transform:translate(-50%,40px) scale(.3)}60%{opacity:1;transform:translate(-50%,-126px) scale(1.35)}100%{opacity:1;transform:translate(-50%,-112px) scale(1.1)}}
-@keyframes gem-pop{0%{transform:scale(.4)}60%{transform:scale(1.25)}100%{transform:scale(1)}}
-@keyframes gem-offer{0%{transform:none;opacity:1}30%{transform:translateY(8px) scale(1.2);opacity:1}100%{transform:translate(calc((4 - var(--fly))*33px),-190px) scale(.2);opacity:0}}
-@keyframes gem-vanish{0%{opacity:1;filter:drop-shadow(0 0 7px #b48cffaa)}40%{color:#e9e2ff;filter:drop-shadow(0 0 16px #fff)}100%{opacity:0;transform:translateY(-36px) scale(.5);color:#e9e2ff}}
-@keyframes treasure-rays-in{to{opacity:1}}
+.treasure-message{min-height:76px;max-width:490px;margin:8px 0 2px;font-size:12px;line-height:1.9;color:#b4bdc9;overflow-wrap:anywhere}
+.treasure-message b{color:#dfcda7;font-weight:500}.treasure-message .item-name{font:23px/1.8 "Yu Mincho",serif;letter-spacing:.08em}
+.gems-lost-note{color:#aea2c0;font-size:11px}.treasure-message small{color:#8894a6;font-size:10px}
+.treasure-actions .primary{min-width:210px;min-height:46px;font-size:13px;background:linear-gradient(135deg,#baa071,#d1ba8c 50%,#af9568);border:1px solid #e2cea055;border-radius:5px;color:#192333;box-shadow:0 5px 20px #02071455,inset 0 1px 0 #f4e6c04d;letter-spacing:.08em}
+.treasure-actions .primary:hover{filter:brightness(1.08)}
+.treasure-actions .primary:focus-visible,.treasure-skip:focus-visible{outline:2px solid #ecdfbf;outline-offset:4px}
+@keyframes chest-arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes chest-breathe{0%,100%{filter:drop-shadow(0 15px 24px #02081299)}50%{filter:drop-shadow(0 12px 27px #c6a86a33)}}
+@keyframes glow-pulse{from{opacity:.35}to{opacity:.8}}
+@keyframes burst-out{0%{opacity:0;transform:rotate(var(--a)) translateX(10px)}20%{opacity:.7}100%{opacity:0;transform:rotate(var(--a)) translateX(min(34vw,200px))}}
+@keyframes item-rise{from{opacity:0;transform:translate(-50%,-15%) scale(.85)}to{opacity:1;transform:translate(-50%,-64%) scale(1)}}
+@keyframes gem-rise{from{opacity:0;transform:translate(-50%,0)}to{opacity:1;transform:translate(-50%,-100px)}}
+@keyframes gem-offer{from{opacity:1;transform:none}to{opacity:0;transform:translate(calc((4 - var(--fly))*30px),-150px) scale(.3)}}
+@keyframes gem-vanish{from{opacity:1}to{opacity:0;transform:translateY(-20px) scale(.6)}}
+@keyframes treasure-rays-in{to{opacity:.7}}
 @keyframes treasure-spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
 @keyframes treasure-fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
-@keyframes roulette-tick{from{transform:translateY(-14px);opacity:.3}to{transform:none;opacity:1}}
-@keyframes open-beckon{0%,100%{transform:none}50%{transform:translateY(-3px);box-shadow:0 10px 30px #e5b75a88}}
-@media(max-width:700px){.treasure-stage{gap:3px;padding:56px 14px 20px}.treasure-roulette{height:96px}.roulette-window{width:92px;height:92px}.roulette-card .weapon-art{width:72px;height:72px}.gem-slot{width:22px;height:22px}.gem-row{gap:5px}.treasure-message{font-size:12px}}
-@media(max-height:620px){.treasure-roulette{height:70px}.roulette-window{width:70px;height:70px}.treasure-chest{width:min(40vw,190px)}}
-@media(prefers-reduced-motion:reduce){.treasure-dialog *{animation-duration:.01s!important;animation-delay:0s!important}}
+@media(max-width:700px){.treasure-sky:after{inset:12px}.treasure-skip{top:22px;right:22px;font-size:10px}.treasure-stage{padding:66px 24px 28px;gap:7px}.treasure-kicker{font-size:8px;letter-spacing:.18em}.treasure-subtitle{font-size:10px}.treasure-chest{margin-top:100px;width:220px}.treasure-stage h2{font-size:25px}.treasure-message{font-size:11px;min-height:82px}.treasure-message .item-name{font-size:21px}.gem-row{gap:10px}.gem-slot{width:17px;height:21px}}
+@media(max-height:740px){.treasure-stage{padding-top:60px;padding-bottom:22px;gap:5px}.treasure-chest{width:190px;margin-top:82px;margin-bottom:0}.treasure-gems{gap:8px;padding-top:10px;padding-bottom:10px}.treasure-message{min-height:66px;margin-top:6px}.treasure-stage h2{font-size:25px}.treasure-actions .primary{min-height:44px}}
+/* The site's global reduced-motion rule disables animations; expose final states explicitly. */
+@media(prefers-reduced-motion:reduce){.won .treasure-item{opacity:1;transform:translate(-50%,-64%)}.gem-found .found-gem{opacity:1;transform:translate(-50%,-100px)}.gem-slot.offered,.gems-lost .gem-slot.filled{opacity:0}.won .treasure-rays{opacity:.4}}
 
 .painted-weapon{object-fit:contain;filter:drop-shadow(0 8px 12px #0006);transform:rotate(0);padding:8px}.gear-card .painted-weapon{width:100%;height:160px;margin:4px auto 12px}.gear-card.locked .painted-weapon{opacity:.65;filter:saturate(.5) drop-shadow(0 6px 12px #0005)}.weapon-showcase .painted-weapon{width:112px;height:125px}.gear-reveal .painted-weapon{width:150px;height:150px}.resource-art{width:32px;height:32px;object-fit:contain;vertical-align:middle;filter:drop-shadow(0 0 7px #a894d033)}.guild-icon .resource-art,.mission-symbol .resource-art{width:40px;height:40px}@media(max-width:560px){.gear-card .painted-weapon{height:126px}.weapon-showcase .painted-weapon{width:90px;height:100px}.resource-art{width:26px;height:26px}.gear-reveal .painted-weapon{width:105px;height:105px}}
 .hero-specific-silhouette{object-fit:contain!important;width:100%;height:160px;max-height:210px;opacity:1!important;filter:none!important}.hero-specific-silhouette.alpha-silhouette{filter:brightness(0)!important}.hero-collection.locked .hero-specific-silhouette{opacity:.85!important}.legacy-heroes{margin-top:30px;border-top:1px solid #384259;padding-top:20px}
@@ -633,8 +630,26 @@ async function openGuild(tab='heroes'){
 // Treasure chest shown when the daily calculation mission rolls the equipment lottery.
 // The roll is already committed in core (gearPity = gems held). This scene only presents it and, on a win,
 // opens the earned equipment box with the normal discovery transaction.
-const CHEST_SVG=`<svg class="chest-svg" viewBox="0 0 240 200" aria-hidden="true"><defs><linearGradient id="cw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a5a33"/><stop offset="1" stop-color="#4e2f1b"/></linearGradient><linearGradient id="cg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe7a3"/><stop offset=".5" stop-color="#d4a13f"/><stop offset="1" stop-color="#8e6420"/></linearGradient><radialGradient id="cl" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff7d6"/><stop offset="1" stop-color="#ffd27000"/></radialGradient></defs><ellipse class="chest-glow" cx="120" cy="104" rx="110" ry="40" fill="url(#cl)"/><g class="chest-body"><rect x="30" y="100" width="180" height="88" rx="8" fill="url(#cw)" stroke="#2c1a0e" stroke-width="3"/><path d="M30 122h180M30 166h180" stroke="#3a2313" stroke-width="2" opacity=".6"/><rect x="48" y="100" width="18" height="88" fill="url(#cg)"/><rect x="174" y="100" width="18" height="88" fill="url(#cg)"/><rect x="30" y="100" width="180" height="10" fill="url(#cg)"/><rect x="104" y="108" width="32" height="38" rx="5" fill="url(#cg)" stroke="#6b4612" stroke-width="2"/><circle cx="120" cy="122" r="5" fill="#3a2313"/><rect x="118" y="124" width="4" height="12" fill="#3a2313"/></g><g class="chest-lid"><path d="M30 100V76c0-30 40-48 90-48s90 18 90 48v24z" fill="url(#cw)" stroke="#2c1a0e" stroke-width="3"/><path d="M48 100V58c10-14 10-18 18-22v64zM192 100V58c-10-14-10-18-18-22v64z" fill="url(#cg)"/><path d="M30 92h180v8H30z" fill="url(#cg)"/><circle cx="120" cy="58" r="11" fill="#7b4fd0" stroke="url(#cg)" stroke-width="4"/></g></svg>`;
-const GEM_SVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10l5 6-10 12L2 9z" fill="currentColor"/><path d="M2 9h20M7 3l5 18 5-18M7 3 9.5 9 12 3l2.5 6L17 3" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width=".9"/></svg>';
+const CHEST_SVG=`<svg class="chest-svg" viewBox="0 0 240 200" aria-hidden="true"><defs>
+<linearGradient id="relic-wood" x2=".2" y2="1"><stop stop-color="#364455"/><stop offset=".48" stop-color="#1e2b3c"/><stop offset="1" stop-color="#101b2a"/></linearGradient>
+<linearGradient id="relic-gold" x2=".7" y2="1"><stop stop-color="#dfcca0"/><stop offset=".3" stop-color="#a78d5b"/><stop offset=".65" stop-color="#655238"/><stop offset="1" stop-color="#b49a68"/></linearGradient>
+<linearGradient id="relic-lid" x2="0" y2="1"><stop stop-color="#55616b"/><stop offset=".3" stop-color="#2c3b4c"/><stop offset="1" stop-color="#172334"/></linearGradient>
+<radialGradient id="relic-light"><stop stop-color="#f2dfb0" stop-opacity=".9"/><stop offset="1" stop-color="#d0b071" stop-opacity="0"/></radialGradient>
+</defs><ellipse cx="120" cy="187" rx="96" ry="10" fill="#020711" opacity=".65"/>
+<ellipse class="chest-glow" cx="120" cy="101" rx="116" ry="55" fill="url(#relic-light)"/>
+<g class="chest-body"><path d="M26 98h174l15 15v61l-15 13H36l-10-9z" fill="url(#relic-wood)" stroke="#9c855a" stroke-width="1.3"/>
+<path d="M200 99l15 14v61l-15 13z" fill="#0e1928" stroke="#7b694a"/><path d="M36 112h154v63H36z" fill="none" stroke="#b49a68" stroke-opacity=".35"/>
+<path d="M26 100h174v8H26zM35 179h165v8H35zM46 108h9v71h-9zM173 108h9v71h-9z" fill="url(#relic-gold)"/>
+<path d="M63 123h31l-11 12 11 12H64m97-24h-23l11 12-11 12h23M69 161h91" fill="none" stroke="#aa9160" stroke-width=".8" opacity=".6"/>
+<path d="M120 108l18 18-18 27-18-27z" fill="#182433" stroke="url(#relic-gold)" stroke-width="2"/>
+<path d="M120 116l10 11-10 16-10-16z" fill="#b5aac5"/><path d="M120 116v27l10-16z" fill="#736a91"/><path d="M110 127h20" stroke="#e4deec" stroke-width=".7"/>
+<g fill="#d0b981"><circle cx="50" cy="114" r="1.3"/><circle cx="50" cy="172" r="1.3"/><circle cx="178" cy="114" r="1.3"/><circle cx="178" cy="172" r="1.3"/></g></g>
+<g class="chest-lid"><path d="M26 99V78q4-44 87-44 75 0 87 44v21z" fill="url(#relic-lid)" stroke="#b09a6c" stroke-width="1.4"/>
+<path d="M200 99V78l15 15v20z" fill="#152132" stroke="#7b694a"/><path d="M31 84q83-25 164 0M32 69q82-38 161 0M40 53q73-31 143 0" fill="none" stroke="#a0a5a8" stroke-opacity=".12"/>
+<path d="M45 99V65q3-12 10-17v51zM173 99V48q7 5 9 17v34zM26 93h174v6H26z" fill="url(#relic-gold)"/>
+<path d="M74 68q39-32 79 0-39 27-79 0zM89 68q25-19 49 0-25 17-49 0z" fill="none" stroke="#c1ab78" stroke-width=".85" opacity=".75"/>
+<path d="M114 49l7 19-7 17-7-17z" fill="#c7b180"/><circle cx="114" cy="68" r="4" fill="#d6ccdf"/><path d="M62 85h101" stroke="#b49a68" stroke-opacity=".5" stroke-width=".7"/></g></svg>`;
+const GEM_SVG='<svg viewBox="0 0 24 28" aria-hidden="true"><path d="M12 1 21 8v12l-9 7-9-7V8z" fill="currentColor" stroke="currentColor" stroke-width=".7"/><path d="m12 1 4 9-4 17-4-17z" fill="#eee6fa" fill-opacity=".3"/><path d="m3 8 5 2 4-9M21 8l-5 2 5 10M3 20l5-10h8l-4 17" fill="none" stroke="#f0e9ff" stroke-opacity=".55" stroke-width=".65"/><path d="M12 1 3 8v12l9 7" fill="#10182d" fill-opacity=".2"/></svg>';
 function gemRow(filled,cls=''){return `<div class="gem-row ${cls}" aria-label="宝石 ${filled}/9">${Array.from({length:9},(_,i)=>`<span class="gem-slot ${i<filled?'filled':''}" style="--i:${i}">${GEM_SVG}</span>`).join('')}</div>`;}
 function playTreasure(lottery){
   return new Promise(resolve=>{
@@ -642,8 +657,8 @@ function playTreasure(lottery){
     const wait=ms=>new Promise(r=>setTimeout(r,reduced?Math.min(ms,150):ms));
     const scene=document.createElement('dialog');scene.className='treasure-dialog'+(reduced?' treasure-static':'');scene.setAttribute('aria-labelledby','treasure-title');
     scene.innerHTML=`<div class="treasure-sky" aria-hidden="true"></div><div class="treasure-rays" aria-hidden="true"></div><button class="quiet treasure-skip" id="treasure-skip">演出をとばす</button>
-    <div class="treasure-stage"><p class="treasure-kicker">DAILY FORGE · 鍛冶師の修練 達成</p><h2 id="treasure-title">宝箱が現れた！</h2>
-    <div class="treasure-roulette" aria-hidden="true"><div class="roulette-window"></div></div>
+    <div class="treasure-stage"><p class="treasure-kicker">DAILY FORGE · 鍛冶師の修練 達成</p><h2 id="treasure-title">叡智の宝箱</h2><p class="treasure-subtitle">今日の修練が、新たな力を呼び覚ます。</p>
+    <div class="treasure-seal" aria-hidden="true"><span>✦</span></div>
     <div class="treasure-chest">${CHEST_SVG}<div class="treasure-burst" aria-hidden="true">${Array.from({length:22},(_,i)=>`<i style="--a:${i*16.36}deg;--d:${(i%5)*.05}s"></i>`).join('')}</div><div class="treasure-item" aria-hidden="true"></div><div class="found-gem" aria-hidden="true">${GEM_SVG}</div></div>
     <div class="treasure-gems"><small>集めた宝石</small>${gemRow(before)}</div>
     <p class="treasure-message" id="treasure-message" role="status" aria-live="polite">${before===9?'9つの宝石が光を放っている…。':before?`宝石を ${before}個 持っている。9個集めると、次の宝箱で必ず装備が見つかる。`:'中には装備が眠っているかもしれない。'}</p>
@@ -653,34 +668,28 @@ function playTreasure(lottery){
     const $s=q=>scene.querySelector(q),msg=t=>{$s('#treasure-message').innerHTML=t;};
     let done=false,phase='closed',outcome=null;
     const finish=()=>{if(done)return;done=true;if(scene.open)scene.close();scene.remove();document.body.style.overflow=overflow;if(view==='home')renderHome();resolve(outcome);};
-    const setGems=n=>{scene.querySelectorAll('.treasure-gems .gem-slot').forEach((g,i)=>g.classList.toggle('filled',i<n));};
+    const setGems=n=>{$s('.gem-row').setAttribute('aria-label',`宝石 ${n}/9`);scene.querySelectorAll('.treasure-gems .gem-slot').forEach((g,i)=>g.classList.toggle('filled',i<n));};
     async function discover(){let response;await enqueue(s=>{response=G.discoverEquipment(s,DATA.catalog.equipment);return response.result.valid?response.state:s;});return response.result.valid?response.result:null;}
-    async function roulette(finalItem){
-      const win=$s('.roulette-window'),items=DATA.catalog.equipment;$s('.treasure-roulette').classList.add('spinning');
-      let delay=60,i=Math.floor(Math.random()*items.length);const total=reduced?1:20;
-      for(let k=0;k<total&&!done;k++){const it=k===total-1&&finalItem?finalItem:items[i++%items.length];win.innerHTML=`<div class="roulette-card ${k===total-1?'last':''}">${weaponArt(it).replace('loading="lazy"','loading="eager"')}</div>`;await wait(delay);delay=Math.min(320,delay*1.14);}
-      if(!finalItem){win.innerHTML='<div class="roulette-card fade">？</div>';}
-    }
     async function open(){
       if(phase!=='closed')return;phase='opening';const openBtn=$s('#treasure-open');openBtn.disabled=true;openBtn.textContent='開けています…';
       $s('.treasure-skip').hidden=true;
-      if(lottery.guaranteed){scene.classList.add('offering');msg('<b>9つの宝石が捧げられた！</b><br>宝石の力で、宝箱の奥の装備が呼び覚まされる。');scene.querySelectorAll('.treasure-gems .gem-slot').forEach((g,i)=>{g.style.setProperty('--fly',i);g.classList.add('offered');});await wait(2300);scene.querySelectorAll('.treasure-gems .gem-slot').forEach(g=>g.classList.remove('offered'));setGems(0);}
+      if(lottery.guaranteed){scene.classList.add('offering');msg('<b>9つの宝石が、ひとつの光に。</b><br>宝石の力で、宝箱の奥の装備が呼び覚まされる。');scene.querySelectorAll('.treasure-gems .gem-slot').forEach((g,i)=>{g.style.setProperty('--fly',i);g.classList.add('offered');});await wait(2300);scene.querySelectorAll('.treasure-gems .gem-slot').forEach(g=>g.classList.remove('offered'));setGems(0);}
       else msg('宝箱の鍵がゆっくり回る…。');
       scene.classList.add('shaking');
       let found=null;if(lottery.won)found=await discover();
       const item=found?DATA.catalog.equipment.find(x=>x.id===found.gearId):null;
-      await Promise.all([roulette(item),wait(reduced?0:2600)]);if(done)return;
+      await wait(reduced?0:2600);if(done)return;
       scene.classList.remove('shaking');
       if(lottery.won){
-        outcome={won:true,found};scene.classList.add('opened','won');$s('#treasure-title').textContent=found?(found.duplicate?'装備を発見！（所持済み）':'装備を発見！'):'装備箱を手に入れた！';
+        outcome={won:true,found};scene.classList.add('opened','won');$s('#treasure-title').textContent=found?(found.duplicate?'再び出会った装備':'新たな装備との出会い'):'装備箱を手に入れました';
         if(item)$s('.treasure-item').innerHTML=weaponArt(item).replace('loading="lazy"','loading="eager"');await wait(1100);
         const lostGems=!lottery.guaranteed&&before>0;
         msg(item?`<b class="item-name">${esc(item.name)}</b><br>${found.duplicate?'同じ装備だったので、鍛造素材 ＋3 に変わった。':'新しい装備が仲間に加わった。工房で鍛えられる。'}`:'装備箱は工房に保管しました。工房で開けられます。');
         if(lostGems){await wait(1500);scene.classList.add('gems-lost');msg(`${$s('#treasure-message').innerHTML}<br><span class="gems-lost-note">装備が見つかったので、集めた宝石 ${before}個は光となって消えた…。</span>`);await wait(1300);setGems(0);}
       }else{
-        outcome={won:false};scene.classList.add('opened','lost');$s('#treasure-title').textContent='装備は見つからなかった…';await wait(1000);
-        scene.classList.add('gem-found');$s('#treasure-title').textContent='でも、宝石を見つけた！';
-        msg(after===9?'<b>宝石が9個そろった！</b><br>次の宝箱では、宝石が捧げられて必ず装備が見つかる。':`宝石 ${after}/9。9個そろうと、次の宝箱で必ず装備が見つかる。<br><small>途中で装備が見つかると、宝石は消えてしまう。</small>`);
+        outcome={won:false};scene.classList.add('opened','lost');$s('#treasure-title').textContent='宝箱の奥に、淡い光が。';await wait(1000);
+        scene.classList.add('gem-found');$s('#treasure-title').textContent='叡智の結晶を発見';
+        msg(after===9?'<b>9つの宝石がそろいました。</b><br>次の宝箱では、宝石が捧げられて必ず装備が見つかる。':`宝石 ${after}/9。9個そろうと、次の宝箱で必ず装備が見つかる。<br><small>途中で装備が見つかると、宝石は消えてしまう。</small>`);
         await wait(900);setGems(after);
       }
       phase='done';$s('.treasure-actions').innerHTML=`<button class="primary" id="treasure-close">続ける ${icon('arrow')}</button>`;$s('#treasure-close').onclick=finish;$s('#treasure-close').focus();$s('.treasure-skip').hidden=false;$s('.treasure-skip').textContent='閉じる';
