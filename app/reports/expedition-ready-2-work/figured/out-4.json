@@ -1,0 +1,1626 @@
+[
+ {
+  "id": "selected-6828d12483e1cb44",
+  "figure": "figs/notion/6828d12483e1cb44.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": false,
+  "text": "次の図は1cm間隔で点をならべたものです。左下の●と、あと3この点を選んで、面積が4cm²の平行四辺形（長方形と正方形はのぞきます）を5通り作りましょう。",
+  "answer": null,
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "面積4cm²の平行四辺形は、底辺×高さ＝4になればよいです。",
+    "equation": ""
+   },
+   {
+    "title": "底辺と高さの組",
+    "body": "方眼の上では、底辺2cm・高さ2cm、または底辺1cm・高さ4cm（底辺4cm・高さ1cm）の組が考えられます。",
+    "equation": "2×2＝4、1×4＝4"
+   },
+   {
+    "title": "ななめにずらす",
+    "body": "長方形・正方形にならないよう、上の辺を横にずらした形にします。底辺と高さが同じなら面積は変わりません。",
+    "equation": ""
+   },
+   {
+    "title": "確かめ",
+    "body": "作った形を囲む長方形から外側の三角形を引いて、面積が4cm²か確かめます。",
+    "equation": ""
+   }
+  ],
+  "checkpoint": null,
+  "solverCheck": "図で数値・位置関係を確認。例：(0,0),(2,0),(3,2),(1,2)は面積4の平行四辺形。全5通りの原解答は未照合（作図のため）。",
+  "reason": "作図（平行四辺形を5通りかく）問題のため自動採点不可。図は問題用の点の並び②上・②下の5つのみ"
+ },
+ {
+  "id": "selected-b88f6578bb6a8f36",
+  "figure": "figs/notion/b88f6578bb6a8f36.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "（図2）は、長方形です。この長方形の面積がちょうど半分ずつになるように、折れ線ABCDで2つの部分アとイに分けます。\n(1) アの部分の面積は何cm²ですか。\n(2) ABの長さは何cmですか。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "160",
+     "d": "1",
+     "unit": "cm²",
+     "dimension": "area"
+    },
+    {
+     "label": "(2)",
+     "n": "10",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "長方形は16cm×20cmで、Aは下から7cm、Dは下から20−5＝15cmの高さです。",
+    "equation": ""
+   },
+   {
+    "title": "(1)",
+    "body": "アは全体の半分です。",
+    "equation": "16×20÷2＝160"
+   },
+   {
+    "title": "イを2つの長方形に",
+    "body": "イは、AB（横）×7cmの長方形と、残りの横（16−AB）×15cmの長方形に分けられます。",
+    "equation": ""
+   },
+   {
+    "title": "ABを求める",
+    "body": "ABを全部15cmの高さとみると16×15＝240で、160との差80は、ABの部分で高さが8cm低い分です。",
+    "equation": "（240－160）÷（15－7）＝10"
+   },
+   {
+    "title": "確かめ",
+    "body": "10×7＋6×15＝70＋90＝160cm²で半分になります。",
+    "equation": "10×7＋6×15＝160"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "Dは長方形の下の辺から何cmの高さにありますか。",
+   "answer": {
+    "n": "15",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。7x+15(16−x)=160→x=10。(1)160。資料と一致。"
+ },
+ {
+  "id": "selected-2fd27aeda5d46ab1",
+  "figure": "figs/notion/2fd27aeda5d46ab1.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "(図2)の四角形ABCDは長方形です。直線BFと直線EGは平行です。しゃ線部分の面積は何cm²ですか。",
+  "answer": {
+   "n": "33",
+   "d": "1",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "ABの長さがわかりません。これを□cmとして、平行の条件から求めます。",
+    "equation": ""
+   },
+   {
+    "title": "平行の傾きをそろえる",
+    "body": "BFはBC9cmで□−2cm上がり、EGは6cm進んで□−4cm上がります。平行なので、進んだ長さに対する上がる長さの割合が等しくなります。",
+    "equation": "(□−2)÷9＝(□−4)÷6"
+   },
+   {
+    "title": "高さを求める",
+    "body": "6×(□−2)＝9×(□−4)より、□＝8です。",
+    "equation": "6×□−12＝9×□−36　□＝8"
+   },
+   {
+    "title": "全体から引く",
+    "body": "長方形から、左上の三角形AEGと右下の三角形BCFを引きます。",
+    "equation": "9×8−4×6÷2−9×6÷2＝72−12−27＝33"
+   },
+   {
+    "title": "確かめ",
+    "body": "AB＝8なら、BFは9進んで6上がり、EGは6進んで4上がります。どちらも3進んで2上がるので平行です。",
+    "equation": "6÷9＝4÷6"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "辺ABの長さは何cmですか。",
+   "answer": {
+    "n": "8",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。AB=hとして(h-2)/9=(h-4)/6→h=8。72-12-27=33。資料33cm²と一致。"
+ },
+ {
+  "id": "selected-1d55c4fcf5bf5fc2",
+  "figure": "figs/notion/1d55c4fcf5bf5fc2.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "(図1)で、四角形ABCDは正方形、三角形CDEは直角三角形です。\n(1) 三角形ACEと面積が等しい三角形はどれですか。\n(2) 三角形ACFと面積が等しい三角形はどれですか。\n(3) CEの長さは何cmですか。\n【答えるのは(3)だけです】",
+  "answer": {
+   "n": "6",
+   "d": "1",
+   "unit": "cm",
+   "dimension": "length"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "正方形の1辺は12cm、DF＝8cmなので、CF＝4cmです。",
+    "equation": "12－8＝4"
+   },
+   {
+    "title": "等積",
+    "body": "三角形ACEとDCEは底辺CEが共通で、ADとCEが平行なので高さが同じです。共通の三角形CEFを引くと、三角形ACFとDEFの面積が等しくなります。",
+    "equation": ""
+   },
+   {
+    "title": "三角形ACF",
+    "body": "底辺CF＝4cm、高さ12cmです。",
+    "equation": "4×12÷2＝24"
+   },
+   {
+    "title": "CEを求める",
+    "body": "三角形DEFは底辺DF＝8cm、高さCEで24cm²です。",
+    "equation": "24×2÷8＝6"
+   },
+   {
+    "title": "確かめ",
+    "body": "三角形FCEとFDAは形が同じで、CF：DF＝4：8なので、CE＝12÷2＝6cmです。",
+    "equation": "12×4÷8＝6"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "三角形ACFの面積は何cm²ですか。",
+   "answer": {
+    "n": "24",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。ACF=24=DEF=8×CE/2→CE6。相似でも6。資料と一致。"
+ },
+ {
+  "id": "selected-2c5fa43844f9b994",
+  "figure": "figs/notion/2c5fa43844f9b994.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": false,
+  "text": "(図1)で、四角形ABCDは正方形、三角形CDEは直角三角形です。\n(1) 三角形ACEと面積が等しい三角形はどれですか。\n(2) 三角形ACFと面積が等しい三角形はどれですか。\n(3) CEの長さは何cmですか。\n【答えるのは(1)と(2)です】",
+  "answer": null,
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "ADとBE（BCの延長）は平行です。",
+    "equation": ""
+   },
+   {
+    "title": "(1) 底辺と高さが共通",
+    "body": "三角形ACEとCDEは底辺CEが共通で、AとDは平行線AD上にあるので高さも12cmで同じです。",
+    "equation": ""
+   },
+   {
+    "title": "(2) 共通部分を引く",
+    "body": "三角形ACEとCDEから、共通の三角形CEFを引くと、残りの三角形ACFとDEFの面積も等しくなります。",
+    "equation": ""
+   },
+   {
+    "title": "確かめ",
+    "body": "面積の等しい図形から同じ図形を引いても、残りの面積は等しいままです。",
+    "equation": ""
+   }
+  ],
+  "checkpoint": null,
+  "solverCheck": "図で数値・位置関係を確認。ACEとCDE同底同高、共通CEFを引きACF=DEF。資料と一致。",
+  "reason": "(1)(2)は面積の等しい三角形を記号で答える形式のため自動採点不可（答え：(1)三角形DCE (2)三角形DEF）"
+ },
+ {
+  "id": "selected-df244e53d07c48d1",
+  "figure": "figs/notion/df244e53d07c48d1.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "(図2)で、四角形ABCDは正方形、三角形CDEは直角三角形です。\n(1) 三角形CEFの面積は何cm²ですか。\n(2) DEの長さは何cmですか。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "54",
+     "d": "1",
+     "unit": "cm²",
+     "dimension": "area"
+    },
+    {
+     "label": "(2)",
+     "n": "9",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "正方形の1辺は18cm、CF＝12cmなので、DF＝6cmです。",
+    "equation": "18－12＝6"
+   },
+   {
+    "title": "等積を見つける",
+    "body": "三角形BCDとBCEは底辺BCが共通で、DEとBCが平行なので高さも同じです。共通の三角形BCFを引くと、三角形BDFとCEFの面積は等しくなります。",
+    "equation": ""
+   },
+   {
+    "title": "(1)",
+    "body": "三角形BDFは底辺DF＝6cm、高さ18cmです。",
+    "equation": "6×18÷2＝54"
+   },
+   {
+    "title": "(2)",
+    "body": "三角形CEFは底辺CF＝12cm、高さDEで54cm²です。",
+    "equation": "54×2÷12＝9"
+   },
+   {
+    "title": "確かめ",
+    "body": "三角形DEFとCBFは形が同じで、DF：CF＝6：12なので、DE＝18÷2＝9cmで合います。",
+    "equation": "18×6÷12＝9"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "DFの長さは何cmですか。",
+   "answer": {
+    "n": "6",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。DF6、BDF=54=CEF、DE=108/12=9。相似でも9。資料と一致。"
+ },
+ {
+  "id": "selected-6644863a143917e7",
+  "figure": "figs/notion/6644863a143917e7.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "(図1)で、四角形ABCDは長方形、三角形CDEは直角三角形です。\n(1) 三角形CEFの面積は何cm²ですか。\n(2) DEの長さは何cmですか。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "3",
+     "d": "1",
+     "unit": "cm²",
+     "dimension": "area"
+    },
+    {
+     "label": "(2)",
+     "n": "2",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "長方形はAD＝6cm、AB＝4cmで、FC＝3cmなのでDF＝1cmです。",
+    "equation": "4－3＝1"
+   },
+   {
+    "title": "対角線を補う",
+    "body": "BとDを結ぶと、三角形BCDとBCEは底辺BCが共通で高さも同じです。共通の三角形BCFを引くと、三角形BDFとCEFの面積は等しくなります。",
+    "equation": ""
+   },
+   {
+    "title": "(1)",
+    "body": "三角形BDFは底辺DF＝1cm、高さ6cmです。",
+    "equation": "1×6÷2＝3"
+   },
+   {
+    "title": "(2)",
+    "body": "三角形CEFは底辺CF＝3cm、高さDEで3cm²です。",
+    "equation": "3×2÷3＝2"
+   },
+   {
+    "title": "確かめ",
+    "body": "三角形DEFとCBFは形が同じで、DF：CF＝1：3なので、DE＝6÷3＝2cmです。",
+    "equation": "6×1÷3＝2"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "DFの長さは何cmですか。",
+   "answer": {
+    "n": "1",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。DF1、BDF=3=CEF、DE=2。相似でも2。資料と一致。"
+ },
+ {
+  "id": "selected-d662b7e3d551b65a",
+  "figure": "figs/notion/d662b7e3d551b65a.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "さとる君が通っている学校の6年生全員に、AとBの2問の問題を出したところ、\nAが正解だった人は全体の9/16。\nBが正解だった人は全体の13/24。\n両方ともまちがえた人は全体の1/6。\nAとBの両方が正解だった人は52人。\n(1) 表のア〜ウに当てはまる分数はいくつですか。\n(2) 表のエ・オに当てはまる分数はいくつですか。\n(3) 表のカ〜クに当てはまる分数はいくつですか。\n(4) この学校の6年生は何人ですか。\n(5) 両方ともまちがえた人は何人ですか。\n（早稲田佐賀　一部表現変更　表と設問追加）\n【答えるのは(1)〜(3)だけです】",
+  "answer": {
+   "parts": [
+    {
+     "label": "ア",
+     "n": "9",
+     "d": "16",
+     "unit": "",
+     "dimension": "scalar"
+    },
+    {
+     "label": "イ",
+     "n": "13",
+     "d": "24",
+     "unit": "",
+     "dimension": "scalar"
+    },
+    {
+     "label": "ウ",
+     "n": "1",
+     "d": "6",
+     "unit": "",
+     "dimension": "scalar"
+    },
+    {
+     "label": "エ",
+     "n": "7",
+     "d": "16",
+     "unit": "",
+     "dimension": "scalar"
+    },
+    {
+     "label": "オ",
+     "n": "11",
+     "d": "24",
+     "unit": "",
+     "dimension": "scalar"
+    },
+    {
+     "label": "カ",
+     "n": "13",
+     "d": "48",
+     "unit": "",
+     "dimension": "scalar"
+    },
+    {
+     "label": "キ",
+     "n": "13",
+     "d": "48",
+     "unit": "",
+     "dimension": "scalar"
+    },
+    {
+     "label": "ク",
+     "n": "7",
+     "d": "24",
+     "unit": "",
+     "dimension": "scalar"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "ア＝Aの正解9/16、イ＝Bの正解13/24、ウ＝両方まちがい1/6です。",
+    "equation": "ア、イ、ウ"
+   },
+   {
+    "title": "合計から引く",
+    "body": "エ＝1－9/16、オ＝1－13/24です。",
+    "equation": "7/16、11/24"
+   },
+   {
+    "title": "カを求める",
+    "body": "オからウを引くと、Bがまちがいの中のAの正解クになり、カ＝ア－クです。",
+    "equation": "11/24－1/6＝7/24、9/16－7/24＝13/48"
+   },
+   {
+    "title": "キを求める",
+    "body": "キ＝イ－カです。",
+    "equation": "13/24－13/48＝13/48"
+   },
+   {
+    "title": "確かめ",
+    "body": "カ＋キ＋ク＋ウ＝1になります。",
+    "equation": "13/48＋13/48＋14/48＋8/48＝1"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "Bがまちがいの人のうちAが正解の人の割合ク（全体に対する分数）の分子を48を分母にして答えなさい。",
+   "answer": {
+    "n": "14",
+    "d": "1",
+    "unit": "",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。ア9/16イ13/24ウ1/6エ7/16オ11/24カ13/48キ13/48ク7/24。資料と一致。"
+ },
+ {
+  "id": "selected-113497f925f56330",
+  "figure": "figs/notion/113497f925f56330.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "（図1）のように碁石を正六角形の形にならべていきます。\n(1) 3番目の正六角形にならぶ碁石は全部で何こですか。\n(2) 4番目の正六角形にならぶ碁石は全部で何こですか。\n(3) 5番目の正六角形で、いちばん外側のひとまわりにならぶ碁石は何こですか。\n(4) いちばん外側のひとまわりに54こならべたとき、碁石は全部で何こならべましたか。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "37",
+     "d": "1",
+     "unit": "こ",
+     "dimension": "scalar"
+    },
+    {
+     "label": "(2)",
+     "n": "61",
+     "d": "1",
+     "unit": "こ",
+     "dimension": "scalar"
+    },
+    {
+     "label": "(3)",
+     "n": "30",
+     "d": "1",
+     "unit": "こ",
+     "dimension": "scalar"
+    },
+    {
+     "label": "(4)",
+     "n": "271",
+     "d": "1",
+     "unit": "こ",
+     "dimension": "scalar"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "n番目のいちばん外側のひとまわりは6×nこです。",
+    "equation": "1番目は6こ"
+   },
+   {
+    "title": "全部を積み上げる",
+    "body": "中心の1こに、6、12、18、…と外側を足していきます。",
+    "equation": "1＋6＋12＋18＝37"
+   },
+   {
+    "title": "(2)(3)",
+    "body": "4番目は37＋24＝61こ、5番目の外側は6×5＝30こです。",
+    "equation": "6×5＝30"
+   },
+   {
+    "title": "(4)",
+    "body": "外側54こは9番目で、全部は1＋6×(1＋2＋…＋9)です。",
+    "equation": "1＋6×45＝271"
+   },
+   {
+    "title": "確かめ",
+    "body": "2番目は1＋6＋12＝19こで、1辺3この正六角形と合います。",
+    "equation": "19"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "外側のひとまわりが54このとき、何番目の正六角形ですか。",
+   "answer": {
+    "n": "9",
+    "d": "1",
+    "unit": "番目",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。1+3n(n+1)：37、61、外周30、n=9で271。資料と一致。"
+ },
+ {
+  "id": "selected-99520dc7b57fd834",
+  "figure": "figs/notion/99520dc7b57fd834.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "下の図は四分円と半円をかいたものです。・は中心です。円周率は3.14とします。 (1) 四分円OABの面積は何cm²ですか。 (2) 正方形OCDEの面積は何cm²ですか。 (3) しゃ線部分の面積は何cm²ですか。\n【答えるのは(3)だけです】",
+  "answer": {
+   "n": "57",
+   "d": "1",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "しゃ線部分は大きい四分円から、正方形OCDEと半径10cmの四分円2つを除いた部分です。",
+    "equation": ""
+   },
+   {
+    "title": "大きい四分円",
+    "body": "半径20cmです。",
+    "equation": "20×20×3.14÷4＝314"
+   },
+   {
+    "title": "除く部分",
+    "body": "正方形は1辺10cm、小さい四分円は半径10cmです。",
+    "equation": "10×10＋10×10×3.14÷4×2＝257"
+   },
+   {
+    "title": "しゃ線部分",
+    "body": "大きい四分円から引きます。",
+    "equation": "314−257＝57"
+   },
+   {
+    "title": "確かめ",
+    "body": "境界の弧BD・弧DAが小さい四分円の弧なので、除く図形の選び方が合っています。",
+    "equation": ""
+   }
+  ],
+  "checkpoint": {
+   "prompt": "正方形OCDEの面積は何cm²ですか。",
+   "answer": {
+    "n": "100",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。314-100-2×78.5=57。資料(3)と一致。"
+ },
+ {
+  "id": "selected-9ee9b83679a479f4",
+  "figure": "figs/notion/9ee9b83679a479f4.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "(図2)(図3)は半径6cmの円を3つかいたものです。それぞれの円の中心は、ほかの2つの円の円周上にあります。しゃ線部分の面積の合計は何cm²ですか。円周率は3.14とします。 (1) (図2)の場合 (2) (図3)の場合\n【答えるのは(2)だけです】",
+  "answer": {
+   "n": "471",
+   "d": "5",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "(図3)のしゃ線は、上の2円の重なりと、下の円のうちほかの2円の外側の部分です。",
+    "equation": ""
+   },
+   {
+    "title": "部分に分ける",
+    "body": "1辺6cmの正三角形を△、中心角60°の弓形を○とします。2円の重なりは△2つ＋○4つ、3円全部の重なりは△1つ＋○3つです。",
+    "equation": ""
+   },
+   {
+    "title": "まとめる",
+    "body": "下の円だけの部分は「円−(重なり2つ)＋3円の重なり」です。上の2円の重なりを足すと、残りは円から△1つ＋○1つ、つまり60°のおうぎ形1つを引いた面積です。",
+    "equation": "6×6×3.14−6×6×3.14÷6＝94.2"
+   },
+   {
+    "title": "確かめ",
+    "body": "94.2÷3.14＝30で、円1つ(36)より6だけ少なくなっています。",
+    "equation": "94.2÷3.14＝30"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "3つの中心を結んだ正三角形の1辺は何cmですか。",
+   "answer": {
+    "n": "6",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。「上2円の共通部分＋下円の他2円外部分」を格子計数→30π=94.2。資料(2)と一致。ただし範囲は図版で要確認。"
+ },
+ {
+  "id": "selected-970faef74921ea8f",
+  "figure": "figs/notion/970faef74921ea8f.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "(図2)のような直方体を2つ組み合わせた形の容器に、1分間に2.4Lの割合で水を入れていきました。\n水を入れ始めてから15分後の水面の高さは何cmですか。",
+  "answer": {
+   "n": "105",
+   "d": "2",
+   "unit": "cm",
+   "dimension": "length"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "下の直方体は底面30×20＝600cm²、高さ40cm、上の直方体は底面48×20＝960cm²です。1分間に2400cm³入ります。",
+    "equation": "600cm²と960cm²"
+   },
+   {
+    "title": "下の段がいっぱいになる時刻",
+    "body": "下の段の容積を1分間の水の量でわります。",
+    "equation": "600×40÷2400＝10分"
+   },
+   {
+    "title": "底面を切りかえる",
+    "body": "10分をこえると水は上の段に入るので、底面積960cm²で考えます。",
+    "equation": "2400×5＝12000cm³"
+   },
+   {
+    "title": "上の段での高さ",
+    "body": "残りの5分で入った水を上の段の底面積でわります。",
+    "equation": "12000÷960＝12.5cm"
+   },
+   {
+    "title": "答えと確かめ",
+    "body": "下の段40cmに足します。上の段の高さ20cmをこえていないので大丈夫です。",
+    "equation": "40＋12.5＝52.5cm"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "下の段がいっぱいになるのは何分後ですか。",
+   "answer": {
+    "n": "10",
+    "d": "1",
+    "unit": "分",
+    "dimension": "time"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。下24000cm³→10分、残5分12000/960＝12.5、計52.5。資料(3)と一致"
+ },
+ {
+  "id": "selected-619009f4c9e0689a",
+  "figure": "figs/notion/619009f4c9e0689a.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "次の図は、ある日、みささきさんが学校の近くの東駅から学校まで歩いたときの、時刻と道のりの関係を表したものです。また、東駅と学校の間には信号機のある交差点が1か所あります。\n(1) みささきさんは、信号が赤から青に変わるまで交差点で立ち止まっていました。みささきさんが交差点で立ち止まっていた時間は何秒間ですか。\n(2) みささきさんが、東駅から交差点まで歩いているとき、みささきさんの歩く速さは、時速何kmですか。\n(3) ひろしくんは、東駅から学校までみささきさんと同じ道を通って登校しています。図と同じ日にひろしくんは、7時59分に東駅を出て、学校まで時速6kmで走って登校しました。ひろしくんが学校に着いたのは何時何分ですか。\n(お茶の水女子大付属)\n【答えるのは(3)だけです】",
+  "answer": {
+   "dimension": "clock",
+   "h": "8",
+   "m": "4",
+   "unit": ""
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "グラフから、交差点は東駅から280m、学校は480mの所です。信号は8時2分に青になりました。",
+    "equation": "時速6km＝分速100m"
+   },
+   {
+    "title": "交差点に着く時刻",
+    "body": "ひろしくんは7時59分に出て280mを走ります。",
+    "equation": "280÷100＝2.8（分）＝2分48秒"
+   },
+   {
+    "title": "信号待ち",
+    "body": "8時1分48秒に着きますが、信号が青になる8時2分まで12秒待ちます。",
+    "equation": "8時2分－8時1分48秒＝12秒"
+   },
+   {
+    "title": "学校まで",
+    "body": "残り200mを2分で走ります。",
+    "equation": "8時2分＋200÷100分＝8時4分"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "ひろしくんの走る速さは分速何mですか。",
+   "answer": {
+    "n": "100",
+    "d": "1",
+    "unit": "m/分",
+    "dimension": "speed"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。6km/時=100m/分、交差点8:01:48着→8:02まで待ち、残200m/2分→8時4分。資料と一致（信号待ちを含めた場合）。"
+ },
+ {
+  "id": "selected-f2a838daa202dff8",
+  "figure": "figs/notion/f2a838daa202dff8.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図のような平行四辺形があります。\n(1) 18cmの辺を底辺とすると、高さは何cmになりますか。\n(2) この平行四辺形の面積を求めなさい。\n(3) 15cmの辺を底辺とすると、高さは図のxcmになります。このxを求めなさい。\n【答えるのは(3)だけです】",
+  "answer": {
+   "n": "78",
+   "d": "5",
+   "unit": "cm",
+   "dimension": "length"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "底辺18cmのとき高さは13cm、もう1つの辺は15cmです。",
+    "equation": ""
+   },
+   {
+    "title": "面積を先に",
+    "body": "面積は底辺18cm×高さ13cmで求められます。",
+    "equation": "18×13＝234"
+   },
+   {
+    "title": "同じ面積を別の底辺で",
+    "body": "15cmの辺を底辺にしても面積は234cm²のままなので、15でわると高さです。",
+    "equation": "234÷15＝15.6"
+   },
+   {
+    "title": "確かめ",
+    "body": "15×15.6＝234で面積と合います。",
+    "equation": "15×15.6＝234"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "この平行四辺形の面積は何cm²ですか。",
+   "answer": {
+    "n": "234",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。18×13=234、234/15=15.6。資料と一致。"
+ },
+ {
+  "id": "selected-0fce7e2dd1c3ec9a",
+  "figure": "figs/notion/0fce7e2dd1c3ec9a.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図のような台形ABCDがあります。ADの長さは14cmで、BCの長さは20cmです。\n(1) 辺BCのCの延長上に点Eをとり、三角形ABEの面積を台形ABCDの面積と等しくするには、CEを何cmにすればよいですか。\n(2) 辺BC上に点Fをとり、AFで台形ABCDの面積を2等分するには、BFを何cmにすればよいですか。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "14",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    },
+    {
+     "label": "(2)",
+     "n": "17",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "高さを□とすると、台形の面積は(14＋20)×□÷2です。三角形も同じ高さなので、高さは消せます。",
+    "equation": ""
+   },
+   {
+    "title": "等積の三角形",
+    "body": "三角形ABEの底辺BEが上底と下底の和34cmになれば、台形と同じ面積です。",
+    "equation": "BE＝14＋20＝34　CE＝34−20＝14"
+   },
+   {
+    "title": "2等分",
+    "body": "三角形ABFが台形の半分になるには、BFが34cmの半分であればよいです。",
+    "equation": "34÷2＝17"
+   },
+   {
+    "title": "確かめ",
+    "body": "BF＝17は辺BC20cmより短いので、FはBC上にとれます。",
+    "equation": "17×□÷2＝34×□÷4"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "台形の上底と下底の和は何cmですか。",
+   "answer": {
+    "n": "34",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。BE=AD+BC=34→CE=14。BF=34/2=17。資料と一致。"
+ },
+ {
+  "id": "selected-537008f0bcfe5e14",
+  "figure": "figs/notion/537008f0bcfe5e14.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "高さ15cmで面積270cm²の台形があります。いま、この台形を甲と乙の部分に2等分するために、右の図のような3つの方法を考えました。\n(1) （図4）のようにするには、BCの長さを何cmにすればよいですか。\n(2) （図5）では、ADの長さを6cmにしました。BCの長さを何cmにすればよいですか。\n(3) （図6）では、ABCDを平行四辺形にしました。BCの長さを何cmにすればよいですか。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "18",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    },
+    {
+     "label": "(2)",
+     "n": "12",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    },
+    {
+     "label": "(3)",
+     "n": "9",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "2等分なので、甲の面積は270÷2＝135cm²です。高さはどれも15cmです。",
+    "equation": "270÷2＝135"
+   },
+   {
+    "title": "(1) 三角形",
+    "body": "甲は底辺BC、高さ15cmの三角形です。",
+    "equation": "135×2÷15＝18"
+   },
+   {
+    "title": "(2) 台形",
+    "body": "甲は上底AD＝6cm、下底BC、高さ15cmの台形です。",
+    "equation": "135×2÷15－6＝12"
+   },
+   {
+    "title": "(3) 平行四辺形",
+    "body": "甲は底辺BC、高さ15cmの平行四辺形です。",
+    "equation": "135÷15＝9"
+   },
+   {
+    "title": "確かめ",
+    "body": "(2)は（6＋12）×15÷2＝135cm²で半分になります。",
+    "equation": "（6＋12）×15÷2＝135"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "甲の部分の面積は何cm²ですか。",
+   "answer": {
+    "n": "135",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。(1)270/15=18 (2)18−6=12 (3)135/15=9。資料と一致。"
+ },
+ {
+  "id": "selected-d91cb4ada32d8699",
+  "figure": "figs/notion/d91cb4ada32d8699.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": false,
+  "text": "1辺が8cmの正方形の紙を2枚作り、一方には対角線をかいて、右の図のように重ねました。\n(1) 右の図で三角形ENDと合同な三角形はどれですか。\n(2) 四角形EMCNの面積は何cm²ですか。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(2)",
+     "n": "16",
+     "d": "1",
+     "unit": "cm²",
+     "dimension": "area"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "Eは正方形ABCDの対角線の交点で、角FEH＝90°です。",
+    "equation": ""
+   },
+   {
+    "title": "合同を見つける",
+    "body": "角MEC＝角NED、EC＝ED、角ECM＝角EDN＝45°なので、三角形EMCと三角形ENDは合同です。",
+    "equation": ""
+   },
+   {
+    "title": "面積を移す",
+    "body": "四角形EMCNから三角形EMCを外し、合同な三角形ENDを付けると、三角形ECDになります。",
+    "equation": ""
+   },
+   {
+    "title": "面積",
+    "body": "三角形ECDは正方形の4分の1です。",
+    "equation": "8×8÷4＝16"
+   },
+   {
+    "title": "確かめ",
+    "body": "重ね方を変えても、四角形EMCNはいつも16cm²です。",
+    "equation": ""
+   }
+  ],
+  "checkpoint": {
+   "prompt": "正方形ABCDの面積は何cm²ですか。",
+   "answer": {
+    "n": "64",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。△END≡△EMC（90°回転）、EMCN=△ECD=16。資料と一致。",
+  "reason": "(1)は合同な三角形を記号で答える形式（答え：三角形EMC）で自動採点不可。(2)16cm²は数値で可"
+ },
+ {
+  "id": "selected-5c5fbcbf4e0de0de",
+  "figure": "figs/notion/5c5fbcbf4e0de0de.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "面積が162cm²の正方形の紙があります。右の図のように、BCに平行な直線DEを引いて、三角形ABCの面積を2等分します。\n(1) 三角形ADEの面積を求めなさい。\n(2) ADの長さを求めなさい。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "81",
+     "d": "2",
+     "unit": "cm²",
+     "dimension": "area"
+    },
+    {
+     "label": "(2)",
+     "n": "9",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "三角形ABCは正方形の半分で81cm²です。DEで2等分するので三角形ADEはその半分です。",
+    "equation": "162÷2÷2＝40.5"
+   },
+   {
+    "title": "三角形ADEの形",
+    "body": "DEがBCに平行なので、三角形ADEも角Aが直角の直角二等辺三角形です。AD＝AEです。",
+    "equation": ""
+   },
+   {
+    "title": "辺を求める",
+    "body": "AD×AD÷2＝40.5なので、AD×AD＝81です。",
+    "equation": "40.5×2＝81"
+   },
+   {
+    "title": "確かめ",
+    "body": "同じ数を2回かけて81になるのは9です。",
+    "equation": "9×9＝81"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "AD×ADはいくつですか。",
+   "answer": {
+    "n": "81",
+    "d": "1",
+    "unit": "",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。81/2=40.5, AD²=81→9。資料と一致。"
+ },
+ {
+  "id": "selected-1e96b9523329a7c0",
+  "figure": "figs/notion/1e96b9523329a7c0.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図は、1辺10cmの正五角形の3つの頂点を中心に、半径5cmのおうぎ形をかいたものです。円周率は3.14とします。\n(1) 斜線をつけたおうぎ形の中心角の和を求めなさい。\n(2) 斜線をつけたおうぎ形の弧の長さの和を求めなさい。\n【答えるのは(1)だけです】",
+  "answer": {
+   "n": "756",
+   "d": "1",
+   "unit": "度",
+   "dimension": "scalar"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "正五角形の1つの内角は108°で、おうぎ形は正五角形の外側にあります。",
+    "equation": ""
+   },
+   {
+    "title": "1つの中心角",
+    "body": "頂点のまわりは360°なので、正五角形の内側の108°を引いた残りがおうぎ形の中心角です。",
+    "equation": "360－108＝252"
+   },
+   {
+    "title": "3つ分",
+    "body": "同じおうぎ形が3つあるので3倍します。",
+    "equation": "252×3＝756"
+   },
+   {
+    "title": "確かめ",
+    "body": "3つの頂点のまわり全体1080°から、内角3つ分324°を引いても756°です。",
+    "equation": "360×3－108×3＝756"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "正五角形の1つの内角は何度ですか。",
+   "answer": {
+    "n": "108",
+    "d": "1",
+    "unit": "度",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。(360−108)×3=756。資料(1)756と一致。"
+ },
+ {
+  "id": "selected-e08ce2df8b458f1c",
+  "figure": "figs/notion/e08ce2df8b458f1c.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図は、1辺10cmの正五角形の3つの頂点を中心に、半径5cmのおうぎ形をかいたものです。円周率は3.14とします。\n(1) 斜線をつけたおうぎ形の中心角の和を求めなさい。\n(2) 斜線をつけたおうぎ形の弧の長さの和を求めなさい。\n【答えるのは(2)だけです】",
+  "answer": {
+   "n": "3297",
+   "d": "50",
+   "unit": "cm",
+   "dimension": "length"
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "正五角形の1つの角は108°です。おうぎ形は五角形の外側なので、中心角は360°から108°を引いた角です。",
+    "equation": "180×3÷5＝108"
+   },
+   {
+    "title": "中心角の和",
+    "body": "3つとも同じなので3倍します。",
+    "equation": "(360−108)×3＝756"
+   },
+   {
+    "title": "弧はまとめて計算",
+    "body": "半径が同じなら、弧の長さは中心角に比例します。中心角の和でまとめて求めます。",
+    "equation": "5×2×3.14×756/360＝65.94"
+   },
+   {
+    "title": "確かめ",
+    "body": "756°は2周と36°なので、円周31.4cmの2.1倍です。",
+    "equation": "31.4×2.1＝65.94"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "斜線をつけたおうぎ形の中心角の和は何度ですか。",
+   "answer": {
+    "n": "756",
+    "d": "1",
+    "unit": "度",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。(360-108)×3=756、10π×756/360=65.94。資料(2)と一致。"
+ },
+ {
+  "id": "selected-b08c098175aef2b2",
+  "figure": "figs/notion/b08c098175aef2b2.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図は、半径10cmの円柱を4個くくったものを真上から見たもので、A、B、C、Dは円の中心、E、F、G、Hはひもが円柱からはなれる点です。円周率は3.14とします。\n(1) 角BCDの大きさを求めなさい。\n(2) 角EAFの大きさを求めなさい。\n(3) まいてあるひもの1まわり（図の太線部分）の長さを求めなさい。\n【答えるのは(1)と(2)だけです】",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "120",
+     "d": "1",
+     "unit": "度",
+     "dimension": "scalar"
+    },
+    {
+     "label": "(2)",
+     "n": "60",
+     "d": "1",
+     "unit": "度",
+     "dimension": "scalar"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "となり合う円の中心どうしの距離は20cmで、上と下の円も接しています。",
+    "equation": ""
+   },
+   {
+    "title": "正三角形を見つける",
+    "body": "上の円と下の円も接するので、AC＝20cmです。三角形ABCとACDはどちらも1辺20cmの正三角形なので、角BCDは60°の2つ分です。",
+    "equation": "60×2＝120"
+   },
+   {
+    "title": "ひもと半径",
+    "body": "ひもが円からはなれる点では、半径とひもが直角です。ひもの直線部分は中心を結ぶ辺と平行になります。",
+    "equation": ""
+   },
+   {
+    "title": "角EAF",
+    "body": "A のまわり360°から、直角2つと角BAD（120°）を引きます。",
+    "equation": "360−90×2−120＝60"
+   },
+   {
+    "title": "確かめ",
+    "body": "4つの円のひもの弧の中心角を合わせると360°になります。",
+    "equation": "60＋120＋60＋120＝360"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "となり合う円の中心どうしの距離は何cmですか。",
+   "answer": {
+    "n": "20",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。中心ひし形は正三角形2つ→角BCD=120、角EAF=360-180-120=60。(3)20π+80=142.8も一致。"
+ },
+ {
+  "id": "selected-24366f1e1ddefac2",
+  "figure": "figs/notion/24366f1e1ddefac2.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図は、CAとCBの長さがともに8cmで、角Cの大きさが90度の直角二等辺三角形です。Bを中心とする半径8cmの円とABとの交わる点をD、DからBCに垂直に引いた直線とBCとの交わる点をEとします。円周率は3.14とします。\n(1) おうぎ形BCDのまわりの長さを求めなさい。\n(2) 斜線部分の面積を求めなさい。\n【答えるのは(1)だけです】",
+  "answer": {
+   "n": "557",
+   "d": "25",
+   "unit": "cm",
+   "dimension": "length"
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "おうぎ形BCDは、半径BC＝8cm、中心角は角Bです。",
+    "equation": ""
+   },
+   {
+    "title": "中心角",
+    "body": "直角二等辺三角形なので角Bは45°です。",
+    "equation": "(180−90)÷2＝45"
+   },
+   {
+    "title": "弧の長さ",
+    "body": "45°は1/8周です。",
+    "equation": "8×2×3.14÷8＝6.28"
+   },
+   {
+    "title": "まわりと確かめ",
+    "body": "半径2本を足します。",
+    "equation": "6.28＋8×2＝22.28"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "おうぎ形BCDの中心角は何度ですか。",
+   "answer": {
+    "n": "45",
+    "d": "1",
+    "unit": "度",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。16+16π/8=22.28。資料(1)と一致。"
+ },
+ {
+  "id": "selected-cd35206ce52de14e",
+  "figure": "figs/notion/cd35206ce52de14e.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図は、CAとCBの長さがともに8cmで、角Cの大きさが90度の直角二等辺三角形です。Bを中心とする半径8cmの円とABとの交わる点をD、DからBCに垂直に引いた直線とBCとの交わる点をEとします。円周率は3.14とします。\n(1) おうぎ形BCDのまわりの長さを求めなさい。\n(2) 斜線部分の面積を求めなさい。\n【答えるのは(2)だけです】",
+  "answer": {
+   "n": "228",
+   "d": "25",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "斜線部分は、おうぎ形BCDから三角形BDEを引いた部分です。",
+    "equation": ""
+   },
+   {
+    "title": "おうぎ形",
+    "body": "半径8cm、中心角45°です。",
+    "equation": "8×8×3.14÷8＝25.12"
+   },
+   {
+    "title": "三角形BDE",
+    "body": "直角二等辺三角形で斜辺BDが8cmです。斜辺×斜辺÷4で面積が出ます。",
+    "equation": "8×8÷4＝16"
+   },
+   {
+    "title": "斜線部分と確かめ",
+    "body": "おうぎ形から三角形BDEを引きます。",
+    "equation": "25.12−16＝9.12"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "三角形BDEの面積は何cm²ですか。",
+   "answer": {
+    "n": "16",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。8π−16=9.12。資料(2)と一致。"
+ },
+ {
+  "id": "selected-8b05c1205590a99d",
+  "figure": "figs/notion/8b05c1205590a99d.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図は、底面が五角形の角柱にまきつけてある糸を、ぴんとはりながらAからPまでほどいたとき、その先たんでできた図形です。五角形の1辺の長さはすべて1cmとし、円周率は3とします。\n(1) 角BCFの大きさを求めなさい。\n(2) 斜線部分の面積を求めなさい。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "120",
+     "d": "1",
+     "unit": "度",
+     "dimension": "scalar"
+    },
+    {
+     "label": "(2)",
+     "n": "37",
+     "d": "2",
+     "unit": "cm²",
+     "dimension": "area"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "A・Eが直角で辺がすべて1cmなので、五角形は正方形の上に正三角形をのせた形です。角Cは60°、角B・角Dは150°です。",
+    "equation": ""
+   },
+   {
+    "title": "角BCF",
+    "body": "FはDCをCの先にのばした線上なので、180°から角C を引きます。",
+    "equation": "180−60＝120"
+   },
+   {
+    "title": "弧の中心と半径",
+    "body": "糸はB・C・D・Eを中心に、半径1・2・3・4cmと増えながら、各頂点の外角（30°・120°・30°・90°）のおうぎ形をえがきます。",
+    "equation": ""
+   },
+   {
+    "title": "面積",
+    "body": "円周率3で計算します。",
+    "equation": "3×(1×1×30＋2×2×120＋3×3×30＋4×4×90)÷360＝18.5"
+   },
+   {
+    "title": "確かめ",
+    "body": "外角の合計は30＋120＋30＋90＝270°で、最後の糸の長さ4cmはEPと一致します。",
+    "equation": "1＋1＋1＋1＝4"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "角Cの大きさは何度ですか。",
+   "answer": {
+    "n": "60",
+    "d": "1",
+    "unit": "度",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。家形五角形。外角30,120,30,90、半径1..4、3×2220/360=18.5。資料と一致。"
+ },
+ {
+  "id": "selected-b94dfc1658799ef8",
+  "figure": "figs/notion/b94dfc1658799ef8.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "図のように、おうぎ形の2つの半径が正方形の2辺とちょうど重なるように置かれています。さらに、正方形の1辺を直径とする半円を2つかきました。図のぬりつぶした部分の面積の合計は、□cm²です。ただし、円周率は3.14とします。\n（慶應中等部）",
+  "answer": {
+   "n": "143",
+   "d": "2",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "ぬりつぶしは、1/4円の外側と、半円のどちらか一方だけに入る部分2つです。",
+    "equation": ""
+   },
+   {
+    "title": "1/4円の外",
+    "body": "正方形から1/4円を引きます。",
+    "equation": "100−78.5＝21.5"
+   },
+   {
+    "title": "葉形",
+    "body": "2つの半円が重なる葉形は、半径5cmの弓形2つです。",
+    "equation": "(5×5×3.14÷4−5×5÷2)×2＝14.25"
+   },
+   {
+    "title": "片方だけの部分",
+    "body": "半円2つから葉形を2回引きます。",
+    "equation": "39.25×2−14.25×2＝50"
+   },
+   {
+    "title": "合計と確かめ",
+    "body": "2つを足します。",
+    "equation": "21.5＋50＝71.5"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "2つの半円が重なる葉形の面積は何cm²ですか。",
+   "answer": {
+    "n": "57",
+    "d": "4",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。21.5+(78.5-28.5)=71.5。資料と一致。"
+ },
+ {
+  "id": "selected-276f0500e98cb27f",
+  "figure": "figs/notion/276f0500e98cb27f.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右のグラフは、ミドリさんが、おじさんの家へおつかいに行ったときのようすを表したものです。\n(1) おじさんの家に何分いましたか。\n(2) 行きの時速を求めなさい。\n(3) 帰りの時速を求めなさい。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "30",
+     "d": "1",
+     "unit": "分",
+     "dimension": "time"
+    },
+    {
+     "label": "(2)",
+     "n": "24",
+     "d": "5",
+     "unit": "km/時",
+     "dimension": "speed"
+    },
+    {
+     "label": "(3)",
+     "n": "3",
+     "d": "1",
+     "unit": "km/時",
+     "dimension": "speed"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "グラフの読み取り",
+    "body": "おじさんの家までは4kmで、行きは50分、家に着いたのは2時50分、出たのは3時20分、帰りは80分です（原図による）。",
+    "equation": "3時20分－2時50分＝30（分）"
+   },
+   {
+    "title": "行きの時速",
+    "body": "4kmを50分で進みました。",
+    "equation": "4÷50/60＝4.8（km/時）"
+   },
+   {
+    "title": "帰りの時速",
+    "body": "4kmを80分で進みました。",
+    "equation": "4÷80/60＝3（km/時）"
+   },
+   {
+    "title": "確かめ",
+    "body": "横ばいの部分がいた時間、かたむきが速さを表します。",
+    "equation": ""
+   }
+  ],
+  "checkpoint": {
+   "prompt": "行きにかかった時間は何分ですか。",
+   "answer": {
+    "n": "50",
+    "d": "1",
+    "unit": "分",
+    "dimension": "time"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。滞在30分、4÷5/6=4.8、4÷4/3=3（数値は原図確認メモによる。本文からは解けない）。資料と一致。"
+ },
+ {
+  "id": "selected-2bd642912d268403",
+  "figure": "figs/notion/2bd642912d268403.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "ナツキさんは、朝、家を出て学校に出かけましたが、途中で忘れ物に気づき、家に引き返しました。そのあとすぐにまた学校へ向かい、途中、文房具店で買い物をしたので、いつもよりおそく学校に着きました。右のグラフは、そのときのようすを表したものです。\n(1) 文房具店に何分いましたか。\n(2) 家に引き返さないで、文房具店にもよらないではじめの速さで行ったとしたら、何分かかりますか。\n(3) 引き返したあとの、家から文房具店までの分速を求めなさい。\n【答えるのは(2)だけです】",
+  "answer": {
+   "n": "30",
+   "d": "1",
+   "unit": "分",
+   "dimension": "time"
+  },
+  "steps": [
+   {
+    "title": "はじめの速さ",
+    "body": "グラフから、はじめは10分で600m進みました。",
+    "equation": "600÷10＝60（m/分）"
+   },
+   {
+    "title": "学校までの道のり",
+    "body": "学校は家から1800mです。",
+    "equation": "1800m"
+   },
+   {
+    "title": "寄り道しない場合",
+    "body": "はじめの速さで1800mを進みます。",
+    "equation": "1800÷60＝30（分）"
+   },
+   {
+    "title": "確かめ",
+    "body": "30分で60×30＝1800mとなり合います。",
+    "equation": "60×30＝1800"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "はじめの速さは分速何mですか。",
+   "answer": {
+    "n": "60",
+    "d": "1",
+    "unit": "m/分",
+    "dimension": "speed"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。600÷10=60、1800÷60=30分。資料(2)と一致。 原図では家に戻るのは約16分（problemTextの「20分で家」とは不一致）だが、(2)は10分で600m・学校1800mだけを使うので影響なし。"
+ },
+ {
+  "id": "selected-b2ac35dd39a1b4e4",
+  "figure": "figs/notion/b2ac35dd39a1b4e4.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "ミドリさんは8時に家を出て、歩いて4kmはなれた公園にでかけました。お父さんは8時15分に車で家を出発し、3分後にミドリさんに追いつき、ミドリさんを乗せて公園に向かったところ、8時25分に着きました。右のグラフは、そのときのようすを表したものです。\n(1) 車の時速を求めなさい。\n(2) お父さんがミドリさんに追いついたのは家から何kmのところですか。\n(3) ミドリさんが車に乗らずにそのまま歩いたとすると何時何分に公園に着きますか。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "24",
+     "d": "1",
+     "unit": "km/時",
+     "dimension": "speed"
+    },
+    {
+     "label": "(2)",
+     "n": "6",
+     "d": "5",
+     "unit": "km",
+     "dimension": "length"
+    },
+    {
+     "label": "(3)",
+     "dimension": "clock",
+     "h": "9",
+     "m": "0",
+     "unit": ""
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "車の速さ",
+    "body": "車は8時15分から8時25分の10分で4km進みました。",
+    "equation": "4÷10/60＝24（km/時）"
+   },
+   {
+    "title": "追いついた地点",
+    "body": "車は3分で追いつきました。",
+    "equation": "24×3/60＝1.2（km）"
+   },
+   {
+    "title": "歩く速さ",
+    "body": "ミドリさんは8時から8時18分の18分で1.2km歩きました。",
+    "equation": "1.2÷18/60＝4（km/時）"
+   },
+   {
+    "title": "歩きつづけた場合",
+    "body": "4kmを時速4kmで歩くと1時間かかります。",
+    "equation": "8時＋1時間＝9時00分"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "ミドリさんの歩く速さは時速何kmですか。",
+   "answer": {
+    "n": "4",
+    "d": "1",
+    "unit": "km/時",
+    "dimension": "speed"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。4÷(1/6)=24、24×0.05=1.2km、歩1.2÷0.3=4km/時→9時00分。資料と一致。"
+ },
+ {
+  "id": "selected-2f9c58b78e615821",
+  "figureOk": false,
+  "reason": "(1)は表の完成・(2)はグラフの作図。図版には長方形ABCDの図だけで、時間1〜14秒の表とグラフ用紙が無い。回答も表・作図で自動採点不可"
+ },
+ {
+  "id": "selected-5cdbe23ef40b43bf",
+  "figure": "figs/notion/5cdbe23ef40b43bf.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "点Pは長方形ABCDのBを出発し、C、Dを通ってAまで秒速2cmで進みます。\n三角形ABPが直角二等辺三角形になるのは、出発してから何秒後と何秒後ですか。",
+  "answer": {
+   "parts": [
+    {
+     "label": "ア",
+     "n": "2",
+     "d": "1",
+     "unit": "秒",
+     "dimension": "time"
+    },
+    {
+     "label": "イ",
+     "n": "12",
+     "d": "1",
+     "unit": "秒",
+     "dimension": "time"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "三角形ABPが直角二等辺三角形になるのは、BP＝AB（PがBC上）か、AP＝AB（PがDA上）のときです。",
+    "equation": ""
+   },
+   {
+    "title": "BC上",
+    "body": "BP＝4cmです。",
+    "equation": "4÷2＝2"
+   },
+   {
+    "title": "DA上",
+    "body": "AP＝4cmなので、進んだ長さは全体28cmから4cmを引いた長さです。",
+    "equation": "(12＋4＋12−4)÷2＝12"
+   },
+   {
+    "title": "確かめ",
+    "body": "CD上では角Bが直角でも角Aが直角でもないので、直角二等辺三角形になりません。",
+    "equation": ""
+   }
+  ],
+  "checkpoint": {
+   "prompt": "Bを出発してAに着くまでに進む長さは何cmですか。",
+   "answer": {
+    "n": "28",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図で数値・位置関係を確認。BP=4→2秒、AP=4→24cm→12秒。資料(3)と一致。"
+ }
+]

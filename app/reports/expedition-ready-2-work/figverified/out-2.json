@@ -1,0 +1,152 @@
+[
+ {
+  "id": "selected-5ce0dc98a03b9ee2",
+  "verdict": "pass",
+  "myAnswer": "357 cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-a1b81c8c67549c53",
+  "verdict": "pass",
+  "myAnswer": "42.84 cm (1071/25)",
+  "note": ""
+ },
+ {
+  "id": "selected-34858597d1077735",
+  "verdict": "pass",
+  "myAnswer": "51.48 cm² (1287/25)",
+  "note": ""
+ },
+ {
+  "id": "selected-d50cca2b62c3ee83",
+  "verdict": "pass",
+  "myAnswer": "92.52 cm² (2313/25)",
+  "note": ""
+ },
+ {
+  "id": "selected-0370c01bea21d9f1",
+  "verdict": "pass",
+  "myAnswer": "18.84 cm² (471/25)",
+  "note": ""
+ },
+ {
+  "id": "selected-fff17cdd4039fb77",
+  "verdict": "pass",
+  "myAnswer": "27.84 cm² (696/25)",
+  "note": ""
+ },
+ {
+  "id": "selected-59cabec80aef301b",
+  "verdict": "pass",
+  "myAnswer": "22.5 cm² (45/2)",
+  "note": ""
+ },
+ {
+  "id": "selected-6b320533b9c8a0d3",
+  "verdict": "pass",
+  "myAnswer": "56 cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-f70070b36da8f1d1",
+  "verdict": "pass",
+  "myAnswer": "76度",
+  "note": ""
+ },
+ {
+  "id": "selected-67e0274dca5e30da",
+  "verdict": "pass",
+  "myAnswer": "(1)31本 (2)27個",
+  "note": ""
+ },
+ {
+  "id": "selected-eada77ff10183158",
+  "verdict": "pass",
+  "myAnswer": "(1)180 (2)21行3列",
+  "note": ""
+ },
+ {
+  "id": "selected-73cc86d5b5f63a98",
+  "verdict": "fail",
+  "myAnswer": "121",
+  "note": "答え121・図・steps は正しいが、本文「表の列の場所で同じようにかこんだとき」は意味が通らずあいまい（problemText 由来の誤記で、原典は「表の別の場所で」と思われる）。原典で文面を確認し「別の場所」に直してから再検算。"
+ },
+ {
+  "id": "selected-49af8e232caee1fa",
+  "verdict": "pass",
+  "myAnswer": "(1)5通り (2)5通り (3)60通り",
+  "note": ""
+ },
+ {
+  "id": "selected-f5cb60edecb9a5bd",
+  "verdict": "pass",
+  "myAnswer": "(1)3通り (2)2通り (3)30通り",
+  "note": ""
+ },
+ {
+  "id": "selected-863ab3728ab35d3d",
+  "verdict": "pass",
+  "myAnswer": "(1)540 cm³ (2)15分",
+  "note": ""
+ },
+ {
+  "id": "selected-ca77fe385781aefb",
+  "verdict": "pass",
+  "myAnswer": "50 cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-5b7621c8e9866d97",
+  "verdict": "pass",
+  "myAnswer": "24 cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-008453f7291d73aa",
+  "verdict": "pass",
+  "myAnswer": "ア110度 イ63度 ウ45度",
+  "note": ""
+ },
+ {
+  "id": "selected-bc6b0644df4f9083",
+  "verdict": "pass",
+  "myAnswer": "ア118度 イ59度",
+  "note": ""
+ },
+ {
+  "id": "selected-0d8b8edcefb47664",
+  "verdict": "pass",
+  "myAnswer": "96 cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-880821aa82c96ea9",
+  "verdict": "pass",
+  "myAnswer": "6 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-fc97ce51b56791e8",
+  "verdict": "pass",
+  "myAnswer": "15 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-598b8053effaebb8",
+  "verdict": "pass",
+  "myAnswer": "8 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-649943c11904af10",
+  "verdict": "pass",
+  "myAnswer": "12 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-4160dd972d6c8b03",
+  "verdict": "pass",
+  "myAnswer": "60 cm",
+  "note": ""
+ }
+]

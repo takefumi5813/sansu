@@ -1,0 +1,1443 @@
+[
+ {
+  "id": "selected-22a006cb162db539",
+  "figure": "figs/notion/22a006cb162db539.png",
+  "figureOk": true,
+  "textOk": false,
+  "answerOk": true,
+  "reason": "本文が要約メモ形式（教材の問い文どおりでない）",
+  "text": "立方体のつみきを積んで、前・右・上から見たところ下の図のようになった。つみきは何個か。最も少ない場合を答えなさい。",
+  "answer": {
+   "n": "14",
+   "d": "1",
+   "unit": "個",
+   "dimension": "scalar"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "上から見ると3×3の9マスすべてに少なくとも1個あります。前から見た高さは左から3・2・1、右から見た高さは3・2・3です。",
+    "equation": "まず9マスに1個ずつ"
+   },
+   {
+    "title": "必要な高さを満たす",
+    "body": "左の列の手前と奥に3段を置けば、前から見た3と、右から見た手前・奥の3を同時に満たせます。",
+    "equation": "1マスで2つの条件をかねる"
+   },
+   {
+    "title": "残りの条件",
+    "body": "真ん中のマスに2段を置くと、前から見た2と右から見た2を同時に満たせます。",
+    "equation": "3 1 1／1 2 1／3 1 1"
+   },
+   {
+    "title": "個数と確かめ",
+    "body": "この置き方の合計を求め、3方向から見た形が条件どおりか確かめます。",
+    "equation": "3＋1＋1＋1＋2＋1＋3＋1＋1＝14個"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "上から見た9マスに1個ずつ置くと、まず何個になりますか。",
+   "answer": {
+    "n": "9",
+    "d": "1",
+    "unit": "個",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図：前から3・2・1段、右から3・2・3段、上から3×3全部。最少は(行1,列1)=3,(行3,列1)=3,(行2,列2)=2,残り6マス1で14。資料と一致"
+ },
+ {
+  "id": "selected-79ed2547d5f82ce5",
+  "figure": "figs/notion/79ed2547d5f82ce5.png",
+  "figureOk": true,
+  "textOk": false,
+  "answerOk": true,
+  "reason": "本文が要約メモ形式（教材の問い文どおりでない）",
+  "text": "立方体のつみきを積んで、前・右・上から見たところ下の図のようになった。つみきは何個か。最も多い場合を答えなさい。",
+  "answer": {
+   "n": "17",
+   "d": "1",
+   "unit": "個",
+   "dimension": "scalar"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "前から見た高さは左の列から3・2・1、右から見た高さは手前・真ん中・奥の行で3・2・3です。",
+    "equation": "列の上限3・2・1、行の上限3・2・3"
+   },
+   {
+    "title": "各マスの上限",
+    "body": "1つのマスの高さは、その列の上限と行の上限のどちらもこえられないので、小さいほうが上限です。",
+    "equation": "上限＝2つのうち小さいほう"
+   },
+   {
+    "title": "上限をならべる",
+    "body": "手前の行は3・2・1、真ん中の行は2・2・1、奥の行は3・2・1になります。",
+    "equation": "3 2 1／2 2 1／3 2 1"
+   },
+   {
+    "title": "個数と確かめ",
+    "body": "全部たします。この置き方でも3方向から見た形は変わりません。",
+    "equation": "6＋5＋6＝17個"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "真ん中の行の左のマスに積める最大の個数は何個ですか。",
+   "answer": {
+    "n": "2",
+    "d": "1",
+    "unit": "個",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図：列3・2・1、行3・2・3。各マスmin(列,行)の和＝6+5+6＝17。資料と一致"
+ },
+ {
+  "id": "selected-dc7f2f28965bfdd9",
+  "figure": "figs/notion/dc7f2f28965bfdd9.png",
+  "figureOk": true,
+  "textOk": false,
+  "answerOk": false,
+  "reason": "本文が要約メモ形式（教材の問い文どおりでない）。答えはくだものの名前（メロン）で自動採点不可",
+  "text": "4年生の1組・2組・3組ですきなくだものを調べた表（りんご・メロン・いちご・バナナ・そのた・合計。1組＝5・10・8・9・1・計33、2組＝4・12・7・6・3・計32、3組＝6・7・10・8・2・計33）。(1)バナナがすきな生徒は全部で何人 (2)4年生全体ですきな人数がいちばん多いくだものは何 (3)4年生全体で何人の生徒がいるか",
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "くだものごとに3つの組の人数をたします。",
+    "equation": "全組の合計"
+   },
+   {
+    "title": "合計する",
+    "body": "りんご15、メロン29、いちご25、バナナ23、そのた6です。",
+    "equation": "10＋12＋7＝29"
+   },
+   {
+    "title": "比べる",
+    "body": "いちばん多いのはメロンです。",
+    "equation": "29＞25"
+   },
+   {
+    "title": "確かめ",
+    "body": "組ごとのいちばんではなく、合計で比べます。",
+    "equation": "29"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "メロンがすきな生徒は全部で何人ですか。",
+   "answer": {
+    "n": "29",
+    "d": "1",
+    "unit": "人",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "表から合計：りんご15・メロン29・いちご25・バナナ23・そのた6→メロン。資料と一致"
+ },
+ {
+  "id": "selected-e1439dc19fbba560",
+  "figure": "figs/notion/e1439dc19fbba560.png",
+  "figureOk": true,
+  "textOk": false,
+  "answerOk": true,
+  "reason": "本文が要約メモ形式（教材の問い文どおりでない）",
+  "text": "4年生の1組・2組・3組ですきなくだものを調べた表（りんご・メロン・いちご・バナナ・そのた・合計。1組＝5・10・8・9・1・計33、2組＝4・12・7・6・3・計32、3組＝6・7・10・8・2・計33）。(1)バナナがすきな生徒は全部で何人 (2)4年生全体ですきな人数がいちばん多いくだものは何 (3)4年生全体で何人の生徒がいるか",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "23",
+     "d": "1",
+     "unit": "人",
+     "dimension": "scalar"
+    },
+    {
+     "label": "(3)",
+     "n": "98",
+     "d": "1",
+     "unit": "人",
+     "dimension": "scalar"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "表のバナナの列と合計の列を使います。",
+    "equation": "バナナ、合計"
+   },
+   {
+    "title": "(1)バナナ",
+    "body": "3つの組のバナナをたします。",
+    "equation": "9＋6＋8＝23"
+   },
+   {
+    "title": "(3)全体",
+    "body": "3つの組の合計をたします。",
+    "equation": "33＋32＋33＝98"
+   },
+   {
+    "title": "確かめ",
+    "body": "くだもの別の合計15＋29＋25＋23＋6も98です。",
+    "equation": "98"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "1組の人数は何人ですか。",
+   "answer": {
+    "n": "33",
+    "d": "1",
+    "unit": "人",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "表：バナナ9+6+8=23、合計33+32+33=98。資料と一致"
+ },
+ {
+  "id": "selected-16f241625f05fdc8",
+  "figure": "figs/notion/16f241625f05fdc8.png",
+  "figureOk": true,
+  "textOk": false,
+  "answerOk": false,
+  "reason": "本文が要約メモ形式（教材の問い文どおりでない）。答えが階級（範囲）で自動採点不可",
+  "text": "ケンタ君たちのボール投げの記録のグラフ（ヒストグラム）。横軸は0〜40m（5mごと）、たて軸は人数で、人数は左から2・3・5・8・10・6・4・2人。(1)人数の合計 (2)記録が長い方から数えて10番目の人は「何mをこえて何mまで」のグループ (3)ケンタ君の記録は13m。短い方から数えたとき、いちばんはやくて何番目、いちばんおそくて何番目",
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "長い方から、35〜40mが2人、30〜35mが4人、25〜30mが6人です。",
+    "equation": "2、4、6"
+   },
+   {
+    "title": "累積する",
+    "body": "長い方から数えると、2人、6人、12人と増えます。",
+    "equation": "2＋4＝6、6＋6＝12"
+   },
+   {
+    "title": "10番目を探す",
+    "body": "7番目から12番目が25mをこえて30mまでの階級です。",
+    "equation": "7〜12番目"
+   },
+   {
+    "title": "確かめ",
+    "body": "10番目は6人目より後で12人目以内です。",
+    "equation": "6＜10≦12"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "長い方から30mをこえる人は何人ですか。",
+   "answer": {
+    "n": "6",
+    "d": "1",
+    "unit": "人",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図：左から2・3・5・8・10・6・4・2人。長い方から2,6,12人→10番目は25mをこえ30mまで。資料と一致"
+ },
+ {
+  "id": "selected-ad0549338cf4b1a9",
+  "figure": "figs/notion/ad0549338cf4b1a9.png",
+  "figureOk": true,
+  "textOk": false,
+  "answerOk": true,
+  "reason": "本文が要約メモ形式（教材の問い文どおりでない）",
+  "text": "ケンタ君たちのボール投げの記録のグラフ（ヒストグラム）。横軸は0〜40m（5mごと）、たて軸は人数で、人数は左から2・3・5・8・10・6・4・2人。(1)人数の合計 (2)記録が長い方から数えて10番目の人は「何mをこえて何mまで」のグループ (3)ケンタ君の記録は13m。短い方から数えたとき、いちばんはやくて何番目、いちばんおそくて何番目",
+  "answer": {
+   "n": "40",
+   "d": "1",
+   "unit": "人",
+   "dimension": "scalar"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "各階級の人数は左から2・3・5・8・10・6・4・2人です。",
+    "equation": "8つの階級"
+   },
+   {
+    "title": "たす",
+    "body": "すべての階級の人数をたします。",
+    "equation": "2＋3＋5＋8＋10＋6＋4＋2＝40"
+   },
+   {
+    "title": "まとめてたす",
+    "body": "10になる組を作ると計算が楽です。",
+    "equation": "(2＋8)＋(3＋5＋2)＋10＋(6＋4)＝40"
+   },
+   {
+    "title": "確かめ",
+    "body": "2通りの足し方で同じ40になります。",
+    "equation": "40"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "0mから15mまでの人数は何人ですか。",
+   "answer": {
+    "n": "10",
+    "d": "1",
+    "unit": "人",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図の人数2+3+5+8+10+6+4+2=40。資料と一致"
+ },
+ {
+  "id": "selected-7ae7ac309898b28f",
+  "figure": "figs/notion/7ae7ac309898b28f.png",
+  "figureOk": true,
+  "textOk": false,
+  "answerOk": true,
+  "reason": "本文が要約メモ形式（教材の問い文どおりでない）",
+  "text": "ケンタ君たちのボール投げの記録のグラフ（ヒストグラム）。横軸は0〜40m（5mごと）、たて軸は人数で、人数は左から2・3・5・8・10・6・4・2人。(1)人数の合計 (2)記録が長い方から数えて10番目の人は「何mをこえて何mまで」のグループ (3)ケンタ君の記録は13m。短い方から数えたとき、いちばんはやくて何番目、いちばんおそくて何番目",
+  "answer": {
+   "parts": [
+    {
+     "label": "いちばんはやくて",
+     "n": "6",
+     "d": "1",
+     "unit": "番目",
+     "dimension": "scalar"
+    },
+    {
+     "label": "いちばんおそくて",
+     "n": "10",
+     "d": "1",
+     "unit": "番目",
+     "dimension": "scalar"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "13mは10mをこえて15mまでの階級で、その階級は5人です。",
+    "equation": "5人"
+   },
+   {
+    "title": "下の階級",
+    "body": "10m以下の人は2＋3＝5人です。",
+    "equation": "2＋3＝5"
+   },
+   {
+    "title": "いちばんはやい場合",
+    "body": "13mが階級の中でいちばん短ければ6番目です。",
+    "equation": "5＋1＝6"
+   },
+   {
+    "title": "いちばんおそい場合",
+    "body": "階級の中でいちばん長ければ10番目です。",
+    "equation": "5＋5＝10"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "10m以下の人は何人ですか。",
+   "answer": {
+    "n": "5",
+    "d": "1",
+    "unit": "人",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図：10mまで2+3=5人、10〜15mに5人→13mは6〜10番目。資料と一致"
+ },
+ {
+  "id": "selected-a4346201ed65be3c",
+  "figure": "figs/notion/a4346201ed65be3c.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": false,
+  "reason": "答えが角の名前（言葉）で自動採点不可",
+  "text": "図の直線AとBは平行です。\n(1) アとイの位置にある２つの角を何と言いますか。言葉で答えなさい。\n(2) イとエの位置にある２つの角を何と言いますか。言葉で答えなさい。\n(3) アとエの位置にある２つの角を何と言いますか。言葉で答えなさい。\n(4) ア、イ、ウ、エの角度をそれぞれ求めなさい。\n【答えるのは(1)(2)(3)です】",
+  "steps": [
+   {
+    "title": "位置を確認",
+    "body": "アはAとの交点の左下、イはBとの交点の左下、エはBとの交点の右上です。",
+    "equation": ""
+   },
+   {
+    "title": "同位角",
+    "body": "アとイは、それぞれの交点で同じ位置（左下）にあるので同位角です。",
+    "equation": ""
+   },
+   {
+    "title": "対頂角",
+    "body": "イとエは同じ交点で向かい合っているので対頂角です。",
+    "equation": ""
+   },
+   {
+    "title": "錯角",
+    "body": "アとエは2本の平行線の内側で、横切る線の反対側にあるので錯角です。",
+    "equation": ""
+   }
+  ],
+  "checkpoint": null,
+  "solverCheck": "図：アはAとの交点の左下、イはBとの交点の左下、エはBとの交点の右上→同位角・対頂角・錯角。資料と一致"
+ },
+ {
+  "id": "selected-1ffa54465a16f9d5",
+  "figure": "figs/notion/1ffa54465a16f9d5.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "図の直線AとBは平行です。ア、イ、ウ、エの角度をそれぞれ求めなさい。",
+  "answer": {
+   "parts": [
+    {
+     "label": "ア",
+     "n": "70",
+     "d": "1",
+     "unit": "度",
+     "dimension": "scalar"
+    },
+    {
+     "label": "イ",
+     "n": "70",
+     "d": "1",
+     "unit": "度",
+     "dimension": "scalar"
+    },
+    {
+     "label": "ウ",
+     "n": "110",
+     "d": "1",
+     "unit": "度",
+     "dimension": "scalar"
+    },
+    {
+     "label": "エ",
+     "n": "70",
+     "d": "1",
+     "unit": "度",
+     "dimension": "scalar"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "Aとの交点では右上が70°で、アはその向かい側です。Bとの交点の角はエ・イ・ウです。",
+    "equation": ""
+   },
+   {
+    "title": "対頂角",
+    "body": "アは70°の対頂角なので70°です。",
+    "equation": "ア＝70"
+   },
+   {
+    "title": "同位角で移す",
+    "body": "AとBは平行なので、Bとの交点の右上エは、Aとの交点の右上70°と同位角で等しくなります。イはエの対頂角です。",
+    "equation": "エ＝イ＝70"
+   },
+   {
+    "title": "一直線",
+    "body": "ウはエと一直線上でとなり合うので、180°から引きます。",
+    "equation": "ウ＝180－70＝110"
+   },
+   {
+    "title": "確かめ",
+    "body": "Bとの交点の4つの角は70＋110＋70＋110＝360°です。",
+    "equation": "70＋110＋70＋110＝360"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "Bとの交点で、となり合う2つの角の和は何度ですか。",
+   "answer": {
+    "n": "180",
+    "d": "1",
+    "unit": "度",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図：Aとの交点の右上70°。ア＝70(対頂角)、エ＝70(同位角)、イ＝70(エの対頂角)、ウ＝180−70＝110。資料と一致"
+ },
+ {
+  "id": "selected-7dc530d04ebe4241",
+  "figure": "figs/notion/7dc530d04ebe4241.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図で、同じ印をつけた角度は同じ大きさです。アの角度を求めなさい。",
+  "answer": {
+   "n": "112",
+   "d": "1",
+   "unit": "度",
+   "dimension": "scalar"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "頂角が44°で、左下の角は●2つ、右下の角は△2つに分けられています。",
+    "equation": ""
+   },
+   {
+    "title": "2つの底角の和",
+    "body": "左下と右下の角の和は180°から44°を引いた角です。",
+    "equation": "●×2＋△×2＝180－44＝136"
+   },
+   {
+    "title": "半分を使う",
+    "body": "アをふくむ小さい三角形は●1つと△1つを使うので、その和は136°の半分です。",
+    "equation": "●＋△＝136÷2＝68"
+   },
+   {
+    "title": "アを求める",
+    "body": "小さい三角形の内角の和からアを求めます。",
+    "equation": "180－68＝112"
+   },
+   {
+    "title": "確かめ",
+    "body": "ア＝90＋44÷2＝112°ともなり、合っています。",
+    "equation": "90＋22＝112"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "●1つと△1つの和は何度ですか。",
+   "answer": {
+    "n": "68",
+    "d": "1",
+    "unit": "度",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図：頂角44°、底角を●●・△△に二等分。●+△=(180−44)÷2=68、ア=180−68=112。資料と一致"
+ },
+ {
+  "id": "selected-f2e27128a4437302",
+  "figure": "figs/notion/f2e27128a4437302.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図は長方形を組み合わせた図形です。この図形全体の面積が81cm²のとき、□の部分の長さを求めなさい。",
+  "answer": {
+   "n": "3",
+   "d": "1",
+   "unit": "cm",
+   "dimension": "length"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "全体は横12cm、たて8cmの長方形から、左上の角が欠けた形です。",
+    "equation": ""
+   },
+   {
+    "title": "囲む長方形",
+    "body": "まず欠けた部分もふくめた長方形の面積を求めます。",
+    "equation": "12×8＝96"
+   },
+   {
+    "title": "欠けた部分",
+    "body": "欠けた部分の面積は96から81を引いた分で、その横は12−7＝5cmです。",
+    "equation": "96－81＝15"
+   },
+   {
+    "title": "□を求める",
+    "body": "欠けた長方形の面積を横でわります。",
+    "equation": "15÷5＝3"
+   },
+   {
+    "title": "確かめ",
+    "body": "96−5×3＝81cm²で合っています。",
+    "equation": "96－15＝81"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "欠けた部分の面積は何cm²ですか。",
+   "answer": {
+    "n": "15",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図：上7cm・右8cm・下12cm・左上段差□。12×8−(12−7)×□＝81→□＝3。資料と一致"
+ },
+ {
+  "id": "selected-c3e38b0256e711f7",
+  "figure": "figs/notion/c3e38b0256e711f7.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "下の図の四角形ABCDは長方形です。色のついた部分の面積を求めなさい。",
+  "answer": {
+   "n": "159",
+   "d": "1",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "長方形は20cm×15cmで面積300cm²です。2本の点線で、まわりの白い直角三角形が分けられます。",
+    "equation": "20×15＝300"
+   },
+   {
+    "title": "真ん中の小さな長方形",
+    "body": "2本の点線が交わってできる真ん中の小さな長方形は、横6cm、たて3cmです。",
+    "equation": "6×3＝18"
+   },
+   {
+    "title": "白と色の関係",
+    "body": "まわりの4つの長方形は、それぞれ対角線で色と白に半分ずつに分かれます。真ん中の小さな長方形だけは全部が色です。",
+    "equation": ""
+   },
+   {
+    "title": "色の面積",
+    "body": "全体から真ん中を引いて半分にし、真ん中を加えます。",
+    "equation": "（300－18）÷2＋18＝159"
+   },
+   {
+    "title": "確かめ",
+    "body": "（300＋18）÷2＝159とも計算でき、同じになります。",
+    "equation": "318÷2＝159"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "真ん中の小さな長方形の面積は何cm²ですか。",
+   "answer": {
+    "n": "18",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図：BC20・DC15、点線でできる内側の長方形6×3。(20×15+6×3)÷2＝159。資料と一致"
+ },
+ {
+  "id": "selected-134c8ddbdae739b9",
+  "figure": "figs/notion/134c8ddbdae739b9.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "下の図のように、長さ10cmのテープを、のりしろとして2cmずつ重ねて15本つなげると、全体の長さは何cmになりますか。",
+  "answer": {
+   "n": "122",
+   "d": "1",
+   "unit": "cm",
+   "dimension": "length"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "10cmのテープを15本、2cmずつ重ねます。",
+    "equation": "10×15＝150（cm）"
+   },
+   {
+    "title": "のりしろの数",
+    "body": "となり合うテープの間にのりしろがあるので、のりしろは本数より1つ少ないです。",
+    "equation": "15－1＝14（か所）"
+   },
+   {
+    "title": "重なった分を引く",
+    "body": "重なった長さだけ短くなります。",
+    "equation": "150－2×14＝122（cm）"
+   },
+   {
+    "title": "確かめ",
+    "body": "2本なら10＋10－2＝18cmで、のりしろ1か所と合います。",
+    "equation": "10×2－2×1＝18"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "のりしろは何か所ありますか。",
+   "answer": {
+    "n": "14",
+    "d": "1",
+    "unit": "か所",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図：1本10cmのテープが重なってつながる。10×15−2×14＝122。資料と一致"
+ },
+ {
+  "id": "selected-506ceb2afec1725b",
+  "figure": "figs/notion/506ceb2afec1725b.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の立体は、立方体から立方体を切り取ったものです。この立体の表面積を求めなさい。",
+  "answer": {
+   "n": "600",
+   "d": "1",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "1辺10cmの立方体のかどから、1辺4cmの立方体を切り取っています。",
+    "equation": "元の表面積＝10×10×6＝600cm²"
+   },
+   {
+    "title": "なくなる面",
+    "body": "かどを切り取ると、外がわの3つの面から4×4の正方形が1つずつなくなります。",
+    "equation": "4×4×3＝48cm²"
+   },
+   {
+    "title": "新しくできる面",
+    "body": "切り取ったあとには、内がわに向いた4×4の正方形が3つ出てきます。",
+    "equation": "4×4×3＝48cm²"
+   },
+   {
+    "title": "答えと確かめ",
+    "body": "なくなる面と新しい面が同じなので、表面積は変わりません。",
+    "equation": "600−48＋48＝600cm²"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "切り取ったことで、なくなった面の面積は合計何cm²ですか。",
+   "answer": {
+    "n": "48",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図：1辺10cmの立方体の上の角から1辺4cmの立方体を切り取る。減る面3×16＝増える面3×16→600。資料と一致"
+ },
+ {
+  "id": "selected-2c7adc30192fec62",
+  "figure": "figs/notion/2c7adc30192fec62.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": false,
+  "reason": "答えが頂点の記号で自動採点不可",
+  "text": "右の図の立方体の面アオカイに「G」の文字を書きました。それぞれの展開図で、（　）にあてはまる記号を書きなさい。\n【答えるのは(1)だけです】",
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "4番目の正方形が「G」の面アオカイです。Gが正しい向きなので、左上ア・右上イ・右下カ・左下オと決まります。",
+    "equation": "4番目：左上ア、左下オ"
+   },
+   {
+    "title": "文字の向きで面を固定",
+    "body": "Gの向きから見取り図との向きが決まり、となりの面へ頂点を順に写せます。",
+    "equation": "となりの面は辺を共有"
+   },
+   {
+    "title": "左へたどる",
+    "body": "4番目の左にある面とその先へ、共有する辺の頂点を順にたどります。",
+    "equation": "1番目の左上＝イ、1・2番目の間の下＝キ"
+   },
+   {
+    "title": "上の面と確かめ",
+    "body": "2番目の上の正方形の右上はアになります。3か所ともちがう頂点か確かめます。",
+    "equation": "ア・イ・キ"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "立方体の頂点は全部で何個ありますか。",
+   "answer": {
+    "n": "8",
+    "d": "1",
+    "unit": "個",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "見取り図（ア〜ク、面アオカイにG）と展開図(1)を図に収録。資料(1)の答え（ア・イ・キ）は authored の検算どおり"
+ },
+ {
+  "id": "selected-41bfb9a0a29690bf",
+  "figure": "figs/notion/41bfb9a0a29690bf.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": false,
+  "reason": "答えが辺の記号で自動採点不可",
+  "text": "右の展開図を組み立てて、直方体を作ります。\n(1) 頂点Gと重なる点をすべて答えなさい。\n(2) 辺IJと重なる辺を答えなさい。\n(3) 面イと垂直になる面をすべて答えなさい。\n【答えるのは(2)だけです】",
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "真ん中の段のイ・ウ・エ・オは、組み立てると帯のように1周して側面になります。",
+    "equation": "帯の両はしがつながる"
+   },
+   {
+    "title": "帯の両はしを合わせる",
+    "body": "オの右の辺JIと、イの左の辺BCがぴったり重なります。",
+    "equation": "J＝B、I＝C"
+   },
+   {
+    "title": "辺を答える",
+    "body": "IJと重なるのは、Iと重なるC、Jと重なるBを結んだ辺です。",
+    "equation": "辺CB"
+   },
+   {
+    "title": "確かめ",
+    "body": "IJもCBも長さが同じ側面のたての辺です。",
+    "equation": "IJ＝CB"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "帯になる側面（イ・ウ・エ・オ）は何面ありますか。",
+   "answer": {
+    "n": "4",
+    "d": "1",
+    "unit": "面",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図：展開図A〜N・ア〜カを確認。帯を閉じてJ＝B、I＝C→IJ＝CB。資料と一致"
+ },
+ {
+  "id": "selected-e67337b4cd6dab24",
+  "figure": "figs/notion/e67337b4cd6dab24.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": false,
+  "reason": "答えが頂点の記号（複数）で自動採点不可",
+  "text": "右の展開図を組み立てて、直方体を作ります。\n(1) 頂点Gと重なる点をすべて答えなさい。\n(2) 辺IJと重なる辺を答えなさい。\n(3) 面イと垂直になる面をすべて答えなさい。\n【答えるのは(1)だけです】",
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "真ん中の段のイ・ウ・エ・オは帯のように1周し、アとカがふたと底になります。",
+    "equation": "帯の両はしがつながる"
+   },
+   {
+    "title": "帯を閉じる",
+    "body": "オの右の辺とイの左の辺が重なるので、IとCが重なります。",
+    "equation": "I＝C"
+   },
+   {
+    "title": "カを折る",
+    "body": "カの右の辺HGは、オの下の辺HIに重なります。だからGはIと重なります。",
+    "equation": "G＝I"
+   },
+   {
+    "title": "答えと確かめ",
+    "body": "GはIと重なり、IはCと重なるので、Gと重なる点はCとIです。",
+    "equation": "G＝I＝C"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "直方体の1つの頂点には、何個の面が集まりますか。",
+   "answer": {
+    "n": "3",
+    "d": "1",
+    "unit": "個",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図：G＝I＝C。資料と一致"
+ },
+ {
+  "id": "selected-4a80fc7ce4bfed46",
+  "figure": "figs/notion/4a80fc7ce4bfed46.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": false,
+  "reason": "答えが面の記号（複数）で自動採点不可",
+  "text": "右の展開図を組み立てて、直方体を作ります。\n(1) 頂点Gと重なる点をすべて答えなさい。\n(2) 辺IJと重なる辺を答えなさい。\n(3) 面イと垂直になる面をすべて答えなさい。\n【答えるのは(3)だけです】",
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "直方体の6つの面は、向かい合う面が3組あります。",
+    "equation": "向かい合う面：3組"
+   },
+   {
+    "title": "イと向かい合う面",
+    "body": "帯イ・ウ・エ・オでは、1つおいたとなりが向かい合う面です。",
+    "equation": "イとエが向かい合う"
+   },
+   {
+    "title": "垂直な面",
+    "body": "向かい合う面以外は、どれもイと垂直になります。",
+    "equation": "6−2＝4面"
+   },
+   {
+    "title": "答えと確かめ",
+    "body": "イとイ自身・エを除いたア、ウ、オ、カの4面です。",
+    "equation": "ア、ウ、オ、カ"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "直方体で、1つの面と垂直になる面は何面ありますか。",
+   "answer": {
+    "n": "4",
+    "d": "1",
+    "unit": "面",
+    "dimension": "scalar"
+   }
+  },
+  "solverCheck": "図：イの向かいはエ→垂直はア・ウ・オ・カ。資料と一致"
+ },
+ {
+  "id": "selected-11f1864e01becb05",
+  "figureOk": false,
+  "reason": "(1)(2)の立方体・直方体の図が図版に無い。p.900はTt-1(3)の図だけ（OCR全シート検索でも4R19Tt-1(1)(2)の図は見つからず）。寸法は本文に無いので出題不可"
+ },
+ {
+  "id": "selected-113cd8f2e75140d1",
+  "figure": "figs/notion/113cd8f2e75140d1.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "体積を求めなさい。この立体は直方体を組み合わせた立体です。",
+  "answer": {
+   "n": "92",
+   "d": "1",
+   "unit": "cm³",
+   "dimension": "volume"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "奥行きは4cmです。正面はL字形で、全体の横7cm、左部分は幅3cm・高さ5cm、右部分は高さ2cmです。",
+    "equation": "右部分の幅＝7−3＝4cm"
+   },
+   {
+    "title": "2つの直方体に分ける",
+    "body": "左の直方体と右の直方体に分ければ、重なりなく足せます。",
+    "equation": "左：3×4×5＝60cm³"
+   },
+   {
+    "title": "右の直方体",
+    "body": "右部分は幅4cm・奥行き4cm・高さ2cmです。",
+    "equation": "4×4×2＝32cm³"
+   },
+   {
+    "title": "合計",
+    "body": "2つを足します。",
+    "equation": "60＋32＝92cm³"
+   },
+   {
+    "title": "確かめ",
+    "body": "正面の面積15＋8＝23cm²に奥行き4cmをかけても同じです。",
+    "equation": "23×4＝92"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "正面のL字形の面積は何cm²ですか。",
+   "answer": {
+    "n": "23",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図(p.900 Tt-1(3))：横7・左幅3・左高さ5・右高さ2・奥行き4。4×(3×5＋4×2)＝92。資料と一致"
+ },
+ {
+  "id": "selected-468427a2f69b89a1",
+  "figure": "figs/notion/468427a2f69b89a1.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の立体は、直方体を組み合わせたもので、体積は200cm³です。□の部分の長さを求めなさい。",
+  "answer": {
+   "n": "5",
+   "d": "1",
+   "unit": "cm",
+   "dimension": "length"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "奥行きはどこも4cmなので、正面の形の面積は200÷4で求められます。",
+    "equation": "200÷4＝50cm²"
+   },
+   {
+    "title": "全体を低い直方体と見る",
+    "body": "正面全体を高さ5cmの長方形と見ると、その面積は7×5です。",
+    "equation": "7×5＝35cm²"
+   },
+   {
+    "title": "増えた部分",
+    "body": "左部分だけが高さ8cmで、5cmより3cm高くなっています。この増えた部分の面積が50−35です。",
+    "equation": "50−35＝15cm²"
+   },
+   {
+    "title": "□を求める",
+    "body": "増えた部分は高さ3cmで幅が□cmの長方形です。",
+    "equation": "15÷3＝5cm"
+   },
+   {
+    "title": "確かめ",
+    "body": "4×(5×8＋2×5)を計算すると200cm³になります。",
+    "equation": "4×(40＋10)＝200"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "この立体を正面から見た形の面積は何cm²ですか。",
+   "answer": {
+    "n": "50",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図：奥行き4・横7・左高さ8・右高さ5・左上幅□。4×(8□＋5(7−□))＝200→□＝5。資料と一致"
+ },
+ {
+  "id": "selected-144e4c27055ec3ab",
+  "figure": "figs/notion/144e4c27055ec3ab.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図のABCDは、たての長さが8cm、横の長さが11cmの長方形です。斜線部分の面積の合計を求めなさい。",
+  "answer": {
+   "n": "46",
+   "d": "1",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "Xは直線FG上のどこにあっても答えが同じになると考えます。AE＝6cm、AF＝4cm、GC＝6cm、HC＝4cmです。",
+    "equation": ""
+   },
+   {
+    "title": "四角形を三角形に分ける",
+    "body": "AXとCXを結ぶと、斜線は三角形AEX・AXF・XGC・XCHの4つに分かれます。",
+    "equation": ""
+   },
+   {
+    "title": "高さの相殺",
+    "body": "XがFG上を動くと、三角形AXFが大きくなる分だけ三角形XCHが小さくなり、三角形AEXが大きくなる分だけ三角形XGCが小さくなります。合計は変わらないので、XをFに重ねて考えます。",
+    "equation": ""
+   },
+   {
+    "title": "Xを端に置いて計算",
+    "body": "XがFのとき、斜線は三角形AEF（6×4÷2＝12）と、上底11cm・下底6cm・高さ4cmの台形FGCHになります。",
+    "equation": "（11＋6）×4÷2＝34"
+   },
+   {
+    "title": "答え",
+    "body": "2つをたして46cm²です。Xの位置を変えても同じになります。",
+    "equation": "12＋34＝46"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "三角形AEFの面積は何cm²ですか。",
+   "answer": {
+    "n": "12",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図：AE6・AF4・GC6・HC4、長方形8×11。三角形AEF12＋GCH12＋EFX・HGX計22＝46（Xの位置によらない）。資料と一致"
+ },
+ {
+  "id": "selected-aef39fb14db7866a",
+  "figure": "figs/notion/aef39fb14db7866a.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "下の図の三角形DEFは、直角三角形ABCを辺BCと平行に移動させたものです。AB＝24cm、AG＝6cm、DG＝8cmです。\n(1) 台形CFDGの面積を求めなさい。\n(2) DFの長さを求めなさい。\n【答えるのは(2)だけです】",
+  "answer": {
+   "n": "18",
+   "d": "1",
+   "unit": "cm",
+   "dimension": "length"
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "DEはABと平行で長さ24cmなので、GE＝24−8＝16cmです。",
+    "equation": ""
+   },
+   {
+    "title": "台形の面積",
+    "body": "台形CFDGの面積は、三角形DEFからGECを引いたもので、三角形ABCからGECを引いた台形ABEGと同じです。",
+    "equation": "(24＋16)×6÷2＝120"
+   },
+   {
+    "title": "DFを使う",
+    "body": "台形CFDGは平行な辺GCとDF、高さDG＝8cmです。GC＝DF−6なので、DFの2倍から6を引いた長さが平行な辺の和です。",
+    "equation": "120×2÷8＝30"
+   },
+   {
+    "title": "DFを求める",
+    "body": "DF×2−6＝30です。",
+    "equation": "(30＋6)÷2＝18"
+   },
+   {
+    "title": "確かめ",
+    "body": "GC＝12cm、(12＋18)×8÷2＝120cm²で合っています。",
+    "equation": "(12＋18)×8÷2＝120"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "台形CFDGの平行な2辺の長さの和は何cmですか。",
+   "answer": {
+    "n": "30",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図：角A・D直角、B,E,C,F一直線、G＝AC∩DE。GE＝24−8＝16でGC＝2/3AC、AG＝6→AC＝18＝DF。台形(12+18)×8÷2＝120とも整合。資料と一致"
+ },
+ {
+  "id": "selected-823b016d50bc2745",
+  "figure": "figs/notion/823b016d50bc2745.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "下の3つの図の台形ABCDは同じ台形で、それぞれ直線AP、DQ、CRで面積が二等分されています。\n(1) BCの長さを求めなさい。\n(2) ADの長さを求めなさい。\n(3) ABの長さを求めなさい。\n【答えるのは(3)だけです】",
+  "answer": {
+   "n": "14",
+   "d": "1",
+   "unit": "cm",
+   "dimension": "length"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "角Bが直角なので、ABが台形の高さです。BP＝15cm、BQ＝6cm、BR＝10cmです。",
+    "equation": ""
+   },
+   {
+    "title": "BCとAD",
+    "body": "三角形ABPと三角形DQCはどちらも台形の半分で高さが同じなので、QC＝BP＝15cm、BC＝21cmです。台形の上底と下底の和は15×2＝30cmで、AD＝9cmです。",
+    "equation": "6＋15＝21、30－21＝9"
+   },
+   {
+    "title": "三角形CBR",
+    "body": "三角形CBRは底辺BC＝21cm、高さBR＝10cmで、台形の半分です。",
+    "equation": "21×10÷2＝105"
+   },
+   {
+    "title": "ABを求める",
+    "body": "台形の半分はAB×15÷2でもあります（三角形ABP）。",
+    "equation": "105×2÷15＝14"
+   },
+   {
+    "title": "確かめ",
+    "body": "台形の面積は（9＋21）×14÷2＝210cm²で、その半分が105cm²です。",
+    "equation": "（9＋21）×14÷2＝210"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "三角形CBRの面積は何cm²ですか。",
+   "answer": {
+    "n": "105",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "3つの図：BP15・BQ6・BR10。上底+下底＝30、BC＝6+15＝21、AD＝9、21×10÷2＝105＝30×h÷4→h＝14。資料と一致"
+ },
+ {
+  "id": "selected-397e16267bbda61c",
+  "figure": "figs/notion/397e16267bbda61c.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "下の3つの図の台形ABCDは同じ台形で、それぞれ直線AP、DQ、CRで面積が二等分されています。\n(1) BCの長さを求めなさい。\n(2) ADの長さを求めなさい。\n(3) ABの長さを求めなさい。\n【答えるのは(1)と(2)だけです】",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "21",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    },
+    {
+     "label": "(2)",
+     "n": "9",
+     "d": "1",
+     "unit": "cm",
+     "dimension": "length"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "台形の高さABは共通です。二等分する三角形の面積を、台形の面積の半分と等しいとおきます。",
+    "equation": ""
+   },
+   {
+    "title": "APで二等分",
+    "body": "三角形ABPの面積＝15×高さ÷2、台形の半分＝(AD＋BC)×高さ÷4です。高さで割ると上底と下底の和が出ます。",
+    "equation": "15÷2＝(AD＋BC)÷4　AD＋BC＝30"
+   },
+   {
+    "title": "DQで二等分",
+    "body": "三角形DQCの面積は(BC−6)×高さ÷2です。これも台形の半分なので、同じように高さを消します。",
+    "equation": "(BC−6)÷2＝30÷4　BC−6＝15"
+   },
+   {
+    "title": "長さを出す",
+    "body": "BC＝21cm、AD＝30−21＝9cmです。",
+    "equation": "BC＝21　AD＝9"
+   },
+   {
+    "title": "確かめ",
+    "body": "高さを何cmにしても、三角形ABPは15×高さ÷2、三角形DQCも15×高さ÷2で、台形(9＋21)×高さ÷2の半分です。",
+    "equation": "15＋15＝30"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "上底ADと下底BCの長さの和は何cmですか。",
+   "answer": {
+    "n": "30",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "3つの図：15h/2＝(AD+BC)h/4→和30、DQC：(BC−6)h/2＝15h/2→BC＝21、AD＝9。資料と一致"
+ },
+ {
+  "id": "selected-c0da5ba7cb42e104",
+  "figure": "figs/notion/c0da5ba7cb42e104.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "右の図の斜線部分の面積を求めなさい。",
+  "answer": {
+   "n": "44",
+   "d": "1",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "斜線の四角形PQRSは、対角線PRで2つの三角形に分けられます。",
+    "equation": ""
+   },
+   {
+    "title": "三角形PSR",
+    "body": "底辺SR＝4cm、高さは左の辺7cmです。",
+    "equation": "4×7÷2＝14"
+   },
+   {
+    "title": "三角形PQR",
+    "body": "底辺PQ＝6cm、高さは右の辺10cmです。",
+    "equation": "6×10÷2＝30"
+   },
+   {
+    "title": "合計",
+    "body": "2つをたします。",
+    "equation": "14＋30＝44"
+   },
+   {
+    "title": "確かめ",
+    "body": "どちらも底辺に垂直な辺を高さに使っているので、正しく求められています。",
+    "equation": ""
+   }
+  ],
+  "checkpoint": {
+   "prompt": "三角形PSRの面積は何cm²ですか。",
+   "answer": {
+    "n": "14",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   }
+  },
+  "solverCheck": "図：左の直角三角形の縦7、下の辺の4cm、上の辺6cm、右の辺10cm（右上直角）。4×7÷2＋6×10÷2＝44。資料と一致"
+ },
+ {
+  "id": "selected-73ee1762604e9ecd",
+  "figure": "figs/notion/73ee1762604e9ecd.png",
+  "figureOk": true,
+  "textOk": false,
+  "answerOk": true,
+  "reason": "本文が要約メモ形式（教材の問い文どおりでない）",
+  "text": "四角形ABCDは正方形（1辺6cm）。AD をのばした線上に点E（DE⊥DC）、BEとDCの交点O、OC＝4cm。三角形EOCの面積",
+  "answer": {
+   "n": "6",
+   "d": "1",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "OC＝4cmなので、OD＝6−4＝2cmです。",
+    "equation": ""
+   },
+   {
+    "title": "相似",
+    "body": "DEとBCは平行なので、三角形ODEとOCBは同じ形で、OD：OC＝2：4です。",
+    "equation": "DE＝6×2÷4＝3"
+   },
+   {
+    "title": "面積",
+    "body": "三角形EOCは底辺OC、高さDEです。",
+    "equation": "4×3÷2＝6"
+   },
+   {
+    "title": "確かめ",
+    "body": "高さはEから直線DCまでの距離で、DEと同じです。",
+    "equation": ""
+   }
+  ],
+  "checkpoint": {
+   "prompt": "DEの長さは何cmですか。",
+   "answer": {
+    "n": "3",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図：正方形1辺6、OC4、D直角、EはADの延長上。OD＝2、DE＝6×2÷4＝3、4×3÷2＝6。資料と一致"
+ },
+ {
+  "id": "selected-776fdbb557f448a3",
+  "figure": "figs/notion/776fdbb557f448a3.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "※円周率は3.14とします。\n右の図は、長方形と半円を組み合わせたものです。点Mは半円の弧を2等分する点です。\n(1) 三角形ABMの面積を求めなさい。\n(2) 斜線部分の面積の合計を求めなさい。",
+  "answer": {
+   "parts": [
+    {
+     "label": "(1)",
+     "n": "156",
+     "d": "1",
+     "unit": "cm²",
+     "dimension": "area"
+    },
+    {
+     "label": "(2)",
+     "n": "3513",
+     "d": "25",
+     "unit": "cm²",
+     "dimension": "area"
+    }
+   ]
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "Mは弧の真ん中なので、辺DCから半径6cmはなれています。",
+    "equation": ""
+   },
+   {
+    "title": "三角形の高さ",
+    "body": "底辺AB12cm、高さはADに半径を足した長さです。",
+    "equation": "20＋6＝26"
+   },
+   {
+    "title": "三角形ABM",
+    "body": "底辺12cm、高さ26cmの三角形として面積を求めます。",
+    "equation": "12×26÷2＝156"
+   },
+   {
+    "title": "全体から引く",
+    "body": "長方形と半円を合わせた面積から三角形を引きます。",
+    "equation": "240＋6×6×3.14÷2−156＝140.52"
+   },
+   {
+    "title": "確かめ",
+    "body": "全体は296.52cm²で、三角形を引くと上下2つの斜線部分になります。",
+    "equation": "296.52−156＝140.52"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "三角形ABMの、底辺ABに対する高さは何cmですか。",
+   "answer": {
+    "n": "26",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図：AD20・AB12、DCを直径とする半円、M弧の中点。(1)12×(20+6)÷2＝156 (2)240＋6×6×3.14÷2−156＝140.52。資料と一致"
+ },
+ {
+  "id": "selected-a1c59c6e2620a36f",
+  "figure": "figs/notion/a1c59c6e2620a36f.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "※円周率は3.14とします。\n右の図のように3つの半円が重なっています。斜線部分の面積を求めなさい。",
+  "answer": {
+   "n": "1884",
+   "d": "25",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件を整理",
+    "body": "斜線は、大きい半円から直径4cmの半円を除いた部分と、直径8cmの下向きの半円です。",
+    "equation": ""
+   },
+   {
+    "title": "大きい半円",
+    "body": "半径6cmです。",
+    "equation": "6×6×3.14÷2＝56.52"
+   },
+   {
+    "title": "白い半円を除く",
+    "body": "半径2cmの半円を引きます。",
+    "equation": "56.52−2×2×3.14÷2＝50.24"
+   },
+   {
+    "title": "下向きの半円を足す",
+    "body": "半径4cmです。",
+    "equation": "50.24＋4×4×3.14÷2＝75.36"
+   },
+   {
+    "title": "確かめ",
+    "body": "3.14でまとめると(18−2＋8)×3.14です。",
+    "equation": "24×3.14＝75.36"
+   }
+  ],
+  "checkpoint": {
+   "prompt": "大きい半円の半径は何cmですか。",
+   "answer": {
+    "n": "6",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図：直径8（下向き）・直径4（上向き白）・直径12（上向き）。(36−4＋16)÷2×3.14＝75.36。資料と一致"
+ },
+ {
+  "id": "selected-2170d71a56d65d36",
+  "figure": "figs/notion/2170d71a56d65d36.png",
+  "figureOk": true,
+  "textOk": true,
+  "answerOk": true,
+  "text": "※円周率は3.14とします。\n右の図は、長方形と半円を組み合わせたものです。点Mは半円の弧を2等分する点です。\n(1) 三角形ABMの面積を求めなさい。\n(2) 斜線部分の面積の合計を求めなさい。\n【答えるのは(1)だけです】",
+  "answer": {
+   "n": "400",
+   "d": "1",
+   "unit": "cm²",
+   "dimension": "area"
+  },
+  "steps": [
+   {
+    "title": "条件の整理",
+    "body": "長方形はAB＝20cm、AD＝30cmで、半円の直径はDC＝20cm、半径10cmです。",
+    "equation": ""
+   },
+   {
+    "title": "底辺と高さ",
+    "body": "ABを底辺とすると、高さはABからMまでの横のきょりです。それは長方形の横30cmと半径10cmの和です。",
+    "equation": "30＋10＝40"
+   },
+   {
+    "title": "面積",
+    "body": "底辺20cm、高さ40cmの三角形です。",
+    "equation": "20×40÷2＝400"
+   },
+   {
+    "title": "確かめ",
+    "body": "Mは半円の真ん中なので、DCの真ん中から右へちょうど半径10cmの位置にあります。",
+    "equation": ""
+   }
+  ],
+  "checkpoint": {
+   "prompt": "ABからMまでの横のきょりは何cmですか。",
+   "answer": {
+    "n": "40",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   }
+  },
+  "solverCheck": "図：AD30・AB20、半円半径10、M。20×(30＋10)÷2＝400。資料と一致"
+ }
+]

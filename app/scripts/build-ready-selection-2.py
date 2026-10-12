@@ -41,8 +41,9 @@ def memo_like(text):
     """True when the stored text is a note-style summary rather than textbook wording (e.g. "…B電車の速さ")."""
     t = re.sub(r'【[^】]*】', '', text)
     t = re.sub(r'（[^（）]*答えなさい[^（）]*）', '', t)
+    t = re.sub(r'\((\d+)\)(から|〜|～)\((\d+)\)', r'\1\2\3', t)
     lead, *subs = re.split(r'\(\d+\)|（\d+）', t)
-    if re.search(r'(求めなさい|答えなさい|あてはまる|書きなさい)', lead): return False
+    if re.search(r'(求めなさい|答えなさい|あてはまる|書きなさい|ですか|ますか|でしょうか)', lead): return False
     return any(not re.search(Q, p.strip()) for p in (subs or [lead]) if p.strip())
 DIMS = {'scalar', 'length', 'area', 'volume', 'time', 'speed', 'percent', 'ratio', 'clock'}
 

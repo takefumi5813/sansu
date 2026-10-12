@@ -1,0 +1,98 @@
+[
+ {
+  "id": "selected-1ffa54465a16f9d5",
+  "verdict": "pass",
+  "myAnswer": "ア70°・イ70°・ウ110°・エ70°",
+  "note": "対頂角・同位角・一直線で一致。本文は(4)のみ残し小問番号を外した形で許容範囲。"
+ },
+ {
+  "id": "selected-7dc530d04ebe4241",
+  "verdict": "pass",
+  "myAnswer": "112°",
+  "note": "180−(180−44)÷2＝112で一致。"
+ },
+ {
+  "id": "selected-f2e27128a4437302",
+  "verdict": "pass",
+  "myAnswer": "3cm",
+  "note": "12×8−5×□＝81 → □＝3で一致。"
+ },
+ {
+  "id": "selected-c3e38b0256e711f7",
+  "verdict": "pass",
+  "myAnswer": "159cm²",
+  "note": "(300＋6×3)÷2＝159で一致。"
+ },
+ {
+  "id": "selected-134c8ddbdae739b9",
+  "verdict": "pass",
+  "myAnswer": "122cm",
+  "note": "150−2×14＝122で一致。"
+ },
+ {
+  "id": "selected-506ceb2afec1725b",
+  "verdict": "pass",
+  "myAnswer": "600cm²",
+  "note": "かどの切り取りで表面積不変。一致。"
+ },
+ {
+  "id": "selected-113cd8f2e75140d1",
+  "verdict": "pass",
+  "myAnswer": "92cm³",
+  "note": "3×4×5＋4×4×2＝92で一致。本文の「(3)は」→「この立体は」は他小問を外したことに伴う最小限の言いかえとして許容。"
+ },
+ {
+  "id": "selected-468427a2f69b89a1",
+  "verdict": "pass",
+  "myAnswer": "5cm",
+  "note": "4×(8□＋5(7−□))＝200 → □＝5で一致。"
+ },
+ {
+  "id": "selected-144e4c27055ec3ab",
+  "verdict": "pass",
+  "myAnswer": "46cm²",
+  "note": "手順3の打ち消し合う組をAXF↔XCH、AEX↔XGCに修正（統括者）。"
+ },
+ {
+  "id": "selected-aef39fb14db7866a",
+  "verdict": "pass",
+  "myAnswer": "18cm",
+  "note": "GE∥AB、GE＝16でCG:CA＝2:3、AG＝6よりAC＝18＝DF。台形ABEG＝120経由の手順も正しい。"
+ },
+ {
+  "id": "selected-823b016d50bc2745",
+  "verdict": "pass",
+  "myAnswer": "14cm",
+  "note": "AD＋BC＝30、BC＝21、三角形RBC＝105＝15×AB÷2 → AB＝14で一致。"
+ },
+ {
+  "id": "selected-397e16267bbda61c",
+  "verdict": "pass",
+  "myAnswer": "(1)21cm (2)9cm",
+  "note": "一致。"
+ },
+ {
+  "id": "selected-c0da5ba7cb42e104",
+  "verdict": "pass",
+  "myAnswer": "44cm²",
+  "note": "4×7÷2＋6×10÷2＝44で一致。"
+ },
+ {
+  "id": "selected-776fdbb557f448a3",
+  "verdict": "pass",
+  "myAnswer": "(1)156cm² (2)140.52cm²",
+  "note": "(1)12×26÷2＝156、(2)240＋56.52−156＝140.52＝3513/25で一致。軽微：手順『三角形ABM』のbodyが空文字（任意で補う）。"
+ },
+ {
+  "id": "selected-a1c59c6e2620a36f",
+  "verdict": "pass",
+  "myAnswer": "75.36cm²",
+  "note": "(18−2＋8)×3.14＝75.36＝1884/25で一致。"
+ },
+ {
+  "id": "selected-2170d71a56d65d36",
+  "verdict": "pass",
+  "myAnswer": "400cm²",
+  "note": "20×(30＋10)÷2＝400で一致。"
+ }
+]

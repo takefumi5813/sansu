@@ -1,0 +1,158 @@
+[
+ {
+  "id": "selected-b88f6578bb6a8f36",
+  "verdict": "pass",
+  "myAnswer": "(1) 160 cm²　(2) 10 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-2fd27aeda5d46ab1",
+  "verdict": "pass",
+  "myAnswer": "33 cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-1d55c4fcf5bf5fc2",
+  "verdict": "pass",
+  "myAnswer": "6 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-df244e53d07c48d1",
+  "verdict": "pass",
+  "myAnswer": "(1) 54 cm²　(2) 9 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-6644863a143917e7",
+  "verdict": "pass",
+  "myAnswer": "(1) 3 cm²　(2) 2 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-d662b7e3d551b65a",
+  "verdict": "pass",
+  "myAnswer": "ア9/16 イ13/24 ウ1/6 エ7/16 オ11/24 カ13/48 キ13/48 ク7/24",
+  "note": ""
+ },
+ {
+  "id": "selected-113497f925f56330",
+  "verdict": "pass",
+  "myAnswer": "(1) 37こ　(2) 61こ　(3) 30こ　(4) 271こ",
+  "note": ""
+ },
+ {
+  "id": "selected-99520dc7b57fd834",
+  "verdict": "pass",
+  "myAnswer": "57 cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-9ee9b83679a479f4",
+  "verdict": "pass",
+  "myAnswer": "94.2 cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-970faef74921ea8f",
+  "verdict": "pass",
+  "myAnswer": "52.5 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-619009f4c9e0689a",
+  "verdict": "pass",
+  "myAnswer": "8時4分",
+  "note": "時刻のh・mを文字列にし unit:\"\" を補う形式修正（統括者）。値は検算一致。"
+ },
+ {
+  "id": "selected-f2a838daa202dff8",
+  "verdict": "pass",
+  "myAnswer": "15.6 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-0fce7e2dd1c3ec9a",
+  "verdict": "pass",
+  "myAnswer": "(1) 14 cm　(2) 17 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-537008f0bcfe5e14",
+  "verdict": "pass",
+  "myAnswer": "(1) 18 cm　(2) 12 cm　(3) 9 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-5c5fbcbf4e0de0de",
+  "verdict": "pass",
+  "myAnswer": "(1) 40.5 cm²　(2) 9 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-1e96b9523329a7c0",
+  "verdict": "pass",
+  "myAnswer": "756度",
+  "note": ""
+ },
+ {
+  "id": "selected-e08ce2df8b458f1c",
+  "verdict": "pass",
+  "myAnswer": "65.94 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-b08c098175aef2b2",
+  "verdict": "pass",
+  "myAnswer": "(1) 120度　(2) 60度",
+  "note": ""
+ },
+ {
+  "id": "selected-24366f1e1ddefac2",
+  "verdict": "pass",
+  "myAnswer": "22.28 cm",
+  "note": ""
+ },
+ {
+  "id": "selected-cd35206ce52de14e",
+  "verdict": "pass",
+  "myAnswer": "9.12 cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-8b05c1205590a99d",
+  "verdict": "pass",
+  "myAnswer": "(1) 120度　(2) 18.5 cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-b94dfc1658799ef8",
+  "verdict": "pass",
+  "myAnswer": "71.5 cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-276f0500e98cb27f",
+  "verdict": "pass",
+  "myAnswer": "(1) 30分　(2) 時速4.8 km　(3) 時速3 km",
+  "note": ""
+ },
+ {
+  "id": "selected-2bd642912d268403",
+  "verdict": "pass",
+  "myAnswer": "30分",
+  "note": ""
+ },
+ {
+  "id": "selected-b2ac35dd39a1b4e4",
+  "verdict": "pass",
+  "myAnswer": "(1) 時速24 km　(2) 1.2 km　(3) 9時0分",
+  "note": "時刻のh・mを文字列にし unit:\"\" を補う形式修正（統括者）。値は検算一致。"
+ },
+ {
+  "id": "selected-5cdbe23ef40b43bf",
+  "verdict": "pass",
+  "myAnswer": "2秒後と12秒後",
+  "note": ""
+ }
+]

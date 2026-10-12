@@ -1,0 +1,176 @@
+[
+ {
+  "id": "selected-2c82c096b9008adb",
+  "verdict": "pass",
+  "myAnswer": "(1)28800cm³ (2)41cm",
+  "note": ""
+ },
+ {
+  "id": "selected-ce6bb3f2fc1faa2c",
+  "verdict": "pass",
+  "myAnswer": "(1)12通り (2)144通り",
+  "note": ""
+ },
+ {
+  "id": "selected-80eda9fab2765564",
+  "verdict": "pass",
+  "myAnswer": "72通り",
+  "note": ""
+ },
+ {
+  "id": "selected-ffce95ada2ba7b3c",
+  "verdict": "pass",
+  "myAnswer": "200.96cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-b7139d23c798762d",
+  "verdict": "pass",
+  "myAnswer": "56.52cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-24ecfcfe27f61a20",
+  "verdict": "pass",
+  "myAnswer": "35通り",
+  "note": ""
+ },
+ {
+  "id": "selected-773bd6fe5e8814b1",
+  "verdict": "pass",
+  "myAnswer": "17通り",
+  "note": ""
+ },
+ {
+  "id": "selected-1de92de0886fdfe6",
+  "verdict": "pass",
+  "myAnswer": "3cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-ee4ae86a1048e0f3",
+  "verdict": "pass",
+  "myAnswer": "(1)35cm (2)33cm",
+  "note": ""
+ },
+ {
+  "id": "selected-a7a7da2042886cd2",
+  "verdict": "pass",
+  "myAnswer": "ア3cm イ4cm ウ6cm",
+  "note": ""
+ },
+ {
+  "id": "selected-95d5ddb829544beb",
+  "verdict": "pass",
+  "myAnswer": "25.12cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-dafeb2a4f2b07f50",
+  "verdict": "pass",
+  "myAnswer": "(1)3cm (2)282.6cm³",
+  "note": ""
+ },
+ {
+  "id": "selected-cf2975e1b1c49376",
+  "verdict": "pass",
+  "myAnswer": "304cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-35fec3c08a4602af",
+  "verdict": "fail",
+  "myAnswer": "底面もぬる場合 ①6個 ②8個／底面をぬらない場合 ①6個 ②9個",
+  "note": "前提が本文から一意に決まらない：「表面全体に色をぬります」だけでは、床に置いた立体の底面（4×4の下の面）をぬるかが明示されていない。底面もぬると②8個、ぬらないと②9個（①はどちらも6個）。answer②8とsteps「底面もふくめて」は本文にない前提に依存。直し方：原本に底面の扱いの記述があればそれを本文に入れる。なければ②を出題から外し①だけにする（【答えるのは①だけです】）。"
+ },
+ {
+  "id": "selected-ebe291776866b248",
+  "verdict": "pass",
+  "myAnswer": "(1)20 (2)11分",
+  "note": ""
+ },
+ {
+  "id": "selected-a61616ac82aca564",
+  "verdict": "pass",
+  "myAnswer": "(1)20L (2)8L",
+  "note": ""
+ },
+ {
+  "id": "selected-f2920b5fd12027e9",
+  "verdict": "pass",
+  "myAnswer": "81度",
+  "note": ""
+ },
+ {
+  "id": "selected-1c725c972cdb8cda",
+  "verdict": "pass",
+  "myAnswer": "ア88度 イ55度",
+  "note": ""
+ },
+ {
+  "id": "selected-83c42a610325ba75",
+  "verdict": "pass",
+  "myAnswer": "ア56度 イ41度",
+  "note": ""
+ },
+ {
+  "id": "selected-92c1e0f56eebaf8d",
+  "verdict": "pass",
+  "myAnswer": "130cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-242bb995b96a1d96",
+  "verdict": "pass",
+  "myAnswer": "4cm",
+  "note": ""
+ },
+ {
+  "id": "selected-21401f40fea430dc",
+  "verdict": "pass",
+  "myAnswer": "130度",
+  "note": ""
+ },
+ {
+  "id": "selected-faf423f22853f18c",
+  "verdict": "pass",
+  "myAnswer": "100度",
+  "note": ""
+ },
+ {
+  "id": "selected-d3665351bcc36675",
+  "verdict": "pass",
+  "myAnswer": "ウ75度 エ43度 オ137度",
+  "note": ""
+ },
+ {
+  "id": "selected-fa9af382cf84d3a1",
+  "verdict": "pass",
+  "myAnswer": "ウ40度 エ40度 オ80度",
+  "note": ""
+ },
+ {
+  "id": "selected-dd0131332cf520ae",
+  "verdict": "pass",
+  "myAnswer": "AB14cm BC21cm",
+  "note": ""
+ },
+ {
+  "id": "selected-0668da1f9eaf8e36",
+  "verdict": "pass",
+  "myAnswer": "ア9cm イ10cm",
+  "note": ""
+ },
+ {
+  "id": "selected-f482263e9f62b0e0",
+  "verdict": "pass",
+  "myAnswer": "ウ5cm エ9cm オ12cm",
+  "note": ""
+ },
+ {
+  "id": "selected-8ca2f95916d4a976",
+  "verdict": "pass",
+  "myAnswer": "ア6cm² イ90cm² ウ75cm² エ100cm²",
+  "note": ""
+ }
+]

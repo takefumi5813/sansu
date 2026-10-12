@@ -1,0 +1,152 @@
+[
+ {
+  "id": "selected-0f5efee475fefdc0",
+  "verdict": "pass",
+  "myAnswer": "(1) 8：3 (2) 15cm",
+  "note": "夏期講習2 s076 講習③2の図と一致"
+ },
+ {
+  "id": "selected-8f1cfaa8bb6d5b39",
+  "verdict": "pass",
+  "myAnswer": "68度",
+  "note": "本文は(2)長方形を外しただけ。図は(1)のみで正しい"
+ },
+ {
+  "id": "selected-45ada232fd87d536",
+  "verdict": "pass",
+  "myAnswer": "(1) 9cm (2) 42.5cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-63acbcc44e9ce5df",
+  "verdict": "pass",
+  "myAnswer": "36.48cm²",
+  "note": ""
+ },
+ {
+  "id": "selected-cc181743547e3aa8",
+  "verdict": "pass",
+  "myAnswer": "40cm²",
+  "note": "床は300°のおうぎ形、π=3"
+ },
+ {
+  "id": "selected-e12674785ed29b8d",
+  "verdict": "pass",
+  "myAnswer": "16cm²",
+  "note": "側面2枚の60°おうぎ形、はみ出しは第3面で点で接するだけ"
+ },
+ {
+  "id": "selected-df20734c704013d4",
+  "verdict": "pass",
+  "myAnswer": "(1) たて30cm 横50cm (2) 9L",
+  "note": ""
+ },
+ {
+  "id": "selected-230cde198b43a2ae",
+  "verdict": "pass",
+  "myAnswer": "52cm²",
+  "note": "14個の16通りを全列挙、最大52"
+ },
+ {
+  "id": "selected-db35cb008dc4d2cb",
+  "verdict": "pass",
+  "myAnswer": "468cm²",
+  "note": "体積の部分を外しただけ"
+ },
+ {
+  "id": "selected-33bd31dc3f4a52a4",
+  "verdict": "pass",
+  "myAnswer": "61.92cm²",
+  "note": "前期3 s001 p.408 (2)の図で正しい"
+ },
+ {
+  "id": "selected-e7dd5fcdec37027a",
+  "verdict": "pass",
+  "myAnswer": "200cm²",
+  "note": "前期3 s001 p.407 (1)の図で正しい"
+ },
+ {
+  "id": "selected-d44319b2a82db185",
+  "verdict": "pass",
+  "myAnswer": "21.84cm²",
+  "note": "前期3 s003 p.418と一致。checkpoint のT・Qは steps で定義"
+ },
+ {
+  "id": "selected-c34023ae8acc0a0e",
+  "verdict": "pass",
+  "myAnswer": "(2) 113.04cm (3) 1186.92cm²",
+  "note": "前期3 s021 p.567（1辺9cm）の図で正しい"
+ },
+ {
+  "id": "selected-87e13bd3d8661952",
+  "verdict": "fail",
+  "myAnswer": "37.68m²（π=3.14と仮定した場合）",
+  "note": "本文が要約メモ形式（「…犬の動ける範囲の面積」で終わり、「を求めなさい」がない）。円周率の指定もなく、942/25（π=3.14）が本文からは決まらない。図（前期3 s015 p.524）は正しい。直し方：元の問題文（p.526「…範囲の面積を求めなさい。」と円周率3.14の指示）をそのまま書き起こす"
+ },
+ {
+  "id": "selected-3530e6a6b4fc8648",
+  "verdict": "pass",
+  "myAnswer": "22cm²",
+  "note": "前期3 s035 p.687の図と一致"
+ },
+ {
+  "id": "selected-25430f4370d69e03",
+  "verdict": "pass",
+  "myAnswer": "187cm²",
+  "note": "前期3 s035 p.690の図と一致。Kの位置によらず187（座標で確認）"
+ },
+ {
+  "id": "selected-6fd86ede8d9457fd",
+  "verdict": "pass",
+  "myAnswer": "(1) 分速200m (2) 分速50m (3) 75分",
+  "note": "前期1 s015 p.27右上のグラフで正しい。注：「分速200m」の形の入力は core が単位エラーにする（行の不備ではない）"
+ },
+ {
+  "id": "selected-e5476316863998eb",
+  "verdict": "pass",
+  "myAnswer": "(1) 姉90m/分 妹60m/分 (2) 21分後",
+  "note": "前期1 s012 p.22右上の図で正しい"
+ },
+ {
+  "id": "selected-651963e387a5b35c",
+  "verdict": "pass",
+  "myAnswer": "(3) 12秒 (4) 20秒",
+  "note": "(1)(2)を外しただけ。前期2 s047 p.278の図"
+ },
+ {
+  "id": "selected-205ee2f97f5b54eb",
+  "verdict": "pass",
+  "myAnswer": "(1) 秒速3cm (2) 243cm² (3) 4秒後と20秒後",
+  "note": "前期1 s034 p.61 Tt3a・Tt3hを組み合わせた図で正しい"
+ },
+ {
+  "id": "selected-fddfba1f94772f52",
+  "verdict": "pass",
+  "myAnswer": "10cm",
+  "note": "前期1 s068 p.150(3)の図で正しい"
+ },
+ {
+  "id": "selected-20619a29e99d82ce",
+  "verdict": "pass",
+  "myAnswer": "1100cm³",
+  "note": "前期1 s062 p.133(4)の図で正しい。本文は指定小問の(2)以外を外しただけで、問いの内容は同じ。左上に「2)」の切れ端が残るが、解くのには支障なし"
+ },
+ {
+  "id": "selected-b56ecd9009d3d176",
+  "verdict": "pass",
+  "myAnswer": "(1) 7.5L (2) 35cm",
+  "note": "前期2 s014 p.213(1)の図で正しい"
+ },
+ {
+  "id": "selected-b01b670c0e26ef9e",
+  "verdict": "pass",
+  "myAnswer": "17分後",
+  "note": "前期2 s023 p.235の図で正しい"
+ },
+ {
+  "id": "selected-a493396c66e95151",
+  "verdict": "pass",
+  "myAnswer": "毎分18L",
+  "note": "前期2 s023 p.235の図で正しい"
+ }
+]

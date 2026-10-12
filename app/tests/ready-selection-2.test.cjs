@@ -6,9 +6,9 @@ test('second ready set is served in the normal free expedition only, with comple
  assert(ready.problems.length>0);
  for(const p of ready.problems){
   assert(all.problems.some(q=>q.id===p.id),p.id);
-  assert.equal(p.expeditionOnly,true);assert.equal(p.homeStudy,false);assert.equal(p.reviewEligible,false);assert.equal(p.figureRequired,false);
+  assert.equal(p.expeditionOnly,true);assert.equal(p.homeStudy,false);assert.equal(p.reviewEligible,false);if(p.figureRequired){assert(/^figs\/notion\/[0-9a-f]{16}\.png$/.test(p.figure),p.id);assert(require('node:fs').existsSync(require('node:path').join(__dirname,'../dist',p.figure)),p.id);}else assert.equal(p.figure,undefined,p.id);
   assert(p.explanation.steps.length>=4&&p.explanation.steps.every(s=>s.title&&s.body),p.id);
-  assert(!/［図|図：/.test(p.text),p.id);
+  assert(!/［図|図：|図版p/.test(p.text),p.id);
   assert(C.grade(raw(p.answer),p.answer).correct,p.id);
   assert(!C.grade(wrong(p.answer),p.answer).correct,p.id);
   const cp=p.explanation.steps.at(-1).checkpoint;assert(cp,p.id);
