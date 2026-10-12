@@ -161,3 +161,5 @@ dialog::backdrop{background:#040813d6;backdrop-filter:blur(9px)}
 @media(max-height:740px){.treasure-stage{padding-top:60px;padding-bottom:22px;gap:5px}.treasure-chest{width:190px;margin-top:82px;margin-bottom:0}.treasure-gems{gap:8px;padding-top:10px;padding-bottom:10px}.treasure-message{min-height:66px;margin-top:6px}.treasure-stage h2{font-size:25px}.treasure-actions .primary{min-height:44px}}
 /* The site's global reduced-motion rule disables animations; expose final states explicitly. */
 @media(prefers-reduced-motion:reduce){.won .treasure-item{opacity:1;transform:translate(-50%,-64%)}.gem-found .found-gem{opacity:1;transform:translate(-50%,-100px)}.gem-slot.offered,.gems-lost .gem-slot.filled{opacity:0}.won .treasure-rays{opacity:.4}}
+
+.answer-reveal{border-color:#dfcc9f;background:#202f43;color:#e5dcc7}.answer-reveal span{color:#dfcc9f}
