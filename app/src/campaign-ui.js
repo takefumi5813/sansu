@@ -23,7 +23,7 @@ function bondCard(hero,compact=false){
 }
 function bondResult(b){if(!b?.gained)return '';const h=allHeroes().find(h=>h.id===b.heroId);return `<div class="bond-reward" id="bond-result"><span class="bond-emblem">${icon('star')}</span><div><small>FREE EXPEDITION BONUS</small><strong>${esc(h?.name||'同行英雄')}との絆 ＋${b.gained}</strong><span>${b.maxed?'絆 Lv.10 — 生涯の盟友へ。':b.level>b.previousLevel?`絆レベルが ${b.previousLevel} → ${b.level} に上がりました。`:`絆 Lv.${b.level} · ${b.points} / 150問`} · 戦力 ${b.power}</span></div></div>`;}
 function activeEquipmentCount(){return DATA.catalog.equipment.filter(item=>state.inventory.equipment.includes(item.id)).length;}
-function equipmentLotteryText(result){if(!result)return '';return result.won?`装備抽選に当選。装備箱＋1${result.guaranteed?'（10回目の保証）':''}。`:`今回の装備抽選は見送り。連続 ${result.missesAfter} 回。${result.missesAfter===9?'次回の任務達成で装備箱が必ず手に入ります。':''}`;}
+function equipmentLotteryText(result){if(!result)return '';return result.won?`宝箱から装備を発見${result.guaranteed?'（9つの宝石を捧げて）':''}。`:`宝箱から宝石を見つけた（${result.missesAfter}/9）。${result.missesAfter===9?'次の宝箱で必ず装備が見つかります。':''}`;}
 function legacyEquipmentHtml(){
   const items=(DATA.legacyEquipment||[]).filter(item=>state.inventory.equipment.includes(item.id));
   if(!items.length)return '';
@@ -40,7 +40,7 @@ function renderHome(){
   const chosen=C.selectProblem(DATA.problems,state,filters(),today()),domains=[...new Set(DATA.problems.filter(p=>p.category===settings.category).map(p=>p.domain))];
   const categoryMeta=[['calc','sword','計算','武器を鍛える','鍛造素材'],['oneline','book','一行問題','戦術を磨く','英雄の魂'],['geometry','triangle','図形','道を見いだす','英雄の魂']];
   app.innerHTML=`<section class="campaign-banner"><div class="banner-text"><div class="eyebrow"><span class="live-dot"></span> MATH CHRONICLE / ${esc(today().replaceAll('-','.'))}</div><h1>知恵を磨き、<br><span>英雄と、その先へ。</span></h1><p>計算は武器に。ひらめきは英雄の魂に。<br>今日の一歩から、次の試練がひらく。</p><div class="journey"><span class="level-badge">Lv.<b>${lv}</b></span><div><div class="journey-label"><span>${state.xp.toLocaleString()} EXP</span><span>次のレベルまで ${progress.remaining}pt</span></div><div class="meter"><i style="width:${progress.percent}%"></i></div></div></div></div><div class="hero-scene"><div class="scene-ring ring-one"></div><div class="scene-ring ring-two"></div><div class="scene-star s1">✦</div><div class="scene-star s2">✧</div>${art(featured,'banner-hero')}<div class="hero-signature"><small>${hero?'YOUR COMPANION':'AWAITING YOUR CALL'}</small><strong>${esc(featured.name)}</strong><span>${hero?'絆 Lv.'+C.bondProgress(state.heroBonds?.[hero.id]||0).level+' · ともに歩む英雄':'英雄の魂を集めて、召喚へ'}</span></div></div></section>
-  <section class="daily-strip" aria-label="今日の任務"><div class="daily-heading"><span class="eyebrow">DAILY MISSIONS</span><h2>今日の任務</h2><span>${d.calc>=5&&d.quest>=2?'すべての任務を達成':'少しずつ、確かな力に。'}</span></div>${missionCard('calc',d.calc,5,'鍛冶師の修練','計算を5問クリア',state.gearPity===9?'素材＋5・装備箱保証':'素材＋5・装備箱10%')}${missionCard('quest',d.quest,2,'英雄との契約','一行問題・図形を合計2問','魂 ＋2')}</section>
+  <section class="daily-strip" aria-label="今日の任務"><div class="daily-heading"><span class="eyebrow">DAILY MISSIONS</span><h2>今日の任務</h2><span>${d.calc>=5&&d.quest>=2?'すべての任務を達成':'少しずつ、確かな力に。'}</span></div>${missionCard('calc',d.calc,5,'鍛冶師の修練','計算を5問クリア',state.gearPity===9?'素材＋5・宝箱（宝石9/9で必ず発見）':'素材＋5・宝箱'+(state.gearPity?'（宝石'+state.gearPity+'/9）':''))}${missionCard('quest',d.quest,2,'英雄との契約','一行問題・図形を合計2問','魂 ＋2')}</section>
   <div class="campaign-layout"><section class="mission-board"><div class="section-head"><div><div class="eyebrow">CHOOSE YOUR PATH</div><h2>今日の修練を選ぶ</h2></div><span class="caption">学びが、力になる。</span></div><div class="categories">${categoryMeta.map(([cat,symbol,label,sub,reward])=>`<button class="category ${settings.category===cat?'selected':''}" data-category="${cat}" aria-pressed="${settings.category===cat}"><span class="category-top">${icon(symbol)}<span class="category-check">${settings.category===cat?'✓':''}</span></span><b>${label}</b><small>${sub}</small><span class="category-reward">${cat==='calc'?icon('sword'):icon('crystal')}${reward}</span></button>`).join('')}</div>
   <div class="sortie-panel">${settings.category!=='calc'?`<div class="field-heading"><span>遠征先</span><span class="caption">優先する範囲から、順に進もう</span></div><div class="scope-options">${['review','gnorev','all'].map(mode=>{const locked=mode==='all'&&!campaign.allUnlocked,count=mode==='review'?campaign.review:campaign.gnorev;return `<button data-mode="${mode}" class="scope-option ${settings.mode===mode?'active':''}" ${locked?'disabled':''} aria-pressed="${settings.mode===mode}"><span class="scope-icon">${icon(mode==='review'?'shield':mode==='gnorev'?'flame':locked?'lock':'star')}</span><span><b>${scopeNames[mode]}</b><small>${scopeDescriptions[mode]}</small></span><em>${mode==='all'?(locked?'未解放':'解放済み'):count+'型'}</em></button>`;}).join('')}</div><p class="scope-note">${settings.mode==='review'?`直近の授業：${esc(settings.recentUnits.join('・')||'未設定')}。この範囲だけに取り組みます。`:settings.mode==='gnorev'?`次回グノレブ：${esc(settings.scopeUnits.join('・')||'未設定')}。この範囲だけに取り組みます。`:'優先する範囲を終えたので、すべての分野へ。独力正解で同行英雄との絆が＋1。'}${!campaign.allUnlocked?'<br>両方の範囲で今日取り組む問題が0になると、自由遠征を解放。':''}</p>`:`<div class="calc-intro">${icon('sword')}<div><strong>鍛冶場で、計算の力を磨く。</strong><p>回数制限なし。新しい計算のクリアで鍛造素材を獲得。</p></div><span class="unlimited">∞</span></div>`}
   <div class="difficulty-row"><span>難易度</span><div class="segments">${[['standard','標準',1],['advanced','応用',2],['hard','難問',3]].map(([tier,label,star])=>`<button ${settings.category==='calc'?`data-star="${star}"`:`data-tier="${tier}"`} class="${(settings.category==='calc'?settings.star===star:settings.tier===tier)?'active':''}" aria-pressed="${settings.category==='calc'?settings.star===star:settings.tier===tier}">${label}</button>`).join('')}</div>${settings.category!=='calc'&&settings.mode==='all'?`<select id="domain-filter" aria-label="分野"><option value="">すべての分野</option>${domains.map(x=>`<option ${x===settings.domain?'selected':''}>${esc(x)}</option>`).join('')}</select>`:''}</div>
@@ -123,4 +123,65 @@ async function openGuild(tab='heroes'){
   $$('[data-train]').forEach(b=>b.onclick=async()=>{b.disabled=true;const id=b.dataset.train;let response;await enqueue(s=>{response=G.trainEquipment(s,id,DATA.catalog.equipment);return response.state;});if(!response.result.valid){toast(response.result.error||'鍛錬できません。');return;}openGuild('equipment');const r=response.result,item=DATA.catalog.equipment.find(x=>x.id===id);toast(`${item.name}を鍛錬しました。Lv.${r.level} · 装備戦力 ${r.power}`);if(view==='home')renderHome();});
   $$('[data-equip]').forEach(b=>b.onclick=async()=>{const id=b.dataset.equip;await enqueue(s=>{if(!s.inventory.equipment.includes(id))return s;const next=clone(s);next.loadout=next.loadout||{hero:null,equipment:[]};const list=next.loadout.equipment;if(list.includes(id))next.loadout.equipment=list.filter(x=>x!==id);else if(list.length<3)list.push(id);else toast('装備は3つまで。1つ外してから選んでください。');return next;});openGuild('equipment');});
   $$('[data-companion]').forEach(b=>b.onclick=async()=>{const id=b.dataset.companion;await enqueue(s=>{if(!s.inventory.heroes.includes(id))return s;const next=clone(s);next.loadout=next.loadout||{hero:null,equipment:[]};next.loadout.hero=id;return next;});openGuild('collection');if(view==='home')renderHome();});
+}
+// Treasure chest shown when the daily calculation mission rolls the equipment lottery.
+// The roll is already committed in core (gearPity = gems held). This scene only presents it and, on a win,
+// opens the earned equipment box with the normal discovery transaction.
+const CHEST_SVG=`<svg class="chest-svg" viewBox="0 0 240 200" aria-hidden="true"><defs><linearGradient id="cw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a5a33"/><stop offset="1" stop-color="#4e2f1b"/></linearGradient><linearGradient id="cg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe7a3"/><stop offset=".5" stop-color="#d4a13f"/><stop offset="1" stop-color="#8e6420"/></linearGradient><radialGradient id="cl" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff7d6"/><stop offset="1" stop-color="#ffd27000"/></radialGradient></defs><ellipse class="chest-glow" cx="120" cy="104" rx="110" ry="40" fill="url(#cl)"/><g class="chest-body"><rect x="30" y="100" width="180" height="88" rx="8" fill="url(#cw)" stroke="#2c1a0e" stroke-width="3"/><path d="M30 122h180M30 166h180" stroke="#3a2313" stroke-width="2" opacity=".6"/><rect x="48" y="100" width="18" height="88" fill="url(#cg)"/><rect x="174" y="100" width="18" height="88" fill="url(#cg)"/><rect x="30" y="100" width="180" height="10" fill="url(#cg)"/><rect x="104" y="108" width="32" height="38" rx="5" fill="url(#cg)" stroke="#6b4612" stroke-width="2"/><circle cx="120" cy="122" r="5" fill="#3a2313"/><rect x="118" y="124" width="4" height="12" fill="#3a2313"/></g><g class="chest-lid"><path d="M30 100V76c0-30 40-48 90-48s90 18 90 48v24z" fill="url(#cw)" stroke="#2c1a0e" stroke-width="3"/><path d="M48 100V58c10-14 10-18 18-22v64zM192 100V58c-10-14-10-18-18-22v64z" fill="url(#cg)"/><path d="M30 92h180v8H30z" fill="url(#cg)"/><circle cx="120" cy="58" r="11" fill="#7b4fd0" stroke="url(#cg)" stroke-width="4"/></g></svg>`;
+const GEM_SVG='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10l5 6-10 12L2 9z" fill="currentColor"/><path d="M2 9h20M7 3l5 18 5-18M7 3 9.5 9 12 3l2.5 6L17 3" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width=".9"/></svg>';
+function gemRow(filled,cls=''){return `<div class="gem-row ${cls}" aria-label="宝石 ${filled}/9">${Array.from({length:9},(_,i)=>`<span class="gem-slot ${i<filled?'filled':''}" style="--i:${i}">${GEM_SVG}</span>`).join('')}</div>`;}
+function playTreasure(lottery){
+  return new Promise(resolve=>{
+    const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches,before=lottery.missesBefore||0,after=lottery.missesAfter||0;
+    const wait=ms=>new Promise(r=>setTimeout(r,reduced?Math.min(ms,150):ms));
+    const scene=document.createElement('dialog');scene.className='treasure-dialog'+(reduced?' treasure-static':'');scene.setAttribute('aria-labelledby','treasure-title');
+    scene.innerHTML=`<div class="treasure-sky" aria-hidden="true"></div><div class="treasure-rays" aria-hidden="true"></div><button class="quiet treasure-skip" id="treasure-skip">演出をとばす</button>
+    <div class="treasure-stage"><p class="treasure-kicker">DAILY FORGE · 鍛冶師の修練 達成</p><h2 id="treasure-title">宝箱が現れた！</h2>
+    <div class="treasure-roulette" aria-hidden="true"><div class="roulette-window"></div></div>
+    <div class="treasure-chest">${CHEST_SVG}<div class="treasure-burst" aria-hidden="true">${Array.from({length:22},(_,i)=>`<i style="--a:${i*16.36}deg;--d:${(i%5)*.05}s"></i>`).join('')}</div><div class="treasure-item" aria-hidden="true"></div><div class="found-gem" aria-hidden="true">${GEM_SVG}</div></div>
+    <div class="treasure-gems"><small>集めた宝石</small>${gemRow(before)}</div>
+    <p class="treasure-message" id="treasure-message" role="status" aria-live="polite">${before===9?'9つの宝石が光を放っている…。':before?`宝石を ${before}個 持っている。9個集めると、次の宝箱で必ず装備が見つかる。`:'中には装備が眠っているかもしれない。'}</p>
+    <div class="treasure-actions"><button class="primary treasure-open" id="treasure-open">${icon('crystal')} 宝箱を開ける</button></div></div>`;
+    for(const it of DATA.catalog.equipment){const src=DATA.assets?.equipment?.[it.id];if(src){const im=new Image();im.src=src;}}
+    const overflow=document.body.style.overflow;document.body.style.overflow='hidden';document.body.append(scene);scene.showModal();
+    const $s=q=>scene.querySelector(q),msg=t=>{$s('#treasure-message').innerHTML=t;};
+    let done=false,phase='closed',outcome=null;
+    const finish=()=>{if(done)return;done=true;if(scene.open)scene.close();scene.remove();document.body.style.overflow=overflow;if(view==='home')renderHome();resolve(outcome);};
+    const setGems=n=>{scene.querySelectorAll('.treasure-gems .gem-slot').forEach((g,i)=>g.classList.toggle('filled',i<n));};
+    async function discover(){let response;await enqueue(s=>{response=G.discoverEquipment(s,DATA.catalog.equipment);return response.result.valid?response.state:s;});return response.result.valid?response.result:null;}
+    async function roulette(finalItem){
+      const win=$s('.roulette-window'),items=DATA.catalog.equipment;$s('.treasure-roulette').classList.add('spinning');
+      let delay=60,i=Math.floor(Math.random()*items.length);const total=reduced?1:20;
+      for(let k=0;k<total&&!done;k++){const it=k===total-1&&finalItem?finalItem:items[i++%items.length];win.innerHTML=`<div class="roulette-card ${k===total-1?'last':''}">${weaponArt(it).replace('loading="lazy"','loading="eager"')}</div>`;await wait(delay);delay=Math.min(320,delay*1.14);}
+      if(!finalItem){win.innerHTML='<div class="roulette-card fade">？</div>';}
+    }
+    async function open(){
+      if(phase!=='closed')return;phase='opening';const openBtn=$s('#treasure-open');openBtn.disabled=true;openBtn.textContent='開けています…';
+      $s('.treasure-skip').hidden=true;
+      if(lottery.guaranteed){scene.classList.add('offering');msg('<b>9つの宝石が捧げられた！</b><br>宝石の力で、宝箱の奥の装備が呼び覚まされる。');scene.querySelectorAll('.treasure-gems .gem-slot').forEach((g,i)=>{g.style.setProperty('--fly',i);g.classList.add('offered');});await wait(2300);scene.querySelectorAll('.treasure-gems .gem-slot').forEach(g=>g.classList.remove('offered'));setGems(0);}
+      else msg('宝箱の鍵がゆっくり回る…。');
+      scene.classList.add('shaking');
+      let found=null;if(lottery.won)found=await discover();
+      const item=found?DATA.catalog.equipment.find(x=>x.id===found.gearId):null;
+      await Promise.all([roulette(item),wait(reduced?0:2600)]);if(done)return;
+      scene.classList.remove('shaking');
+      if(lottery.won){
+        outcome={won:true,found};scene.classList.add('opened','won');$s('#treasure-title').textContent=found?(found.duplicate?'装備を発見！（所持済み）':'装備を発見！'):'装備箱を手に入れた！';
+        if(item)$s('.treasure-item').innerHTML=weaponArt(item).replace('loading="lazy"','loading="eager"');await wait(1100);
+        const lostGems=!lottery.guaranteed&&before>0;
+        msg(item?`<b class="item-name">${esc(item.name)}</b><br>${found.duplicate?'同じ装備だったので、鍛造素材 ＋3 に変わった。':'新しい装備が仲間に加わった。工房で鍛えられる。'}`:'装備箱は工房に保管しました。工房で開けられます。');
+        if(lostGems){await wait(1500);scene.classList.add('gems-lost');msg(`${$s('#treasure-message').innerHTML}<br><span class="gems-lost-note">装備が見つかったので、集めた宝石 ${before}個は光となって消えた…。</span>`);await wait(1300);setGems(0);}
+      }else{
+        outcome={won:false};scene.classList.add('opened','lost');$s('#treasure-title').textContent='装備は見つからなかった…';await wait(1000);
+        scene.classList.add('gem-found');$s('#treasure-title').textContent='でも、宝石を見つけた！';
+        msg(after===9?'<b>宝石が9個そろった！</b><br>次の宝箱では、宝石が捧げられて必ず装備が見つかる。':`宝石 ${after}/9。9個そろうと、次の宝箱で必ず装備が見つかる。<br><small>途中で装備が見つかると、宝石は消えてしまう。</small>`);
+        await wait(900);setGems(after);
+      }
+      phase='done';$s('.treasure-actions').innerHTML=`<button class="primary" id="treasure-close">続ける ${icon('arrow')}</button>`;$s('#treasure-close').onclick=finish;$s('#treasure-close').focus();$s('.treasure-skip').hidden=false;$s('.treasure-skip').textContent='閉じる';
+    }
+    $s('#treasure-open').onclick=open;
+    $s('#treasure-skip').onclick=async()=>{if(phase==='closed'){if(lottery.won){outcome={won:true,found:await discover()};const it=outcome.found&&DATA.catalog.equipment.find(x=>x.id===outcome.found.gearId);if(it)toast(`${it.name}を発見しました。`+(outcome.found.duplicate?'（素材＋3）':''));}else{outcome={won:false};toast(`装備は見つからず、宝石を見つけました（${after}/9）。`);}finish();}else if(phase==='done')finish();};
+    scene.addEventListener('cancel',e=>{e.preventDefault();if(phase!=='opening')$s('#treasure-skip').click();});
+    $s('#treasure-open').focus();
+  });
 }
