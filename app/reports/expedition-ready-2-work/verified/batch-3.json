@@ -1,0 +1,92 @@
+[
+ {
+  "id": "selected-9cc6b375f8b9dc88",
+  "verdict": "pass",
+  "myAnswer": "(1)4通り (2)12通り",
+  "note": ""
+ },
+ {
+  "id": "selected-e1473ff679345f72",
+  "verdict": "pass",
+  "myAnswer": "20個",
+  "note": ""
+ },
+ {
+  "id": "selected-48776fc371d65313",
+  "verdict": "pass",
+  "myAnswer": "7cm",
+  "note": "原文の太字記法と【p.1456】ページ注記のみ削除（内容の改変なし）"
+ },
+ {
+  "id": "selected-601b2dcb27fa8eba",
+  "verdict": "pass",
+  "myAnswer": "(1)75個 (2)50個",
+  "note": ""
+ },
+ {
+  "id": "selected-1c9def04cd2057f0",
+  "verdict": "pass",
+  "myAnswer": "200個",
+  "note": ""
+ },
+ {
+  "id": "selected-8286f5a214c5d44d",
+  "verdict": "pass",
+  "myAnswer": "11",
+  "note": ""
+ },
+ {
+  "id": "selected-1d104cbaa99e3244",
+  "verdict": "pass",
+  "myAnswer": "648人",
+  "note": ""
+ },
+ {
+  "id": "selected-9ac41a962ba8ec29",
+  "verdict": "pass",
+  "myAnswer": "①9m ②2.5m",
+  "note": ""
+ },
+ {
+  "id": "selected-c2cdcab3b03d9de7",
+  "verdict": "pass",
+  "myAnswer": "2600円",
+  "note": ""
+ },
+ {
+  "id": "selected-c7a530039ceb6c09",
+  "verdict": "pass",
+  "myAnswer": "280個",
+  "note": ""
+ },
+ {
+  "id": "selected-a5fa51470242e718",
+  "verdict": "pass",
+  "myAnswer": "(1)1600円 (2)1000円",
+  "note": ""
+ },
+ {
+  "id": "selected-97b70a2cce4615a7",
+  "verdict": "pass",
+  "myAnswer": "(1)20000円 (2)250個",
+  "note": ""
+ },
+ {
+  "id": "selected-c9d7e83843000b54",
+  "verdict": "pass",
+  "myAnswer": "(4)192人 (5)32人",
+  "note": "(1)〜(3)除外に伴い表注記・出典注記・図注記を削除。(4)(5)は表なしで解けるので問題なし"
+ },
+ {
+  "id": "selected-81ca2d669bf765f3",
+  "verdict": "pass",
+  "myAnswer": "(1)15手 (4)255手",
+  "note": ""
+ },
+ {
+  "id": "selected-b3c416a45b5b1eec",
+  "verdict": "pass",
+  "myAnswer": "4回",
+  "note": ""
+ }
+]

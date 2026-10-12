@@ -1,0 +1,122 @@
+[
+ {
+  "id": "selected-1a8f8f9db4e73cac",
+  "verdict": "pass",
+  "myAnswer": "19手（BFSで確認）",
+  "note": ""
+ },
+ {
+  "id": "selected-78c0593d580489fc",
+  "verdict": "pass",
+  "myAnswer": "コウジ76m/分、ケンタ64m/分",
+  "note": ""
+ },
+ {
+  "id": "selected-2f715ec7a3afbf42",
+  "verdict": "pass",
+  "myAnswer": "5分後",
+  "note": ""
+ },
+ {
+  "id": "selected-711baa4dd9a58325",
+  "verdict": "pass",
+  "myAnswer": "ケンタ120m/分、ミドリ80m/分",
+  "note": ""
+ },
+ {
+  "id": "selected-1fcbad17478b3d19",
+  "verdict": "pass",
+  "myAnswer": "(1)90km (2)時速1km",
+  "note": ""
+ },
+ {
+  "id": "selected-eb7ef236a1425c6d",
+  "verdict": "pass",
+  "myAnswer": "11秒",
+  "note": ""
+ },
+ {
+  "id": "selected-fe2fd90e44ced76a",
+  "verdict": "pass",
+  "myAnswer": "180m",
+  "note": ""
+ },
+ {
+  "id": "selected-ee923a7fbd966127",
+  "verdict": "pass",
+  "myAnswer": "秒速16m",
+  "note": ""
+ },
+ {
+  "id": "selected-2f419f892cc5a183",
+  "verdict": "pass",
+  "myAnswer": "(1)100m (2)245m",
+  "note": ""
+ },
+ {
+  "id": "selected-d687a660315a3a0b",
+  "verdict": "pass",
+  "myAnswer": "(1)12きゃく (2)80人",
+  "note": ""
+ },
+ {
+  "id": "selected-5aa5ea2c6fdb68c0",
+  "verdict": "pass",
+  "myAnswer": "ケンタ44個、マサト20個",
+  "note": ""
+ },
+ {
+  "id": "selected-f76d802ba235a27b",
+  "verdict": "pass",
+  "myAnswer": "(1)4本 (2)36本 (3)4本",
+  "note": ""
+ },
+ {
+  "id": "selected-eedb3e11578fa034",
+  "verdict": "pass",
+  "myAnswer": "なし240円、りんご180円",
+  "note": ""
+ },
+ {
+  "id": "selected-257b638ab720be79",
+  "verdict": "pass",
+  "myAnswer": "31まい",
+  "note": "途中確認の問いを検算者案に修正（統括者）。20+13=33。"
+ },
+ {
+  "id": "selected-d37d0ec531e40058",
+  "verdict": "pass",
+  "myAnswer": "63点",
+  "note": ""
+ },
+ {
+  "id": "selected-0d4e30f097f628d2",
+  "verdict": "pass",
+  "myAnswer": "8時21分",
+  "note": ""
+ },
+ {
+  "id": "selected-ea6a926e51eef8a6",
+  "verdict": "pass",
+  "myAnswer": "(1) 午前8時10分 (2) 3600m",
+  "note": "ampm:'午前'付きだが問題は午前・午後をつけてと求めていない（CONTRACT上は不要）。採点結果は同じ（午前なので「8時10分」もcorrect）なのでpass。統一するならampmを外す。"
+ },
+ {
+  "id": "selected-69e7ae665534e32d",
+  "verdict": "pass",
+  "myAnswer": "(1) 午前7時35分 (2) 2分間",
+  "note": ""
+ },
+ {
+  "id": "selected-83ae5db167953286",
+  "verdict": "pass",
+  "myAnswer": "(1) 午前9時39分 (2) 1080m",
+  "note": "ampm:'午前'付きだが問題は午前・午後をつけてと求めていない（CONTRACT上は不要）。採点結果は同じ（午前なので「9時39分」もcorrect）なのでpass。統一するならampmを外す。"
+ },
+ {
+  "id": "selected-7c57e94449164719",
+  "verdict": "pass",
+  "myAnswer": "(1) 午後8時4分 (2) 600m (3) 午後8時19分",
+  "note": "採点側で、午前・午後の指定がない問題は「8時4分」も正解にするよう変更（統括者）。"
+ }
+]

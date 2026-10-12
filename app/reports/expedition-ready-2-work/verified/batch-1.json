@@ -1,0 +1,284 @@
+[
+ {
+  "id": "selected-3fb5afce9a5f0888",
+  "verdict": "pass",
+  "myAnswer": "①340 ②231",
+  "note": ""
+ },
+ {
+  "id": "selected-f096985c519d5fbf",
+  "verdict": "pass",
+  "myAnswer": "6回、20点",
+  "note": ""
+ },
+ {
+  "id": "selected-403f17cc429c30d8",
+  "verdict": "pass",
+  "myAnswer": "(2)12通り (3)17通り",
+  "note": "手順3の組を2と4／2と3に修正（統括者）。2+4+2=8、2+3+3=8。"
+ },
+ {
+  "id": "selected-7bd660f2c8627e68",
+  "verdict": "pass",
+  "myAnswer": "88",
+  "note": ""
+ },
+ {
+  "id": "selected-a9427d866c442825",
+  "verdict": "pass",
+  "myAnswer": "8",
+  "note": ""
+ },
+ {
+  "id": "selected-a719b12c9c308973",
+  "verdict": "pass",
+  "myAnswer": "12番目",
+  "note": ""
+ },
+ {
+  "id": "selected-932ff5ea5d26f57e",
+  "verdict": "pass",
+  "myAnswer": "①301 ②50個",
+  "note": ""
+ },
+ {
+  "id": "selected-1ea146afcb312ff0",
+  "verdict": "pass",
+  "myAnswer": "(1)76 (2)976",
+  "note": ""
+ },
+ {
+  "id": "selected-a0207c6635c2066e",
+  "verdict": "pass",
+  "myAnswer": "(1)7 (2)9031",
+  "note": ""
+ },
+ {
+  "id": "selected-fab8331c0c865e0b",
+  "verdict": "pass",
+  "myAnswer": "(1)161/9m²(17と5/9) (2)10m²",
+  "note": ""
+ },
+ {
+  "id": "selected-14e708ac4e29dc7d",
+  "verdict": "pass",
+  "myAnswer": "(1)15% (2)2.5%",
+  "note": ""
+ },
+ {
+  "id": "selected-7d14a1bdba410681",
+  "verdict": "pass",
+  "myAnswer": "72個",
+  "note": ""
+ },
+ {
+  "id": "selected-d28ad09be486189a",
+  "verdict": "pass",
+  "myAnswer": "1620円",
+  "note": ""
+ },
+ {
+  "id": "selected-0757180e14ee12f4",
+  "verdict": "pass",
+  "myAnswer": "6400円",
+  "note": ""
+ },
+ {
+  "id": "selected-e37837f580e349ec",
+  "verdict": "pass",
+  "myAnswer": "260g",
+  "note": ""
+ },
+ {
+  "id": "selected-75529067b4dfc1a3",
+  "verdict": "pass",
+  "myAnswer": "36%",
+  "note": ""
+ },
+ {
+  "id": "selected-e677c750d1d8deca",
+  "verdict": "pass",
+  "myAnswer": "A=648, B=882",
+  "note": ""
+ },
+ {
+  "id": "selected-cf718b3722ceea65",
+  "verdict": "pass",
+  "myAnswer": "720円,1080円,580円",
+  "note": ""
+ },
+ {
+  "id": "selected-1e01ef1f54af2003",
+  "verdict": "pass",
+  "myAnswer": "70個",
+  "note": ""
+ },
+ {
+  "id": "selected-c1bae15aeef1ddba",
+  "verdict": "pass",
+  "myAnswer": "32円",
+  "note": ""
+ },
+ {
+  "id": "selected-00d3e6f627059d60",
+  "verdict": "pass",
+  "myAnswer": "25600円",
+  "note": ""
+ },
+ {
+  "id": "selected-a1288febe5c51529",
+  "verdict": "pass",
+  "myAnswer": "320個",
+  "note": ""
+ },
+ {
+  "id": "selected-3f1d0f8c893d853f",
+  "verdict": "pass",
+  "myAnswer": "400円",
+  "note": ""
+ },
+ {
+  "id": "selected-7a0c9b513b0b3b44",
+  "verdict": "pass",
+  "myAnswer": "18%",
+  "note": ""
+ },
+ {
+  "id": "selected-647ea5d6b27b5fa2",
+  "verdict": "pass",
+  "myAnswer": "128円",
+  "note": ""
+ },
+ {
+  "id": "selected-ab718e7c76893cb4",
+  "verdict": "pass",
+  "myAnswer": "3024円",
+  "note": ""
+ },
+ {
+  "id": "selected-3af82fcffa803f26",
+  "verdict": "pass",
+  "myAnswer": "165個",
+  "note": ""
+ },
+ {
+  "id": "selected-102de0ddf5e4bbc4",
+  "verdict": "pass",
+  "myAnswer": "①4% ②100g",
+  "note": ""
+ },
+ {
+  "id": "selected-624645b6be567ba5",
+  "verdict": "pass",
+  "myAnswer": "食塩10g、捨てる100g",
+  "note": ""
+ },
+ {
+  "id": "selected-d2d8fc5f5ed728bd",
+  "verdict": "pass",
+  "myAnswer": "捨てる99g、食塩9g",
+  "note": ""
+ },
+ {
+  "id": "selected-8ab4c398b0d0ec0c",
+  "verdict": "pass",
+  "myAnswer": "8%",
+  "note": ""
+ },
+ {
+  "id": "selected-53060d37f0e0fcec",
+  "verdict": "pass",
+  "myAnswer": "80g",
+  "note": ""
+ },
+ {
+  "id": "selected-6be0c37603283a30",
+  "verdict": "pass",
+  "myAnswer": "A300g B200g C400g D100g",
+  "note": ""
+ },
+ {
+  "id": "selected-e1fa30c4cbb90abf",
+  "verdict": "pass",
+  "myAnswer": "140g",
+  "note": ""
+ },
+ {
+  "id": "selected-376481879b2b4de8",
+  "verdict": "pass",
+  "myAnswer": "(1)18% (2)14.58%",
+  "note": ""
+ },
+ {
+  "id": "selected-f88ba656b62b700b",
+  "verdict": "pass",
+  "myAnswer": "3.5g",
+  "note": ""
+ },
+ {
+  "id": "selected-a8a64236b8982a2d",
+  "verdict": "pass",
+  "myAnswer": "A12% B18%",
+  "note": ""
+ },
+ {
+  "id": "selected-7a44ee6b484788b8",
+  "verdict": "pass",
+  "myAnswer": "0.7",
+  "note": ""
+ },
+ {
+  "id": "selected-2b0221a1e49ad018",
+  "verdict": "pass",
+  "myAnswer": "17:18, 17:35, 14:19, 19:33",
+  "note": ""
+ },
+ {
+  "id": "selected-a720f28b82918dc0",
+  "verdict": "pass",
+  "myAnswer": "5:6",
+  "note": ""
+ },
+ {
+  "id": "selected-9368117ff8af11b3",
+  "verdict": "pass",
+  "myAnswer": "9:10:8",
+  "note": ""
+ },
+ {
+  "id": "selected-1b956765d7332886",
+  "verdict": "pass",
+  "myAnswer": "2/5, 2/3, 3/2, 5/4",
+  "note": ""
+ },
+ {
+  "id": "selected-98fe782d9a51e7ed",
+  "verdict": "pass",
+  "myAnswer": "①24:21:10 ②4800円",
+  "note": ""
+ },
+ {
+  "id": "selected-b424b940390b7dee",
+  "verdict": "pass",
+  "myAnswer": "4:3",
+  "note": ""
+ },
+ {
+  "id": "selected-25b48606251ba825",
+  "verdict": "pass",
+  "myAnswer": "3:7",
+  "note": ""
+ },
+ {
+  "id": "selected-3a3c76eae5589123",
+  "verdict": "pass",
+  "myAnswer": "ミドリ1600円 アオイ400円 ナツキ550円、プレゼント2550円",
+  "note": ""
+ },
+ {
+  "id": "selected-c6929108851cd41b",
+  "verdict": "pass",
+  "myAnswer": "1500円",
+  "note": ""
+ }
+]
