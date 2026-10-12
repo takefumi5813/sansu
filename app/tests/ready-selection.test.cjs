@@ -9,7 +9,7 @@ test('new answers independently match arithmetic or combinatorial enumeration',(
  ready.problems.forEach((p,i)=>assert(Math.abs(Number(p.answer.n)/Number(p.answer.d)-expected[i])<1e-9,p.id));
 });
 test('only normal problem sources are distributed, with complete explanations and objective checkpoints',()=>{
- assert.equal(all.selectedBank,undefined);assert.equal(all.problems.length,143);
+ assert.equal(all.selectedBank,undefined);assert.equal(all.problems.length,143+require('../content/expedition-ready-2.json').problems.length);
  for(const p of ready.problems){
   assert(all.problems.some(q=>q.id===p.id));assert.equal(p.expeditionOnly,true);assert(!p.homeStudy);
   assert.equal(p.explanation.steps.length,4);assert(p.explanation.steps.every(s=>s.body&&s.equation));
