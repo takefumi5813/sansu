@@ -1,0 +1,86 @@
+"""Build expedition-ready-2.json from authored + independently verified candidate rows.
+
+Inputs (outside the repo build):
+  work/authored/batch-*.json   authored rows (status ready/hold, text, answer, steps, checkpoint)
+  work/verified/batch-*.json   blind re-solve results ({id, verdict: "pass"|"fail", ...})
+Outputs:
+  app/content/expedition-ready-2.json      problems served in the normal free expedition
+  app/content/expedition-prepared-hold.json authored rows that are not yet servable (figure, format, mismatch)
+Only rows that are authored as ready AND pass the independent check are served.
+"""
+import json, sys, glob
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[1]
+WORK = Path(sys.argv[1] if len(sys.argv) > 1 else '/home/claude/work')
+bank = {e['id']: e for e in json.loads((ROOT/'content/expedition-selected-bank.json').read_text(encoding='utf-8'))['entries']}
+excluded = set(json.loads((ROOT/'content/scope-plan.json').read_text(encoding='utf-8'))['nextAssessment']['excludedUnlearnedUnits'])
+authored = [r for f in sorted(glob.glob(str(WORK/'authored/batch-*.json'))) for r in json.loads(Path(f).read_text(encoding='utf-8'))]
+verified = {}
+for f in sorted(glob.glob(str(WORK/'verified/*.json'))):
+    for v in json.loads(Path(f).read_text(encoding='utf-8')):
+        verified[v['id']] = v
+DIMS = {'scalar', 'length', 'area', 'volume', 'time', 'speed', 'percent', 'ratio'}
+
+def check_spec(s):
+    if 'parts' in s:
+        assert len(s['parts']) >= 2, 'parts needs 2+'
+        for p in s['parts']:
+            assert p.get('label'), 'part label'
+            check_spec(p)
+        return
+    assert s.get('dimension', 'scalar') in DIMS, s
+    if s.get('dimension') == 'ratio':
+        assert len(s['terms']) >= 2 and all(str(t).isdigit() and int(t) > 0 for t in s['terms'])
+    else:
+        assert str(s['n']).lstrip('-').isdigit() and str(s['d']).isdigit() and int(s['d']) > 0, s
+        s.setdefault('unit', '')
+
+problems, units, hold, problems_ids = [], [], [], set()
+for r in authored:
+    e = bank[r['id']]
+    v = verified.get(r['id'])
+    reason = None
+    if r.get('status') != 'ready':
+        reason = r.get('holdReason') or 'hold'
+    elif not v:
+        reason = '独立検算が未実施'
+    elif v.get('verdict') != 'pass':
+        reason = '独立検算で不一致：' + (v.get('note') or '')
+    elif any(u in excluded for u in e['source']['scopeUnits']):
+        reason = '未習範囲'
+    elif r.get('figureRequired'):
+        reason = '原図が必要'
+    if reason is None:
+        try:
+            check_spec(r['answer'])
+            assert 4 <= len(r['steps']) <= 8
+            cp = r['checkpoint']; check_spec(cp['answer']); assert 'parts' not in cp['answer'] and cp['answer'].get('dimension') != 'ratio'
+            assert r['text'].strip() and '［図' not in r['text']
+        except Exception as ex:  # malformed authored data stays out of the served pool
+            reason = '形式エラー：' + repr(ex)
+    if reason:
+        hold.append({**r, 'holdReason': reason, 'selectionKey': e['selectionKey'], 'sourceTitle': e['source']['title']})
+        continue
+    key = r['id'].removeprefix('selected-')
+    pid = 'ready-' + key; uid = 'selection.' + e['selectionKey'].replace('/', '.')
+    targets = e['targetSubquestions']
+    steps = [{'id': 's' + str(i + 1), 'title': s['title'], 'body': s['body'], 'equation': s.get('equation', '')} for i, s in enumerate(r['steps'])]
+    cp = dict(r['checkpoint']); cp['answer'] = {**cp['answer'], 'd': str(cp['answer'].get('d', '1'))}
+    steps[-1]['checkpoint'] = cp
+    loc = ','.join(targets)
+    problems.append({'id': pid, 'unitId': uid, 'category': e['category'], 'domain': e['domain'], 'text': r['text'].strip(),
+        'source': {'title': e['source']['title'] + ('' if targets == ['all'] else ' ' + loc), 'url': e['source']['url'],
+                   'locator': 'Notion ' + ('全体' if targets == ['all'] else '指定小問 ' + loc), 'sourceText': e['problemText'],
+                   'sourceAnswer': e['sourceAnswerText'], 'verification': '本文条件から作成者と検算者が別々に解き、資料の答えと一致を確認。'},
+        'answer': r['answer'], 'difficulty': max(1, min(10, e['baseDifficulty'] + e['uplift'])), 'figureRequired': False,
+        'scopeUnits': e['source']['scopeUnits'], 'homeStudy': False, 'reviewEligible': False, 'expeditionOnly': True, 'revision': 1,
+        'explanation': {'steps': steps}, 'selectionKey': e['selectionKey']})
+    units.append({'id': uid, 'name': e['learningDecision'], 'domain': e['domain'], 'definition': e['learningDecision'],
+                  'representativeId': pid, 'decision': e['learningDecision'], 'prerequisites': []})
+
+out = {'problems': problems, 'units': units, 'links': [], 'analysis': []}
+(ROOT/'content/expedition-ready-2.json').write_text(json.dumps(out, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+(ROOT/'content/expedition-prepared-hold.json').write_text(json.dumps({'note': '教材化作業済みだが未配信の候補。holdReasonを解消すれば配信可能。', 'entries': hold}, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+from collections import Counter
+print('served', len(problems), Counter(p['category'] for p in problems))
+print('hold', len(hold), Counter(h['holdReason'][:14] for h in hold).most_common(12))
