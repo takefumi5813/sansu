@@ -1,0 +1,1548 @@
+{
+  "problems": [
+    {
+      "id": "ready-37b5157f131a071f",
+      "unitId": "selection.C01.C01-U03",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "次の　　にあてはまる数を求めなさい。\nA、B、C、D、E、Fの6人が横一列にならびます。AとBがとなりどうしになるならび方は　　通りあります。",
+      "source": {
+        "title": "GN場合①M1-1 2",
+        "url": "https://app.notion.com/3f52b010743c8105a643d0877686f65a",
+        "locator": "Notion 指定小問 2",
+        "sourceText": "次の　　にあてはまる数を求めなさい。\n(1) A、B、C、D、E、Fの6人でリレーのチームをつくります。走る順番は　　通りあります。\n(2) A、B、C、D、E、Fの6人が横一列にならびます。AとBがとなりどうしになるならび方は　　通りあります。\n(3) 男子3人、女子3人の6人でリレーのチームをつくります。第1、3、5走者を男子とすると、走る順番は　　通りあります。\n(4) A、B、C、D、E、Fの6人の中から2人の委員を選ぶ方法は　　通りあります。\n(5) A、B、C、D、E、F、G、Hの8人を、日直3人と掃除当番5人に分ける方法は　　通りあります。\n(6) 5人の男子と4人の女子がいます。この中から男子3人と女子2人の掃除当番を選ぶ方法は　　通りあります。\n(7) 赤玉5個、白玉3個があります。これら8個を一列にならべる方法は　　通りあります。\n(8) A、B、C、D、Eの5人が㋐室、㋑室の2部屋に分かれて泊まることになりました。㋐室には4人まで、㋑室には2人まで泊まることができます。5人の泊まり方は、全部で　　通りあります。",
+        "sourceAnswer": "(1) 720通り　(2) 240通り　(3) 36通り　(4) 15通り　(5) 56通り　(6) 60通り　(7) 56通り　(8) 15通り",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "240",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN場合"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "AとBを隣り合わせにするため、2人をひと組として扱います。",
+            "equation": "ABの組と、C・D・E・F"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "並べるものは5つです。左から順に、まだ使っていないものを選びます。",
+            "equation": "5×4×3×2×1＝120"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "組の中にはABとBAの2通りがあるので、それぞれを数えます。",
+            "equation": "120×2＝240通り"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "組の並び方と、組の中の並び方を分けたことが大切です。",
+            "equation": "5つの並び方×組の中の2通り",
+            "checkpoint": {
+              "prompt": "AとBをひと組にすると、並べるものはいくつですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "つ",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "C01/C01-U03"
+    },
+    {
+      "id": "ready-f32b2c1cfd75b489",
+      "unitId": "selection.C01.C01-U04",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "次の　　にあてはまる数を求めなさい。\n男子3人、女子3人の6人でリレーのチームをつくります。第1、3、5走者を男子とすると、走る順番は　　通りあります。",
+      "source": {
+        "title": "GN場合①M1-1 3",
+        "url": "https://app.notion.com/3f52b010743c8105a643d0877686f65a",
+        "locator": "Notion 指定小問 3",
+        "sourceText": "次の　　にあてはまる数を求めなさい。\n(1) A、B、C、D、E、Fの6人でリレーのチームをつくります。走る順番は　　通りあります。\n(2) A、B、C、D、E、Fの6人が横一列にならびます。AとBがとなりどうしになるならび方は　　通りあります。\n(3) 男子3人、女子3人の6人でリレーのチームをつくります。第1、3、5走者を男子とすると、走る順番は　　通りあります。\n(4) A、B、C、D、E、Fの6人の中から2人の委員を選ぶ方法は　　通りあります。\n(5) A、B、C、D、E、F、G、Hの8人を、日直3人と掃除当番5人に分ける方法は　　通りあります。\n(6) 5人の男子と4人の女子がいます。この中から男子3人と女子2人の掃除当番を選ぶ方法は　　通りあります。\n(7) 赤玉5個、白玉3個があります。これら8個を一列にならべる方法は　　通りあります。\n(8) A、B、C、D、Eの5人が㋐室、㋑室の2部屋に分かれて泊まることになりました。㋐室には4人まで、㋑室には2人まで泊まることができます。5人の泊まり方は、全部で　　通りあります。",
+        "sourceAnswer": "(1) 720通り　(2) 240通り　(3) 36通り　(4) 15通り　(5) 56通り　(6) 60通り　(7) 56通り　(8) 15通り",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "36",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN場合"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "男子の位置は第1・3・5走者、女子の位置は第2・4・6走者です。",
+            "equation": "男子3か所、女子3か所"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "男子3人を指定された位置に並べる方法を数えます。",
+            "equation": "3×2×1＝6通り"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "女子も6通りです。男子の並び方それぞれに女子の6通りがあります。",
+            "equation": "6×6＝36通り"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "男子と女子の位置は交換できません。指定された位置の中だけで並べます。",
+            "equation": "男子6通り×女子6通り",
+            "checkpoint": {
+              "prompt": "女子3人を第2・4・6走者に並べる方法は何通りですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "通り",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "C01/C01-U04"
+    },
+    {
+      "id": "ready-323eaedabd471d25",
+      "unitId": "selection.C01.C01-U05",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "A、B、C、Dの4人が横1列に並びます。\nAがいちばん右にならない並び順は何通りありますか。",
+      "source": {
+        "title": "4S11L①-2 3",
+        "url": "https://app.notion.com/3f52b010743c810584d3eea9d061244a",
+        "locator": "Notion 指定小問 3",
+        "sourceText": "A、B、C、Dの4人が横1列に並びます。(1)並び順は全部で何通りありますか。(2)Aがいちばん右になる並び順は何通りありますか。(3)Aがいちばん右にならない並び順は何通りありますか。",
+        "sourceAnswer": "(1)24通り (2)6通り (3)18通り",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "18",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4S11"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "まず、右端の条件を付けずに4人の並び方を数えます。",
+            "equation": "4×3×2×1＝24通り"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "Aを右端に固定すると、残り3人を並べればよいです。",
+            "equation": "3×2×1＝6通り"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "全体から、Aが右端になる並び方を除きます。",
+            "equation": "24−6＝18通り"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "「右端にならない」を直接数える代わりに、反対の条件を引きました。",
+            "equation": "全体−Aが右端",
+            "checkpoint": {
+              "prompt": "Aを右端に固定した並び方は何通りですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "通り",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "C01/C01-U05"
+    },
+    {
+      "id": "ready-7b1e735614648711",
+      "unitId": "selection.C01.C01-U06",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "次の　　にあてはまる数を求めなさい。\n赤玉5個、白玉3個があります。これら8個を一列にならべる方法は　　通りあります。",
+      "source": {
+        "title": "GN場合①M1-1 7",
+        "url": "https://app.notion.com/3f52b010743c8105a643d0877686f65a",
+        "locator": "Notion 指定小問 7",
+        "sourceText": "次の　　にあてはまる数を求めなさい。\n(1) A、B、C、D、E、Fの6人でリレーのチームをつくります。走る順番は　　通りあります。\n(2) A、B、C、D、E、Fの6人が横一列にならびます。AとBがとなりどうしになるならび方は　　通りあります。\n(3) 男子3人、女子3人の6人でリレーのチームをつくります。第1、3、5走者を男子とすると、走る順番は　　通りあります。\n(4) A、B、C、D、E、Fの6人の中から2人の委員を選ぶ方法は　　通りあります。\n(5) A、B、C、D、E、F、G、Hの8人を、日直3人と掃除当番5人に分ける方法は　　通りあります。\n(6) 5人の男子と4人の女子がいます。この中から男子3人と女子2人の掃除当番を選ぶ方法は　　通りあります。\n(7) 赤玉5個、白玉3個があります。これら8個を一列にならべる方法は　　通りあります。\n(8) A、B、C、D、Eの5人が㋐室、㋑室の2部屋に分かれて泊まることになりました。㋐室には4人まで、㋑室には2人まで泊まることができます。5人の泊まり方は、全部で　　通りあります。",
+        "sourceAnswer": "(1) 720通り　(2) 240通り　(3) 36通り　(4) 15通り　(5) 56通り　(6) 60通り　(7) 56通り　(8) 15通り",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "56",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN場合"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "白玉3個の位置を決めれば、残り5か所はすべて赤玉になります。",
+            "equation": "8か所から白玉の3か所を選ぶ"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "白玉を区別して順に位置を選ぶと、同じ並びを重複して数えます。",
+            "equation": "8×7×6＝336"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "白玉3個の入れ替え6通りは同じ並びなので割ります。",
+            "equation": "336÷(3×2×1)＝56通り"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "同じ色の玉同士を入れ替えても、新しい並びにはなりません。",
+            "equation": "重複の数は3×2×1",
+            "checkpoint": {
+              "prompt": "白玉3個を区別して数えると、同じ位置の選び方を何回ずつ数えますか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "回",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "C01/C01-U06"
+    },
+    {
+      "id": "ready-215de0a55cbdcf3c",
+      "unitId": "selection.C02.C02-U02",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "次の　　にあてはまる数を求めなさい。\n5人の男子と4人の女子がいます。この中から男子3人と女子2人の掃除当番を選ぶ方法は　　通りあります。",
+      "source": {
+        "title": "GN場合①M1-1 6",
+        "url": "https://app.notion.com/3f52b010743c8105a643d0877686f65a",
+        "locator": "Notion 指定小問 6",
+        "sourceText": "次の　　にあてはまる数を求めなさい。\n(1) A、B、C、D、E、Fの6人でリレーのチームをつくります。走る順番は　　通りあります。\n(2) A、B、C、D、E、Fの6人が横一列にならびます。AとBがとなりどうしになるならび方は　　通りあります。\n(3) 男子3人、女子3人の6人でリレーのチームをつくります。第1、3、5走者を男子とすると、走る順番は　　通りあります。\n(4) A、B、C、D、E、Fの6人の中から2人の委員を選ぶ方法は　　通りあります。\n(5) A、B、C、D、E、F、G、Hの8人を、日直3人と掃除当番5人に分ける方法は　　通りあります。\n(6) 5人の男子と4人の女子がいます。この中から男子3人と女子2人の掃除当番を選ぶ方法は　　通りあります。\n(7) 赤玉5個、白玉3個があります。これら8個を一列にならべる方法は　　通りあります。\n(8) A、B、C、D、Eの5人が㋐室、㋑室の2部屋に分かれて泊まることになりました。㋐室には4人まで、㋑室には2人まで泊まることができます。5人の泊まり方は、全部で　　通りあります。",
+        "sourceAnswer": "(1) 720通り　(2) 240通り　(3) 36通り　(4) 15通り　(5) 56通り　(6) 60通り　(7) 56通り　(8) 15通り",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "60",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN場合"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "男子3人の選び方と、女子2人の選び方を分けます。",
+            "equation": "男子5人から3人、女子4人から2人"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "男子3人を選ぶことは、選ばない2人を決めることと同じです。",
+            "equation": "5×4÷2＝10通り"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "女子の選び方を求め、男子の選び方と組み合わせます。",
+            "equation": "4×3÷2＝6通り、10×6＝60通り"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "当番を選ぶ問題なので、選んだ人の順番は区別しません。",
+            "equation": "選ぶ人数ごとの重複を除く",
+            "checkpoint": {
+              "prompt": "女子4人から2人を選ぶ方法は何通りですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "通り",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "C02/C02-U02"
+    },
+    {
+      "id": "ready-0b4cfa7f5faae843",
+      "unitId": "selection.C02.C02-U03",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "A、B、C、D、E、Fの6人を、2人と4人のグループに分けます。\nAとBが同じグループになる分け方は何通りありますか。",
+      "source": {
+        "title": "4S16L③-4 2",
+        "url": "https://app.notion.com/3f52b010743c811cbc3ae8a999f39ac7",
+        "locator": "Notion 指定小問 2",
+        "sourceText": "A、B、C、D、E、Fの6人を、2人と4人のグループに分けます。(1)グループの分け方は全部で何通りありますか。(2)AとBが同じグループになる分け方は何通りありますか。",
+        "sourceAnswer": "(1)15通り (2)7通り",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "7",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4S16"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "AとBが2人組に入る場合と、4人組に入る場合に分けます。",
+            "equation": "AとBの入る組は2種類"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "AとBが2人組なら、残りの4人の組も自動的に決まります。",
+            "equation": "1通り"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "AとBが4人組なら、残り4人から同じ組に入る2人を選びます。",
+            "equation": "4×3÷2＝6通り、1＋6＝7通り"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "2つの場合は重ならないので、最後は足します。",
+            "equation": "2人組の場合＋4人組の場合",
+            "checkpoint": {
+              "prompt": "AとBが2人組になる分け方は何通りですか。",
+              "answer": {
+                "n": "1",
+                "d": "1",
+                "unit": "通り",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "C02/C02-U03"
+    },
+    {
+      "id": "ready-1cdf03297b1a20d1",
+      "unitId": "selection.C02.C02-U04",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "次の　　にあてはまる数を求めなさい。\nA、B、C、D、Eの5人が㋐室、㋑室の2部屋に分かれて泊まることになりました。㋐室には4人まで、㋑室には2人まで泊まることができます。5人の泊まり方は、全部で　　通りあります。",
+      "source": {
+        "title": "GN場合①M1-1 8",
+        "url": "https://app.notion.com/3f52b010743c8105a643d0877686f65a",
+        "locator": "Notion 指定小問 8",
+        "sourceText": "次の　　にあてはまる数を求めなさい。\n(1) A、B、C、D、E、Fの6人でリレーのチームをつくります。走る順番は　　通りあります。\n(2) A、B、C、D、E、Fの6人が横一列にならびます。AとBがとなりどうしになるならび方は　　通りあります。\n(3) 男子3人、女子3人の6人でリレーのチームをつくります。第1、3、5走者を男子とすると、走る順番は　　通りあります。\n(4) A、B、C、D、E、Fの6人の中から2人の委員を選ぶ方法は　　通りあります。\n(5) A、B、C、D、E、F、G、Hの8人を、日直3人と掃除当番5人に分ける方法は　　通りあります。\n(6) 5人の男子と4人の女子がいます。この中から男子3人と女子2人の掃除当番を選ぶ方法は　　通りあります。\n(7) 赤玉5個、白玉3個があります。これら8個を一列にならべる方法は　　通りあります。\n(8) A、B、C、D、Eの5人が㋐室、㋑室の2部屋に分かれて泊まることになりました。㋐室には4人まで、㋑室には2人まで泊まることができます。5人の泊まり方は、全部で　　通りあります。",
+        "sourceAnswer": "(1) 720通り　(2) 240通り　(3) 36通り　(4) 15通り　(5) 56通り　(6) 60通り　(7) 56通り　(8) 15通り",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "15",
+        "d": "1",
+        "unit": "通り",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN場合"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "5人全員が泊まり、㋐室は4人まで、㋑室は2人までです。",
+            "equation": "㋑室は1人または2人"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "㋑室が1人の場合、その1人を5人から選びます。",
+            "equation": "5通り"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "㋑室が2人の場合を数え、1人の場合と合わせます。",
+            "equation": "5×4÷2＝10通り、5＋10＝15通り"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "㋑室を0人にすると㋐室が5人となり、定員を超えます。",
+            "equation": "可能な人数だけを数える",
+            "checkpoint": {
+              "prompt": "㋑室に2人泊まるとき、その2人の選び方は何通りですか。",
+              "answer": {
+                "n": "10",
+                "d": "1",
+                "unit": "通り",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "C02/C02-U04"
+    },
+    {
+      "id": "ready-b9224f4afe831825",
+      "unitId": "selection.N03.N03-U04",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "200の約数は全部で　　個あります。",
+      "source": {
+        "title": "GN数性①例3 all",
+        "url": "https://app.notion.com/3f52b010743c81d2815fc0707ebc9189",
+        "locator": "Notion 指定小問 all",
+        "sourceText": "200の約数は全部で　　個あります。",
+        "sourceAnswer": "12個",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "12",
+        "d": "1",
+        "unit": "個",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN数性"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "200を素数の積に分けます。",
+            "equation": "200＝2×2×2×5×5"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "約数に使う2の個数は0〜3個、5の個数は0〜2個です。",
+            "equation": "2の選び方4通り、5の選び方3通り"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "2の個数と5の個数の組合せが、それぞれ別の約数を作ります。",
+            "equation": "4×3＝12個"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "どちらも0個選ぶと約数1になります。0個の場合も忘れません。",
+            "equation": "2も5も0個 → 1",
+            "checkpoint": {
+              "prompt": "200の約数を作るとき、2の個数の選び方は何通りですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "通り",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "N03/N03-U04"
+    },
+    {
+      "id": "ready-302023e9fa619c5c",
+      "unitId": "selection.N06.N06-U01",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "分母が30で、分子が1から30までの分数1/30，2/30，……，30/30があります。\n(1) このうち、約分できない分数は何個ありますか。\n(2) (1)の分数をすべて加えたとき、その和はいくらになりますか。\n【解答するのは小問(1)のみです】",
+      "source": {
+        "title": "S05H②-1 1",
+        "url": "https://app.notion.com/3f52b010743c81019b5fee49cc69772f",
+        "locator": "Notion 指定小問 1",
+        "sourceText": "分母が30で、分子が1から30までの分数1/30，2/30，……，30/30があります。\n(1) このうち、約分できない分数は何個ありますか。\n(2) (1)の分数をすべて加えたとき、その和はいくらになりますか。",
+        "sourceAnswer": "(1)8個　(2)4",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "8",
+        "d": "1",
+        "unit": "個",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "S05"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "30と共通の約数が1以外にない分子を選びます。",
+            "equation": "30＝2×3×5"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "1から30のうち、2・3・5の倍数を除きます。",
+            "equation": "1、7、11、13、17、19、23、29"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "残った8つの数を分子にすると約分できません。",
+            "equation": "8個"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "分母の素因数のどれとも割り切れないことを確かめます。",
+            "equation": "2・3・5の倍数は除外",
+            "checkpoint": {
+              "prompt": "30を割り切る素数は全部で何種類ですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "種類",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "N06/N06-U01"
+    },
+    {
+      "id": "ready-62a95380aba47bcd",
+      "unitId": "selection.N06.N06-U02",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "分母が30で、分子が1から30までの分数1/30，2/30，……，30/30があります。\n(1) このうち、約分できない分数は何個ありますか。\n(2) (1)の分数をすべて加えたとき、その和はいくらになりますか。\n【解答するのは小問(2)のみです】",
+      "source": {
+        "title": "S05H②-1 2",
+        "url": "https://app.notion.com/3f52b010743c81019b5fee49cc69772f",
+        "locator": "Notion 指定小問 2",
+        "sourceText": "分母が30で、分子が1から30までの分数1/30，2/30，……，30/30があります。\n(1) このうち、約分できない分数は何個ありますか。\n(2) (1)の分数をすべて加えたとき、その和はいくらになりますか。",
+        "sourceAnswer": "(1)8個　(2)4",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "4",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "S05"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "約分できない分数の分子は、30と共通の素因数を持たない数です。",
+            "equation": "1、7、11、13、17、19、23、29"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "小さい数と大きい数を組み合わせると、分子の和が30になります。",
+            "equation": "1＋29、7＋23、11＋19、13＋17"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "どの組も分母が30なので、1になります。組は4つです。",
+            "equation": "30/30×4＝4"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "8個を2個ずつ組にしています。組の数は8÷2です。",
+            "equation": "4組",
+            "checkpoint": {
+              "prompt": "最小の分子1と組み合わせて30になる分子はいくつですか。",
+              "answer": {
+                "n": "29",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "N06/N06-U02"
+    },
+    {
+      "id": "ready-00ef6efc12ce983e",
+      "unitId": "selection.P01.ratio.part-of-whole.direct",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "同じ重さの半紙90枚の重さは300g。この半紙60枚の重さは何g",
+      "source": {
+        "title": "4R16N③-3 all",
+        "url": "https://app.notion.com/3f52b010743c813b8deccf3d2d246063",
+        "locator": "Notion 指定小問 all",
+        "sourceText": "同じ重さの半紙90枚の重さは300g。この半紙60枚の重さは何g",
+        "sourceAnswer": "200g",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "200",
+        "d": "1",
+        "unit": "g",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R16"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "どの半紙も同じ重さなので、枚数と重さは比例します。",
+            "equation": "90枚で300g"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "60枚が90枚の何倍かを求めます。",
+            "equation": "60÷90＝2/3"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "重さも同じ割合になります。",
+            "equation": "300×2/3＝200g"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "90枚を3等分すると30枚です。60枚はその2つ分です。",
+            "equation": "30枚は100g、60枚は200g",
+            "checkpoint": {
+              "prompt": "半紙30枚の重さは何gですか。",
+              "answer": {
+                "n": "100",
+                "d": "1",
+                "unit": "g",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P01/ratio.part-of-whole.direct"
+    },
+    {
+      "id": "ready-4646463d7da1b7f8",
+      "unitId": "selection.P01.ratio.chain-multiplier",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "AはBの40%、BはCの120%のとき、AはCの□%です。",
+      "source": {
+        "title": "R20T①-1 7",
+        "url": "https://app.notion.com/3f52b010743c81379337fad6e00c373e",
+        "locator": "Notion 指定小問 7",
+        "sourceText": "(1) 90人の300人に対する割合は□%です。\n(2) □mに対して、30cmは6割にあたります。\n(3) 30人のクラスで、女子が18人のとき男子は全体の□%です。\n(4) □人のクラスで2割5分が欠席のとき、出席者は27人です。\n(5) 360aの150%は□haです。\n(6) 90m²は□aの1分8厘です。\n(7) AはBの40%、BはCの120%のとき、AはCの□%です。\n(8) BがAの4/5倍のとき、AはBの□%です。",
+        "sourceAnswer": "(1) 30　(2) 0.5　(3) 40　(4) 36　(5) 5.4　(6) 50　(7) 48　(8) 125",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "48",
+        "d": "1",
+        "unit": "%",
+        "dimension": "percent"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "BはCの120%です。Cを100とするとBは120です。",
+            "equation": "C＝100、B＝120"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "AはBの40%なので、Bの120をもとに求めます。",
+            "equation": "A＝120×0.4"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "Aは48です。Cを100としたので、割合は48%です。",
+            "equation": "120×0.4＝48 → 48%"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "40%のもとはB、120%のもとはCです。割合を順にかけます。",
+            "equation": "0.4×1.2＝0.48",
+            "checkpoint": {
+              "prompt": "Cを100としたとき、Bはいくつですか。",
+              "answer": {
+                "n": "120",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P01/ratio.chain-multiplier"
+    },
+    {
+      "id": "ready-a37b99e2a3661257",
+      "unitId": "selection.P01.ratio.reciprocal-base",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "BがAの4/5倍のとき、AはBの□%です。",
+      "source": {
+        "title": "R20T①-1 8",
+        "url": "https://app.notion.com/3f52b010743c81379337fad6e00c373e",
+        "locator": "Notion 指定小問 8",
+        "sourceText": "(1) 90人の300人に対する割合は□%です。\n(2) □mに対して、30cmは6割にあたります。\n(3) 30人のクラスで、女子が18人のとき男子は全体の□%です。\n(4) □人のクラスで2割5分が欠席のとき、出席者は27人です。\n(5) 360aの150%は□haです。\n(6) 90m²は□aの1分8厘です。\n(7) AはBの40%、BはCの120%のとき、AはCの□%です。\n(8) BがAの4/5倍のとき、AはBの□%です。",
+        "sourceAnswer": "(1) 30　(2) 0.5　(3) 40　(4) 36　(5) 5.4　(6) 50　(7) 48　(8) 125",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "125",
+        "d": "1",
+        "unit": "%",
+        "dimension": "percent"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "BはAの4/5倍なので、Aを5とするとBは4です。",
+            "equation": "A：B＝5：4"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "AのBに対する割合では、Bをもとに割ります。",
+            "equation": "5÷4＝1.25"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "割合を百分率に直します。",
+            "equation": "1.25×100＝125%"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "Bを100とするとAは125です。逆向きの比較なので80%にはなりません。",
+            "equation": "125×4/5＝100",
+            "checkpoint": {
+              "prompt": "Aを5とすると、Bはいくつですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P01/ratio.reciprocal-base"
+    },
+    {
+      "id": "ready-9f36a873dc08de9a",
+      "unitId": "selection.P03.ratio.same-base.difference",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "次の　　にあてはまる数を求めなさい。\n母の持っているお金　　円の2/5をコウジ君が、1/3を弟がもらうと、2人の金額の差は300円になります。",
+      "source": {
+        "title": "GN割合①M1-3 5",
+        "url": "https://app.notion.com/3f52b010743c811293cbea6304423b18",
+        "locator": "Notion 指定小問 5",
+        "sourceText": "次の　　にあてはまる数を求めなさい。\n(1) 持っていたお金　　円の2割5分をさらにもらうと合計3600円になります。\n(2) 　　ページの本を、昨日は全体の1/3、今日は全体の1/4読んだところ、75ページ残りました。\n(3) 　　ページの本を、3/7より12ページ多く読んだところ、100ページ残りました。\n(4) ナツキさんは本を読みました。1回目に全体の1/3、2回目に残りの1/4、3日目に60ページ読んで、全部読み終えました。この本は　　ページあります。\n(5) 母の持っているお金　　円の2/5をコウジ君が、1/3を弟がもらうと、2人の金額の差は300円になります。",
+        "sourceAnswer": "(1) 2880円　(2) 180ページ　(3) 196ページ　(4) 120ページ　(5) 4500円",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "4500",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GN割合"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "2人がもらう割合は、どちらも母のお金をもとにしています。",
+            "equation": "コウジ2/5、弟1/3"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "2人の差300円にあたる割合を求めます。",
+            "equation": "2/5−1/3＝6/15−5/15＝1/15"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "全体の1/15が300円なので、15倍します。",
+            "equation": "300×15＝4500円"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "2人の受け取り額を出し、差が300円になることを確かめます。",
+            "equation": "4500×2/5＝1800、4500÷3＝1500",
+            "checkpoint": {
+              "prompt": "母のお金が4500円のとき、弟がもらう金額は何円ですか。",
+              "answer": {
+                "n": "1500",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P03/ratio.same-base.difference"
+    },
+    {
+      "id": "ready-970de52e3a6757b4",
+      "unitId": "selection.Q02.Q02-U02",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "下のように、あるきまりにしたがって数が並んでいます。\n1，4，7，10，13，16，19，…\n20番目までの数の和を求めなさい。",
+      "source": {
+        "title": "4R29N①-4 all",
+        "url": "https://app.notion.com/3f52b010743c81fd8c2dcdddd1b0153c",
+        "locator": "Notion 指定小問 all",
+        "sourceText": "下のように、あるきまりにしたがって数が並んでいます。\n1，4，7，10，13，16，19，…\n20番目までの数の和を求めなさい。",
+        "sourceAnswer": "590",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "590",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R29"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "1から始まり、1つ進むたびに3増えます。20番目までには19回増えます。",
+            "equation": "1＋3×19＝58"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "最初と最後、2番目と後ろから2番目を組にします。どれも和は同じです。",
+            "equation": "1＋58＝59、4＋55＝59"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "20個の数で10組できるので、59を10倍します。",
+            "equation": "59×10＝590"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "項の数20と、増える回数19を区別します。",
+            "equation": "20番目は58",
+            "checkpoint": {
+              "prompt": "この数列の20番目の数はいくつですか。",
+              "answer": {
+                "n": "58",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "Q02/Q02-U02"
+    },
+    {
+      "id": "ready-f4acf6ba872ec5d2",
+      "unitId": "selection.T03.speed.staggered-start.same-direction",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "Aが15分で歩く道のりを、Bは21分で歩きます。Bが出発してから12分後にAがBを追いかけました。Aは追いかけはじめてから何分後にBに追いつきますか。",
+      "source": {
+        "title": "R20H⑤-5 all",
+        "url": "https://app.notion.com/3f42b010743c816b8ebde6d0eff65f17",
+        "locator": "Notion 指定小問 all",
+        "sourceText": "Aが15分で歩く道のりを、Bは21分で歩きます。Bが出発してから12分後にAがBを追いかけました。Aは追いかけはじめてから何分後にBに追いつきますか。",
+        "sourceAnswer": "30分後",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "30",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "同じ道のりを進む時間はAが15分、Bが21分なので、速さの比は逆です。",
+            "equation": "A：B＝21：15＝7：5"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "Bの12分の先行距離を、Bの速さ5を使って表します。",
+            "equation": "5×12＝60"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "Aは1分に7−5＝2ずつ追いつきます。",
+            "equation": "60÷2＝30分"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "追いつくまでの移動時間はA30分、B42分となり、距離が一致します。",
+            "equation": "7×30＝5×42＝210",
+            "checkpoint": {
+              "prompt": "速さをAが7、Bが5とすると、Bの12分の先行距離はいくつですか。",
+              "answer": {
+                "n": "60",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T03/speed.staggered-start.same-direction"
+    },
+    {
+      "id": "ready-974230f85bba8422",
+      "unitId": "selection.T05.一周を基準に逆数速度で追越し",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "ある池を1周するのに、Aは12分、Bは21分かかります。この池の周りを、2人が同時に同じところから出発して同じ方向に進むと、何分後にはじめてAがBを追い越しますか。",
+      "source": {
+        "title": "R20H⑤-2 all",
+        "url": "https://app.notion.com/3f42b010743c813282dfe9e9273d218a",
+        "locator": "Notion 指定小問 all",
+        "sourceText": "ある池を1周するのに、Aは12分、Bは21分かかります。この池の周りを、2人が同時に同じところから出発して同じ方向に進むと、何分後にはじめてAがBを追い越しますか。",
+        "sourceAnswer": "28分後",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "28",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R20"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "池1周を84の長さとすると、2人の1分間の進み方を整数で表せます。",
+            "equation": "A：84÷12＝7、B：84÷21＝4"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "同じ向きなので、AがBに対して1分間に進む差を求めます。",
+            "equation": "7−4＝3"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "初めて追い越すときは、AがBより1周分多く進んでいます。",
+            "equation": "84÷3＝28分"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "28分で進む距離の差はちょうど84、つまり1周です。",
+            "equation": "7×28−4×28＝84",
+            "checkpoint": {
+              "prompt": "1周を84としたとき、Bは1分間にいくつ進みますか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T05/一周を基準に逆数速度で追越し"
+    },
+    {
+      "id": "ready-b1df00d40eae204e",
+      "unitId": "selection.T21.clock.time-to-small-angle",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "その時刻の長針と短針の作る小さい方の角：8時30分",
+      "source": {
+        "title": "R22M-1 all",
+        "url": "https://app.notion.com/3f52b010743c815b8e48db4e47aba0b8",
+        "locator": "Notion 指定小問 all",
+        "sourceText": "その時刻の長針と短針の作る小さい方の角：8時30分",
+        "sourceAnswer": "75度",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "75",
+        "d": "1",
+        "unit": "度",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R22"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "時計の1時間分の目盛りの角は30度です。8時ちょうどの短針は12から240度です。",
+            "equation": "360÷12＝30、30×8＝240"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "短針も30分間に動きます。1分に0.5度なので15度進みます。",
+            "equation": "240＋0.5×30＝255度"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "長針は30分で180度の位置です。針同士の差を求めます。",
+            "equation": "255−180＝75度"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "75度は180度より小さいので、求める小さい方の角です。",
+            "equation": "短針を8の位置に固定しない",
+            "checkpoint": {
+              "prompt": "短針が30分間に進む角度は何度ですか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "度",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T21/clock.time-to-small-angle"
+    },
+    {
+      "id": "ready-9d93901727d88e9c",
+      "unitId": "selection.V01.G-d71a07bd13",
+      "category": "geometry",
+      "domain": "立体図形",
+      "text": "次の□にあてはまる数を求めなさい。\n2.5m³＝□cm³",
+      "source": {
+        "title": "4S12L⑥-1 5",
+        "url": "https://app.notion.com/3f52b010743c8157a068cb4801919b9d",
+        "locator": "Notion 指定小問 5",
+        "sourceText": "次の□にあてはまる数を求めなさい。(1)78，104，195の最大公約数は□です。(2)78，104，195の最小公倍数は□です。(3)30000cm³＝□L (4)0.08L＝□cm³ (5)2.5m³＝□cm³ (6)540L＝□m³",
+        "sourceAnswer": "(1)13 (2)1560 (3)30 (4)80 (5)2500000 (6)0.54",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "2500000",
+        "d": "1",
+        "unit": "cm³",
+        "dimension": "volume"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4S12"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "長さの1mは100cmです。体積では3方向すべてを換算します。",
+            "equation": "1m³＝100cm×100cm×100cm"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "1m³にあたるcm³を求めます。",
+            "equation": "100×100×100＝1000000cm³"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "2.5m³なので、1000000を2.5倍します。",
+            "equation": "1000000×2.5＝2500000cm³"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "長さの換算の100倍だけではありません。体積は100を3回かけます。",
+            "equation": "体積の換算倍率は1000000",
+            "checkpoint": {
+              "prompt": "1m³は何cm³ですか。",
+              "answer": {
+                "n": "1000000",
+                "d": "1",
+                "unit": "cm³",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "V01/G-d71a07bd13"
+    },
+    {
+      "id": "ready-1513853fb8e983c1",
+      "unitId": "selection.W10.W10-U03",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "コウジ君たち30人に、しいたけとトマトの好ききらいを質問しました。質問には「好き」か「きらい」のどちらかで答えてもらいました。しいたけを好きと答えた人は24人、トマトを好きと答えた人は26人でした。\nしいたけとトマトの両方をきらいと答えた人は、いちばん多くて何人ですか。",
+      "source": {
+        "title": "GW429-18② 2",
+        "url": "https://app.notion.com/3f52b010743c81038487d28552925b39",
+        "locator": "Notion 指定小問 2",
+        "sourceText": "コウジ君たち30人に、しいたけとトマトの好ききらいを質問しました。質問には「好き」か「きらい」のどちらかで答えてもらいました。しいたけを好きと答えた人は24人、トマトを好きと答えた人は26人でした。\n(1) しいたけとトマトの両方を好きと答えた人は、いちばん少なくて何人ですか。\n(2) しいたけとトマトの両方をきらいと答えた人は、いちばん多くて何人ですか。",
+        "sourceAnswer": "(1) 20人　(2) 4人",
+        "verification": "本文の条件・答えを確認し、段階解説と途中確認を作成。"
+      },
+      "answer": {
+        "n": "4",
+        "d": "1",
+        "unit": "人",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GW429"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理する",
+            "body": "全員が好きかきらいで答えたので、きらいな人数を求められます。",
+            "equation": "しいたけ：30−24＝6人、トマト：30−26＝4人"
+          },
+          {
+            "id": "s2",
+            "title": "求め方を決める",
+            "body": "両方きらいな人は、6人の中にも4人の中にも入る人です。",
+            "equation": "小さい方の4人より多くはならない"
+          },
+          {
+            "id": "s3",
+            "title": "計算する",
+            "body": "トマトがきらいな4人全員を、しいたけがきらいな6人の中に入れれば最大になります。",
+            "equation": "最大4人"
+          },
+          {
+            "id": "s4",
+            "title": "考え方を確かめる",
+            "body": "このとき、しいたけだけきらいな人は2人です。条件に矛盾はありません。",
+            "equation": "6−4＝2人",
+            "checkpoint": {
+              "prompt": "しいたけをきらいと答えた人は何人ですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "人",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "W10/W10-U03"
+    }
+  ],
+  "units": [
+    {
+      "id": "selection.C01.C01-U03",
+      "name": "隣接2人を一まとまりにする",
+      "domain": "場合の数",
+      "definition": "隣接2人を一まとまりにする",
+      "representativeId": "ready-37b5157f131a071f",
+      "decision": "隣接2人を一まとまりにする",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.C01.C01-U04",
+      "name": "男女の指定位置を別々に埋める / 右端Aを固定して3人を並べる",
+      "domain": "場合の数",
+      "definition": "男女の指定位置を別々に埋める / 右端Aを固定して3人を並べる",
+      "representativeId": "ready-f32b2c1cfd75b489",
+      "decision": "男女の指定位置を別々に埋める / 右端Aを固定して3人を並べる",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.C01.C01-U05",
+      "name": "全24通りからA右端6を除く",
+      "domain": "場合の数",
+      "definition": "全24通りからA右端6を除く",
+      "representativeId": "ready-323eaedabd471d25",
+      "decision": "全24通りからA右端6を除く",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.C01.C01-U06",
+      "name": "同じ色の玉を同一視し位置を選ぶ",
+      "domain": "場合の数",
+      "definition": "同じ色の玉を同一視し位置を選ぶ",
+      "representativeId": "ready-7b1e735614648711",
+      "decision": "同じ色の玉を同一視し位置を選ぶ",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.C02.C02-U02",
+      "name": "属性ごとに選んで積にする",
+      "domain": "場合の数",
+      "definition": "属性ごとに選んで積にする",
+      "representativeId": "ready-215de0a55cbdcf3c",
+      "decision": "属性ごとに選んで積にする",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.C02.C02-U03",
+      "name": "指定2人がどちらの組に入るか場合分け",
+      "domain": "場合の数",
+      "definition": "指定2人がどちらの組に入るか場合分け",
+      "representativeId": "ready-0b4cfa7f5faae843",
+      "decision": "指定2人がどちらの組に入るか場合分け",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.C02.C02-U04",
+      "name": "部屋の上限で人数配分を場合分け",
+      "domain": "場合の数",
+      "definition": "部屋の上限で人数配分を場合分け",
+      "representativeId": "ready-1cdf03297b1a20d1",
+      "decision": "部屋の上限で人数配分を場合分け",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.N03.N03-U04",
+      "name": "素因数の指数選択数を掛ける",
+      "domain": "数の性質",
+      "definition": "素因数の指数選択数を掛ける",
+      "representativeId": "ready-b9224f4afe831825",
+      "decision": "素因数の指数選択数を掛ける",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.N06.N06-U01",
+      "name": "分母と互いに素な分子を選ぶ",
+      "domain": "数の性質",
+      "definition": "分母と互いに素な分子を選ぶ",
+      "representativeId": "ready-302023e9fa619c5c",
+      "decision": "分母と互いに素な分子を選ぶ",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.N06.N06-U02",
+      "name": "既約分子kと30-kを対にする",
+      "domain": "数の性質",
+      "definition": "既約分子kと30-kを対にする",
+      "representativeId": "ready-62a95380aba47bcd",
+      "decision": "既約分子kと30-kを対にする",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P01.ratio.part-of-whole.direct",
+      "name": "個数と重量の比例",
+      "domain": "割合と比",
+      "definition": "個数と重量の比例",
+      "representativeId": "ready-00ef6efc12ce983e",
+      "decision": "個数と重量の比例",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P01.ratio.chain-multiplier",
+      "name": "割合の連鎖を同一基準へ掛け合わせる",
+      "domain": "割合と比",
+      "definition": "割合の連鎖を同一基準へ掛け合わせる",
+      "representativeId": "ready-4646463d7da1b7f8",
+      "decision": "割合の連鎖を同一基準へ掛け合わせる",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P01.ratio.reciprocal-base",
+      "name": "比較方向を逆にして割合を逆数へ変える",
+      "domain": "割合と比",
+      "definition": "比較方向を逆にして割合を逆数へ変える",
+      "representativeId": "ready-a37b99e2a3661257",
+      "decision": "比較方向を逆にして割合を逆数へ変える",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P03.ratio.same-base.difference",
+      "name": "同じ元金の異なる取り分の差へ実差を対応",
+      "domain": "割合と比",
+      "definition": "同じ元金の異なる取り分の差へ実差を対応",
+      "representativeId": "ready-9f36a873dc08de9a",
+      "decision": "同じ元金の異なる取り分の差へ実差を対応",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.Q02.Q02-U02",
+      "name": "最後の項を求め両端の和×個数/2 / 両端13,28と6項から和 / 終番号−始番号に1を加える",
+      "domain": "規則性",
+      "definition": "最後の項を求め両端の和×個数/2 / 両端13,28と6項から和 / 終番号−始番号に1を加える",
+      "representativeId": "ready-970de52e3a6757b4",
+      "decision": "最後の項を求め両端の和×個数/2 / 両端13,28と6項から和 / 終番号−始番号に1を加える",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T03.speed.staggered-start.same-direction",
+      "name": "同距離時間逆比を追走へ：速度比7:5、先行5×12",
+      "domain": "速さ",
+      "definition": "同距離時間逆比を追走へ：速度比7:5、先行5×12",
+      "representativeId": "ready-f4acf6ba872ec5d2",
+      "decision": "同距離時間逆比を追走へ：速度比7:5、先行5×12",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T05.一周を基準に逆数速度で追越し",
+      "name": "一周を基準に逆数速度で追越し：(1/12−1/21)t=1",
+      "domain": "速さ",
+      "definition": "一周を基準に逆数速度で追越し：(1/12−1/21)t=1",
+      "representativeId": "ready-974230f85bba8422",
+      "decision": "一周を基準に逆数速度で追越し：(1/12−1/21)t=1",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T21.clock.time-to-small-angle",
+      "name": "短針の連続移動を含め二針の角を求める",
+      "domain": "速さ",
+      "definition": "短針の連続移動を含め二針の角を求める",
+      "representativeId": "ready-b1df00d40eae204e",
+      "decision": "短針の連続移動を含め二針の角を求める",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.V01.G-d71a07bd13",
+      "name": "立方単位の三乗換算：1m³=(100cm)³",
+      "domain": "立体図形",
+      "definition": "立方単位の三乗換算：1m³=(100cm)³",
+      "representativeId": "ready-9d93901727d88e9c",
+      "decision": "立方単位の三乗換算：1m³=(100cm)³",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.W10.W10-U03",
+      "name": "否定集合へ直して小さい集合全部を重ねる / 3集合を最大集合内に入れ非該当最大",
+      "domain": "和と差",
+      "definition": "否定集合へ直して小さい集合全部を重ねる / 3集合を最大集合内に入れ非該当最大",
+      "representativeId": "ready-1513853fb8e983c1",
+      "decision": "否定集合へ直して小さい集合全部を重ねる / 3集合を最大集合内に入れ非該当最大",
+      "prerequisites": []
+    }
+  ],
+  "links": [],
+  "analysis": []
+}
