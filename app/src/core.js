@@ -193,10 +193,12 @@ function getCampaignStatus(problems,state,filters={},day=dayKey()){
  const review=count(filters.recentUnits,'review'),gnorev=count(filters.scopeUnits,'gnorev');return {review,gnorev,allUnlocked:review===0&&gnorev===0};
 }
 const CALC_TIER_LABELS={basic:'基礎',standard:'標準',advanced:'応用',hard:'難問'};
-function calcTier(score){return score<=10?'basic':score<=18?'standard':score<=27?'advanced':'hard';}
+// 区分用の点数＝自動採点の点数＋小数の扱いにくさ（小数点以下の桁数、小数でわる計算）。★と報酬の元になる点数は変えない。
+function calcTierScore(p){if(typeof p==='number')return p;const e=String(p.expression||''),places=Math.max(0,...(e.match(/\d*\.\d+/g)||[]).map(x=>x.split('.')[1].length));return p.score+2*Math.max(0,places-1)+(/÷\s*\d*\.\d/.test(e)?4:0);}
+function calcTier(p){const s=calcTierScore(p);return s<=10?'basic':s<=18?'standard':s<=27?'advanced':'hard';}
 function eligible(p,f={}){
  if(f.category&&p.category!==f.category)return false;if(p.figureRequired&&!p.figure)return false;
- if(p.category==='calc')return f.tier?calcTier(p.score)===f.tier:(!f.star||p.star===Number(f.star));
+ if(p.category==='calc')return f.tier?calcTier(p)===f.tier:(!f.star||p.star===Number(f.star));
  if(Number(f.grade||5)===5&&p.difficulty>8)return false;
  const tier=f.tier||'standard',range={basic:[1,2],standard:[3,4],advanced:[5,6],hard:[7,10]}[tier];if(!range||p.difficulty<range[0]||p.difficulty>range[1])return false;
  if(f.domains?.length&&!f.domains.includes(p.domain)&&!f.domains.some(d=>(p.domains||[]).includes(d)))return false;
