@@ -196,7 +196,7 @@ function eligible(p,f={}){
  if(f.category&&p.category!==f.category)return false;if(p.figureRequired&&!p.figure)return false;
  if(p.category==='calc')return !f.star||p.star===Number(f.star);
  if(Number(f.grade||5)===5&&p.difficulty>8)return false;
- const tier=f.tier||'standard',range={standard:[1,4],advanced:[5,6],hard:[7,10]}[tier];if(!range||p.difficulty<range[0]||p.difficulty>range[1])return false;
+ const tier=f.tier||'standard',range={basic:[1,2],standard:[3,4],advanced:[5,6],hard:[7,10]}[tier];if(!range||p.difficulty<range[0]||p.difficulty>range[1])return false;
  if(f.domains?.length&&!f.domains.includes(p.domain)&&!f.domains.some(d=>(p.domains||[]).includes(d)))return false;
  if(f.mode==='review'&&!inScope(p,f.recentUnits,'review'))return false;if(f.mode==='gnorev'&&!inScope(p,f.scopeUnits))return false;return true;
 }

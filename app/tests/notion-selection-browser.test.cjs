@@ -14,7 +14,7 @@ const {chromium}=require('C:/Users/tsuzu/.cache/codex-runtimes/codex-primary-run
   await page.locator('[data-category="calc"]').click();await page.locator('[data-star="1"]').click();await page.locator('#start').click();
   const seen=new Set();
   for(let i=0;i<5;i++){
-   const text=await page.locator('#question-text').innerText(),p=await page.evaluate(t=>window.SansuPilot.data.problems.find(p=>p.text===t),text);
+   const text=await page.locator('#question-text').innerText(),p=await page.evaluate(t=>window.SansuPilot.data.problems.find(p=>p.text.replace(/\n?[［\[]図[：:][^］\]]*[］\]]/g,'').trim()===t),text);
    assert.equal(p.category,'calc');assert.equal(seen.has(p.id),false);seen.add(p.id);
    await page.locator('#answer').fill(p.answer.n+'/'+p.answer.d);await page.locator('#submit-answer').click();await page.locator('#next-calculation').waitFor();
    if(i<4)await page.locator('#next-calculation').click();
@@ -31,7 +31,7 @@ const {chromium}=require('C:/Users/tsuzu/.cache/codex-runtimes/codex-primary-run
   const questContext=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'}),quest=await questContext.newPage();
   await quest.goto(pathToFileURL(path.resolve(__dirname,'../dist/index.html')).href);await quest.waitForFunction(()=>window.SansuPilot);await quest.locator('#begin-adventure').click();
   for(let i=0;i<2;i++){
-   await quest.locator('#start').click();const text=await quest.locator('#question-text').innerText(),p=await quest.evaluate(t=>window.SansuPilot.data.problems.find(p=>p.text===t),text);
+   await quest.locator('#start').click();const text=await quest.locator('#question-text').innerText(),p=await quest.evaluate(t=>window.SansuPilot.data.problems.find(p=>p.text.replace(/\n?[［\[]図[：:][^］\]]*[］\]]/g,'').trim()===t),text);
    assert.deepEqual(p.scopeUnits,['R24']);assert.ok(p.source.url.includes('notion.com'));await quest.locator('#answer').fill(p.answer.n+'/'+p.answer.d);await quest.locator('#submit-answer').click();await quest.locator('#finish-session').click();await quest.locator('#return-home').click();
   }
   await quest.evaluate(()=>window.SansuPilot.whenSaved());assert.equal(await quest.evaluate(()=>window.SansuPilot.snapshot().souls),4);

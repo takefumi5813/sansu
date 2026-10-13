@@ -22,7 +22,7 @@ test('only normal problem sources are distributed, with complete explanations an
 test('new questions use existing expedition gate, grading, reward, review, and graduation checks',()=>{
  const p=ready.problems[0],day='2026-10-12',s=C.initialState();
  assert.equal(C.selectProblem(all.problems,s,{category:'oneline',mode:'all',recentUnits:['R24'],scopeUnits:['R24']},day),null);
- assert(C.selectProblem([p],s,{category:'oneline',mode:'all',tier:p.difficulty<=4?'standard':p.difficulty<=6?'advanced':'hard',recentUnits:['R24'],scopeUnits:['R24']},day));
+ assert(C.selectProblem([p],s,{category:'oneline',mode:'all',tier:p.difficulty<=2?'basic':p.difficulty<=4?'standard':p.difficulty<=6?'advanced':'hard',recentUnits:['R24'],scopeUnits:['R24']},day));
  const a=C.commitAttempt(s,p,{id:'new',day,raw:p.answer.n,purpose:'normal',mode:'all'});
  assert(a.result.correct);assert.equal(a.result.souls,1);assert.equal(a.state.units[p.unitId].stage,1);assert.equal(a.state.units[p.unitId].due,'2026-10-26');
  const graduated=C.initialState();graduated.units[p.unitId]={stage:3,due:day,highestStageEver:3,awardedStages:[1,2,3]};
