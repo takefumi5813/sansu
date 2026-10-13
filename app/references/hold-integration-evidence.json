@@ -1,0 +1,2539 @@
+{
+  "first": [
+    {
+      "id": "selected-a719b12c9c308973",
+      "sourceTitle": "R03N④-3",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+        "page": 12,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+        "page": 20
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+        "page": 23
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "len([n for n in range(1,36) if sum(n%d==0 for d in range(1,n+1))==4])",
+          "value": "12",
+          "expected": "12",
+          "pass": true
+        },
+        {
+          "expression": "2**3",
+          "value": "8",
+          "expected": "8",
+          "pass": true
+        },
+        {
+          "expression": "3**3",
+          "value": "27",
+          "expected": "27",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "all"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-a0207c6635c2066e",
+      "sourceTitle": "R05N⑥-3",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-05 数の性質(3)-小数・分数(1)-.pdf",
+        "page": 16,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-05 数の性質(3)-小数・分数(1)-.pdf",
+        "page": 20
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-05 数の性質(3)-小数・分数(1)-.pdf",
+        "page": 26
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "20%6",
+          "value": "2",
+          "expected": "2",
+          "pass": true
+        },
+        {
+          "expression": "sum([5,7,1,4,2,8])",
+          "value": "27",
+          "expected": "27",
+          "pass": true
+        },
+        {
+          "expression": "2007//6",
+          "value": "334",
+          "expected": "334",
+          "pass": true
+        },
+        {
+          "expression": "2007%6",
+          "value": "3",
+          "expected": "3",
+          "pass": true
+        },
+        {
+          "expression": "27*334+5+7+1",
+          "value": "9031",
+          "expected": "9031",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-4a073039e428287b",
+      "sourceTitle": "4R12N②-1",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 8,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 20
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 21
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "100//3",
+          "value": "33",
+          "expected": "33",
+          "pass": true
+        },
+        {
+          "expression": "100%3",
+          "value": "1",
+          "expected": "1",
+          "pass": true
+        },
+        {
+          "expression": "33+1",
+          "value": "34",
+          "expected": "34",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-e4307b148c6fc638",
+      "sourceTitle": "R22Tt-4",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+        "page": 73,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+        "page": 75
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+        "page": 75
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "56/7",
+          "value": "8.0",
+          "expected": "8",
+          "pass": true
+        },
+        {
+          "expression": "56/4",
+          "value": "14.0",
+          "expected": "14",
+          "pass": true
+        },
+        {
+          "expression": "(14-8)/4",
+          "value": "1.5",
+          "expected": "1.5",
+          "pass": true
+        },
+        {
+          "expression": "8+1.5",
+          "value": "9.5",
+          "expected": "9.5",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-e385fefc2b3bf7bc",
+      "sourceTitle": "R23T⑤-1",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 55,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 59
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 67
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "6/.5",
+          "value": "12.0",
+          "expected": "12",
+          "pass": true
+        },
+        {
+          "expression": "30*2",
+          "value": "60",
+          "expected": "60",
+          "pass": true
+        },
+        {
+          "expression": "60/5",
+          "value": "12.0",
+          "expected": "12",
+          "pass": true
+        },
+        {
+          "expression": "12/.5",
+          "value": "24.0",
+          "expected": "24",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "all"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-e9430d66d0fbc833",
+      "sourceTitle": "4R26N③-3",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 10,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 20
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 22
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "180/4",
+          "value": "45.0",
+          "expected": "45",
+          "pass": true
+        },
+        {
+          "expression": "45/3+3",
+          "value": "18.0",
+          "expected": "18",
+          "pass": true
+        },
+        {
+          "expression": "18*18",
+          "value": "324",
+          "expected": "324",
+          "pass": true
+        },
+        {
+          "expression": "324-180",
+          "value": "144",
+          "expected": "144",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-1ee629ee7ba1c488",
+      "sourceTitle": "4R26N④-3",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 13,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 20
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 23
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "39+4",
+          "value": "43",
+          "expected": "43",
+          "pass": true
+        },
+        {
+          "expression": "(43-1)/2",
+          "value": "21.0",
+          "expected": "21",
+          "pass": true
+        },
+        {
+          "expression": "21*21+39",
+          "value": "480",
+          "expected": "480",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-48776fc371d65313",
+      "sourceTitle": "4S06L②-4",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-S06 約数.pdf",
+        "page": 4,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-S06 約数.pdf",
+        "page": 14
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-S06 約数.pdf",
+        "page": 16
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": [
+        0.8,
+        0.567,
+        0.957,
+        0.706
+      ],
+      "checks": [
+        {
+          "expression": "65-1",
+          "value": "64",
+          "expected": "64",
+          "pass": true
+        },
+        {
+          "expression": "105-1",
+          "value": "104",
+          "expected": "104",
+          "pass": true
+        },
+        {
+          "expression": "math.gcd(64,104)",
+          "value": "8",
+          "expected": "8",
+          "pass": true
+        },
+        {
+          "expression": "8-1",
+          "value": "7",
+          "expected": "7",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "all"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-8286f5a214c5d44d",
+      "sourceTitle": "R06N⑥-3",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-06 数の性質(4)-小数・分数(2)-.pdf",
+        "page": 17,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-06 数の性質(4)-小数・分数(2)-.pdf",
+        "page": 20
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-06 数の性質(4)-小数・分数(2)-.pdf",
+        "page": 26
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "53-35",
+          "value": "18",
+          "expected": "18",
+          "pass": true
+        },
+        {
+          "expression": "7-4",
+          "value": "3",
+          "expected": "3",
+          "pass": true
+        },
+        {
+          "expression": "18/3",
+          "value": "6.0",
+          "expected": "6",
+          "pass": true
+        },
+        {
+          "expression": "4*6",
+          "value": "24",
+          "expected": "24",
+          "pass": true
+        },
+        {
+          "expression": "35-24",
+          "value": "11",
+          "expected": "11",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "all"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-c7a530039ceb6c09",
+      "sourceTitle": "R17N⑦-2",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+        "page": 19,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+        "page": 20
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+        "page": 25
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "200*F(\"1.5\")",
+          "value": "300",
+          "expected": "300",
+          "pass": true
+        },
+        {
+          "expression": "300*F(\".6\")",
+          "value": "180",
+          "expected": "180",
+          "pass": true
+        },
+        {
+          "expression": "200*600",
+          "value": "120000",
+          "expected": "120000",
+          "pass": true
+        },
+        {
+          "expression": "120000*F(\"1.22\")",
+          "value": "146400",
+          "expected": "146400",
+          "pass": true
+        },
+        {
+          "expression": "300*600-146400",
+          "value": "33600",
+          "expected": "33600",
+          "pass": true
+        },
+        {
+          "expression": "33600/120",
+          "value": "280.0",
+          "expected": "280",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "3"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-97b70a2cce4615a7",
+      "sourceTitle": "R17N⑥-3",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+        "page": 16,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+        "page": 20
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+        "page": 24
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "400*10",
+          "value": "4000",
+          "expected": "4000",
+          "pass": true
+        },
+        {
+          "expression": "16000+4000",
+          "value": "20000",
+          "expected": "20000",
+          "pass": true
+        },
+        {
+          "expression": "400-320",
+          "value": "80",
+          "expected": "80",
+          "pass": true
+        },
+        {
+          "expression": "20000/80",
+          "value": "250.0",
+          "expected": "250",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-16f241625f05fdc8",
+      "sourceTitle": "4R01T⑤-2",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 52,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "figureCatalogReference": "図版p.617",
+      "figureCropNormalized": [
+        0.756,
+        0.146,
+        0.95,
+        0.457
+      ],
+      "checks": [
+        {
+          "expression": "2+4",
+          "value": "6",
+          "expected": "6",
+          "pass": true
+        },
+        {
+          "expression": "2+4+6",
+          "value": "12",
+          "expected": "12",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-ad0549338cf4b1a9",
+      "sourceTitle": "4R01T⑤-2",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 52,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "figureCatalogReference": "図版p.617",
+      "figureCropNormalized": [
+        0.756,
+        0.146,
+        0.95,
+        0.457
+      ],
+      "checks": [
+        {
+          "expression": "sum([2,3,5,8,10,6,4,2])",
+          "value": "40",
+          "expected": "40",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-7ae7ac309898b28f",
+      "sourceTitle": "4R01T⑤-2",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 52,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "figureCatalogReference": "図版p.617",
+      "figureCropNormalized": [
+        0.756,
+        0.146,
+        0.95,
+        0.457
+      ],
+      "checks": [
+        {
+          "expression": "2+3",
+          "value": "5",
+          "expected": "5",
+          "pass": true
+        },
+        {
+          "expression": "2+3+1",
+          "value": "6",
+          "expected": "6",
+          "pass": true
+        },
+        {
+          "expression": "2+3+5",
+          "value": "10",
+          "expected": "10",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "3"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-e1439dc19fbba560",
+      "sourceTitle": "4R01T⑤-1",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 52,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "figureCatalogReference": "図版p.616",
+      "figureCropNormalized": [
+        0.087,
+        0.202,
+        0.481,
+        0.42
+      ],
+      "checks": [
+        {
+          "expression": "9+6+8",
+          "value": "23",
+          "expected": "23",
+          "pass": true
+        },
+        {
+          "expression": "33+32+33",
+          "value": "98",
+          "expected": "98",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "3"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-81ca2d669bf765f3",
+      "sourceTitle": "4R12T⑥-2",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 54,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 55
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 59
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": [
+        0.755,
+        0.145,
+        0.956,
+        0.389
+      ],
+      "checks": [
+        {
+          "expression": "2**3-1",
+          "value": "7",
+          "expected": "7",
+          "pass": true
+        },
+        {
+          "expression": "8+7",
+          "value": "15",
+          "expected": "15",
+          "pass": true
+        },
+        {
+          "expression": "2**8-1",
+          "value": "255",
+          "expected": "255",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "4"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-b3c416a45b5b1eec",
+      "sourceTitle": "4R12T⑥-2",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 54,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 55
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 59
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": [
+        0.755,
+        0.145,
+        0.956,
+        0.389
+      ],
+      "checks": [
+        {
+          "expression": "len([2,6,10,14])",
+          "value": "4",
+          "expected": "4",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-69e7ae665534e32d",
+      "sourceTitle": "4R33N⑦-1",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-33 速さ.pdf",
+        "page": 18,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-33 速さ.pdf",
+        "page": 20
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-33 速さ.pdf",
+        "page": 23
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "1500/60",
+          "value": "25.0",
+          "expected": "25",
+          "pass": true
+        },
+        {
+          "expression": "8*60-25",
+          "value": "455",
+          "expected": "455",
+          "pass": true
+        },
+        {
+          "expression": "300/60",
+          "value": "5.0",
+          "expected": "5",
+          "pass": true
+        },
+        {
+          "expression": "300/100",
+          "value": "3.0",
+          "expected": "3",
+          "pass": true
+        },
+        {
+          "expression": "1500/100",
+          "value": "15.0",
+          "expected": "15",
+          "pass": true
+        },
+        {
+          "expression": "(8*60-15)-(455+5+3)",
+          "value": "2",
+          "expected": "2",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-520b666b4a6f9f48",
+      "sourceTitle": "4R34T⑤-2",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+        "page": 54,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+        "page": 57
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+        "page": 60
+      },
+      "figureCatalogReference": "問題の図：図版p.1106",
+      "figureCropNormalized": [
+        0.61,
+        0.289,
+        0.909,
+        0.363
+      ],
+      "checks": [
+        {
+          "expression": "4500/180",
+          "value": "25.0",
+          "expected": "25",
+          "pass": true
+        },
+        {
+          "expression": "540+360",
+          "value": "900",
+          "expected": "900",
+          "pass": true
+        },
+        {
+          "expression": "900/60",
+          "value": "15.0",
+          "expected": "15",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-83ae5db167953286",
+      "sourceTitle": "4R34T④-2",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+        "page": 52,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+        "page": 57
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+        "page": 59
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "72-15",
+          "value": "57",
+          "expected": "57",
+          "pass": true
+        },
+        {
+          "expression": "(4200-60*57)/(80-60)",
+          "value": "39.0",
+          "expected": "39",
+          "pass": true
+        },
+        {
+          "expression": "57-39",
+          "value": "18",
+          "expected": "18",
+          "pass": true
+        },
+        {
+          "expression": "60*18",
+          "value": "1080",
+          "expected": "1080",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-1fcbad17478b3d19",
+      "sourceTitle": "R22Tt-5",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+        "page": 73,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+        "page": 75
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+        "page": 75
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "11+9",
+          "value": "20",
+          "expected": "20",
+          "pass": true
+        },
+        {
+          "expression": "20*F(\"4.5\")",
+          "value": "90",
+          "expected": "90",
+          "pass": true
+        },
+        {
+          "expression": "F(\"4.5\")+3",
+          "value": "15/2",
+          "expected": "15/2",
+          "pass": true
+        },
+        {
+          "expression": "90/F(\"7.5\")",
+          "value": "12",
+          "expected": "12",
+          "pass": true
+        },
+        {
+          "expression": "12-11",
+          "value": "1",
+          "expected": "1",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-eb7ef236a1425c6d",
+      "sourceTitle": "R23N①-1",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 8,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 21
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 21
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "165/15",
+          "value": "11.0",
+          "expected": "11",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "all"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-b8a477725c303e56",
+      "sourceTitle": "R24T②-3",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "page": 51,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "page": 61
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "page": 62
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "32-5",
+          "value": "27",
+          "expected": "27",
+          "pass": true
+        },
+        {
+          "expression": "432/27",
+          "value": "16.0",
+          "expected": "16",
+          "pass": true
+        },
+        {
+          "expression": "16*5",
+          "value": "80",
+          "expected": "80",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-fe2fd90e44ced76a",
+      "sourceTitle": "R23N⑦-2",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 19,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 21
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 28
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "32*F(\"1.5\")",
+          "value": "48",
+          "expected": "48",
+          "pass": true
+        },
+        {
+          "expression": "1284-972",
+          "value": "312",
+          "expected": "312",
+          "pass": true
+        },
+        {
+          "expression": "61-48",
+          "value": "13",
+          "expected": "13",
+          "pass": true
+        },
+        {
+          "expression": "312/13",
+          "value": "24.0",
+          "expected": "24",
+          "pass": true
+        },
+        {
+          "expression": "24*61-1284",
+          "value": "180",
+          "expected": "180",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "all"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-ee923a7fbd966127",
+      "sourceTitle": "R23N③-5",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 11,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 21
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 24
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "120+80",
+          "value": "200",
+          "expected": "200",
+          "pass": true
+        },
+        {
+          "expression": "200/50",
+          "value": "4.0",
+          "expected": "4",
+          "pass": true
+        },
+        {
+          "expression": "20-4",
+          "value": "16",
+          "expected": "16",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "all"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-2f419f892cc5a183",
+      "sourceTitle": "R23N④-4",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 13,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 21
+      },
+      "explanationSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 25
+      },
+      "figureCatalogReference": null,
+      "figureCropNormalized": null,
+      "checks": [
+        {
+          "expression": "25*52",
+          "value": "1300",
+          "expected": "1300",
+          "pass": true
+        },
+        {
+          "expression": "40*30",
+          "value": "1200",
+          "expected": "1200",
+          "pass": true
+        },
+        {
+          "expression": "1300-1200",
+          "value": "100",
+          "expected": "100",
+          "pass": true
+        },
+        {
+          "expression": "(25+40)*6",
+          "value": "390",
+          "expected": "390",
+          "pass": true
+        },
+        {
+          "expression": "(390+100)/2",
+          "value": "245.0",
+          "expected": "245",
+          "pass": true
+        }
+      ],
+      "targetSubquestions": [
+        "1",
+        "2"
+      ],
+      "notionEvidence": "2026-10-13にNotion実ページをfetchし、タイトル・問題条件・答えを確認。本文は原教材の逐語転記を採用。",
+      "assumptions": [
+        "既存選定の小問だけを採点し、共通条件は原文のまま残す。",
+        "難度は既存baseDifficulty+upliftを継承。"
+      ]
+    },
+    {
+      "id": "selected-b3c416a45b5b1eec",
+      "additionalCheck": "4枚のハノイ手順をPythonで再現。2のカードは2/6/10/14手目、A→C、C→B、B→A、A→C。",
+      "pass": true
+    }
+  ],
+  "second": [
+    {
+      "index": 8,
+      "id": "selected-af53448fcebdb7ff",
+      "group": "A2",
+      "title": "4R25T⑥-2",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-25 文章題(6)-消去算-.pdf",
+        "page": 56,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 63,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81b4a143efe4e5155882?pvs=204",
+      "figure": "figs/selected-af53448fcebdb7ff.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 19,
+      "id": "selected-ca849a9999cb5e6f",
+      "group": "A2",
+      "title": "R09T⑥-2",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-09 速さ(3)-点の移動(1)-.pdf",
+        "page": 62,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 67,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c811ebc05e51ce0b99965?pvs=204",
+      "figure": "figs/selected-ca849a9999cb5e6f.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 27,
+      "id": "selected-d7a11bb612170411",
+      "group": "A2",
+      "title": "S08L⑥-4",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-夏08 場合の数.pdf",
+        "page": 14,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 24,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8107a87de38d466300e2?pvs=204",
+      "figure": "figs/selected-d7a11bb612170411.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 34,
+      "id": "selected-49edda1ef6f74a71",
+      "group": "A2",
+      "title": "S03L④-3",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-夏03 正比例反比例.pdf",
+        "page": 12,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 36,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8100bd78dcc7dd250c5a?pvs=204",
+      "figure": "figs/selected-49edda1ef6f74a71.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 35,
+      "id": "selected-db361be3b81c1bb5",
+      "group": "A2",
+      "title": "GW513-29①",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.13 割合の基本 -3用法の確認-.pdf",
+        "page": 62,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 82,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c814aae65d83ccf9b5041?pvs=204",
+      "figure": "figs/selected-db361be3b81c1bb5.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 36,
+      "id": "selected-4c326004aac2e9f8",
+      "group": "A2",
+      "title": "GW513-29①",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.13 割合の基本 -3用法の確認-.pdf",
+        "page": 62,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 82,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c814aae65d83ccf9b5041?pvs=204",
+      "figure": "figs/selected-4c326004aac2e9f8.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 45,
+      "id": "selected-d92690d360ec02c1",
+      "group": "A2",
+      "title": "GW427-17①",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/4年/No.27 数列と数のそうさ.pdf",
+        "page": 38,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 78,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8106b434ef1697555624?pvs=204",
+      "figure": "figs/selected-d92690d360ec02c1.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 46,
+      "id": "selected-98374c8573bcb6f5",
+      "group": "A2",
+      "title": "GW427-17①",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/4年/No.27 数列と数のそうさ.pdf",
+        "page": 38,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 78,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8106b434ef1697555624?pvs=204",
+      "figure": "figs/selected-98374c8573bcb6f5.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 49,
+      "id": "selected-379203398e144f02",
+      "group": "A2",
+      "title": "GW518-29①",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+        "page": 62,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 82,
+      "notionUrl": "https://app.notion.com/p/3f42b010743c8160a5c2f6836eb51f7a?pvs=204",
+      "figure": "figs/selected-379203398e144f02.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 50,
+      "id": "selected-33599988c9d3afdf",
+      "group": "A2",
+      "title": "GW518-29①",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+        "page": 62,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 82,
+      "notionUrl": "https://app.notion.com/p/3f42b010743c8160a5c2f6836eb51f7a?pvs=204",
+      "figure": "figs/selected-33599988c9d3afdf.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 51,
+      "id": "selected-140d0f170b7a1eb7",
+      "group": "A2",
+      "title": "GW518-27①",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+        "page": 58,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 81,
+      "notionUrl": "https://app.notion.com/p/3f42b010743c817eba1af8f69ab76ae4?pvs=204",
+      "figure": "figs/selected-140d0f170b7a1eb7.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 67,
+      "id": "selected-f2a2d78a5daf9038",
+      "group": "A1",
+      "title": "R23T⑥-2",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 57,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 69,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81f49ab1c9a6c98c1488?pvs=204",
+      "figure": "figs/selected-f2a2d78a5daf9038.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 68,
+      "id": "selected-0d6faa591c32ce66",
+      "group": "A1",
+      "title": "R23T⑥-2",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 57,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 69,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81f49ab1c9a6c98c1488?pvs=204",
+      "figure": "figs/selected-0d6faa591c32ce66.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 69,
+      "id": "selected-5aa5ea2c6fdb68c0",
+      "group": "A1",
+      "title": "4R24N④-2",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-24 文章題(5)-和差算・やりとり算-.pdf",
+        "page": 10,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 21,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81338996f0e5ff931902?pvs=204",
+      "figure": null,
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": false,
+      "notionRefetched": true
+    },
+    {
+      "index": 70,
+      "id": "selected-eedb3e11578fa034",
+      "group": "A1",
+      "title": "4R26T④-2",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 54,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 62,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c810c96ceeaa097eb12e2?pvs=204",
+      "figure": null,
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": false,
+      "notionRefetched": true
+    },
+    {
+      "index": 76,
+      "id": "selected-d6cf9822b1e88537",
+      "group": "A1",
+      "title": "4R25T①-1",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-25 文章題(6)-消去算-.pdf",
+        "page": 45,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 57,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c813eb5b8d988f8fe2ec0?pvs=204",
+      "figure": null,
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": false,
+      "notionRefetched": true
+    },
+    {
+      "index": 81,
+      "id": "selected-513ab79cafcc6cea",
+      "group": "A2",
+      "title": "GN数性①Ch-4",
+      "source": {
+        "file": "/算数DB/原本/基本の制覇/数の性質.pdf",
+        "page": 22,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 62,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8187b5f0f12064c09d5f?pvs=204",
+      "figure": "figs/selected-513ab79cafcc6cea.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 84,
+      "id": "selected-ef9b7bd87fbaf928",
+      "group": "A2",
+      "title": "4S16L⑥-1",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-S16 夏期総合(2).pdf",
+        "page": 13,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 20,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8103ac3bd95fa0ec2131?pvs=204",
+      "figure": "figs/selected-ef9b7bd87fbaf928.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 85,
+      "id": "selected-c27ce954e9345e9c",
+      "group": "A1",
+      "title": "4R26T⑤-4",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 56,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 63,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81c7aa74c441164506b7?pvs=204",
+      "figure": "figs/selected-c27ce954e9345e9c.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 86,
+      "id": "selected-87e13bd3d8661952",
+      "group": "A1",
+      "title": "R02N③-1",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-02 平面図形(2)-おうぎ形と複合図形-.pdf",
+        "page": 10,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 21,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8172ad03d228bef4421c?pvs=204",
+      "figure": "figs/selected-87e13bd3d8661952.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 93,
+      "id": "selected-bf2026cf623201a2",
+      "group": "A3",
+      "title": "R10H②-3",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-10 速さ(4)-点の移動(2)-.pdf",
+        "page": 34,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 46,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8106a288c70ca6786410?pvs=204",
+      "figure": "figs/selected-bf2026cf623201a2.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 97,
+      "id": "selected-524eaf300c2843ef",
+      "group": "A2",
+      "title": "4R18N②-2",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-18 立体図形(2)-体積・容積-.pdf",
+        "page": 5,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 15,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8110b29ef65e4aa641be?pvs=204",
+      "figure": "figs/selected-524eaf300c2843ef.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 99,
+      "id": "selected-25a5b0fe3fb150a9",
+      "group": "A1",
+      "title": "R03N②-4",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+        "page": 9,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 21,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81079116e7445f5af69e?pvs=204",
+      "figure": null,
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": false,
+      "notionRefetched": true
+    },
+    {
+      "index": 106,
+      "id": "selected-22a006cb162db539",
+      "group": "A1",
+      "title": "4R01T④-2",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 49,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 57,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c816cb6e1c366cb430a63?pvs=204",
+      "figure": "figs/selected-22a006cb162db539.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 108,
+      "id": "selected-fe05cebaedb3bab9",
+      "group": "A1",
+      "title": "4S09L⑤-1",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-S09 立体図形(1).pdf",
+        "page": 13,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 19,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c811dbea8c54747194b95?pvs=204",
+      "figure": "figs/selected-fe05cebaedb3bab9.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    },
+    {
+      "index": 109,
+      "id": "selected-3a68d479cac7ca84",
+      "group": "A1",
+      "title": "4S09H④-3",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-S09 立体図形(1).pdf",
+        "page": 29,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "explanationPage": 34,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c816a90f7fa31162ef013?pvs=204",
+      "figure": "figs/selected-3a68d479cac7ca84.png",
+      "stepsBasedOnOriginal": true,
+      "textOriginalVisualVerified": true,
+      "figureVisualVerified": true,
+      "notionRefetched": true
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "selected-bc561f8006715504",
+      "sourceTitle": "S10H③-4",
+      "reason": "当該家庭学習問題の段階解説が原教材にないため、新規解説を推測作成せず保留。",
+      "evidence": "5-夏10 PDF p.36–37は印刷解答と⑥の一部の解説のみ。③-4の解説なし。印刷解答960mは確認済み。"
+    },
+    {
+      "id": "selected-9cc6b375f8b9dc88",
+      "sourceTitle": "4R30N⑥-2",
+      "reason": "指示書指定の図版番号を確定できないため除外。",
+      "evidence": "原本4-30 PDF p.17の図・p.24の解説は確認。図版4年授業5 PDF p.9はDB図版p.1033＝N⑥-1、p.1034＝N⑥-3で、N⑥-2はなく、隣接p.8–10も目視確認。"
+    },
+    {
+      "id": "selected-dc7f2f28965bfdd9",
+      "sourceTitle": "4R01T⑤-1",
+      "reason": "指定小問(2)は「メロン」という名称回答で数値入力の対象外。",
+      "evidence": "原本4-01 PDF p.52の表とp.58の解説で、りんご15人、メロン29人、いちご25人、そのた6人を確認。"
+    },
+    {
+      "id": "selected-8a5d960a99302e81",
+      "sourceTitle": "GN規則①例10",
+      "reason": "指示書指定の図版番号を確定できないため除外。",
+      "evidence": "基本の制覇/規則性.pdfの原本p.13の問題図・解き方は確認済み。算数DB図版_基本の制覇.pdf全22ページを目視確認したが、数表〈2〉/〈4〉は収録されていない。"
+    },
+    {
+      "id": "selected-8c80867c5eea01ab",
+      "sourceTitle": "GN規則①例12",
+      "reason": "指示書指定の図版番号を確定できないため除外。",
+      "evidence": "基本の制覇/規則性.pdfの原本p.15の問題図・解き方は確認済み。算数DB図版_基本の制覇.pdf全22ページを目視確認したが、数表〈2〉/〈4〉は収録されていない。"
+    },
+    {
+      "id": "selected-d5c5790b8b0311f4",
+      "sourceTitle": "S10H②-2",
+      "reason": "当該家庭学習問題の段階解説が原教材にないため、新規解説を推測作成せず保留。",
+      "evidence": "5-夏10 PDF p.36–37は印刷解答と⑥の一部の解説のみ。②-2の解説なし。印刷解答4：3、84m/分は確認済み。"
+    },
+    {
+      "index": 72,
+      "id": "selected-f0b763a566af9d58",
+      "title": "GW402-19②",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：(2)は三角形の名前を言葉で答える形式。また(図2)の原図が必要",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/4年/No.2 基本的な角度の計算.pdf",
+        "page": 41,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F01/G-aa6e7a9c8e",
+      "evidence": {
+        "selectionKey": "F01/G-aa6e7a9c8e",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 73,
+      "id": "selected-a4346201ed65be3c",
+      "title": "4R02H②-1",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：角の名前（同位角・対頂角・錯角）を言葉で答える形式。また原図が必要",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-02 平面図形(2)-角度-.pdf",
+        "page": 29,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F02/G-db9b985792",
+      "evidence": {
+        "selectionKey": "F02/G-db9b985792",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 75,
+      "id": "selected-1daad8ca72ecd507",
+      "title": "4R03H③-1",
+      "group": "A2",
+      "reason": "原本p32で図・問題文、p41で公式答え16cm²/45cm²を確認。当該家庭学習用③-1の解説はp41-42に未収録。既存holdの独自解説は採用しない。",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-02 平面図形(3)-長さと面積-.pdf",
+        "page": 32,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F05/G-50e8666a8e",
+      "evidence": {
+        "selectionKey": "F05/G-50e8666a8e",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 77,
+      "id": "selected-99cf480e13501a30",
+      "title": "4春6H②-1",
+      "group": "A2",
+      "reason": "原本p26の台形・問題文とp34の公式答え77cm²を確認。当該②-1(3)の解説はp34-36に未収録。",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-春6 春季総合.pdf",
+        "page": 26,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F06/G-19917fa42c",
+      "evidence": {
+        "selectionKey": "F06/G-19917fa42c",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 78,
+      "id": "selected-639fbfaea6ca21ef",
+      "title": "4春6H②-1",
+      "group": "A2",
+      "reason": "原本p26の平行四辺形/直角三角形とp34の公式答え96cm²/60cm²を確認。当該②-1(1)(2)の解説はp34-36に未収録。",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-春6 春季総合.pdf",
+        "page": 26,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F06/G-33b28b6b79",
+      "evidence": {
+        "selectionKey": "F06/G-33b28b6b79",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 79,
+      "id": "selected-6828d12483e1cb44",
+      "title": "GW411-13②",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：方眼に平行四辺形を作図する問題で数値入力で採点できない。原図（点の並び）も必要",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/4年/No.11 面積をもとめる（１）.pdf",
+        "page": 29,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F06/G-349506b1b1",
+      "evidence": {
+        "selectionKey": "F06/G-349506b1b1",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 80,
+      "id": "selected-d91cb4ada32d8699",
+      "title": "GW501-17①",
+      "group": "A3",
+      "reason": "指定対象は(1)(2)だが(1)は合同な三角形を記号で答える形式。全対象を数値回答にできず除外。",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.1 多角形の複合と求積.pdf",
+        "page": 38,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F07/G-610ac8c8b4",
+      "evidence": {
+        "selectionKey": "F07/G-610ac8c8b4",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 82,
+      "id": "selected-bb4bcb2697091d72",
+      "title": "S09H④-2",
+      "group": "A3",
+      "reason": "前回切り出し図とNotionの公式答え24cm²は確認済み。当該S09H④-2(1)の公式解説を原本の家庭学習用解答欄で確認できず、holdの外側24cm²の根拠を元解説で確定できない。",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-夏09 対称な図形.pdf",
+        "page": 25,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F07/G-9fd6d16ff1",
+      "evidence": {
+        "selectionKey": "F07/G-9fd6d16ff1",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 83,
+      "id": "selected-2c5fa43844f9b994",
+      "title": "GW412-25①",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：面積が等しい三角形を記号で答える形式。また原図が必要",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/4年/No.12 面積をもとめる（２）.pdf",
+        "page": 54,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F08/G-3e046f716c",
+      "evidence": {
+        "selectionKey": "F08/G-3e046f716c",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 87,
+      "id": "selected-255882b0cabc716f",
+      "title": "S09H④-2",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：作図（点対称な図形をかく）。原図（方眼）も必要",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-夏09 対称な図形.pdf",
+        "page": 25,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F13/G-73f62c5189",
+      "evidence": {
+        "selectionKey": "F13/G-73f62c5189",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 89,
+      "id": "selected-f6df93f51d978d4a",
+      "title": "S09H④-2",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：作図（線対称な図形をかく）。原図（方眼）も必要",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-夏09 対称な図形.pdf",
+        "page": 25,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F13/G-84622a00f5",
+      "evidence": {
+        "selectionKey": "F13/G-84622a00f5",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 90,
+      "id": "selected-bb45e52f886e5599",
+      "title": "S09L①-1",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：作図（対称の軸をかき入れる）",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-夏09 対称な図形.pdf",
+        "page": 6,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F13/G-95e64d063f",
+      "evidence": {
+        "selectionKey": "F13/G-95e64d063f",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 91,
+      "id": "selected-73ee1762604e9ecd",
+      "title": "4R21T③-1",
+      "group": "A1",
+      "reason": "原本p46/47で問題、p54で公式答え6cm²を確認。ただし収録解説は①の一部のみで③-1の解説が未収録。holdの相似を用いる解説は元教材で裏付けられない。",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-21 平面図形(6)-円とおうぎ形(1)-.pdf",
+        "page": 46,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "F15/G-33ee5c8e5a",
+      "evidence": {
+        "selectionKey": "F15/G-33ee5c8e5a",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 92,
+      "id": "selected-2f9c58b78e615821",
+      "title": "GW509-04①",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：表の完成とグラフの作図",
+      "source": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.9 速さ（３） -図形上の点の移動①-.pdf",
+        "page": 12,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "T25/geo.motion.construct-area-table-graph",
+      "evidence": {
+        "selectionKey": "T25/geo.motion.construct-area-table-graph",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 94,
+      "id": "selected-12a1ff3b0c740035",
+      "title": "R09H②-2",
+      "group": "A3",
+      "reason": "原本p34で図・問題文、p45で公式答え480cm²/7.5秒/32.5秒を確認。家庭学習用解説p46-48に②-2の解説がないため推測補完しない。",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-09 速さ(3)-点の移動(1)-.pdf",
+        "page": 34,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "T25/geo.motion.rectangle-piecewise-area",
+      "evidence": {
+        "selectionKey": "T25/geo.motion.rectangle-piecewise-area",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 95,
+      "id": "selected-dd9027bbe16ca062",
+      "title": "GR5-3(1)",
+      "group": "A3",
+      "reason": "原本p7と図版p140に手書きが重なり、解説側は解答情報が追加された図。前回も無記入図を確定できず、未確定図は採用しない。",
+      "source": {
+        "file": "/算数DB/原本/GnoRev・実力テスト/5年/グノレブ5年5月.pdf",
+        "page": 7,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "T26/geo.motion.two-points-trapezoid-area-sum",
+      "evidence": {
+        "selectionKey": "T26/geo.motion.two-points-trapezoid-area-sum",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 96,
+      "id": "selected-11f1864e01becb05",
+      "title": "4R19Tt-1",
+      "group": "A3",
+      "reason": "図と公式答え1000cm³/144cm³は原本p54/p56で確認。当該(1)(2)の印刷解説は省略されており4段階の解説根拠を確定できない。",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-19 総合-14〜18まとめ-.pdf",
+        "page": 55,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V01/G-0721d6bd96",
+      "evidence": {
+        "selectionKey": "V01/G-0721d6bd96",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 98,
+      "id": "selected-219aff6a31e9ea32",
+      "title": "4R17N①-1",
+      "group": "A2",
+      "reason": "原本p3で立方体図・問題文、p16で面6/辺12/頂点8を確認。公式解説は定義のみで当該問題は「解説省略」。4段階の推測補完はしない。",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-17 立体図形(1)-展開図・表面積-.pdf",
+        "page": 3,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V02/G-671c70f1a3",
+      "evidence": {
+        "selectionKey": "V02/G-671c70f1a3",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 100,
+      "id": "selected-a21e00724c6c7a13",
+      "title": "4S09L①-3",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：記号を複数選ぶ問題。原図（5つの展開図）も必要",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-S09 立体図形(1).pdf",
+        "page": 6,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V03/G-438f963542",
+      "evidence": {
+        "selectionKey": "V03/G-438f963542",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 101,
+      "id": "selected-bf1c4c8dcf30da02",
+      "title": "S14L①-4",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：展開図への作図。原図（見取り図・展開図）も必要",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-夏14 立体図形.pdf",
+        "page": 6,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V03/G-4b208d8b4b",
+      "evidence": {
+        "selectionKey": "V03/G-4b208d8b4b",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 102,
+      "id": "selected-41bfb9a0a29690bf",
+      "title": "4R18T①-4",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：辺の記号で答える。原図（展開図と点の記号）も必要",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-18 立体図形(2)-体積・容積-.pdf",
+        "page": 37,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V03/G-5a9948b3b0",
+      "evidence": {
+        "selectionKey": "V03/G-5a9948b3b0",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 103,
+      "id": "selected-e67337b4cd6dab24",
+      "title": "4R18T①-4",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：頂点の記号を複数答える。原図（展開図と点の記号）も必要",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-18 立体図形(2)-体積・容積-.pdf",
+        "page": 37,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V03/G-6122539d69",
+      "evidence": {
+        "selectionKey": "V03/G-6122539d69",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 104,
+      "id": "selected-4a80fc7ce4bfed46",
+      "title": "4R18T①-4",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：面の記号を複数答える。原図（展開図）も必要",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-18 立体図形(2)-体積・容積-.pdf",
+        "page": 37,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V03/G-77e37d7060",
+      "evidence": {
+        "selectionKey": "V03/G-77e37d7060",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 105,
+      "id": "selected-2c7adc30192fec62",
+      "title": "4R17N⑥-1",
+      "group": "A3",
+      "reason": "指定された小問は記号選択・作図・言葉による回答で、数値入力にできない。 回答形式：頂点の記号を答える。原図（見取り図と展開図、文字Gの向き）も必要",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-17 立体図形(1)-展開図・表面積-.pdf",
+        "page": 13,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V03/G-a56504ebb7",
+      "evidence": {
+        "selectionKey": "V03/G-a56504ebb7",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 107,
+      "id": "selected-79ed2547d5f82ce5",
+      "title": "4R01T④-2",
+      "group": "A1",
+      "reason": "4R01T④-2の原文は最多と最少を一文で問う同一問題。index106へ両回答を統合したため後行は重複除外。",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 49,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V04/G-45a50c15a7",
+      "evidence": {
+        "selectionKey": "V04/G-45a50c15a7",
+        "sourceReviewed": true,
+        "duplicateOf": "selected-22a006cb162db539",
+        "keptSelectionKey": "V04/G-2b019d2410"
+      }
+    },
+    {
+      "index": 111,
+      "id": "selected-15ccce13b3020240",
+      "title": "4R19T③-2",
+      "group": "A1",
+      "reason": "原本p43と解説p52は確認できたが図版番号を確定できない。本文 算数DB_4年授業.md:6175 はT③-2を「寸法を本文に書いて画像にしていない」対象に明記。原本cropだけでは指定された図版番号確定条件を満たさないため除外。",
+      "source": {
+        "file": "/算数DB/原本/4年授業/4-19 総合-14〜18まとめ-.pdf",
+        "page": 43,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V05/G-f3bb0e2945",
+      "evidence": {
+        "selectionKey": "V05/G-f3bb0e2945",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 112,
+      "id": "selected-52fdaefaff773b0d",
+      "title": "S15H④-4",
+      "group": "A2",
+      "reason": "原本p34で図・本文、p37で4分15秒/3570cm³を確認。家庭学習用解説p37-38に④-4の説明は未収録（④-3と⑥-3のみ）。",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-夏15 水量グラフ.pdf",
+        "page": 34,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V06/G-ebf5e67b84",
+      "evidence": {
+        "selectionKey": "V06/G-ebf5e67b84",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 113,
+      "id": "selected-40e45886ef0760bc",
+      "title": "S14H⑤-2",
+      "group": "A3",
+      "reason": "原本p33と切り出し図で条件、p36で公式答え5190cm³を確認。当該⑤-2の公式解説は未収録であり、holdの空き三角柱の解説を原本で裏付けられない。",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-夏14 立体図形.pdf",
+        "page": 33,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V07/G-838c89dfeb",
+      "evidence": {
+        "selectionKey": "V07/G-838c89dfeb",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "index": 114,
+      "id": "selected-fdbf91dadb3b2382",
+      "title": "S14H⑤-1",
+      "group": "A3",
+      "reason": "原本の問題図とp36で公式答え11.5cmを確認。当該⑤-1の公式解説は未収録。指定(2)の問題文は(1)の条件が必要なので全文保持が必要だが、解説根拠が不足。",
+      "source": {
+        "file": "/算数DB/原本/5年授業/5-夏14 立体図形.pdf",
+        "page": 33,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "selectionKey": "V07/G-e7e86cf628",
+      "evidence": {
+        "selectionKey": "V07/G-e7e86cf628",
+        "sourceReviewed": true
+      }
+    },
+    {
+      "id": "selected-260ed527dd837474",
+      "group": "A4",
+      "title": "4春4L①-2",
+      "reason": "数値入力対象外。回答形式：答えが人名とクラブの対応（記号・名前）で数値の自動採点ができない"
+    },
+    {
+      "id": "selected-1f10402f2285cacf",
+      "group": "A4",
+      "title": "R18T⑥-2",
+      "reason": "数値入力対象外。回答形式：Cの順位として考えられるものを『全て』答える列挙（3位と4位）で、単一数値の自動採点に合わない"
+    },
+    {
+      "id": "selected-b4f4318d0b485014",
+      "group": "A4",
+      "title": "R05N⑤-4",
+      "reason": "数値入力対象外。回答形式：条件に合う整数を『すべて』答える列挙（36,37,38）。また本文末尾が「すべて」で途切れていて問い方が不完全"
+    },
+    {
+      "id": "selected-da5170218bf313d9",
+      "group": "A4",
+      "title": "GW419-24①",
+      "reason": "数値入力対象外。回答形式：答えが『いくつ以上いくつ未満』の範囲"
+    },
+    {
+      "id": "selected-f457a2148edfcfc4",
+      "group": "A4",
+      "title": "GN数性①例5",
+      "reason": "数値入力対象外。回答形式：①が公約数をすべて答える列挙（1,2,3,6）で自動採点に合わない（②6、③18は検算一致）"
+    },
+    {
+      "id": "selected-1b4f4fd0de358176",
+      "group": "A4",
+      "title": "GW410-28①",
+      "reason": "数値入力対象外。回答形式：整数Cとして考えられるものを『すべて』答える列挙（7個）"
+    },
+    {
+      "id": "selected-0c61487bff32515b",
+      "group": "A4",
+      "title": "GN比③M1-1",
+      "reason": "数値入力対象外。回答形式：(1)が『xとyの関係を式で表す』問題で数値の自動採点に合わない（(2)ア160・イ360・ウ7は検算一致）"
+    },
+    {
+      "id": "selected-80b61745fdc7c722",
+      "group": "A4",
+      "title": "GN比③練6",
+      "reason": "数値入力対象外。回答形式：(1)(2)とも『xとyの関係を式で表す』ことが含まれ、数値の自動採点に合わない（①②の数値は検算一致）"
+    },
+    {
+      "id": "selected-f096406bf34f7f72",
+      "group": "A4",
+      "title": "S03H①-3",
+      "reason": "数値入力対象外。回答形式：比例○・反比例△・どちらでもない×の記号選択(4)で、数値の自動採点形式に合わない。"
+    },
+    {
+      "id": "selected-403a60e67af6f15f",
+      "group": "A4",
+      "title": "S03H①-3",
+      "reason": "数値入力対象外。回答形式：比例○・反比例△・どちらでもない×の記号選択(1)(3)で、数値の自動採点形式に合わない。"
+    },
+    {
+      "id": "selected-ed815d698094382d",
+      "group": "A4",
+      "title": "S03H①-3",
+      "reason": "数値入力対象外。回答形式：比例○・反比例△・どちらでもない×の記号選択(2)で、数値の自動採点形式に合わない。"
+    },
+    {
+      "id": "selected-adaccae696fa2dd1",
+      "group": "A4",
+      "title": "S03H①-3",
+      "reason": "数値入力対象外。回答形式：比例○・反比例△・どちらでもない×の記号選択(5)で、数値の自動採点形式に合わない。"
+    },
+    {
+      "id": "selected-e0d40b3c8e469277",
+      "group": "A4",
+      "title": "GN規則③例4",
+      "reason": "数値入力対象外。回答形式：答えが「○月○日」の日付で、単一数値の自動採点形式に合わない。"
+    },
+    {
+      "id": "selected-33ff059de415e369",
+      "group": "A4",
+      "title": "GN規則③例6",
+      "reason": "数値入力対象外。回答形式：答えが曜日で、数値の自動採点形式に合わない。"
+    },
+    {
+      "id": "selected-b353dc19175365dc",
+      "group": "A4",
+      "title": "4W3H⑥-3",
+      "reason": "数値入力対象外。回答形式：(2)は「5回のそうさで1になる数をすべて」求める列挙問題で、自動採点形式に合わない。"
+    },
+    {
+      "id": "selected-a82801b63b145d19",
+      "group": "A4",
+      "title": "R23T④-2",
+      "reason": "数値入力対象外。回答形式：答えが2時36と12/13分で分が分数になり、時刻形式（時・分・秒は整数）で表せない（秒にしても55と5/13秒で整数にならない）。本文条件から自分で解いた結果 (60+0.5t)+6t=300→t=480/13 は資料と一致。"
+    },
+    {
+      "id": "selected-65ba739920dfe0b6",
+      "group": "A4",
+      "title": "R04N④-2",
+      "reason": "数値入力対象外。回答形式：あてはまる数字をすべて答える（0,2,4,6,8の列挙）ため自動採点できない。本文も小問が略記"
+    },
+    {
+      "id": "selected-1bcbd60e2c20d7e0",
+      "group": "A4",
+      "title": "GW506-29①",
+      "reason": "数値入力対象外。回答形式：答えが1通りに決まらない（別解あり）ため、単一の数値で自動採点できない。分母の範囲も本文で明記されない"
+    },
+    {
+      "id": "selected-73cc86d5b5f63a98",
+      "group": "A5",
+      "title": "4R29N⑦-3",
+      "reason": "原本とNotionの差分を人間が判断するまで除外。原本は「表の別の場所」、Notionは「表の列の場所」。公式答え(3)121はNotionと一致。"
+    },
+    {
+      "id": "selected-ec191e9984b77b4a",
+      "group": "A4",
+      "title": "R22N⑥-3",
+      "reason": "数値入力対象外。回答形式：答えが午後1時5と5/11分で分が分数になり、時刻形式（時・分・秒は整数）で表せない。また既知の疑義（本文で「反対方向」が省略）と、本文が(1)(2)両方のままで出題小問の指示がない。自分で解いた (300+720)÷5.5=185と5/11分→午後1時5と5/11分 は資料と一致。"
+    },
+    {
+      "id": "selected-f4422649b96e77dd",
+      "group": "A4",
+      "title": "R22N⑥-3",
+      "reason": "数値入力対象外。回答形式：答えが11時27と3/11分で分が分数になり、時刻形式（時・分・秒は整数）で表せない。既知の疑義：本文で「反対方向」の明記が省略され、「一直線」に重なる場合を含むかが本文だけでは決まらない（反対向きのみなら11時27と3/11分で資料と一致）。本文が(1)(2)両方のままで出題小問の指示もない。"
+    },
+    {
+      "id": "selected-dd815f0698349fa1",
+      "group": "A4",
+      "title": "R23Tt-4",
+      "reason": "数値入力対象外。回答形式：答えが10時9と1/11分・10時34と6/11分で分が分数になり、時刻形式（時・分・秒は整数）で表せない。自分で解いた (300−250)÷5.5=9と1/11、(300−110)÷5.5=34と6/11 は資料と一致。"
+    },
+    {
+      "id": "selected-7ee75c6c0a8b68d9",
+      "group": "A4",
+      "title": "R23T⑤-2",
+      "reason": "数値入力対象外。回答形式：答えが8時52と4/23分で分が分数になり、時刻形式（時・分・秒は整数）で表せない。自分で解いた 6t=300+0.25t→t=52と4/23 は資料と一致。"
+    },
+    {
+      "id": "selected-f58c635d232e814e",
+      "group": "A4",
+      "title": "GW508-03②",
+      "reason": "数値入力対象外。回答形式：作図（グラフをかく）のため自動採点できない。グラフ用紙も必要。"
+    },
+    {
+      "id": "selected-57af00bf9a2c4774",
+      "group": "A4",
+      "title": "4R01N⑤-2",
+      "reason": "数値入力対象外。回答形式：4つの図形×4つの性質の○×表で答える形式のため数値入力で採点できない"
+    },
+    {
+      "id": "selected-7c623796dbfb60aa",
+      "group": "A5",
+      "title": "4R24N①-3",
+      "reason": "原本とNotionの差分を人間が判断するまで除外。要約メモでは長さ32cmの針金、たてと横の差4cm等の条件が省略されている。原本の全文・図を使用する必要がある。公式答え(1)60cm²・(2)596cm²はNotionと一致。"
+    },
+    {
+      "id": "selected-e23492b21ec66403",
+      "group": "A4",
+      "title": "S09L②-1",
+      "reason": "数値入力対象外。回答形式：○×の記号選択"
+    },
+    {
+      "id": "selected-35fec3c08a4602af",
+      "group": "A5",
+      "title": "4W5L⑥-3",
+      "reason": "原本とNotionの差分を人間が判断するまで除外。原本は「表面全体に色をぬります」。底面をぬらないという条件はない。印刷解答(1)72cm²、(2)①6個②8個はNotionと一致。資料の本文・答えの誤りを示す根拠は確認できない。"
+    }
+  ]
+}

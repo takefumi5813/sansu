@@ -1,8 +1,8 @@
 const test=require('node:test'),assert=require('node:assert/strict');
 const C=require('../src/core.js'),data=require('../content/selected-calc-3.json'),source=require('../references/calc-inverse-source.json'),existing=[require('../content/selected-calc.json'),require('../content/selected-calc-2.json')];
 const P=data.problems;
-test('158 inverse and bracket problems keep Notion source, answer and unit consistency',()=>{
- assert.equal(P.length,158);assert.equal(data.units.length,P.length);
+test('154 source-confirmed inverse and bracket problems keep Notion source, answer and unit consistency',()=>{
+ assert.equal(P.length,154);assert.equal(data.units.length,P.length);
  const old=new Set(existing.flatMap(x=>x.problems.map(p=>p.id)));
  const srcById=new Map(source.map(s=>[s.id,s]));
  for(const p of P){
@@ -13,6 +13,7 @@ test('158 inverse and bracket problems keep Notion source, answer and unit consi
   assert.equal(p.category,'calc');assert.ok(data.units.some(u=>u.id===p.unitId&&u.representativeId===p.id));
  }
  assert.equal(P.find(p=>p.id==='R21K-58'),undefined);
+ for(const id of ['春04K-7','春04K-25','春04K-26','春04K-28']) assert.equal(P.find(p=>p.id===id),undefined,'unconfirmed printed answer '+id);
 });
 test('every expression is recomputed exactly and matches the stored answer, score and star',()=>{
  for(const p of P){
@@ -24,11 +25,12 @@ test('every expression is recomputed exactly and matches the stored answer, scor
 test('inverse problems really contain □ and the hard tier has bracket + fraction + several operations',()=>{
  const tiers={basic:0,standard:0,advanced:0,hard:0};
  for(const p of P)tiers[C.calcTier(p)]++;
- assert.deepEqual(tiers,{basic:14,standard:65,advanced:62,hard:17});
+ assert.deepEqual(tiers,{basic:14,standard:64,advanced:59,hard:17});
  const hard=P.filter(p=>C.calcTier(p)==='hard');
  for(const p of hard){const sh=C.calcShape(p);assert.ok(sh.par&&sh.fracN>=1&&sh.ops>=4,p.id);}
  assert.ok(hard.filter(p=>p.expression.includes('□')).length>=12);
- assert.ok(P.filter(p=>p.expression.includes('□')).length>=130);
+ // Four unconfirmed spring answers were removed; 132 inverse problems become 128.
+ assert.equal(P.filter(p=>p.expression.includes('□')).length,128);
 });
 test('explanations have 4-8 steps, a checkpoint, and every □ step equation is satisfied by the answer',()=>{
  for(const p of P){
