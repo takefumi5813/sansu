@@ -80,7 +80,7 @@ test('all 52 answers and numerical checkpoints work through the existing grading
  }
 });
 
-test('printed-answer examples retain usable clock, fractions, speed, and ordered multipart input',()=>{
+test('printed-answer examples retain usable clock, speed, and ordered multipart input',()=>{
  // Literal answers below were read from the original printed answer pages.
  const examples=[
   ['selected-a719b12c9c308973','12'],
