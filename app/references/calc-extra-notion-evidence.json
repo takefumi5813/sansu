@@ -1,0 +1,3816 @@
+[
+ {
+  "id": "R20K-5",
+  "url": "https://app.notion.com/p/3f62b010743c815e8640f7aab5a0eda4",
+  "problemText": "1.9×3＝□",
+  "answerText": "5.7",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c815e8640f7aab5a0eda4",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-5",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-815e-8640-f7aab5a0eda4/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81cdb3b6fa5a532cd78a"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "5.7",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-815e-8640-f7aab5a0eda4/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-6",
+  "url": "https://app.notion.com/p/3f62b010743c812e80c8dc5db190cbdf",
+  "problemText": "5.1÷3＝□",
+  "answerText": "1.7",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c812e80c8dc5db190cbdf",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-6",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-812e-80c8-dc5db190cbdf/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c814a82dde48136d57ce9"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1.7",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-812e-80c8-dc5db190cbdf/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-9",
+  "url": "https://app.notion.com/p/3f62b010743c810ca3c6c0c39ab14f26",
+  "problemText": "1.2×1.5＝□",
+  "answerText": "1.8",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c810ca3c6c0c39ab14f26",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-9",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-810c-a3c6-c0c39ab14f26/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81cd9004cb226250df2b"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1.8",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-810c-a3c6-c0c39ab14f26/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-10",
+  "url": "https://app.notion.com/p/3f62b010743c81d7b50ff3e4990dfbc9",
+  "problemText": "105÷18＝□",
+  "answerText": "5と5/6",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81d7b50ff3e4990dfbc9",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-10",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d7-b50f-f3e4990dfbc9/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81ccae3ad99f19a57c17"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "5と5/6",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d7-b50f-f3e4990dfbc9/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-11",
+  "url": "https://app.notion.com/p/3f62b010743c81dc81f5f0b2fea51e5d",
+  "problemText": "17−14と11/19＝□",
+  "answerText": "2と8/19",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81dc81f5f0b2fea51e5d",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-11",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81dc-81f5-f0b2fea51e5d/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81a68331e255ac9168e8"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "2と8/19",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81dc-81f5-f0b2fea51e5d/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-12",
+  "url": "https://app.notion.com/p/3f62b010743c81779493fc4e32f645ab",
+  "problemText": "13と9/10＋19と7/15＝□",
+  "answerText": "33と11/30",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81779493fc4e32f645ab",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-12",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8177-9493-fc4e32f645ab/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c819c8f67fac1f43d4d3c"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "33と11/30",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8177-9493-fc4e32f645ab/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-13",
+  "url": "https://app.notion.com/p/3f62b010743c81d98628c66371b00fe5",
+  "problemText": "19と3/14−11と8/21＝□",
+  "answerText": "7と5/6",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81d98628c66371b00fe5",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-13",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d9-8628-c66371b00fe5/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81938c4eced341a557ab"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "7と5/6",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d9-8628-c66371b00fe5/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-14",
+  "url": "https://app.notion.com/p/3f62b010743c81288ec8f6b814c0d523",
+  "problemText": "2と2/15×1と5/16＝□",
+  "answerText": "2と4/5",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81288ec8f6b814c0d523",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-14",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8128-8ec8-f6b814c0d523/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81f19f4cf9c9c8cdb95a"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "2と4/5",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8128-8ec8-f6b814c0d523/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-15",
+  "url": "https://app.notion.com/p/3f62b010743c81bb8622fbe9637714d3",
+  "problemText": "1と33/52÷1と1/16×1と19/20＝□",
+  "answerText": "3",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81bb8622fbe9637714d3",
+   "メモ": "計算マスター",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-15",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81bb-8622-fbe9637714d3/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81bb-8622-fbe9637714d3/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-18",
+  "url": "https://app.notion.com/p/3f62b010743c81039123fee0b8eebc44",
+  "problemText": "4.8×4.375＝□",
+  "answerText": "21",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81039123fee0b8eebc44",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-18",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8103-9123-fee0b8eebc44/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81e2b24cfd7374858fdd"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "21",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8103-9123-fee0b8eebc44/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-19",
+  "url": "https://app.notion.com/p/3f62b010743c8163b6b2f27a4a25c229",
+  "problemText": "17×5＋34×13＋51×23＝□",
+  "answerText": "1700",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8163b6b2f27a4a25c229",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-19",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8163-b6b2-f27a4a25c229/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8134b68ffa1b16a9720c"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1700",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8163-b6b2-f27a4a25c229/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-23",
+  "url": "https://app.notion.com/p/3f62b010743c81978f46e328c0bedbb1",
+  "problemText": "1.975−1と3/5＝□",
+  "answerText": "0.375",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81978f46e328c0bedbb1",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-23",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8197-8f46-e328c0bedbb1/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81dfba8fd792802cf966"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "0.375",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8197-8f46-e328c0bedbb1/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-26",
+  "url": "https://app.notion.com/p/3f62b010743c8172aee0ee975bb91c2d",
+  "problemText": "1と5/28×3と4/15−24/25÷3と3/5＝□",
+  "answerText": "3と7/12",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8172aee0ee975bb91c2d",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-26",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8172-aee0-ee975bb91c2d/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8183ad18d7cc927ead8b"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3と7/12",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8172-aee0-ee975bb91c2d/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-33",
+  "url": "https://app.notion.com/p/3f62b010743c81efb973dd98d397c13f",
+  "problemText": "0.56＋1.24＝□",
+  "answerText": "1.8",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81efb973dd98d397c13f",
+   "メモ": "計算マスター（裏）。R20K-3 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-33",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ef-b973-dd98d397c13f/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c811a9a9bfb0ad0efdf54"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1.8",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ef-b973-dd98d397c13f/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-34",
+  "url": "https://app.notion.com/p/3f62b010743c81e79578c4496d4dbacc",
+  "problemText": "7−0.69＝□",
+  "answerText": "6.31",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81e79578c4496d4dbacc",
+   "メモ": "計算マスター（裏）。R20K-4 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-34",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e7-9578-c4496d4dbacc/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81ccb769f7de33dd4e47"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "6.31",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e7-9578-c4496d4dbacc/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-35",
+  "url": "https://app.notion.com/p/3f62b010743c81cdb3b6fa5a532cd78a",
+  "problemText": "3.7×3＝□",
+  "answerText": "11.1",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81cdb3b6fa5a532cd78a",
+   "メモ": "計算マスター（裏）。R20K-5 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-35",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81cd-b3b6-fa5a532cd78a/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c815e8640f7aab5a0eda4"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "11.1",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81cd-b3b6-fa5a532cd78a/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-36",
+  "url": "https://app.notion.com/p/3f62b010743c814a82dde48136d57ce9",
+  "problemText": "8.7÷3＝□",
+  "answerText": "2.9",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c814a82dde48136d57ce9",
+   "メモ": "計算マスター（裏）。R20K-6 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-36",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-814a-82dd-e48136d57ce9/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c812e80c8dc5db190cbdf"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "2.9",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-814a-82dd-e48136d57ce9/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-37",
+  "url": "https://app.notion.com/p/3f62b010743c81dd80b8d679919740ed",
+  "problemText": "2400×1500＝□",
+  "answerText": "3600000",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81dd80b8d679919740ed",
+   "メモ": "計算マスター（裏）。R20K-7 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-37",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81dd-80b8-d679919740ed/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c8138a94bed608973a91d"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3600000",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81dd-80b8-d679919740ed/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-39",
+  "url": "https://app.notion.com/p/3f62b010743c81cd9004cb226250df2b",
+  "problemText": "1200×0.015＝□",
+  "answerText": "18",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81cd9004cb226250df2b",
+   "メモ": "計算マスター（裏）。R20K-9 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-39",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81cd-9004-cb226250df2b/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c810ca3c6c0c39ab14f26"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "18",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81cd-9004-cb226250df2b/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-40",
+  "url": "https://app.notion.com/p/3f62b010743c81ccae3ad99f19a57c17",
+  "problemText": "10.5÷9＝□",
+  "answerText": "1と1/6",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81ccae3ad99f19a57c17",
+   "メモ": "計算マスター（裏）。R20K-10 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-40",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81cc-ae3a-d99f19a57c17/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81d7b50ff3e4990dfbc9"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1と1/6",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81cc-ae3a-d99f19a57c17/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-41",
+  "url": "https://app.notion.com/p/3f62b010743c81a68331e255ac9168e8",
+  "problemText": "28−13と17/23＝□",
+  "answerText": "14と6/23",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81a68331e255ac9168e8",
+   "メモ": "計算マスター（裏）。R20K-11 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-41",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81a6-8331-e255ac9168e8/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81dc81f5f0b2fea51e5d"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "14と6/23",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81a6-8331-e255ac9168e8/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-42",
+  "url": "https://app.notion.com/p/3f62b010743c819c8f67fac1f43d4d3c",
+  "problemText": "73と17/20＋24と17/30＝□",
+  "answerText": "98と5/12",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c819c8f67fac1f43d4d3c",
+   "メモ": "計算マスター（裏）。R20K-12 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-42",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-819c-8f67-fac1f43d4d3c/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81779493fc4e32f645ab"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "98と5/12",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-819c-8f67-fac1f43d4d3c/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-43",
+  "url": "https://app.notion.com/p/3f62b010743c81938c4eced341a557ab",
+  "problemText": "132と2/21−119と8/35＝□",
+  "answerText": "12と13/15",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81938c4eced341a557ab",
+   "メモ": "計算マスター（裏）。R20K-13 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-43",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8193-8c4e-ced341a557ab/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81d98628c66371b00fe5"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "12と13/15",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8193-8c4e-ced341a557ab/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-44",
+  "url": "https://app.notion.com/p/3f62b010743c81f19f4cf9c9c8cdb95a",
+  "problemText": "1と1/14×1と40/51＝□",
+  "answerText": "1と31/34",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81f19f4cf9c9c8cdb95a",
+   "メモ": "計算マスター（裏）。R20K-14 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-44",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81f1-9f4c-f9c9c8cdb95a/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81288ec8f6b814c0d523"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1と31/34",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81f1-9f4c-f9c9c8cdb95a/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-45",
+  "url": "https://app.notion.com/p/3f62b010743c81b5bdbfc1f703cd106f",
+  "problemText": "17/45×1と3/32÷2と23/48＝□",
+  "answerText": "1/6",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:01.905Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81b5bdbfc1f703cd106f",
+   "メモ": "計算マスター",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-45",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81b5-bdbf-c1f703cd106f/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1/6",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81b5-bdbf-c1f703cd106f/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R20K-46",
+  "url": "https://app.notion.com/p/3f62b010743c81e69421d31b0ecb437c",
+  "problemText": "57×123÷19＝□",
+  "answerText": "369",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81e69421d31b0ecb437c",
+   "メモ": "計算マスター（裏）。R20K-16 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-46",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e6-9421-d31b0ecb437c/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c8165a333cc9d6d39b2aa"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "369",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e6-9421-d31b0ecb437c/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-48",
+  "url": "https://app.notion.com/p/3f62b010743c81e2b24cfd7374858fdd",
+  "problemText": "5.6×4.625＝□",
+  "answerText": "25.9",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81e2b24cfd7374858fdd",
+   "メモ": "計算マスター（裏）。R20K-18 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-48",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e2-b24c-fd7374858fdd/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81039123fee0b8eebc44"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "25.9",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e2-b24c-fd7374858fdd/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-49",
+  "url": "https://app.notion.com/p/3f62b010743c8134b68ffa1b16a9720c",
+  "problemText": "23×7＋46×13＋69×19＝□",
+  "answerText": "2070",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8134b68ffa1b16a9720c",
+   "メモ": "計算マスター（裏）。R20K-19 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-49",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8134-b68f-fa1b16a9720c/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c8163b6b2f27a4a25c229"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "2070",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8134-b68f-fa1b16a9720c/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-53",
+  "url": "https://app.notion.com/p/3f62b010743c81dfba8fd792802cf966",
+  "problemText": "1.887−1と1/8＝□",
+  "answerText": "0.762",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81dfba8fd792802cf966",
+   "メモ": "計算マスター（裏）。R20K-23 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-53",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81df-ba8f-d792802cf966/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81978f46e328c0bedbb1"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "0.762",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81df-ba8f-d792802cf966/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-56",
+  "url": "https://app.notion.com/p/3f62b010743c8183ad18d7cc927ead8b",
+  "problemText": "1と17/22×2と7/13−15/16÷2と23/32＝□",
+  "answerText": "4と9/58",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8183ad18d7cc927ead8b",
+   "メモ": "計算マスター（裏）。R20K-26 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-56",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8183-ad18-d7cc927ead8b/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c8172aee0ee975bb91c2d"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "4と9/58",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8183-ad18-d7cc927ead8b/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R20K-58",
+  "url": "https://app.notion.com/p/3f62b010743c812a81ebd08d38094f71",
+  "problemText": "10×10×3.14×135/360＝□",
+  "answerText": "117.75",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:38:14.484Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c812a81ebd08d38094f71",
+   "メモ": "計算マスター（裏）。R20K-28 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R20K-58",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-812a-81eb-d08d38094f71/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f42b010743c81f1b5fee7539a1bcfb8"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c811f8e99e5f00b5da077"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "117.75",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-812a-81eb-d08d38094f71/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-5",
+  "url": "https://app.notion.com/p/3f62b010743c8198a36ac4c98c225ae1",
+  "problemText": "2.8×3＝□",
+  "answerText": "8.4",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8198a36ac4c98c225ae1",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-5",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8198-a36a-c4c98c225ae1/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8138bc56d89324b57da1"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "8.4",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8198-a36a-c4c98c225ae1/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-7",
+  "url": "https://app.notion.com/p/3f62b010743c81f087e5cd52ea28239b",
+  "problemText": "1400×400＝□",
+  "answerText": "560000",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81f087e5cd52ea28239b",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-7",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81f0-87e5-cd52ea28239b/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8120aae2e6371ffcd301"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "560000",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81f0-87e5-cd52ea28239b/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-10",
+  "url": "https://app.notion.com/p/3f62b010743c81c0be8ee807abd1ae79",
+  "problemText": "2015−2005と11/23＝□",
+  "answerText": "9と12/23",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81c0be8ee807abd1ae79",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-10",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81c0-be8e-e807abd1ae79/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8170a6f6d82ca4bac849"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "9と12/23",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81c0-be8e-e807abd1ae79/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-11",
+  "url": "https://app.notion.com/p/3f62b010743c812eba65ce1f6a9b316d",
+  "problemText": "43と7/12＋29と11/18＝□",
+  "answerText": "73と7/36",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c812eba65ce1f6a9b316d",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-11",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-812e-ba65-ce1f6a9b316d/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81d39adfe23ee51ea2fa"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "73と7/36",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-812e-ba65-ce1f6a9b316d/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-12",
+  "url": "https://app.notion.com/p/3f62b010743c819da4eacb2eb1cda0e0",
+  "problemText": "47と2/15−39と3/10＝□",
+  "answerText": "7と5/6",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c819da4eacb2eb1cda0e0",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-12",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-819d-a4ea-cb2eb1cda0e0/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8113bc12d9a43176c02c"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "7と5/6",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-819d-a4ea-cb2eb1cda0e0/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-13",
+  "url": "https://app.notion.com/p/3f62b010743c818fbb6dc27fe18f8434",
+  "problemText": "5と6/17×1と16/35＝□",
+  "answerText": "7と4/5",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c818fbb6dc27fe18f8434",
+   "メモ": "計算マスター",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-13",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818f-bb6d-c27fe18f8434/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "7と4/5",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818f-bb6d-c27fe18f8434/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-14",
+  "url": "https://app.notion.com/p/3f62b010743c81a18681daa0831709a3",
+  "problemText": "3.5÷7/30×0.6＝□",
+  "answerText": "9",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81a18681daa0831709a3",
+   "メモ": "計算マスター",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-14",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81a1-8681-daa0831709a3/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "9",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81a1-8681-daa0831709a3/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-15",
+  "url": "https://app.notion.com/p/3f62b010743c81c38d0bc996d3184380",
+  "problemText": "69÷34÷3×17＝□",
+  "answerText": "11と1/2",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81c38d0bc996d3184380",
+   "メモ": "計算マスター",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-15",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81c3-8d0b-c996d3184380/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "11と1/2",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81c3-8d0b-c996d3184380/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-22",
+  "url": "https://app.notion.com/p/3f62b010743c815cba77c93eb06d5b87",
+  "problemText": "2.3×6.4＋3.6×2.3＝□",
+  "answerText": "23",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c815cba77c93eb06d5b87",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-22",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-815c-ba77-c93eb06d5b87/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8120b2e4cbb57dae98e2"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "23",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-815c-ba77-c93eb06d5b87/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-23",
+  "url": "https://app.notion.com/p/3f62b010743c815da66eda550994b84e",
+  "problemText": "0.108÷0.08＝□",
+  "answerText": "1.35",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c815da66eda550994b84e",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-23",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-815d-a66e-da550994b84e/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c818a99b0efc04aaa987e"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1.35",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-815d-a66e-da550994b84e/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-30",
+  "url": "https://app.notion.com/p/3f62b010743c81cd8a04d23b25ea090a",
+  "problemText": "5と11/26−1と2/33÷4と3/22＝□",
+  "answerText": "5と1/6",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81cd8a04d23b25ea090a",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-30",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81cd-8a04-d23b25ea090a/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81afa400d23baf9a1d01"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "5と1/6",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81cd-8a04-d23b25ea090a/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-33",
+  "url": "https://app.notion.com/p/3f62b010743c81e99601ca9c0fb505ad",
+  "problemText": "2.7＋18.3＝□",
+  "answerText": "21",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81e99601ca9c0fb505ad",
+   "メモ": "計算マスター（裏）。R21K-3 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-33",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e9-9601-ca9c0fb505ad/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81aea678ce6d9b68336b"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "21",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e9-9601-ca9c0fb505ad/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-34",
+  "url": "https://app.notion.com/p/3f62b010743c81e58df9fe335ca7dd44",
+  "problemText": "7.08−2.6＝□",
+  "answerText": "4.48",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81e58df9fe335ca7dd44",
+   "メモ": "計算マスター（裏）。R21K-4 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-34",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e5-8df9-fe335ca7dd44/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81afae3ef3d93a5e091d"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "4.48",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e5-8df9-fe335ca7dd44/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-35",
+  "url": "https://app.notion.com/p/3f62b010743c8138bc56d89324b57da1",
+  "problemText": "3.6×3＝□",
+  "answerText": "10.8",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8138bc56d89324b57da1",
+   "メモ": "計算マスター（裏）。R21K-5 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-35",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8138-bc56-d89324b57da1/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c8198a36ac4c98c225ae1"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "10.8",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8138-bc56-d89324b57da1/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-36",
+  "url": "https://app.notion.com/p/3f62b010743c81c497f8ce2317f71884",
+  "problemText": "11.9÷7＝□",
+  "answerText": "1.7",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81c497f8ce2317f71884",
+   "メモ": "計算マスター（裏）。R21K-6 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-36",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81c4-97f8-ce2317f71884/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81ce8cd4de04be1330e8"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1.7",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81c4-97f8-ce2317f71884/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-37",
+  "url": "https://app.notion.com/p/3f62b010743c8120aae2e6371ffcd301",
+  "problemText": "14000×300＝□",
+  "answerText": "4200000",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8120aae2e6371ffcd301",
+   "メモ": "計算マスター（裏）。R21K-7 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-37",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8120-aae2-e6371ffcd301/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81f087e5cd52ea28239b"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "4200000",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8120-aae2-e6371ffcd301/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-39",
+  "url": "https://app.notion.com/p/3f62b010743c8134abf1f76a6251b392",
+  "problemText": "1.25×0.8＝□",
+  "answerText": "1",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8134abf1f76a6251b392",
+   "メモ": "計算マスター（裏）。R21K-9 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-39",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8134-abf1-f76a6251b392/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c819f9108ee5b3a1836a5"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8134-abf1-f76a6251b392/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-40",
+  "url": "https://app.notion.com/p/3f62b010743c8170a6f6d82ca4bac849",
+  "problemText": "2016−1999と11/28＝□",
+  "answerText": "16と17/28",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8170a6f6d82ca4bac849",
+   "メモ": "計算マスター（裏）。R21K-10 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-40",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8170-a6f6-d82ca4bac849/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81c0be8ee807abd1ae79"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "16と17/28",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8170-a6f6-d82ca4bac849/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-41",
+  "url": "https://app.notion.com/p/3f62b010743c81d39adfe23ee51ea2fa",
+  "problemText": "14と1/15＋13と7/12＝□",
+  "answerText": "27と13/20",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81d39adfe23ee51ea2fa",
+   "メモ": "計算マスター（裏）。R21K-11 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-41",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d3-9adf-e23ee51ea2fa/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c812eba65ce1f6a9b316d"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "27と13/20",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d3-9adf-e23ee51ea2fa/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-42",
+  "url": "https://app.notion.com/p/3f62b010743c8113bc12d9a43176c02c",
+  "problemText": "29と8/15−23と5/6＝□",
+  "answerText": "5と7/10",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8113bc12d9a43176c02c",
+   "メモ": "計算マスター（裏）。R21K-12 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-42",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8113-bc12-d9a43176c02c/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c819da4eacb2eb1cda0e0"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "5と7/10",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8113-bc12-d9a43176c02c/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-43",
+  "url": "https://app.notion.com/p/3f62b010743c817d95ced6f82028f3f1",
+  "problemText": "2と11/20÷2と4/15＝□",
+  "answerText": "1と1/8",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c817d95ced6f82028f3f1",
+   "メモ": "計算マスター",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-43",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-817d-95ce-d6f82028f3f1/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1と1/8",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-817d-95ce-d6f82028f3f1/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-44",
+  "url": "https://app.notion.com/p/3f62b010743c81ba982be8b0bcf35c1c",
+  "problemText": "1.75×6/7÷2.625＝□",
+  "answerText": "4/7",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81ba982be8b0bcf35c1c",
+   "メモ": "計算マスター",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-44",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ba-982b-e8b0bcf35c1c/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "4/7",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ba-982b-e8b0bcf35c1c/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-45",
+  "url": "https://app.notion.com/p/3f62b010743c81edb2baed2909e2d424",
+  "problemText": "20÷9×21÷80＝□",
+  "answerText": "7/12",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:43.176Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81edb2baed2909e2d424",
+   "メモ": "計算マスター",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-45",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ed-b2ba-ed2909e2d424/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "7/12",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ed-b2ba-ed2909e2d424/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R21K-52",
+  "url": "https://app.notion.com/p/3f62b010743c8120b2e4cbb57dae98e2",
+  "problemText": "5.8×3.8＋6.2×5.8＝□",
+  "answerText": "58",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8120b2e4cbb57dae98e2",
+   "メモ": "計算マスター（裏）。R21K-22 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-52",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8120-b2e4-cbb57dae98e2/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c815cba77c93eb06d5b87"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "58",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8120-b2e4-cbb57dae98e2/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-53",
+  "url": "https://app.notion.com/p/3f62b010743c818a99b0efc04aaa987e",
+  "problemText": "0.14÷0.08＝□",
+  "answerText": "1.75",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c818a99b0efc04aaa987e",
+   "メモ": "計算マスター（裏）。R21K-23 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-53",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818a-99b0-efc04aaa987e/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c815da66eda550994b84e"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1.75",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818a-99b0-efc04aaa987e/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R21K-60",
+  "url": "https://app.notion.com/p/3f62b010743c81afa400d23baf9a1d01",
+  "problemText": "4と2/21−1と5/7÷1と3/5＝□",
+  "answerText": "3と1/42",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:28:59.053Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81afa400d23baf9a1d01",
+   "メモ": "計算マスター（裏）。R21K-30 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R21K-60",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81af-a400-d23baf9a1d01/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81b38485ce7cf7cc8451"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81cd8a04d23b25ea090a"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3と1/42",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81af-a400-d23baf9a1d01/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R22K-3",
+  "url": "https://app.notion.com/p/3f62b010743c818a8920dac07f7940e1",
+  "problemText": "1/12＋3/4＝□",
+  "answerText": "5/6",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:53.077Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c818a8920dac07f7940e1",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-3",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818a-8920-dac07f7940e1/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8168978afcd0fb643013"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "5/6",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818a-8920-dac07f7940e1/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R22K-7",
+  "url": "https://app.notion.com/p/3f62b010743c8166b951d2d86ba4c2c0",
+  "problemText": "7−2と2/5＝□",
+  "answerText": "4と3/5",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:53.077Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8166b951d2d86ba4c2c0",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-7",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8166-b951-d2d86ba4c2c0/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81f4b0dfc62ef5875204"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "4と3/5",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8166-b951-d2d86ba4c2c0/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R22K-8",
+  "url": "https://app.notion.com/p/3f62b010743c811bb76bdf583274b258",
+  "problemText": "2と7/12＋1と7/20＝□",
+  "answerText": "3と14/15",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:53.077Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c811bb76bdf583274b258",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-8",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-811b-b76b-df583274b258/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8142930be66ac14fb8d0"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3と14/15",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-811b-b76b-df583274b258/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R22K-10",
+  "url": "https://app.notion.com/p/3f62b010743c81938973eec00f5a879c",
+  "problemText": "5と2/15−1と3/10＝□",
+  "answerText": "3と5/6",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:53.077Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81938973eec00f5a879c",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-10",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8193-8973-eec00f5a879c/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81c1966cf5aa1c1aa3cf"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3と5/6",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8193-8973-eec00f5a879c/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R22K-11",
+  "url": "https://app.notion.com/p/3f62b010743c81d79da7e62e4cff288d",
+  "problemText": "12×12×3.14×70/360＝□",
+  "answerText": "87.92",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:53.077Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81d79da7e62e4cff288d",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-11",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d7-9da7-e62e4cff288d/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81289184d95492014c81"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "87.92",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d7-9da7-e62e4cff288d/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R22K-12",
+  "url": "https://app.notion.com/p/3f62b010743c81a6a754f68a2435b350",
+  "problemText": "23.55÷3.14＝□",
+  "answerText": "7.5",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:53.077Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81a6a754f68a2435b350",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-12",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81a6-a754-f68a2435b350/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c818daba2c5112316450a"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "7.5",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81a6-a754-f68a2435b350/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R22K-13",
+  "url": "https://app.notion.com/p/3f62b010743c81ea926bc24f4ce94146",
+  "problemText": "1.2−1/3＝□",
+  "answerText": "13/15",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:53.077Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81ea926bc24f4ce94146",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-13",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ea-926b-c24f4ce94146/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81d5bd2cc33b4c217c4d"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "13/15",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ea-926b-c24f4ce94146/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R22K-14",
+  "url": "https://app.notion.com/p/3f62b010743c8123899ec5e15c4512c8",
+  "problemText": "2.7×5/9＝□",
+  "answerText": "1.5",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:53.077Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8123899ec5e15c4512c8",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-14",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8123-899e-c5e15c4512c8/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8111954ac5f77a051d2e"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1.5",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8123-899e-c5e15c4512c8/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R22K-15",
+  "url": "https://app.notion.com/p/3f62b010743c81e394c6c93920f7ea9d",
+  "problemText": "96÷38×19÷32＝□",
+  "answerText": "1と1/2",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:53.077Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81e394c6c93920f7ea9d",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-15",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e3-94c6-c93920f7ea9d/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8100834bc308dc7007ad"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1と1/2",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e3-94c6-c93920f7ea9d/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R22K-16",
+  "url": "https://app.notion.com/p/3f62b010743c81babafcfec98b5f9c71",
+  "problemText": "4.875÷3.25＝□",
+  "answerText": "1と1/2",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:53.077Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81babafcfec98b5f9c71",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-16",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ba-bafc-fec98b5f9c71/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81e88f2cc185f221d907"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1と1/2",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ba-bafc-fec98b5f9c71/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R22K-33",
+  "url": "https://app.notion.com/p/3f62b010743c8168978afcd0fb643013",
+  "problemText": "5/18＋1/2＝□",
+  "answerText": "7/9",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:55.519Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8168978afcd0fb643013",
+   "メモ": "計算マスター（裏）。R22K-3 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-33",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8168-978a-fcd0fb643013/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c818a8920dac07f7940e1"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "7/9",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8168-978a-fcd0fb643013/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R22K-37",
+  "url": "https://app.notion.com/p/3f62b010743c81f4b0dfc62ef5875204",
+  "problemText": "9−3と13/28＝□",
+  "answerText": "5と15/28",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:55.519Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81f4b0dfc62ef5875204",
+   "メモ": "計算マスター（裏）。R22K-7 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-37",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81f4-b0df-c62ef5875204/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c8166b951d2d86ba4c2c0"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "5と15/28",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81f4-b0df-c62ef5875204/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R22K-38",
+  "url": "https://app.notion.com/p/3f62b010743c8142930be66ac14fb8d0",
+  "problemText": "2と1/15＋4と7/12＝□",
+  "answerText": "6と13/20",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:55.519Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8142930be66ac14fb8d0",
+   "メモ": "計算マスター（裏）。R22K-8 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-38",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8142-930b-e66ac14fb8d0/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c811bb76bdf583274b258"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "6と13/20",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8142-930b-e66ac14fb8d0/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R22K-40",
+  "url": "https://app.notion.com/p/3f62b010743c81c1966cf5aa1c1aa3cf",
+  "problemText": "5と8/15−1と5/6＝□",
+  "answerText": "3と7/10",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:55.519Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81c1966cf5aa1c1aa3cf",
+   "メモ": "計算マスター（裏）。R22K-10 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-40",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81c1-966c-f5aa1c1aa3cf/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81938973eec00f5a879c"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3と7/10",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81c1-966c-f5aa1c1aa3cf/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R22K-41",
+  "url": "https://app.notion.com/p/3f62b010743c81289184d95492014c81",
+  "problemText": "18×18×3.14×70/360＝□",
+  "answerText": "197.82",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:55.519Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81289184d95492014c81",
+   "メモ": "計算マスター（裏）。R22K-11 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-41",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8128-9184-d95492014c81/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81d79da7e62e4cff288d"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "197.82",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8128-9184-d95492014c81/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R22K-42",
+  "url": "https://app.notion.com/p/3f62b010743c818daba2c5112316450a",
+  "problemText": "39.25÷3.14＝□",
+  "answerText": "12.5",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:55.519Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c818daba2c5112316450a",
+   "メモ": "計算マスター（裏）。R22K-12 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-42",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818d-aba2-c5112316450a/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81a6a754f68a2435b350"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "12.5",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818d-aba2-c5112316450a/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R22K-43",
+  "url": "https://app.notion.com/p/3f62b010743c81d5bd2cc33b4c217c4d",
+  "problemText": "1.3−5/6＝□",
+  "answerText": "7/15",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:55.519Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81d5bd2cc33b4c217c4d",
+   "メモ": "計算マスター（裏）。R22K-13 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-43",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d5-bd2c-c33b4c217c4d/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81ea926bc24f4ce94146"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "7/15",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d5-bd2c-c33b4c217c4d/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R22K-44",
+  "url": "https://app.notion.com/p/3f62b010743c8111954ac5f77a051d2e",
+  "problemText": "5.1×4/17＝□",
+  "answerText": "1.2",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:55.519Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8111954ac5f77a051d2e",
+   "メモ": "計算マスター（裏）。R22K-14 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-44",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8111-954a-c5f77a051d2e/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c8123899ec5e15c4512c8"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1.2",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8111-954a-c5f77a051d2e/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R22K-45",
+  "url": "https://app.notion.com/p/3f62b010743c8100834bc308dc7007ad",
+  "problemText": "66÷39×26÷44＝□",
+  "answerText": "1",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:55.519Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8100834bc308dc7007ad",
+   "メモ": "計算マスター（裏）。R22K-15 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-45",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8100-834b-c308dc7007ad/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81e394c6c93920f7ea9d"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8100-834b-c308dc7007ad/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R22K-46",
+  "url": "https://app.notion.com/p/3f62b010743c81e88f2cc185f221d907",
+  "problemText": "5.625÷3.75＝□",
+  "answerText": "1と1/2",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:21:55.519Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81e88f2cc185f221d907",
+   "メモ": "計算マスター（裏）。R22K-16 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R22K-46",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e8-8f2c-c185f221d907/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c81028f6ac42786794f0d"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81babafcfec98b5f9c71"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1と1/2",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81e8-8f2c-c185f221d907/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-1",
+  "url": "https://app.notion.com/p/3f62b010743c815fba10c53fa85852a9",
+  "problemText": "4/15＋2/5＝□",
+  "answerText": "2/3",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c815fba10c53fa85852a9",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-1",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-815f-ba10-c53fa85852a9/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81b3ae34e1eaf834b33b"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "2/3",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-815f-ba10-c53fa85852a9/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-5",
+  "url": "https://app.notion.com/p/3f62b010743c8138a868d2775762ef50",
+  "problemText": "10−4と3/7＝□",
+  "answerText": "5と4/7",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8138a868d2775762ef50",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-5",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8138-a868-d2775762ef50/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81d1bcdeff877ac3da97"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "5と4/7",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8138-a868-d2775762ef50/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-8",
+  "url": "https://app.notion.com/p/3f62b010743c81d9bd0ee40579044c23",
+  "problemText": "3と7/15＋1と7/10＝□",
+  "answerText": "5と1/6",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81d9bd0ee40579044c23",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-8",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d9-bd0e-e40579044c23/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81deb2fffe45215f9b65"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "5と1/6",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d9-bd0e-e40579044c23/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-9",
+  "url": "https://app.notion.com/p/3f62b010743c81b29f00ffe7548dd661",
+  "problemText": "6と3/14−2と8/21＝□",
+  "answerText": "3と5/6",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81b29f00ffe7548dd661",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-9",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81b2-9f00-ffe7548dd661/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81f19aedf219ff9f4f1d"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3と5/6",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81b2-9f00-ffe7548dd661/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-10",
+  "url": "https://app.notion.com/p/3f62b010743c818ab745e1beda6cfaa4",
+  "problemText": "4.71÷3.14＝□",
+  "answerText": "1.5",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c818ab745e1beda6cfaa4",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-10",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818a-b745-e1beda6cfaa4/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8151b729fe27055d586b"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1.5",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818a-b745-e1beda6cfaa4/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-11",
+  "url": "https://app.notion.com/p/3f62b010743c81fb953fcb0ca11423eb",
+  "problemText": "18×18×3.14×110/360＝□",
+  "answerText": "310.86",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81fb953fcb0ca11423eb",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-11",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81fb-953f-cb0ca11423eb/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c8179882cc8b50b9acd15"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "310.86",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81fb-953f-cb0ca11423eb/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-12",
+  "url": "https://app.notion.com/p/3f62b010743c81b0953efe55be7fef7f",
+  "problemText": "1.4−2/3＝□",
+  "answerText": "11/15",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81b0953efe55be7fef7f",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-12",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81b0-953e-fe55be7fef7f/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81628b5dcc3fc0156d2d"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "11/15",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81b0-953e-fe55be7fef7f/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-14",
+  "url": "https://app.notion.com/p/3f62b010743c81158f77d6ded4722a33",
+  "problemText": "12×23×25÷3＝□",
+  "answerText": "2300",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81158f77d6ded4722a33",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-14",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8115-8f77-d6ded4722a33/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81798444ed3f6d5c79de"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "2300",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8115-8f77-d6ded4722a33/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-17",
+  "url": "https://app.notion.com/p/3f62b010743c81319fb4c9c961c4062e",
+  "problemText": "17×98＋34＝□",
+  "answerText": "1700",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81319fb4c9c961c4062e",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-17",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8131-9fb4-c9c961c4062e/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81d4859ac41828fa975b"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1700",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8131-9fb4-c9c961c4062e/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-25",
+  "url": "https://app.notion.com/p/3f62b010743c81bcb9e3c2b63318b421",
+  "problemText": "2/5＋2.8×4/7＝□",
+  "answerText": "2",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81bcb9e3c2b63318b421",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-25",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81bc-b9e3-c2b63318b421/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81c78190d98a97da99c0"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "2",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81bc-b9e3-c2b63318b421/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-27",
+  "url": "https://app.notion.com/p/3f62b010743c81b3a364dd9ce39873e9",
+  "problemText": "5×5×3.14×1/3−4×4×3.14×1/3＝□",
+  "answerText": "9.42",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81b3a364dd9ce39873e9",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-27",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81b3-a364-dd9ce39873e9/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c81438453c128b8709590"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "9.42",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81b3-a364-dd9ce39873e9/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-30",
+  "url": "https://app.notion.com/p/3f62b010743c818cb789f9460ec54b72",
+  "problemText": "1/2＋1/6＋1/12＋1/20＋1/30＋1/42＝□",
+  "answerText": "6/7",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:10.845Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c818cb789f9460ec54b72",
+   "メモ": "計算マスター（表）",
+   "上乗せ": 2,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-30",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818c-b789-f9460ec54b72/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え": [
+    "https://app.notion.com/p/3f62b010743c816cb377c38b4c7dadda"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "6/7",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-818c-b789-f9460ec54b72/b1x5dg",
+   "難易度の出どころ": "判定"
+  }
+ },
+ {
+  "id": "R23K-31",
+  "url": "https://app.notion.com/p/3f62b010743c81b3ae34e1eaf834b33b",
+  "problemText": "7/20＋2/5＝□",
+  "answerText": "3/4",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81b3ae34e1eaf834b33b",
+   "メモ": "計算マスター（裏）。R23K-1 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-31",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81b3-ae34-e1eaf834b33b/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c815fba10c53fa85852a9"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3/4",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81b3-ae34-e1eaf834b33b/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-35",
+  "url": "https://app.notion.com/p/3f62b010743c81d1bcdeff877ac3da97",
+  "problemText": "9−3と2/5＝□",
+  "answerText": "5と3/5",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81d1bcdeff877ac3da97",
+   "メモ": "計算マスター（裏）。R23K-5 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-35",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d1-bcde-ff877ac3da97/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c8138a868d2775762ef50"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "5と3/5",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d1-bcde-ff877ac3da97/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-38",
+  "url": "https://app.notion.com/p/3f62b010743c81deb2fffe45215f9b65",
+  "problemText": "3と13/20＋1と13/30＝□",
+  "answerText": "5と1/12",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81deb2fffe45215f9b65",
+   "メモ": "計算マスター（裏）。R23K-8 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-38",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81de-b2ff-fe45215f9b65/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81d9bd0ee40579044c23"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "5と1/12",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81de-b2ff-fe45215f9b65/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-39",
+  "url": "https://app.notion.com/p/3f62b010743c81f19aedf219ff9f4f1d",
+  "problemText": "6と2/21−2と8/35＝□",
+  "answerText": "3と13/15",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81f19aedf219ff9f4f1d",
+   "メモ": "計算マスター（裏）。R23K-9 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-39",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81f1-9aed-f219ff9f4f1d/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81b29f00ffe7548dd661"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3と13/15",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81f1-9aed-f219ff9f4f1d/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-41",
+  "url": "https://app.notion.com/p/3f62b010743c8179882cc8b50b9acd15",
+  "problemText": "18×18×3.14×150/360＝□",
+  "answerText": "423.9",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c8179882cc8b50b9acd15",
+   "メモ": "計算マスター（裏）。R23K-11 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-41",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8179-882c-c8b50b9acd15/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81fb953fcb0ca11423eb"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "423.9",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8179-882c-c8b50b9acd15/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-42",
+  "url": "https://app.notion.com/p/3f62b010743c81628b5dcc3fc0156d2d",
+  "problemText": "1.8−5/6＝□",
+  "answerText": "29/30",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81628b5dcc3fc0156d2d",
+   "メモ": "計算マスター（裏）。R23K-12 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-42",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8162-8b5d-cc3fc0156d2d/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81b0953efe55be7fef7f"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "29/30",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8162-8b5d-cc3fc0156d2d/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-44",
+  "url": "https://app.notion.com/p/3f62b010743c81798444ed3f6d5c79de",
+  "problemText": "28×57×25÷7＝□",
+  "answerText": "5700",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81798444ed3f6d5c79de",
+   "メモ": "計算マスター（裏）。R23K-14 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-44",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8179-8444-ed3f6d5c79de/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81158f77d6ded4722a33"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "5700",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8179-8444-ed3f6d5c79de/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-46",
+  "url": "https://app.notion.com/p/3f62b010743c81efa80cf2053aba5e13",
+  "problemText": "6.875÷2.75＝□",
+  "answerText": "2と1/2",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81efa80cf2053aba5e13",
+   "メモ": "計算マスター（裏）。R23K-16 の数値替え",
+   "上乗せ": 0,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-46",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ef-a80c-f2053aba5e13/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81e9a17ada528e1d5a97"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "2と1/2",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81ef-a80c-f2053aba5e13/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-47",
+  "url": "https://app.notion.com/p/3f62b010743c81d4859ac41828fa975b",
+  "problemText": "97×17＋51＝□",
+  "answerText": "1700",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81d4859ac41828fa975b",
+   "メモ": "計算マスター（裏）。R23K-17 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-47",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d4-859a-c41828fa975b/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81319fb4c9c961c4062e"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "1700",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81d4-859a-c41828fa975b/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-55",
+  "url": "https://app.notion.com/p/3f62b010743c81c78190d98a97da99c0",
+  "problemText": "3/5＋5.6×3/7＝□",
+  "answerText": "3",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81c78190d98a97da99c0",
+   "メモ": "計算マスター（裏）。R23K-25 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-55",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81c7-8190-d98a97da99c0/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81bcb9e3c2b63318b421"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-81c7-8190-d98a97da99c0/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-57",
+  "url": "https://app.notion.com/p/3f62b010743c81438453c128b8709590",
+  "problemText": "13×13×3.14×2/3−5×5×3.14×2/3＝□",
+  "answerText": "301.44",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c81438453c128b8709590",
+   "メモ": "計算マスター（裏）。R23K-27 の数値替え",
+   "上乗せ": 1,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-57",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8143-8453-c128b8709590/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c81b3a364dd9ce39873e9"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "301.44",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-8143-8453-c128b8709590/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ },
+ {
+  "id": "R23K-60",
+  "url": "https://app.notion.com/p/3f62b010743c816cb377c38b4c7dadda",
+  "problemText": "1/6＋1/12＋1/20＋1/30＋1/42＋1/56＝□",
+  "answerText": "3/8",
+  "verification": {
+   "state": "unverified"
+  },
+  "page_last_edited_at": "2026-10-11T05:37:23.261Z",
+  "properties": {
+   "url": "https://app.notion.com/p/3f62b010743c816cb377c38b4c7dadda",
+   "メモ": "計算マスター（裏）。R23K-30 の数値替え",
+   "上乗せ": 2,
+   "区分": "計算マスター",
+   "原本の難": "",
+   "問題": "R23K-60",
+   "図": "",
+   "型": [
+    "https://app.notion.com/p/3f52b010743c81029cf1e9b11e782b7c"
+   ],
+   "基礎難度": "rollupResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-816c-b377-c38b4c7dadda/RHI6dw",
+   "教材": "5年授業",
+   "教材回": [
+    "https://app.notion.com/p/3f52b010743c811f926bc69977d4ba06"
+   ],
+   "数値替え元": [
+    "https://app.notion.com/p/3f62b010743c818cb789f9460ec54b72"
+   ],
+   "時期": "5年後期",
+   "正答率": "",
+   "決め手": "",
+   "確度": "高",
+   "答え": "3/8",
+   "記録": "",
+   "難易度": "formulaResult://531d42cc-9767-4652-ac87-5fd5cef74df7/3f62b010-743c-816c-b377-c38b4c7dadda/b1x5dg",
+   "難易度の出どころ": "元問題から"
+  }
+ }
+]
