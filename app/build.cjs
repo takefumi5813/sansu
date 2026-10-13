@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const root = __dirname;
 const read = p => fs.readFileSync(path.join(root,p),'utf8').replace(/^\uFEFF/,'');
-const sources = ['content/arithmetic.json','content/selected-calc.json','content/selected-calc-2.json','content/selected-calc-3.json','content/selected-oneline.json','content/selected-geometry.json','content/expedition-foundations.json','content/expedition-ratio-speed.json','content/expedition-geometry.json','content/expedition-ready.json','content/expedition-ready-2.json'].map(p=>JSON.parse(read(p)));
+const sources = ['content/arithmetic.json','content/selected-calc.json','content/selected-calc-2.json','content/selected-calc-3.json','content/selected-calc-4.json','content/selected-oneline.json','content/selected-geometry.json','content/expedition-foundations.json','content/expedition-ratio-speed.json','content/expedition-geometry.json','content/expedition-ready.json','content/expedition-ready-2.json'].map(p=>JSON.parse(read(p)));
 const legacyCatalog = JSON.parse(read('references/legacy-catalog.json'));
 const roster=JSON.parse(read('content/heroes.json'));
 const profiles=JSON.parse(read('content/hero-profiles.json')).profiles;
@@ -41,7 +41,7 @@ for (const p of data.problems) {
   if(ids.has(p.id))throw Error('Duplicate problem '+p.id);ids.add(p.id);
   if(p.category!=='calc'&&(typeof p.domain!=='string'||!p.domain.trim()))throw Error('Missing subject domain '+p.id);
   if(p.category!=='calc'&&(!Number.isInteger(p.difficulty)||p.difficulty<1||p.difficulty>10))throw Error('Invalid difficulty '+p.id);
-  if(!/^https:\/\/(?:app\.)?notion\.(?:com|so)\//.test(p.source?.url||''))throw Error('Missing Notion selection source '+p.id);
+  if(!/^https:\/\/(?:app\.)?notion\.(?:com|so)\//.test(p.source?.url||'')&&!(p.source?.origin==='exam-pdf'&&/^\/算数DB\/原本\//.test(p.source.path||'')&&/p\.\d+/.test(p.source.locator||'')))throw Error('Missing Notion selection source '+p.id);
   if((p.scopeUnits||[]).some(u=>excludedUnits.has(u)))throw Error('Unlearned lesson in selection '+p.id);
   if(!data.units.some(u=>u.id===p.unitId))throw Error('Missing unit '+p.unitId);
   if(!C.grade(canonicalRaw(p.answer),p.answer).correct)throw Error('Invalid answer '+p.id);
