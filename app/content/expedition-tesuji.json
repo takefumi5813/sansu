@@ -1,0 +1,3905 @@
+{
+  "problems": [
+    {
+      "id": "TS平C1-1",
+      "unitId": "tesuji.TS平C1-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の六角形ABCDEFは6つの角がすべて等しい六角形です。BCの長さを求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平C1-1",
+        "url": "https://app.notion.com/p/3f82b010743c81208908f14082eaae4b?pvs=204",
+        "locator": "図形の必勝手筋 TS平C1-1 / カード図形.pdf PDF 1ページ",
+        "sourceText": "6つの角がすべて等しい六角形ABCDEF（AF＝17、AB＝20、EF＝34、CD＝28）。BCの長さを求めよ。",
+        "sourceAnswer": "23",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c815dbd9ecc0af4bccb71?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 1
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 2
+        }
+      },
+      "answer": {
+        "n": "23",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平C1-1.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "六角形の角を調べる",
+            "body": "内角は720÷6＝120度です。辺を延ばしてできる外側の角は60度になります。"
+          },
+          {
+            "id": "step-2",
+            "title": "正三角形を作る",
+            "body": "ABとEFを上へ延ばし、ABとDCを左下へ延ばします。できた小さい三角形は正三角形です。",
+            "checkpoint": {
+              "prompt": "この六角形の1つの内角は何度ですか。",
+              "answer": {
+                "n": "120",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "同じ長さへ置き換える",
+            "body": "上の正三角形の辺は17、左下の正三角形の辺はBCと同じです。外側の等脚台形の左右の斜辺を比べると、BC＋28＝17＋34です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平C1-1-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "差を求める",
+            "body": "BC＝17＋34−28＝23cmです。20cmの辺を全部足す必要はありません。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平C1-2",
+      "unitId": "tesuji.TS平C1-2",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "1辺が6cmの正三角形です。図の赤い線の長さの合計を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平C1-2",
+        "url": "https://app.notion.com/p/3f82b010743c8142a1dbd1175625ae09?pvs=204",
+        "locator": "図形の必勝手筋 TS平C1-2 / カード図形.pdf PDF 3ページ",
+        "sourceText": "1辺が6の正三角形。内部の点から3辺に垂線をおろし、各辺の「頂点から垂線の足まで」（アカ線3本、1周まわる向き）の長さの合計を求めよ。",
+        "sourceAnswer": "9",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c815dbd9ecc0af4bccb71?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 3
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 4
+        }
+      },
+      "answer": {
+        "n": "9",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平C1-2.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "線を分ける",
+            "body": "内部の点を通り、三角形の3辺に平行な線を引きます。赤い線を、できた正三角形の辺の部分と残りの部分に分けます。"
+          },
+          {
+            "id": "step-2",
+            "title": "1辺分を集める",
+            "body": "解説図左のア・イ・ウを移すと、底辺1本に並びます。この3つの和は6cmです。",
+            "checkpoint": {
+              "prompt": "3つの正三角形の辺の和が6cmなら、その半分の和は何cmですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "半分の部分を集める",
+            "body": "正三角形に垂線を引くと底辺を半分に分けます。解説図右の残りの和は、先ほどの6cmの半分で3cmです。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平C1-2-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "2つの和を足す",
+            "body": "赤い線全体は6＋3＝9cmです。内部の点の位置にかかわらず、周の長さの半分になります。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平C1-4",
+      "unitId": "tesuji.TS平C1-4",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の辺はすべて、正三角形のどれかの辺に平行です。この図形の周の長さを求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平C1-4",
+        "url": "https://app.notion.com/p/3f82b010743c81598fccfa4d56ec55be?pvs=204",
+        "locator": "図形の必勝手筋 TS平C1-4 / カード図形.pdf PDF 7ページ",
+        "sourceText": "辺はすべて正三角形のどれかの辺に平行（16・16・7・16が記入）。図形の周の長さを求めよ。",
+        "sourceAnswer": "94",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c815dbd9ecc0af4bccb71?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 7
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 8
+        }
+      },
+      "answer": {
+        "n": "94",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平C1-4.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "方向をそろえる",
+            "body": "辺は正三角形の3方向だけです。同じ方向の短い辺を、平行にずらしてつなぎます。"
+          },
+          {
+            "id": "step-2",
+            "title": "外側へ集める",
+            "body": "図の16cmを基準にして辺を集めます。折れ曲がりを伸ばしても、それぞれの辺の長さの合計は変わりません。",
+            "checkpoint": {
+              "prompt": "7cmの辺2本分の長さは何cmですか。",
+              "answer": {
+                "n": "14",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "残るくぼみを数える",
+            "body": "解説図の点線に沿って移すと、16cmが5本分と7cmが2本分にまとまります。くぼみの2本を落とさないようにします。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平C1-4-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "合計する",
+            "body": "16×5＋7×2＝80＋14＝94cmです。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平C1-5",
+      "unitId": "tesuji.TS平C1-5",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "直方体に三角すいが入っています。図のPを通る水平な平面で切るとき、三角すいの切り口の周りの長さを求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平C1-5",
+        "url": "https://app.notion.com/p/3f82b010743c81a59a93dfbb98a37f2a?pvs=204",
+        "locator": "図形の必勝手筋 TS平C1-5 / カード図形.pdf PDF 9ページ",
+        "sourceText": "図の直方体（底面の2辺は3cmと4cm、底面の対角線は5cm）に三角すいが入っている。Pを通る水平な平面で切るとき、三角すいの切り口の周りの長さを求めよ。",
+        "sourceAnswer": "10",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c815dbd9ecc0af4bccb71?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 9
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 10
+        }
+      },
+      "answer": {
+        "n": "10",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平C1-5.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "真上から見る",
+            "body": "水平な切り口は、真上から見ても長さが変わりません。立体のまま追わず、上から見た長方形の中で考えます。"
+          },
+          {
+            "id": "step-2",
+            "title": "平行な線を探す",
+            "body": "解説図ではAB・EF・CDが平行、GH・CE・DFが平行です。切り口の斜めの辺を外側へ移します。",
+            "checkpoint": {
+              "prompt": "対角線ABの長さは何cmですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "同じ長さをつなぐ",
+            "body": "等しい角からEC＝EI、DF＝DJです。周の長さはFI＋CJにまとまり、対角線ABの2本分になります。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平C1-5-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "対角線を2倍する",
+            "body": "図の対角線は5cmなので、5×2＝10cmです。3cmと4cmを周として足すのではありません。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平C4-2",
+      "unitId": "tesuji.TS平C4-2",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図のように三角形ABCを2回折りました。角アの大きさを求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平C4-2",
+        "url": "https://app.notion.com/p/3f82b010743c817d9b16c180a893dc2f?pvs=204",
+        "locator": "図形の必勝手筋 TS平C4-2 / カード図形.pdf PDF 19ページ",
+        "sourceText": "△ABCを図のように2回折った（108°・79°が記入）。角ア（∠B）の大きさを求めよ。",
+        "sourceAnswer": "87°",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/3f52b010743c81c591b8c1e8530881f2"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 19
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "n": "87",
+        "d": "1",
+        "unit": "度",
+        "dimension": "angle"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平C4-2.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "折る前へ戻す",
+            "body": "折り返しでは、折り目の両側の角が等しくなります。解説図のイは79度、ウは108度です。"
+          },
+          {
+            "id": "step-2",
+            "title": "差の角を出す",
+            "body": "ウの中からイを引いた角エは、108−79＝29度です。",
+            "checkpoint": {
+              "prompt": "108度と79度の差は何度ですか。",
+              "answer": {
+                "n": "29",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "元の頂点へ戻る",
+            "body": "2本の折り目によって、元の角Bは角エと同じ角3つに分かれています。図で3つを指して確かめます。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平C4-2-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "3倍する",
+            "body": "角ア＝29×3＝87度です。折った後の29度をそのまま答えにしないようにします。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平6-1",
+      "unitId": "tesuji.TS平6-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(1)で、印をつけた角の大きさの和を求めなさい。（今回は小問(1)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平6-1",
+        "url": "https://app.notion.com/p/3f82b010743c81519b62c7fcb26f8ff5?pvs=204",
+        "locator": "図形の必勝手筋 TS平6 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 13ページ",
+        "sourceText": "数値のない図形。(1) 印をつけた5つの角の和。\n\n(2) 印をつけた7つの角の和（2つの四角形を重ねた星形）。",
+        "sourceAnswer": "(1)360° (2)540°",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81bd9dbbf8f20991f927?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 13
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 13
+        }
+      },
+      "answer": {
+        "n": "360",
+        "d": "1",
+        "unit": "度",
+        "dimension": "angle"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平6.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "個々の角を求めない",
+            "body": "数字がなくても、印のある角の和は求められます。対頂角をはさむ2つの三角形を見つけます。"
+          },
+          {
+            "id": "step-2",
+            "title": "和が等しい角を移す",
+            "body": "三角形の内角の和から、共通の対頂角を除くと、残り2角の和は等しくなります。",
+            "checkpoint": {
+              "prompt": "四角形を対角線1本で分けると三角形はいくつできますか。",
+              "answer": {
+                "n": "2",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "四角形にまとめる",
+            "body": "この関係を使って印の角を付け替えると、四角形の4つの内角になります。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平6-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "内角の和を使う",
+            "body": "四角形の内角の和は180×2＝360度です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平8-1",
+      "unitId": "tesuji.TS平8-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(1)の角アの大きさを求めなさい。（今回は小問(1)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平8-1",
+        "url": "https://app.notion.com/p/3f82b010743c81578811c957db52d59e?pvs=204",
+        "locator": "図形の必勝手筋 TS平8 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 15ページ",
+        "sourceText": "(1) 円周上の角74°、中心の角アを求める。\n\n(2) 円周上の角35°、中心の角アを求める。",
+        "sourceAnswer": "(1)148° (2)70°",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81f99858dc321e0e60a1?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 15
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 15
+        }
+      },
+      "answer": {
+        "n": "148",
+        "d": "1",
+        "unit": "度",
+        "dimension": "angle"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平8.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "半径を引く",
+            "body": "円の中心から74度の頂点へ線を引き、半径2本を持つ三角形を2つ作ります。"
+          },
+          {
+            "id": "step-2",
+            "title": "底角をそろえる",
+            "body": "どちらも二等辺三角形なので、底角は等しいです。74度を分けた2角を○と×とすると、○＋×＝74度です。",
+            "checkpoint": {
+              "prompt": "74度を分けた○と×の和は何度ですか。",
+              "answer": {
+                "n": "74",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "外角を使う",
+            "body": "求める中心角は、2つの三角形の外角を合わせた角です。それぞれ底角の2倍になります。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平8-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "2倍する",
+            "body": "ア＝2×(○＋×)＝74×2＝148度です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平10-面積",
+      "unitId": "tesuji.TS平10-面積",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "垂直な直線l、m上に点P、Qがあり、PQ＝8cmです。PをAからBまで動かします。PQの中点Mの通る線とl、mで囲まれる部分の面積を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平10-面積",
+        "url": "https://app.notion.com/p/3f82b010743c8160b73fe96cf76b1514?pvs=204",
+        "locator": "図形の必勝手筋 TS平10 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 17ページ",
+        "sourceText": "垂直な直線 l、m がある。直線 l の上にP、直線 m の上にQをとり、PQ＝8cmとなるようにする。PをAからBまで動かすとき、PQの真ん中の点Mが動く線を図示せよ。この線と直線 l、m によって囲まれる部分の面積を求めよ（AB＝8cm、Bは l と m の交点）。",
+        "sourceAnswer": "12.56cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81a58342c5014aa892d3?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 17
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 17
+        }
+      },
+      "answer": {
+        "n": "314",
+        "d": "25",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平10.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "直角三角形を見る",
+            "body": "Bは垂直な2直線の交点なので、三角形PBQはBが直角です。PQが斜辺になります。"
+          },
+          {
+            "id": "step-2",
+            "title": "中点までの長さ",
+            "body": "直角三角形の斜辺の中点から3つの頂点までの長さは等しいです。BM＝PQ÷2＝4cmです。",
+            "checkpoint": {
+              "prompt": "BMは何cmですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "軌跡を決める",
+            "body": "BMがずっと4cmで、Mは2直線の間を動くので、中心B・半径4cmの四分円の弧になります。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平10-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "面積を出す",
+            "body": "囲まれる部分は四分円です。4×4×3.14÷4＝12.56cm²です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平11-1",
+      "unitId": "tesuji.TS平11-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(1)でAB＝DE、CA＝CDです。角アの大きさを求めなさい。（今回は小問(1)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平11-1",
+        "url": "https://app.notion.com/p/3f82b010743c812fa98bc605b976b282?pvs=204",
+        "locator": "図形の必勝手筋 TS平11 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 18ページ",
+        "sourceText": "(1) AB＝DE、CA＝CD。角B＝40°、角D＝80°。角アを求める。\n\n(2) 四角形ABCDは正方形。角DAF＝25°、角BAE＝20°。角アを求める。",
+        "sourceAnswer": "(1)20° (2)70°",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81adbc0bca64434b1fe8?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 18
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 18
+        }
+      },
+      "answer": {
+        "n": "20",
+        "d": "1",
+        "unit": "度",
+        "dimension": "angle"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平11.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "等しい辺に注目",
+            "body": "AB＝DE、CA＝CDの印を見ます。右側の三角形を裏返して、同じ長さの辺がつながるようにします。"
+          },
+          {
+            "id": "step-2",
+            "title": "大きい二等辺を作る",
+            "body": "裏返した図では、ABとDE、CAとCDが対応するので、大きい三角形の2辺が等しくなります。",
+            "checkpoint": {
+              "prompt": "底角が40度ずつの二等辺三角形の頂角は何度ですか。",
+              "answer": {
+                "n": "100",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "残った角を求める",
+            "body": "底角が40度ずつなので、大きい三角形の頂角は180−40×2＝100度です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平11-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "80度を引く",
+            "body": "その頂角は80度とアに分かれます。ア＝100−80＝20度です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平12",
+      "unitId": "tesuji.TS平12",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "四角形ABCD、AEFGは正方形です。図の角アの大きさを求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平12",
+        "url": "https://app.notion.com/p/3f82b010743c817e86cbcfbadc6903eb?pvs=204",
+        "locator": "図形の必勝手筋 TS平12 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 19ページ",
+        "sourceText": "四角形ABCD、四角形AEFGは正方形。BEとDGの交わる角アを求める。",
+        "sourceAnswer": "90°",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81fc9966e608af77d88c?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 19
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 19
+        }
+      },
+      "answer": {
+        "n": "90",
+        "d": "1",
+        "unit": "度",
+        "dimension": "angle"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平12.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "正方形の辺を見る",
+            "body": "AB＝AD、AE＝AGで、それぞれの組は直角に交わっています。"
+          },
+          {
+            "id": "step-2",
+            "title": "三角形を対応させる",
+            "body": "Aを中心に90度回転すると、BがD、EがGに対応します。三角形ABEとADGは合同です。",
+            "checkpoint": {
+              "prompt": "正方形の1つの内角は何度ですか。",
+              "answer": {
+                "n": "90",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "結んだ辺も回る",
+            "body": "BとEを結ぶ辺BEも、DとGを結ぶ辺DGへ90度回転して重なります。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平12-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "交わる角を答える",
+            "body": "対応する辺BEとDGは直角に交わります。角アは90度です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平17-1",
+      "unitId": "tesuji.TS平17-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(1)の赤い部分の面積を求めなさい。（今回は小問(1)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平17-1",
+        "url": "https://app.notion.com/p/3f82b010743c81d5b36de06c702d788f?pvs=204",
+        "locator": "図形の必勝手筋 TS平17 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 24ページ",
+        "sourceText": "(1) 10×15の長方形に内接する四角形（中央に3×4の長方形）。アカい部分の面積。\n\n(2) 半径10の円を直交する2本の弦で分けた図（中心からの距離5と4）。アカい部分の面積。",
+        "sourceAnswer": "(1)81cm² (2)117cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81d3b045c538decb08bc?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 24
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 24
+        }
+      },
+      "answer": {
+        "n": "81",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平17.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "中央を分ける",
+            "body": "中央の小さい長方形は、たて3cm、横4cmです。その面積は12cm²です。"
+          },
+          {
+            "id": "step-2",
+            "title": "周りの面積を出す",
+            "body": "外側の長方形は10×15＝150cm²です。中央を除くと150−12＝138cm²になります。",
+            "checkpoint": {
+              "prompt": "中央の長方形の面積は何cm²ですか。",
+              "answer": {
+                "n": "12",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "同じ三角形の組",
+            "body": "中央の周りには、色の部分と白い部分に合同な三角形の組ができます。色の部分は138÷2＝69cm²です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平17-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "中央を戻す",
+            "body": "中央の12cm²も赤い部分なので、69＋12＝81cm²です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平19-2",
+      "unitId": "tesuji.TS平19-2",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(2)は面積120cm²の正六角形です。赤い部分の面積を求めなさい。（今回は小問(2)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平19-2",
+        "url": "https://app.notion.com/p/3f82b010743c8192b434c8a1095c8406?pvs=204",
+        "locator": "図形の必勝手筋 TS平19 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 26ページ",
+        "sourceText": "(1) 面積120cm²の正八角形。内部の点と頂点を結んだアカい部分の面積。\n\n(2) 面積120cm²の正六角形。内部の点と頂点を結んだアカい部分の面積。",
+        "sourceAnswer": "(1)60cm² (2)60cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81279de2efab2925e340?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 26
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 26
+        }
+      },
+      "answer": {
+        "n": "60",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平19.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "6等分を考える",
+            "body": "正六角形を中心から6つの正三角形に分けると、1つ分は120÷6＝20cm²です。"
+          },
+          {
+            "id": "step-2",
+            "title": "大きい正三角形を作る",
+            "body": "解説図のように3辺を延長すると、小さい正三角形9個分の大きい正三角形ができます。面積は20×9＝180cm²です。",
+            "checkpoint": {
+              "prompt": "正六角形を6等分した正三角形1つの面積は何cm²ですか。",
+              "answer": {
+                "n": "20",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "同じ高さを利用する",
+            "body": "大きい正三角形を内部の点から3つに分けます。それぞれの底辺は、求める小さい三角形の底辺の3倍で、高さは同じです。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平19-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "3分の1にする",
+            "body": "赤い3つの三角形の和は、大きい正三角形の3分の1です。180÷3＝60cm²です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平20-1",
+      "unitId": "tesuji.TS平20-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(1)の赤い部分の面積を求めなさい。（今回は小問(1)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平20-1",
+        "url": "https://app.notion.com/p/3f82b010743c8150876ed1ff52dceaef?pvs=204",
+        "locator": "図形の必勝手筋 TS平20 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 27ページ",
+        "sourceText": "(1) 三角形の水平方向の幅15、たての切り口6（18は使わない）。アカい部分の面積。\n\n(2) アカ網部は平行四辺形。切り口8、幅10（はみ出し3）。アカい部分の面積。",
+        "sourceAnswer": "(1)45cm² (2)80cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81409353d1933059d8bf?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 27
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 27
+        }
+      },
+      "answer": {
+        "n": "45",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平20.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "6cmで分ける",
+            "body": "図のたての6cmの線で三角形を2つに分けます。この6cmを2つの三角形の共通の底辺と考えます。"
+          },
+          {
+            "id": "step-2",
+            "title": "高さを横向きに見る",
+            "body": "底辺がたてなので、高さは横向きの距離です。2つの高さの和が15cmになります。",
+            "checkpoint": {
+              "prompt": "2つの三角形の高さを足すと何cmですか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "2つの式をまとめる",
+            "body": "面積の和は6×左の高さ÷2＋6×右の高さ÷2＝6×15÷2です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平20-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "面積を答える",
+            "body": "6×15÷2＝45cm²です。斜めの18cmは必要ありません。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平21",
+      "unitId": "tesuji.TS平21",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "長方形ABCDの中で、AD＝18cm、DC＝10cm、AF＝6cmです。三角形EFCの面積が70cm²のとき、AEの長さを求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平21",
+        "url": "https://app.notion.com/p/3f82b010743c817e8b38d03184c16175?pvs=204",
+        "locator": "図形の必勝手筋 TS平21 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 28ページ",
+        "sourceText": "長方形ABCD（AD＝18、DC＝10）の中に三角形がある。AF＝6。アカい部分（三角形EFC）の面積が70cm²であるとき、AEの長さを求めよ。",
+        "sourceAnswer": "AE＝8cm",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c815b99fbe1da03bd394f?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 28
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 28
+        }
+      },
+      "answer": {
+        "n": "8",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平21.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "端の面積を出す",
+            "body": "EをAに置くと三角形ACFの面積は6×18÷2＝54cm²です。EをDに置くと三角形DCFは10×18÷2＝90cm²です。"
+          },
+          {
+            "id": "step-2",
+            "title": "増えた分を見る",
+            "body": "面積全体の増加は90−54＝36cm²です。70cm²までの増加は70−54＝16cm²です。",
+            "checkpoint": {
+              "prompt": "EがAからDへ動くと面積は何cm²増えますか。",
+              "answer": {
+                "n": "36",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "長さへ比例配分",
+            "body": "底辺CFを固定し、Eが直線AD上を動くと面積は一定の割合で変わります。AEはADの16/36です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平21-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "長さを計算",
+            "body": "AE＝18×16/36＝8cmです。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平22-2",
+      "unitId": "tesuji.TS平22-2",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(2)は正十二角形です。向かい合う頂点を結ぶ対角線は12cmです。面積を求めなさい。（今回は小問(2)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平22-2",
+        "url": "https://app.notion.com/p/3f82b010743c81638efde9997d3b4fce?pvs=204",
+        "locator": "図形の必勝手筋 TS平22 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 29ページ",
+        "sourceText": "(1) 2辺10と8、はさむ角150°の三角形の面積。\n\n(2) 正十二角形（向かい合う頂点を結ぶ対角線12）の面積。",
+        "sourceAnswer": "(1)20cm² (2)108cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/3f52b010743c81119c44da7aa3ee499c"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 29
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 29
+        }
+      },
+      "answer": {
+        "n": "108",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平22.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "中心から分ける",
+            "body": "中心と12個の頂点を結ぶと、合同な二等辺三角形12個に分かれます。中心角は360÷12＝30度です。"
+          },
+          {
+            "id": "step-2",
+            "title": "半径を求める",
+            "body": "対角線12cmの半分なので、中心から頂点までは6cmです。",
+            "checkpoint": {
+              "prompt": "30度をはさむ6cmの辺から下ろした高さは何cmですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "1つの面積を出す",
+            "body": "6cmの半径を底辺にすると、30度の直角三角形を使って高さは6÷2＝3cmです。面積は6×3÷2＝9cm²です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平22-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "12個分を足す",
+            "body": "9×12＝108cm²です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平23-2",
+      "unitId": "tesuji.TS平23-2",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(2)で、赤い部分の面積と正六角形の面積の比を求めなさい。（今回は小問(2)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平23-2",
+        "url": "https://app.notion.com/p/3f82b010743c81f89f11e00da4bbe328?pvs=204",
+        "locator": "図形の必勝手筋 TS平23 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 30ページ",
+        "sourceText": "アカい部分の面積と正六角形の面積の比。(1) 上の辺の中点と下の2頂点を結ぶ三角形。\n\n(2) 下の辺に接する小さい三角形（対角線の交点）。",
+        "sourceAnswer": "(1)1:3 (2)1:18",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c813bad81fa60bca14e9c?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 30
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 30
+        }
+      },
+      "answer": {
+        "dimension": "ratio",
+        "terms": [
+          1,
+          18
+        ],
+        "unit": ""
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平23.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "中心を結ぶ",
+            "body": "正六角形を6つの正三角形に分けます。まず、その1つを基準に考えます。"
+          },
+          {
+            "id": "step-2",
+            "title": "対角線の交点を見る",
+            "body": "正六角形の長い対角線は1辺の2倍です。平行線でできる相似から、図の小さい三角形の高さは、基準の正三角形の高さの3分の1です。",
+            "checkpoint": {
+              "prompt": "正六角形を中心から頂点へ結ぶと正三角形はいくつできますか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "面積を比べる",
+            "body": "小さい三角形の底辺は六角形の1辺と同じです。高さだけが3分の1なので、面積も3分の1です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平23-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "全体へ戻す",
+            "body": "正六角形は基準の三角形6個分なので、赤い部分は全体の1/3÷6＝1/18です。比は1：18です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平25-2",
+      "unitId": "tesuji.TS平25-2",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(2)のアの長さを求めなさい。（今回は小問(2)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平25-2",
+        "url": "https://app.notion.com/p/3f82b010743c8115aac2fdc07cc6559d?pvs=204",
+        "locator": "図形の必勝手筋 TS平25 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 32ページ",
+        "sourceText": "(1) 入れ子になったおうぎ形・半円。アカい部分とアカ線部分の面積比。\n\n(2) 辺4・6・3・5が記入された2つの三角形。アの長さ。",
+        "sourceAnswer": "(1)1:12 (2)4.5cm",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c813eaeb6dc3e2fd88a7e?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 32
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 32
+        }
+      },
+      "answer": {
+        "n": "9",
+        "d": "2",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平25.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "辺をまとめる",
+            "body": "一直線上の長さ4と5を足すと9cmになります。6cmと9cmの比に注目します。"
+          },
+          {
+            "id": "step-2",
+            "title": "2辺の比を比べる",
+            "body": "4：6＝6：9＝2：3です。はさむ角も同じなので、2つの三角形は相似です。",
+            "checkpoint": {
+              "prompt": "4cmと5cmを合わせた辺は何cmですか。",
+              "answer": {
+                "n": "9",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "対応を確かめる",
+            "body": "小さい三角形の3cmの辺に、大きい三角形のアが対応します。拡大する向きを間違えないようにします。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平25-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "3/2倍する",
+            "body": "ア＝3×3÷2＝4.5cmです。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平26-1",
+      "unitId": "tesuji.TS平26-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(1)で台形ABCDのAD＝7cm、BC＝8cmです。アとイの面積比が3：2のとき、BEの長さを求めなさい。（今回は小問(1)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平26-1",
+        "url": "https://app.notion.com/p/3f82b010743c819da199e4045628a214?pvs=204",
+        "locator": "図形の必勝手筋 TS平26 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 33ページ",
+        "sourceText": "(1) 台形ABCD（AD＝7、BC＝8）。アとイの面積比が3:2のとき、BEの長さ。\n\n(2) 四角形を対角線で4つに分けた。A＝6cm²、B＝9cm²、C＝30cm²のとき、Dの面積。",
+        "sourceAnswer": "(1)BE＝2cm (2)D＝20cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/3f52b010743c81769c55febc6e8ccb36"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 33
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 33
+        }
+      },
+      "answer": {
+        "n": "2",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平26.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "高さをそろえる",
+            "body": "アの台形とイの三角形は高さが同じです。台形は上下底の和、三角形は底辺に注目します。"
+          },
+          {
+            "id": "step-2",
+            "title": "底辺の式にする",
+            "body": "BEを□cmとすると、面積比は(7＋□)：(8−□)＝3：2です。",
+            "checkpoint": {
+              "prompt": "比の3と2に当たる長さの合計は何cmですか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "和を利用する",
+            "body": "2つの底辺に当たる数の和は7＋8＝15です。3に当たる分は15×3/5＝9cmです。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平26-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "7cmを引く",
+            "body": "7＋□＝9より、BE＝9−7＝2cmです。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平26-2",
+      "unitId": "tesuji.TS平26-2",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(2)でA＝6cm²、B＝9cm²、C＝30cm²です。Dの面積を求めなさい。（今回は小問(2)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平26-2",
+        "url": "https://app.notion.com/p/3f82b010743c819da199e4045628a214?pvs=204",
+        "locator": "図形の必勝手筋 TS平26 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 33ページ",
+        "sourceText": "(1) 台形ABCD（AD＝7、BC＝8）。アとイの面積比が3:2のとき、BEの長さ。\n\n(2) 四角形を対角線で4つに分けた。A＝6cm²、B＝9cm²、C＝30cm²のとき、Dの面積。",
+        "sourceAnswer": "(1)BE＝2cm (2)D＝20cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/3f52b010743c81769c55febc6e8ccb36"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 33
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 33
+        }
+      },
+      "answer": {
+        "n": "20",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平26.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "同じ高さを見る",
+            "body": "対角線の同じ側にあるAとBは高さが等しく、面積比は底辺の比です。"
+          },
+          {
+            "id": "step-2",
+            "title": "反対側へ比を移す",
+            "body": "反対側のDとCも、同じ底辺の組を使い、高さが等しいです。そのためA：B＝D：Cです。",
+            "checkpoint": {
+              "prompt": "比の3が30cm²なら、比の1は何cm²ですか。",
+              "answer": {
+                "n": "10",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "簡単な比にする",
+            "body": "6：9＝2：3です。Cの30cm²が3に当たります。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平26-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "2に当たる面積",
+            "body": "D＝30÷3×2＝20cm²です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平27",
+      "unitId": "tesuji.TS平27",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "台形ABCDでAD：BC＝2：5、DE：EC＝2：3です。図の三角形AFDと台形ABCDの面積比を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平27",
+        "url": "https://app.notion.com/p/3f82b010743c8180aa99c8a603b91353?pvs=204",
+        "locator": "図形の必勝手筋 TS平27 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 34ページ",
+        "sourceText": "台形ABCDで、AD:BC＝2:5、DE:EC＝2:3（EはDC上）。BDとAEの交点をFとするとき、三角形AFDと台形ABCDの面積比。",
+        "sourceAnswer": "2:35",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c8169b168ff84e70f1f6d?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 34
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 34
+        }
+      },
+      "answer": {
+        "dimension": "ratio",
+        "terms": [
+          2,
+          35
+        ],
+        "unit": ""
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平27.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "平行な辺まで延ばす",
+            "body": "AEとBCを延ばした交点をGとします。ADとCGが平行なので、AD：CG＝DE：EC＝2：3です。"
+          },
+          {
+            "id": "step-2",
+            "title": "大きな台形を作る",
+            "body": "BGはBCとCGの和で5＋3＝8です。AD：BG＝2：8＝1：4になります。",
+            "checkpoint": {
+              "prompt": "ADを2とするとBGはいくつですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "バタフライを使う",
+            "body": "台形ABGDの対角線の交点がFです。三角形AFD：台形ABGD＝1²：(1＋4)²＝1：25です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平27-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "元の台形とそろえる",
+            "body": "高さが同じなので台形ABGD：ABCD＝(2＋8)：(2＋5)＝10：7です。三角形：大台形：元台形＝2：50：35。答えは2：35です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平28-1",
+      "unitId": "tesuji.TS平28-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(1)で、赤い部分の三角形と外側の三角形の面積比を求めなさい。（今回は小問(1)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平28-1",
+        "url": "https://app.notion.com/p/3f82b010743c81d092b3faee6a6b75ba?pvs=204",
+        "locator": "図形の必勝手筋 TS平28 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 35ページ",
+        "sourceText": "(1) 三角形の3辺を ②:③、△3:△2、□1:□1 に分けた3点を結ぶ三角形（アカ網）と、もとの三角形（アカ線）の面積比。\n\n(2) 長方形（7×6）と長方形（3×5）が直角の頂点で接し、そのすきまにできる2つの三角形（アカ網・アカ線）の面積比。",
+        "sourceAnswer": "(1)13:50 (2)7:10",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c812dae6cff20fa609fa6?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 35
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 35
+        }
+      },
+      "answer": {
+        "dimension": "ratio",
+        "terms": [
+          13,
+          50
+        ],
+        "unit": ""
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平28.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "外側を基準にする",
+            "body": "外側の三角形の面積を50とおきます。周りの3つの三角形は、それぞれ外側と角を共有しています。"
+          },
+          {
+            "id": "step-2",
+            "title": "はさむ辺の比を掛ける",
+            "body": "左上側は(2/5)×(3/5)＝6/25、左下側は(3/5)×(1/2)＝3/10、右下側は(1/2)×(2/5)＝1/5です。",
+            "checkpoint": {
+              "prompt": "外側50に対して周囲の面積12、15、10の和はいくつですか。",
+              "answer": {
+                "n": "37",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "50にそろえる",
+            "body": "周りの面積は順に12、15、10です。合わせて37になります。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平28-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "中央を引き算",
+            "body": "中央は50−37＝13です。中央と外側の比は13：50です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平29",
+      "unitId": "tesuji.TS平29",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の点は直線上に等間隔です。赤い部分の四角形と赤い線で囲まれた四角形の面積比を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平29",
+        "url": "https://app.notion.com/p/3f82b010743c81af9035dacfe99fba33?pvs=204",
+        "locator": "図形の必勝手筋 TS平29 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 36ページ",
+        "sourceText": "アカ網部の四角形とアカ線の四角形の面積比。●は直線上に等間隔。",
+        "sourceAnswer": "1:8",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c811183a2fcc8bc99b587?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 36
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 36
+        }
+      },
+      "answer": {
+        "dimension": "ratio",
+        "terms": [
+          1,
+          8
+        ],
+        "unit": ""
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平29.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "辺の間隔を数える",
+            "body": "図を三角形に分け、共通角または補角をはさむ辺の積を比べます。"
+          },
+          {
+            "id": "step-2",
+            "title": "1対3をまとめる",
+            "body": "解説図のア：イとウ：エはどちらも1：3です。足しても(ア＋ウ)：(イ＋エ)＝1：3です。",
+            "checkpoint": {
+              "prompt": "中央1、周囲の2組が3と4なら、全体はいくつですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "1対4もまとめる",
+            "body": "別の向きでも同様に、中央の四角形と残る2三角形の和の比は1：4です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平29-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "全体を足す",
+            "body": "中央を1とすると外側全体は1＋3＋4＝8です。求める比は1：8です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平30",
+      "unitId": "tesuji.TS平30",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図でx：yを求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平30",
+        "url": "https://app.notion.com/p/3f82b010743c8192b7c1f4367a0c5967?pvs=204",
+        "locator": "図形の必勝手筋 TS平30 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 37ページ",
+        "sourceText": "三角形の2辺を ③:② と 4:3 に分ける点と頂点を結んだ線が1点で交わる。底辺の x:y。",
+        "sourceAnswer": "8:9",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c818f8a65fd30edbbe316?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 37
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 37
+        }
+      },
+      "answer": {
+        "dimension": "ratio",
+        "terms": [
+          8,
+          9
+        ],
+        "unit": ""
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平30.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "3つの面積で考える",
+            "body": "共通の交点から3辺へできる三角形の面積を、解説図のア・イ・ウとします。"
+          },
+          {
+            "id": "step-2",
+            "title": "辺の比を面積比へ",
+            "body": "高さが等しい三角形を比べると、ア：イ＝4：3、イ：ウ＝2：3です。",
+            "checkpoint": {
+              "prompt": "4：3と2：3の共通項をそろえるとき、3と2の最小公倍数はいくつですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "真ん中をそろえる",
+            "body": "イを6にそろえると、ア：イ＝8：6、イ：ウ＝6：9です。連比は8：6：9です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平30-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "底辺の比へ戻す",
+            "body": "xとyを底辺にする三角形は高さが等しいので、x：y＝ア：ウ＝8：9です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平31",
+      "unitId": "tesuji.TS平31",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図でx：yを求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平31",
+        "url": "https://app.notion.com/p/3f82b010743c815e8b90d049a962f989?pvs=204",
+        "locator": "図形の必勝手筋 TS平31 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 38ページ",
+        "sourceText": "三角形の1辺を ③:④、底辺の延長を △1:△2 とする直線。x:y を求める。",
+        "sourceAnswer": "9:4",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c818c813dee063eadbe35?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 38
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 38
+        }
+      },
+      "answer": {
+        "dimension": "ratio",
+        "terms": [
+          9,
+          4
+        ],
+        "unit": ""
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平31.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "求める辺を見る",
+            "body": "xとyは同じ直線上です。別の辺にある比を、平行線を使ってこの直線へ集めます。"
+          },
+          {
+            "id": "step-2",
+            "title": "補助線を引く",
+            "body": "底辺上の左の頂点から、底辺の延長上の点と右辺の分点を結ぶ斜めの直線に平行な線を引きます。できる相似から底辺の1：2を右辺へ移します。",
+            "checkpoint": {
+              "prompt": "4を1：2に分けた小さい方はいくつですか。",
+              "answer": {
+                "n": "4",
+                "d": "3",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "もう1組の相似を見る",
+            "body": "解説図の補助線によって、x：yは3：4×1/3になります。4の部分を1：2に分け、その1つ分がyに対応します。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平31-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "整数比に直す",
+            "body": "3：(4/3)を3倍し、9：4です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平32-2",
+      "unitId": "tesuji.TS平32-2",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(2)でACは直径です。m：nを求めなさい。（今回は小問(2)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平32-2",
+        "url": "https://app.notion.com/p/3f82b010743c810caae2f1a405d00d24?pvs=204",
+        "locator": "図形の必勝手筋 TS平32 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 39ページ",
+        "sourceText": "(1) 三角形の辺を ①:②、△2:△3、□3:□4 に分けた図の m:n。\n\n(2) ACは直径。DA＝2、DC＝11、AB＝5、BC＝10のとき、BDをACで分けた m:n。",
+        "sourceAnswer": "(1)5:8 (2)11:25",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81cbb2b3c1248d3ea5dd?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 39
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 39
+        }
+      },
+      "answer": {
+        "dimension": "ratio",
+        "terms": [
+          11,
+          25
+        ],
+        "unit": ""
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平32.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "直径の角を見る",
+            "body": "ACが直径なので、円周上のDとBの角はどちらも直角です。"
+          },
+          {
+            "id": "step-2",
+            "title": "2つの面積を比べる",
+            "body": "三角形ADCは2×11÷2、三角形ABCは5×10÷2です。面積比は22：50になります。",
+            "checkpoint": {
+              "prompt": "2×11はいくつですか。",
+              "answer": {
+                "n": "22",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "同じ底辺で見る",
+            "body": "どちらもACを底辺にできるので、面積比はACへの高さの比です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平32-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "対角線へ移す",
+            "body": "BDをACで分けたmとnは、高さと同じ比です。m：n＝22：50＝11：25です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平33-1",
+      "unitId": "tesuji.TS平33-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(1)で、3辺が5cm、12cm、13cmの直角三角形に内接する円の半径を求めなさい。（今回は小問(1)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平33-1",
+        "url": "https://app.notion.com/p/3f82b010743c81bb920ef0b03228dab4?pvs=204",
+        "locator": "図形の必勝手筋 TS平33 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 40ページ",
+        "sourceText": "(1) 3辺5・12・13の直角三角形の内接円の半径。\n\n(2) 3辺15・14・13（高さ12）の三角形の内接円の半径。",
+        "sourceAnswer": "(1)2cm (2)4cm",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c816ba9e3e0c3af06195a?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 40
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 40
+        }
+      },
+      "answer": {
+        "n": "2",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平33.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "接点へ半径を引く",
+            "body": "接点への半径は辺と直角です。直角の頂点のそばには、半径を1辺とする正方形ができます。"
+          },
+          {
+            "id": "step-2",
+            "title": "接線の長さをそろえる",
+            "body": "同じ頂点から円へ引いた2本の接線の長さは等しいので、辺5cmと12cmから半径ずつ引いた残りの和が13cmです。",
+            "checkpoint": {
+              "prompt": "5＋12−13は何cmですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "半径2個分を出す",
+            "body": "5＋12−13＝4cmが半径2個分になります。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平33-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "半分にする",
+            "body": "半径は4÷2＝2cmです。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平33-2",
+      "unitId": "tesuji.TS平33-2",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(2)で、3辺が15cm、14cm、13cm、高さが12cmの三角形に内接する円の半径を求めなさい。（今回は小問(2)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平33-2",
+        "url": "https://app.notion.com/p/3f82b010743c81bb920ef0b03228dab4?pvs=204",
+        "locator": "図形の必勝手筋 TS平33 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 40ページ",
+        "sourceText": "(1) 3辺5・12・13の直角三角形の内接円の半径。\n\n(2) 3辺15・14・13（高さ12）の三角形の内接円の半径。",
+        "sourceAnswer": "(1)2cm (2)4cm",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c816ba9e3e0c3af06195a?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 40
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 40
+        }
+      },
+      "answer": {
+        "n": "4",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平33.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "全体の面積を求める",
+            "body": "底辺14cm、高さ12cmなので、三角形の面積は14×12÷2＝84cm²です。"
+          },
+          {
+            "id": "step-2",
+            "title": "中心から3つに分ける",
+            "body": "円の中心と3頂点を結びます。3つの三角形の高さは、すべて内接円の半径です。",
+            "checkpoint": {
+              "prompt": "3辺の長さの合計は何cmですか。",
+              "answer": {
+                "n": "42",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "底辺をまとめる",
+            "body": "3つの底辺の和は15＋14＋13＝42cmです。全体の面積は42×半径÷2です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平33-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "半径を逆算",
+            "body": "84×2÷42＝4cmです。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平35",
+      "unitId": "tesuji.TS平35",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図のABCDは長方形です。OB、OM、ODはすべて等しいとき、四角形OBMDの面積を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平35",
+        "url": "https://app.notion.com/p/3f82b010743c815188dee05e00a43e59?pvs=204",
+        "locator": "図形の必勝手筋 TS平35 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 42ページ",
+        "sourceText": "図において四角形ABCDは長方形（BC＝8、BM＝MC＝4、CD＝2）であり、OB、OM、ODの長さはすべて等しい。このとき、四角形OBMDの面積を求めよ。",
+        "sourceAnswer": "38cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81e79ac4f2e7c12a47fd?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 42
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 42
+        }
+      },
+      "answer": {
+        "n": "38",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平35.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "垂線を引く",
+            "body": "OB＝OMなので、OからBMへ下ろす垂線はBMを半分に分けます。またOM＝ODなので、OからMDへ下ろす垂線もMDを半分に分けます。"
+          },
+          {
+            "id": "step-2",
+            "title": "小さい直角三角形を見る",
+            "body": "MDの横の長さは4cm、たては2cmです。その半分を使うと、O側にできる直角三角形と相似になり、高さの差は4×2＝8cmです。",
+            "checkpoint": {
+              "prompt": "MDの中点の高さ1cmに8cmを足すとOの高さは何cmですか。",
+              "answer": {
+                "n": "9",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "Oの高さを求める",
+            "body": "MDの中点の高さ1cmに8cmを足し、Oの高さは9cmです。図の外側を台形で囲みます。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平35-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "不要な三角形を引く",
+            "body": "台形の面積は(6＋8)×9÷2＝63。そこから4×2÷2＝4と6×7÷2＝21を引き、63−4−21＝38cm²です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平36-1",
+      "unitId": "tesuji.TS平36-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(1)は2つの正方形が重なっています。Oは1辺6cmの正方形の中心です。赤い部分の面積を求めなさい。（今回は小問(1)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平36-1",
+        "url": "https://app.notion.com/p/3f82b010743c812d95bbce2b0758121a?pvs=204",
+        "locator": "図形の必勝手筋 TS平36 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 43ページ",
+        "sourceText": "(1) 2つの正方形が重なった図（1辺6と5）。Oは正方形の中心。アカ網部の面積。\n\n(2) AB＝AD、角A・角Cは直角、BC＝3、CD＝7。アカ網部（四角形ABCD）の面積。",
+        "sourceAnswer": "(1)9cm² (2)25cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c815b929eec2c3552296d?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 43
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 43
+        }
+      },
+      "answer": {
+        "n": "9",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平36.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "中心を通る2辺を見る",
+            "body": "もう1つの正方形の2辺がOで直角に交わっています。"
+          },
+          {
+            "id": "step-2",
+            "title": "辺を延長する",
+            "body": "Oで交わる2直線を延長すると、1辺6cmの正方形が4つに分かれます。",
+            "checkpoint": {
+              "prompt": "1辺6cmの正方形の面積は何cm²ですか。",
+              "answer": {
+                "n": "36",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "90度回して比べる",
+            "body": "Oを中心に90度回すと、4つの部分は順番に重なるので面積は等しいです。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平36-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "4分の1を出す",
+            "body": "6×6÷4＝9cm²です。5cmの正方形の面積を使って割らないようにします。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平37",
+      "unitId": "tesuji.TS平37",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "長方形の中に同じ大きさの正方形が4つ入っています。図の正方形1つの面積を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平37",
+        "url": "https://app.notion.com/p/3f82b010743c81eb9ac2eb5dbb88f50e?pvs=204",
+        "locator": "図形の必勝手筋 TS平37 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 44ページ",
+        "sourceText": "長方形（たて14、よこ17）の中に4つの正方形が入っている。1つの正方形の面積を求めよ。",
+        "sourceAnswer": "29cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81a8a52cf3e25521840f?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 44
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 44
+        }
+      },
+      "answer": {
+        "n": "29",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平37.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "周囲を直角三角形で囲む",
+            "body": "傾いた正方形の周りに同じ直角三角形を補い、横と縦の短い長さをa、bとします。"
+          },
+          {
+            "id": "step-2",
+            "title": "外枠から式を作る",
+            "body": "図の14cmは2a＋2b、17cmは3a＋bです。したがってa＋b＝7、3a＋b＝17です。",
+            "checkpoint": {
+              "prompt": "2a＋2b＝14のとき、a＋bはいくつですか。",
+              "answer": {
+                "n": "7",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "短い2辺を出す",
+            "body": "2つの式の差から2a＝10、a＝5。b＝7−5＝2です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平37-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "囲んで引く",
+            "body": "1辺7cmの正方形から、底辺5・高さ2の三角形4つを引きます。7²−5×2÷2×4＝29cm²です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平38",
+      "unitId": "tesuji.TS平38",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図のABCDは正方形です。赤い部分の面積を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平38",
+        "url": "https://app.notion.com/p/3f82b010743c81d484b8c61a88bc1187?pvs=204",
+        "locator": "図形の必勝手筋 TS平38 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 45ページ",
+        "sourceText": "四角形ABCDは正方形。DF と CE が直角に交わり、DG＝9、GF＝4、GC＝6。アカい部分（三角形EGD）の面積を求めよ。",
+        "sourceAnswer": "31.5cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81a38c69d0e64fc892c2?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 45
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 45
+        }
+      },
+      "answer": {
+        "n": "63",
+        "d": "2",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平38.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "直交する線を探す",
+            "body": "Dから下辺へ引いた線と、Cから左辺へ引いた線が直角に交わります。交点をG、左辺との交点をEと呼びます。"
+          },
+          {
+            "id": "step-2",
+            "title": "合同で長さをそろえる",
+            "body": "正方形の等しい辺と直角、残りの角の等しさから、2つの直角三角形は合同です。CEはもう一方の線分と同じ長さです。",
+            "checkpoint": {
+              "prompt": "9cmと4cmを合わせた線分は何cmですか。",
+              "answer": {
+                "n": "13",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "底辺を求める",
+            "body": "もう一方の線分は9＋4＝13cmです。CE＝13cm、CG＝6cmなのでEG＝13−6＝7cmです。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平38-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "面積を求める",
+            "body": "EGとDGは直角です。7×9÷2＝31.5cm²です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平39",
+      "unitId": "tesuji.TS平39",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図は正方形を折り返し、頂点が辺の真ん中に来るようにしたものです。アの長さを求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平39",
+        "url": "https://app.notion.com/p/3f82b010743c81d4860ed69e141f13db?pvs=204",
+        "locator": "図形の必勝手筋 TS平39 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 46ページ",
+        "sourceText": "右図は正方形を折り返して、頂点が辺の真ん中に来るようにした図形である（左の辺が9と15に分かれる）。このとき、アの長さを求めよ。",
+        "sourceAnswer": "3cm",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c8148b027c568a5f3c05c?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 46
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 46
+        }
+      },
+      "answer": {
+        "n": "3",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平39.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "正方形の1辺を出す",
+            "body": "左の辺は9cmと15cmに分かれているので、1辺は24cmです。辺の中点までの長さは12cmです。"
+          },
+          {
+            "id": "step-2",
+            "title": "相似な三角形を探す",
+            "body": "折り返しでできる直角三角形は、9：12：15＝3：4：5です。12cmが比の3になる三角形では、残りの辺は16cmと20cmになります。",
+            "checkpoint": {
+              "prompt": "正方形の1辺24cmから20cmを引いた長さは何cmですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "残りの辺を出す",
+            "body": "正方形の1辺24cmから20cmを引くと4cmです。右下の小さい三角形も3：4：5です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平39-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "対応する辺を確認",
+            "body": "4cmが比の4なので、アは比の3に当たる3cmです。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平40-1",
+      "unitId": "tesuji.TS平40-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の(1)の赤い部分の面積を求めなさい。（今回は小問(1)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平40-1",
+        "url": "https://app.notion.com/p/3f82b010743c8161a7ddcee5d8a6c7e7?pvs=204",
+        "locator": "図形の必勝手筋 TS平40 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 47ページ",
+        "sourceText": "(1) 高さ24と18のたての線（底辺上の間隔7・13・11）と2本の斜めの線。アカ網部の面積を求めよ。\n\n(2) 街灯の高さア。高さ1.5の棒の影が1、高さ1.6の棒の影が1.2、影の先どうしの間は1.5。アの長さを求めよ（単位m）。",
+        "sourceAnswer": "(1)39cm² (2)18m",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81809adad93375b74af1?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 47
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 47
+        }
+      },
+      "answer": {
+        "n": "39",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平40.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "高さを補う",
+            "body": "2本の斜めの線の交点から底辺へ垂線を引きます。その高さをh、底辺13cmを左u、右vに分けます。"
+          },
+          {
+            "id": "step-2",
+            "title": "2つの相似を使う",
+            "body": "左の高さ24cmの三角形からh：v＝24：(13＋7)＝6：5です。右の高さ18cmの三角形からh：u＝18：(13＋11)＝3：4です。",
+            "checkpoint": {
+              "prompt": "u：v＝8：5でu＋v＝13cmなら、比の1は何cmですか。",
+              "answer": {
+                "n": "1",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "連比にそろえる",
+            "body": "h：u：v＝6：8：5です。u＋v＝13cmで、比も8＋5＝13なのでh＝6cmです。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平40-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "三角形の面積",
+            "body": "底辺13cm、高さ6cmから13×6÷2＝39cm²です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平41",
+      "unitId": "tesuji.TS平41",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の直角三角形で、アとイの長さをそれぞれ求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平41",
+        "url": "https://app.notion.com/p/3f82b010743c81e9a273f6244648d3c5?pvs=204",
+        "locator": "図形の必勝手筋 TS平41 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 48ページ",
+        "sourceText": "直角三角形の直角の頂点から斜辺に垂線をひくと、斜辺が32と18に分かれる。垂線アと、32側の辺イの長さを求めよ。",
+        "sourceAnswer": "ア24cm イ40cm",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c815a867ff3cfc02d72f5?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 48
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 48
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "24",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length",
+            "label": "ア"
+          },
+          {
+            "n": "40",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length",
+            "label": "イ"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平41.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "3つの相似を見る",
+            "body": "直角の頂点から斜辺へ下ろした垂線で、元の三角形と相似な直角三角形2つができます。"
+          },
+          {
+            "id": "step-2",
+            "title": "高さアを出す",
+            "body": "32：ア＝ア：18より、ア×ア＝32×18＝576です。24×24＝576なのでア＝24cmです。",
+            "checkpoint": {
+              "prompt": "元の三角形の斜辺全体は何cmですか。",
+              "answer": {
+                "n": "50",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "斜辺全体を使う",
+            "body": "元の斜辺は32＋18＝50cmです。イについては32：イ＝イ：50で、イ×イ＝1600です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平41-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "対応を取り違えない",
+            "body": "40×40＝1600なのでイ＝40cmです。高さアと辺イでは、比に使う相手が18と50で異なります。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平42",
+      "unitId": "tesuji.TS平42",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "ロボットは10cm進み、進行方向を15度左へ傾けることを繰り返します。Aに戻るまで何cm進みますか。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平42",
+        "url": "https://app.notion.com/p/3f82b010743c810baf61ff99f6a18f72?pvs=204",
+        "locator": "図形の必勝手筋 TS平42 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 49ページ",
+        "sourceText": "あるロボットが点Aから10cm進んで、進行方向を15度左へ傾けるということを繰り返しながら進んで行く。このロボットは、Aに戻るまで何cm進むか。",
+        "sourceAnswer": "240cm",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c8113af84df05cb25645e?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 49
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 49
+        }
+      },
+      "answer": {
+        "n": "240",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平42.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "曲がる角を見る",
+            "body": "15度は正多角形の外角に当たります。1周して出発点に戻ると向きも1周変わります。"
+          },
+          {
+            "id": "step-2",
+            "title": "回数を求める",
+            "body": "向きが1周変わる角は360度なので、360÷15＝24回進みます。",
+            "checkpoint": {
+              "prompt": "1周するまで何回15度ずつ曲がりますか。",
+              "answer": {
+                "n": "24",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "1回の長さを掛ける",
+            "body": "毎回10cmずつ進むので、10×24です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平42-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "距離を答える",
+            "body": "合計240cmです。内角165度で360を割らないようにしましょう。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平43",
+      "unitId": "tesuji.TS平43",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の赤い部分の面積を求めなさい。どちらの円も半径は5cmです。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平43",
+        "url": "https://app.notion.com/p/3f82b010743c81939a7ee99f9ae5f352?pvs=204",
+        "locator": "図形の必勝手筋 TS平43 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 50ページ",
+        "sourceText": "アカい部分の面積を求めよ。どちらの円も半径は5cmで、中心が4cmずれている（原図の赤い帯状部分）。",
+        "sourceAnswer": "40cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81fba6b4fa932f8f6e45?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 50
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 50
+        }
+      },
+      "answer": {
+        "n": "40",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平43.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "同じ半円を比べる",
+            "body": "左右の曲線は同じ半径5cmの半円です。一方の半円を移すと、曲がった部分どうしが重なります。"
+          },
+          {
+            "id": "step-2",
+            "title": "長方形へ変える",
+            "body": "同じ半円の面積が足し引きで打ち消し合い、横4cmの長方形と同じ面積になります。",
+            "checkpoint": {
+              "prompt": "半径5cmの円の直径は何cmですか。",
+              "answer": {
+                "n": "10",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "高さを確認",
+            "body": "長方形の高さは半径ではなく直径です。5×2＝10cmです。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平43-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "面積を出す",
+            "body": "10×4＝40cm²です。円2つの共通部分の面積を求める問題とは区別します。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS平44",
+      "unitId": "tesuji.TS平44",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "1辺6cmの正六角形を図のように30度回転します。赤い部分の面積を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS平44",
+        "url": "https://app.notion.com/p/3f82b010743c813f851cfe258339b179?pvs=204",
+        "locator": "図形の必勝手筋 TS平44 / カードで覚える図形の必勝手筋　平面図形.pdf PDF 51ページ",
+        "sourceText": "1辺が6cmの正六角形を、頂点Oを中心に30°回転した図である。アカ網部（辺が通過した部分）の面積を求めよ。",
+        "sourceAnswer": "28.26cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c8122b780d8a5711f3a85?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 51
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　平面図形.pdf",
+          "page": 51
+        }
+      },
+      "answer": {
+        "n": "1413",
+        "d": "50",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS平44.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "回転の中心を決める",
+            "body": "2つの六角形が共通に持つ下の頂点を中心とします。赤い部分の境界となる辺の端点の動きを追います。"
+          },
+          {
+            "id": "step-2",
+            "title": "半径を出す",
+            "body": "正六角形の向かい合う頂点までの長さは1辺の2倍で12cm、短い半径は1辺の6cmです。",
+            "checkpoint": {
+              "prompt": "外側の半径は何cmですか。",
+              "answer": {
+                "n": "12",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "おうぎ形の差にする",
+            "body": "同じ30度回転しているので、外側半径12cmのおうぎ形から内側半径6cmのおうぎ形を引きます。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS平44-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "面積を計算",
+            "body": "(12²−6²)×3.14×30/360＝28.26cm²です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS動45",
+      "unitId": "tesuji.TS動45",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "半径6cm、中心角30度のおうぎ形OABが図の直線XYに沿って10cm滑って移動します。通過した部分の面積を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS動45",
+        "url": "https://app.notion.com/p/3f82b010743c819f97d1e47b03ff33ae?pvs=204",
+        "locator": "図形の必勝手筋 TS動45 / カードで覚える図形の必勝手筋　動く図形・立体図形.pdf PDF 8ページ",
+        "sourceText": "中心角30°のおうぎ形OAB（半径OB＝6）が直線XYにそって10cmだけ滑って移動する。このとき、おうぎ形OABの通過した部分の面積を求めよ。",
+        "sourceAnswer": "39.42cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81fba6b4fa932f8f6e45?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 8
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 8
+        }
+      },
+      "answer": {
+        "n": "1971",
+        "d": "50",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS動45.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "移動方向に垂直な幅",
+            "body": "30度の直角三角形を考えると、幅は6÷2＝3cmです。"
+          },
+          {
+            "id": "step-2",
+            "title": "新しく通る帯",
+            "body": "10cm動くことで加わる帯は、幅3cm、長さ10cmの長方形と同じ面積です。3×10＝30cm²です。",
+            "checkpoint": {
+              "prompt": "移動方向に垂直な幅は何cmですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "最初の図形を出す",
+            "body": "最初のおうぎ形の面積は6×6×3.14×30/360＝9.42cm²です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS動45-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "最初の分も足す",
+            "body": "通過した部分全体は30＋9.42＝39.42cm²です。新しく加わった帯だけで終わらないようにします。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS動46",
+      "unitId": "tesuji.TS動46",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図のAを中心に半円と三角形ABCを90度回転させます。半円が通過する部分の面積を求めなさい。円周率は3とします。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS動46",
+        "url": "https://app.notion.com/p/3f82b010743c81f88183d039f6d60092?pvs=204",
+        "locator": "図形の必勝手筋 TS動46 / カードで覚える図形の必勝手筋　動く図形・立体図形.pdf PDF 9ページ",
+        "sourceText": "Aを中心に、半円（中心O、半径5cm、直径BC）と三角形ABC（AB＝8、AC＝6、角Aは直角）を組み合わせた図形を90°回転させるとき、半円が通過する部分の面積を求めよ。ただし、円周率を3として計算しなさい。",
+        "sourceAnswer": "95.22cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c8122b780d8a5711f3a85?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 9
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 9
+        }
+      },
+      "answer": {
+        "n": "4761",
+        "d": "50",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS動46.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "最も遠い点",
+            "body": "半径5cmの円で、直角三角形の斜辺BCは直径10cmです。AO＝5cmなので、Aから最も遠い円周上の点まで10cmです。"
+          },
+          {
+            "id": "step-2",
+            "title": "最も近い点",
+            "body": "AからBCへ下ろす垂線の長さをhとします。三角形の面積を2通りに表し、10×h÷2＝8×6÷2よりh＝4.8cmです。",
+            "checkpoint": {
+              "prompt": "AからBCへ下ろした垂線は何cmですか。",
+              "answer": {
+                "n": "24",
+                "d": "5",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "回転した帯",
+            "body": "外側半径10cm、内側半径4.8cmの90度のおうぎ形の差は、(100−23.04)×3÷4＝57.72cm²です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS動46-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "最初の半円を足す",
+            "body": "半円の面積5×5×3÷2＝37.5を足し、57.72＋37.5＝95.22cm²です。円周率3の指定を守ります。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS動47",
+      "unitId": "tesuji.TS動47",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "半径1cmの円の周りを、1辺2cmの正三角形がぴったり接したまま向きを変えずに1周します。頂点Aの動いた距離を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS動47",
+        "url": "https://app.notion.com/p/3f82b010743c813a84bac951a1d8d485?pvs=204",
+        "locator": "図形の必勝手筋 TS動47 / カードで覚える図形の必勝手筋　動く図形・立体図形.pdf PDF 10ページ",
+        "sourceText": "半径1cmの円の周りを1辺が2cmの正三角形が円にぴったりくっついたまま向きを変えずに1周する。頂点Aの動いた距離を求めよ。",
+        "sourceAnswer": "12.28cm",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81949f1ef93a90165733?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 10
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 10
+        }
+      },
+      "answer": {
+        "n": "307",
+        "d": "25",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS動47.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "2種類の動きを分ける",
+            "body": "辺で円に接する間は直線運動、頂点で円に接する間は円運動になります。"
+          },
+          {
+            "id": "step-2",
+            "title": "直線の長さ",
+            "body": "辺が接する3回の動きで、それぞれ2cmずつ進みます。直線部分の合計は2×3＝6cmです。",
+            "checkpoint": {
+              "prompt": "直線運動の距離の合計は何cmですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "曲線の長さ",
+            "body": "半径1cm、中心角120度の弧が3つです。合計360度なので円周1個分、2×1×3.14＝6.28cmです。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS動47-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "合わせる",
+            "body": "6＋6.28＝12.28cmです。三角形そのものを転がす運動とは異なります。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS動48",
+      "unitId": "tesuji.TS動48",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の3本の棒AB、BC、CDはB、Cでつながり、Aは固定されています。図の条件の範囲で3本が自由に動くとき、棒の通過する部分の面積を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS動48",
+        "url": "https://app.notion.com/p/3f82b010743c81b29832e7aa305cc3ab?pvs=204",
+        "locator": "図形の必勝手筋 TS動48 / カードで覚える図形の必勝手筋　動く図形・立体図形.pdf PDF 11ページ",
+        "sourceText": "図のように平面上に3本の棒AB、BC、CDがあり、それぞれB、Cでつながっていて、Aは固定されている。AB＝8cm、BC＝4cm、CD＝2cm。ABはAを中心にして、直線APに対して反時計回り、時計回りに45°回転、同様にBCはBを中心にしてABに対して45°ずつ回転、CDはCを中心にしてBCに対して45°ずつ回転することができる。3本が自由に動くとき、棒の通過する部分の面積を求めよ。",
+        "sourceAnswer": "185.26cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c81f78b49d422d8164d13?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 11
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 11
+        }
+      },
+      "answer": {
+        "n": "9263",
+        "d": "50",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS動48.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "最も外側を考える",
+            "body": "3本を一直線に伸ばすと、AからDまでは8＋4＋2＝14cmです。ABが左右45度ずつ動くため、半径14cm、90度のおうぎ形ができます。"
+          },
+          {
+            "id": "step-2",
+            "title": "端で曲がる範囲",
+            "body": "ABが限界の向きになったところで、BCとCDが届く範囲を加えます。Bから先の長さは4＋2＝6cmです。",
+            "checkpoint": {
+              "prompt": "Bから先の棒の長さの合計は何cmですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "最後の棒の範囲",
+            "body": "さらにCDの2cmが動ける部分を加えます。左右を合わせると、半径6cmと2cmのおうぎ形もそれぞれ中心角90度分です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS動48-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "重ならない部分を合計",
+            "body": "(14²＋6²＋2²)×3.14÷4＝185.26cm²です。最初から半径14cmの半円と考えないようにします。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS動49-1",
+      "unitId": "tesuji.TS動49-1",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図1の位置から、1辺3cmの正三角形が、1辺6cmの正三角形の周りを滑らず回転して1周します。頂点Aの動く長さを求めなさい。（今回は小問(1)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS動49-1",
+        "url": "https://app.notion.com/p/3f82b010743c81d78c2cffea34e8dc34?pvs=204",
+        "locator": "図形の必勝手筋 TS動49 / カードで覚える図形の必勝手筋　動く図形・立体図形.pdf PDF 12ページ",
+        "sourceText": "(1) 1辺が6cmの正三角形の周りを、図1の位置から1辺が3cmの正三角形が滑らず回転して1周する。このとき、正三角形の頂点Aが動く長さを求めよ。\n\n(2) 図2のように、直線XY上を、たて3cm、よこ5cmの長方形がアの位置からイの位置まで滑らずに転がる（アとイの間は8、イは立った向き）。このとき、長方形の頂点Aが動く曲線と直線XYで囲まれる部分の面積を求めよ。",
+        "sourceAnswer": "(1)37.68cm (2)68.38cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c818aa680fcb053d87c67?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 12
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 12
+        }
+      },
+      "answer": {
+        "n": "942",
+        "d": "25",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS動49.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "止まる位置を書く",
+            "body": "小さい三角形の1辺は大きい三角形の半分です。1辺進む途中と角を回るところで、回転の中心を順に書きます。"
+          },
+          {
+            "id": "step-2",
+            "title": "Aが止まる回転を除く",
+            "body": "A自身が回転の中心になるとき、Aは動きません。それ以外では半径3cmの円弧を動きます。",
+            "checkpoint": {
+              "prompt": "動く円弧の中心角の合計は何度ですか。",
+              "answer": {
+                "n": "720",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "回転角を集める",
+            "body": "Aが動く円弧の中心角は120度、120度、240度、240度です。合計720度で円2周分です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS動49-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "円弧の長さ",
+            "body": "3×2×3.14×720/360＝37.68cmです。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS動49-2",
+      "unitId": "tesuji.TS動49-2",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図2の長方形がアからイまで滑らず転がります。頂点Aが動く曲線と直線XYで囲まれる部分の面積を求めなさい。（今回は小問(2)だけに答えます。）",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS動49-2",
+        "url": "https://app.notion.com/p/3f82b010743c81d78c2cffea34e8dc34?pvs=204",
+        "locator": "図形の必勝手筋 TS動49 / カードで覚える図形の必勝手筋　動く図形・立体図形.pdf PDF 12ページ",
+        "sourceText": "(1) 1辺が6cmの正三角形の周りを、図1の位置から1辺が3cmの正三角形が滑らず回転して1周する。このとき、正三角形の頂点Aが動く長さを求めよ。\n\n(2) 図2のように、直線XY上を、たて3cm、よこ5cmの長方形がアの位置からイの位置まで滑らずに転がる（アとイの間は8、イは立った向き）。このとき、長方形の頂点Aが動く曲線と直線XYで囲まれる部分の面積を求めよ。",
+        "sourceAnswer": "(1)37.68cm (2)68.38cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/p/3f82b010743c818aa680fcb053d87c67?pvs=204"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 12
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 12
+        }
+      },
+      "answer": {
+        "n": "3419",
+        "d": "50",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS動49.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "回転の中心を追う",
+            "body": "転がるたびに地面との接点が中心になります。Aが描く曲線は、半径5cm、対角線の長さ、3cmの四分円の弧です。"
+          },
+          {
+            "id": "step-2",
+            "title": "対角線そのものは求めない",
+            "body": "対角線をrとすると、1辺8cmの正方形から底辺3・高さ5の三角形4つを除き、r²＝64−30＝34です。",
+            "checkpoint": {
+              "prompt": "対角線の長さをrとするとr×rはいくつですか。",
+              "answer": {
+                "n": "34",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "おうぎ形を集める",
+            "body": "3つの四分円の面積は(25＋34＋9)×3.14÷4＝17×3.14です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS動49-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "直線部分を補う",
+            "body": "底辺5・高さ3の三角形2つの面積15cm²も加えます。17×3.14＋15＝68.38cm²です。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "TS動50",
+      "unitId": "tesuji.TS動50",
+      "category": "geometry",
+      "revision": 1,
+      "domain": "平面図形",
+      "text": "図の半径3cm、中心角240度のおうぎ形と正三角形2つを合わせた図形の周りを、直径3cmの円が1周します。円の通過面積を求めなさい。",
+      "sourceConvention": "図の長さはcm、面積はcm²。円周率は3.14（問題に別の指定がある場合はその値）。",
+      "source": {
+        "title": "TS動50",
+        "url": "https://app.notion.com/p/3f82b010743c8184badff115ff2fd726?pvs=204",
+        "locator": "図形の必勝手筋 TS動50 / カードで覚える図形の必勝手筋　動く図形・立体図形.pdf PDF 13ページ",
+        "sourceText": "図のような半径3cm、中心角240°のおうぎ形1つと、正三角形2つを組み合わせた図形の周りを直径3cmの円が1周する。このとき、円が通過した部分の面積を求めよ。",
+        "sourceAnswer": "83.94cm²",
+        "verification": "Notion問題DBへ原本図付きで統合。原本の問題面・印刷解説に沿って段階化。採用小問を明示し、式と答えを検算。",
+        "notionTypeUrls": [
+          "https://app.notion.com/3f52b010743c810c9dd6e2914e25a988"
+        ],
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 13
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カードで覚える図形の必勝手筋　動く図形・立体図形.pdf",
+          "page": 13
+        }
+      },
+      "answer": {
+        "n": "4197",
+        "d": "50",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "figure": "figs/tesuji-TS動50.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "step-1",
+            "title": "接する相手を分ける",
+            "body": "直線に接するときは幅3cmの帯、頂点に接するときは半径3cmのおうぎ形、円弧に接するときはおうぎ形の差になります。"
+          },
+          {
+            "id": "step-2",
+            "title": "小さいおうぎ形",
+            "body": "頂点を回る部分は中心角60度が1つ、30度が2つです。面積の合計は3×3×3.14×120/360＝3×3.14です。",
+            "checkpoint": {
+              "prompt": "直線部分2つの面積の合計は何cm²ですか。",
+              "answer": {
+                "n": "18",
+                "d": "1",
+                "unit": "",
+                "dimension": "number"
+              }
+            }
+          },
+          {
+            "id": "step-3",
+            "title": "直線と大きい円弧",
+            "body": "直線部分は3×3×2＝18。240度の円弧を回る部分は(6²−3²)×3.14×240/360＝18×3.14です。",
+            "visual": {
+              "kind": "image",
+              "src": "figs/tesuji-TS動50-solution.png",
+              "alt": "原本の解説図と解き方"
+            }
+          },
+          {
+            "id": "step-4",
+            "title": "合計する",
+            "body": "3×3.14＋18＋18×3.14＝83.94cm²です。中心の軌跡に角ができる別の問題へ、道のり×直径を無条件に使わないようにします。"
+          }
+        ]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "tesuji.TS平C1-1",
+      "name": "等角六角形を正三角形へ延長",
+      "domain": "平面図形",
+      "definition": "平行な辺をのばして正三角形",
+      "representativeId": "TS平C1-1",
+      "decision": "等角六角形を正三角形へ延長",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平C1-2",
+      "name": "正三角形の垂線の足と辺上の長さの和",
+      "domain": "平面図形",
+      "definition": "アカ線を2通りに分けて合計（1辺の半分×3）",
+      "representativeId": "TS平C1-2",
+      "decision": "正三角形の垂線の足と辺上の長さの和",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平C1-4",
+      "name": "3方向の平行な辺を集める周長",
+      "domain": "平面図形",
+      "definition": "正三角形の辺に平行→大きな正三角形にまとめる",
+      "representativeId": "TS平C1-4",
+      "decision": "3方向の平行な辺を集める周長",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平C1-5",
+      "name": "水平切断の周長を上から見て移す",
+      "domain": "平面図形",
+      "definition": "平行な切り口→上から見た図で辺を移す",
+      "representativeId": "TS平C1-5",
+      "decision": "水平切断の周長を上から見て移す",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平C4-2",
+      "name": "2回の折り返しで元の角を3等分",
+      "domain": "平面図形",
+      "definition": "2回の折り返しで角を3等分",
+      "representativeId": "TS平C4-2",
+      "decision": "2回の折り返しで元の角を3等分",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平6-1",
+      "name": "角の和を四角形へ移す",
+      "domain": "平面図形",
+      "definition": "ア＋イ＝ウ＋エ（対頂角をはさむ三角形）で n角形の内角の和に帰着",
+      "representativeId": "TS平6-1",
+      "decision": "角の和を四角形へ移す",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平8-1",
+      "name": "半径で二等辺を作り中心角へ",
+      "domain": "平面図形",
+      "definition": "半径をひいて二等辺三角形。中心角＝円周角×2、半円の円周角は90°",
+      "representativeId": "TS平8-1",
+      "decision": "半径で二等辺を作り中心角へ",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平10-面積",
+      "name": "斜辺の中点の軌跡から四分円",
+      "domain": "平面図形",
+      "definition": "斜辺の中点と直角の頂点の距離＝斜辺の半分（斜辺を直径とする円）",
+      "representativeId": "TS平10-面積",
+      "decision": "斜辺の中点の軌跡から四分円",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平11-1",
+      "name": "三角形を裏返して二等辺を作る",
+      "domain": "平面図形",
+      "definition": "等しい辺・足して180°の角があれば、裏返し・回転で補助図形を作る",
+      "representativeId": "TS平11-1",
+      "decision": "三角形を裏返して二等辺を作る",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平12",
+      "name": "正方形2つと90度回転合同",
+      "domain": "平面図形",
+      "definition": "正方形の等しい辺を90度回転して重ね、合同な三角形の対応する辺が作る角を求める",
+      "representativeId": "TS平12",
+      "decision": "正方形2つと90度回転合同",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平17-1",
+      "name": "中央部分を除いて半分へ",
+      "domain": "平面図形",
+      "definition": "真ん中の長方形を除くと同じ形が2個ずつ",
+      "representativeId": "TS平17-1",
+      "decision": "中央部分を除いて半分へ",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平19-2",
+      "name": "正六角形の内部点と3つの面積和",
+      "domain": "平面図形",
+      "definition": "平行四辺形内の点Pからの向かい合う三角形の和は半分で一定。点を中心に移して考える",
+      "representativeId": "TS平19-2",
+      "decision": "正六角形の内部点と3つの面積和",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平20-1",
+      "name": "頂点を通る切り口と横幅の求積",
+      "domain": "平面図形",
+      "definition": "（水平方向の幅）×（頂点を通るたての切り口）÷2",
+      "representativeId": "TS平20-1",
+      "decision": "頂点を通る切り口と横幅の求積",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平21",
+      "name": "面積の増加を辺の長さに比例配分",
+      "domain": "平面図形",
+      "definition": "頂点が直線上を動くと面積も一定の割合で変化。数直線で比例配分",
+      "representativeId": "TS平21",
+      "decision": "面積の増加を辺の長さに比例配分",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平22-2",
+      "name": "正十二角形を30度の三角形へ分ける",
+      "domain": "平面図形",
+      "definition": "30°・60°・90°の三角形は斜辺：高さ＝2：1（150°も同じ）",
+      "representativeId": "TS平22-2",
+      "decision": "正十二角形を30度の三角形へ分ける",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平23-2",
+      "name": "正六角形の対角線と18等分",
+      "domain": "平面図形",
+      "definition": "中心から6等分し、指定の対角線を組み合わせて18等分を作る。交点の位置と相似から面積比を求める",
+      "representativeId": "TS平23-2",
+      "decision": "正六角形の対角線と18等分",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平25-2",
+      "name": "はさむ角と2辺の比から相似",
+      "domain": "平面図形",
+      "definition": "相似比a:bなら面積比a×a:b×b。2辺の比とその間の角でも相似",
+      "representativeId": "TS平25-2",
+      "decision": "はさむ角と2辺の比から相似",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平26-1",
+      "name": "台形と三角形の面積比から分割点",
+      "domain": "平面図形",
+      "definition": "高さが同じ三角形は底辺の比、台形は（上底＋下底）の比",
+      "representativeId": "TS平26-1",
+      "decision": "台形と三角形の面積比から分割点",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平26-2",
+      "name": "対角線の4三角形で面積比を移す",
+      "domain": "平面図形",
+      "definition": "高さが同じ三角形は底辺の比、台形は（上底＋下底）の比",
+      "representativeId": "TS平26-2",
+      "decision": "対角線の4三角形で面積比を移す",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平27",
+      "name": "延長してバタフライの面積比",
+      "domain": "平面図形",
+      "definition": "台形の対角線でできる4つの三角形はa×a:a×b:a×b:b×b。延長して構図を作る",
+      "representativeId": "TS平27",
+      "decision": "延長してバタフライの面積比",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平28-1",
+      "name": "共通角の辺の積で周囲3三角形を引く",
+      "domain": "平面図形",
+      "definition": "角を共有（または和が180°）する三角形の面積比＝はさむ辺の積の比",
+      "representativeId": "TS平28-1",
+      "decision": "共通角の辺の積で周囲3三角形を引く",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平29",
+      "name": "等しい部分比を加えて全体比へ",
+      "domain": "平面図形",
+      "definition": "等しい比の組を足しても比は同じ（補角の三角形の比で加比）",
+      "representativeId": "TS平29",
+      "decision": "等しい部分比を加えて全体比へ",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平30",
+      "name": "交わる3線を面積の連比にする",
+      "domain": "平面図形",
+      "definition": "共通の辺で分けた2つの三角形の面積比＝対辺の分割比。3つの三角形を連比",
+      "representativeId": "TS平30",
+      "decision": "交わる3線を面積の連比にする",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平31",
+      "name": "平行補助線で分割比を1辺に集める",
+      "domain": "平面図形",
+      "definition": "求めない直線に平行な補助線をひき、比を1本の直線に集める",
+      "representativeId": "TS平31",
+      "decision": "平行補助線で分割比を1辺に集める",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平32-2",
+      "name": "直径をはさむ面積から対角線の比",
+      "domain": "平面図形",
+      "definition": "対角線で分けた2つの三角形の面積比＝もう一方の対角線の分割比。円に内接なら辺の積",
+      "representativeId": "TS平32-2",
+      "decision": "直径をはさむ面積から対角線の比",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平33-1",
+      "name": "直角三角形の接線から内接円の半径",
+      "domain": "平面図形",
+      "definition": "直角三角形は接線の長さが等しい→x＝半径。一般の三角形は面積を2通りに表す",
+      "representativeId": "TS平33-1",
+      "decision": "直角三角形の接線から内接円の半径",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平33-2",
+      "name": "内接円の半径を共通の高さにする",
+      "domain": "平面図形",
+      "definition": "直角三角形は接線の長さが等しい→x＝半径。一般の三角形は面積を2通りに表す",
+      "representativeId": "TS平33-2",
+      "decision": "内接円の半径を共通の高さにする",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平35",
+      "name": "等しい3辺から垂線と相似を作る",
+      "domain": "平面図形",
+      "definition": "二等辺三角形は頂角から底辺に垂線→合同な直角三角形2つ。相似で高さを出す",
+      "representativeId": "TS平35",
+      "decision": "等しい3辺から垂線と相似を作る",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平36-1",
+      "name": "中心を通る直角で正方形を4等分",
+      "domain": "平面図形",
+      "definition": "中心を通り直交する2直線で4等分。向かい合う直角＋直角をはさむ2辺が等しいピースから正方形を復元",
+      "representativeId": "TS平36-1",
+      "decision": "中心を通る直角で正方形を4等分",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平37",
+      "name": "傾いた正方形を直角三角形で囲む",
+      "domain": "平面図形",
+      "definition": "斜めの正方形のまわりに直角三角形を4つ置いてまっすぐな正方形を作る",
+      "representativeId": "TS平37",
+      "decision": "傾いた正方形を直角三角形で囲む",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平38",
+      "name": "正方形内の直交線分を合同でそろえる",
+      "domain": "平面図形",
+      "definition": "正方形の隣り合う頂点から向かい側の辺へ引いた線分が直交する構図で、直角三角形の合同から長さをそろえる",
+      "representativeId": "TS平38",
+      "decision": "正方形内の直交線分を合同でそろえる",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平39",
+      "name": "折り返しの相似を2段につなぐ",
+      "domain": "平面図形",
+      "definition": "長方形・正方形・正三角形を折り返すと重ならない部分の三角形は相似",
+      "representativeId": "TS平39",
+      "decision": "折り返しの相似を2段につなぐ",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平40-1",
+      "name": "交点から下ろした垂線と連比",
+      "domain": "平面図形",
+      "definition": "交点を通るたての線をひき、相似な直角三角形を連比でそろえる",
+      "representativeId": "TS平40-1",
+      "decision": "交点から下ろした垂線と連比",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平41",
+      "name": "斜辺への高さと辺を別々の相似で求める",
+      "domain": "平面図形",
+      "definition": "直角の頂点から斜辺に垂線→できた2つと元の直角三角形はすべて相似（裏返しに注意）",
+      "representativeId": "TS平41",
+      "decision": "斜辺への高さと辺を別々の相似で求める",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平42",
+      "name": "一定角で曲がる道を正多角形へ戻す",
+      "domain": "平面図形",
+      "definition": "同じ長さの辺を一定角でつなぐと正多角形。360÷曲がる角",
+      "representativeId": "TS平42",
+      "decision": "一定角で曲がる道を正多角形へ戻す",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平43",
+      "name": "半円を移して平行移動の帯を求積",
+      "domain": "平面図形",
+      "definition": "通過部分＝移動距離×幅（曲線でも同じ。重なるときは注意）",
+      "representativeId": "TS平43",
+      "decision": "半円を移して平行移動の帯を求積",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS平44",
+      "name": "辺の回転を2つのおうぎ形の差へ",
+      "domain": "平面図形",
+      "definition": "端点が中心なら通過部分＝おうぎ形。そうでなければ（外側のおうぎ形）−（内側のおうぎ形）",
+      "representativeId": "TS平44",
+      "decision": "辺の回転を2つのおうぎ形の差へ",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS動45",
+      "name": "平行移動の通過面積に元の図形を加える",
+      "domain": "平面図形",
+      "definition": "通過部分＝（幅）×（通過距離）＋（動かす図形の面積）",
+      "representativeId": "TS動45",
+      "decision": "平行移動の通過面積に元の図形を加える",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS動46",
+      "name": "回転の最遠点・最近点から通過面積",
+      "domain": "平面図形",
+      "definition": "回転の中心から一番遠い点・一番近い点に着目。（大きいおうぎ形−小さいおうぎ形）＋もとの図形",
+      "representativeId": "TS動46",
+      "decision": "回転の最遠点・最近点から通過面積",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS動47",
+      "name": "向きを変えず接する三角形の頂点軌跡",
+      "domain": "平面図形",
+      "definition": "辺で接する＝直線運動（辺の長さ分）、頂点で接する＝円運動。答え＝動かす図形の周長＋円周",
+      "representativeId": "TS動47",
+      "decision": "向きを変えず接する三角形の頂点軌跡",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS動48",
+      "name": "連結した棒の限界位置と通過範囲",
+      "domain": "平面図形",
+      "definition": "一端が固定された棒の範囲はおうぎ形。つながった棒は B→C→D の順におうぎ形を組み合わせる",
+      "representativeId": "TS動48",
+      "decision": "連結した棒の限界位置と通過範囲",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS動49-1",
+      "name": "転がる三角形の頂点の円弧を追う",
+      "domain": "平面図形",
+      "definition": "おうぎ形の中心と回転角をとらえる。止まる位置を先に書き込む。対角線の長さはわからなくても r×r は正方形の面積で出す",
+      "representativeId": "TS動49-1",
+      "decision": "転がる三角形の頂点の円弧を追う",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS動49-2",
+      "name": "転がる長方形の対角線の平方と面積",
+      "domain": "平面図形",
+      "definition": "おうぎ形の中心と回転角をとらえる。止まる位置を先に書き込む。対角線の長さはわからなくても r×r は正方形の面積で出す",
+      "representativeId": "TS動49-2",
+      "decision": "転がる長方形の対角線の平方と面積",
+      "prerequisites": []
+    },
+    {
+      "id": "tesuji.TS動50",
+      "name": "円弧と頂点を回る円の通過面積",
+      "domain": "平面図形",
+      "definition": "円（半径a）は ①直線に接する→幅a×2 ②円弧に接する→半径 b±a×2 のおうぎ形の差 ③点に接する→半径a×2のおうぎ形。便法：センターラインの公式（通過面積＝中心の道のり×直径）",
+      "representativeId": "TS動50",
+      "decision": "円弧と頂点を回る円の通過面積",
+      "prerequisites": []
+    }
+  ],
+  "links": []
+}
