@@ -38,7 +38,7 @@ test('luck raises the box chance, treasure adds gems on a miss, mission adds dai
  const m=daily([{id:'napoleon',type:'mission'}],.9);assert.ok(m.result.abilities.some(a=>a.type==='mission'&&a.amount===1));assert.equal(m.state.materials,5+5+1);
 });
 test('echo ability may return one soul after a summon',()=>{
- const s=owned('arthur');s.loadout.hero='arthur';s.souls=3;let calls=0;const rolls=[.5,.1];
+ const s=owned('arthur');s.loadout.hero='arthur';s.souls=C.SUMMON_COST;let calls=0;const rolls=[.5,.1];
  const r=C.summonHero(s,[{id:'arthur'},{id:'momotaro'}],{random:()=>rolls[calls++],party:[{id:'arthur',type:'echo'}]});
  assert.equal(r.result.refund,1);assert.equal(r.result.refundHeroId,'arthur');assert.equal(r.state.souls,1);assert.equal(r.state.loadout.partner,'momotaro');
  const n=C.summonHero(s,[{id:'arthur'},{id:'momotaro'}],{random:()=>.5});assert.equal(n.result.refund,0);
