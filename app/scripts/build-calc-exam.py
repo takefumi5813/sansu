@@ -1,10 +1,9 @@
-"""入試過去問・授業の計算マスターから、難問向けの重い計算（逆算・括弧つきの長い計算）を教材化する。
+"""Notion問題DBにある重い計算（逆算・括弧つきの長い計算）を教材化する。
 
-- 出典は references/calc-exam-source.json。
-  * 入23-*（栄冠 2023年度受験用 問題集）と校別（学校別過去問）の行は、GPTがDropbox本文から抽出した問題文・資料の答え。
-    抽出行のうち、□を1つ含む等式または括弧つきの四則計算で、アプリのエンジンが厳密解を出せて資料の答えと一致し、
-    core.calcTier が「難問」と判定したものだけを source にした。
-  * R21K-57 は Notion問題DB の実ページ（式・答え84）と、原教材 R21 PDF p.4 の57番が一致するもの。
+- 出典は references/calc-exam-source.json。Notionの実ページ（URLつき）にある問題だけを入れる。
+  現在は R21K-57（式・答え84）のみ。原教材 R21 PDF p.4 の57番と一致することを確認済み。
+- 入試過去問（栄冠2023・学校別）から抽出した50問は Notion に無いため、出題しない。
+  references/calc-exam-reserve.json に保管してあり、Notionに登録されたらURLをつけてsourceに戻す。
 - 解き筋は build-calc-inverse.py の仕組み（式の木構造から機械的に作る）をそのまま使う。
   各ステップの等式は文字列に書き出したものを読み直し、□に答えを代入して（または両辺を計算して）厳密に検算する。
 - 出力は content/selected-calc-4.json と reports/calc-exam-selection.md。既存のコンテンツは変更しない。
@@ -39,6 +38,7 @@ def build():
     problems, units, failed = [], [], []
     for s in SOURCE:
         pid = s['id']
+        assert s.get('notionUrl'), (pid, 'Notion URL required: only problems in Notion are served')
         try:
             parsed = parse_eq(s['localText'])
             dec = bool(re.search(r'\d\.\d', s['localText']))
