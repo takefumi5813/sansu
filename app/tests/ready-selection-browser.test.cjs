@@ -11,13 +11,13 @@ const C=require('../src/core.js'),ready=require('../content/expedition-ready.jso
   for(const p of data.problems.filter(p=>!p.id.startsWith('ready-')&&p.category!=='calc'))state.units[p.unitId]={stage:4,due:null,highestStageEver:4,awardedStages:[1,2,3,4]};
   await page.locator('#records-open').click();await page.locator('#import-records').setInputFiles({name:'test.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({application:'sansu-pilot',schemaVersion:1,state}))});await page.getByRole('button',{name:'確認して読み込む',exact:true}).click();
   await page.locator('[data-mode="all"]').click();await page.locator('[data-category="oneline"]').click();await page.locator('[data-tier="standard"]').click();await page.locator('#start').click();
-  const text=await page.locator('#question-text').innerText(),selected=ready.problems.find(p=>p.text===text);assert(selected,'normal start must select an integrated question');
+  const text=await page.locator('#question-text').innerText(),selected=ready.problems.find(p=>p.text.replace(/\n?[［\[]図[：:][^］\]]*[］\]]/g,'').trim()===text);assert(selected,'normal start must select an integrated question');
   await page.locator('#answer').fill(selected.answer.n);await page.locator('#submit-answer').click();await page.evaluate(()=>window.SansuPilot.whenSaved());
   const after=await page.evaluate(()=>window.SansuPilot.snapshot());assert.equal(after.souls,1);assert.equal(after.units[selected.unitId].stage,1);
   await page.locator('#finish-session').click();await page.locator('#return-home').click();
   for(const p of ready.problems){
    await page.locator(`[data-category="${p.category}"]`).click();await page.locator('#practice-open').click();await page.locator(`[data-practice="${p.id}"]`).click();
-   assert.equal(await page.locator('#question-text').innerText(),p.text);
+   assert.equal(await page.locator('#question-text').innerText(),p.text.replace(/\n?[［\[]図[：:][^］\]]*[］\]]/g,'').trim());
    await page.locator('#answer').fill(String(Number(p.answer.n)+1));await page.locator('#submit-answer').click();assert.equal(await page.evaluate(()=>window.SansuPilot.snapshot().attempts.at(-1).correct),false);
    await page.locator('#explanation-open').click();
    for(let i=0;i<4;i++){
