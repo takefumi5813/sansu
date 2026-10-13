@@ -106,7 +106,7 @@
   }
   function renderQuestion() {
     disposeCanvases(); const p=effectiveProblem();
-    app.innerHTML=`<div class="learning-head"><div><span class="pill">${names[p.category]}</span> <span class="caption">${session.purpose==='variant'?'理解を確かめる1問 · 経験値0pt':session.purpose==='practice'?'練習 · 経験値0pt':p.category==='calc'?({1:'標準',2:'応用',3:'難問'}[p.star]):'答えにたどり着く考え方を探そう'}</span></div><button id="leave-question" class="quiet">今日はここまで</button></div><div class="learning-grid">${questionPaper(p)}<div>${scratchMarkup()}</div></div><form id="answer-form" class="answer-panel">${answerFieldsMarkup(p.answer)}<button id="submit-answer" type="submit" class="primary">OK</button><button id="hint-open" type="button" class="quiet">考え方のヒント</button><p id="answer-error" class="answer-message" hidden></p></form>${keypadMarkup(p.answer)}<div id="answer-result"></div>`;
+    app.innerHTML=`<div class="learning-head"><div><span class="pill">${names[p.category]}</span> <span class="caption">${session.purpose==='variant'?'理解を確かめる1問 · 経験値0pt':session.purpose==='practice'?'練習 · 経験値0pt':p.category==='calc'?C.CALC_TIER_LABELS[C.calcTier(p)]:'答えにたどり着く考え方を探そう'}</span></div><button id="leave-question" class="quiet">今日はここまで</button></div><div class="learning-grid">${questionPaper(p)}<div>${scratchMarkup()}</div></div><form id="answer-form" class="answer-panel">${answerFieldsMarkup(p.answer)}<button id="submit-answer" type="submit" class="primary">OK</button><button id="hint-open" type="button" class="quiet">考え方のヒント</button><p id="answer-error" class="answer-message" hidden></p></form>${keypadMarkup(p.answer)}<div id="answer-result"></div>`;
     bindPaper();bindScratch();
     $('#leave-question').onclick=finish;
     $('#answer-form').onsubmit=submitAnswer;
