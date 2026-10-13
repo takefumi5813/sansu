@@ -70,7 +70,8 @@ test('calculation tiers follow the shape of the expression (operation count, fra
  assert.equal(t('18*18*3.14*150/360'),'standard');assert.equal(t('(4*□+5)÷3=5'),'standard');assert.equal(t('16.8÷□=7'),'standard');
  assert.equal(t('2/3*□+1/2=3'),'advanced');assert.equal(t('□*0.5-9÷2=8'),'advanced');assert.equal(t('11*11*3.14*120/360-5*5*3.14*120/360'),'advanced');
  assert.equal(t('15/2-(3.3+2÷□)+9.6*3/8=5'),'hard');assert.equal(t('(36.25-612/707÷□)*84=7/4÷(1/6+1/8)'),'hard');assert.equal(t('(15/7+0.6)*□+91/13-19/91=9'),'hard');
- assert.equal(t('(3.5-7*3/14)÷5/8-3*1/5÷3/8'),'hard');});
+ assert.equal(t('(3.5-7*3/14)÷5/8-3*1/5÷3/8'),'hard');
+ assert.equal(t('9/2+(□*2.5-3.4)÷2=7.8'),'advanced');assert.equal(t('1+2+3+4+5+6+7+8+9+10+11+12+13+□=100'),'standard');});
 test('calculation tier filter picks only the requested tier',()=>{const mk=(id,expression)=>({...p,id,unitId:id,category:'calc',star:1,score:5,expression,answer:{n:'1',d:'1',unit:'',dimension:'scalar'}}),qs=[mk('t0','3+4'),mk('t1','2/3*□+1/2=3'.replace('2/3*□+1/2=3','1.25*0.8')),mk('t2','2/3*□+1/2=3'),mk('t3','15/2-(3.3+2÷□)+9.6*3/8=5')],f={category:'calc',mode:'all',recentUnits:['R24'],scopeUnits:['R24']};
  for(const [tier,id] of [['basic','t0'],['standard','t1'],['advanced','t2'],['hard','t3']])assert.equal(C.selectProblem(qs,C.initialState(),{...f,tier},'2026-10-11').id,id);});
 test('inverse (□) equations are solved exactly and verified by substitution',()=>{for(const [e,n,d] of [['147-□=79','68','1'],['□-4.32=6.18','21','2'],['15/2-(3.3+2÷□)+9.6*3/8=5','5','7'],['(15/7+0.6)*□+91/13-19/91=9','335','416'],['(36.25-612/707÷□)*84=7/4÷(1/6+1/8)','2448','102313'],['5=□÷7','35','1'],['6*{(81-3*□)-75÷25}=126','19','1'],['□÷1/5=0.625','1','8']]){const r=C.calcInverse(e);assert.equal(r.supported,true,e);assert.deepEqual(r.answer,{n,d},e);}

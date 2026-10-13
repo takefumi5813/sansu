@@ -197,16 +197,16 @@ const CALC_TIER_LABELS={basic:'基礎',standard:'標準',advanced:'応用',hard:
 // 基礎＝1〜2回の計算／標準＝3回以上の計算・分数・小数の掛け算割り算・答えが割り切れない／応用＝逆算＋分数や、分数・小数のまじった長い式／難問＝括弧と分数と多くの四則がそろった逆算など。
 function calcShape(p){
  const e=String(p.expression||''),a=p.answer||{n:'0',d:'1'},inv=e.includes('□'),ops=(e.match(/[+*÷\-]/g)||[]).length;
- const frac=/\d+\/\d+/.test(e),dec=/\d\.\d/.test(e),par=/[(\[{]/.test(e),ndec=(e.match(/\d+\.\d+/g)||[]).length;
+ const fracN=(e.match(/\d+\/\d+/g)||[]).length,frac=fracN>0,dec=/\d\.\d/.test(e),par=/[(\[{]/.test(e),ndec=(e.match(/\d+\.\d+/g)||[]).length;
  const md=(frac&&/[*÷]/.test(e))||(dec&&e.includes('÷'))||(ndec>=2&&e.includes('*'));
  let q=BigInt(a.d||1);while(q%2n===0n)q/=2n;while(q%5n===0n)q/=5n;
- return {inv,ops,frac,dec,par,md,nonterm:q!==1n};
+ return {inv,ops,frac,fracN,dec,par,md,addOnly:!/[*÷]/.test(e),nonterm:q!==1n};
 }
 function calcTier(p){
- const {inv,ops,frac,dec,par,md,nonterm}=calcShape(p);
- if(inv&&par&&((frac&&ops>=5)||(frac&&dec&&ops>=4)||ops>=7))return 'hard';
+ const {inv,ops,frac,fracN,dec,par,md,addOnly,nonterm}=calcShape(p);
+ if(inv&&par&&((frac&&ops>=5)||(fracN>=2&&dec&&ops>=4)||ops>=7))return 'hard';
  if(!inv&&par&&frac&&md&&ops>=6)return 'hard';
- if((inv&&frac&&ops>=2)||(inv&&dec&&ops>=3)||(inv&&ops>=5)||(inv&&par&&ops>=4)||(!inv&&par&&ops>=5)||(!inv&&md&&(frac||dec)&&ops>=4))return 'advanced';
+ if((inv&&frac&&ops>=2)||(inv&&dec&&ops>=3)||(inv&&ops>=5&&!addOnly)||(inv&&par&&ops>=4)||(!inv&&par&&ops>=5)||(!inv&&md&&(frac||dec)&&ops>=4))return 'advanced';
  if(ops>=3||frac||md||(inv&&ops>=2)||nonterm)return 'standard';
  return 'basic';
 }

@@ -24,10 +24,10 @@ test('every expression is recomputed exactly and matches the stored answer, scor
 test('inverse problems really contain □ and the hard tier has bracket + fraction + several operations',()=>{
  const tiers={basic:0,standard:0,advanced:0,hard:0};
  for(const p of P)tiers[C.calcTier(p)]++;
- assert.deepEqual(tiers,{basic:14,standard:64,advanced:58,hard:22});
+ assert.deepEqual(tiers,{basic:14,standard:65,advanced:62,hard:17});
  const hard=P.filter(p=>C.calcTier(p)==='hard');
- for(const p of hard){const sh=C.calcShape(p);assert.ok(sh.par&&sh.frac&&sh.ops>=4,p.id);}
- assert.ok(hard.filter(p=>p.expression.includes('□')).length>=15);
+ for(const p of hard){const sh=C.calcShape(p);assert.ok(sh.par&&sh.fracN>=1&&sh.ops>=4,p.id);}
+ assert.ok(hard.filter(p=>p.expression.includes('□')).length>=12);
  assert.ok(P.filter(p=>p.expression.includes('□')).length>=130);
 });
 test('explanations have 4-8 steps, a checkpoint, and every □ step equation is satisfied by the answer',()=>{
