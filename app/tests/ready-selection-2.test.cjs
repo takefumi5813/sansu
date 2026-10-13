@@ -19,7 +19,7 @@ test('second ready set is served in the normal free expedition only, with comple
 test('second ready set uses the existing expedition selection, rewards, and graduation',()=>{
  const day='2026-10-12';
  for(const p of ready.problems.slice(0,10)){
-  const tier=p.difficulty<=4?'standard':p.difficulty<=6?'advanced':'hard';
+  const tier=p.difficulty<=2?'basic':p.difficulty<=4?'standard':p.difficulty<=6?'advanced':'hard';
   assert(C.selectProblem([p],C.initialState(),{category:p.category,mode:'all',tier,recentUnits:['R24'],scopeUnits:['R24']},day),p.id);
   const a=C.commitAttempt(C.initialState(),p,{id:'n',day,raw:raw(p.answer),purpose:'normal',mode:'all'});
   assert(a.result.correct,p.id);assert.equal(a.state.units[p.unitId].stage,1);
