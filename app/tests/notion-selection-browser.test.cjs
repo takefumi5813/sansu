@@ -11,7 +11,7 @@ const {chromium}=require('C:/Users/tsuzu/.cache/codex-runtimes/codex-primary-run
   assert.match(await page.locator('.scope-note').innerText(),/R24/);
   assert.equal(await page.locator('[data-mode="all"]').isDisabled(),true);
   await page.locator('#records-open').click();assert.equal(await page.locator('#recent-scope').inputValue(),'R24');assert.equal(await page.locator('#test-scope').inputValue(),'R24');await page.locator('#settings-close').click();
-  await page.locator('[data-category="calc"]').click();await page.locator('[data-star="1"]').click();await page.locator('#start').click();
+  await page.locator('[data-category="calc"]').click();await page.locator('[data-tier="basic"]').click();await page.locator('#start').click();
   const seen=new Set();
   for(let i=0;i<5;i++){
    const text=await page.locator('#question-text').innerText(),p=await page.evaluate(t=>window.SansuPilot.data.problems.find(p=>p.text.replace(/\n?[［\[]図[：:][^］\]]*[］\]]/g,'').trim()===t),text);
