@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const root = __dirname;
 const read = p => fs.readFileSync(path.join(root,p),'utf8').replace(/^\uFEFF/,'');
-const sources = ['content/arithmetic.json','content/selected-calc.json','content/selected-calc-2.json','content/selected-oneline.json','content/selected-geometry.json','content/expedition-foundations.json','content/expedition-ratio-speed.json','content/expedition-geometry.json','content/expedition-ready.json','content/expedition-ready-2.json'].map(p=>JSON.parse(read(p)));
+const sources = ['content/arithmetic.json','content/selected-calc.json','content/selected-calc-2.json','content/selected-calc-3.json','content/selected-oneline.json','content/selected-geometry.json','content/expedition-foundations.json','content/expedition-ratio-speed.json','content/expedition-geometry.json','content/expedition-ready.json','content/expedition-ready-2.json'].map(p=>JSON.parse(read(p)));
 const legacyCatalog = JSON.parse(read('references/legacy-catalog.json'));
 const roster=JSON.parse(read('content/heroes.json'));
 const profiles=JSON.parse(read('content/hero-profiles.json')).profiles;
@@ -47,7 +47,7 @@ for (const p of data.problems) {
   if(!C.grade(canonicalRaw(p.answer),p.answer).correct)throw Error('Invalid answer '+p.id);
   if(p.figureRequired&&(!p.figure||!fs.existsSync(path.join(root,'dist',p.figure))))throw Error('Missing figure '+p.id);
   if(p.category==='calc'){
-    const s=C.calcScore(p.expression);
+    const s=p.expression.includes('□')?C.calcInverse(p.expression):C.calcScore(p.expression);
     if(!s.supported||!C.grade(s.answer.n+'/'+s.answer.d,p.answer).correct)throw Error('Calculation verification '+p.id);
     if(s.score!==p.score||s.star!==p.star)throw Error('Score mismatch '+p.id+' '+JSON.stringify(s));
   }
