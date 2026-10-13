@@ -188,7 +188,7 @@ function status(s,p){return s.units[p.unitId]||{stage:0,highestStageEver:0,due:n
 function remaining(p,state,day){const u=status(state,p);return u.stage!==4&&((u.stage===0&&!u.due)||(u.due&&u.due<=day));}
 function inScope(p,scope,mode='gnorev'){return !p.expeditionOnly&&(p.homeStudy||(mode==='review'&&p.reviewEligible===true))&&(p.scopeUnits||[]).some(x=>(scope||[]).includes(x));}
 function getCampaignStatus(problems,state,filters={},day=dayKey()){
- const valid=problems.filter(p=>p.category!=='calc'&&(!p.figureRequired||p.figure)&&!(Number(filters.grade||5)===5&&p.difficulty>8)&&remaining(p,state,day));
+ const cat=filters.category&&filters.category!=='calc'?filters.category:null,valid=problems.filter(p=>p.category!=='calc'&&(!cat||p.category===cat)&&(!p.figureRequired||p.figure)&&!(Number(filters.grade||5)===5&&p.difficulty>8)&&remaining(p,state,day));
  const count=(scope,mode)=>new Set(valid.filter(p=>inScope(p,scope,mode)).map(p=>p.unitId)).size;
  const review=count(filters.recentUnits,'review'),gnorev=count(filters.scopeUnits,'gnorev');return {review,gnorev,allUnlocked:review===0&&gnorev===0};
 }
