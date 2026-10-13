@@ -219,7 +219,7 @@
   }
   function renderVisual(visual){
     if(!visual)return '';
-    if(visual.kind==='image'&&visual.src)return `<img src="${esc(visual.src)}" alt="${esc(visual.alt||'解説図')}" style="width:100%;max-height:330px;object-fit:contain">`;
+    if(visual.kind==='image'&&visual.src)return `<a href="${esc(visual.src)}" target="_blank" rel="noopener" aria-label="解説図を大きく見る"><img src="${esc(visual.src)}" alt="${esc(visual.alt||'解説図')}" style="width:100%;max-height:330px;object-fit:contain"><span class="caption">解説図を大きく見る ↗</span></a>`;
     // Text/equations remain authoritative; only approved built-in diagrams are rendered.
     if(visual.kind==='opposing-motion'||visual.kind==='meeting')return `<svg viewBox="0 0 460 140" role="img" aria-label="両側から進むと間隔が縮まる"><path d="M45 85H415" stroke="#b5c9ba" stroke-width="3"/><path d="M45 85H155l-10-8m10 8l-10 8M415 85H305l10-8m-10 8l10 8" fill="none" stroke="#19545b" stroke-width="4"/><circle cx="45" cy="85" r="9" fill="#19545b"/><circle cx="415" cy="85" r="9" fill="#bd8939"/><text x="100" y="55" text-anchor="middle" fill="#203c42" font-size="15">左から進む距離</text><text x="360" y="55" text-anchor="middle" fill="#203c42" font-size="15">右から進む距離</text><text x="230" y="125" text-anchor="middle" fill="#203c42" font-size="15">二つの分だけ、間隔が縮まる</text></svg>`;
     return '';
