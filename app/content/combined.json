@@ -23876,270 +23876,6 @@
       "domain": "calculation"
     },
     {
-      "id": "春04K-25",
-      "unitId": "calc.haru04.k25",
-      "category": "calc",
-      "text": "□×1.5−3÷2＝6",
-      "sourceText": "□×1.5−3÷2＝6",
-      "source": {
-        "title": "春04 計算マスター K-25（春期講習）",
-        "path": "https://app.notion.com/3f52b010743c81bda98bc8047d857017",
-        "url": "https://app.notion.com/3f52b010743c81bda98bc8047d857017",
-        "locator": "Notion 問題DB > 春04K-25",
-        "sourceText": "□×1.5−3÷2＝6",
-        "sourceAnswer": "5",
-        "notionPageId": "3f52b010743c81bda98bc8047d857017",
-        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_春期講習.md",
-        "localReferenceLocator": "春04 > K 計算マスター > K-25",
-        "localReferenceText": "□×1.5−3÷2＝6",
-        "localComparison": {
-          "exactTextMatch": true,
-          "normalizedExpressionMatch": true,
-          "difference": "完全一致"
-        },
-        "verification": "2026-10-13 Notion問題DBをSQLでIDから検索し、URLと答えを取得。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。Notionページ本文の再fetchと原教材PDFとの照合は未実施。Notion native verificationは未確認。"
-      },
-      "answer": {
-        "n": "5",
-        "d": "1",
-        "unit": "",
-        "dimension": "scalar"
-      },
-      "figureRequired": false,
-      "scopeUnits": [
-        "春04"
-      ],
-      "homeStudy": false,
-      "revision": 1,
-      "expression": "□*1.5-3÷2=6",
-      "explanation": {
-        "steps": [
-          {
-            "title": "□のまわりを外側からほどく",
-            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。はじめに、□を含まない部分を計算して数にしておきます。",
-            "equation": "□×1.5−3÷2＝6",
-            "id": "step-1"
-          },
-          {
-            "title": "□を含まない計算を先にする",
-            "body": "□のない部分を、かっこの内側から順に計算します。\n3÷2＝1.5",
-            "equation": "□×1.5−1.5＝6",
-            "checkpoint": {
-              "prompt": "3÷2はいくつですか。",
-              "answer": {
-                "n": "3",
-                "d": "2",
-                "unit": "",
-                "dimension": "scalar"
-              }
-            },
-            "id": "step-2"
-          },
-          {
-            "title": "−1.5を外す",
-            "body": "□を含む部分から1.5をひいた結果が6です。ひき算をもとに戻すには、たし算をします。\n6＋1.5＝7.5",
-            "equation": "□×1.5＝7.5",
-            "checkpoint": {
-              "prompt": "6＋1.5はいくつですか。",
-              "answer": {
-                "n": "15",
-                "d": "2",
-                "unit": "",
-                "dimension": "scalar"
-              }
-            },
-            "id": "step-3"
-          },
-          {
-            "title": "×1.5を外す",
-            "body": "□に1.5をかけた結果が7.5です。かけ算をもとに戻すには、わり算をします。\n7.5÷1.5＝5",
-            "equation": "□＝5",
-            "id": "step-4"
-          },
-          {
-            "title": "もとの式に入れて確かめる",
-            "body": "□に5を入れて計算すると、両辺が同じ値になります。",
-            "equation": "5×1.5−3÷2＝6",
-            "id": "step-5"
-          }
-        ]
-      },
-      "score": 13,
-      "star": 2,
-      "difficulty": 5,
-      "domain": "calculation"
-    },
-    {
-      "id": "春04K-26",
-      "unitId": "calc.haru04.k26",
-      "category": "calc",
-      "text": "(13×26−2)÷(7×108÷12−119÷17)＝□",
-      "sourceText": "(13×26−2)÷(7×108÷12−119÷17)＝□",
-      "source": {
-        "title": "春04 計算マスター K-26（春期講習）",
-        "path": "https://app.notion.com/3f52b010743c81a6b668e6a1eaa76dd6",
-        "url": "https://app.notion.com/3f52b010743c81a6b668e6a1eaa76dd6",
-        "locator": "Notion 問題DB > 春04K-26",
-        "sourceText": "(13×26−2)÷(7×108÷12−119÷17)＝□",
-        "sourceAnswer": "6",
-        "notionPageId": "3f52b010743c81a6b668e6a1eaa76dd6",
-        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_春期講習.md",
-        "localReferenceLocator": "春04 > K 計算マスター > K-26",
-        "localReferenceText": "(13×26−2)÷(7×108÷12−119÷17)＝□",
-        "localComparison": {
-          "exactTextMatch": true,
-          "normalizedExpressionMatch": true,
-          "difference": "完全一致"
-        },
-        "verification": "2026-10-13 Notion問題DBをSQLでIDから検索し、URLと答えを取得。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。Notionページ本文の再fetchと原教材PDFとの照合は未実施。Notion native verificationは未確認。"
-      },
-      "answer": {
-        "n": "6",
-        "d": "1",
-        "unit": "",
-        "dimension": "scalar"
-      },
-      "figureRequired": false,
-      "scopeUnits": [
-        "春04"
-      ],
-      "homeStudy": false,
-      "revision": 1,
-      "expression": "(13*26-2)÷(7*108÷12-119÷17)",
-      "explanation": {
-        "steps": [
-          {
-            "title": "いちばん内側のかっこを計算する",
-            "body": "いちばん内側のかっこから先に計算します。かっこの中は、かけ算・わり算を先に、そのあとでたし算・ひき算の順です。\n13×26−2＝338−2＝336",
-            "equation": "(13×26−2)÷(7×108÷12−119÷17)＝336÷(7×108÷12−119÷17)",
-            "checkpoint": {
-              "prompt": "13×26−2はいくつですか。",
-              "answer": {
-                "n": "336",
-                "d": "1",
-                "unit": "",
-                "dimension": "scalar"
-              }
-            },
-            "id": "step-1"
-          },
-          {
-            "title": "外側のかっこを計算する",
-            "body": "次に、かっこの外側へ進みます。かっこの中は、かけ算・わり算を先に、そのあとでたし算・ひき算の順です。\n7×108÷12−119÷17＝63−7＝56",
-            "equation": "336÷(7×108÷12−119÷17)＝336÷56",
-            "id": "step-2"
-          },
-          {
-            "title": "かけ算・わり算を先に計算する",
-            "body": "かっこがなくなりました。かけ算・わり算を、たし算・ひき算より先に左から計算します。",
-            "equation": "336÷56＝6",
-            "id": "step-3"
-          },
-          {
-            "title": "答えをまとめる",
-            "body": "式の値は6です。",
-            "equation": "(13×26−2)÷(7×108÷12−119÷17)＝6",
-            "id": "step-4"
-          }
-        ]
-      },
-      "score": 45,
-      "star": 3,
-      "difficulty": 7,
-      "domain": "calculation"
-    },
-    {
-      "id": "春04K-28",
-      "unitId": "calc.haru04.k28",
-      "category": "calc",
-      "text": "{2020÷(48−□)−48}×4＝212",
-      "sourceText": "{2020÷(48−□)−48}×4＝212",
-      "source": {
-        "title": "春04 計算マスター K-28（春期講習）",
-        "path": "https://app.notion.com/3f52b010743c81839c28d617b13479bf",
-        "url": "https://app.notion.com/3f52b010743c81839c28d617b13479bf",
-        "locator": "Notion 問題DB > 春04K-28",
-        "sourceText": "{2020÷(48−□)−48}×4＝212",
-        "sourceAnswer": "28",
-        "notionPageId": "3f52b010743c81839c28d617b13479bf",
-        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_春期講習.md",
-        "localReferenceLocator": "春04 > K 計算マスター > K-28",
-        "localReferenceText": "{2020÷(48−□)−48}×4＝212",
-        "localComparison": {
-          "exactTextMatch": true,
-          "normalizedExpressionMatch": true,
-          "difference": "完全一致"
-        },
-        "verification": "2026-10-13 Notion問題DBをSQLでIDから検索し、URLと答えを取得。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。Notionページ本文の再fetchと原教材PDFとの照合は未実施。Notion native verificationは未確認。"
-      },
-      "answer": {
-        "n": "28",
-        "d": "1",
-        "unit": "",
-        "dimension": "scalar"
-      },
-      "figureRequired": false,
-      "scopeUnits": [
-        "春04"
-      ],
-      "homeStudy": false,
-      "revision": 1,
-      "expression": "{2020÷(48-□)-48}*4=212",
-      "explanation": {
-        "steps": [
-          {
-            "title": "□のまわりを外側からほどく",
-            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
-            "equation": "(2020÷(48−□)−48)×4＝212",
-            "id": "step-1"
-          },
-          {
-            "title": "×4を外す",
-            "body": "□を含む部分に4をかけた結果が212です。かけ算をもとに戻すには、わり算をします。\n212÷4＝53",
-            "equation": "2020÷(48−□)−48＝53",
-            "checkpoint": {
-              "prompt": "212÷4はいくつですか。",
-              "answer": {
-                "n": "53",
-                "d": "1",
-                "unit": "",
-                "dimension": "scalar"
-              }
-            },
-            "id": "step-2"
-          },
-          {
-            "title": "−48を外す",
-            "body": "□を含む部分から48をひいた結果が53です。ひき算をもとに戻すには、たし算をします。\n53＋48＝101",
-            "equation": "2020÷(48−□)＝101",
-            "id": "step-3"
-          },
-          {
-            "title": "2020÷（□を含む部分）を外す",
-            "body": "2020を□を含む部分でわった結果が101です。わられる数÷答え＝わる数なので、2020÷101を計算します。\n2020÷101＝20",
-            "equation": "48−□＝20",
-            "id": "step-4"
-          },
-          {
-            "title": "48−□を外す",
-            "body": "48から□をひいた結果が20です。ひかれる数−答え＝ひく数なので、48−20を計算します。\n48−20＝28",
-            "equation": "□＝28",
-            "id": "step-5"
-          },
-          {
-            "title": "もとの式に入れて確かめる",
-            "body": "□に28を入れて計算すると、両辺が同じ値になります。",
-            "equation": "(2020÷(48−28)−48)×4＝212",
-            "id": "step-6"
-          }
-        ]
-      },
-      "score": 15,
-      "star": 2,
-      "difficulty": 5,
-      "domain": "calculation"
-    },
-    {
       "id": "春05K-7",
       "unitId": "calc.haru05.k7",
       "category": "calc",
@@ -26852,85 +26588,6 @@
             "title": "もとの式に入れて確かめる",
             "body": "□に1と8/15を入れて計算すると、両辺が同じ値になります。",
             "equation": "4と1/3−1と8/15＝2と4/5",
-            "id": "step-4"
-          }
-        ]
-      },
-      "score": 9,
-      "star": 1,
-      "difficulty": 2,
-      "domain": "calculation"
-    },
-    {
-      "id": "春04K-7",
-      "unitId": "calc.haru04.k7",
-      "category": "calc",
-      "text": "5と2/3−□＝2と7/9",
-      "sourceText": "5と2/3−□＝2と7/9",
-      "source": {
-        "title": "春04 計算マスター K-7（春期講習）",
-        "path": "https://app.notion.com/3f52b010743c8129a993de4e536ea1a6",
-        "url": "https://app.notion.com/3f52b010743c8129a993de4e536ea1a6",
-        "locator": "Notion 問題DB > 春04K-7",
-        "sourceText": "5と2/3−□＝2と7/9",
-        "sourceAnswer": "2と8/9",
-        "notionPageId": "3f52b010743c8129a993de4e536ea1a6",
-        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_春期講習.md",
-        "localReferenceLocator": "春04 > K 計算マスター > K-7",
-        "localReferenceText": "5と2/3−□＝2と7/9",
-        "localComparison": {
-          "exactTextMatch": true,
-          "normalizedExpressionMatch": true,
-          "difference": "完全一致"
-        },
-        "verification": "2026-10-13 Notion問題DBをSQLでIDから検索し、URLと答えを取得。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。Notionページ本文の再fetchと原教材PDFとの照合は未実施。Notion native verificationは未確認。"
-      },
-      "answer": {
-        "n": "26",
-        "d": "9",
-        "unit": "",
-        "dimension": "scalar"
-      },
-      "figureRequired": false,
-      "scopeUnits": [
-        "春04"
-      ],
-      "homeStudy": false,
-      "revision": 1,
-      "expression": "17/3-□=25/9",
-      "explanation": {
-        "steps": [
-          {
-            "title": "□のまわりを外側からほどく",
-            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
-            "equation": "5と2/3−□＝2と7/9",
-            "id": "step-1"
-          },
-          {
-            "title": "5と2/3−□を外す",
-            "body": "5と2/3から□をひいた結果が2と7/9です。ひかれる数−答え＝ひく数なので、5と2/3−2と7/9を計算します。\n5と2/3−2と7/9＝2と8/9",
-            "equation": "□＝2と8/9",
-            "checkpoint": {
-              "prompt": "5と2/3−2と7/9はいくつですか。",
-              "answer": {
-                "n": "26",
-                "d": "9",
-                "unit": "",
-                "dimension": "scalar"
-              }
-            },
-            "id": "step-2"
-          },
-          {
-            "title": "□の値を書く",
-            "body": "こうして、□＝2と8/9となります。",
-            "equation": "□＝2と8/9",
-            "id": "step-3"
-          },
-          {
-            "title": "もとの式に入れて確かめる",
-            "body": "□に2と8/9を入れて計算すると、両辺が同じ値になります。",
-            "equation": "5と2/3−2と8/9＝2と7/9",
             "id": "step-4"
           }
         ]
@@ -59965,6 +59622,4727 @@
         ]
       },
       "selectionKey": "V07/G-56213394ce"
+    },
+    {
+      "id": "selected-a719b12c9c308973",
+      "unitId": "selection.N03.N03-U03",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "35の約数は、1、5、7、35の4個です。このように約数の個数が4個の整数を小さい方から順に並べると、35は何番目になりますか。",
+      "source": {
+        "title": "R03N④-3",
+        "url": "https://app.notion.com/p/3f52b010743c81009721c51a855c01c8?pvs=204",
+        "locator": "Notion指定小問 all",
+        "sourceText": "35の約数は、1、5、7、35の4個です。このように約数の個数が4個の整数を小さい方から順に並べると、35は何番目になりますか。",
+        "sourceAnswer": "12番目",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+          "page": 23
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-a719b12c9c308973",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+          "page": 12,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "n": "12",
+        "d": "1",
+        "unit": "番目",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R03"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "約数が4個になる形",
+            "body": "異なる2つの素数の積か、同じ素数3個の積になります。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "異なる素数の積",
+            "body": "35以下では6、10、14、22、26、34、15、21、33、35の10個です。",
+            "equation": ""
+          },
+          {
+            "id": "s3",
+            "title": "同じ素数3個の積",
+            "body": "35以下では8と27の2個です。",
+            "equation": "2×2×2＝8、3×3×3＝27"
+          },
+          {
+            "id": "s4",
+            "title": "順番を求める",
+            "body": "2つの場合を合わせると12個なので、35は12番目です。",
+            "equation": "10＋2＝12",
+            "checkpoint": {
+              "prompt": "35以下の素数の立方数は何個ありますか。",
+              "answer": {
+                "n": "2",
+                "d": "1",
+                "unit": "個",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "N03/N03-U03"
+    },
+    {
+      "id": "selected-a0207c6635c2066e",
+      "unitId": "selection.N06.N06-U05",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "4/7を小数で表し、小数第1位を1番目に、小数第2位を2番目に、小数第3位を3番目に、…となるように順に並べた数の列5、7、1、…を考えます。\n(1) この列で20番目の数を求めなさい。\n(2) この列で1番目から2007番目までの数の合計はいくらですか。",
+      "source": {
+        "title": "R05N⑥-3 1,2",
+        "url": "https://app.notion.com/p/3f52b010743c810c85cae9be0513017f?pvs=204",
+        "locator": "Notion指定小問 1,2",
+        "sourceText": "4/7を小数で表し、小数第1位を1番目に、小数第2位を2番目に、小数第3位を3番目に、…となるように順に並べた数の列5、7、1、…を考えます。\n(1) この列で20番目の数を求めなさい。\n(2) この列で1番目から2007番目までの数の合計はいくらですか。",
+        "sourceAnswer": "(1)7　(2)9031",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-05 数の性質(3)-小数・分数(1)-.pdf",
+          "page": 26
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-a0207c6635c2066e",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-05 数の性質(3)-小数・分数(1)-.pdf",
+          "page": 16,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-05 数の性質(3)-小数・分数(1)-.pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "7",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(2)",
+            "n": "9031",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R05"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "くり返しを調べる",
+            "body": "4÷7の小数は、5、7、1、4、2、8の6個をくり返します。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "20番目",
+            "body": "3組の後の2番目なので7です。",
+            "equation": "20÷6＝3あまり2"
+          },
+          {
+            "id": "s3",
+            "title": "1組の和",
+            "body": "6個の数字を加えると27です。",
+            "equation": "5＋7＋1＋4＋2＋8＝27"
+          },
+          {
+            "id": "s4",
+            "title": "2007番目までの和",
+            "body": "334組と次の3個を加えます。",
+            "equation": "2007÷6＝334あまり3、27×334＋5＋7＋1＝9031",
+            "checkpoint": {
+              "prompt": "1組6個の数字の和はいくつですか。",
+              "answer": {
+                "n": "27",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "N06/N06-U05"
+    },
+    {
+      "id": "selected-4a073039e428287b",
+      "unitId": "selection.Q01.Q01-U02",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "下のように、ある規則にしたがって整数がならんでいます。\n3、4、5、3、4、5、3、4、5、…\n(1) 左から100番目にならぶ数を求めなさい。",
+      "source": {
+        "title": "4R12N②-1 1",
+        "url": "https://app.notion.com/p/3f52b010743c810096f1c6e3157b5697?pvs=204",
+        "locator": "Notion指定小問 1",
+        "sourceText": "下のように、ある規則にしたがって整数がならんでいます。\n3、4、5、3、4、5、3、4、5、…\n(1) 左から100番目にならぶ数を求めなさい。\n(2) 左から50番目までに、4は全部で何個ならびますか。\n(3) 左から50番目にならぶ数までの和を求めなさい。",
+        "sourceAnswer": "(1)3　(2)17個　(3)199",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+          "page": 21
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-4a073039e428287b",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+          "page": 8,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "n": "3",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R12"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "くり返しを見つける",
+            "body": "3、4、5の3個が1組になっています。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "組の数を調べる",
+            "body": "100個を3個ずつに分けます。",
+            "equation": "100÷3＝33あまり1"
+          },
+          {
+            "id": "s3",
+            "title": "残りの位置",
+            "body": "33組の後に1個あるので、34組目の最初です。",
+            "equation": "33＋1＝34"
+          },
+          {
+            "id": "s4",
+            "title": "100番目の数",
+            "body": "1組の最初の数は3です。",
+            "equation": "",
+            "checkpoint": {
+              "prompt": "100を3で割った余りはいくつですか。",
+              "answer": {
+                "n": "1",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "Q01/Q01-U02"
+    },
+    {
+      "id": "selected-e4307b148c6fc638",
+      "unitId": "selection.T18.speed.river.different-currents-two-trips",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "ある川を船で56km上るのに7時間かかり、下るときは流速が上ったときの3倍になっていたので4時間かかりました。\n(1) この川を上ったときの流速は時速何kmですか。\n(2) この船の静水時の速さは時速何kmですか。",
+      "source": {
+        "title": "R22Tt-4 1,2",
+        "url": "https://app.notion.com/p/3f52b010743c8126b0ebf309ee702d87?pvs=204",
+        "locator": "Notion指定小問 1,2",
+        "sourceText": "ある川を船で56km上るのに7時間かかり、下るときは流速が上ったときの3倍になっていたので4時間かかりました。\n(1) この川を上ったときの流速は時速何kmですか。\n(2) この船の静水時の速さは時速何kmですか。",
+        "sourceAnswer": "(1)時速1.5km　(2)時速9.5km",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+          "page": 75
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-e4307b148c6fc638",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+          "page": 73,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+          "page": 75
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "3",
+            "d": "2",
+            "unit": "km/時",
+            "dimension": "speed"
+          },
+          {
+            "label": "(2)",
+            "n": "19",
+            "d": "2",
+            "unit": "km/時",
+            "dimension": "speed"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R22"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "上りと下りの速さ",
+            "body": "距離を時間で割ります。",
+            "equation": "56÷7＝8、56÷4＝14"
+          },
+          {
+            "id": "s2",
+            "title": "流速の差を整理する",
+            "body": "上ったときの流速を①とすると、上りは静水時の速さ−①、下りは静水時の速さ＋③です。",
+            "equation": ""
+          },
+          {
+            "id": "s3",
+            "title": "上ったときの流速",
+            "body": "速さの差6が流速4個分です。",
+            "equation": "14−8＝6、6÷4＝1.5"
+          },
+          {
+            "id": "s4",
+            "title": "静水時の速さ",
+            "body": "上りの速さに、上ったときの流速を加えます。",
+            "equation": "8＋1.5＝9.5",
+            "checkpoint": {
+              "prompt": "下りと上りの速さの差は時速何kmですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "km/時",
+                "dimension": "speed"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T18/speed.river.different-currents-two-trips"
+    },
+    {
+      "id": "selected-e385fefc2b3bf7bc",
+      "unitId": "selection.T22.clock.bisector.long-hand-to-twelve",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "2時と3時の間で、時計の長針と12時の方向が作る角を短針が2等分する時刻を求めなさい。",
+      "source": {
+        "title": "R23T⑤-1",
+        "url": "https://app.notion.com/p/3f52b010743c81868bc0fcb39a87b4d8?pvs=204",
+        "locator": "Notion指定小問 all",
+        "sourceText": "2時と3時の間で、時計の長針と12時の方向が作る角を短針が2等分する時刻を求めなさい。",
+        "sourceAnswer": "2時24分",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 67
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-e385fefc2b3bf7bc",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 55,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 59
+        }
+      },
+      "answer": {
+        "dimension": "clock",
+        "h": "2",
+        "m": "24",
+        "unit": ""
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R23"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "針の進む角度の比",
+            "body": "長針と短針は同じ時間に12：1の角度を進みます。",
+            "equation": "6÷0.5＝12"
+          },
+          {
+            "id": "s2",
+            "title": "短針の位置",
+            "body": "短針が①度進む間に長針は⑫度進みます。12時の方向から短針までの角度は60＋①度です。",
+            "equation": "30×2＝60"
+          },
+          {
+            "id": "s3",
+            "title": "角を2等分する条件",
+            "body": "長針の角度の半分が60＋①度なので、⑥＝60＋①、⑤＝60となります。",
+            "equation": "60÷5＝12"
+          },
+          {
+            "id": "s4",
+            "title": "時刻を求める",
+            "body": "短針が12度進む時間は24分です。よって2時24分です。",
+            "equation": "12÷0.5＝24",
+            "checkpoint": {
+              "prompt": "短針が進んだ角度は何度ですか。",
+              "answer": {
+                "n": "12",
+                "d": "1",
+                "unit": "度",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T22/clock.bisector.long-hand-to-twelve"
+    },
+    {
+      "id": "selected-e9430d66d0fbc833",
+      "unitId": "selection.W08.W08-U01",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "180人の男子生徒が並んで、3列の中空方陣を作りました。\n(1) いちばん外側の1辺には何人の生徒が並んでいますか。\n(2) 中の空いているところに女子生徒が男子生徒と同じ間かくで並んで、全体が中実方陣になるようにします。女子生徒は何人並びますか。",
+      "source": {
+        "title": "4R26N③-3 1,2",
+        "url": "https://app.notion.com/p/3f52b010743c812493c8fd50a128e645?pvs=204",
+        "locator": "Notion指定小問 1,2",
+        "sourceText": "180人の男子生徒が並んで、3列の中空方陣を作りました。\n(1) いちばん外側の1辺には何人の生徒が並んでいますか。\n(2) 中の空いているところに女子生徒が男子生徒と同じ間かくで並んで、全体が中実方陣になるようにします。女子生徒は何人並びますか。",
+        "sourceAnswer": "(1)18人　(2)144人",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+          "page": 22
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-e9430d66d0fbc833",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+          "page": 10,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "18",
+            "d": "1",
+            "unit": "人",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(2)",
+            "n": "144",
+            "d": "1",
+            "unit": "人",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R26"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "中空方陣を4つに分ける",
+            "body": "3列の方陣を4つの同じ長方形に分けると、1つに45人います。",
+            "equation": "180÷4＝45"
+          },
+          {
+            "id": "s2",
+            "title": "外側の1辺",
+            "body": "長方形の長い辺の15人に、3列分を加えます。",
+            "equation": "45÷3＝15、15＋3＝18"
+          },
+          {
+            "id": "s3",
+            "title": "中実方陣の人数",
+            "body": "18人ずつ18列に並びます。",
+            "equation": "18×18＝324"
+          },
+          {
+            "id": "s4",
+            "title": "女子の人数",
+            "body": "全体から男子180人を引きます。",
+            "equation": "324−180＝144",
+            "checkpoint": {
+              "prompt": "中実方陣になったとき、男女合わせて何人ですか。",
+              "answer": {
+                "n": "324",
+                "d": "1",
+                "unit": "人",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "W08/W08-U01"
+    },
+    {
+      "id": "selected-1ee629ee7ba1c488",
+      "unitId": "selection.W08.W08-U03",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "ご石を正方形の形にぎっしり並べたところ、39個あまったので、たて、横ともに1列ずつ増やそうとしたところ、4個足りなくなりました。\n(1) はじめの正方形の1辺には何個のご石が並んでいましたか。\n(2) ご石は全部で何個ありますか。",
+      "source": {
+        "title": "4R26N④-3 1,2",
+        "url": "https://app.notion.com/p/3f52b010743c8115818ee3611d99bd47?pvs=204",
+        "locator": "Notion指定小問 1,2",
+        "sourceText": "ご石を正方形の形にぎっしり並べたところ、39個あまったので、たて、横ともに1列ずつ増やそうとしたところ、4個足りなくなりました。\n(1) はじめの正方形の1辺には何個のご石が並んでいましたか。\n(2) ご石は全部で何個ありますか。",
+        "sourceAnswer": "(1)21個　(2)480個",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+          "page": 23
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-1ee629ee7ba1c488",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+          "page": 13,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "21",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(2)",
+            "n": "480",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R26"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "増やすご石の数",
+            "body": "余った39個と足りない4個を合わせます。",
+            "equation": "39＋4＝43"
+          },
+          {
+            "id": "s2",
+            "title": "角の1個を除く",
+            "body": "増やす2辺に共通する角の1個を引きます。",
+            "equation": "43−1＝42"
+          },
+          {
+            "id": "s3",
+            "title": "はじめの1辺",
+            "body": "残りは同じ長さの2辺分です。",
+            "equation": "42÷2＝21"
+          },
+          {
+            "id": "s4",
+            "title": "全部のご石",
+            "body": "はじめに並べた正方形と余った39個を合わせます。",
+            "equation": "21×21＋39＝480",
+            "checkpoint": {
+              "prompt": "たて・横を1列ずつ増やすには何個必要ですか。",
+              "answer": {
+                "n": "43",
+                "d": "1",
+                "unit": "個",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "W08/W08-U03"
+    },
+    {
+      "id": "selected-48776fc371d65313",
+      "unitId": "selection.N03.N03-U05",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "右の図のように、たて65cm、横105cmの長方形のかべに、同じ大きさの正方形のタイルをはります。かべのはしとタイルの間も、タイルとタイルの間も1cmずつあけます。タイルをできるだけ大きくすると、1辺の長さは何cmになりますか。",
+      "source": {
+        "title": "4S06L②-4",
+        "url": "https://app.notion.com/p/3f52b010743c8109b006c9f557cd7371?pvs=204",
+        "locator": "Notion指定小問 all",
+        "sourceText": "右の図のように、たて65cm、横105cmの長方形のかべに、同じ大きさの正方形のタイルをはります。かべのはしとタイルの間も、タイルとタイルの間も1cmずつあけます。タイルをできるだけ大きくすると、1辺の長さは何cmになりますか。",
+        "sourceAnswer": "7cm",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-S06 約数.pdf",
+          "page": 16
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-48776fc371d65313",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-S06 約数.pdf",
+          "page": 4,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-S06 約数.pdf",
+          "page": 14
+        }
+      },
+      "answer": {
+        "n": "7",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4S06"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "タイルとすき間を1組にする",
+            "body": "タイルの1辺を□cmとすると、1組の長さは1＋□cmです。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "両端のすき間を考える",
+            "body": "最後のすき間1cmを引くと、1組の長さで割り切れます。",
+            "equation": "65−1＝64、105−1＝104"
+          },
+          {
+            "id": "s3",
+            "title": "最大公約数を使う",
+            "body": "1＋□を最大にするので、64と104の最大公約数8を使います。",
+            "equation": ""
+          },
+          {
+            "id": "s4",
+            "title": "タイルの1辺",
+            "body": "すき間の1cmを引きます。",
+            "equation": "8−1＝7",
+            "checkpoint": {
+              "prompt": "64と104の最大公約数はいくつですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "N03/N03-U05",
+      "figure": "figs/selected-48776fc371d65313.png"
+    },
+    {
+      "id": "selected-8286f5a214c5d44d",
+      "unitId": "selection.N06.N06-U04",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "35/53の分母と分子からそれぞれ同じ数を引いて約分すると4/7になります。\n引いた数を求めなさい。",
+      "source": {
+        "title": "R06N⑥-3",
+        "url": "https://app.notion.com/p/3f52b010743c8106ba29d0f2284dff22?pvs=204",
+        "locator": "Notion指定小問 all",
+        "sourceText": "35/53の分母と分子からそれぞれ同じ数を引いて約分すると4/7になります。\n引いた数を求めなさい。",
+        "sourceAnswer": "11",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-06 数の性質(4)-小数・分数(2)-.pdf",
+          "page": 26
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-8286f5a214c5d44d",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-06 数の性質(4)-小数・分数(2)-.pdf",
+          "page": 17,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-06 数の性質(4)-小数・分数(2)-.pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "n": "11",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R06"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "分母と分子の差",
+            "body": "同じ数を引いても、分母と分子の差18は変わりません。",
+            "equation": "53−35＝18"
+          },
+          {
+            "id": "s2",
+            "title": "約分後の差",
+            "body": "4/7の分母と分子の差は3です。",
+            "equation": "7−4＝3"
+          },
+          {
+            "id": "s3",
+            "title": "約分前の分子",
+            "body": "6で約分したので、約分前の分子は24です。",
+            "equation": "18÷3＝6、4×6＝24"
+          },
+          {
+            "id": "s4",
+            "title": "引いた数",
+            "body": "もとの分子35から24を引きます。",
+            "equation": "35−24＝11",
+            "checkpoint": {
+              "prompt": "何で約分したことになりますか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "N06/N06-U04"
+    },
+    {
+      "id": "selected-c7a530039ceb6c09",
+      "unitId": "selection.P07.profit.two-prices.quantity-from-overall-profit",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "原価が1個200円の品物を600個仕入れ、仕入れ値の5割増しの定価をつけました。売れ行きが悪いので、途中から定価の4割引きで売ったら全部売り切れ、全体で2割2分の利益がありました。\n(3) 定価の4割引きで売った個数を求めなさい。",
+      "source": {
+        "title": "R17N⑦-2 3",
+        "url": "https://app.notion.com/p/3f52b010743c813cab97fd1cee416c21?pvs=204",
+        "locator": "Notion指定小問 3",
+        "sourceText": "原価が1個200円の品物を600個仕入れ、仕入れ値の5割増しの定価をつけました。売れ行きが悪いので、途中から定価の4割引きで売ったら全部売り切れ、全体で2割2分の利益がありました。\n(1) 定価を求めなさい。\n(2) 定価の4割引きで売ったときの売り値を求めなさい。\n(3) 定価の4割引きで売った個数を求めなさい。",
+        "sourceAnswer": "(1)300円　(2)180円　(3)280個",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+          "page": 25
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-c7a530039ceb6c09",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+          "page": 19,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "n": "280",
+        "d": "1",
+        "unit": "個",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R17"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "定価と割引後の売り値",
+            "body": "仕入れ値200円の5割増しが定価、定価の4割引きが途中からの売り値です。",
+            "equation": "200×1.5＝300、300×0.6＝180"
+          },
+          {
+            "id": "s2",
+            "title": "売り上げの総額",
+            "body": "仕入れ値全体の1.22倍です。",
+            "equation": "200×600＝120000、120000×1.22＝146400"
+          },
+          {
+            "id": "s3",
+            "title": "すべて定価で売った場合との差",
+            "body": "すべて300円で売ったときとの差を求めます。",
+            "equation": "300×600−146400＝33600"
+          },
+          {
+            "id": "s4",
+            "title": "値引きした個数",
+            "body": "1個につき120円の差があるので、差額を120で割ります。",
+            "equation": "33600÷(300−180)＝280",
+            "checkpoint": {
+              "prompt": "1個を値引きして売ると、定価より何円安くなりますか。",
+              "answer": {
+                "n": "120",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P07/profit.two-prices.quantity-from-overall-profit"
+    },
+    {
+      "id": "selected-97b70a2cce4615a7",
+      "unitId": "selection.P07.profit.unsold.sales-loss",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "コップを1個あたり320円で仕入れました。1個400円で売ると、10個こわれて売れなかったとしても16000円の利益があります。\n(1) 1個400円ですべて売れたときの利益を求めなさい。\n(2) 仕入れたコップの個数を求めなさい。",
+      "source": {
+        "title": "R17N⑥-3 1,2",
+        "url": "https://app.notion.com/p/3f52b010743c810a95b0f7c59f1f4095?pvs=204",
+        "locator": "Notion指定小問 1,2",
+        "sourceText": "コップを1個あたり320円で仕入れました。1個400円で売ると、10個こわれて売れなかったとしても16000円の利益があります。\n(1) 1個400円ですべて売れたときの利益を求めなさい。\n(2) 仕入れたコップの個数を求めなさい。",
+        "sourceAnswer": "(1)20000円　(2)250個",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+          "page": 24
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-97b70a2cce4615a7",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+          "page": 16,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "20000",
+            "d": "1",
+            "unit": "円",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(2)",
+            "n": "250",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R17"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "こわれた10個を売れたと考える",
+            "body": "10個が売れれば売り上げが4000円増えます。",
+            "equation": "400×10＝4000"
+          },
+          {
+            "id": "s2",
+            "title": "すべて売れたときの利益",
+            "body": "仕入れ値は変わらないので、利益も4000円増えます。",
+            "equation": "16000＋4000＝20000"
+          },
+          {
+            "id": "s3",
+            "title": "1個あたりの利益",
+            "body": "売り値から仕入れ値を引きます。",
+            "equation": "400−320＝80"
+          },
+          {
+            "id": "s4",
+            "title": "仕入れた個数",
+            "body": "全体の利益を1個あたりの利益で割ります。",
+            "equation": "20000÷80＝250",
+            "checkpoint": {
+              "prompt": "1個売れたときの利益は何円ですか。",
+              "answer": {
+                "n": "80",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P07/profit.unsold.sales-loss"
+    },
+    {
+      "id": "selected-16f241625f05fdc8",
+      "unitId": "selection.P17.histogram.rank-to-class",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "右のグラフは、ケンタ君たちのボール投げの記録です。\n(2) ボール投げの記録が、長い方から数えて10番目の人は、「何mをこえて何mまで」のグループに入りますか。",
+      "source": {
+        "title": "4R01T⑤-2 2",
+        "url": "https://app.notion.com/p/3f52b010743c81c1b524d9724a5a95eb?pvs=204",
+        "locator": "Notion指定小問 2",
+        "sourceText": "右のグラフは、ケンタ君たちのボール投げの記録です。\n(1) 人数の合計は何人ですか。\n(2) ボール投げの記録が、長い方から数えて10番目の人は、「何mをこえて何mまで」のグループに入りますか。\n(3) ケンタ君の記録は13mでした。この記録は短い方から数えたとき、いちばんはやくて何番目ですか。いちばんおそくて何番目ですか。",
+        "sourceAnswer": "(1)40人　(2)25mをこえて30mまで　(3)6番目、10番目",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 58
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-16f241625f05fdc8",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 52,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 58
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(2) こえて",
+            "n": "25",
+            "d": "1",
+            "unit": "m",
+            "dimension": "length"
+          },
+          {
+            "label": "(2) まで",
+            "n": "30",
+            "d": "1",
+            "unit": "m",
+            "dimension": "length"
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4R01"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "長い方から数える",
+            "body": "35mをこえて40mまでは2人です。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "次のグループまで",
+            "body": "30mをこえて35mまでの4人を合わせると6人です。",
+            "equation": "2＋4＝6"
+          },
+          {
+            "id": "s3",
+            "title": "10番目が入る範囲",
+            "body": "25mをこえて30mまでの6人も合わせると12人です。",
+            "equation": "2＋4＋6＝12"
+          },
+          {
+            "id": "s4",
+            "title": "グループを答える",
+            "body": "10番目は7〜12番目のグループなので、25mをこえて30mまでです。",
+            "equation": "",
+            "checkpoint": {
+              "prompt": "30mをこえる記録の人は何人ですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "人",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P17/histogram.rank-to-class",
+      "figure": "figs/selected-16f241625f05fdc8.png"
+    },
+    {
+      "id": "selected-ad0549338cf4b1a9",
+      "unitId": "selection.P17.histogram.total-frequency",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "右のグラフは、ケンタ君たちのボール投げの記録です。\n(1) 人数の合計は何人ですか。",
+      "source": {
+        "title": "4R01T⑤-2 1",
+        "url": "https://app.notion.com/p/3f52b010743c81c1b524d9724a5a95eb?pvs=204",
+        "locator": "Notion指定小問 1",
+        "sourceText": "右のグラフは、ケンタ君たちのボール投げの記録です。\n(1) 人数の合計は何人ですか。\n(2) ボール投げの記録が、長い方から数えて10番目の人は、「何mをこえて何mまで」のグループに入りますか。\n(3) ケンタ君の記録は13mでした。この記録は短い方から数えたとき、いちばんはやくて何番目ですか。いちばんおそくて何番目ですか。",
+        "sourceAnswer": "(1)40人　(2)25mをこえて30mまで　(3)6番目、10番目",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 58
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-ad0549338cf4b1a9",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 52,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 58
+        }
+      },
+      "answer": {
+        "n": "40",
+        "d": "1",
+        "unit": "人",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4R01"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "グラフの目盛り",
+            "body": "縦軸から各グループの人数を読み取ります。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "短い方の4組",
+            "body": "人数は2、3、5、8人です。",
+            "equation": ""
+          },
+          {
+            "id": "s3",
+            "title": "長い方の4組",
+            "body": "人数は10、6、4、2人です。",
+            "equation": ""
+          },
+          {
+            "id": "s4",
+            "title": "全員を加える",
+            "body": "各グループの人数を合わせると40人です。",
+            "equation": "2＋3＋5＋8＋10＋6＋4＋2＝40",
+            "checkpoint": {
+              "prompt": "全グループの人数の合計は何人ですか。",
+              "answer": {
+                "n": "40",
+                "d": "1",
+                "unit": "人",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P17/histogram.total-frequency",
+      "figure": "figs/selected-ad0549338cf4b1a9.png"
+    },
+    {
+      "id": "selected-7ae7ac309898b28f",
+      "unitId": "selection.P17.histogram.value-to-rank-range",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "右のグラフは、ケンタ君たちのボール投げの記録です。\n(3) ケンタ君の記録は13mでした。この記録は短い方から数えたとき、いちばんはやくて何番目ですか。いちばんおそくて何番目ですか。",
+      "source": {
+        "title": "4R01T⑤-2 3",
+        "url": "https://app.notion.com/p/3f52b010743c81c1b524d9724a5a95eb?pvs=204",
+        "locator": "Notion指定小問 3",
+        "sourceText": "右のグラフは、ケンタ君たちのボール投げの記録です。\n(1) 人数の合計は何人ですか。\n(2) ボール投げの記録が、長い方から数えて10番目の人は、「何mをこえて何mまで」のグループに入りますか。\n(3) ケンタ君の記録は13mでした。この記録は短い方から数えたとき、いちばんはやくて何番目ですか。いちばんおそくて何番目ですか。",
+        "sourceAnswer": "(1)40人　(2)25mをこえて30mまで　(3)6番目、10番目",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 58
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-7ae7ac309898b28f",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 52,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 58
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(3) いちばんはやくて",
+            "n": "6",
+            "d": "1",
+            "unit": "番目",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(3) いちばんおそくて",
+            "n": "10",
+            "d": "1",
+            "unit": "番目",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4R01"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "13mのグループ",
+            "body": "10mをこえて15mまでの5人のグループです。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "手前の人数",
+            "body": "10mまでの人数は2人と3人です。",
+            "equation": "2＋3＝5"
+          },
+          {
+            "id": "s3",
+            "title": "いちばんはやい順位",
+            "body": "そのグループの最初なら6番目です。",
+            "equation": "2＋3＋1＝6"
+          },
+          {
+            "id": "s4",
+            "title": "いちばんおそい順位",
+            "body": "そのグループの最後なら10番目です。",
+            "equation": "2＋3＋5＝10",
+            "checkpoint": {
+              "prompt": "10mまでの人は何人ですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "人",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P17/histogram.value-to-rank-range",
+      "figure": "figs/selected-7ae7ac309898b28f.png"
+    },
+    {
+      "id": "selected-e1439dc19fbba560",
+      "unitId": "selection.P17.table.cross-tab.marginal-total",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "下の表は、4年生の1組、2組、3組で、すきなくだものを調べて、整理したものです。\n(1) バナナがすきな生徒は全部で何人いますか。\n(3) 4年生全体で何人の生徒がいますか。",
+      "source": {
+        "title": "4R01T⑤-1 1,3",
+        "url": "https://app.notion.com/p/3f52b010743c81959e80d4f4111c1222?pvs=204",
+        "locator": "Notion指定小問 1,3",
+        "sourceText": "下の表は、4年生の1組、2組、3組で、すきなくだものを調べて、整理したものです。\n(1) バナナがすきな生徒は全部で何人いますか。\n(2) 4年生全体で、すきな人数がいちばん多いくだものは何ですか。\n(3) 4年生全体で何人の生徒がいますか。",
+        "sourceAnswer": "(1)23人　(2)メロン　(3)98人",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 58
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-e1439dc19fbba560",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 52,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 58
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "23",
+            "d": "1",
+            "unit": "人",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(3)",
+            "n": "98",
+            "d": "1",
+            "unit": "人",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 2,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4R01"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "バナナの行を読む",
+            "body": "1組9人、2組6人、3組8人です。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "バナナがすきな人数",
+            "body": "3つの組を合わせます。",
+            "equation": "9＋6＋8＝23"
+          },
+          {
+            "id": "s3",
+            "title": "各組の合計を読む",
+            "body": "1組33人、2組32人、3組33人です。",
+            "equation": ""
+          },
+          {
+            "id": "s4",
+            "title": "4年生全体",
+            "body": "各組の合計を合わせます。",
+            "equation": "33＋32＋33＝98",
+            "checkpoint": {
+              "prompt": "バナナがすきな生徒は全部で何人ですか。",
+              "answer": {
+                "n": "23",
+                "d": "1",
+                "unit": "人",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P17/table.cross-tab.marginal-total",
+      "figure": "figs/selected-e1439dc19fbba560.png"
+    },
+    {
+      "id": "selected-81ca2d669bf765f3",
+      "unitId": "selection.Q06.Q06-U03",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "A、B、C3つのテーブルがあり、いまAのテーブルに数字の書かれたカード（以後、1の数字が書かれているカードを1のカードと呼ぶことにします）がおかれています。\nただし、つねに書かれている数が大きいカードが下にあるようにおかなくてはいけません。このカードをすべてCのテーブルに移動させるときの手数を考えます。ただし、1手につき1枚のカードしか移動することはできず、そのときも重なるカードは大きい数のカードが下になくてはいけません。たとえば、はじめにAのテーブルに1、2、3の3枚のカードがあるとき、この3枚をすべてCのテーブルに移動させるには最低で7手必要になります。\n(1) はじめにAのテーブルに1から4までの4枚のカードがおかれているとき、この4枚のカードをCのテーブルにすべて移動させるには最低で何手必要ですか。\n(4) はじめにAのテーブルに1から8までがそれぞれ書かれた8枚のカードがおかれているとき、すべてをCのテーブルに移動させるには最低で何手必要ですか。",
+      "source": {
+        "title": "4R12T⑥-2 1,4",
+        "url": "https://app.notion.com/p/3f52b010743c810fa9acee28a7c88748?pvs=204",
+        "locator": "Notion指定小問 1,4",
+        "sourceText": "A、B、C3つのテーブルがあり、いまAのテーブルに数字の書かれたカード（以後、1の数字が書かれているカードを1のカードと呼ぶことにします）がおかれています。\nただし、つねに書かれている数が大きいカードが下にあるようにおかなくてはいけません。このカードをすべてCのテーブルに移動させるときの手数を考えます。ただし、1手につき1枚のカードしか移動することはできず、そのときも重なるカードは大きい数のカードが下になくてはいけません。たとえば、はじめにAのテーブルに1、2、3の3枚のカードがあるとき、この3枚をすべてCのテーブルに移動させるには最低で7手必要になります。\n(1) はじめにAのテーブルに1から4までの4枚のカードがおかれているとき、この4枚のカードをCのテーブルにすべて移動させるには最低で何手必要ですか。\n(2) (1)のとき、2のカードは何回移動しましたか。\n(3) はじめにAのテーブルに1、2、2、3、4の5枚のカードがおかれているとき、すべてのカードをCのテーブルに移動させるには最低で何手必要ですか。ただし、同じ数が書かれているカードに上下関係はなく、どちらが上にあってもよいものとします。\n(4) はじめにAのテーブルに1から8までがそれぞれ書かれた8枚のカードがおかれているとき、すべてをCのテーブルに移動させるには最低で何手必要ですか。",
+        "sourceAnswer": "(1)15手　(2)4回　(3)19手　(4)255手",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+          "page": 59
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-81ca2d669bf765f3",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+          "page": 54,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+          "page": 55
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "15",
+            "d": "1",
+            "unit": "手",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(4)",
+            "n": "255",
+            "d": "1",
+            "unit": "手",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4R12"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "3枚の場合",
+            "body": "3枚を移すには7手必要です。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "4枚の場合",
+            "body": "最初の8手で4をCへ移し、残る3枚を7手でCへ移します。",
+            "equation": "8＋7＝15"
+          },
+          {
+            "id": "s3",
+            "title": "手数の規則",
+            "body": "1枚、2枚、3枚、4枚では、2を枚数分かけて1を引いた数になります。",
+            "equation": "2−1＝1、2×2−1＝3、2×2×2−1＝7"
+          },
+          {
+            "id": "s4",
+            "title": "8枚の場合",
+            "body": "2を8個かけて1を引きます。",
+            "equation": "2×2×2×2×2×2×2×2−1＝255",
+            "checkpoint": {
+              "prompt": "4枚のカードを移す最少手数はいくつですか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "手",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "Q06/Q06-U03",
+      "figure": "figs/selected-81ca2d669bf765f3.png"
+    },
+    {
+      "id": "selected-b3c416a45b5b1eec",
+      "unitId": "selection.Q06.Q06-U04",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "A、B、C3つのテーブルがあり、いまAのテーブルに数字の書かれたカード（以後、1の数字が書かれているカードを1のカードと呼ぶことにします）がおかれています。\nただし、つねに書かれている数が大きいカードが下にあるようにおかなくてはいけません。このカードをすべてCのテーブルに移動させるときの手数を考えます。ただし、1手につき1枚のカードしか移動することはできず、そのときも重なるカードは大きい数のカードが下になくてはいけません。たとえば、はじめにAのテーブルに1、2、3の3枚のカードがあるとき、この3枚をすべてCのテーブルに移動させるには最低で7手必要になります。\n(1) はじめにAのテーブルに1から4までの4枚のカードがおかれているとき、この4枚のカードをCのテーブルにすべて移動させるには最低で何手必要ですか。\n(2) (1)のとき、2のカードは何回移動しましたか。",
+      "source": {
+        "title": "4R12T⑥-2 2",
+        "url": "https://app.notion.com/p/3f52b010743c810fa9acee28a7c88748?pvs=204",
+        "locator": "Notion指定小問 2",
+        "sourceText": "A、B、C3つのテーブルがあり、いまAのテーブルに数字の書かれたカード（以後、1の数字が書かれているカードを1のカードと呼ぶことにします）がおかれています。\nただし、つねに書かれている数が大きいカードが下にあるようにおかなくてはいけません。このカードをすべてCのテーブルに移動させるときの手数を考えます。ただし、1手につき1枚のカードしか移動することはできず、そのときも重なるカードは大きい数のカードが下になくてはいけません。たとえば、はじめにAのテーブルに1、2、3の3枚のカードがあるとき、この3枚をすべてCのテーブルに移動させるには最低で7手必要になります。\n(1) はじめにAのテーブルに1から4までの4枚のカードがおかれているとき、この4枚のカードをCのテーブルにすべて移動させるには最低で何手必要ですか。\n(2) (1)のとき、2のカードは何回移動しましたか。\n(3) はじめにAのテーブルに1、2、2、3、4の5枚のカードがおかれているとき、すべてのカードをCのテーブルに移動させるには最低で何手必要ですか。ただし、同じ数が書かれているカードに上下関係はなく、どちらが上にあってもよいものとします。\n(4) はじめにAのテーブルに1から8までがそれぞれ書かれた8枚のカードがおかれているとき、すべてをCのテーブルに移動させるには最低で何手必要ですか。",
+        "sourceAnswer": "(1)15手　(2)4回　(3)19手　(4)255手",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+          "page": 59
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-b3c416a45b5b1eec",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+          "page": 54,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+          "page": 55
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(2)",
+            "n": "4",
+            "d": "1",
+            "unit": "回",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4R12"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "4枚を移す手順",
+            "body": "原教材の15手の手順で、2のカードの動きを追います。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "前半の移動",
+            "body": "2手目にAからCへ、6手目にCからBへ移します。",
+            "equation": ""
+          },
+          {
+            "id": "s3",
+            "title": "後半の移動",
+            "body": "10手目にBからAへ、14手目にAからCへ移します。",
+            "equation": ""
+          },
+          {
+            "id": "s4",
+            "title": "回数を数える",
+            "body": "2手目、6手目、10手目、14手目の4回です。",
+            "equation": "",
+            "checkpoint": {
+              "prompt": "2のカードが動く手は何回ありますか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "回",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "Q06/Q06-U04",
+      "figure": "figs/selected-b3c416a45b5b1eec.png"
+    },
+    {
+      "id": "selected-69e7ae665534e32d",
+      "unitId": "selection.T12.speed.forgotten.wait-from-arrival",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "マサト君は毎日同じ時刻に家を出て、1.5kmはなれた学校まで分速60mの速さで歩いて、午前8時に学校に着いています。ある日、いつもと同じ時刻に家を出て学校へ行くとちゅう、家から300m進んだところで忘れ物に気がついたので、分速100mの速さで家にもどりました。何分間か忘れ物をさがした後、分速100mの速さで学校に向かったところ、予定通りに午前8時に着きました。\n(1) マサト君は午前何時何分に家を出ていますか。\n(2) 忘れ物をさがしていた時間は何分間ですか。",
+      "source": {
+        "title": "4R33N⑦-1 1,2",
+        "url": "https://app.notion.com/p/3f52b010743c8155a94ad252182b09e2?pvs=204",
+        "locator": "Notion指定小問 1,2",
+        "sourceText": "マサト君は毎日同じ時刻に家を出て、1.5kmはなれた学校まで分速60mの速さで歩いて、午前8時に学校に着いています。ある日、いつもと同じ時刻に家を出て学校へ行くとちゅう、家から300m進んだところで忘れ物に気がついたので、分速100mの速さで家にもどりました。何分間か忘れ物をさがした後、分速100mの速さで学校に向かったところ、予定通りに午前8時に着きました。\n(1) マサト君は午前何時何分に家を出ていますか。\n(2) 忘れ物をさがしていた時間は何分間ですか。",
+        "sourceAnswer": "(1)午前7時35分　(2)2分間",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-33 速さ.pdf",
+          "page": 23
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-69e7ae665534e32d",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-33 速さ.pdf",
+          "page": 18,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-33 速さ.pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "dimension": "clock",
+            "h": "7",
+            "m": "35",
+            "ampm": "午前",
+            "unit": ""
+          },
+          {
+            "label": "(2)",
+            "n": "2",
+            "d": "1",
+            "unit": "分",
+            "dimension": "time"
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R33"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "いつもの所要時間",
+            "body": "家から学校まで1500mです。",
+            "equation": "1500÷60＝25"
+          },
+          {
+            "id": "s2",
+            "title": "出発時刻",
+            "body": "午前8時の25分前なので、午前7時35分です。",
+            "equation": ""
+          },
+          {
+            "id": "s3",
+            "title": "家にもどる時刻",
+            "body": "300m進むのに5分、もどるのに3分。家にもどるのは午前7時43分です。",
+            "equation": "300÷60＝5、300÷100＝3"
+          },
+          {
+            "id": "s4",
+            "title": "再出発と探した時間",
+            "body": "学校まで15分なので再出発は7時45分。7時43分からの2分間が探した時間です。",
+            "equation": "1500÷100＝15、45−43＝2",
+            "checkpoint": {
+              "prompt": "家から学校まで分速100mで何分かかりますか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "分",
+                "dimension": "time"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T12/speed.forgotten.wait-from-arrival"
+    },
+    {
+      "id": "selected-520b666b4a6f9f48",
+      "unitId": "selection.T12.speed.multimodal.infer-middle-rate",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "図のように、線路と線路にそったまっすぐな道があります。A駅とB駅の間に、ミドリさんの家と学校があります。晴れの日は家から学校まで自転車で行きます。雨の日はA駅まで歩いてから電車に乗り、B駅で降りて学校まで歩きます。雨の日は晴れの日より、4分早く学校に着きます。ミドリさんの出かける時間はいつも同じで、駅での乗り降りや電車を待つ時間は考えません。歩く速さは分速60m、自転車の速さは分速180mとします。\n(1) 晴れの日に、家から学校まで行くのに何分かかりますか。\n(2) 雨の日に、歩く時間の合計は何分ですか。",
+      "source": {
+        "title": "4R34T⑤-2 1,2",
+        "url": "https://app.notion.com/p/3f52b010743c810081a3db6713d907dc?pvs=204",
+        "locator": "Notion指定小問 1,2",
+        "sourceText": "図のように、線路と線路にそったまっすぐな道があります。A駅とB駅の間に、ミドリさんの家と学校があります。晴れの日は家から学校まで自転車で行きます。雨の日はA駅まで歩いてから電車に乗り、B駅で降りて学校まで歩きます。雨の日は晴れの日より、4分早く学校に着きます。ミドリさんの出かける時間はいつも同じで、駅での乗り降りや電車を待つ時間は考えません。歩く速さは分速60m、自転車の速さは分速180mとします。\n(1) 晴れの日に、家から学校まで行くのに何分かかりますか。\n(2) 雨の日に、歩く時間の合計は何分ですか。\n(3) 電車の速さは時速何kmですか。",
+        "sourceAnswer": "(1)25分　(2)15分　(3)時速54km",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+          "page": 60
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-520b666b4a6f9f48",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+          "page": 54,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+          "page": 57
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "25",
+            "d": "1",
+            "unit": "分",
+            "dimension": "time"
+          },
+          {
+            "label": "(2)",
+            "n": "15",
+            "d": "1",
+            "unit": "分",
+            "dimension": "time"
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4R34"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "晴れの日の道のり",
+            "body": "図より、家から学校までは4500mです。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "晴れの日の時間",
+            "body": "自転車の分速180mで割ります。",
+            "equation": "4500÷180＝25"
+          },
+          {
+            "id": "s3",
+            "title": "雨の日に歩く道のり",
+            "body": "家からA駅の540mとB駅から学校の360mを合わせます。",
+            "equation": "540＋360＝900"
+          },
+          {
+            "id": "s4",
+            "title": "雨の日に歩く時間",
+            "body": "分速60mで割ると15分です。",
+            "equation": "900÷60＝15",
+            "checkpoint": {
+              "prompt": "雨の日に歩く道のりの合計は何mですか。",
+              "answer": {
+                "n": "900",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T12/speed.multimodal.infer-middle-rate",
+      "figure": "figs/selected-520b666b4a6f9f48.png"
+    },
+    {
+      "id": "selected-83ae5db167953286",
+      "unitId": "selection.T13.speed.phase-time.rest-excluded",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "ミドリさんは4.2kmのハイキングコースを歩くのに、午前9時にスタート地点を出発し、分速80mの速さで進みました。とちゅうの公園で15分休み、その後は分速60mの速さで進み、午前10時12分にゴールに入りました。\n(1) 公園に着いた時刻を求めなさい。\n(2) 公園からゴールまでの道のりは何mですか。",
+      "source": {
+        "title": "4R34T④-2 1,2",
+        "url": "https://app.notion.com/p/3f52b010743c810db17ce2c777351c4a?pvs=204",
+        "locator": "Notion指定小問 1,2",
+        "sourceText": "ミドリさんは4.2kmのハイキングコースを歩くのに、午前9時にスタート地点を出発し、分速80mの速さで進みました。とちゅうの公園で15分休み、その後は分速60mの速さで進み、午前10時12分にゴールに入りました。\n(1) 公園に着いた時刻を求めなさい。\n(2) 公園からゴールまでの道のりは何mですか。",
+        "sourceAnswer": "(1)午前9時39分　(2)1080m",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+          "page": 59
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-83ae5db167953286",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+          "page": 52,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+          "page": 57
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "dimension": "clock",
+            "h": "9",
+            "m": "39",
+            "ampm": "午前",
+            "unit": ""
+          },
+          {
+            "label": "(2)",
+            "n": "1080",
+            "d": "1",
+            "unit": "m",
+            "dimension": "length"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R34"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "歩いた時間だけにする",
+            "body": "午前9時から10時12分までの72分から、休んだ15分を引きます。",
+            "equation": "72−15＝57"
+          },
+          {
+            "id": "s2",
+            "title": "分速80mで歩いた時間",
+            "body": "つるかめ算を使います。全部を分速60mとした場合の不足を、速さの差20で割ります。",
+            "equation": "(4200−60×57)÷(80−60)＝39"
+          },
+          {
+            "id": "s3",
+            "title": "公園に着いた時刻",
+            "body": "午前9時の39分後なので午前9時39分です。",
+            "equation": ""
+          },
+          {
+            "id": "s4",
+            "title": "公園からゴールまで",
+            "body": "残り18分を分速60mで歩きました。",
+            "equation": "57−39＝18、60×18＝1080",
+            "checkpoint": {
+              "prompt": "休みを除いて歩いていた時間は何分ですか。",
+              "answer": {
+                "n": "57",
+                "d": "1",
+                "unit": "分",
+                "dimension": "time"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T13/speed.phase-time.rest-excluded"
+    },
+    {
+      "id": "selected-1fcbad17478b3d19",
+      "unitId": "selection.T18.speed.river.opposite-shared-current-cancels",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "静水時の速さが時速11kmの船Aが川上のP地点から、静水時の速さが時速9kmの船Bが川下のQ地点から同時に出発して向かい合って進んだところ、出発してから4時間30分後に船Aと船Bがすれちがい、その3時間後に船AがQ地点に着きました。\n(1) P地点からQ地点までの距離は何kmですか。\n(2) この川の流速を求めなさい。",
+      "source": {
+        "title": "R22Tt-5 1,2",
+        "url": "https://app.notion.com/p/3f52b010743c811e86c9e5b7b35ad853?pvs=204",
+        "locator": "Notion指定小問 1,2",
+        "sourceText": "静水時の速さが時速11kmの船Aが川上のP地点から、静水時の速さが時速9kmの船Bが川下のQ地点から同時に出発して向かい合って進んだところ、出発してから4時間30分後に船Aと船Bがすれちがい、その3時間後に船AがQ地点に着きました。\n(1) P地点からQ地点までの距離は何kmですか。\n(2) この川の流速を求めなさい。",
+        "sourceAnswer": "(1)90km　(2)時速1km",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+          "page": 75
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-1fcbad17478b3d19",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+          "page": 73,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+          "page": 75
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "90",
+            "d": "1",
+            "unit": "km",
+            "dimension": "length"
+          },
+          {
+            "label": "(2)",
+            "n": "1",
+            "d": "1",
+            "unit": "km/時",
+            "dimension": "speed"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R22"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "向かい合う2船の速さの和",
+            "body": "上りと下りでは流速の分が打ち消し合い、静水時の速さの和になります。",
+            "equation": "11＋9＝20"
+          },
+          {
+            "id": "s2",
+            "title": "PQ間の距離",
+            "body": "出会うまで4時間30分、つまり4.5時間です。",
+            "equation": "20×4.5＝90"
+          },
+          {
+            "id": "s3",
+            "title": "船Aが下る速さ",
+            "body": "Qに着くまで全部で7.5時間なので、下る速さは時速12kmです。",
+            "equation": "4.5＋3＝7.5、90÷7.5＝12"
+          },
+          {
+            "id": "s4",
+            "title": "流速",
+            "body": "船Aの下る速さから静水時の速さを引きます。",
+            "equation": "12−11＝1",
+            "checkpoint": {
+              "prompt": "船AがPからQに着くまで何時間かかりましたか。",
+              "answer": {
+                "n": "15",
+                "d": "2",
+                "unit": "時間",
+                "dimension": "time"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T18/speed.river.opposite-shared-current-cancels"
+    },
+    {
+      "id": "selected-eb7ef236a1425c6d",
+      "unitId": "selection.T19.speed.train.point-clearance",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "長さ165mの列車が、秒速15mの速さでふみ切りを通りすぎました。ふみ切りに立っている人の前にさしかかってから、すっかり通りすぎるまでにかかる時間を求めなさい。",
+      "source": {
+        "title": "R23N①-1",
+        "url": "https://app.notion.com/p/3f52b010743c81f7954feadc1c73aa0d?pvs=204",
+        "locator": "Notion指定小問 all",
+        "sourceText": "長さ165mの列車が、秒速15mの速さでふみ切りを通りすぎました。ふみ切りに立っている人の前にさしかかってから、すっかり通りすぎるまでにかかる時間を求めなさい。",
+        "sourceAnswer": "11秒",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 21
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-eb7ef236a1425c6d",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 8,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 21
+        }
+      },
+      "answer": {
+        "n": "11",
+        "d": "1",
+        "unit": "秒",
+        "dimension": "time"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R23"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "通りすぎる前後を考える",
+            "body": "先頭が人の前にさしかかってから、最後尾が人の前を通りすぎるまでを考えます。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "移動する距離",
+            "body": "列車が進む距離は列車の長さと等しい165mです。",
+            "equation": ""
+          },
+          {
+            "id": "s3",
+            "title": "速さで割る",
+            "body": "時間は距離÷速さで求めます。",
+            "equation": "165÷15＝11"
+          },
+          {
+            "id": "s4",
+            "title": "答え",
+            "body": "すっかり通りすぎるまで11秒です。",
+            "equation": "",
+            "checkpoint": {
+              "prompt": "列車の先頭が移動する距離は何mですか。",
+              "answer": {
+                "n": "165",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T19/speed.train.point-clearance"
+    },
+    {
+      "id": "selected-b8a477725c303e56",
+      "unitId": "selection.T19.speed.train.two-clearance-conditions",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "ある電車は線路のそばに立っている人の前を通過するのに5秒かかります。また、この電車は長さ432mの鉄橋を通過するのに32秒かかります。\n(1) この電車の速さを求めなさい。\n(2) この電車の長さを求めなさい。",
+      "source": {
+        "title": "R24T②-3 1,2",
+        "url": "https://app.notion.com/p/3f52b010743c8107911ac496a2052e11?pvs=204",
+        "locator": "Notion指定小問 1,2",
+        "sourceText": "ある電車は線路のそばに立っている人の前を通過するのに5秒かかります。また、この電車は長さ432mの鉄橋を通過するのに32秒かかります。\n(1) この電車の速さを求めなさい。\n(2) この電車の長さを求めなさい。\n(3) この電車は、反対方向から時速36kmで走ってくる貨物列車とすれ違うのに8秒かかります。貨物列車の長さを求めなさい。",
+        "sourceAnswer": "(1)16m/秒　(2)80m　(3)128m",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+          "page": 62
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-b8a477725c303e56",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+          "page": 51,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+          "page": 61
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "16",
+            "d": "1",
+            "unit": "m/秒",
+            "dimension": "speed"
+          },
+          {
+            "label": "(2)",
+            "n": "80",
+            "d": "1",
+            "unit": "m",
+            "dimension": "length"
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R24"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "移動する距離の差",
+            "body": "人の前では電車の長さ、鉄橋では電車の長さ＋432mを進みます。差は432mです。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "時間の差",
+            "body": "鉄橋を通過する方が27秒長くかかります。",
+            "equation": "32−5＝27"
+          },
+          {
+            "id": "s3",
+            "title": "電車の速さ",
+            "body": "差の432mを27秒で進みます。",
+            "equation": "432÷27＝16"
+          },
+          {
+            "id": "s4",
+            "title": "電車の長さ",
+            "body": "人の前を通過する5秒間に進む距離です。",
+            "equation": "16×5＝80",
+            "checkpoint": {
+              "prompt": "2つの通過時間の差は何秒ですか。",
+              "answer": {
+                "n": "27",
+                "d": "1",
+                "unit": "秒",
+                "dimension": "time"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T19/speed.train.two-clearance-conditions"
+    },
+    {
+      "id": "selected-fe2fd90e44ced76a",
+      "unitId": "selection.T19.speed.train.two-tunnels.changed-speed",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "ある電車が1284mのトンネルを通過するのに61秒かかります。この電車の速さを1.5倍にすると、972mのトンネルを通過するのに32秒かかります。この電車の長さを求めなさい。",
+      "source": {
+        "title": "R23N⑦-2",
+        "url": "https://app.notion.com/p/3f52b010743c811aa326db346289b299?pvs=204",
+        "locator": "Notion指定小問 all",
+        "sourceText": "ある電車が1284mのトンネルを通過するのに61秒かかります。この電車の速さを1.5倍にすると、972mのトンネルを通過するのに32秒かかります。この電車の長さを求めなさい。",
+        "sourceAnswer": "180m",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 28
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-fe2fd90e44ced76a",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 19,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 21
+        }
+      },
+      "answer": {
+        "n": "180",
+        "d": "1",
+        "unit": "m",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R23"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "いつもの速さにそろえる",
+            "body": "速さを1.5倍にして32秒かかる距離は、いつもの速さなら48秒かかります。",
+            "equation": "32×1.5＝48"
+          },
+          {
+            "id": "s2",
+            "title": "距離と時間の差",
+            "body": "トンネルの長さの差312mを、時間の差13秒で進みます。",
+            "equation": "1284−972＝312、61−48＝13"
+          },
+          {
+            "id": "s3",
+            "title": "いつもの速さ",
+            "body": "距離の差を時間の差で割ります。",
+            "equation": "312÷13＝24"
+          },
+          {
+            "id": "s4",
+            "title": "電車の長さ",
+            "body": "61秒で進む距離から1284mのトンネルを引きます。",
+            "equation": "24×61−1284＝180",
+            "checkpoint": {
+              "prompt": "972mのトンネルはいつもの速さなら何秒で通過しますか。",
+              "answer": {
+                "n": "48",
+                "d": "1",
+                "unit": "秒",
+                "dimension": "time"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T19/speed.train.two-tunnels.changed-speed"
+    },
+    {
+      "id": "selected-ee923a7fbd966127",
+      "unitId": "selection.T20.speed.train.same-direction-length-sum",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "長さ120mで秒速20mのA電車が、長さ80mのB電車に追いついてから追い越すまでに50秒かかりました。B電車の速さを求めなさい。",
+      "source": {
+        "title": "R23N③-5",
+        "url": "https://app.notion.com/p/3f52b010743c811bad29c49dfa81f471?pvs=204",
+        "locator": "Notion指定小問 all",
+        "sourceText": "長さ120mで秒速20mのA電車が、長さ80mのB電車に追いついてから追い越すまでに50秒かかりました。B電車の速さを求めなさい。",
+        "sourceAnswer": "16m/秒",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 24
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-ee923a7fbd966127",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 11,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 21
+        }
+      },
+      "answer": {
+        "n": "16",
+        "d": "1",
+        "unit": "m/秒",
+        "dimension": "speed"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R23"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "追い越すときの距離",
+            "body": "追い越すまでに進む距離の差は、2つの電車の長さの和です。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "長さの和",
+            "body": "Aの120mとBの80mを合わせます。",
+            "equation": "120＋80＝200"
+          },
+          {
+            "id": "s3",
+            "title": "速さの差",
+            "body": "50秒で200mの差をつけます。",
+            "equation": "200÷50＝4"
+          },
+          {
+            "id": "s4",
+            "title": "Bの速さ",
+            "body": "Aの秒速20mから速さの差4mを引きます。",
+            "equation": "20−4＝16",
+            "checkpoint": {
+              "prompt": "2つの電車の速さの差は秒速何mですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "m/秒",
+                "dimension": "speed"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T20/speed.train.same-direction-length-sum"
+    },
+    {
+      "id": "selected-2f419f892cc5a183",
+      "unitId": "selection.T20.speed.train.tunnel-difference-and-pass-sum",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "A電車は秒速25m、B電車は秒速40mです。あるトンネルを通過するのにA電車は52秒、B電車は30秒かかります。また、A電車とB電車がすれ違うのに6秒かかります。\n(1) A電車とB電車の長さの差を求めなさい。\n(2) A電車の長さを求めなさい。",
+      "source": {
+        "title": "R23N④-4 1,2",
+        "url": "https://app.notion.com/p/3f52b010743c8143a7d5fc74529ad983?pvs=204",
+        "locator": "Notion指定小問 1,2",
+        "sourceText": "A電車は秒速25m、B電車は秒速40mです。あるトンネルを通過するのにA電車は52秒、B電車は30秒かかります。また、A電車とB電車がすれ違うのに6秒かかります。\n(1) A電車とB電車の長さの差を求めなさい。\n(2) A電車の長さを求めなさい。",
+        "sourceAnswer": "(1)100m　(2)245m",
+        "verification": "原本の問題・印刷解答を前回資料と再照合。原教材の解説に沿って段階化し、記載計算はPythonで検算。",
+        "explanationSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 25
+        },
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-2f419f892cc5a183",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 13,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 21
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "100",
+            "d": "1",
+            "unit": "m",
+            "dimension": "length"
+          },
+          {
+            "label": "(2)",
+            "n": "245",
+            "d": "1",
+            "unit": "m",
+            "dimension": "length"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R23"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "トンネル通過中の移動距離",
+            "body": "Aは1300m、Bは1200m進みます。",
+            "equation": "25×52＝1300、40×30＝1200"
+          },
+          {
+            "id": "s2",
+            "title": "電車の長さの差",
+            "body": "同じトンネルの長さを含むので、移動距離の差が電車の長さの差です。",
+            "equation": "1300−1200＝100"
+          },
+          {
+            "id": "s3",
+            "title": "電車の長さの和",
+            "body": "すれ違う6秒間に2つの電車が進む距離の和です。",
+            "equation": "(25＋40)×6＝390"
+          },
+          {
+            "id": "s4",
+            "title": "A電車の長さ",
+            "body": "Aの方が100m長いので、和に差を加えて2で割ります。",
+            "equation": "(390＋100)÷2＝245",
+            "checkpoint": {
+              "prompt": "2つの電車の長さの和は何mですか。",
+              "answer": {
+                "n": "390",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T20/speed.train.tunnel-difference-and-pass-sum"
+    },
+    {
+      "id": "selected-af53448fcebdb7ff",
+      "unitId": "selection.N07.N07-U02",
+      "category": "oneline",
+      "domain": "数の性質",
+      "text": "（図1）の1段目の□の中に1けたの整数を入れ、となり合った数の和を計算し、その一の位の数字を2段目の□の中に入れます。同じように、2段目のとなり合った数の和を計算し、その一の位の数字を3段目の□の中に入れます。さらに、3段目の2つの数の和を計算し、その一の位の数字を4段目の□の中に入れます。（図2）は、1段目に（3、0、5、9）を入れたときの例です。\nいま、1段目から4段目までの10個の□の中に、0から9の10個の数字が1つずつ入るようにしたいと思います。ただし、6と9の位置は（図3）のように決まっています。\n(1) 4段目の□に入る数を求めなさい。\n(2) ア、イに入る数をそれぞれ求めなさい。",
+      "source": {
+        "title": "4R25T⑥-2",
+        "url": "https://app.notion.com/p/3f52b010743c81b4a143efe4e5155882?pvs=204",
+        "locator": "原教材PDF（問題p56、解説p63）",
+        "sourceText": "（図1）の1段目の□の中に1けたの整数を入れ、となり合った数の和を計算し、その一の位の数字を2段目の□の中に入れます。同じように、2段目のとなり合った数の和を計算し、その一の位の数字を3段目の□の中に入れます。さらに、3段目の2つの数の和を計算し、その一の位の数字を4段目の□の中に入れます。（図2）は、1段目に（3、0、5、9）を入れたときの例です。\nいま、1段目から4段目までの10個の□の中に、0から9の10個の数字が1つずつ入るようにしたいと思います。ただし、6と9の位置は（図3）のように決まっています。\n(1) 4段目の□に入る数を求めなさい。\n(2) ア、イに入る数をそれぞれ求めなさい。",
+        "sourceAnswer": "(1)0 (2)ア4・イ1",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-af53448fcebdb7ff",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-25 文章題(6)-消去算-.pdf",
+          "page": 56,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-25 文章題(6)-消去算-.pdf",
+          "page": 63,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "0",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar",
+            "label": "(1)"
+          },
+          {
+            "n": "4",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar",
+            "label": "(2)ア"
+          },
+          {
+            "n": "1",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar",
+            "label": "(2)イ"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4R25"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "0の位置を考える",
+            "body": "1〜3段目に0があると、その下に隣の数字がそのまま入り、同じ数字が重なります。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "4段目を決める",
+            "body": "どの数字も1つずつなので、0は4段目に入ります。",
+            "equation": "4段目＝0"
+          },
+          {
+            "id": "s3",
+            "title": "3段目の組をしぼる",
+            "body": "和の一の位が0になる異なる数字の組を考えます。6と9はすでに1段目にあります。",
+            "equation": "(2,8) または (3,7)"
+          },
+          {
+            "id": "s4",
+            "title": "下からさかのぼる",
+            "body": "条件に合う配置は、1段目が9・4・1・6、2段目が3・5・7、3段目が8・2になります。",
+            "equation": "9,4,1,6 → 3,5,7 → 8,2 → 0",
+            "checkpoint": {
+              "prompt": "4段目に入る数はいくつですか。",
+              "answer": {
+                "n": "0",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "N07/N07-U02",
+      "figure": "figs/selected-af53448fcebdb7ff.png"
+    },
+    {
+      "id": "selected-ca849a9999cb5e6f",
+      "unitId": "selection.Q06.Q06-U02",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "一度に1段または2段上って、ある段数の階段を上るときの上る方法が何通りあるかを考えます。\n(1) 下の表の㋐、㋑にあてはまる数を答えなさい。\n(2) 10段の階段を上るとき、何通りの上り方がありますか。",
+      "source": {
+        "title": "R09T⑥-2",
+        "url": "https://app.notion.com/p/3f52b010743c811ebc05e51ce0b99965?pvs=204",
+        "locator": "原教材PDF（問題p62、解説p67）",
+        "sourceText": "一度に1段または2段上って、ある段数の階段を上るときの上る方法が何通りあるかを考えます。\n(1) 下の表の㋐、㋑にあてはまる数を答えなさい。\n(2) 10段の階段を上るとき、何通りの上り方がありますか。",
+        "sourceAnswer": "㋐3・㋑8／89通り",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-ca849a9999cb5e6f",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-09 速さ(3)-点の移動(1)-.pdf",
+          "page": 62,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-09 速さ(3)-点の移動(1)-.pdf",
+          "page": 67,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "3",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar",
+            "label": "(1)㋐"
+          },
+          {
+            "n": "8",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar",
+            "label": "(1)㋑"
+          },
+          {
+            "n": "89",
+            "d": "1",
+            "unit": "通り",
+            "dimension": "scalar",
+            "label": "(2)"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "R09"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "3段の上り方",
+            "body": "1と2の組み合わせをすべて書きます。",
+            "equation": "1+2、2+1、1+1+1：3通り"
+          },
+          {
+            "id": "s2",
+            "title": "5段の上り方",
+            "body": "2段上りを2回する場合が3通り、1回する場合が4通り、しない場合が1通りです。",
+            "equation": "3+4+1＝8"
+          },
+          {
+            "id": "s3",
+            "title": "直前の段で分ける",
+            "body": "N段目には、N−2段目から2段、またはN−1段目から1段上ります。それぞれの方法の数をたします。",
+            "equation": ""
+          },
+          {
+            "id": "s4",
+            "title": "10段まで続ける",
+            "body": "表の続きを順にたして求めます。",
+            "equation": "1,2,3,5,8,13,21,34,55,89",
+            "checkpoint": {
+              "prompt": "5段の階段の上り方は何通りですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "通り",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "Q06/Q06-U02",
+      "figure": "figs/selected-ca849a9999cb5e6f.png"
+    },
+    {
+      "id": "selected-d7a11bb612170411",
+      "unitId": "selection.C07.C07-U02",
+      "category": "oneline",
+      "domain": "場合の数",
+      "text": "右の図のようにたて、横1cmおきに、16個の点が規則正しく並んでいます。これらの点から4つ選んで、その点を頂点とする正方形を作ります。\n(1) 何種類の正方形ができますか。\n(2) 全部で何個の正方形ができますか。",
+      "source": {
+        "title": "S08L⑥-4",
+        "url": "https://app.notion.com/p/3f52b010743c8107a87de38d466300e2?pvs=204",
+        "locator": "原教材PDF（問題p14、解説p24）",
+        "sourceText": "右の図のようにたて、横1cmおきに、16個の点が規則正しく並んでいます。これらの点から4つ選んで、その点を頂点とする正方形を作ります。\n(1) 何種類の正方形ができますか。\n(2) 全部で何個の正方形ができますか。",
+        "sourceAnswer": "(1)5種類　(2)20個",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-d7a11bb612170411",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-夏08 場合の数.pdf",
+          "page": 14,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-夏08 場合の数.pdf",
+          "page": 24,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "5",
+            "d": "1",
+            "unit": "種類",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(2)",
+            "n": "20",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "scopeUnits": [
+        "S08"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "4×4の点から4点を選び、正方形を作ります。",
+            "equation": "16個の点"
+          },
+          {
+            "id": "s2",
+            "title": "まっすぐな正方形",
+            "body": "辺がたて・横の正方形は1辺1、2、3cmで、9＋4＋1＝14個です。",
+            "equation": "9＋4＋1＝14"
+          },
+          {
+            "id": "s3",
+            "title": "かたむいた正方形",
+            "body": "1つの点から右へ1・上へ1進む辺の正方形は4個、右へ1・上へ2進む辺のものは2個です。",
+            "equation": "4＋2＝6"
+          },
+          {
+            "id": "s4",
+            "title": "合計する",
+            "body": "大きさは5種類、個数は20個です。",
+            "equation": "14＋6＝20"
+          },
+          {
+            "id": "s5",
+            "title": "確かめ",
+            "body": "かたむいた正方形は、それを囲むまっすぐな正方形の中に入れて数えるともれがありません。",
+            "equation": "2×2の中に1、3×3の中に2",
+            "checkpoint": {
+              "prompt": "辺がたて・横にそった正方形は全部で何個ありますか。",
+              "answer": {
+                "n": "14",
+                "d": "1",
+                "unit": "個",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "C07/C07-U02",
+      "figure": "figs/selected-d7a11bb612170411.png"
+    },
+    {
+      "id": "selected-49edda1ef6f74a71",
+      "unitId": "selection.P14.proportion.spring.extension-not-length",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "図のようなバネにおもりをつるすと、バネののびる長さは、それにつるすおもりの重さに比例します。50gのおもりをつるしたら、バネの長さは20cmとなり、150gのおもりをつるしたら、バネの長さは36cmになりました。\n(1) おもり1gについて、バネは何cmのびますか。\n(2) おもりをつるさないときのバネの長さは何cmですか。\n(3) 250gのおもりをつるしたときのバネの長さは何cmになりますか。",
+      "source": {
+        "title": "S03L④-3",
+        "url": "https://app.notion.com/p/3f52b010743c8100bd78dcc7dd250c5a?pvs=204",
+        "locator": "原教材PDF（問題p12、解説p36）",
+        "sourceText": "図のようなバネにおもりをつるすと、バネののびる長さは、それにつるすおもりの重さに比例します。50gのおもりをつるしたら、バネの長さは20cmとなり、150gのおもりをつるしたら、バネの長さは36cmになりました。\n(1) おもり1gについて、バネは何cmのびますか。\n(2) おもりをつるさないときのバネの長さは何cmですか。\n(3) 250gのおもりをつるしたときのバネの長さは何cmになりますか。",
+        "sourceAnswer": "(1)4/25cm（＝0.16cm）　(2)12cm　(3)52cm",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-49edda1ef6f74a71",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-夏03 正比例反比例.pdf",
+          "page": 12,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-夏03 正比例反比例.pdf",
+          "page": 36,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "4",
+            "d": "25",
+            "unit": "cm",
+            "dimension": "length"
+          },
+          {
+            "label": "(2)",
+            "n": "12",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length"
+          },
+          {
+            "label": "(3)",
+            "n": "52",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length"
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "S03"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "50gで20cm、150gで36cmです。",
+            "equation": "50g→20cm、150g→36cm"
+          },
+          {
+            "id": "s2",
+            "title": "差でのびを出す",
+            "body": "重さが100g増えると長さが16cmのびます。",
+            "equation": "16÷100＝0.16"
+          },
+          {
+            "id": "s3",
+            "title": "(2)もとの長さ",
+            "body": "50gで0.16×50＝8cmのびているので、もとの長さは12cmです。",
+            "equation": "20－8＝12"
+          },
+          {
+            "id": "s4",
+            "title": "(3)を求める",
+            "body": "250gでは0.16×250＝40cmのびます。",
+            "equation": "12＋40＝52"
+          },
+          {
+            "id": "s5",
+            "title": "確かめ",
+            "body": "150gでは12＋24＝36cmで本文と合います。",
+            "equation": "12＋0.16×150＝36",
+            "checkpoint": {
+              "prompt": "おもりを100g増やすと、ばねは何cmのびますか。",
+              "answer": {
+                "n": "16",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P14/proportion.spring.extension-not-length",
+      "figure": "figs/selected-49edda1ef6f74a71.png"
+    },
+    {
+      "id": "selected-db361be3b81c1bb5",
+      "unitId": "selection.P17.graph.ratio.nested-production-share",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "ある町で回収された牛乳パックは1200トンで、その牛乳パックから再生紙を作りました。できた再生紙の重さは回収された牛乳パックの重さの80%でした。右の円グラフは、その再生紙から生産された製品の割合を表したものです。\n次の問いに答えなさい。\n(1) 生産されたトイレットペーパーは何トンですか。",
+      "source": {
+        "title": "GW513-29①",
+        "url": "https://app.notion.com/p/3f52b010743c814aae65d83ccf9b5041?pvs=204",
+        "locator": "原教材PDF（問題p62、解説p82）",
+        "sourceText": "ある町で回収された牛乳パックは1200トンで、その牛乳パックから再生紙を作りました。できた再生紙の重さは回収された牛乳パックの重さの80%でした。右の円グラフは、その再生紙から生産された製品の割合を表したものです。\n次の問いに答えなさい。\n(1) 生産されたトイレットペーパーは何トンですか。",
+        "sourceAnswer": "(1) 403.2トン　(2) 800トン",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-db361be3b81c1bb5",
+        "problemSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/5年/No.13 割合の基本 -3用法の確認-.pdf",
+          "page": 62,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/5年/No.13 割合の基本 -3用法の確認-.pdf",
+          "page": 82,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "n": "2016",
+        "d": "5",
+        "unit": "トン",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GW513"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "牛乳パック1200トンの80％が再生紙です。",
+            "equation": "1200×0.8＝960"
+          },
+          {
+            "id": "s2",
+            "title": "もとにする量を切りかえる",
+            "body": "円グラフの割合は、再生紙960トンがもとです。",
+            "equation": "960トン"
+          },
+          {
+            "id": "s3",
+            "title": "トイレットペーパー",
+            "body": "960トンの42％を求めます。",
+            "equation": "960×0.42＝403.2"
+          },
+          {
+            "id": "s4",
+            "title": "確かめ",
+            "body": "牛乳パックから直接では1200×0.8×0.42でも同じです。",
+            "equation": "403.2",
+            "checkpoint": {
+              "prompt": "できた再生紙は何トンですか。",
+              "answer": {
+                "n": "960",
+                "d": "1",
+                "unit": "トン",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P17/graph.ratio.nested-production-share",
+      "figure": "figs/selected-db361be3b81c1bb5.png"
+    },
+    {
+      "id": "selected-4c326004aac2e9f8",
+      "unitId": "selection.P17.graph.ratio.reverse-consumption-base",
+      "category": "oneline",
+      "domain": "割合と比",
+      "text": "ある町で回収された牛乳パックは1200トンで、その牛乳パックから再生紙を作りました。できた再生紙の重さは回収された牛乳パックの重さの80%でした。右の円グラフは、その再生紙から生産された製品の割合を表したものです。\n次の問いに答えなさい。\n(2) 生産されたティッシュペーパーは、この町で使われたティッシュペーパーの48%にあたります。この町で使われたティッシュペーパーは何トンになりますか。",
+      "source": {
+        "title": "GW513-29①",
+        "url": "https://app.notion.com/p/3f52b010743c814aae65d83ccf9b5041?pvs=204",
+        "locator": "原教材PDF（問題p62、解説p82）",
+        "sourceText": "ある町で回収された牛乳パックは1200トンで、その牛乳パックから再生紙を作りました。できた再生紙の重さは回収された牛乳パックの重さの80%でした。右の円グラフは、その再生紙から生産された製品の割合を表したものです。\n次の問いに答えなさい。\n(2) 生産されたティッシュペーパーは、この町で使われたティッシュペーパーの48%にあたります。この町で使われたティッシュペーパーは何トンになりますか。",
+        "sourceAnswer": "(1) 403.2トン　(2) 800トン",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-4c326004aac2e9f8",
+        "problemSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/5年/No.13 割合の基本 -3用法の確認-.pdf",
+          "page": 62,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/5年/No.13 割合の基本 -3用法の確認-.pdf",
+          "page": 82,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "n": "800",
+        "d": "1",
+        "unit": "トン",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GW513"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "再生紙は1200×0.8＝960トンです。",
+            "equation": "960トン"
+          },
+          {
+            "id": "s2",
+            "title": "ティッシュの生産量",
+            "body": "960トンの40％がティッシュペーパーです。",
+            "equation": "960×0.4＝384"
+          },
+          {
+            "id": "s3",
+            "title": "もとにする量を切りかえる",
+            "body": "384トンが町で使われた量の48％にあたります。",
+            "equation": "384÷0.48＝800"
+          },
+          {
+            "id": "s4",
+            "title": "確かめ",
+            "body": "800トンの48％は384トンです。",
+            "equation": "800×0.48＝384",
+            "checkpoint": {
+              "prompt": "生産されたティッシュペーパーは何トンですか。",
+              "answer": {
+                "n": "384",
+                "d": "1",
+                "unit": "トン",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "P17/graph.ratio.reverse-consumption-base",
+      "figure": "figs/selected-4c326004aac2e9f8.png"
+    },
+    {
+      "id": "selected-d92690d360ec02c1",
+      "unitId": "selection.Q05.Q05-U01",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "整数を入れると、別の整数を出す計算マシン「イレカエール」があります。「イレカエール」は次のルールにしたがって数字を入れかえています。\nたとえば、36を入れると58が、471を入れると673が、20598を入れると49102が出てきます。\n(1) 456をこのマシンに入れると、出てくる数はいくつですか。\nマシンを2台つなぎました。1台目が出した数を2台目に入れます。\n(2) 3892をこのマシンに入れました。2台目のマシンから出てくる数はいくつですか。\n(3) 2台目のマシンから6789が出てきました。1台目に入れた数はいくつですか。",
+      "source": {
+        "title": "GW427-17①",
+        "url": "https://app.notion.com/p/3f52b010743c8106b434ef1697555624?pvs=204",
+        "locator": "原教材PDF（問題p38、解説p78）",
+        "sourceText": "整数を入れると、別の整数を出す計算マシン「イレカエール」があります。「イレカエール」は次のルールにしたがって数字を入れかえています。\nたとえば、36を入れると58が、471を入れると673が、20598を入れると49102が出てきます。\n(1) 456をこのマシンに入れると、出てくる数はいくつですか。\nマシンを2台つなぎました。1台目が出した数を2台目に入れます。\n(2) 3892をこのマシンに入れました。2台目のマシンから出てくる数はいくつですか。\n(3) 2台目のマシンから6789が出てきました。1台目に入れた数はいくつですか。",
+        "sourceAnswer": "(1) 618　(2) 1496　(3) 2749　(4) 6台目",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-d92690d360ec02c1",
+        "problemSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/4年/No.27 数列と数のそうさ.pdf",
+          "page": 38,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/4年/No.27 数列と数のそうさ.pdf",
+          "page": 78,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "618",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(2)",
+            "n": "1496",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(3)",
+            "n": "2749",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GW427"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "各けたの数字を表にしたがって入れかえます。",
+            "equation": "4→6、5→1、6→8"
+          },
+          {
+            "id": "s2",
+            "title": "(1)を求める",
+            "body": "456の各けたを入れかえます。",
+            "equation": "456→618"
+          },
+          {
+            "id": "s3",
+            "title": "(2)を求める",
+            "body": "2回続けて入れかえます。",
+            "equation": "3892→5204→1496"
+          },
+          {
+            "id": "s4",
+            "title": "(3)を求める",
+            "body": "出てきた数から表を逆にたどります。",
+            "equation": "6789←4760←2749"
+          },
+          {
+            "id": "s5",
+            "title": "確かめ",
+            "body": "2749を2回入れかえると6789になります。",
+            "equation": "2749→4760→6789",
+            "checkpoint": {
+              "prompt": "3892を1台目に入れたとき、1台目から出てくる数はいくつですか。",
+              "answer": {
+                "n": "5204",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "Q05/Q05-U01",
+      "figure": "figs/selected-d92690d360ec02c1.png"
+    },
+    {
+      "id": "selected-98374c8573bcb6f5",
+      "unitId": "selection.Q05.Q05-U02",
+      "category": "oneline",
+      "domain": "規則性",
+      "text": "整数を入れると、別の整数を出す計算マシン「イレカエール」があります。「イレカエール」は次のルールにしたがって数字を入れかえています。\nたとえば、36を入れると58が、471を入れると673が、20598を入れると49102が出てきます。\nマシンを何台もつなぎます。\n(4) 1台目のマシンに19を入れました。はじめて19が出てくるのは何台目のマシンですか。",
+      "source": {
+        "title": "GW427-17①",
+        "url": "https://app.notion.com/p/3f52b010743c8106b434ef1697555624?pvs=204",
+        "locator": "原教材PDF（問題p38、解説p78）",
+        "sourceText": "整数を入れると、別の整数を出す計算マシン「イレカエール」があります。「イレカエール」は次のルールにしたがって数字を入れかえています。\nたとえば、36を入れると58が、471を入れると673が、20598を入れると49102が出てきます。\nマシンを何台もつなぎます。\n(4) 1台目のマシンに19を入れました。はじめて19が出てくるのは何台目のマシンですか。",
+        "sourceAnswer": "(1) 618　(2) 1496　(3) 2749　(4) 6台目",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-98374c8573bcb6f5",
+        "problemSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/4年/No.27 数列と数のそうさ.pdf",
+          "page": 38,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/4年/No.27 数列と数のそうさ.pdf",
+          "page": 78,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "台目",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GW427"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "19の各けたがどう変わるかを追います。",
+            "equation": "1と9"
+          },
+          {
+            "id": "s2",
+            "title": "1の動き",
+            "body": "1→3→5→1と、3台ごとにもどります。",
+            "equation": "3台で1周"
+          },
+          {
+            "id": "s3",
+            "title": "9の動き",
+            "body": "9→0→9と、2台ごとにもどります。",
+            "equation": "2台で1周"
+          },
+          {
+            "id": "s4",
+            "title": "同時にもどる",
+            "body": "3と2の最小公倍数の台数で、はじめて19にもどります。",
+            "equation": "3と2の最小公倍数＝6"
+          },
+          {
+            "id": "s5",
+            "title": "確かめ",
+            "body": "19→30→59→10→39→50→19で6台目です。",
+            "equation": "6台目",
+            "checkpoint": {
+              "prompt": "1の数字は何台ごとに1にもどりますか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "台",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "Q05/Q05-U02",
+      "figure": "figs/selected-98374c8573bcb6f5.png"
+    },
+    {
+      "id": "selected-379203398e144f02",
+      "unitId": "selection.T05.二相対速度の時間差から一周時間",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "A、B、Cの3人は右の池の地点Pを同時に出発し、Aは時計回りに、B、Cは反時計回りにそれぞれ一定の速さで池にそって歩きます。Bさんの歩く速さはAさんの歩く速さの4/5、Cさんの歩く速さはAさんの歩く速さの2/3です。AさんはBさんと出会ってから40秒後にCさんと出会いました。\n(1) Aさんがこの池を一周するのに何分かかりますか。",
+      "source": {
+        "title": "GW518-29①",
+        "url": "https://app.notion.com/p/3f42b010743c8160a5c2f6836eb51f7a?pvs=204",
+        "locator": "原教材PDF（問題p62、解説p82）",
+        "sourceText": "A、B、Cの3人は右の池の地点Pを同時に出発し、Aは時計回りに、B、Cは反時計回りにそれぞれ一定の速さで池にそって歩きます。Bさんの歩く速さはAさんの歩く速さの4/5、Cさんの歩く速さはAさんの歩く速さの2/3です。AさんはBさんと出会ってから40秒後にCさんと出会いました。\n(1) Aさんがこの池を一周するのに何分かかりますか。",
+        "sourceAnswer": "(1) 15分　(2) 分速75m",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-379203398e144f02",
+        "problemSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+          "page": 62,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+          "page": 82,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "n": "15",
+        "d": "1",
+        "unit": "分",
+        "dimension": "time"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GW518"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "速さを仮定する",
+            "body": "3人の速さの比は15：12：10なので、秒速をそれぞれ15、12、10とします。",
+            "equation": "A：B：C＝15：12：10"
+          },
+          {
+            "id": "s2",
+            "title": "BとCの間隔",
+            "body": "AとBが出会うとき、AとCは40秒後に出会うだけの距離だけ離れています。",
+            "equation": "(15＋10)×40＝1000"
+          },
+          {
+            "id": "s3",
+            "title": "出会う時刻と1周",
+            "body": "BとCの速さの差で1000の差がつくまで500秒。池1周はAとBの速さの和の500秒分です。",
+            "equation": "1000÷(12−10)＝500、(15＋12)×500＝13500"
+          },
+          {
+            "id": "s4",
+            "title": "Aの1周の時間",
+            "body": "仮定した速さで1周にかかる時間を求めます。",
+            "equation": "13500÷15＝900秒＝15分",
+            "checkpoint": {
+              "prompt": "仮定した速さでAとBが出会うのは何秒後ですか。",
+              "answer": {
+                "n": "500",
+                "d": "1",
+                "unit": "秒",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T05/二相対速度の時間差から一周時間",
+      "figure": "figs/selected-379203398e144f02.png"
+    },
+    {
+      "id": "selected-33599988c9d3afdf",
+      "unitId": "selection.T05.周回の第2出会い周期と進行距離",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "A、B、Cの3人は右の池の地点Pを同時に出発し、Aは時計回りに、B、Cは反時計回りにそれぞれ一定の速さで池にそって歩きます。Bさんの歩く速さはAさんの歩く速さの4/5、Cさんの歩く速さはAさんの歩く速さの2/3です。AさんはBさんと出会ってから40秒後にCさんと出会いました。\n(2) AさんはBさんと2回目に出会ってから100m進んだ地点で、Cさんと2回目に出会いました。Aさんの歩く速さは毎分何mですか。",
+      "source": {
+        "title": "GW518-29①",
+        "url": "https://app.notion.com/p/3f42b010743c8160a5c2f6836eb51f7a?pvs=204",
+        "locator": "原教材PDF（問題p62、解説p82）",
+        "sourceText": "A、B、Cの3人は右の池の地点Pを同時に出発し、Aは時計回りに、B、Cは反時計回りにそれぞれ一定の速さで池にそって歩きます。Bさんの歩く速さはAさんの歩く速さの4/5、Cさんの歩く速さはAさんの歩く速さの2/3です。AさんはBさんと出会ってから40秒後にCさんと出会いました。\n(2) AさんはBさんと2回目に出会ってから100m進んだ地点で、Cさんと2回目に出会いました。Aさんの歩く速さは毎分何mですか。",
+        "sourceAnswer": "(1) 15分　(2) 分速75m",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-33599988c9d3afdf",
+        "problemSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+          "page": 62,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+          "page": 82,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "n": "75",
+        "d": "1",
+        "unit": "m/分",
+        "dimension": "speed"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GW518"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "1回目の出会い",
+            "body": "原本の(1)の計算より、AがBと出会うのは500秒後、Cと出会うのは540秒後です。",
+            "equation": "500＋40＝540"
+          },
+          {
+            "id": "s2",
+            "title": "2回目の出会い",
+            "body": "2回目はそれぞれ1回目の2倍の時間になります。",
+            "equation": "500×2＝1000、540×2＝1080"
+          },
+          {
+            "id": "s3",
+            "title": "100mにかかる時間",
+            "body": "2回目の出会いの時刻の差を求めます。",
+            "equation": "1080−1000＝80秒"
+          },
+          {
+            "id": "s4",
+            "title": "毎分の速さ",
+            "body": "80秒で100m進むので、60秒で進む道のりを求めます。",
+            "equation": "100÷80×60＝75m/分",
+            "checkpoint": {
+              "prompt": "2回目にBと出会ってからCと出会うまでの時間は何分ですか。",
+              "answer": {
+                "n": "4",
+                "d": "3",
+                "unit": "分",
+                "dimension": "time"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T05/周回の第2出会い周期と進行距離",
+      "figure": "figs/selected-33599988c9d3afdf.png"
+    },
+    {
+      "id": "selected-140d0f170b7a1eb7",
+      "unitId": "selection.T06.等区間の時間遅れ倍化と折返し比",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "下図のように、4つの地点A、B、C、Dがあり、AB間、BC間、CD間の道のりは同じです。2台の自動車P、Qが同時にA地点を出発して、D地点に向かいました。QはPより12分おくれてB地点を通りました。また、QはC地点を通ったとき、PはQより14km先を走っていました。さらに、PがD地点に着いてすぐに折り返してA地点にもどる途中、C地点とD地点のちょうどまん中の地点でQと出会いました。\n(1) 自動車Pの速さを求めなさい。\n(2) 自動車Qの速さとAD間の道のりを求めなさい。",
+      "source": {
+        "title": "GW518-27①",
+        "url": "https://app.notion.com/p/3f42b010743c817eba1af8f69ab76ae4?pvs=204",
+        "locator": "原教材PDF（問題p58、解説p81）",
+        "sourceText": "下図のように、4つの地点A、B、C、Dがあり、AB間、BC間、CD間の道のりは同じです。2台の自動車P、Qが同時にA地点を出発して、D地点に向かいました。QはPより12分おくれてB地点を通りました。また、QはC地点を通ったとき、PはQより14km先を走っていました。さらに、PがD地点に着いてすぐに折り返してA地点にもどる途中、C地点とD地点のちょうどまん中の地点でQと出会いました。\n(1) 自動車Pの速さを求めなさい。\n(2) 自動車Qの速さとAD間の道のりを求めなさい。",
+        "sourceAnswer": "(1) 時速35km　(2) Q 時速25km・AD間 52.5km",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-140d0f170b7a1eb7",
+        "problemSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+          "page": 58,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+          "page": 81,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "35",
+            "d": "1",
+            "unit": "km/時",
+            "dimension": "speed"
+          },
+          {
+            "label": "(2)Q",
+            "n": "25",
+            "d": "1",
+            "unit": "km/時",
+            "dimension": "speed"
+          },
+          {
+            "label": "(2)AD",
+            "n": "105",
+            "d": "2",
+            "unit": "km",
+            "dimension": "length"
+          }
+        ]
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GW518"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "Pの速さ",
+            "body": "QがBを通る遅れは12分、Cを通る遅れは24分です。Pは12分で14kmの半分を進みます。",
+            "equation": "14÷2＝7、7÷(12/60)＝35"
+          },
+          {
+            "id": "s2",
+            "title": "出会うまでの道のり",
+            "body": "Pは等しい区間3.5個分、Qは2.5個分を同じ時間で進むので、速さの比も同じです。",
+            "equation": "3.5：2.5＝7：5"
+          },
+          {
+            "id": "s3",
+            "title": "Qの速さ",
+            "body": "Pの時速35kmに5/7をかけます。",
+            "equation": "35×5/7＝25"
+          },
+          {
+            "id": "s4",
+            "title": "1区間とAD",
+            "body": "12分間のPの道のり7kmが比の差2にあたります。Qの1区間は比の5です。",
+            "equation": "7÷2×5＝17.5、17.5×3＝52.5",
+            "checkpoint": {
+              "prompt": "QがCを通るのはPより何分遅れていますか。",
+              "answer": {
+                "n": "24",
+                "d": "1",
+                "unit": "分",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T06/等区間の時間遅れ倍化と折返し比",
+      "figure": "figs/selected-140d0f170b7a1eb7.png"
+    },
+    {
+      "id": "selected-f2a2d78a5daf9038",
+      "unitId": "selection.T24.timetable.bus-concurrency",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "A駅を出発し、町内を1周して再びA駅に戻ってくる路線バスを走らせることにしました。右の表は、A駅を出発するバスの時刻表です。このバスは町内を1周するのに1時間30分かかります。\n(2) バスは最低何台必要ですか。",
+      "source": {
+        "title": "R23T⑥-2",
+        "url": "https://app.notion.com/p/3f52b010743c81f49ab1c9a6c98c1488?pvs=204",
+        "locator": "原教材PDF（問題p57、解説p69）",
+        "sourceText": "A駅を出発し、町内を1周して再びA駅に戻ってくる路線バスを走らせることにしました。右の表は、A駅を出発するバスの時刻表です。このバスは町内を1周するのに1時間30分かかります。\n(1) 運転手は1日3周、このバスを運転します。この場合、何人の運転手が必要になりますか。\n(2) バスは最低何台必要ですか。",
+        "sourceAnswer": "(1)24人　(2)10台",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-f2a2d78a5daf9038",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 57,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 59
+        }
+      },
+      "answer": {
+        "n": "10",
+        "d": "1",
+        "unit": "台",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "R23"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "1周する時間",
+            "body": "同じバスは出発してから1時間30分後まで戻れません。",
+            "equation": "1時間30分＝90分"
+          },
+          {
+            "id": "s2",
+            "title": "出発間隔が短い時刻を調べる",
+            "body": "7時44分発のバスが戻るのは9時14分で、次に出発できる便は9時24分です。",
+            "equation": "7時44分＋1時間30分＝9時14分"
+          },
+          {
+            "id": "s3",
+            "title": "その間の便を数える",
+            "body": "その間に9台が出発するため、出発済みの1台と合わせ10台必要です。",
+            "equation": "1＋9＝10"
+          },
+          {
+            "id": "s4",
+            "title": "ほかの時刻も確認する",
+            "body": "7時56分発、8時10分発でも戻るまでに9台出発します。9台を超える区間はありません。",
+            "equation": "最低10台",
+            "checkpoint": {
+              "prompt": "バスの1周にかかる時間は何分ですか。",
+              "answer": {
+                "n": "90",
+                "d": "1",
+                "unit": "分",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T24/timetable.bus-concurrency",
+      "figure": "figs/selected-f2a2d78a5daf9038.png"
+    },
+    {
+      "id": "selected-0d6faa591c32ce66",
+      "unitId": "selection.T24.timetable.driver-total-trips",
+      "category": "oneline",
+      "domain": "速さ",
+      "text": "A駅を出発し、町内を1周して再びA駅に戻ってくる路線バスを走らせることにしました。右の表は、A駅を出発するバスの時刻表です。このバスは町内を1周するのに1時間30分かかります。\n(1) 運転手は1日3周、このバスを運転します。この場合、何人の運転手が必要になりますか。",
+      "source": {
+        "title": "R23T⑥-2",
+        "url": "https://app.notion.com/p/3f52b010743c81f49ab1c9a6c98c1488?pvs=204",
+        "locator": "原教材PDF（問題p57、解説p69）",
+        "sourceText": "A駅を出発し、町内を1周して再びA駅に戻ってくる路線バスを走らせることにしました。右の表は、A駅を出発するバスの時刻表です。このバスは町内を1周するのに1時間30分かかります。\n(1) 運転手は1日3周、このバスを運転します。この場合、何人の運転手が必要になりますか。\n(2) バスは最低何台必要ですか。",
+        "sourceAnswer": "(1)24人　(2)10台",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-0d6faa591c32ce66",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 57,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+          "page": 59
+        }
+      },
+      "answer": {
+        "n": "24",
+        "d": "1",
+        "unit": "人",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "R23"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "時刻表から1日の便の数を数えます。",
+            "equation": "全部で72便"
+          },
+          {
+            "id": "s2",
+            "title": "1人の担当",
+            "body": "運転手1人は1日3周を受け持ちます。",
+            "equation": "3周"
+          },
+          {
+            "id": "s3",
+            "title": "必要な人数",
+            "body": "全部の便を3周ずつ分けます。",
+            "equation": "72÷3＝24（人）"
+          },
+          {
+            "id": "s4",
+            "title": "確かめ",
+            "body": "24人が3周ずつで72便になります。",
+            "equation": "24×3＝72",
+            "checkpoint": {
+              "prompt": "運転手1人は1日に何周しますか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "周",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T24/timetable.driver-total-trips",
+      "figure": "figs/selected-0d6faa591c32ce66.png"
+    },
+    {
+      "id": "selected-5aa5ea2c6fdb68c0",
+      "unitId": "selection.W06.W06-U03",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "ケンタ君とマサト君がビー玉をやりとりしました。\nまず、ケンタ君がマサト君に、マサト君がそのとき持っていた数と同じ数のビー玉をわたしました。\n次に、マサト君がケンタ君に、ケンタ君がそのとき持っていた数と同じ数のビー玉をわたしました。\n最後に、ケンタ君がマサト君に、マサト君がそのとき持っていた数と同じ数のビー玉をわたしました。\nその結果、2人の持っているビー玉の個数は32個ずつになりました。\n2人がはじめに持っていたビー玉の個数をそれぞれ求めなさい。",
+      "source": {
+        "title": "4R24N④-2",
+        "url": "https://app.notion.com/p/3f52b010743c81338996f0e5ff931902?pvs=204",
+        "locator": "原教材PDF（問題p10、解説p21）",
+        "sourceText": "ケンタ君とマサト君がビー玉をやりとりしました。\nまず、ケンタ君がマサト君に、マサト君がそのとき持っていた数と同じ数のビー玉をわたしました。\n次に、マサト君がケンタ君に、ケンタ君がそのとき持っていた数と同じ数のビー玉をわたしました。\n最後に、ケンタ君がマサト君に、マサト君がそのとき持っていた数と同じ数のビー玉をわたしました。\nその結果、2人の持っているビー玉の個数は32個ずつになりました。\n2人がはじめに持っていたビー玉の個数をそれぞれ求めなさい。",
+        "sourceAnswer": "ケンタ君…44個　マサト君…20個",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-5aa5ea2c6fdb68c0",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-24 文章題(5)-和差算・やりとり算-.pdf",
+          "page": 10,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-24 文章題(5)-和差算・やりとり算-.pdf",
+          "page": 18
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "ケンタ君",
+            "n": "44",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          },
+          {
+            "label": "マサト君",
+            "n": "20",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R24"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "最後は2人とも32個で、合計64個はずっと変わりません。もらった人は、もらう前のちょうど2倍になっています。",
+            "equation": "32＋32＝64（個）"
+          },
+          {
+            "id": "s2",
+            "title": "3回目の前にもどす",
+            "body": "最後にマサト君は倍になったので、前は32÷2＝16個。ケンタ君は16個をわたしたので48個でした。",
+            "equation": "32÷2＝16、32＋16＝48"
+          },
+          {
+            "id": "s3",
+            "title": "2回目の前にもどす",
+            "body": "2回目はケンタ君が倍になったので、前は48÷2＝24個。マサト君は24個をわたしたので40個でした。",
+            "equation": "48÷2＝24、16＋24＝40"
+          },
+          {
+            "id": "s4",
+            "title": "1回目の前にもどす",
+            "body": "1回目はマサト君が倍になったので、前は40÷2＝20個。ケンタ君は20個をわたしたので44個でした。",
+            "equation": "40÷2＝20、24＋20＝44"
+          },
+          {
+            "id": "s5",
+            "title": "確かめ",
+            "body": "(44,20)→(24,40)→(48,16)→(32,32)となり合います。",
+            "equation": "44＋20＝64",
+            "checkpoint": {
+              "prompt": "最後のやりとりの前、マサト君は何個持っていましたか。",
+              "answer": {
+                "n": "16",
+                "d": "1",
+                "unit": "個",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "W06/W06-U03"
+    },
+    {
+      "id": "selected-eedb3e11578fa034",
+      "unitId": "selection.W07.W07-U03",
+      "category": "oneline",
+      "domain": "和と差",
+      "text": "なし3個の値段は、りんご4個の値段と等しいです。なし6個とりんご5個を買ったら2340円でした。なしとりんご1個の値段をそれぞれ求めなさい。",
+      "source": {
+        "title": "4R26T④-2",
+        "url": "https://app.notion.com/p/3f52b010743c810c96ceeaa097eb12e2?pvs=204",
+        "locator": "原教材PDF（問題p54、解説p62）",
+        "sourceText": "なし3個の値段は、りんご4個の値段と等しいです。なし6個とりんご5個を買ったら2340円でした。なしとりんご1個の値段をそれぞれ求めなさい。",
+        "sourceAnswer": "なし…240円　りんご…180円",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-eedb3e11578fa034",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+          "page": 54,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+          "page": 59
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "なし",
+            "n": "240",
+            "d": "1",
+            "unit": "円",
+            "dimension": "scalar"
+          },
+          {
+            "label": "りんご",
+            "n": "180",
+            "d": "1",
+            "unit": "円",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R26"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "なし3個とりんご4個は同じ値段です。なし6個とりんご5個で2340円です。",
+            "equation": "なし3個＝りんご4個"
+          },
+          {
+            "id": "s2",
+            "title": "なしをりんごに置きかえる",
+            "body": "なし6個はなし3個の2倍なので、りんご4×2＝8個と同じ値段です。",
+            "equation": "なし6個＝りんご8個"
+          },
+          {
+            "id": "s3",
+            "title": "りんごだけで表す",
+            "body": "なし6個とりんご5個は、りんご8＋5＝13個と同じです。",
+            "equation": "2340÷13＝180（円）"
+          },
+          {
+            "id": "s4",
+            "title": "なしの値段",
+            "body": "りんご4個の値段がなし3個の値段です。",
+            "equation": "180×4÷3＝240（円）"
+          },
+          {
+            "id": "s5",
+            "title": "確かめ",
+            "body": "なし6個とりんご5個で240×6＋180×5＝2340円になります。",
+            "equation": "1440＋900＝2340",
+            "checkpoint": {
+              "prompt": "なし6個とりんご5個は、りんご何個分の値段ですか。",
+              "answer": {
+                "n": "13",
+                "d": "1",
+                "unit": "個",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "W07/W07-U03"
+    },
+    {
+      "id": "selected-d6cf9822b1e88537",
+      "unitId": "selection.F05.G-c980f9e816",
+      "category": "geometry",
+      "domain": "平面図形",
+      "text": "(2) 長さ48cmのはり金を折り曲げて長方形を作ります。たての長さが横の長さより4cm長くなるように作るとき、長方形の面積を求めなさい。",
+      "source": {
+        "title": "4R25T①-1",
+        "url": "https://app.notion.com/p/3f52b010743c813eb5b8d988f8fe2ec0?pvs=204",
+        "locator": "原教材PDF（問題p45、解説p57）",
+        "sourceText": "(1) A、B2つの数があります。AとBの合計は47で、AはBより5大きいです。A、B2つの数をそれぞれ求めなさい。\n(2) 長さ48cmのはり金を折り曲げて長方形を作ります。たての長さが横の長さより4cm長くなるように作るとき、長方形の面積を求めなさい。",
+        "sourceAnswer": "(1)A…26　B…21　(2)140cm²",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-d6cf9822b1e88537",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-25 文章題(6)-消去算-.pdf",
+          "page": 45,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-25 文章題(6)-消去算-.pdf",
+          "page": 57
+        }
+      },
+      "answer": {
+        "n": "140",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "4R25"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "はり金48cmが長方形のまわりになります。たては横より4cm長いです。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "たてと横の和",
+            "body": "まわりはたてと横の和の2倍なので、和は半分です。",
+            "equation": "48÷2＝24"
+          },
+          {
+            "id": "s3",
+            "title": "和差算",
+            "body": "和24cm、差4cmからたてと横を求めます。",
+            "equation": "（24＋4）÷2＝14、24－14＝10"
+          },
+          {
+            "id": "s4",
+            "title": "面積",
+            "body": "たて×横です。",
+            "equation": "14×10＝140"
+          },
+          {
+            "id": "s5",
+            "title": "確かめ",
+            "body": "まわりは（14＋10）×2＝48cmで合っています。",
+            "equation": "（14＋10）×2＝48",
+            "checkpoint": {
+              "prompt": "長方形のたてと横の和は何cmですか。",
+              "answer": {
+                "n": "24",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "F05/G-c980f9e816"
+    },
+    {
+      "id": "selected-513ab79cafcc6cea",
+      "unitId": "selection.F07.G-870e5a7eea",
+      "category": "geometry",
+      "domain": "平面図形",
+      "text": "次の□にあてはまる数を求めなさい。\n(4) 右の図は、たて160cm、横200cmの長方形の左上のかどから、たて64cm、横72cmの長方形を切り取ったものです。この図を同じ大きさの正方形でうめつくすとき、最も少ない数の正方形でうめつくすには□個の正方形が必要です。",
+      "source": {
+        "title": "GN数性①Ch-4",
+        "url": "https://app.notion.com/p/3f52b010743c8187b5f0f12064c09d5f?pvs=204",
+        "locator": "原教材PDF（問題p22、解説p62）",
+        "sourceText": "次の□にあてはまる数を求めなさい。\n(4) 右の図は、たて160cm、横200cmの長方形の左上のかどから、たて64cm、横72cmの長方形を切り取ったものです。この図を同じ大きさの正方形でうめつくすとき、最も少ない数の正方形でうめつくすには□個の正方形が必要です。",
+        "sourceAnswer": "428個",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-513ab79cafcc6cea",
+        "problemSource": {
+          "file": "/算数DB/原本/基本の制覇/数の性質.pdf",
+          "page": 22,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/基本の制覇/数の性質.pdf",
+          "page": 62,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "n": "428",
+        "d": "1",
+        "unit": "個",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GN数性"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "2つの長方形に分ける",
+            "body": "原本の解説図のように分けると、96cm×72cmと128cm×160cmの長方形になります。",
+            "equation": "160−64＝96、200−72＝128"
+          },
+          {
+            "id": "s2",
+            "title": "正方形の1辺",
+            "body": "4つの長さを割り切れる最大の長さを求めます。",
+            "equation": "96、72、128、160の最大公約数＝8"
+          },
+          {
+            "id": "s3",
+            "title": "それぞれの個数",
+            "body": "それぞれの辺に何個並ぶかを求めて、かけます。",
+            "equation": "(96÷8)×(72÷8)＝108、(128÷8)×(160÷8)＝320"
+          },
+          {
+            "id": "s4",
+            "title": "合計",
+            "body": "2つの長方形を埋める正方形の個数を合わせます。",
+            "equation": "108＋320＝428",
+            "checkpoint": {
+              "prompt": "正方形の1辺は何cmですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "F07/G-870e5a7eea",
+      "figure": "figs/selected-513ab79cafcc6cea.png"
+    },
+    {
+      "id": "selected-ef9b7bd87fbaf928",
+      "unitId": "selection.F09.G-b1e54f91b5",
+      "category": "geometry",
+      "domain": "平面図形",
+      "text": "※円周率は3.14とします。\n右の図のような円があります。\n(1) この円の円周の長さを答えなさい。\n(2) この円の面積を答えなさい。",
+      "source": {
+        "title": "4S16L⑥-1",
+        "url": "https://app.notion.com/p/3f52b010743c8103ac3bd95fa0ec2131?pvs=204",
+        "locator": "原教材PDF（問題p13、解説p20）",
+        "sourceText": "※円周率は3.14とします。\n右の図のような円があります。\n(1) この円の円周の長さを答えなさい。\n(2) この円の面積を答えなさい。",
+        "sourceAnswer": "(1)31.4cm (2)78.5cm²",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-ef9b7bd87fbaf928",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-S16 夏期総合(2).pdf",
+          "page": 13,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-S16 夏期総合(2).pdf",
+          "page": 20,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "157",
+            "d": "5",
+            "unit": "cm",
+            "dimension": "length"
+          },
+          {
+            "label": "(2)",
+            "n": "157",
+            "d": "2",
+            "unit": "cm²",
+            "dimension": "area"
+          }
+        ]
+      },
+      "difficulty": 2,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4S16"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理",
+            "body": "図から半径は5cm、直径は10cmです。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "円周",
+            "body": "円周は直径×円周率です。",
+            "equation": "10×3.14＝31.4"
+          },
+          {
+            "id": "s3",
+            "title": "面積",
+            "body": "面積は半径×半径×円周率です。",
+            "equation": "5×5×3.14＝78.5"
+          },
+          {
+            "id": "s4",
+            "title": "確かめ",
+            "body": "直径と半径を取りちがえていないか見直します。",
+            "equation": "5×2＝10",
+            "checkpoint": {
+              "prompt": "この円の直径は何cmですか。",
+              "answer": {
+                "n": "10",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "F09/G-b1e54f91b5",
+      "figure": "figs/selected-ef9b7bd87fbaf928.png"
+    },
+    {
+      "id": "selected-c27ce954e9345e9c",
+      "unitId": "selection.F10.G-ae19b5e83f",
+      "category": "geometry",
+      "domain": "平面図形",
+      "text": "右の図のように、直角三角形ABCの頂点A、Bを中心とするおうぎ形があり、2つのおうぎ形の面積の合計は65.94cm²です。このとき、角A、Bの大きさをそれぞれ求めなさい。\n円周率は3.14とします。",
+      "source": {
+        "title": "4R26T⑤-4",
+        "url": "https://app.notion.com/p/3f52b010743c81c7aa74c441164506b7?pvs=204",
+        "locator": "原教材PDF（問題p56、解説p63）",
+        "sourceText": "右の図のように、直角三角形ABCの頂点A、Bを中心とするおうぎ形があり、2つのおうぎ形の面積の合計は65.94cm²です。このとき、角A、Bの大きさをそれぞれ求めなさい。\n円周率は3.14とします。",
+        "sourceAnswer": "A…50度　B…40度",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-c27ce954e9345e9c",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+          "page": 56,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+          "page": 59
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "角A",
+            "n": "50",
+            "d": "1",
+            "unit": "度",
+            "dimension": "scalar"
+          },
+          {
+            "label": "角B",
+            "n": "40",
+            "d": "1",
+            "unit": "度",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4R26"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理",
+            "body": "角Cが直角なので、角Aと角Bの和は90°です。",
+            "equation": "角A＋角B＝90"
+          },
+          {
+            "id": "s2",
+            "title": "面積を角の式にする",
+            "body": "半径6cmのおうぎ形は1°あたり6×6×3.14÷360、半径12cmは12×12×3.14÷360です。12×12は6×6の4倍です。",
+            "equation": ""
+          },
+          {
+            "id": "s3",
+            "title": "式を整える",
+            "body": "65.94を6×6×3.14÷360で割ると、角Aと角Bの4倍の和が出ます。",
+            "equation": "65.94÷(36×3.14÷360)＝210　角A＋角B×4＝210"
+          },
+          {
+            "id": "s4",
+            "title": "つるかめで解く",
+            "body": "和90°との差210−90＝120は角Bの3倍です。",
+            "equation": "120÷3＝40　90−40＝50"
+          },
+          {
+            "id": "s5",
+            "title": "確かめ",
+            "body": "36×3.14×50/360＋144×3.14×40/360＝15.7＋50.24＝65.94です。",
+            "equation": "15.7＋50.24＝65.94",
+            "checkpoint": {
+              "prompt": "角Aと角Bの大きさの和は何度ですか。",
+              "answer": {
+                "n": "90",
+                "d": "1",
+                "unit": "度",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "F10/G-ae19b5e83f",
+      "figure": "figs/selected-c27ce954e9345e9c.png"
+    },
+    {
+      "id": "selected-87e13bd3d8661952",
+      "unitId": "selection.F11.G-e7eba4fa7a",
+      "category": "geometry",
+      "domain": "平面図形",
+      "text": "※円周率は3.14とします。\n1辺が4mの正方形の建物の角に、犬がロープでつながれています。ロープの長さが4mのとき、犬が動ける範囲の面積を求めなさい。",
+      "source": {
+        "title": "R02N③-1",
+        "url": "https://app.notion.com/p/3f52b010743c8172ad03d228bef4421c?pvs=204",
+        "locator": "原教材PDF（問題p10、解説p21）",
+        "sourceText": "※円周率は3.14とします。\n1辺が4mの正方形の建物の角に、犬がロープでつながれています。ロープの長さが4mのとき、犬が動ける範囲の面積を求めなさい。",
+        "sourceAnswer": "37.68m²",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-87e13bd3d8661952",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-02 平面図形(2)-おうぎ形と複合図形-.pdf",
+          "page": 10,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-02 平面図形(2)-おうぎ形と複合図形-.pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "n": "942",
+        "d": "25",
+        "unit": "m²",
+        "dimension": "area"
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "R02"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件を整理",
+            "body": "建物は1辺4mの正方形で、ロープは4mです。正方形の角は90°です。",
+            "equation": ""
+          },
+          {
+            "id": "s2",
+            "title": "角のまわり",
+            "body": "建物の中には入れないので、360°−90°＝270°のおうぎ形を動けます。",
+            "equation": "360−90＝270"
+          },
+          {
+            "id": "s3",
+            "title": "回りこみ",
+            "body": "となりの角までちょうど4mなので、回りこんだ先には残りがありません。",
+            "equation": ""
+          },
+          {
+            "id": "s4",
+            "title": "計算と確かめ",
+            "body": "270°は3/4周です。",
+            "equation": "4×4×3.14×3/4＝37.68",
+            "checkpoint": {
+              "prompt": "犬が動けるおうぎ形の中心角は何度ですか。",
+              "answer": {
+                "n": "270",
+                "d": "1",
+                "unit": "度",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "F11/G-e7eba4fa7a",
+      "figure": "figs/selected-87e13bd3d8661952.png"
+    },
+    {
+      "id": "selected-bf2026cf623201a2",
+      "unitId": "selection.T25.geo.motion.maximum-area-recover-base",
+      "category": "geometry",
+      "domain": "速さ",
+      "text": "台形ABCDの辺上を点PがB、A、D、Cの順に進みます。このときの点PがBを出発してからの時間と三角形PBCの面積の変化を表したのが右下のグラフです。\n(3) BCの長さは何cmですか。",
+      "source": {
+        "title": "R10H②-3",
+        "url": "https://app.notion.com/p/3f52b010743c8106a288c70ca6786410?pvs=204",
+        "locator": "原教材PDF（問題p34、解説p46）",
+        "sourceText": "台形ABCDの辺上を点PがB、A、D、Cの順に進みます。このときの点PがBを出発してからの時間と三角形PBCの面積の変化を表したのが右下のグラフです。\n(3) BCの長さは何cmですか。",
+        "sourceAnswer": "(1) 3cm/秒　(2) 45cm　(3) 60cm　(4) 8秒後・28秒後",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A3",
+        "originalProblemId": "selected-bf2026cf623201a2",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-10 速さ(4)-点の移動(2)-.pdf",
+          "page": 34,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-10 速さ(4)-点の移動(2)-.pdf",
+          "page": 46,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "n": "60",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "R10"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "グラフの最大値",
+            "body": "三角形PBCの面積が最大になっている部分を読みます。",
+            "equation": "1080cm²"
+          },
+          {
+            "id": "s2",
+            "title": "高さ",
+            "body": "PがAD上にいるとき、底辺BCに対する高さはABと等しい36cmです。",
+            "equation": "高さ＝36cm"
+          },
+          {
+            "id": "s3",
+            "title": "三角形の面積の式",
+            "body": "底辺×高さ÷2で、最大の面積を表します。",
+            "equation": "BC×36÷2＝1080"
+          },
+          {
+            "id": "s4",
+            "title": "底辺を求める",
+            "body": "面積を2倍して高さで割ります。",
+            "equation": "1080×2÷36＝60cm",
+            "checkpoint": {
+              "prompt": "最大のときの三角形の高さは何cmですか。",
+              "answer": {
+                "n": "36",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "T25/geo.motion.maximum-area-recover-base",
+      "figure": "figs/selected-bf2026cf623201a2.png"
+    },
+    {
+      "id": "selected-524eaf300c2843ef",
+      "unitId": "selection.V01.G-aed5fdc407",
+      "category": "geometry",
+      "domain": "立体図形",
+      "text": "次の（図1）、（図2）、（図3）の直方体の体積は同じです。ア、イの長さを求めなさい。",
+      "source": {
+        "title": "4R18N②-2",
+        "url": "https://app.notion.com/p/3f52b010743c8110b29ef65e4aa641be?pvs=204",
+        "locator": "原教材PDF（問題p5、解説p15）",
+        "sourceText": "次の（図1）、（図2）、（図3）の直方体の体積は同じです。ア、イの長さを求めなさい。",
+        "sourceAnswer": "ア10cm、イ2cm",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A2",
+        "originalProblemId": "selected-524eaf300c2843ef",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-18 立体図形(2)-体積・容積-.pdf",
+          "page": 5,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-18 立体図形(2)-体積・容積-.pdf",
+          "page": 15,
+          "pageType": "PDF通しページ（1始まり）"
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "ア",
+            "n": "10",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length"
+          },
+          {
+            "label": "イ",
+            "n": "2",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length"
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4R18"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "3つの直方体の体積は同じです。寸法がすべてわかっている(図1)から体積を求めます。",
+            "equation": "3×5×6＝90cm³"
+          },
+          {
+            "id": "s2",
+            "title": "高さ＝体積÷底面積",
+            "body": "体積が同じなので、それぞれの底面積で90をわれば高さが出ます。",
+            "equation": "体積÷底面積＝高さ"
+          },
+          {
+            "id": "s3",
+            "title": "アを求める",
+            "body": "(図2)の底面積は3×3＝9cm²です。",
+            "equation": "90÷9＝10cm"
+          },
+          {
+            "id": "s4",
+            "title": "イを求める",
+            "body": "(図3)の底面積は5×9＝45cm²です。",
+            "equation": "90÷45＝2cm"
+          },
+          {
+            "id": "s5",
+            "title": "確かめ",
+            "body": "求めた高さで体積を計算し、90cm³になるか見ます。",
+            "equation": "3×3×10＝90、5×9×2＝90",
+            "checkpoint": {
+              "prompt": "(図1)の直方体の体積は何cm³ですか。",
+              "answer": {
+                "n": "90",
+                "d": "1",
+                "unit": "cm³",
+                "dimension": "volume"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "V01/G-aed5fdc407",
+      "figure": "figs/selected-524eaf300c2843ef.png"
+    },
+    {
+      "id": "selected-25a5b0fe3fb150a9",
+      "unitId": "selection.V02.G-f864ac4859",
+      "category": "geometry",
+      "domain": "立体図形",
+      "text": "同じ大きさの立方体をすきまなく積み重ねて、たて56cm、横70cm、高さ42cmの直方体を作りたいと思います。\n(1) できるだけ大きい立方体を使うとすると、1辺の長さが何cmの立方体になりますか。\n(2) このとき、何個の立方体が必要ですか。",
+      "source": {
+        "title": "R03N②-4",
+        "url": "https://app.notion.com/p/3f52b010743c81079116e7445f5af69e?pvs=204",
+        "locator": "原教材PDF（問題p9、解説p21）",
+        "sourceText": "同じ大きさの立方体をすきまなく積み重ねて、たて56cm、横70cm、高さ42cmの直方体を作りたいと思います。\n(1) できるだけ大きい立方体を使うとすると、1辺の長さが何cmの立方体になりますか。\n(2) このとき、何個の立方体が必要ですか。",
+        "sourceAnswer": "(1)14cm　(2)60個",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-25a5b0fe3fb150a9",
+        "problemSource": {
+          "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+          "page": 9,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+          "page": 20
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "14",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length"
+          },
+          {
+            "label": "(2)",
+            "n": "60",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R03"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "立方体の1辺は、たて56cm・横70cm・高さ42cmのどれもちょうどわり切れる長さでなければなりません。",
+            "equation": "1辺は56、70、42の公約数"
+          },
+          {
+            "id": "s2",
+            "title": "できるだけ大きく",
+            "body": "いちばん大きい1辺は、3つの数の最大公約数です。",
+            "equation": "56、70、42の最大公約数＝14"
+          },
+          {
+            "id": "s3",
+            "title": "各方向の個数",
+            "body": "たて・横・高さに何個ずつ並ぶかを求めます。",
+            "equation": "56÷14＝4、70÷14＝5、42÷14＝3"
+          },
+          {
+            "id": "s4",
+            "title": "全部の個数",
+            "body": "たて・横・高さの個数をかけます。",
+            "equation": "4×5×3＝60個"
+          },
+          {
+            "id": "s5",
+            "title": "確かめ",
+            "body": "各方向に並べる個数は4個、5個、3個です。これらをかけて合計を確認します。",
+            "equation": "4×5×3＝60",
+            "checkpoint": {
+              "prompt": "たてに立方体は何個並びますか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "個",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "V02/G-f864ac4859"
+    },
+    {
+      "id": "selected-22a006cb162db539",
+      "unitId": "selection.V04.G-2b019d2410",
+      "category": "geometry",
+      "domain": "立体図形",
+      "text": "立方体のつみきをつんで、前、右、上から見たところ、下の図のようになりました。つみきを何個つみましたか。考えられる最も多い場合と最も少ない場合を答えなさい。",
+      "source": {
+        "title": "4R01T④-2",
+        "url": "https://app.notion.com/p/3f52b010743c816cb6e1c366cb430a63?pvs=204",
+        "locator": "原教材PDF（問題p49、解説p57）",
+        "sourceText": "立方体のつみきをつんで、前、右、上から見たところ、下の図のようになりました。つみきを何個つみましたか。考えられる最も多い場合と最も少ない場合を答えなさい。",
+        "sourceAnswer": "多い場合…17個　少ない場合…14個",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-22a006cb162db539",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 49,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+          "page": 55
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "17",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar",
+            "label": "多い場合"
+          },
+          {
+            "n": "14",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar",
+            "label": "少ない場合"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4R01"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "多い場合の高さ",
+            "body": "原本解説の各マスの上限まで積みます。",
+            "equation": "3段が2か所、2段が4か所、1段が3か所"
+          },
+          {
+            "id": "s2",
+            "title": "多い場合の個数",
+            "body": "段数ごとの個数を足します。",
+            "equation": "3×2＋2×4＋1×3＝17"
+          },
+          {
+            "id": "s3",
+            "title": "少ない場合の高さ",
+            "body": "上から見た9マスに積み、前と右から見た高さを必要最小限で満たします。",
+            "equation": "3段が2か所、2段が1か所、1段が6か所"
+          },
+          {
+            "id": "s4",
+            "title": "少ない場合の個数",
+            "body": "原本の最少配置の個数を足します。",
+            "equation": "3×2＋2×1＋1×6＝14",
+            "checkpoint": {
+              "prompt": "最も多い場合の2段のマスは何か所ですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "か所",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "V04/G-2b019d2410",
+      "figure": "figs/selected-22a006cb162db539.png"
+    },
+    {
+      "id": "selected-fe05cebaedb3bab9",
+      "unitId": "selection.V04.G-74d2052e3e",
+      "category": "geometry",
+      "domain": "立体図形",
+      "text": "1辺が6cmの立方体があります。この立方体を図の点線にそって、立方体のそれぞれの面に平行な面で4回切って、12個の直方体を作ります。切り分けた直方体の表面積の合計を求めなさい。",
+      "source": {
+        "title": "4S09L⑤-1",
+        "url": "https://app.notion.com/p/3f52b010743c811dbea8c54747194b95?pvs=204",
+        "locator": "原教材PDF（問題p13、解説p19）",
+        "sourceText": "1辺が6cmの立方体があります。この立方体を図の点線にそって、立方体のそれぞれの面に平行な面で4回切って、12個の直方体を作ります。切り分けた直方体の表面積の合計を求めなさい。",
+        "sourceAnswer": "504cm²",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-fe05cebaedb3bab9",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-S09 立体図形(1).pdf",
+          "page": 13,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-S09 立体図形(1).pdf",
+          "page": 17
+        }
+      },
+      "answer": {
+        "n": "504",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4S09"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "はじめの立方体の表面積は6×6×6＝216cm²です。",
+            "equation": "6×6×6＝216cm²"
+          },
+          {
+            "id": "s2",
+            "title": "1回切るとふえる面",
+            "body": "面に平行に1回切るごとに、切り口が2つできます。切り口はどれも1辺6cmの正方形です。",
+            "equation": "6×6×2＝72cm²"
+          },
+          {
+            "id": "s3",
+            "title": "4回分",
+            "body": "どの向きに切っても切り口は同じ大きさなので、4回分をまとめて足せます。",
+            "equation": "72×4＝288cm²"
+          },
+          {
+            "id": "s4",
+            "title": "合計と確かめ",
+            "body": "はじめの表面積に足します。",
+            "equation": "216＋288＝504cm²",
+            "checkpoint": {
+              "prompt": "1回切るごとに、表面積の合計は何cm²ふえますか。",
+              "answer": {
+                "n": "72",
+                "d": "1",
+                "unit": "cm²",
+                "dimension": "area"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "V04/G-74d2052e3e",
+      "figure": "figs/selected-fe05cebaedb3bab9.png"
+    },
+    {
+      "id": "selected-3a68d479cac7ca84",
+      "unitId": "selection.V04.G-bb90438f33",
+      "category": "geometry",
+      "domain": "立体図形",
+      "text": "同じ大きさの立方体14個を図のように積み上げ、床についている面をのぞいた表面をすべて青色のペンキでぬりました。\n(1) 3つの面が青色でぬられている立方体の個数を求めなさい。\n(2) 2つの面が青色でぬられている立方体の個数を求めなさい。\n(3) 1つの面が青色でぬられている立方体の個数を求めなさい。\n(4) どの面も青色でぬられていない立方体の個数を求めなさい。",
+      "source": {
+        "title": "4S09H④-3",
+        "url": "https://app.notion.com/p/3f52b010743c816a90f7fa31162ef013?pvs=204",
+        "locator": "原教材PDF（問題p29、解説p34）",
+        "sourceText": "同じ大きさの立方体14個を図のように積み上げ、床についている面をのぞいた表面をすべて青色のペンキでぬりました。\n(1) 3つの面が青色でぬられている立方体の個数を求めなさい。\n(2) 2つの面が青色でぬられている立方体の個数を求めなさい。\n(3) 1つの面が青色でぬられている立方体の個数を求めなさい。\n(4) どの面も青色でぬられていない立方体の個数を求めなさい。",
+        "sourceAnswer": "(1)6個　(2)4個　(3)2個　(4)1個",
+        "verification": "Notion実ページを再取得し公式答えを照合。原本の問題文・公式解説・図を目視確認し、原本解説に沿い段階化。Pythonで数値検算済み。",
+        "handoffGroup": "A1",
+        "originalProblemId": "selected-3a68d479cac7ca84",
+        "problemSource": {
+          "file": "/算数DB/原本/4年授業/4-S09 立体図形(1).pdf",
+          "page": 29,
+          "pageType": "PDF通しページ（1始まり）"
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/4年授業/4-S09 立体図形(1).pdf",
+          "page": 34
+        }
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "6",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(2)",
+            "n": "4",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(3)",
+            "n": "2",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(4)",
+            "n": "1",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "4S09"
+      ],
+      "homeStudy": false,
+      "reviewEligible": false,
+      "expeditionOnly": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "条件の整理",
+            "body": "立体は下から3×3、2×2、1×1の段をかどでそろえて積んだ形です。床についている面はぬりません。",
+            "equation": "9＋4＋1＝14個"
+          },
+          {
+            "id": "s2",
+            "title": "段ごとに調べる",
+            "body": "1つずつの立方体について、ほかの立方体にも床にもふれていない面を数えます。",
+            "equation": "ぬられる面＝外に出ている面"
+          },
+          {
+            "id": "s3",
+            "title": "数を分ける",
+            "body": "3面が6個、2面が4個、1面が2個、0面が1個、いちばん上の1個は5面です。",
+            "equation": "6＋4＋2＋1＋1＝14"
+          },
+          {
+            "id": "s4",
+            "title": "確かめ",
+            "body": "すべての個数を合わせると14個になります。",
+            "equation": "14個",
+            "checkpoint": {
+              "prompt": "この立体のいちばん上の立方体は、何面が青くぬられていますか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "面",
+                "dimension": "scalar"
+              }
+            }
+          }
+        ]
+      },
+      "selectionKey": "V04/G-bb90438f33",
+      "figure": "figs/selected-3a68d479cac7ca84.png"
     }
   ],
   "units": [
@@ -62099,33 +66477,6 @@
       "prerequisites": []
     },
     {
-      "id": "calc.haru04.k25",
-      "name": "春04計算 K-25",
-      "domain": "calculation",
-      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
-      "representativeId": "春04K-25",
-      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
-      "prerequisites": []
-    },
-    {
-      "id": "calc.haru04.k26",
-      "name": "春04計算 K-26",
-      "domain": "calculation",
-      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
-      "representativeId": "春04K-26",
-      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
-      "prerequisites": []
-    },
-    {
-      "id": "calc.haru04.k28",
-      "name": "春04計算 K-28",
-      "domain": "calculation",
-      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
-      "representativeId": "春04K-28",
-      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
-      "prerequisites": []
-    },
-    {
       "id": "calc.haru05.k7",
       "name": "春05計算 K-7",
       "domain": "calculation",
@@ -62428,15 +66779,6 @@
       "domain": "calculation",
       "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
       "representativeId": "春03K-9",
-      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
-      "prerequisites": []
-    },
-    {
-      "id": "calc.haru04.k7",
-      "name": "春04計算 K-7",
-      "domain": "calculation",
-      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
-      "representativeId": "春04K-7",
       "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
       "prerequisites": []
     },
@@ -66253,6 +70595,474 @@
       "definition": "密閉容器の向きを変えて段境界を越える水深を求める",
       "representativeId": "ready-2c82c096b9008adb",
       "decision": "密閉容器の向きを変えて段境界を越える水深を求める",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.N03.N03-U03",
+      "name": "約数4個を素因数の形で絞り順位づけ",
+      "domain": "数の性質",
+      "definition": "約数4個を素因数の形で絞り順位づけ",
+      "representativeId": "selected-a719b12c9c308973",
+      "decision": "約数4個を素因数の形で絞り順位づけ",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.N06.N06-U05",
+      "name": "筆算余りの反復から桁周期を求め周期和へ落とす",
+      "domain": "数の性質",
+      "definition": "筆算余りの反復から桁周期を求め周期和へ落とす",
+      "representativeId": "selected-a0207c6635c2066e",
+      "decision": "筆算余りの反復から桁周期を求め周期和へ落とす",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.Q01.Q01-U02",
+      "name": "周期長で割った余りから要素",
+      "domain": "規則性",
+      "definition": "周期長で割った余りから要素",
+      "representativeId": "selected-4a073039e428287b",
+      "decision": "周期長で割った余りから要素",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T18.speed.river.different-currents-two-trips",
+      "name": "上下りで流速が異なるため速度差を4流速分と読む",
+      "domain": "速さ",
+      "definition": "上下りで流速が異なるため速度差を4流速分と読む",
+      "representativeId": "selected-e4307b148c6fc638",
+      "decision": "上下りで流速が異なるため速度差を4流速分と読む",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T22.clock.bisector.long-hand-to-twelve",
+      "name": "短針が長針と12の角を二等分する条件を連続角で表す",
+      "domain": "速さ",
+      "definition": "短針が長針と12の角を二等分する条件を連続角で表す",
+      "representativeId": "selected-e385fefc2b3bf7bc",
+      "decision": "短針が長針と12の角を二等分する条件を連続角で表す",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.W08.W08-U01",
+      "name": "中空方陣を外内平方差にして一辺を逆算する / 外正方形から内側の穴を引く",
+      "domain": "和と差",
+      "definition": "中空方陣を外内平方差にして一辺を逆算する / 外正方形から内側の穴を引く",
+      "representativeId": "selected-e9430d66d0fbc833",
+      "decision": "中空方陣を外内平方差にして一辺を逆算する / 外正方形から内側の穴を引く",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.W08.W08-U03",
+      "name": "余りと不足の和を正方形の増分2n+1へつなぐ",
+      "domain": "和と差",
+      "definition": "余りと不足の和を正方形の増分2n+1へつなぐ",
+      "representativeId": "selected-1ee629ee7ba1c488",
+      "decision": "余りと不足の和を正方形の増分2n+1へつなぐ",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.N03.N03-U05",
+      "name": "端余白を1つ除きタイル+すきまを一組とする",
+      "domain": "数の性質",
+      "definition": "端余白を1つ除きタイル+すきまを一組とする",
+      "representativeId": "selected-48776fc371d65313",
+      "decision": "端余白を1つ除きタイル+すきまを一組とする",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.N06.N06-U04",
+      "name": "分子分母から同量を引くと差が保存されることを使う",
+      "domain": "数の性質",
+      "definition": "分子分母から同量を引くと差が保存されることを使う",
+      "representativeId": "selected-8286f5a214c5d44d",
+      "decision": "分子分母から同量を引くと差が保存されることを使う",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P07.profit.two-prices.quantity-from-overall-profit",
+      "name": "原価総額から全売上を作り二価格販売数へ",
+      "domain": "割合と比",
+      "definition": "原価総額から全売上を作り二価格販売数へ",
+      "representativeId": "selected-c7a530039ceb6c09",
+      "decision": "原価総額から全売上を作り二価格販売数へ",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P07.profit.unsold.sales-loss",
+      "name": "売れない品の売上損失を全品売却利益から引く",
+      "domain": "割合と比",
+      "definition": "売れない品の売上損失を全品売却利益から引く",
+      "representativeId": "selected-97b70a2cce4615a7",
+      "decision": "売れない品の売上損失を全品売却利益から引く",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P17.histogram.rank-to-class",
+      "name": "長い方から累積度数を作って順位の属す階級を選ぶ",
+      "domain": "割合と比",
+      "definition": "長い方から累積度数を作って順位の属す階級を選ぶ",
+      "representativeId": "selected-16f241625f05fdc8",
+      "decision": "長い方から累積度数を作って順位の属す階級を選ぶ",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P17.histogram.total-frequency",
+      "name": "階級別人数を足し全体数を得る",
+      "domain": "割合と比",
+      "definition": "階級別人数を足し全体数を得る",
+      "representativeId": "selected-ad0549338cf4b1a9",
+      "decision": "階級別人数を足し全体数を得る",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P17.histogram.value-to-rank-range",
+      "name": "階級内の細順位が不明なことから最良/最悪順位を出す",
+      "domain": "割合と比",
+      "definition": "階級内の細順位が不明なことから最良/最悪順位を出す",
+      "representativeId": "selected-7ae7ac309898b28f",
+      "decision": "階級内の細順位が不明なことから最良/最悪順位を出す",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P17.table.cross-tab.marginal-total",
+      "name": "表の目的列/総人数の列を選んで足す",
+      "domain": "割合と比",
+      "definition": "表の目的列/総人数の列を選んで足す",
+      "representativeId": "selected-e1439dc19fbba560",
+      "decision": "表の目的列/総人数の列を選んで足す",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.Q06.Q06-U03",
+      "name": "最大カードを動かす前後で小カード全部の移動が必要と再帰分解する",
+      "domain": "規則性",
+      "definition": "最大カードを動かす前後で小カード全部の移動が必要と再帰分解する",
+      "representativeId": "selected-81ca2d669bf765f3",
+      "decision": "最大カードを動かす前後で小カード全部の移動が必要と再帰分解する",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.Q06.Q06-U04",
+      "name": "最小手順内の特定カードの移動頻度を再帰的に数える",
+      "domain": "規則性",
+      "definition": "最小手順内の特定カードの移動頻度を再帰的に数える",
+      "representativeId": "selected-b3c416a45b5b1eec",
+      "decision": "最小手順内の特定カードの移動頻度を再帰的に数える",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T12.speed.forgotten.wait-from-arrival",
+      "name": "通常計画の全時間から往復余分移動を引く",
+      "domain": "速さ",
+      "definition": "通常計画の全時間から往復余分移動を引く",
+      "representativeId": "selected-69e7ae665534e32d",
+      "decision": "通常計画の全時間から往復余分移動を引く",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T12.speed.multimodal.infer-middle-rate",
+      "name": "区間ごとに移動手段と距離を対応し時間を合計",
+      "domain": "速さ",
+      "definition": "区間ごとに移動手段と距離を対応し時間を合計",
+      "representativeId": "selected-520b666b4a6f9f48",
+      "decision": "区間ごとに移動手段と距離を対応し時間を合計",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T13.speed.phase-time.rest-excluded",
+      "name": "休止を引いた移動総時間から速度別時間をつるかめで出す",
+      "domain": "速さ",
+      "definition": "休止を引いた移動総時間から速度別時間をつるかめで出す",
+      "representativeId": "selected-83ae5db167953286",
+      "decision": "休止を引いた移動総時間から速度別時間をつるかめで出す",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T18.speed.river.opposite-shared-current-cancels",
+      "name": "対向2船の速度和では共通流速が消える",
+      "domain": "速さ",
+      "definition": "対向2船の速度和では共通流速が消える",
+      "representativeId": "selected-1fcbad17478b3d19",
+      "decision": "対向2船の速度和では共通流速が消える",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T19.speed.train.point-clearance",
+      "name": "定点を完全通過する距離を車体長とする",
+      "domain": "速さ",
+      "definition": "定点を完全通過する距離を車体長とする",
+      "representativeId": "selected-eb7ef236a1425c6d",
+      "decision": "定点を完全通過する距離を車体長とする",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T19.speed.train.two-clearance-conditions",
+      "name": "人と橋通過の差で列車長を消す",
+      "domain": "速さ",
+      "definition": "人と橋通過の差で列車長を消す",
+      "representativeId": "selected-b8a477725c303e56",
+      "decision": "人と橋通過の差で列車長を消す",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T19.speed.train.two-tunnels.changed-speed",
+      "name": "速度変更後の時間を元速度に換算して車体長を消去",
+      "domain": "速さ",
+      "definition": "速度変更後の時間を元速度に換算して車体長を消去",
+      "representativeId": "selected-fe2fd90e44ced76a",
+      "decision": "速度変更後の時間を元速度に換算して車体長を消去",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T20.speed.train.same-direction-length-sum",
+      "name": "同方向の追い越しは両車体長の和を速度差で割る",
+      "domain": "速さ",
+      "definition": "同方向の追い越しは両車体長の和を速度差で割る",
+      "representativeId": "selected-ee923a7fbd966127",
+      "decision": "同方向の追い越しは両車体長の和を速度差で割る",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T20.speed.train.tunnel-difference-and-pass-sum",
+      "name": "同じトンネルの通過距離差と対向車体和を組み合わせる",
+      "domain": "速さ",
+      "definition": "同じトンネルの通過距離差と対向車体和を組み合わせる",
+      "representativeId": "selected-2f419f892cc5a183",
+      "decision": "同じトンネルの通過距離差と対向車体和を組み合わせる",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.N07.N07-U02",
+      "name": "一位和の操作と全数字一回を同時に満たす候補を絞る",
+      "domain": "数の性質",
+      "definition": "一位和の操作と全数字一回を同時に満たす候補を絞る",
+      "representativeId": "selected-af53448fcebdb7ff",
+      "decision": "一位和の操作と全数字一回を同時に満たす候補を絞る",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.Q06.Q06-U02",
+      "name": "最後の一歩が1/2段の排反場合に分ける",
+      "domain": "規則性",
+      "definition": "最後の一歩が1/2段の排反場合に分ける",
+      "representativeId": "selected-ca849a9999cb5e6f",
+      "decision": "最後の一歩が1/2段の排反場合に分ける",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.C07.C07-U02",
+      "name": "軸平行と傾斜正方形をサイズ別に数える",
+      "domain": "場合の数",
+      "definition": "軸平行と傾斜正方形をサイズ別に数える",
+      "representativeId": "selected-d7a11bb612170411",
+      "decision": "軸平行と傾斜正方形をサイズ別に数える",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P14.proportion.spring.extension-not-length",
+      "name": "2条件の差から伸び率を出し、自然長を分離",
+      "domain": "割合と比",
+      "definition": "2条件の差から伸び率を出し、自然長を分離",
+      "representativeId": "selected-49edda1ef6f74a71",
+      "decision": "2条件の差から伸び率を出し、自然長を分離",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P17.graph.ratio.nested-production-share",
+      "name": "原料→再生紙→用途の分母を区別して割合をつなぐ",
+      "domain": "割合と比",
+      "definition": "原料→再生紙→用途の分母を区別して割合をつなぐ",
+      "representativeId": "selected-db361be3b81c1bb5",
+      "decision": "原料→再生紙→用途の分母を区別して割合をつなぐ",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.P17.graph.ratio.reverse-consumption-base",
+      "name": "生産量と使用量の分母を切り替え基準量を逆算",
+      "domain": "割合と比",
+      "definition": "生産量と使用量の分母を切り替え基準量を逆算",
+      "representativeId": "selected-4c326004aac2e9f8",
+      "decision": "生産量と使用量の分母を切り替え基準量を逆算",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.Q05.Q05-U01",
+      "name": "出力から逆写像を2回たどる / 定義表を桁ごとに1回または合成して適用",
+      "domain": "規則性",
+      "definition": "出力から逆写像を2回たどる / 定義表を桁ごとに1回または合成して適用",
+      "representativeId": "selected-d92690d360ec02c1",
+      "decision": "出力から逆写像を2回たどる / 定義表を桁ごとに1回または合成して適用",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.Q05.Q05-U02",
+      "name": "各桁の循環周期を求め全桁同時復帰を最小公倍数で決める",
+      "domain": "規則性",
+      "definition": "各桁の循環周期を求め全桁同時復帰を最小公倍数で決める",
+      "representativeId": "selected-98374c8573bcb6f5",
+      "decision": "各桁の循環周期を求め全桁同時復帰を最小公倍数で決める",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T05.二相対速度の時間差から一周時間",
+      "name": "二相対速度の時間差から一周時間：出会い時刻=5T/9,3T/5、差2T/45",
+      "domain": "速さ",
+      "definition": "二相対速度の時間差から一周時間：出会い時刻=5T/9,3T/5、差2T/45",
+      "representativeId": "selected-379203398e144f02",
+      "decision": "二相対速度の時間差から一周時間：出会い時刻=5T/9,3T/5、差2T/45",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T05.周回の第2出会い周期と進行距離",
+      "name": "周回の第2出会い周期と進行距離：第2出会いの時刻差は初回差の2倍",
+      "domain": "速さ",
+      "definition": "周回の第2出会い周期と進行距離：第2出会いの時刻差は初回差の2倍",
+      "representativeId": "selected-33599988c9d3afdf",
+      "decision": "周回の第2出会い周期と進行距離：第2出会いの時刻差は初回差の2倍",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T06.等区間の時間遅れ倍化と折返し比",
+      "name": "等区間の時間遅れ倍化と折返し比：Cの遅れ24分、Pの14kmは24分相当。出会い道比3.5:2.5",
+      "domain": "速さ",
+      "definition": "等区間の時間遅れ倍化と折返し比：Cの遅れ24分、Pの14kmは24分相当。出会い道比3.5:2.5",
+      "representativeId": "selected-140d0f170b7a1eb7",
+      "decision": "等区間の時間遅れ倍化と折返し比：Cの遅れ24分、Pの14kmは24分相当。出会い道比3.5:2.5",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T24.timetable.bus-concurrency",
+      "name": "一周所要時間内の出発便数から同時必要台数を求める",
+      "domain": "速さ",
+      "definition": "一周所要時間内の出発便数から同時必要台数を求める",
+      "representativeId": "selected-f2a2d78a5daf9038",
+      "decision": "一周所要時間内の出発便数から同時必要台数を求める",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T24.timetable.driver-total-trips",
+      "name": "一日の総便数を一人の担当便数で割る",
+      "domain": "速さ",
+      "definition": "一日の総便数を一人の担当便数で割る",
+      "representativeId": "selected-0d6faa591c32ce66",
+      "decision": "一日の総便数を一人の担当便数で割る",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.W06.W06-U03",
+      "name": "受け手が倍になる移動を半分に戻して渡し手へ返す",
+      "domain": "和と差",
+      "definition": "受け手が倍になる移動を半分に戻して渡し手へ返す",
+      "representativeId": "selected-5aa5ea2c6fdb68c0",
+      "decision": "受け手が倍になる移動を半分に戻して渡し手へ返す",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.W07.W07-U03",
+      "name": "等価な品物の束へ置き換え1種類で総額を表す",
+      "domain": "和と差",
+      "definition": "等価な品物の束へ置き換え1種類で総額を表す",
+      "representativeId": "selected-eedb3e11578fa034",
+      "decision": "等価な品物の束へ置き換え1種類で総額を表す",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.F05.G-c980f9e816",
+      "name": "周長を辺の和へ変換して和差算",
+      "domain": "平面図形",
+      "definition": "周長を辺の和へ変換して和差算",
+      "representativeId": "selected-d6cf9822b1e88537",
+      "decision": "周長を辺の和へ変換して和差算",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.F07.G-870e5a7eea",
+      "name": "全ての境界長を割る最大正方形で最小個数",
+      "domain": "平面図形",
+      "definition": "全ての境界長を割る最大正方形で最小個数",
+      "representativeId": "selected-513ab79cafcc6cea",
+      "decision": "全ての境界長を割る最大正方形で最小個数",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.F09.G-b1e54f91b5",
+      "name": "半径から円周と円面積を求める",
+      "domain": "平面図形",
+      "definition": "半径から円周と円面積を求める",
+      "representativeId": "selected-ef9b7bd87fbaf928",
+      "decision": "半径から円周と円面積を求める",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.F10.G-ae19b5e83f",
+      "name": "扇形面積の係数で角の和と加重和を解く",
+      "domain": "平面図形",
+      "definition": "扇形面積の係数で角の和と加重和を解く",
+      "representativeId": "selected-c27ce954e9345e9c",
+      "decision": "扇形面積の係数で角の和と加重和を解く",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.F11.G-e7eba4fa7a",
+      "name": "建物角90を除く270度の可動範囲",
+      "domain": "平面図形",
+      "definition": "建物角90を除く270度の可動範囲",
+      "representativeId": "selected-87e13bd3d8661952",
+      "decision": "建物角90を除く270度の可動範囲",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.T25.geo.motion.maximum-area-recover-base",
+      "name": "最大三角形面積と台形の垂直高さから底辺を求める",
+      "domain": "速さ",
+      "definition": "最大三角形面積と台形の垂直高さから底辺を求める",
+      "representativeId": "selected-bf2026cf623201a2",
+      "decision": "最大三角形面積と台形の垂直高さから底辺を求める",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.V01.G-aed5fdc407",
+      "name": "既知3辺の積を他の底面積で割る",
+      "domain": "立体図形",
+      "definition": "既知3辺の積を他の底面積で割る",
+      "representativeId": "selected-524eaf300c2843ef",
+      "decision": "既知3辺の積を他の底面積で割る",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.V02.G-f864ac4859",
+      "name": "3方向を割る最大辺で同一立方個数最少",
+      "domain": "立体図形",
+      "definition": "3方向を割る最大辺で同一立方個数最少",
+      "representativeId": "selected-25a5b0fe3fb150a9",
+      "decision": "3方向を割る最大辺で同一立方個数最少",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.V04.G-2b019d2410",
+      "name": "各列最低1個と正面/側面の必要高さを満たす配置を作り、積み木個数を最小にする",
+      "domain": "立体図形",
+      "definition": "各列最低1個と正面/側面の必要高さを満たす配置を作り、積み木個数を最小にする",
+      "representativeId": "selected-22a006cb162db539",
+      "decision": "各列最低1個と正面/側面の必要高さを満たす配置を作り、積み木個数を最小にする",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.V04.G-74d2052e3e",
+      "name": "切断による新面を切断面積の2倍として加える",
+      "domain": "立体図形",
+      "definition": "切断による新面を切断面積の2倍として加える",
+      "representativeId": "selected-fe05cebaedb3bab9",
+      "decision": "切断による新面を切断面積の2倍として加える",
+      "prerequisites": []
+    },
+    {
+      "id": "selection.V04.G-bb90438f33",
+      "name": "床面を塗らない条件で各小立方体の露出面数を分類",
+      "domain": "立体図形",
+      "definition": "床面を塗らない条件で各小立方体の露出面数を分類",
+      "representativeId": "selected-3a68d479cac7ca84",
+      "decision": "床面を塗らない条件で各小立方体の露出面数を分類",
       "prerequisites": []
     }
   ],

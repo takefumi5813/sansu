@@ -1,0 +1,870 @@
+{
+  "provenance": "前回Dropbox 出力/A_hold_result.json。アプリ出題データとは独立した原本逐語転記・印刷解答の監査記録（2026-10-13）。前回に本文転記しなかったA2/A3はhashがnull。",
+  "approved": [
+    {
+      "id": "selected-a719b12c9c308973",
+      "group": "A1",
+      "sourceTitle": "R03N④-3",
+      "sourceTextSha256": "2f0d88f9992f91a1563f9d353ed44b5ac276892ccacbd0555ed91be6d7d541ea",
+      "officialAnswer": "12番目",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+        "page": 12,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+        "page": 20
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81009721c51a855c01c8?pvs=204"
+    },
+    {
+      "id": "selected-a0207c6635c2066e",
+      "group": "A1",
+      "sourceTitle": "R05N⑥-3",
+      "sourceTextSha256": "db1540591307ebf682abf79ca92157d552e623d4d6485538a93a9adef008190c",
+      "officialAnswer": "(1)7　(2)9031",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-05 数の性質(3)-小数・分数(1)-.pdf",
+        "page": 16,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-05 数の性質(3)-小数・分数(1)-.pdf",
+        "page": 20
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c810c85cae9be0513017f?pvs=204"
+    },
+    {
+      "id": "selected-af53448fcebdb7ff",
+      "group": "A2",
+      "sourceTitle": "4R25T⑥-2",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-25 文章題(6)-消去算-.pdf",
+        "page": 56,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81b4a143efe4e5155882?pvs=204"
+    },
+    {
+      "id": "selected-4a073039e428287b",
+      "group": "A1",
+      "sourceTitle": "4R12N②-1",
+      "sourceTextSha256": "177d93b5de930555c4ddcef1fb9390f0569e4863f216e834f92a1f18dca13411",
+      "officialAnswer": "(1)3　(2)17個　(3)199",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 8,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 20
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c810096f1c6e3157b5697?pvs=204"
+    },
+    {
+      "id": "selected-ca849a9999cb5e6f",
+      "group": "A2",
+      "sourceTitle": "R09T⑥-2",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-09 速さ(3)-点の移動(1)-.pdf",
+        "page": 62,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c811ebc05e51ce0b99965?pvs=204"
+    },
+    {
+      "id": "selected-e4307b148c6fc638",
+      "group": "A1",
+      "sourceTitle": "R22Tt-4",
+      "sourceTextSha256": "0a2f30647795c57bb846075889801be7ff41042c23ee0dd85973d932507d705a",
+      "officialAnswer": "(1)時速1.5km　(2)時速9.5km",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+        "page": 73,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+        "page": 75
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8126b0ebf309ee702d87?pvs=204"
+    },
+    {
+      "id": "selected-e385fefc2b3bf7bc",
+      "group": "A1",
+      "sourceTitle": "R23T⑤-1",
+      "sourceTextSha256": "623b957b7c43a11a6e6e60ab77216fe9fc2d4efe38adaf62102dc57fbe6fb23f",
+      "officialAnswer": "2時24分",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 55,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 59
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81868bc0fcb39a87b4d8?pvs=204"
+    },
+    {
+      "id": "selected-e9430d66d0fbc833",
+      "group": "A1",
+      "sourceTitle": "4R26N③-3",
+      "sourceTextSha256": "660faf7005aff9d036db257ee9a51f5b98435755d1ce49a8b6f88b7f119163c3",
+      "officialAnswer": "(1)18人　(2)144人",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 10,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 20
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c812493c8fd50a128e645?pvs=204"
+    },
+    {
+      "id": "selected-1ee629ee7ba1c488",
+      "group": "A1",
+      "sourceTitle": "4R26N④-3",
+      "sourceTextSha256": "c48885b397287395e046603aec9f8f593bed4c145451fbd3e21a20d8c66f0675",
+      "officialAnswer": "(1)21個　(2)480個",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 13,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 20
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8115818ee3611d99bd47?pvs=204"
+    },
+    {
+      "id": "selected-d7a11bb612170411",
+      "group": "A2",
+      "sourceTitle": "S08L⑥-4",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-夏08 場合の数.pdf",
+        "page": 14,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8107a87de38d466300e2?pvs=204"
+    },
+    {
+      "id": "selected-48776fc371d65313",
+      "group": "A1",
+      "sourceTitle": "4S06L②-4",
+      "sourceTextSha256": "b57588ac802aeda722a93f5d5b1884fcaf9e0ae1975cd42e797bd04331e28ac7",
+      "officialAnswer": "7cm",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-S06 約数.pdf",
+        "page": 4,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-S06 約数.pdf",
+        "page": 14
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8109b006c9f557cd7371?pvs=204"
+    },
+    {
+      "id": "selected-8286f5a214c5d44d",
+      "group": "A1",
+      "sourceTitle": "R06N⑥-3",
+      "sourceTextSha256": "c5dd118142d779921b8ea2e23c53c726ffe2e480292a90f3f2b3a806f635ec4a",
+      "officialAnswer": "11",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-06 数の性質(4)-小数・分数(2)-.pdf",
+        "page": 17,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-06 数の性質(4)-小数・分数(2)-.pdf",
+        "page": 20
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8106ba29d0f2284dff22?pvs=204"
+    },
+    {
+      "id": "selected-c7a530039ceb6c09",
+      "group": "A1",
+      "sourceTitle": "R17N⑦-2",
+      "sourceTextSha256": "24147d8e49bb21bbe4316a8410868abcdb66a80171e8880b7dff8a648af41de6",
+      "officialAnswer": "(1)300円　(2)180円　(3)280個",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+        "page": 19,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+        "page": 20
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c813cab97fd1cee416c21?pvs=204"
+    },
+    {
+      "id": "selected-97b70a2cce4615a7",
+      "group": "A1",
+      "sourceTitle": "R17N⑥-3",
+      "sourceTextSha256": "831b4ddb664e8bcb5b59a1a67dc2d0f03f94aaf702e4cd7af30f8d2bb0f3eb0e",
+      "officialAnswer": "(1)20000円　(2)250個",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+        "page": 16,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-17 割合(3)-売買損益- (1).pdf",
+        "page": 20
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c810a95b0f7c59f1f4095?pvs=204"
+    },
+    {
+      "id": "selected-49edda1ef6f74a71",
+      "group": "A2",
+      "sourceTitle": "S03L④-3",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-夏03 正比例反比例.pdf",
+        "page": 12,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8100bd78dcc7dd250c5a?pvs=204"
+    },
+    {
+      "id": "selected-db361be3b81c1bb5",
+      "group": "A2",
+      "sourceTitle": "GW513-29①",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.13 割合の基本 -3用法の確認-.pdf",
+        "page": 62,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c814aae65d83ccf9b5041?pvs=204"
+    },
+    {
+      "id": "selected-4c326004aac2e9f8",
+      "group": "A2",
+      "sourceTitle": "GW513-29①",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.13 割合の基本 -3用法の確認-.pdf",
+        "page": 62,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c814aae65d83ccf9b5041?pvs=204"
+    },
+    {
+      "id": "selected-16f241625f05fdc8",
+      "group": "A1",
+      "sourceTitle": "4R01T⑤-2",
+      "sourceTextSha256": "cd0eef3b30afa533ef0042bc4c9b793c873f99a8c3ee750e09b7879bc3a8a735",
+      "officialAnswer": "(1)40人　(2)25mをこえて30mまで　(3)6番目、10番目",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 52,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81c1b524d9724a5a95eb?pvs=204"
+    },
+    {
+      "id": "selected-ad0549338cf4b1a9",
+      "group": "A1",
+      "sourceTitle": "4R01T⑤-2",
+      "sourceTextSha256": "cd0eef3b30afa533ef0042bc4c9b793c873f99a8c3ee750e09b7879bc3a8a735",
+      "officialAnswer": "(1)40人　(2)25mをこえて30mまで　(3)6番目、10番目",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 52,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81c1b524d9724a5a95eb?pvs=204"
+    },
+    {
+      "id": "selected-7ae7ac309898b28f",
+      "group": "A1",
+      "sourceTitle": "4R01T⑤-2",
+      "sourceTextSha256": "cd0eef3b30afa533ef0042bc4c9b793c873f99a8c3ee750e09b7879bc3a8a735",
+      "officialAnswer": "(1)40人　(2)25mをこえて30mまで　(3)6番目、10番目",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 52,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81c1b524d9724a5a95eb?pvs=204"
+    },
+    {
+      "id": "selected-e1439dc19fbba560",
+      "group": "A1",
+      "sourceTitle": "4R01T⑤-1",
+      "sourceTextSha256": "0efeb48cf9a022d7aaa62891070fe8256f6dc281d0e5e613f1bdc84f941abb5a",
+      "officialAnswer": "(1)23人　(2)メロン　(3)98人",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 52,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 58
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81959e80d4f4111c1222?pvs=204"
+    },
+    {
+      "id": "selected-d92690d360ec02c1",
+      "group": "A2",
+      "sourceTitle": "GW427-17①",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/G脳ワークアウト/4年/No.27 数列と数のそうさ.pdf",
+        "page": 38,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8106b434ef1697555624?pvs=204"
+    },
+    {
+      "id": "selected-98374c8573bcb6f5",
+      "group": "A2",
+      "sourceTitle": "GW427-17①",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/G脳ワークアウト/4年/No.27 数列と数のそうさ.pdf",
+        "page": 38,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8106b434ef1697555624?pvs=204"
+    },
+    {
+      "id": "selected-81ca2d669bf765f3",
+      "group": "A1",
+      "sourceTitle": "4R12T⑥-2",
+      "sourceTextSha256": "ab7b229767f53b05b97ee76331f64a32fdae6aee4d5402f2f621ed5931fd7a80",
+      "officialAnswer": "(1)15手　(2)4回　(3)19手　(4)255手",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 54,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 55
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c810fa9acee28a7c88748?pvs=204"
+    },
+    {
+      "id": "selected-b3c416a45b5b1eec",
+      "group": "A1",
+      "sourceTitle": "4R12T⑥-2",
+      "sourceTextSha256": "ab7b229767f53b05b97ee76331f64a32fdae6aee4d5402f2f621ed5931fd7a80",
+      "officialAnswer": "(1)15手　(2)4回　(3)19手　(4)255手",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 54,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-12 規則性.pdf",
+        "page": 55
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c810fa9acee28a7c88748?pvs=204"
+    },
+    {
+      "id": "selected-379203398e144f02",
+      "group": "A2",
+      "sourceTitle": "GW518-29①",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+        "page": 62,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f42b010743c8160a5c2f6836eb51f7a?pvs=204"
+    },
+    {
+      "id": "selected-33599988c9d3afdf",
+      "group": "A2",
+      "sourceTitle": "GW518-29①",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+        "page": 62,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f42b010743c8160a5c2f6836eb51f7a?pvs=204"
+    },
+    {
+      "id": "selected-140d0f170b7a1eb7",
+      "group": "A2",
+      "sourceTitle": "GW518-27①",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/G脳ワークアウト/5年/No.18 速さに関する文章問題（１） -旅人算-.pdf",
+        "page": 58,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f42b010743c817eba1af8f69ab76ae4?pvs=204"
+    },
+    {
+      "id": "selected-69e7ae665534e32d",
+      "group": "A1",
+      "sourceTitle": "4R33N⑦-1",
+      "sourceTextSha256": "efa4879139f3accada9e7e50be8fecffb4899daf8f18840a9b0c73a34b4a4864",
+      "officialAnswer": "(1)午前7時35分　(2)2分間",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-33 速さ.pdf",
+        "page": 18,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-33 速さ.pdf",
+        "page": 20
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8155a94ad252182b09e2?pvs=204"
+    },
+    {
+      "id": "selected-520b666b4a6f9f48",
+      "group": "A1",
+      "sourceTitle": "4R34T⑤-2",
+      "sourceTextSha256": "178ad9e3a48921388572c95497a112e9cbd1a93ad00b96234f72464499924ac4",
+      "officialAnswer": "(1)25分　(2)15分　(3)時速54km",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+        "page": 54,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+        "page": 57
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c810081a3db6713d907dc?pvs=204"
+    },
+    {
+      "id": "selected-83ae5db167953286",
+      "group": "A1",
+      "sourceTitle": "4R34T④-2",
+      "sourceTextSha256": "be0fa109bec697d84fd3995d3d653d7f0f51048e0125d1ee9b77262c5e70ebe4",
+      "officialAnswer": "(1)午前9時39分　(2)1080m",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+        "page": 52,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-34 文章題総合.pdf",
+        "page": 57
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c810db17ce2c777351c4a?pvs=204"
+    },
+    {
+      "id": "selected-1fcbad17478b3d19",
+      "group": "A1",
+      "sourceTitle": "R22Tt-5",
+      "sourceTextSha256": "63f5629c81fac7e0f3e49173f7ba0d9ce6e6eeff1f88da033a66792505870457",
+      "officialAnswer": "(1)90km　(2)時速1km",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+        "page": 73,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-22 速さの文章題⑶時計算.pdf",
+        "page": 75
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c811e86c9e5b7b35ad853?pvs=204"
+    },
+    {
+      "id": "selected-eb7ef236a1425c6d",
+      "group": "A1",
+      "sourceTitle": "R23N①-1",
+      "sourceTextSha256": "4d8fb7aa0c1c29f19fc56231ec05f5615a2da1c68496b580276c7e755160aff4",
+      "officialAnswer": "11秒",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 8,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 21
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81f7954feadc1c73aa0d?pvs=204"
+    },
+    {
+      "id": "selected-b8a477725c303e56",
+      "group": "A1",
+      "sourceTitle": "R24T②-3",
+      "sourceTextSha256": "feb8e240e5bb084668315d245a240bffdb6bafc3e12b78f0ee0f16d0d6f54534",
+      "officialAnswer": "(1)16m/秒　(2)80m　(3)128m",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "page": 51,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf",
+        "page": 61
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8107911ac496a2052e11?pvs=204"
+    },
+    {
+      "id": "selected-fe2fd90e44ced76a",
+      "group": "A1",
+      "sourceTitle": "R23N⑦-2",
+      "sourceTextSha256": "fa6e3dded39934224cff570ae1501e309c59ee367ad5325c97c9451a7a4ae4c7",
+      "officialAnswer": "180m",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 19,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 21
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c811aa326db346289b299?pvs=204"
+    },
+    {
+      "id": "selected-ee923a7fbd966127",
+      "group": "A1",
+      "sourceTitle": "R23N③-5",
+      "sourceTextSha256": "4a894d1390a26a7b2a16b922625609c3acafa011b35ecedc4ad12d8b2b211ce9",
+      "officialAnswer": "16m/秒",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 11,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 21
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c811bad29c49dfa81f471?pvs=204"
+    },
+    {
+      "id": "selected-2f419f892cc5a183",
+      "group": "A1",
+      "sourceTitle": "R23N④-4",
+      "sourceTextSha256": "f67d5e2e5a599f6de2b4b08903baaca52d932fe27b065399c7e8c22dcb15ce08",
+      "officialAnswer": "(1)100m　(2)245m",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 13,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 21
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8143a7d5fc74529ad983?pvs=204"
+    },
+    {
+      "id": "selected-f2a2d78a5daf9038",
+      "group": "A1",
+      "sourceTitle": "R23T⑥-2",
+      "sourceTextSha256": "cc2d056ee2bed98a527d71e0ce7f854ffb7b96d57252534e9325f45c705d3344",
+      "officialAnswer": "(1)24人　(2)10台",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 57,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 59
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81f49ab1c9a6c98c1488?pvs=204"
+    },
+    {
+      "id": "selected-0d6faa591c32ce66",
+      "group": "A1",
+      "sourceTitle": "R23T⑥-2",
+      "sourceTextSha256": "cc2d056ee2bed98a527d71e0ce7f854ffb7b96d57252534e9325f45c705d3344",
+      "officialAnswer": "(1)24人　(2)10台",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 57,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-23 速さの文章題⑷通過算.pdf",
+        "page": 59
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81f49ab1c9a6c98c1488?pvs=204"
+    },
+    {
+      "id": "selected-5aa5ea2c6fdb68c0",
+      "group": "A1",
+      "sourceTitle": "4R24N④-2",
+      "sourceTextSha256": "8905e12b8b8cacf99e26f1bc60e42b9e0cc739add4108c5b19cabd51f379bf17",
+      "officialAnswer": "ケンタ君…44個　マサト君…20個",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-24 文章題(5)-和差算・やりとり算-.pdf",
+        "page": 10,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-24 文章題(5)-和差算・やりとり算-.pdf",
+        "page": 18
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81338996f0e5ff931902?pvs=204"
+    },
+    {
+      "id": "selected-eedb3e11578fa034",
+      "group": "A1",
+      "sourceTitle": "4R26T④-2",
+      "sourceTextSha256": "ed574e3c883fcb4b1b51bbe3cc77c1cf440aa214a459ea1e229678b4b9557eff",
+      "officialAnswer": "なし…240円　りんご…180円",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 54,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 59
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c810c96ceeaa097eb12e2?pvs=204"
+    },
+    {
+      "id": "selected-d6cf9822b1e88537",
+      "group": "A1",
+      "sourceTitle": "4R25T①-1",
+      "sourceTextSha256": "88e7e2a710b643ec0284dd3b9b062a9c424c3a1248371cd1d474c5f71965f8b7",
+      "officialAnswer": "(1)A…26　B…21　(2)140cm²",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-25 文章題(6)-消去算-.pdf",
+        "page": 45,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-25 文章題(6)-消去算-.pdf",
+        "page": 57
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c813eb5b8d988f8fe2ec0?pvs=204"
+    },
+    {
+      "id": "selected-513ab79cafcc6cea",
+      "group": "A2",
+      "sourceTitle": "GN数性①Ch-4",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/基本の制覇/数の性質.pdf",
+        "page": 22,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8187b5f0f12064c09d5f?pvs=204"
+    },
+    {
+      "id": "selected-ef9b7bd87fbaf928",
+      "group": "A2",
+      "sourceTitle": "4S16L⑥-1",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-S16 夏期総合(2).pdf",
+        "page": 13,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8103ac3bd95fa0ec2131?pvs=204"
+    },
+    {
+      "id": "selected-c27ce954e9345e9c",
+      "group": "A1",
+      "sourceTitle": "4R26T⑤-4",
+      "sourceTextSha256": "b04d64a05b060e7e361a43bed08e0b649c135fd48bbb71a9ff92e7fb730eab7b",
+      "officialAnswer": "A…50度　B…40度",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 56,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-26 文章題(7)-方陣算-.pdf",
+        "page": 59
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81c7aa74c441164506b7?pvs=204"
+    },
+    {
+      "id": "selected-87e13bd3d8661952",
+      "group": "A1",
+      "sourceTitle": "R02N③-1",
+      "sourceTextSha256": "3386618751a5c174aa230441886454e974fad6df92b2686bb438761a5b2bba8b",
+      "officialAnswer": "37.68m²",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-02 平面図形(2)-おうぎ形と複合図形-.pdf",
+        "page": 10,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-02 平面図形(2)-おうぎ形と複合図形-.pdf",
+        "page": 20
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8172ad03d228bef4421c?pvs=204"
+    },
+    {
+      "id": "selected-bf2026cf623201a2",
+      "group": "A3",
+      "sourceTitle": "R10H②-3",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": null,
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8106a288c70ca6786410?pvs=204"
+    },
+    {
+      "id": "selected-524eaf300c2843ef",
+      "group": "A2",
+      "sourceTitle": "4R18N②-2",
+      "sourceTextSha256": null,
+      "officialAnswer": null,
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-18 立体図形(2)-体積・容積-.pdf",
+        "page": 5,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": null,
+      "notionUrl": "https://app.notion.com/p/3f52b010743c8110b29ef65e4aa641be?pvs=204"
+    },
+    {
+      "id": "selected-25a5b0fe3fb150a9",
+      "group": "A1",
+      "sourceTitle": "R03N②-4",
+      "sourceTextSha256": "457f6a81af6b75b0114d4ab22c82777efacce20afb845ffa2c453c6b7a741013",
+      "officialAnswer": "(1)14cm　(2)60個",
+      "sourcePage": {
+        "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+        "page": 9,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/5年授業/5-03 数の性質(1)-約数-.pdf",
+        "page": 20
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c81079116e7445f5af69e?pvs=204"
+    },
+    {
+      "id": "selected-22a006cb162db539",
+      "group": "A1",
+      "sourceTitle": "4R01T④-2",
+      "sourceTextSha256": "0e30a386ef2ef93da45fb18af922a32a57535ee7c41cd0b8bed441b6df60e226",
+      "officialAnswer": "多い場合…17個　少ない場合…14個",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 49,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-01 平面図形(1)-図形の性質-.pdf",
+        "page": 55
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c816cb6e1c366cb430a63?pvs=204"
+    },
+    {
+      "id": "selected-fe05cebaedb3bab9",
+      "group": "A1",
+      "sourceTitle": "4S09L⑤-1",
+      "sourceTextSha256": "af9bc624d781e96563c8ac0e2b4ffa38a411b65e0bff34c27871ee255a828acb",
+      "officialAnswer": "504cm²",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-S09 立体図形(1).pdf",
+        "page": 13,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-S09 立体図形(1).pdf",
+        "page": 17
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c811dbea8c54747194b95?pvs=204"
+    },
+    {
+      "id": "selected-3a68d479cac7ca84",
+      "group": "A1",
+      "sourceTitle": "4S09H④-3",
+      "sourceTextSha256": "36b8934589baf02e4eef96758fbd384a9d3d3c5c808de3ed23f35e7fe75511ec",
+      "officialAnswer": "(1)6個　(2)4個　(3)2個　(4)1個",
+      "sourcePage": {
+        "file": "/算数DB/原本/4年授業/4-S09 立体図形(1).pdf",
+        "page": 29,
+        "pageType": "PDF通しページ（1始まり）"
+      },
+      "answerSource": {
+        "file": "/算数DB/原本/4年授業/4-S09 立体図形(1).pdf",
+        "page": 34
+      },
+      "notionUrl": "https://app.notion.com/p/3f52b010743c816a90f7fa31162ef013?pvs=204"
+    }
+  ],
+  "excludedIds": [
+    "selected-260ed527dd837474",
+    "selected-1f10402f2285cacf",
+    "selected-b4f4318d0b485014",
+    "selected-da5170218bf313d9",
+    "selected-f457a2148edfcfc4",
+    "selected-1b4f4fd0de358176",
+    "selected-0c61487bff32515b",
+    "selected-80b61745fdc7c722",
+    "selected-f096406bf34f7f72",
+    "selected-403a60e67af6f15f",
+    "selected-ed815d698094382d",
+    "selected-adaccae696fa2dd1",
+    "selected-e0d40b3c8e469277",
+    "selected-33ff059de415e369",
+    "selected-b353dc19175365dc",
+    "selected-a82801b63b145d19",
+    "selected-65ba739920dfe0b6",
+    "selected-1bcbd60e2c20d7e0",
+    "selected-73cc86d5b5f63a98",
+    "selected-ec191e9984b77b4a",
+    "selected-f4422649b96e77dd",
+    "selected-dd815f0698349fa1",
+    "selected-7ee75c6c0a8b68d9",
+    "selected-f58c635d232e814e",
+    "selected-57af00bf9a2c4774",
+    "selected-7c623796dbfb60aa",
+    "selected-e23492b21ec66403",
+    "selected-35fec3c08a4602af"
+  ]
+}
