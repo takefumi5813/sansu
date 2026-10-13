@@ -200,6 +200,7 @@ function eligible(p,f={}){
  if(f.domains?.length&&!f.domains.includes(p.domain)&&!f.domains.some(d=>(p.domains||[]).includes(d)))return false;
  if(f.mode==='review'&&!inScope(p,f.recentUnits,'review'))return false;if(f.mode==='gnorev'&&!inScope(p,f.scopeUnits))return false;return true;
 }
+function shuffleKey(day,id){let h=2166136261;for(const c of day+'|'+id){h^=c.charCodeAt(0);h=Math.imul(h,16777619)>>>0;}return h;}
 function selectProblem(problems,state,filters={},day=dayKey()){
  if(filters.category!=='calc'&&(filters.mode||'all')==='all'&&!getCampaignStatus(problems,state,filters,day).allUnlocked)return null;
  const seen=new Set(),targeted=['review','gnorev'].includes(filters.mode);
@@ -207,10 +208,10 @@ function selectProblem(problems,state,filters={},day=dayKey()){
  const soon=Object.values(state.units).filter(u=>u.due&&u.due>=day&&u.due<=addDays(day,7)).length;
  const allowNew=targeted||(active<60&&soon<5);
  return problems.filter(p=>eligible(p,filters)).map(p=>{const u=status(state,p),due=u.due&&u.due<=day;
-  if(p.category==='calc'){const count=state.attempts.filter(a=>a.day===day&&a.problemId===p.id&&a.purpose==='normal').length;return {p,rank:2,date:'',count};}
+  if(p.category==='calc'){const mine=state.attempts.filter(a=>a.problemId===p.id&&a.purpose==='normal'),count=mine.filter(a=>a.day===day).length,date=mine.reduce((m,a)=>a.day>m?a.day:m,'');return {p,rank:2,date,count,tie:shuffleKey(day,p.id)};}
   if(seen.has(p.unitId))return {p,rank:99,date:''};seen.add(p.unitId);
   return {p,rank:u.stage===4?99:due?(u.dueReason==='repair'?0:1):u.stage===0&&!u.due&&allowNew?2:99,date:u.due||'',count:0};
- }).filter(x=>x.rank<99).sort((a,b)=>a.rank-b.rank||a.date.localeCompare(b.date)||a.count-b.count||a.p.id.localeCompare(b.p.id))[0]?.p||null;
+ }).filter(x=>x.rank<99).sort((a,b)=>a.rank-b.rank||a.date.localeCompare(b.date)||a.count-b.count||(a.tie||0)-(b.tie||0)||a.p.id.localeCompare(b.p.id))[0]?.p||null;
 }
 function reward(s,key,xp=0,materials=0,souls=0){if(s.rewards[key])return false;s.rewards[key]={xp,stars:0,materials,souls};s.xp+=xp;s.materials+=materials;s.souls+=souls;return true;}
 function daily(s,day){return s.daily[day]||(s.daily[day]={completed:[],calcPaid:[],chainXp:0});}
