@@ -15,17 +15,18 @@ test('154 source-confirmed inverse and bracket problems keep Notion source, answ
  assert.equal(P.find(p=>p.id==='R21K-58'),undefined);
  for(const id of ['春04K-7','春04K-25','春04K-26','春04K-28']) assert.equal(P.find(p=>p.id===id),undefined,'unconfirmed printed answer '+id);
 });
-test('every expression is recomputed exactly and matches the stored answer, score and star',()=>{
+test('every expression is recomputed exactly and matches the archived source answer and score',()=>{
  for(const p of P){
   const r=p.expression.includes('□')?C.calcInverse(p.expression):C.calcScore(p.expression);
-  assert.equal(r.supported,true,p.id);assert.deepEqual(r.answer,{n:p.answer.n,d:p.answer.d},p.id);assert.equal(r.score,p.score,p.id);assert.equal(r.star,p.star,p.id);
+  assert.equal(r.supported,true,p.id);assert.deepEqual(r.answer,{n:p.answer.n,d:p.answer.d},p.id);assert.equal(r.score,p.score,p.id); // Archived star is historical; current tiers live in calculation-curation.json.
   assert.equal(C.grade(p.answer.n+'/'+p.answer.d,p.answer).correct,true,p.id);
  }
 });
 test('inverse problems really contain □ and the hard tier has bracket + fraction + several operations',()=>{
  const tiers={basic:0,standard:0,advanced:0,hard:0};
  for(const p of P)tiers[C.calcTier(p)]++;
- assert.deepEqual(tiers,{basic:14,standard:64,advanced:59,hard:17});
+ assert.equal(Object.values(tiers).reduce((a,b)=>a+b,0),P.length);
+ for(const p of P.filter(p=>!C.calcShape(p).frac&&!C.calcShape(p).dec))assert.ok(['basic','standard'].includes(C.calcTier(p)),p.id);
  const hard=P.filter(p=>C.calcTier(p)==='hard');
  for(const p of hard){const sh=C.calcShape(p);assert.ok(sh.par&&sh.fracN>=1&&sh.ops>=4,p.id);}
  assert.ok(hard.filter(p=>p.expression.includes('□')).length>=12);

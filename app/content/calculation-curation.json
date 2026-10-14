@@ -1,0 +1,1999 @@
+{
+  "problems": {
+    "R20K-7": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "末尾の0を分離する整数乗法",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:1"
+    },
+    "R20K-37": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "末尾の0を分離する整数乗法",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:1"
+    },
+    "R21K-7": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "末尾の0を分離する整数乗法",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:1"
+    },
+    "R21K-37": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "末尾の0を分離する整数乗法",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:1"
+    },
+    "R20K-10": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "割り切れない整数除法を分数に直す",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:2"
+    },
+    "R02K-7": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "括弧内の乗除を優先してから外側を計算",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:6"
+    },
+    "R02K-37": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "括弧内の乗除を優先してから外側を計算",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:6"
+    },
+    "R14K-9": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "括弧内の乗除を優先してから外側を計算",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:6"
+    },
+    "R14K-39": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "括弧内の乗除を優先してから外側を計算",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:6"
+    },
+    "S02K-7": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "括弧内の乗除を優先してから外側を計算",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:6"
+    },
+    "春02K-7": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "括弧内の乗除を優先してから外側を計算",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:6"
+    },
+    "R03K-7": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "入れ子の括弧を内側から処理する",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:8"
+    },
+    "R03K-37": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "入れ子の括弧を内側から処理する",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:8"
+    },
+    "R08K-26": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "入れ子の括弧を内側から処理する",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:8"
+    },
+    "R08K-56": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "入れ子の括弧を内側から処理する",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:8"
+    },
+    "R14K-58": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "入れ子の括弧を内側から処理する",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:8"
+    },
+    "春03K-7": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "入れ子の括弧を内側から処理する",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:8"
+    },
+    "R04K-26": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "割る数も式で与えられた四則計算",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:10"
+    },
+    "R04K-56": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "割る数も式で与えられた四則計算",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:10"
+    },
+    "R21K-28": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "割る数も式で与えられた四則計算",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:10"
+    },
+    "R12K-21": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "乗除優先と加減の順序",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:14"
+    },
+    "R12K-51": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "乗除優先と加減の順序",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:14"
+    },
+    "R12K-56": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "途中で分数になる整数式を最後の乗法まで保つ",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:16"
+    },
+    "R14K-28": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "連続する除法・乗法を左から処理しまとめて約分",
+      "representativeKey": "3f82b010743c8159ba4bdcc3ac680268:18"
+    },
+    "R20K-3": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "小数加法の位取りと繰り上がり",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:1"
+    },
+    "R21K-3": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数加法の位取りと繰り上がり",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:1"
+    },
+    "R20K-33": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数加法の位取りと繰り上がり",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:1"
+    },
+    "R21K-33": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数加法の位取りと繰り上がり",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:1"
+    },
+    "R20K-4": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "桁数の異なる小数の減法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:2"
+    },
+    "R21K-4": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "桁数の異なる小数の減法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:2"
+    },
+    "R21K-34": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "桁数の異なる小数の減法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:2"
+    },
+    "R21K-6": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "小数を整数で割る",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:6"
+    },
+    "R20K-6": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数を整数で割る",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:6"
+    },
+    "R20K-36": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数を整数で割る",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:6"
+    },
+    "R21K-36": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数を整数で割る",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:6"
+    },
+    "R21K-9": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "小数同士の乗法と小数点の位置",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:7"
+    },
+    "R20K-9": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数同士の乗法と小数点の位置",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:7"
+    },
+    "R20K-5": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "小数と整数の乗法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:8"
+    },
+    "R20K-35": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数と整数の乗法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:8"
+    },
+    "R21K-5": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数と整数の乗法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:8"
+    },
+    "R21K-35": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数と整数の乗法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:8"
+    },
+    "R20K-18": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "有限小数を分数に変えて約分する乗法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:11"
+    },
+    "R20K-48": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "有限小数を分数に変えて約分する乗法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:11"
+    },
+    "R20K-34": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "整数から小数を引く際の0をまたぐ繰り下がり",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:13"
+    },
+    "R20K-39": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "大きい整数と小さい小数の乗法・10のまとまり",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:16"
+    },
+    "R20K-40": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "小数の除法の答えを正確な分数で表す",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:17"
+    },
+    "R21K-23": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "除数の小数点をそろえて移動する除法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:20"
+    },
+    "R21K-53": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "除数の小数点をそろえて移動する除法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:20"
+    },
+    "R23K-16": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "除数の小数点をそろえて移動する除法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:20"
+    },
+    "R22K-16": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "除数の小数点をそろえて移動する除法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:20"
+    },
+    "R22K-46": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "除数の小数点をそろえて移動する除法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:20"
+    },
+    "R23K-46": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "除数の小数点をそろえて移動する除法",
+      "representativeKey": "3f82b010743c81458b2bf4fe564de670:20"
+    },
+    "R21K-39": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "積が1になる小数の組を見抜く",
+      "representativeKey": "3f82b010743c81018a16cad8cf6197c3:5"
+    },
+    "R24K-1": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "帯分数から真分数を引く繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:1"
+    },
+    "R24K-26": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数から真分数を引く繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:1"
+    },
+    "R24K-4": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "整数から帯分数を引く",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:2"
+    },
+    "R24K-29": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "整数から帯分数を引く",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:2"
+    },
+    "R20K-11": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "整数から帯分数を引く",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:2"
+    },
+    "R20K-41": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "整数から帯分数を引く",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:2"
+    },
+    "R21K-10": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "整数から帯分数を引く",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:2"
+    },
+    "R21K-40": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "整数から帯分数を引く",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:2"
+    },
+    "R22K-7": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "整数から帯分数を引く",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:2"
+    },
+    "R22K-37": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "整数から帯分数を引く",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:2"
+    },
+    "R23K-5": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "整数から帯分数を引く",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:2"
+    },
+    "R23K-35": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "整数から帯分数を引く",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:2"
+    },
+    "R24K-7": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "帯分数の加法・通分と繰り上がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:3"
+    },
+    "R24K-32": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数の加法・通分と繰り上がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:3"
+    },
+    "R20K-12": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数の加法・通分と繰り上がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:3"
+    },
+    "R20K-42": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数の加法・通分と繰り上がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:3"
+    },
+    "R21K-11": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数の加法・通分と繰り上がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:3"
+    },
+    "R21K-41": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数の加法・通分と繰り上がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:3"
+    },
+    "R22K-8": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数の加法・通分と繰り上がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:3"
+    },
+    "R22K-38": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数の加法・通分と繰り上がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:3"
+    },
+    "R23K-8": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数の加法・通分と繰り上がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:3"
+    },
+    "R23K-38": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数の加法・通分と繰り上がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:3"
+    },
+    "R24K-9": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "帯分数同士の減法・通分と繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:4"
+    },
+    "R24K-34": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数同士の減法・通分と繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:4"
+    },
+    "R20K-13": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数同士の減法・通分と繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:4"
+    },
+    "R20K-43": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数同士の減法・通分と繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:4"
+    },
+    "R21K-12": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数同士の減法・通分と繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:4"
+    },
+    "R21K-42": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数同士の減法・通分と繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:4"
+    },
+    "R22K-10": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数同士の減法・通分と繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:4"
+    },
+    "R22K-40": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数同士の減法・通分と繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:4"
+    },
+    "R23K-9": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数同士の減法・通分と繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:4"
+    },
+    "R23K-39": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数同士の減法・通分と繰り下がり",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:4"
+    },
+    "R24K-10": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "大きい帯分数を整数部と分数部に分けて掛ける",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:5"
+    },
+    "R24K-35": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "大きい帯分数を整数部と分数部に分けて掛ける",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:5"
+    },
+    "R20K-14": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "帯分数を仮分数にして交差約分する乗法",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:14"
+    },
+    "R20K-44": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数を仮分数にして交差約分する乗法",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:14"
+    },
+    "R21K-13": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数を仮分数にして交差約分する乗法",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:14"
+    },
+    "R20K-15": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "帯分数の連続乗除・逆数と約分",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:15"
+    },
+    "R20K-45": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "帯分数の連続乗除・逆数と約分",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:15"
+    },
+    "R20K-26": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "分数の四則混合・乗除の後に加減",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:16"
+    },
+    "R20K-56": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "分数の四則混合・乗除の後に加減",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:16"
+    },
+    "R21K-30": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "分数の四則混合・乗除の後に加減",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:16"
+    },
+    "R21K-60": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "分数の四則混合・乗除の後に加減",
+      "representativeKey": "3f82b010743c81b18f0ce81e23d6ca0a:16"
+    },
+    "R21K-43": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "帯分数同士の除法・逆数",
+      "representativeKey": "3f82b010743c81c9bbb4fe5ecbade87b:11"
+    },
+    "R22K-3": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "真分数の通分による加法",
+      "representativeKey": "3f82b010743c81c9bbb4fe5ecbade87b:13"
+    },
+    "R22K-33": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "真分数の通分による加法",
+      "representativeKey": "3f82b010743c81c9bbb4fe5ecbade87b:13"
+    },
+    "R23K-1": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "真分数の通分による加法",
+      "representativeKey": "3f82b010743c81c9bbb4fe5ecbade87b:13"
+    },
+    "R23K-31": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "真分数の通分による加法",
+      "representativeKey": "3f82b010743c81c9bbb4fe5ecbade87b:13"
+    },
+    "R22K-13": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "有限小数と循環する分数は分数にそろえて減法",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:8"
+    },
+    "R24K-12": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "有限小数と循環する分数は分数にそろえて減法",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:8"
+    },
+    "R24K-37": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "有限小数と循環する分数は分数にそろえて減法",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:8"
+    },
+    "R22K-43": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "有限小数と循環する分数は分数にそろえて減法",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:8"
+    },
+    "R23K-12": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "有限小数と循環する分数は分数にそろえて減法",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:8"
+    },
+    "R23K-42": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "有限小数と循環する分数は分数にそろえて減法",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:8"
+    },
+    "R20K-23": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "有限小数に直せる分数は小数にそろえて減法",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:4"
+    },
+    "R20K-53": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "有限小数に直せる分数は小数にそろえて減法",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:4"
+    },
+    "R21K-14": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "小数と分数の連続乗除を分数にそろえ約分",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:6"
+    },
+    "R21K-44": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数と分数の連続乗除を分数にそろえ約分",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:6"
+    },
+    "R22K-14": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "小数と分数の乗法・約分",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:9"
+    },
+    "R22K-44": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数と分数の乗法・約分",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:9"
+    },
+    "R23K-25": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "小数と分数の積を先に求めて足す",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:13"
+    },
+    "R23K-55": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "小数と分数の積を先に求めて足す",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:13"
+    },
+    "R24K-25": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "混合数の四則・括弧と乗除を優先する総合練習",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:2"
+    },
+    "R15K-30": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "混合数の四則・括弧と乗除を優先する総合練習",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:2"
+    },
+    "R15K-60": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "混合数の四則・括弧と乗除を優先する総合練習",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:2"
+    },
+    "R05K-60": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "入れ子の混合計算・内側から数の表し方をそろえる",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:17"
+    },
+    "R10K-30": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "入れ子の混合計算・内側から数の表し方をそろえる",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:17"
+    },
+    "R06K-58": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "分母になる式の小数と分数の差を正確に扱う",
+      "representativeKey": "3f82b010743c81a5bcb3f2e214918770:18"
+    },
+    "R16K-30": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "二つの括弧を別々に整理してから乗除・表し方の選択",
+      "representativeKey": "3f82b010743c816dac2ad0d23afc6bcb:2"
+    },
+    "R04K-30": {
+      "active": false,
+      "tier": "standard",
+      "reason": "分母673など数値の処理量が増えるが、表し方の選択と括弧の処理は代表122で押さえられる。難しい数だけを代表追加の理由にしない。",
+      "skill": "二つの括弧を別々に整理してから乗除・表し方の選択",
+      "representativeKey": "3f82b010743c816dac2ad0d23afc6bcb:2"
+    },
+    "R20K-16": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "掛ける前に整数を約分",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:1"
+    },
+    "R20K-46": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "掛ける前に整数を約分",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:1"
+    },
+    "R24K-14": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "連続乗除を分数の一つの積として約分",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:2"
+    },
+    "R24K-39": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "連続乗除を分数の一つの積として約分",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:2"
+    },
+    "R21K-45": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "連続乗除を分数の一つの積として約分",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:2"
+    },
+    "R22K-15": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "連続乗除を分数の一つの積として約分",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:2"
+    },
+    "R22K-45": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "連続乗除を分数の一つの積として約分",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:2"
+    },
+    "R20K-19": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "倍数関係から隠れた共通因数を取り出す",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:4"
+    },
+    "R20K-49": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "倍数関係から隠れた共通因数を取り出す",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:4"
+    },
+    "R21K-15": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "続けて割る数を分母にまとめ約分",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:7"
+    },
+    "R21K-22": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "共通する小数をくくり出す分配法則",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:8"
+    },
+    "R21K-52": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "共通する小数をくくり出す分配法則",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:8"
+    },
+    "R23K-14": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "25×4を作る乗法の順序変更",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:13"
+    },
+    "R23K-44": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "25×4を作る乗法の順序変更",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:13"
+    },
+    "R23K-17": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "100との差を補う分配法則",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:14"
+    },
+    "R23K-47": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "100との差を補う分配法則",
+      "representativeKey": "3f82b010743c81a4b057e332d4acbb88:14"
+    },
+    "R20K-28": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "円周率は後回しにして角度/360と半径を約分",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:1"
+    },
+    "R20K-58": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "円周率は後回しにして角度/360と半径を約分",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:1"
+    },
+    "R22K-11": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "円周率は後回しにして角度/360と半径を約分",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:1"
+    },
+    "R22K-41": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "円周率は後回しにして角度/360と半径を約分",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:1"
+    },
+    "R23K-11": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "円周率は後回しにして角度/360と半径を約分",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:1"
+    },
+    "R23K-41": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "円周率は後回しにして角度/360と半径を約分",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:1"
+    },
+    "R22K-12": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "3.14で割る計算・小数点を移す",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:6"
+    },
+    "R22K-42": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "3.14で割る計算・小数点を移す",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:6"
+    },
+    "R23K-10": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "3.14で割る計算・小数点を移す",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:6"
+    },
+    "R24K-11": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "共通の3.14×割合をくくり出し平方の差を先に計算",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:2"
+    },
+    "R24K-36": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "共通の3.14×割合をくくり出し平方の差を先に計算",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:2"
+    },
+    "R23K-27": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "共通の3.14×割合をくくり出し平方の差を先に計算",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:2"
+    },
+    "R23K-57": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "共通の3.14×割合をくくり出し平方の差を先に計算",
+      "representativeKey": "3f82b010743c81c6a8a6c5d050a5e8f2:2"
+    },
+    "R23K-30": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "連続2数の積の逆数を差に分解し中間項を消す",
+      "representativeKey": "3f82b010743c81aa832dc0939719ab06:1"
+    },
+    "R23K-60": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と同じ手順で解け、新しい手筋を加えない数値・式配置の反復なので代表出題から外す。",
+      "skill": "連続2数の積の逆数を差に分解し中間項を消す",
+      "representativeKey": "3f82b010743c81aa832dc0939719ab06:1"
+    },
+    "ready-9d93901727d88e9c": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "m³とcm³の立方の単位倍率",
+      "representativeKey": "3f82b010743c8174ac15d0facd6fa920:1"
+    },
+    "ready-3bceee4653cdfff6": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した手順・注意点を担う代表として残す。",
+      "skill": "cm³・L・m³の相互換算",
+      "representativeKey": "3f82b010743c8174ac15d0facd6fa920:2"
+    },
+    "R04K-25": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "小数倍の未知数項と、先に計算する定数の商を分ける",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:1"
+    },
+    "R04K-55": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数倍の未知数項と、先に計算する定数の商を分ける",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:1"
+    },
+    "R06K-14": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "小数を含む「定数−□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:3"
+    },
+    "R06K-44": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数を含む「定数−□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:3"
+    },
+    "R10K-27": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "小数と分数を統一する「定数＋□×分数」の逆算",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:5"
+    },
+    "R10K-57": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数と分数を統一する「定数＋□×分数」の逆算",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:5"
+    },
+    "R17K-10": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数を含む「定数−□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:3"
+    },
+    "R17K-40": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数を含む「定数−□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:3"
+    },
+    "R22K-18": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "分数を3回かけた式を逆順に戻す・連続する倍率",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:9"
+    },
+    "R22K-48": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "分数を3回かけた式を逆順に戻す・連続する倍率",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:9"
+    },
+    "R23K-20": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "分数を3回かけた式を逆順に戻す・連続する倍率",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:9"
+    },
+    "R23K-50": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "分数を3回かけた式を逆順に戻す・連続する倍率",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:9"
+    },
+    "S16K-10": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数を含む「定数−□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:3"
+    },
+    "春06K-14": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数を含む「定数−□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:3"
+    },
+    "R01K-14": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "同分母分数の減数を求める導入",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:15"
+    },
+    "R02K-34": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "小数の除数を求める。桁数や商の大小の違いは反復用",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:16"
+    },
+    "R03K-34": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数の除数を求める。桁数や商の大小の違いは反復用",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:16"
+    },
+    "R04K-23": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "掛け算・割り算が連続する未知数先頭の式を逆順に戻す",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:18"
+    },
+    "R04K-43": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "未知数の積から定数を引く2段逆算。定数の大きさは別型にしない",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:19"
+    },
+    "R04K-7": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "異分母分数の減数を求める・通分",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:20"
+    },
+    "R05K-4": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "整数の「定数−□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:1"
+    },
+    "R06K-12": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "分数の除数を求める・逆数と約分",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:2"
+    },
+    "R06K-56": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "未知数の積から定数を引く2段逆算。定数の大きさは別型にしない",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:19"
+    },
+    "R08K-32": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "「定数＋□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:4"
+    },
+    "R09K-33": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "「定数＋□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:4"
+    },
+    "R13K-57": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数の除数を求める。桁数や商の大小の違いは反復用",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:16"
+    },
+    "R15K-36": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "異分母分数の減数を求める・通分",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:20"
+    },
+    "R16K-18": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "分数の除数を求める・逆数と約分",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:2"
+    },
+    "R16K-7": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "整数の「定数−□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:1"
+    },
+    "R17K-38": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "分数の除数を求める・逆数と約分",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:2"
+    },
+    "R18K-38": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "分数の除数を求める・逆数と約分",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:2"
+    },
+    "R19K-16": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "分数の乗数を求める・逆数をかける",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:12"
+    },
+    "R20K-22": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "分数で割る未知数と小数の答えを分数にそろえる",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:13"
+    },
+    "R20K-55": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "整数の「定数−□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:1"
+    },
+    "R21K-47": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "「定数＋□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:4"
+    },
+    "R22K-30": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "分数の除数を求める・逆数と約分",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:2"
+    },
+    "R22K-5": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数の除数を求める。桁数や商の大小の違いは反復用",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:16"
+    },
+    "R22K-59": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "異分母分数の被減数を求める。減数未知と区別",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:18"
+    },
+    "R23K-37": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数の除数を求める。桁数や商の大小の違いは反復用",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:16"
+    },
+    "R23K-7": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数の除数を求める。桁数や商の大小の違いは反復用",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:16"
+    },
+    "R24K-43": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "分数の除数を求める・逆数と約分",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:2"
+    },
+    "S14K-6": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "異分母分数の減数を求める・通分",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:20"
+    },
+    "S15K-2": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "連続整数の和を先に工夫して求める逆算",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:3"
+    },
+    "S16K-8": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "分数の除数を求める・逆数と約分",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:2"
+    },
+    "春02K-4": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数の除数を求める。桁数や商の大小の違いは反復用",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:16"
+    },
+    "春03K-9": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "異分母分数の減数を求める・通分",
+      "representativeKey": "3f82b010743c81b3a606e1b1f2bd3ed2:20"
+    },
+    "春05K-4": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "整数の「定数−□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:1"
+    },
+    "R01K-2": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "整数の減数を求める",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:8"
+    },
+    "R02K-2": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "小数の被減数を求める",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:9"
+    },
+    "R06K-31": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "被除数を求める",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:10"
+    },
+    "R14K-37": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数の被減数を求める",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:9"
+    },
+    "R15K-33": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "整数の除数を求める。被除数未知と区別",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:12"
+    },
+    "R17K-32": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "被除数を求める",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:10"
+    },
+    "R19K-2": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "加数を求める",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:14"
+    },
+    "R19K-4": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "整数の乗数を求める",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:15"
+    },
+    "R22K-4": {
+      "active": true,
+      "tier": "basic",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "小数の減数を求める。整数からの繰り下がりを含む",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:16"
+    },
+    "R23K-3": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "加数を求める",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:14"
+    },
+    "R23K-34": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数の減数を求める。整数からの繰り下がりを含む",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:16"
+    },
+    "R24K-28": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "小数の乗数を求める・0.75を3/4と見てもよい",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:19"
+    },
+    "S02K-2": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "小数の被減数を求める",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:9"
+    },
+    "春01K-2": {
+      "active": false,
+      "tier": "basic",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "整数の減数を求める",
+      "representativeKey": "3f82b010743c811e829ac707a6962ec3:8"
+    },
+    "ready-7bd660f2c8627e68": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "整数の「定数−□÷定数」の2段逆算",
+      "representativeKey": "3f82b010743c81f8b05ce39c589fff1a:1"
+    },
+    "R01K-30": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "分数小数混合の定数部分を整理し、括弧内の除数未知へ戻る",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:1"
+    },
+    "R02K-30": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "未知数を含む差全体が除数。外側の除算から減数・積へ逆算",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:2"
+    },
+    "R02K-60": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "未知数自体が除数、括弧外の分数倍と差を順に戻す",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:3"
+    },
+    "R03K-29": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "括弧内の積と差を、外側の割り算・足し算から戻す。混合数を統一",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:4"
+    },
+    "R03K-59": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の積と差を、外側の割り算・足し算から戻す。混合数を統一",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:4"
+    },
+    "R03K-60": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "未知数を含む差全体が除数、未知数は被減数側の積。減数側とは逆算方向が異なる",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:6"
+    },
+    "R05K-27": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "括弧内の差をひとまとまりにし、先に独立した定数の商を求める",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:7"
+    },
+    "R05K-57": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の差をひとまとまりにし、先に独立した定数の商を求める",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:7"
+    },
+    "R05K-30": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "未知数を含む差全体が除数。外側の除算から減数・積へ逆算",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:2"
+    },
+    "R06K-60": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の差をひとまとまりにし、先に独立した定数の商を求める",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:7"
+    },
+    "R10K-60": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "分数小数混合で、未知数が差の減数側。独立定数を整理して順に戻す",
+      "representativeKey": "3f82b010743c810c88fffdfbb80655ab:14"
+    },
+    "R15K-27": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の積と差を、外側の割り算・足し算から戻す。混合数を統一",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:4"
+    },
+    "R15K-57": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "分数小数混合で、未知数が差の減数側。独立定数を整理して順に戻す",
+      "representativeKey": "3f82b010743c810c88fffdfbb80655ab:14"
+    },
+    "R15K-59": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "分母31・5・13と2015の関係を使い、大きな通分を避ける分数逆算",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:14"
+    },
+    "R16K-28": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の差をひとまとまりにし、先に独立した定数の商を求める",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:7"
+    },
+    "R16K-58": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の差をひとまとまりにし、先に独立した定数の商を求める",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:7"
+    },
+    "R16K-60": {
+      "active": false,
+      "tier": "standard",
+      "reason": "定数側の分数計算量を増やした類題。未知数の和・商・積の逆算は他の代表で扱う。",
+      "skill": "既知の定数部分をまとめ、括弧内を逆算",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    },
+    "R17K-59": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "未知数を含む差が除数で、未知数は被減数。括弧内の既知の商を先に確定",
+      "representativeKey": "3f82b010743c810c88fffdfbb80655ab:17"
+    },
+    "R17K-60": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の和・差を先に求める2段逆算。定数側の小数計算を増やすだけの式は追加型にしない",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    },
+    "R18K-29": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "未知数を含む差が除数で、未知数は被減数。括弧内の既知の商を先に確定",
+      "representativeKey": "3f82b010743c810c88fffdfbb80655ab:17"
+    },
+    "S14K-27": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の積と差を、外側の割り算・足し算から戻す。混合数を統一",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:4"
+    },
+    "S15K-28": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の差をひとまとまりにし、先に独立した定数の商を求める",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:7"
+    },
+    "春03K-29": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の積と差を、外側の割り算・足し算から戻す。混合数を統一",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:4"
+    },
+    "春05K-27": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の差をひとまとまりにし、先に独立した定数の商を求める",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:7"
+    },
+    "R01K-28": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "整数の3段逆算：括弧内の積と和を外側の割り算から戻す",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:5"
+    },
+    "R01K-58": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "整数の3段逆算：括弧内の積と和を外側の割り算から戻す",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:5"
+    },
+    "R01K-29": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "二重括弧で減数側に未知数の積がある。独立した商を先に整理",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:7"
+    },
+    "R01K-59": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "二重括弧で減数側に未知数の積がある。独立した商を先に整理",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:7"
+    },
+    "R02K-29": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "定数−商＋定数を整理し、除数内の減数・積へ戻る",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:9"
+    },
+    "R02K-59": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "定数−商＋定数を整理し、除数内の減数・積へ戻る",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:9"
+    },
+    "R03K-30": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の積と差を、外側の割り算・足し算から戻す。混合数を統一",
+      "representativeKey": "3f82b010743c81eca7a8e8dac15dab22:4"
+    },
+    "R04K-28": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "括弧全体を戻した後に、差で表された除数を求める",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:12"
+    },
+    "R04K-58": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧全体を戻した後に、差で表された除数を求める",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:12"
+    },
+    "R05K-7": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "括弧内の和・差を先に求める2段逆算。定数側の小数計算を増やすだけの式は追加型にしない",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    },
+    "R05K-37": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の和・差を先に求める2段逆算。定数側の小数計算を増やすだけの式は追加型にしない",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    },
+    "R07K-3": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "括弧内が定数−□となる2段逆算。未知数が減数である向きに注意",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:16"
+    },
+    "R08K-28": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "商の中にさらに未知数の商がある入れ子。外から内へ5段戻す",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:17"
+    },
+    "R08K-58": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "商の中にさらに未知数の商がある入れ子。外から内へ5段戻す",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:17"
+    },
+    "R10K-13": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "括弧内の和を戻してから除数未知を求める3段逆算",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:19"
+    },
+    "R10K-26": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "差全体が除数、さらに減数内の割り算を戻す3段逆算",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:20"
+    },
+    "R10K-43": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の和を戻してから除数未知を求める3段逆算",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:19"
+    },
+    "R10K-56": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "差全体が除数、さらに減数内の割り算を戻す3段逆算",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:20"
+    },
+    "R11K-14": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "定数−括弧の商。括弧内の加数を3段で戻す",
+      "representativeKey": "3f82b010743c810c88fffdfbb80655ab:3"
+    },
+    "R11K-27": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "差全体が除数、さらに減数内の割り算を戻す3段逆算",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:20"
+    },
+    "R11K-44": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "定数−括弧の商。括弧内の加数を3段で戻す",
+      "representativeKey": "3f82b010743c810c88fffdfbb80655ab:3"
+    },
+    "R11K-57": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "外側の引き算から括弧内の和・商・積・差へ5段戻す",
+      "representativeKey": "3f82b010743c810c88fffdfbb80655ab:6"
+    },
+    "R12K-8": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "括弧をひとまとまりとして戻し、最後に未知数の積を戻す",
+      "representativeKey": "3f82b010743c810c88fffdfbb80655ab:7"
+    },
+    "R12K-38": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の和を戻してから除数未知を求める3段逆算",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:19"
+    },
+    "R12K-57": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "定数−括弧の商。括弧内の加数を3段で戻す",
+      "representativeKey": "3f82b010743c810c88fffdfbb80655ab:3"
+    },
+    "R16K-10": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の和・差を先に求める2段逆算。定数側の小数計算を増やすだけの式は追加型にしない",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    },
+    "R16K-40": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の和・差を先に求める2段逆算。定数側の小数計算を増やすだけの式は追加型にしない",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    },
+    "R18K-11": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の和・差を先に求める2段逆算。定数側の小数計算を増やすだけの式は追加型にしない",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    },
+    "R18K-41": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内が定数−□となる2段逆算。未知数が減数である向きに注意",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:16"
+    },
+    "R18K-59": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "分数小数混合で、未知数が差の減数側。独立定数を整理して順に戻す",
+      "representativeKey": "3f82b010743c810c88fffdfbb80655ab:14"
+    },
+    "R19K-23": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内が定数−□となる2段逆算。未知数が減数である向きに注意",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:16"
+    },
+    "R19K-26": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の和・差を先に求める2段逆算。定数側の小数計算を増やすだけの式は追加型にしない",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    },
+    "R19K-29": {
+      "active": true,
+      "tier": "standard",
+      "reason": "独立した学習要素の代表として残す。",
+      "skill": "未知数を含む差が除数で、未知数は被減数。括弧内の既知の商を先に確定",
+      "representativeKey": "3f82b010743c810c88fffdfbb80655ab:17"
+    },
+    "R19K-53": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内が定数−□となる2段逆算。未知数が減数である向きに注意",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:16"
+    },
+    "R19K-56": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の和・差を先に求める2段逆算。定数側の小数計算を増やすだけの式は追加型にしない",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    },
+    "S01K-28": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "整数の3段逆算：括弧内の積と和を外側の割り算から戻す",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:5"
+    },
+    "S01K-29": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "二重括弧で減数側に未知数の積がある。独立した商を先に整理",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:7"
+    },
+    "S02K-29": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "定数−商＋定数を整理し、除数内の減数・積へ戻る",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:9"
+    },
+    "S15K-10": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の和・差を先に求める2段逆算。定数側の小数計算を増やすだけの式は追加型にしない",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    },
+    "春01K-28": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "整数の3段逆算：括弧内の積と和を外側の割り算から戻す",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:5"
+    },
+    "春01K-29": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "二重括弧で減数側に未知数の積がある。独立した商を先に整理",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:7"
+    },
+    "春02K-29": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "定数−商＋定数を整理し、除数内の減数・積へ戻る",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:9"
+    },
+    "春05K-7": {
+      "active": false,
+      "tier": "standard",
+      "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
+      "skill": "括弧内の和・差を先に求める2段逆算。定数側の小数計算を増やすだけの式は追加型にしない",
+      "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    }
+  }
+}

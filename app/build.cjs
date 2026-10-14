@@ -25,6 +25,15 @@ for (const [id, review] of Object.entries(difficultyReviews)) {
   matches[0].difficulty = review.difficulty;
 }
 const C = require('./src/core.js');
+const curation = JSON.parse(read('content/calculation-curation.json')).problems;
+for(const [id, review] of Object.entries(curation)){
+ const matches=data.problems.filter(p=>p.id===id);
+ if(matches.length!==1)throw Error('Missing or duplicate curated problem '+id);
+ if(typeof review.active!=='boolean'||!['basic','standard','advanced','hard'].includes(review.tier)||!review.reason)throw Error('Invalid calculation review '+id);
+ const p=matches[0];p.curation=review;
+ if(p.category!=='calc'){const range={basic:[1,2],standard:[3,4],advanced:[5,6],hard:[7,10]}[review.tier];if(p.difficulty<range[0]||p.difficulty>range[1])p.difficulty=range[1];}
+}
+
 // Canonical input for each answer format: single → "n/d", ratio → "a:b(:c)", clock → "(午前|午後)h時m分(s秒)", parts → array of each part's canonical input.
 function canonicalRaw(spec){
   if(!spec||typeof spec!=='object')throw Error('Missing answer spec');
@@ -56,7 +65,8 @@ for (const p of data.problems) {
   if(p.category==='calc'){
     const s=p.expression.includes('□')?C.calcInverse(p.expression):C.calcScore(p.expression);
     if(!s.supported||!C.grade(s.answer.n+'/'+s.answer.d,p.answer).correct)throw Error('Calculation verification '+p.id);
-    if(s.score!==p.score||s.star!==p.star)throw Error('Score mismatch '+p.id+' '+JSON.stringify(s));
+    if(s.score!==p.score)throw Error('Score mismatch '+p.id+' '+JSON.stringify(s));
+    p.star={basic:1,standard:1,advanced:2,hard:3}[C.calcTier(p)];
   }
   if(p.explanation.steps.length<4||p.explanation.steps.length>8)throw Error('Explanation length '+p.id);
 }
@@ -65,4 +75,4 @@ let html=read('src/shell.html');
 for(const [key,value] of [['__DATA__',json],['/*__CSS__*/',read('src/style.css')+'\n'+read('src/campaign.css')+'\n'+read('src/visual-assets.css')+'\n'+read('src/opening.css')],['/*__CORE__*/',read('src/core.js')],['/*__GEAR__*/',read('src/gear.js')],['/*__APP__*/',read('src/app.js').replace('/*__CAMPAIGN_UI__*/',()=>read('src/campaign-ui.js')+'\n'+read('src/hero-ui.js'))]])html=html.replace(key,()=>value);
 fs.writeFileSync(path.join(root,'dist/index.html'),html);
 fs.writeFileSync(path.join(root,'content/combined.json'),JSON.stringify(data,null,2));
-console.log(JSON.stringify({problems:data.problems.length,units:data.units.length,links:data.links.length,htmlBytes:Buffer.byteLength(html),heroes:catalog.heroes.length,equipment:catalog.equipment.length}));
+console.log(JSON.stringify({problems:data.problems.length,activeProblems:data.problems.filter(C.isActiveProblem).length,units:data.units.length,links:data.links.length,htmlBytes:Buffer.byteLength(html),heroes:catalog.heroes.length,equipment:catalog.equipment.length}));
