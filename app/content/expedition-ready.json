@@ -20,7 +20,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [
         "GN場合"
@@ -88,7 +88,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [
         "GN場合"
@@ -224,7 +224,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [
         "GN場合"
@@ -292,7 +292,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [
         "GN場合"
@@ -360,7 +360,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [
         "4S16"
@@ -428,7 +428,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [
         "GN場合"

@@ -118,7 +118,7 @@
      }
     ]
    },
-   "difficulty": 5,
+   "difficulty": 3,
    "figureRequired": false,
    "scopeUnits": [
     "4S12"
@@ -198,7 +198,7 @@
      }
     ]
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "figureRequired": false,
    "scopeUnits": [
     "4S12"
@@ -7059,7 +7059,7 @@
      }
     ]
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "figureRequired": true,
    "figure": "figs/notion/ce6bb3f2fc1faa2c.png",
    "scopeUnits": [
@@ -7134,7 +7134,7 @@
     "unit": "通り",
     "dimension": "scalar"
    },
-   "difficulty": 4,
+   "difficulty": 3,
    "figureRequired": true,
    "figure": "figs/notion/80eda9fab2765564.png",
    "scopeUnits": [
@@ -7228,7 +7228,7 @@
      }
     ]
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "figureRequired": true,
    "figure": "figs/notion/f5cb60edecb9a5bd.png",
    "scopeUnits": [
@@ -7322,7 +7322,7 @@
      }
     ]
    },
-   "difficulty": 5,
+   "difficulty": 4,
    "figureRequired": true,
    "figure": "figs/notion/49af8e232caee1fa.png",
    "scopeUnits": [

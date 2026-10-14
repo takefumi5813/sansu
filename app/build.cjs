@@ -17,6 +17,13 @@ for(const hero of catalog.heroes){
   if(!['genghis','lancelot','caesar','yamato','augustus','taigong','beowulf'].includes(hero.id)&&!fs.existsSync(path.join(root,'dist/assets/silhouettes',hero.id+'.svg')))throw Error('Missing hero silhouette '+hero.id);
 }
 const data = {version:'pilot-2026-10-12-integrated-expedition-v2',problems:sources.flatMap(x=>x.problems),units:sources.flatMap(x=>x.units),links:sources.flatMap(x=>x.links),catalog,reservedHeroes:roster.heroes.filter(h=>roster.reservedIds.includes(h.id)).map(cleanHero),legacyEquipment:legacyCatalog.equipment,assets};
+// Reviewed subquestion ratings take precedence over inherited source-question ratings.
+const difficultyReviews = JSON.parse(read('content/difficulty-reviews.json')).problems;
+for (const [id, review] of Object.entries(difficultyReviews)) {
+  const matches = data.problems.filter(p => p.id === id);
+  if (matches.length !== 1) throw Error('Missing or duplicate reviewed problem ' + id);
+  matches[0].difficulty = review.difficulty;
+}
 const C = require('./src/core.js');
 // Canonical input for each answer format: single → "n/d", ratio → "a:b(:c)", clock → "(午前|午後)h時m分(s秒)", parts → array of each part's canonical input.
 function canonicalRaw(spec){

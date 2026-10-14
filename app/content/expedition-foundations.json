@@ -2537,10 +2537,10 @@
         ],
         "notionTypes": [
           {
-            "url": "https://app.notion.com/3f52b010743c812aa166c6431ee76a2e",
-            "code": "C06",
-            "name": "分け方・サイコロ・支払い方",
-            "baseDifficulty": 4
+            "url": "https://app.notion.com/p/3f92b010743c81bd8861ee4e3bc2e15d",
+            "code": "C06a",
+            "name": "分配・さいころ・支払いの基本的な数え上げ",
+            "baseDifficulty": 3
           }
         ],
         "notionProperties": {
@@ -2549,7 +2549,7 @@
           "時期": "4年前期",
           "区分": "N授業",
           "教材回": "[\"https://app.notion.com/3f52b010743c81c48852d5d26726a660\"]",
-          "型": "[\"https://app.notion.com/3f52b010743c812aa166c6431ee76a2e\"]",
+          "型": "[\"https://app.notion.com/p/3f92b010743c81bd8861ee4e3bc2e15d\"]",
           "数値替え元": null,
           "上乗せ": 0,
           "図": "なし",
@@ -2561,7 +2561,7 @@
         "notionPageLastEditedAt": "2026-10-10T04:39:38.994Z",
         "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
         "textOrigin": "notion-problem-body-verbatim",
-        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "difficultyProvenance": "2026-10-14 小問の再検証とNotion更新：C06a 基礎難度3＋上乗せ0。",
         "selectionDecision": "正の整数の分割を型で分け、受取人の違いを数える。"
       },
       "answer": {
@@ -2570,7 +2570,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [
         "4S12"
@@ -2637,10 +2637,10 @@
         ],
         "notionTypes": [
           {
-            "url": "https://app.notion.com/3f52b010743c812aa166c6431ee76a2e",
-            "code": "C06",
-            "name": "分け方・サイコロ・支払い方",
-            "baseDifficulty": 4
+            "url": "https://app.notion.com/p/3f92b010743c81bd8861ee4e3bc2e15d",
+            "code": "C06a",
+            "name": "分配・さいころ・支払いの基本的な数え上げ",
+            "baseDifficulty": 3
           }
         ],
         "notionProperties": {
@@ -2649,7 +2649,7 @@
           "時期": "4年前期",
           "区分": "N授業",
           "教材回": "[\"https://app.notion.com/3f52b010743c81eea252d244e08d938a\"]",
-          "型": "[\"https://app.notion.com/3f52b010743c812aa166c6431ee76a2e\"]",
+          "型": "[\"https://app.notion.com/p/3f92b010743c81bd8861ee4e3bc2e15d\"]",
           "数値替え元": null,
           "上乗せ": 0,
           "図": "なし",
@@ -2661,7 +2661,7 @@
         "notionPageLastEditedAt": "2026-10-10T03:05:09.321Z",
         "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
         "textOrigin": "notion-problem-body-verbatim",
-        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "difficultyProvenance": "2026-10-14 小問の再検証とNotion更新：C06a 基礎難度3＋上乗せ0。",
         "selectionDecision": "和が決まる組を列挙し、同数の重複を考慮して順列数を足す。"
       },
       "answer": {
@@ -2670,7 +2670,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [
         "4W3"
@@ -2737,10 +2737,10 @@
         ],
         "notionTypes": [
           {
-            "url": "https://app.notion.com/3f52b010743c812aa166c6431ee76a2e",
-            "code": "C06",
-            "name": "分け方・サイコロ・支払い方",
-            "baseDifficulty": 4
+            "url": "https://app.notion.com/p/3f92b010743c81bd8861ee4e3bc2e15d",
+            "code": "C06a",
+            "name": "分配・さいころ・支払いの基本的な数え上げ",
+            "baseDifficulty": 3
           }
         ],
         "notionProperties": {
@@ -2749,7 +2749,7 @@
           "時期": "4年前期",
           "区分": "N授業",
           "教材回": "[\"https://app.notion.com/3f52b010743c81c4bc2fefa2b837ea03\"]",
-          "型": "[\"https://app.notion.com/3f52b010743c812aa166c6431ee76a2e\"]",
+          "型": "[\"https://app.notion.com/p/3f92b010743c81bd8861ee4e3bc2e15d\"]",
           "数値替え元": null,
           "上乗せ": 0,
           "図": "なし",
@@ -2761,7 +2761,7 @@
         "notionPageLastEditedAt": "2026-10-10T03:05:19.839Z",
         "verification": "2026-10-11 Notionページの問題/答えブロックを読取確認。問題本文を保持し、説明とcheckpointは独立制作・数値検算。原本PDFの目視再照合は未実施。元資料変更なし。",
         "textOrigin": "notion-problem-body-verbatim",
-        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ",
+        "difficultyProvenance": "2026-10-14 小問の再検証とNotion更新：C06a 基礎難度3＋上乗せ0。",
         "selectionDecision": "高額硬貨の枚数で分け、各種類一枚以上という下限を守って数える。"
       },
       "answer": {
@@ -2770,7 +2770,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [
         "4春5"

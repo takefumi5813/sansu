@@ -1,0 +1,102 @@
+{
+  "reviewedOn": "2026-10-14",
+  "scope": "場合の数の既存小問16件。大問・型の難易度を一括変更せず、出題する小問そのものを評価。",
+  "problems": {
+    "ready-37b5157f131a071f": {
+      "difficulty": 3,
+      "previousDifficulty": 4,
+      "title": "GN場合①M1-1 2",
+      "reason": "隣り合う2人を1組にして5!×2。よくある一段の条件付き順列。"
+    },
+    "ready-f32b2c1cfd75b489": {
+      "difficulty": 3,
+      "previousDifficulty": 4,
+      "title": "GN場合①M1-1 3",
+      "reason": "男子と女子の位置が指定済みで、3!×3!を掛ける。標準の積の法則。"
+    },
+    "ready-7b1e735614648711": {
+      "difficulty": 3,
+      "previousDifficulty": 4,
+      "title": "GN場合①M1-1 7",
+      "reason": "同色の玉を区別せず、8か所から白玉3か所を選ぶ標準形。"
+    },
+    "ready-215de0a55cbdcf3c": {
+      "difficulty": 3,
+      "previousDifficulty": 4,
+      "title": "GN場合①M1-1 6",
+      "reason": "男子5人から3人、女子4人から2人を別々に選び掛ける標準形。"
+    },
+    "4S12L③-1": {
+      "difficulty": 3,
+      "previousDifficulty": 4,
+      "title": "4S12L③-1",
+      "reason": "1個以上の3人分配で5＝1＋1＋3または1＋2＋2の2型しかない。各3通りの標準。"
+    },
+    "ready-0b4cfa7f5faae843": {
+      "difficulty": 3,
+      "previousDifficulty": 4,
+      "title": "4S16L③-4 2",
+      "reason": "A,Bが2人組か4人組かで1＋C(4,2)。典型的な2分岐で、D3の重複カードより重くない。"
+    },
+    "ready-1cdf03297b1a20d1": {
+      "difficulty": 3,
+      "previousDifficulty": 4,
+      "title": "GN場合①M1-1 8",
+      "reason": "小さい部屋に1人か2人を入れる5＋C(5,2)。定員条件の2分岐という典型で標準下位。"
+    },
+    "4W3L④-3": {
+      "difficulty": 3,
+      "previousDifficulty": 4,
+      "title": "4W3L④-3",
+      "reason": "和7の4組を列挙し、同数2個なら3通り、全異なら6通り。和分解→並べるの典型。"
+    },
+    "4春5L③-1": {
+      "difficulty": 3,
+      "previousDifficulty": 4,
+      "title": "4春5L③-1",
+      "reason": "100円玉を1〜3枚で分け、50円玉の枚数を数える直接的な表。候補は6通り。"
+    },
+    "ready-f096985c519d5fbf": {
+      "difficulty": 3,
+      "previousDifficulty": 5,
+      "title": "4S12L⑥-2 1",
+      "reason": "異なる数字が5枚続いた次で必ず重複し6回。最高点は1〜5＋5。終了条件を読む基本的なゲーム問題。"
+    },
+    "ready-403f17cc429c30d8": {
+      "difficulty": 4,
+      "previousDifficulty": 5,
+      "title": "4S12L⑥-2 2,3",
+      "reason": "最後だけ再出現、回数2/3/4で分け、和8の組と順列を数える。複数軸はあるが有限の小規模列挙で誘導もあり標準上位。"
+    },
+    "ready-ce6bb3f2fc1faa2c": {
+      "difficulty": 3,
+      "previousDifficulty": 4,
+      "title": "4S12L①-3 1,2",
+      "reason": "道路4本・3本を掛け、往復でも4×3×3×4。直接的な積の法則。"
+    },
+    "ready-80eda9fab2765564": {
+      "difficulty": 3,
+      "previousDifficulty": 4,
+      "title": "4S12L①-3 3",
+      "reason": "行きの道を帰りに使えないので4×3×2×3。使える候補数を減らす基本的な順列と同じ。"
+    },
+    "ready-f5cb60edecb9a5bd": {
+      "difficulty": 4,
+      "previousDifficulty": 5,
+      "title": "4R30N⑥-4 1,2,3",
+      "reason": "5領域の輪。B,Eが同色/異色という分岐は(1)(2)で明示され、最後はAの3色を掛ける。標準の環状塗り分け。"
+    },
+    "ready-49af8e232caee1fa": {
+      "difficulty": 4,
+      "previousDifficulty": 5,
+      "title": "4R30H⑥-4 1,2,3",
+      "reason": "6領域の輪で3色すべて使う。B,F同色/異色の小規模列挙が誘導され、2色だけを除くのも典型的除外。標準上位。"
+    },
+    "selected-d7a11bb612170411": {
+      "difficulty": 4,
+      "previousDifficulty": 5,
+      "title": "S08L⑥-4",
+      "reason": "4×4点の軸平行3種類と斜め2種類を、囲む2×2・3×3の枠で数える有限の典型。難しい一般格子の公式化・大規模漏れ防止までは要らない。"
+    }
+  }
+}
