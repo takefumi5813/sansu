@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const root = __dirname;
 const read = p => fs.readFileSync(path.join(root,p),'utf8').replace(/^\uFEFF/,'');
-const sources = ['content/arithmetic.json','content/selected-calc.json','content/selected-calc-2.json','content/selected-calc-3.json','content/selected-oneline.json','content/selected-geometry.json','content/expedition-foundations.json','content/expedition-ratio-speed.json','content/expedition-geometry.json','content/expedition-ready.json','content/expedition-ready-2.json','content/expedition-hold-integration.json','content/expedition-tesuji.json'].map(p=>JSON.parse(read(p)));
+const sources = ['content/arithmetic.json','content/selected-calc.json','content/selected-calc-2.json','content/selected-calc-3.json','content/selected-oneline.json','content/selected-geometry.json','content/expedition-foundations.json','content/expedition-ratio-speed.json','content/expedition-geometry.json','content/expedition-ready.json','content/expedition-ready-2.json','content/expedition-hold-integration.json','content/expedition-tesuji.json','content/expedition-notion-sync70.json'].map(p=>JSON.parse(read(p)));
 const legacyCatalog = JSON.parse(read('references/legacy-catalog.json'));
 const roster=JSON.parse(read('content/heroes.json'));
 const profiles=JSON.parse(read('content/hero-profiles.json')).profiles;
@@ -40,6 +40,7 @@ function canonicalRaw(spec){
   if(Array.isArray(spec.parts)){if(!spec.parts.length)throw Error('Empty answer parts');return spec.parts.map(part=>{if(Array.isArray(part.parts))throw Error('Nested answer parts');return canonicalRaw(part);});}
   if(spec.dimension==='ratio'){if(!Array.isArray(spec.terms)||spec.terms.length<2)throw Error('Ratio needs 2+ terms');return spec.terms.join(':');}
   if(spec.dimension==='clock'){if(spec.h==null||spec.m==null)throw Error('Clock needs h and m');return (spec.ampm||'')+(spec.ampm?Number(spec.h)%12:Number(spec.h))+'時'+spec.m+'分'+(spec.s!=null&&spec.s!==''?spec.s+'秒':'');}
+  if(spec.dimension==='text')return spec.value;
   return spec.n+'/'+spec.d;
 }
 const unitIds=new Set();

@@ -15,6 +15,7 @@ function unitNorm(s){return norm(s).replace(/²/g,'2').replace(/³/g,'3').replac
 function parseSingleAnswer(raw,spec={}){try{let s=norm(raw);if(!s||s.length>200)throw Error('答えを入力してください');const m=s.match(/^([+-]?(?:\d+(?:\.\d*)?|\.\d+)(?:(?:\s+|と)\d+\s*\/\s*\d+|\s*\/\s*\d+)?)(.*)$/);if(!m)throw Error('数値と単位を確かめてください');let r=number(m[1].trim());const dim=spec.dimension||'scalar',canonical=unitNorm(spec.unit||''),given=unitNorm(m[2]||canonical);const sourceMap=spec.acceptedUnits?{[canonical]:'1',...spec.acceptedUnits}:(units[dim]||{});const map={};for(const [key,value] of Object.entries(sourceMap))map[unitNorm(key)]=value;if(given!==canonical){if(map[given]==null||map[canonical]==null)throw Error('指定された単位で入力してください');const a=typeof map[given]==='object'?rat(map[given].n,map[given].d):number(String(map[given]));const b=typeof map[canonical]==='object'?rat(map[canonical].n,map[canonical].d):number(String(map[canonical]));r=times(r,times(a,rat(b.d,b.n)));}return {valid:true,value:out(r)};}catch(e){return {valid:false,error:e.message};}}
 function parseAnswer(raw,spec={}){
  if(isParts(spec)){const g=gradeParts(raw,spec);return g.valid?{valid:true,value:g.normalized}:{valid:false,error:g.error};}
+ if(isText(spec))return parseText(raw);
  if(isRatio(spec))return parseRatio(raw,spec);
  if(isClock(spec)){const p=parseClock(raw,spec);return p.valid?{valid:true,value:p.value}:p;}
  let s=norm(raw).replace(/\s/g,'');
@@ -35,6 +36,14 @@ function parseAnswer(raw,spec={}){
 }
 function gradeSingle(raw,spec){const p=parseAnswer(raw,spec);if(!p.valid)return p;const a=rat(p.value.n,p.value.d),b=rat(spec.n,spec.d);return {valid:true,correct:a.n===b.n&&a.d===b.d,normalized:p.value};}
 // Answer formats: single {n,d,unit,dimension}; ratio {dimension:'ratio',terms:[...]}; clock {dimension:'clock',h,m,s?,ampm?}; multiple fields {parts:[{label,...single|ratio|clock}]}.
+const isText=spec=>!!spec&&spec.dimension==='text';
+function textNorm(s){return String(s).normalize('NFKC').replace(/\s/g,'').toUpperCase();}
+function parseText(raw){if(!['string','number'].includes(typeof raw)||String(raw).length>200||!textNorm(raw))return {valid:false,error:'文字や記号で答えを入力してください'};return {valid:true,value:textNorm(raw)};}
+function gradeText(raw,spec){
+ if(typeof spec.value!=='string'||!textNorm(spec.value)||spec.accepted!=null&&(!Array.isArray(spec.accepted)||spec.accepted.some(x=>typeof x!=='string'||!textNorm(x))))return {valid:false,error:'答えの形式を確認できません'};
+ const p=parseText(raw);if(!p.valid)return p;
+ return {valid:true,correct:[spec.value,...(spec.accepted||[])].some(x=>textNorm(x)===p.value),normalized:p.value};
+}
 const RATIO_HINT='最も簡単な整数の比で答えよう';
 const isRatio=spec=>!!spec&&spec.dimension==='ratio'&&Array.isArray(spec.terms);
 const isParts=spec=>!!spec&&Array.isArray(spec.parts);
@@ -93,7 +102,7 @@ function formatClock(spec){
  const h=Number(norm(spec.h)),hour=spec.ampm?spec.ampm+(h%12):String(h),sec=spec.s!=null&&spec.s!==''&&Number(norm(spec.s))!==0?Number(norm(spec.s))+'秒':'';
  return hour+'時'+Number(norm(spec.m))+'分'+sec;
 }
-function gradeOne(raw,spec){if(!spec||typeof spec!=='object'||isParts(spec))return {valid:false,error:'答えの形式を確認できません'};if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);if(Array.isArray(raw))return {valid:false,error:'答えを入力してください'};return gradeSingle(raw,spec);}
+function gradeOne(raw,spec){if(!spec||typeof spec!=='object'||isParts(spec))return {valid:false,error:'答えの形式を確認できません'};if(isText(spec))return gradeText(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);if(Array.isArray(raw))return {valid:false,error:'答えを入力してください'};return gradeSingle(raw,spec);}
 function gradeParts(raw,spec){
  if(!spec.parts.length)return {valid:false,error:'答えの形式を確認できません'};
  if(!Array.isArray(raw)||raw.length!==spec.parts.length)return {valid:false,error:'すべての欄に答えを入力してください',parts:spec.parts.map(()=>({valid:false,correct:false}))};
@@ -105,11 +114,12 @@ function gradeParts(raw,spec){
  return result;
 }
 // Single answers keep the original path unchanged (gradeSingle), including raw coercion.
-function grade(raw,spec){if(isParts(spec))return gradeParts(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);return gradeSingle(raw,spec);}
+function grade(raw,spec){if(isParts(spec))return gradeParts(raw,spec);if(isText(spec))return gradeText(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);return gradeSingle(raw,spec);}
 function decimalText(n,d){let N=BigInt(n),D=BigInt(d),neg=N<0n;if(neg)N=-N;let k=0,t=D;while(t%2n===0n){t/=2n;k++}let j=0;while(t%5n===0n){t/=5n;j++}if(t!==1n)return null;const e=Math.max(k,j),scaled=N*10n**BigInt(e)/D,str=scaled.toString().padStart(e+1,'0'),out=e?str.slice(0,-e)+'.'+str.slice(-e):str;return (neg?'-':'')+out;}
 function formatAnswer(spec){
  if(!spec)return '';
  if(isParts(spec))return spec.parts.map((p,i)=>(p.label||'('+(i+1)+')')+' '+formatAnswer(p)).join('　');
+ if(isText(spec))return spec.value;
  if(isRatio(spec))return spec.terms.map(x=>norm(x)).join('：');
  if(isClock(spec))return formatClock(spec);
  const value=String(spec.d)==='1'?String(spec.n):spec.display==='decimal'&&decimalText(spec.n,spec.d)||spec.n+'/'+spec.d,plain=spec.unit?value+' '+spec.unit:value;

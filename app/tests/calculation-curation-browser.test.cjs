@@ -4,9 +4,9 @@ const assert=require('node:assert/strict'),path=require('path'),{pathToFileURL}=
  const page=await b.newPage({viewport:{width:390,height:900}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(process.env.SANSU_TEST_URL||pathToFileURL(path.resolve(__dirname,'../dist/index.html')).href);await page.waitForFunction(()=>window.SansuPilot);
  const stats=await page.evaluate(()=>{const ps=SansuPilot.data.problems;return {stored:ps.length,active:ps.filter(SansuCore.isActiveProblem).length,archived:ps.filter(p=>!SansuCore.isActiveProblem(p)).length,advanced:ps.filter(p=>p.category==='calc'&&SansuCore.isActiveProblem(p)&&['advanced','hard'].includes(SansuCore.calcTier(p))).length};});
- assert.deepEqual(stats,{stored:754,active:565,archived:189,advanced:0});
+ assert.deepEqual(stats,{stored:824,active:635,archived:189,advanced:0});
  await page.locator('#begin-adventure').click();await page.locator('[data-category="calc"]').click();
- assert.match(await page.locator('.board-footer').innerText(),/565問/);
+ assert.match(await page.locator('.board-footer').innerText(),/635問/);
  await page.locator('#practice-open').click();
  const catalog=await page.locator('[data-practice]').evaluateAll(es=>es.map(e=>e.dataset.practice));
  const expected=await page.evaluate(()=>SansuPilot.data.problems.filter(p=>p.category==='calc'&&SansuCore.isActiveProblem(p)).map(p=>p.id));assert.deepEqual(catalog.sort(),expected.sort());
