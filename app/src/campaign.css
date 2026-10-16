@@ -258,3 +258,14 @@ dialog::backdrop{background:#040813d6;backdrop-filter:blur(9px)}
 .party-slot:not(.empty){border-style:solid}
 .slot-tools .text-button{white-space:nowrap}
 @media (max-width:560px){.slot-tools{gap:10px}.slot-tools .text-button{font-size:11px}}
+/* 下書き欄：消しゴムの大きさ・押しやすいボタン */
+.scratch-toolbar .tool-group button{min-height:40px;min-width:44px;touch-action:manipulation}
+.scratch-toolbar .color-btn{min-width:32px!important;width:32px}
+.eraser-sizes{display:inline-flex;gap:2px;padding:2px;border-radius:9px;background:#d3dbd8}
+.scratch-toolbar .tool-group .eraser-size{min-width:36px;padding:0!important;display:inline-grid;place-items:center;background:transparent;border-color:transparent}
+.scratch-toolbar .tool-group .eraser-size.active{background:#faf9f3;color:inherit;border-color:#2b435e}
+.eraser-size i{display:block;width:var(--d);height:var(--d);border-radius:50%;border:2px solid #435873;background:#faf9f3}
+.eraser-size.active i{background:#2b435e;border-color:#2b435e}
+.scratch-canvas.erasing{cursor:cell}
+.eraser-ring{position:absolute;pointer-events:none;border:2px solid rgba(43,67,94,.55);background:rgba(250,249,243,.35);border-radius:50%;z-index:3}
+.eraser-ring[hidden]{display:none}
