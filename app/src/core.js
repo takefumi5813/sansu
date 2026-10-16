@@ -261,13 +261,13 @@ function calcInverse(expression){try{
  const answer=out(x),p={expression:s,answer},tier=calcTier(p),sh=calcShape(p);
  return {supported:true,answer,tier,star:CALC_STAR_BY_TIER[tier],score:3*sh.ops+(sh.frac?6:0)+(sh.dec?4:0)+(sh.par?3:0)};
 }catch(e){return {supported:false,error:e.message};}}
-function isActiveProblem(p){return p.curation?.active!==false;}
+function isActiveProblem(p){return p.curation?.active!==false&&p.b57?.deliveryStatus!=='品質保留';}
 function eligible(p,f={}){
  if(!isActiveProblem(p))return false;
  if(f.category&&p.category!==f.category)return false;if(p.figureRequired&&!p.figure)return false;
  if(p.category==='calc')return f.tier?calcTier(p)===f.tier:(!f.star||p.star===Number(f.star));
  if(Number(f.grade||5)===5&&p.difficulty>8)return false;
- const tier=f.tier||'standard',range={basic:[1,2],standard:[3,4],advanced:[5,6],hard:[7,10]}[tier];if(!range||p.difficulty<range[0]||p.difficulty>range[1])return false;
+ const tier=f.tier||'standard',range={basic:[1,2],standard:[3,4],advanced:[5,6],hard:[7,10]}[tier];if(!range)return false;if(p.b57?.selectionTier){if(p.b57.selectionTier!==tier)return false;}else if(p.difficulty<range[0]||p.difficulty>range[1])return false;
  if(f.domains?.length&&!f.domains.includes(p.domain)&&!f.domains.some(d=>(p.domains||[]).includes(d)))return false;
  if(f.mode==='review'&&!inScope(p,f.recentUnits,'review'))return false;if(f.mode==='gnorev'&&!inScope(p,f.scopeUnits))return false;return true;
 }

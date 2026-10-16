@@ -71,9 +71,10 @@ for (const p of data.problems) {
   }
   if(p.explanation.steps.length<4||p.explanation.steps.length>8)throw Error('Explanation length '+p.id);
 }
+require('./src/b57-catalog.cjs').attachCatalog(data,JSON.parse(read('content/b57-catalog.json')));
 const json=JSON.stringify(data).replace(/</g,'\\u003c');
 let html=read('src/shell.html');
-for(const [key,value] of [['__DATA__',json],['/*__CSS__*/',read('src/style.css')+'\n'+read('src/campaign.css')+'\n'+read('src/visual-assets.css')+'\n'+read('src/opening.css')],['/*__CORE__*/',read('src/core.js')],['/*__GEAR__*/',read('src/gear.js')],['/*__APP__*/',read('src/app.js').replace('/*__CAMPAIGN_UI__*/',()=>read('src/campaign-ui.js')+'\n'+read('src/hero-ui.js'))]])html=html.replace(key,()=>value);
+for(const [key,value] of [['__DATA__',json],['/*__CSS__*/',read('src/style.css')+'\n'+read('src/campaign.css')+'\n'+read('src/visual-assets.css')+'\n'+read('src/opening.css')],['/*__CORE__*/',read('src/core.js')],['/*__GEAR__*/',read('src/gear.js')],['/*__APP__*/',read('src/app.js').replace('/*__CAMPAIGN_UI__*/',()=>read('src/campaign-ui.js')+'\n'+read('src/hero-ui.js')+'\n'+read('src/b57-ui.js'))]])html=html.replace(key,()=>value);
 fs.writeFileSync(path.join(root,'dist/index.html'),html);
 fs.writeFileSync(path.join(root,'content/combined.json'),JSON.stringify(data,null,2));
 console.log(JSON.stringify({problems:data.problems.length,activeProblems:data.problems.filter(C.isActiveProblem).length,units:data.units.length,links:data.links.length,htmlBytes:Buffer.byteLength(html),heroes:catalog.heroes.length,equipment:catalog.equipment.length}));
