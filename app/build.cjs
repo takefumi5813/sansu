@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const root = __dirname;
 const read = p => fs.readFileSync(path.join(root,p),'utf8').replace(/^\uFEFF/,'');
-const sources = ['content/arithmetic.json','content/selected-calc.json','content/selected-calc-2.json','content/selected-calc-3.json','content/selected-oneline.json','content/selected-geometry.json','content/expedition-foundations.json','content/expedition-ratio-speed.json','content/expedition-geometry.json','content/expedition-ready.json','content/expedition-ready-2.json','content/expedition-hold-integration.json','content/expedition-tesuji.json','content/expedition-notion-sync70.json'].map(p=>JSON.parse(read(p)));
+const sources = ['content/arithmetic.json','content/selected-calc.json','content/selected-calc-2.json','content/selected-calc-3.json','content/selected-calc-r25.json','content/selected-r25-oneline.json','content/selected-oneline.json','content/selected-geometry.json','content/expedition-foundations.json','content/expedition-ratio-speed.json','content/expedition-geometry.json','content/expedition-ready.json','content/expedition-ready-2.json','content/expedition-hold-integration.json','content/expedition-tesuji.json','content/expedition-notion-sync70.json'].map(p=>JSON.parse(read(p)));
 sources.push(JSON.parse(read('content/b57-playable-84.json')));
 const legacyCatalog = JSON.parse(read('references/legacy-catalog.json'));
 const roster=JSON.parse(read('content/heroes.json'));

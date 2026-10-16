@@ -32879,6 +32879,3550 @@
       "domain": "calculation"
     },
     {
+      "id": "R25K-1",
+      "unitId": "calc.r25.k1",
+      "category": "calc",
+      "text": "1/9＋13/18＝□",
+      "sourceText": "1/9＋13/18＝",
+      "source": {
+        "title": "R25 計算マスター K-1（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81d2a097caaf843940da",
+        "url": "https://app.notion.com/3fb2b010743c81d2a097caaf843940da",
+        "locator": "Notion 問題DB > R25K-1",
+        "sourceText": "1/9＋13/18＝",
+        "sourceAnswer": "5/6",
+        "notionPageId": "3fb2b010743c81d2a097caaf843940da",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-1",
+        "localReferenceText": "1/9＋13/18＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "5",
+        "d": "6",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-31",
+      "revision": 1,
+      "expression": "1/9+13/18",
+      "explanation": {
+        "steps": [
+          {
+            "title": "分母をそろえる",
+            "body": "9と18の最小公倍数18を分母にします。分母を何倍したかと同じだけ分子も何倍します。",
+            "equation": "1/9＋13/18＝2/18＋13/18",
+            "checkpoint": {
+              "prompt": "分母を18にそろえると、13/18の分子はいくつですか。",
+              "answer": {
+                "n": "13",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-1"
+          },
+          {
+            "title": "分子どうしを計算する",
+            "body": "分母はそのままで、分子だけを計算します。",
+            "equation": "2/18＋13/18＝15/18",
+            "id": "step-2"
+          },
+          {
+            "title": "約分して帯分数にする",
+            "body": "分子と分母を同じ数で割れるだけ割り、1より大きければ帯分数にします。",
+            "equation": "15/18＝5/6",
+            "id": "step-3"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆の計算をして、はじめの数に戻るか確かめます。",
+            "equation": "5/6−13/18＝1/9",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 19,
+      "star": 1,
+      "difficulty": 5,
+      "curation": {
+        "active": true,
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-1",
+        "representativeKey": "3fb2b010743c81d2a097caaf843940da:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-2",
+      "unitId": "calc.r25.k2",
+      "category": "calc",
+      "text": "6と5/6−2と14/15＝□",
+      "sourceText": "6と5/6−2と14/15＝",
+      "source": {
+        "title": "R25 計算マスター K-2（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81e19c32e78d97befe45",
+        "url": "https://app.notion.com/3fb2b010743c81e19c32e78d97befe45",
+        "locator": "Notion 問題DB > R25K-2",
+        "sourceText": "6と5/6−2と14/15＝",
+        "sourceAnswer": "3と9/10",
+        "notionPageId": "3fb2b010743c81e19c32e78d97befe45",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-2",
+        "localReferenceText": "6と5/6−2と14/15＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "39",
+        "d": "10",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-32",
+      "revision": 1,
+      "expression": "41/6-44/15",
+      "explanation": {
+        "steps": [
+          {
+            "title": "帯分数を仮分数にする",
+            "body": "帯分数のままだと引けないところがあるので、仮分数に直してから計算します。",
+            "equation": "6と5/6−2と14/15＝41/6−44/15",
+            "id": "step-1"
+          },
+          {
+            "title": "分母をそろえる",
+            "body": "6と15の最小公倍数30を分母にします。分母を何倍したかと同じだけ分子も何倍します。",
+            "equation": "41/6−44/15＝205/30−88/30",
+            "checkpoint": {
+              "prompt": "分母を30にそろえると、44/15の分子はいくつですか。",
+              "answer": {
+                "n": "88",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "分子どうしを計算する",
+            "body": "分母はそのままで、分子だけを計算します。",
+            "equation": "205/30−88/30＝117/30",
+            "id": "step-3"
+          },
+          {
+            "title": "約分して帯分数にする",
+            "body": "分子と分母を同じ数で割れるだけ割り、1より大きければ帯分数にします。",
+            "equation": "117/30＝3と9/10",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆の計算をして、はじめの数に戻るか確かめます。",
+            "equation": "3と9/10＋2と14/15＝6と5/6",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 17,
+      "star": 1,
+      "difficulty": 5,
+      "curation": {
+        "active": true,
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-2",
+        "representativeKey": "3fb2b010743c81e19c32e78d97befe45:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-3",
+      "unitId": "calc.r25.k3",
+      "category": "calc",
+      "text": "0.25×76＝□",
+      "sourceText": "0.25×76＝",
+      "source": {
+        "title": "R25 計算マスター K-3（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c817c8352e0143b28db20",
+        "url": "https://app.notion.com/3fb2b010743c817c8352e0143b28db20",
+        "locator": "Notion 問題DB > R25K-3",
+        "sourceText": "0.25×76＝",
+        "sourceAnswer": "19",
+        "notionPageId": "3fb2b010743c817c8352e0143b28db20",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-3",
+        "localReferenceText": "0.25×76＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "19",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-33",
+      "revision": 1,
+      "expression": "0.25*76",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数を分数に直す",
+            "body": "0.25はよく使う小数で、分数にすると1/4です。分数にすると約分が使えます。",
+            "equation": "0.25＝1/4",
+            "id": "step-1"
+          },
+          {
+            "title": "分数のかけ算にする",
+            "body": "0.25×76は、76を4で割って1倍することと同じです。",
+            "equation": "0.25×76＝76÷4×1",
+            "id": "step-2"
+          },
+          {
+            "title": "割り算を先にする",
+            "body": "76を4で割ります。",
+            "equation": "76÷4＝19",
+            "checkpoint": {
+              "prompt": "76÷4はいくつですか。",
+              "answer": {
+                "n": "19",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "かけて答えを出す",
+            "body": "1倍して答えです。",
+            "equation": "19×1＝19",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えを0.25で割ると76に戻ります。",
+            "equation": "19÷0.25＝76",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 6,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": true,
+        "tier": "basic",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-3",
+        "representativeKey": "3fb2b010743c817c8352e0143b28db20:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-6",
+      "unitId": "calc.r25.k6",
+      "category": "calc",
+      "text": "17×1.9＋2.7×17＋17×5.4＝□",
+      "sourceText": "17×1.9＋2.7×17＋17×5.4＝",
+      "source": {
+        "title": "R25 計算マスター K-6（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c8147b775d3fcce087a4e",
+        "url": "https://app.notion.com/3fb2b010743c8147b775d3fcce087a4e",
+        "locator": "Notion 問題DB > R25K-6",
+        "sourceText": "17×1.9＋2.7×17＋17×5.4＝",
+        "sourceAnswer": "170",
+        "notionPageId": "3fb2b010743c8147b775d3fcce087a4e",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-6",
+        "localReferenceText": "17×1.9＋2.7×17＋17×5.4＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "170",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-36",
+      "revision": 1,
+      "expression": "17*1.9+2.7*17+17*5.4",
+      "explanation": {
+        "steps": [
+          {
+            "title": "共通の数を見つける",
+            "body": "3つのかけ算すべてに17が入っています。かける順番を入れかえても答えは同じなので、17をまとめられます。",
+            "equation": "17×1.9＋2.7×17＋17×5.4＝17×(1.9＋2.7＋5.4)",
+            "id": "step-1"
+          },
+          {
+            "title": "かっこの中を計算する",
+            "body": "小数点をそろえて足します。",
+            "equation": "1.9＋2.7＋5.4＝10",
+            "checkpoint": {
+              "prompt": "1.9＋2.7＋5.4はいくつですか。",
+              "answer": {
+                "n": "10",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "まとめたかけ算をする",
+            "body": "17に10をかけます。",
+            "equation": "17×10＝170",
+            "id": "step-3"
+          },
+          {
+            "title": "1つずつ計算して確かめる",
+            "body": "3つのかけ算をそれぞれ計算して足しても、同じ答えになります。",
+            "equation": "32と3/10＋45と9/10＋91と4/5＝170",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 36,
+      "star": 2,
+      "difficulty": 7,
+      "curation": {
+        "active": true,
+        "tier": "advanced",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-6",
+        "representativeKey": "3fb2b010743c8147b775d3fcce087a4e:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-7",
+      "unitId": "calc.r25.k7",
+      "category": "calc",
+      "text": "0.125＋0.875×9＝□",
+      "sourceText": "0.125＋0.875×9＝",
+      "source": {
+        "title": "R25 計算マスター K-7（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c814aa140f28c732c4936",
+        "url": "https://app.notion.com/3fb2b010743c814aa140f28c732c4936",
+        "locator": "Notion 問題DB > R25K-7",
+        "sourceText": "0.125＋0.875×9＝",
+        "sourceAnswer": "8",
+        "notionPageId": "3fb2b010743c814aa140f28c732c4936",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-7",
+        "localReferenceText": "0.125＋0.875×9＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "8",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-37",
+      "revision": 1,
+      "expression": "0.125+0.875*9",
+      "explanation": {
+        "steps": [
+          {
+            "title": "計算の順番を決める",
+            "body": "たし算とかけ算がまざっているので、かけ算を先にします。",
+            "equation": "0.125＋0.875×9＝0.125＋63/8",
+            "id": "step-1"
+          },
+          {
+            "title": "小数を分数に直す",
+            "body": "0.125も0.875も8分の何かで表せます。",
+            "equation": "0.125＋0.875×9＝1/8＋7/8×9",
+            "id": "step-2"
+          },
+          {
+            "title": "かけ算をする",
+            "body": "7/8に9をかけます。分母はそのままで分子を9倍します。",
+            "equation": "7/8×9＝63/8",
+            "checkpoint": {
+              "prompt": "7/8×9を分数で答えましょう。",
+              "answer": {
+                "n": "63",
+                "d": "8",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "たし算をする",
+            "body": "分母がそろっているので分子どうしを足し、約分します。",
+            "equation": "1/8＋63/8＝8",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 7,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": true,
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-7",
+        "representativeKey": "3fb2b010743c814aa140f28c732c4936:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-11",
+      "unitId": "calc.r25.k11",
+      "category": "calc",
+      "text": "0.8−2/5×0.75＝□",
+      "sourceText": "0.8−2/5×0.75＝",
+      "source": {
+        "title": "R25 計算マスター K-11（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81779fc4c201a67d8791",
+        "url": "https://app.notion.com/3fb2b010743c81779fc4c201a67d8791",
+        "locator": "Notion 問題DB > R25K-11",
+        "sourceText": "0.8−2/5×0.75＝",
+        "sourceAnswer": "0.5（1/2でも正解）",
+        "notionPageId": "3fb2b010743c81779fc4c201a67d8791",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-11",
+        "localReferenceText": "0.8−2/5×0.75＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "1",
+        "d": "2",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-41",
+      "revision": 1,
+      "expression": "0.8-2/5*0.75",
+      "explanation": {
+        "steps": [
+          {
+            "title": "かけ算を先にする",
+            "body": "−と×がまざっているので、2/5×0.75を先に計算します。",
+            "equation": "0.8−2/5×0.75＝0.8−3/10",
+            "id": "step-1"
+          },
+          {
+            "title": "小数を分数に直す",
+            "body": "分数と小数がまざっているときは、分数にそろえると約分が使えます。",
+            "equation": "0.75＝3/4",
+            "id": "step-2"
+          },
+          {
+            "title": "かけ算をする",
+            "body": "分子どうし・分母どうしをかけて約分します。",
+            "equation": "2/5×3/4＝3/10",
+            "checkpoint": {
+              "prompt": "2/5×0.75を分数で答えましょう。",
+              "answer": {
+                "n": "3",
+                "d": "10",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "ひき算をする",
+            "body": "0.8を分数にして計算します。",
+            "equation": "4/5−3/10＝1/2",
+            "id": "step-4"
+          },
+          {
+            "title": "小数で確かめる",
+            "body": "答えを小数で表しても同じ大きさです。",
+            "equation": "1/2＝0.8−2/5×0.75",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 22,
+      "star": 1,
+      "difficulty": 5,
+      "curation": {
+        "active": true,
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-11",
+        "representativeKey": "3fb2b010743c81779fc4c201a67d8791:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-15",
+      "unitId": "calc.r25.k15",
+      "category": "calc",
+      "text": "22.91÷7.9＝□",
+      "sourceText": "22.91÷7.9＝",
+      "source": {
+        "title": "R25 計算マスター K-15（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81f2bc6cfdb9a6385589",
+        "url": "https://app.notion.com/3fb2b010743c81f2bc6cfdb9a6385589",
+        "locator": "Notion 問題DB > R25K-15",
+        "sourceText": "22.91÷7.9＝",
+        "sourceAnswer": "2.9",
+        "notionPageId": "3fb2b010743c81f2bc6cfdb9a6385589",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-15",
+        "localReferenceText": "22.91÷7.9＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "29",
+        "d": "10",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-45",
+      "revision": 1,
+      "expression": "22.91÷7.9",
+      "explanation": {
+        "steps": [
+          {
+            "title": "割る数を整数にする",
+            "body": "割る数7.9と割られる数22.91の小数点を、どちらも1けた右に動かします（10倍）。商は変わりません。",
+            "equation": "22.91÷7.9＝229.1÷79",
+            "id": "step-1"
+          },
+          {
+            "title": "商の見当をつける",
+            "body": "79×3＝237は229.1より大きいので、商は2をこえて3より小さい数です。",
+            "equation": "79×2＝158",
+            "id": "step-2"
+          },
+          {
+            "title": "筆算で割る",
+            "body": "商の小数点は、動かしたあとの割られる数の小数点にそろえます。",
+            "equation": "229.1÷79＝2.9",
+            "checkpoint": {
+              "prompt": "22.91÷7.9はいくつですか。",
+              "answer": {
+                "n": "29",
+                "d": "10",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "かけ算で確かめる",
+            "body": "商に割る数をかけると、割られる数に戻ります。",
+            "equation": "7.9×2.9＝22.91",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 16,
+      "star": 1,
+      "difficulty": 5,
+      "curation": {
+        "active": true,
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-15",
+        "representativeKey": "3fb2b010743c81f2bc6cfdb9a6385589:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-25",
+      "unitId": "calc.r25.k25",
+      "category": "calc",
+      "text": "0.875×1.8÷0.75＝□",
+      "sourceText": "0.875×1.8÷0.75＝",
+      "source": {
+        "title": "R25 計算マスター K-25（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81709d9bcae243b2ae6c",
+        "url": "https://app.notion.com/3fb2b010743c81709d9bcae243b2ae6c",
+        "locator": "Notion 問題DB > R25K-25",
+        "sourceText": "0.875×1.8÷0.75＝",
+        "sourceAnswer": "2と1/10",
+        "notionPageId": "3fb2b010743c81709d9bcae243b2ae6c",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-25",
+        "localReferenceText": "0.875×1.8÷0.75＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "21",
+        "d": "10",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-55",
+      "revision": 1,
+      "expression": "0.875*1.8÷0.75",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数を分数に直す",
+            "body": "かけ算と割り算だけの式なので、分数に直して1つの分数にまとめると約分がしやすくなります。",
+            "equation": "0.875×1.8÷0.75＝7/8×9/5÷3/4",
+            "id": "step-1"
+          },
+          {
+            "title": "割り算を逆数のかけ算にする",
+            "body": "3/4で割ることは、4/3をかけることと同じです。",
+            "equation": "7/8×9/5÷3/4＝7/8×9/5×4/3",
+            "id": "step-2"
+          },
+          {
+            "title": "約分してかける",
+            "body": "分子と分母で約分できる組を先に消してからかけます。",
+            "equation": "7/8×9/5×4/3＝21/10",
+            "checkpoint": {
+              "prompt": "0.875×1.8÷0.75を分数で答えましょう。",
+              "answer": {
+                "n": "21",
+                "d": "10",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "帯分数・小数で確かめる",
+            "body": "仮分数を帯分数にします。小数で計算しても同じ値です。",
+            "equation": "21/10＝2と1/10",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 9,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": true,
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-25",
+        "representativeKey": "3fb2b010743c81709d9bcae243b2ae6c:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-31",
+      "unitId": "calc.r25.k31",
+      "category": "calc",
+      "text": "1/4＋7/12＝□",
+      "sourceText": "1/4＋7/12＝",
+      "source": {
+        "title": "R25 計算マスター K-31（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c8153903ff7c6e60d1202",
+        "url": "https://app.notion.com/3fb2b010743c8153903ff7c6e60d1202",
+        "locator": "Notion 問題DB > R25K-31",
+        "sourceText": "1/4＋7/12＝",
+        "sourceAnswer": "5/6",
+        "notionPageId": "3fb2b010743c8153903ff7c6e60d1202",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-31",
+        "localReferenceText": "1/4＋7/12＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "5",
+        "d": "6",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-1",
+      "revision": 1,
+      "expression": "1/4+7/12",
+      "explanation": {
+        "steps": [
+          {
+            "title": "分母をそろえる",
+            "body": "4と12の最小公倍数12を分母にします。分母を何倍したかと同じだけ分子も何倍します。",
+            "equation": "1/4＋7/12＝3/12＋7/12",
+            "checkpoint": {
+              "prompt": "分母を12にそろえると、7/12の分子はいくつですか。",
+              "answer": {
+                "n": "7",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-1"
+          },
+          {
+            "title": "分子どうしを計算する",
+            "body": "分母はそのままで、分子だけを計算します。",
+            "equation": "3/12＋7/12＝10/12",
+            "id": "step-2"
+          },
+          {
+            "title": "約分して帯分数にする",
+            "body": "分子と分母を同じ数で割れるだけ割り、1より大きければ帯分数にします。",
+            "equation": "10/12＝5/6",
+            "id": "step-3"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆の計算をして、はじめの数に戻るか確かめます。",
+            "equation": "5/6−7/12＝1/4",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 17,
+      "star": 1,
+      "difficulty": 5,
+      "curation": {
+        "active": false,
+        "tier": "standard",
+        "reason": "表面（R25K-1）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-1",
+        "representativeKey": "3fb2b010743c81d2a097caaf843940da:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-32",
+      "unitId": "calc.r25.k32",
+      "category": "calc",
+      "text": "6と5/24−2と29/60＝□",
+      "sourceText": "6と5/24−2と29/60＝",
+      "source": {
+        "title": "R25 計算マスター K-32（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c8142afb0e69ab0a1cdb1",
+        "url": "https://app.notion.com/3fb2b010743c8142afb0e69ab0a1cdb1",
+        "locator": "Notion 問題DB > R25K-32",
+        "sourceText": "6と5/24−2と29/60＝",
+        "sourceAnswer": "3と29/40",
+        "notionPageId": "3fb2b010743c8142afb0e69ab0a1cdb1",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-32",
+        "localReferenceText": "6と5/24−2と29/60＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "149",
+        "d": "40",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-2",
+      "revision": 1,
+      "expression": "149/24-149/60",
+      "explanation": {
+        "steps": [
+          {
+            "title": "帯分数を仮分数にする",
+            "body": "帯分数のままだと引けないところがあるので、仮分数に直してから計算します。",
+            "equation": "6と5/24−2と29/60＝149/24−149/60",
+            "id": "step-1"
+          },
+          {
+            "title": "分母をそろえる",
+            "body": "24と60の最小公倍数120を分母にします。分母を何倍したかと同じだけ分子も何倍します。",
+            "equation": "149/24−149/60＝745/120−298/120",
+            "checkpoint": {
+              "prompt": "分母を120にそろえると、149/60の分子はいくつですか。",
+              "answer": {
+                "n": "298",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "分子どうしを計算する",
+            "body": "分母はそのままで、分子だけを計算します。",
+            "equation": "745/120−298/120＝447/120",
+            "id": "step-3"
+          },
+          {
+            "title": "約分して帯分数にする",
+            "body": "分子と分母を同じ数で割れるだけ割り、1より大きければ帯分数にします。",
+            "equation": "447/120＝3と29/40",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆の計算をして、はじめの数に戻るか確かめます。",
+            "equation": "3と29/40＋2と29/60＝6と5/24",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 23,
+      "star": 1,
+      "difficulty": 5,
+      "curation": {
+        "active": false,
+        "tier": "standard",
+        "reason": "表面（R25K-2）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-2",
+        "representativeKey": "3fb2b010743c81e19c32e78d97befe45:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-33",
+      "unitId": "calc.r25.k33",
+      "category": "calc",
+      "text": "0.75×24＝□",
+      "sourceText": "0.75×24＝",
+      "source": {
+        "title": "R25 計算マスター K-33（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81249813f89e12401ad9",
+        "url": "https://app.notion.com/3fb2b010743c81249813f89e12401ad9",
+        "locator": "Notion 問題DB > R25K-33",
+        "sourceText": "0.75×24＝",
+        "sourceAnswer": "18",
+        "notionPageId": "3fb2b010743c81249813f89e12401ad9",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-33",
+        "localReferenceText": "0.75×24＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "18",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-3",
+      "revision": 1,
+      "expression": "0.75*24",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数を分数に直す",
+            "body": "0.75はよく使う小数で、分数にすると3/4です。分数にすると約分が使えます。",
+            "equation": "0.75＝3/4",
+            "id": "step-1"
+          },
+          {
+            "title": "分数のかけ算にする",
+            "body": "0.75×24は、24を4で割って3倍することと同じです。",
+            "equation": "0.75×24＝24÷4×3",
+            "id": "step-2"
+          },
+          {
+            "title": "割り算を先にする",
+            "body": "24を4で割ります。",
+            "equation": "24÷4＝6",
+            "checkpoint": {
+              "prompt": "24÷4はいくつですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "かけて答えを出す",
+            "body": "3倍して答えです。",
+            "equation": "6×3＝18",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えを0.75で割ると24に戻ります。",
+            "equation": "18÷0.75＝24",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 6,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": false,
+        "tier": "basic",
+        "reason": "表面（R25K-3）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-3",
+        "representativeKey": "3fb2b010743c817c8352e0143b28db20:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-36",
+      "unitId": "calc.r25.k36",
+      "category": "calc",
+      "text": "19×2.3＋1.9×19＋19×5.8＝□",
+      "sourceText": "19×2.3＋1.9×19＋19×5.8＝",
+      "source": {
+        "title": "R25 計算マスター K-36（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81889ef4e92f71e91626",
+        "url": "https://app.notion.com/3fb2b010743c81889ef4e92f71e91626",
+        "locator": "Notion 問題DB > R25K-36",
+        "sourceText": "19×2.3＋1.9×19＋19×5.8＝",
+        "sourceAnswer": "190",
+        "notionPageId": "3fb2b010743c81889ef4e92f71e91626",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-36",
+        "localReferenceText": "19×2.3＋1.9×19＋19×5.8＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "190",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-6",
+      "revision": 1,
+      "expression": "19*2.3+1.9*19+19*5.8",
+      "explanation": {
+        "steps": [
+          {
+            "title": "共通の数を見つける",
+            "body": "3つのかけ算すべてに19が入っています。かける順番を入れかえても答えは同じなので、19をまとめられます。",
+            "equation": "19×2.3＋1.9×19＋19×5.8＝19×(2.3＋1.9＋5.8)",
+            "id": "step-1"
+          },
+          {
+            "title": "かっこの中を計算する",
+            "body": "小数点をそろえて足します。",
+            "equation": "2.3＋1.9＋5.8＝10",
+            "checkpoint": {
+              "prompt": "2.3＋1.9＋5.8はいくつですか。",
+              "answer": {
+                "n": "10",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "まとめたかけ算をする",
+            "body": "19に10をかけます。",
+            "equation": "19×10＝190",
+            "id": "step-3"
+          },
+          {
+            "title": "1つずつ計算して確かめる",
+            "body": "3つのかけ算をそれぞれ計算して足しても、同じ答えになります。",
+            "equation": "43と7/10＋36と1/10＋110と1/5＝190",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 36,
+      "star": 2,
+      "difficulty": 7,
+      "curation": {
+        "active": false,
+        "tier": "advanced",
+        "reason": "表面（R25K-6）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-6",
+        "representativeKey": "3fb2b010743c8147b775d3fcce087a4e:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-37",
+      "unitId": "calc.r25.k37",
+      "category": "calc",
+      "text": "0.375＋0.625×9＝□",
+      "sourceText": "0.375＋0.625×9＝",
+      "source": {
+        "title": "R25 計算マスター K-37（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81b590f5c82787335608",
+        "url": "https://app.notion.com/3fb2b010743c81b590f5c82787335608",
+        "locator": "Notion 問題DB > R25K-37",
+        "sourceText": "0.375＋0.625×9＝",
+        "sourceAnswer": "6",
+        "notionPageId": "3fb2b010743c81b590f5c82787335608",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-37",
+        "localReferenceText": "0.375＋0.625×9＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-7",
+      "revision": 1,
+      "expression": "0.375+0.625*9",
+      "explanation": {
+        "steps": [
+          {
+            "title": "計算の順番を決める",
+            "body": "たし算とかけ算がまざっているので、かけ算を先にします。",
+            "equation": "0.375＋0.625×9＝0.375＋45/8",
+            "id": "step-1"
+          },
+          {
+            "title": "小数を分数に直す",
+            "body": "0.375も0.625も8分の何かで表せます。",
+            "equation": "0.375＋0.625×9＝3/8＋5/8×9",
+            "id": "step-2"
+          },
+          {
+            "title": "かけ算をする",
+            "body": "5/8に9をかけます。分母はそのままで分子を9倍します。",
+            "equation": "5/8×9＝45/8",
+            "checkpoint": {
+              "prompt": "5/8×9を分数で答えましょう。",
+              "answer": {
+                "n": "45",
+                "d": "8",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "たし算をする",
+            "body": "分母がそろっているので分子どうしを足し、約分します。",
+            "equation": "3/8＋45/8＝6",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 7,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": false,
+        "tier": "standard",
+        "reason": "表面（R25K-7）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-7",
+        "representativeKey": "3fb2b010743c814aa140f28c732c4936:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-41",
+      "unitId": "calc.r25.k41",
+      "category": "calc",
+      "text": "0.6＋1と1/5×0.75＝□",
+      "sourceText": "0.6＋1と1/5×0.75＝",
+      "source": {
+        "title": "R25 計算マスター K-41（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c813e9e3df2424112ff04",
+        "url": "https://app.notion.com/3fb2b010743c813e9e3df2424112ff04",
+        "locator": "Notion 問題DB > R25K-41",
+        "sourceText": "0.6＋1と1/5×0.75＝",
+        "sourceAnswer": "1.5",
+        "notionPageId": "3fb2b010743c813e9e3df2424112ff04",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-41",
+        "localReferenceText": "0.6＋1と1/5×0.75＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "3",
+        "d": "2",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-11",
+      "revision": 1,
+      "expression": "0.6+6/5*0.75",
+      "explanation": {
+        "steps": [
+          {
+            "title": "かけ算を先にする",
+            "body": "＋と×がまざっているので、1と1/5×0.75を先に計算します。",
+            "equation": "0.6＋1と1/5×0.75＝0.6＋9/10",
+            "id": "step-1"
+          },
+          {
+            "title": "小数を分数に直す",
+            "body": "分数と小数がまざっているときは、分数にそろえると約分が使えます。",
+            "equation": "0.75＝3/4",
+            "id": "step-2"
+          },
+          {
+            "title": "かけ算をする",
+            "body": "分子どうし・分母どうしをかけて約分します。",
+            "equation": "1と1/5×3/4＝9/10",
+            "checkpoint": {
+              "prompt": "1と1/5×0.75を分数で答えましょう。",
+              "answer": {
+                "n": "9",
+                "d": "10",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "たし算をする",
+            "body": "0.6を分数にして計算します。",
+            "equation": "3/5＋9/10＝1と1/2",
+            "id": "step-4"
+          },
+          {
+            "title": "小数で確かめる",
+            "body": "答えを小数で表しても同じ大きさです。",
+            "equation": "1と1/2＝0.6＋1と1/5×0.75",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 22,
+      "star": 1,
+      "difficulty": 5,
+      "curation": {
+        "active": false,
+        "tier": "standard",
+        "reason": "表面（R25K-11）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-11",
+        "representativeKey": "3fb2b010743c81779fc4c201a67d8791:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-45",
+      "unitId": "calc.r25.k45",
+      "category": "calc",
+      "text": "34.71÷8.9＝□",
+      "sourceText": "34.71÷8.9＝",
+      "source": {
+        "title": "R25 計算マスター K-45（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81a3a053ea063cc40a6e",
+        "url": "https://app.notion.com/3fb2b010743c81a3a053ea063cc40a6e",
+        "locator": "Notion 問題DB > R25K-45",
+        "sourceText": "34.71÷8.9＝",
+        "sourceAnswer": "3.9",
+        "notionPageId": "3fb2b010743c81a3a053ea063cc40a6e",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-45",
+        "localReferenceText": "34.71÷8.9＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "39",
+        "d": "10",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-15",
+      "revision": 1,
+      "expression": "34.71÷8.9",
+      "explanation": {
+        "steps": [
+          {
+            "title": "割る数を整数にする",
+            "body": "割る数8.9と割られる数34.71の小数点を、どちらも1けた右に動かします（10倍）。商は変わりません。",
+            "equation": "34.71÷8.9＝347.1÷89",
+            "id": "step-1"
+          },
+          {
+            "title": "商の見当をつける",
+            "body": "89×4＝356は347.1より大きいので、商は3をこえて4より小さい数です。",
+            "equation": "89×3＝267",
+            "id": "step-2"
+          },
+          {
+            "title": "筆算で割る",
+            "body": "商の小数点は、動かしたあとの割られる数の小数点にそろえます。",
+            "equation": "347.1÷89＝3.9",
+            "checkpoint": {
+              "prompt": "34.71÷8.9はいくつですか。",
+              "answer": {
+                "n": "39",
+                "d": "10",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "かけ算で確かめる",
+            "body": "商に割る数をかけると、割られる数に戻ります。",
+            "equation": "8.9×3.9＝34.71",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 16,
+      "star": 1,
+      "difficulty": 5,
+      "curation": {
+        "active": false,
+        "tier": "standard",
+        "reason": "表面（R25K-15）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-15",
+        "representativeKey": "3fb2b010743c81f2bc6cfdb9a6385589:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-55",
+      "unitId": "calc.r25.k55",
+      "category": "calc",
+      "text": "0.625×4.8÷0.75＝□",
+      "sourceText": "0.625×4.8÷0.75＝",
+      "source": {
+        "title": "R25 計算マスター K-55（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81d49699d3ed8012cbaa",
+        "url": "https://app.notion.com/3fb2b010743c81d49699d3ed8012cbaa",
+        "locator": "Notion 問題DB > R25K-55",
+        "sourceText": "0.625×4.8÷0.75＝",
+        "sourceAnswer": "4",
+        "notionPageId": "3fb2b010743c81d49699d3ed8012cbaa",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-55",
+        "localReferenceText": "0.625×4.8÷0.75＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "4",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-25",
+      "revision": 1,
+      "expression": "0.625*4.8÷0.75",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数を分数に直す",
+            "body": "かけ算と割り算だけの式なので、分数に直して1つの分数にまとめると約分がしやすくなります。",
+            "equation": "0.625×4.8÷0.75＝5/8×24/5÷3/4",
+            "id": "step-1"
+          },
+          {
+            "title": "割り算を逆数のかけ算にする",
+            "body": "3/4で割ることは、4/3をかけることと同じです。",
+            "equation": "5/8×24/5÷3/4＝5/8×24/5×4/3",
+            "id": "step-2"
+          },
+          {
+            "title": "約分してかける",
+            "body": "分子と分母で約分できる組を先に消してからかけます。",
+            "equation": "5/8×24/5×4/3＝4",
+            "checkpoint": {
+              "prompt": "0.625×4.8÷0.75を分数で答えましょう。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "帯分数・小数で確かめる",
+            "body": "仮分数を帯分数にします。小数で計算しても同じ値です。",
+            "equation": "4＝4",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 7,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": false,
+        "tier": "standard",
+        "reason": "表面（R25K-25）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-25",
+        "representativeKey": "3fb2b010743c81709d9bcae243b2ae6c:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-13",
+      "unitId": "calc.r25.k13",
+      "category": "calc",
+      "text": "15/16÷□＝1と1/9",
+      "sourceText": "15/16÷□＝1と1/9",
+      "source": {
+        "title": "R25 計算マスター K-13（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c8153a81dcd1faa82f091",
+        "url": "https://app.notion.com/3fb2b010743c8153a81dcd1faa82f091",
+        "locator": "Notion 問題DB > R25K-13",
+        "sourceText": "15/16÷□＝1と1/9",
+        "sourceAnswer": "27/32",
+        "notionPageId": "3fb2b010743c8153a81dcd1faa82f091",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-13",
+        "localReferenceText": "15/16÷□＝1と1/9",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "27",
+        "d": "32",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-43",
+      "revision": 1,
+      "expression": "15/16÷□=10/9",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "15/16÷□＝1と1/9",
+            "id": "step-1"
+          },
+          {
+            "title": "15/16÷□を外す",
+            "body": "15/16を□でわった結果が1と1/9です。わられる数÷答え＝わる数なので、15/16÷1と1/9を計算します。\n15/16÷1と1/9＝27/32",
+            "equation": "□＝27/32",
+            "checkpoint": {
+              "prompt": "15/16÷1と1/9はいくつですか。",
+              "answer": {
+                "n": "27",
+                "d": "32",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "□の値を書く",
+            "body": "こうして、□＝27/32となります。",
+            "equation": "□＝27/32",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に27/32を入れて計算すると、両辺が同じ値になります。",
+            "equation": "15/16÷27/32＝1と1/9",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 9,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": true,
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-13",
+        "representativeKey": "3fb2b010743c8153a81dcd1faa82f091:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-17",
+      "unitId": "calc.r25.k17",
+      "category": "calc",
+      "text": "119−□−25＝19",
+      "sourceText": "119−□−25＝19",
+      "source": {
+        "title": "R25 計算マスター K-17（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81879de2de8777ba95a7",
+        "url": "https://app.notion.com/3fb2b010743c81879de2de8777ba95a7",
+        "locator": "Notion 問題DB > R25K-17",
+        "sourceText": "119−□−25＝19",
+        "sourceAnswer": "75",
+        "notionPageId": "3fb2b010743c81879de2de8777ba95a7",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-17",
+        "localReferenceText": "119−□−25＝19",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "75",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-47",
+      "revision": 1,
+      "expression": "119-□-25=19",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "119−□−25＝19",
+            "id": "step-1"
+          },
+          {
+            "title": "−25を外す",
+            "body": "□を含む部分から25をひいた結果が19です。ひき算をもとに戻すには、たし算をします。\n19＋25＝44",
+            "equation": "119−□＝44",
+            "checkpoint": {
+              "prompt": "19＋25はいくつですか。",
+              "answer": {
+                "n": "44",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "119−□を外す",
+            "body": "119から□をひいた結果が44です。ひかれる数−答え＝ひく数なので、119−44を計算します。\n119−44＝75",
+            "equation": "□＝75",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に75を入れて計算すると、両辺が同じ値になります。",
+            "equation": "119−75−25＝19",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 6,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": true,
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-17",
+        "representativeKey": "3fb2b010743c81879de2de8777ba95a7:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-18",
+      "unitId": "calc.r25.k18",
+      "category": "calc",
+      "text": "□×7−21＝91",
+      "sourceText": "□×7−21＝91",
+      "source": {
+        "title": "R25 計算マスター K-18（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81d88b99df74deae8de7",
+        "url": "https://app.notion.com/3fb2b010743c81d88b99df74deae8de7",
+        "locator": "Notion 問題DB > R25K-18",
+        "sourceText": "□×7−21＝91",
+        "sourceAnswer": "16",
+        "notionPageId": "3fb2b010743c81d88b99df74deae8de7",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-18",
+        "localReferenceText": "□×7−21＝91",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "16",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-48",
+      "revision": 1,
+      "expression": "□*7-21=91",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "□×7−21＝91",
+            "id": "step-1"
+          },
+          {
+            "title": "−21を外す",
+            "body": "□を含む部分から21をひいた結果が91です。ひき算をもとに戻すには、たし算をします。\n91＋21＝112",
+            "equation": "□×7＝112",
+            "checkpoint": {
+              "prompt": "91＋21はいくつですか。",
+              "answer": {
+                "n": "112",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "×7を外す",
+            "body": "□に7をかけた結果が112です。かけ算をもとに戻すには、わり算をします。\n112÷7＝16",
+            "equation": "□＝16",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に16を入れて計算すると、両辺が同じ値になります。",
+            "equation": "16×7−21＝91",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 6,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": true,
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-18",
+        "representativeKey": "3fb2b010743c81d88b99df74deae8de7:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-19",
+      "unitId": "calc.r25.k19",
+      "category": "calc",
+      "text": "24×(3/8＋□)＝15",
+      "sourceText": "24×(3/8＋□)＝15",
+      "source": {
+        "title": "R25 計算マスター K-19（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81759c96db5c71c3761b",
+        "url": "https://app.notion.com/3fb2b010743c81759c96db5c71c3761b",
+        "locator": "Notion 問題DB > R25K-19",
+        "sourceText": "24×(3/8＋□)＝15",
+        "sourceAnswer": "1/4",
+        "notionPageId": "3fb2b010743c81759c96db5c71c3761b",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-19",
+        "localReferenceText": "24×(3/8＋□)＝15",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "1",
+        "d": "4",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-49",
+      "revision": 1,
+      "expression": "24*(3/8+□)=15",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "24×(3/8＋□)＝15",
+            "id": "step-1"
+          },
+          {
+            "title": "×24を外す",
+            "body": "□を含む部分に24をかけた結果が15です。かけ算をもとに戻すには、わり算をします。\n15÷24＝5/8",
+            "equation": "3/8＋□＝5/8",
+            "checkpoint": {
+              "prompt": "15÷24はいくつですか。",
+              "answer": {
+                "n": "5",
+                "d": "8",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "＋3/8を外す",
+            "body": "□に3/8をたした結果が5/8です。たし算をもとに戻すには、ひき算をします。\n5/8−3/8＝1/4",
+            "equation": "□＝1/4",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に1/4を入れて計算すると、両辺が同じ値になります。",
+            "equation": "24×(3/8＋1/4)＝15",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 15,
+      "star": 2,
+      "difficulty": 5,
+      "curation": {
+        "active": true,
+        "tier": "advanced",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-19",
+        "representativeKey": "3fb2b010743c81759c96db5c71c3761b:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-24",
+      "unitId": "calc.r25.k24",
+      "category": "calc",
+      "text": "□÷3と4/7＝5と5/6",
+      "sourceText": "□÷3と4/7＝5と5/6",
+      "source": {
+        "title": "R25 計算マスター K-24（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c8121a0b4fe3c3f423af7",
+        "url": "https://app.notion.com/3fb2b010743c8121a0b4fe3c3f423af7",
+        "locator": "Notion 問題DB > R25K-24",
+        "sourceText": "□÷3と4/7＝5と5/6",
+        "sourceAnswer": "20と5/6",
+        "notionPageId": "3fb2b010743c8121a0b4fe3c3f423af7",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-24",
+        "localReferenceText": "□÷3と4/7＝5と5/6",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "125",
+        "d": "6",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-54",
+      "revision": 1,
+      "expression": "□÷25/7=35/6",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "□÷3と4/7＝5と5/6",
+            "id": "step-1"
+          },
+          {
+            "title": "÷3と4/7を外す",
+            "body": "□を3と4/7でわった結果が5と5/6です。わり算をもとに戻すには、かけ算をします。\n5と5/6×3と4/7＝20と5/6",
+            "equation": "□＝20と5/6",
+            "checkpoint": {
+              "prompt": "5と5/6×3と4/7はいくつですか。",
+              "answer": {
+                "n": "125",
+                "d": "6",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "□の値を書く",
+            "body": "こうして、□＝20と5/6となります。",
+            "equation": "□＝20と5/6",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に20と5/6を入れて計算すると、両辺が同じ値になります。",
+            "equation": "20と5/6÷3と4/7＝5と5/6",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 9,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": true,
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "skill": "R25計算マスター K-24",
+        "representativeKey": "3fb2b010743c8121a0b4fe3c3f423af7:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-43",
+      "unitId": "calc.r25.k43",
+      "category": "calc",
+      "text": "1と5/16÷□＝14/15",
+      "sourceText": "1と5/16÷□＝14/15",
+      "source": {
+        "title": "R25 計算マスター K-43（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c817e92c9f7f48113b1b1",
+        "url": "https://app.notion.com/3fb2b010743c817e92c9f7f48113b1b1",
+        "locator": "Notion 問題DB > R25K-43",
+        "sourceText": "1と5/16÷□＝14/15",
+        "sourceAnswer": "1と13/32",
+        "notionPageId": "3fb2b010743c817e92c9f7f48113b1b1",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-43",
+        "localReferenceText": "1と5/16÷□＝14/15",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "45",
+        "d": "32",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-13",
+      "revision": 1,
+      "expression": "21/16÷□=14/15",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "1と5/16÷□＝14/15",
+            "id": "step-1"
+          },
+          {
+            "title": "1と5/16÷□を外す",
+            "body": "1と5/16を□でわった結果が14/15です。わられる数÷答え＝わる数なので、1と5/16÷14/15を計算します。\n1と5/16÷14/15＝1と13/32",
+            "equation": "□＝1と13/32",
+            "checkpoint": {
+              "prompt": "1と5/16÷14/15はいくつですか。",
+              "answer": {
+                "n": "45",
+                "d": "32",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "□の値を書く",
+            "body": "こうして、□＝1と13/32となります。",
+            "equation": "□＝1と13/32",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に1と13/32を入れて計算すると、両辺が同じ値になります。",
+            "equation": "1と5/16÷1と13/32＝14/15",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 9,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": false,
+        "tier": "standard",
+        "reason": "表面（R25K-13）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-13",
+        "representativeKey": "3fb2b010743c8153a81dcd1faa82f091:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-47",
+      "unitId": "calc.r25.k47",
+      "category": "calc",
+      "text": "267−□−134＝67",
+      "sourceText": "267−□−134＝67",
+      "source": {
+        "title": "R25 計算マスター K-47（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c816fa713eb14b31aaf37",
+        "url": "https://app.notion.com/3fb2b010743c816fa713eb14b31aaf37",
+        "locator": "Notion 問題DB > R25K-47",
+        "sourceText": "267−□−134＝67",
+        "sourceAnswer": "66",
+        "notionPageId": "3fb2b010743c816fa713eb14b31aaf37",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-47",
+        "localReferenceText": "267−□−134＝67",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "66",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-17",
+      "revision": 1,
+      "expression": "267-□-134=67",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "267−□−134＝67",
+            "id": "step-1"
+          },
+          {
+            "title": "−134を外す",
+            "body": "□を含む部分から134をひいた結果が67です。ひき算をもとに戻すには、たし算をします。\n67＋134＝201",
+            "equation": "267−□＝201",
+            "checkpoint": {
+              "prompt": "67＋134はいくつですか。",
+              "answer": {
+                "n": "201",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "267−□を外す",
+            "body": "267から□をひいた結果が201です。ひかれる数−答え＝ひく数なので、267−201を計算します。\n267−201＝66",
+            "equation": "□＝66",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に66を入れて計算すると、両辺が同じ値になります。",
+            "equation": "267−66−134＝67",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 6,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": false,
+        "tier": "standard",
+        "reason": "表面（R25K-17）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-17",
+        "representativeKey": "3fb2b010743c81879de2de8777ba95a7:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-48",
+      "unitId": "calc.r25.k48",
+      "category": "calc",
+      "text": "□×8−16＝96",
+      "sourceText": "□×8−16＝96",
+      "source": {
+        "title": "R25 計算マスター K-48（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81bfbb4ec39e82d60567",
+        "url": "https://app.notion.com/3fb2b010743c81bfbb4ec39e82d60567",
+        "locator": "Notion 問題DB > R25K-48",
+        "sourceText": "□×8−16＝96",
+        "sourceAnswer": "14",
+        "notionPageId": "3fb2b010743c81bfbb4ec39e82d60567",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-48",
+        "localReferenceText": "□×8−16＝96",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "14",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-18",
+      "revision": 1,
+      "expression": "□*8-16=96",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "□×8−16＝96",
+            "id": "step-1"
+          },
+          {
+            "title": "−16を外す",
+            "body": "□を含む部分から16をひいた結果が96です。ひき算をもとに戻すには、たし算をします。\n96＋16＝112",
+            "equation": "□×8＝112",
+            "checkpoint": {
+              "prompt": "96＋16はいくつですか。",
+              "answer": {
+                "n": "112",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "×8を外す",
+            "body": "□に8をかけた結果が112です。かけ算をもとに戻すには、わり算をします。\n112÷8＝14",
+            "equation": "□＝14",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に14を入れて計算すると、両辺が同じ値になります。",
+            "equation": "14×8−16＝96",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 6,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": false,
+        "tier": "standard",
+        "reason": "表面（R25K-18）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-18",
+        "representativeKey": "3fb2b010743c81d88b99df74deae8de7:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-49",
+      "unitId": "calc.r25.k49",
+      "category": "calc",
+      "text": "32×(3/8＋□)＝28",
+      "sourceText": "32×(3/8＋□)＝28",
+      "source": {
+        "title": "R25 計算マスター K-49（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81c0b06fff62b63d5354",
+        "url": "https://app.notion.com/3fb2b010743c81c0b06fff62b63d5354",
+        "locator": "Notion 問題DB > R25K-49",
+        "sourceText": "32×(3/8＋□)＝28",
+        "sourceAnswer": "1/2",
+        "notionPageId": "3fb2b010743c81c0b06fff62b63d5354",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-49",
+        "localReferenceText": "32×(3/8＋□)＝28",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "1",
+        "d": "2",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-19",
+      "revision": 1,
+      "expression": "32*(3/8+□)=28",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "32×(3/8＋□)＝28",
+            "id": "step-1"
+          },
+          {
+            "title": "×32を外す",
+            "body": "□を含む部分に32をかけた結果が28です。かけ算をもとに戻すには、わり算をします。\n28÷32＝7/8",
+            "equation": "3/8＋□＝7/8",
+            "checkpoint": {
+              "prompt": "28÷32はいくつですか。",
+              "answer": {
+                "n": "7",
+                "d": "8",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "＋3/8を外す",
+            "body": "□に3/8をたした結果が7/8です。たし算をもとに戻すには、ひき算をします。\n7/8−3/8＝1/2",
+            "equation": "□＝1/2",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に1/2を入れて計算すると、両辺が同じ値になります。",
+            "equation": "32×(3/8＋1/2)＝28",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 15,
+      "star": 2,
+      "difficulty": 5,
+      "curation": {
+        "active": false,
+        "tier": "advanced",
+        "reason": "表面（R25K-19）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-19",
+        "representativeKey": "3fb2b010743c81759c96db5c71c3761b:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25K-54",
+      "unitId": "calc.r25.k54",
+      "category": "calc",
+      "text": "□÷3と1/8＝5と5/7",
+      "sourceText": "□÷3と1/8＝5と5/7",
+      "source": {
+        "title": "R25 計算マスター K-54（通常授業）",
+        "path": "https://app.notion.com/3fb2b010743c81319336defd70264fe4",
+        "url": "https://app.notion.com/3fb2b010743c81319336defd70264fe4",
+        "locator": "Notion 問題DB > R25K-54",
+        "sourceText": "□÷3と1/8＝5と5/7",
+        "sourceAnswer": "17と6/7",
+        "notionPageId": "3fb2b010743c81319336defd70264fe4",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R25 > K 計算マスター > K-54",
+        "localReferenceText": "□÷3と1/8＝5と5/7",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-17 R25原本PDF（5-25 割合と比(2)-倍数算-）から書き起こしてNotion問題DBに登録したR25Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "125",
+        "d": "7",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": false,
+      "pairId": "R25K-24",
+      "revision": 1,
+      "expression": "□÷25/8=40/7",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "□÷3と1/8＝5と5/7",
+            "id": "step-1"
+          },
+          {
+            "title": "÷3と1/8を外す",
+            "body": "□を3と1/8でわった結果が5と5/7です。わり算をもとに戻すには、かけ算をします。\n5と5/7×3と1/8＝17と6/7",
+            "equation": "□＝17と6/7",
+            "checkpoint": {
+              "prompt": "5と5/7×3と1/8はいくつですか。",
+              "answer": {
+                "n": "125",
+                "d": "7",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "□の値を書く",
+            "body": "こうして、□＝17と6/7となります。",
+            "equation": "□＝17と6/7",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に17と6/7を入れて計算すると、両辺が同じ値になります。",
+            "equation": "17と6/7÷3と1/8＝5と5/7",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 9,
+      "star": 1,
+      "difficulty": 2,
+      "curation": {
+        "active": false,
+        "tier": "standard",
+        "reason": "表面（R25K-24）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+        "skill": "R25計算マスター K-24",
+        "representativeKey": "3fb2b010743c8121a0b4fe3c3f423af7:1"
+      },
+      "domain": "calculation"
+    },
+    {
+      "id": "R25H①-2",
+      "unitId": "ratio.multiple.same_start_one_changes",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "AとBは同じ金額のお金を持っていました。Bが3000円の本を買ったところ、Aの所持金はBの所持金の5倍になりました。Aの所持金を求めなさい。",
+      "sourceText": "AとBは同じ金額のお金を持っていました。Bが3000円の本を買ったところ、Aの所持金はBの所持金の5倍になりました。Aの所持金を求めなさい。",
+      "source": {
+        "title": "R25H①-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ①-2、PDF通しp.34（再チャレンジp.35）、公式解答p.48",
+        "pdfPage": 34,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "AとBは同じ金額のお金を持っていました。Bが3000円の本を買ったところ、Aの所持金はBの所持金の5倍になりました。Aの所持金を求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "2767bae5a6568a3089cc41d0a05b467c1687ac1b9b0a456826561e492803b7b6",
+        "notionSourceText": "AとBは同じ金額のお金を持っていました。Bが3000円の本を買ったところ、Aの所持金はBの所持金の5倍になりました。Aの所持金を求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c81c19953df641a223733",
+        "notionId": "3fb2b010-743c-81c1-9953-df641a223733",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "3750円",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "n": "3750",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "あとの比を書く",
+            "body": "本を買ったあと、AはBの5倍なので、あとの比はA:B＝5:1です。",
+            "equation": "A:B＝⑤:①"
+          },
+          {
+            "id": "s2",
+            "title": "はじめは同じ金額",
+            "body": "はじめは2人とも同じ金額でした。Bだけが3000円減ったので、あとの2人の差がちょうど3000円になります。",
+            "equation": "差＝3000円"
+          },
+          {
+            "id": "s3",
+            "title": "比の差にあてる",
+            "body": "あとの比の差は⑤−①＝④です。この④が3000円にあたります。",
+            "equation": "④＝3000円 → ①＝750円",
+            "checkpoint": {
+              "prompt": "比の①にあたる金額は何円ですか。",
+              "answer": {
+                "n": "750",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "Aの所持金を出す",
+            "body": "Aの所持金は⑤なので、750円の5倍です。",
+            "equation": "750×5＝3750円"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "Bは750円、はじめは750＋3000＝3750円で、Aと同じ金額になっています。",
+            "equation": "3750＝750＋3000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H①-3",
+      "unitId": "ratio.multiple.same_start_difference_change",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "AとBは同じ金額のお金を持っていました。Aは800円もらい、Bは700円使ったところ、AとBの所持金の比は8:5になりました。はじめのAの所持金を求めなさい。",
+      "sourceText": "AとBは同じ金額のお金を持っていました。Aは800円もらい、Bは700円使ったところ、AとBの所持金の比は8:5になりました。はじめのAの所持金を求めなさい。",
+      "source": {
+        "title": "R25H①-3",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ①-3、PDF通しp.34（再チャレンジp.35）、公式解答p.48",
+        "pdfPage": 34,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "AとBは同じ金額のお金を持っていました。Aは800円もらい、Bは700円使ったところ、AとBの所持金の比は8:5になりました。はじめのAの所持金を求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "cf904ec119c647fc34e3d25ca2e03c852179e90e4ceb56ad6b375b7d84037093",
+        "notionSourceText": "AとBは同じ金額のお金を持っていました。Aは800円もらい、Bは700円使ったところ、AとBの所持金の比は8:5になりました。はじめのAの所持金を求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c818c8a95fca1298f4dd9",
+        "notionId": "3fb2b010-743c-818c-8a95-fca1298f4dd9",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "3200円",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "n": "3200",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "差の変化を考える",
+            "body": "はじめは同じ金額なので差は0円です。Aは800円増え、Bは700円減ったので、差は800＋700円に開きます。",
+            "equation": "800＋700＝1500円"
+          },
+          {
+            "id": "s2",
+            "title": "比の差にあてる",
+            "body": "あとの比は8:5なので、比の差は⑧−⑤＝③です。",
+            "equation": "③＝1500円 → ①＝500円",
+            "checkpoint": {
+              "prompt": "比の①にあたる金額は何円ですか。",
+              "answer": {
+                "n": "500",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "あとのAを出す",
+            "body": "あとのAの所持金は⑧です。",
+            "equation": "500×8＝4000円"
+          },
+          {
+            "id": "s4",
+            "title": "はじめにもどす",
+            "body": "もらった800円を引くと、はじめのAの所持金になります。",
+            "equation": "4000−800＝3200円"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "はじめBも3200円。Bはあと3200−700＝2500円で、4000:2500＝8:5です。",
+            "equation": "4000:2500＝8:5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H①-4",
+      "unitId": "ratio.multiple.known_difference_change",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "AはBより1600円多く持っていました。Aは3000円もらい、Bは1000円使ったので、2人の所持金の比は8:1になりました。はじめの2人の所持金をそれぞれ求めなさい。",
+      "sourceText": "AはBより1600円多く持っていました。Aは3000円もらい、Bは1000円使ったので、2人の所持金の比は8:1になりました。はじめの2人の所持金をそれぞれ求めなさい。",
+      "source": {
+        "title": "R25H①-4",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ①-4、PDF通しp.34（再チャレンジp.35）、公式解答p.48",
+        "pdfPage": 34,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "AはBより1600円多く持っていました。Aは3000円もらい、Bは1000円使ったので、2人の所持金の比は8:1になりました。はじめの2人の所持金をそれぞれ求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "b697cf8f767f651ce7e5460b68b335bcb7e04e31518a7b0007e13a63b4caff5e",
+        "notionSourceText": "AはBより1600円多く持っていました。Aは3000円もらい、Bは1000円使ったので、2人の所持金の比は8:1になりました。はじめの2人の所持金をそれぞれ求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c81c9979cd7d98f86df42",
+        "notionId": "3fb2b010-743c-81c9-979c-d7d98f86df42",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "A3400円・B1800円",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "A",
+            "n": "3400",
+            "d": "1",
+            "unit": "円",
+            "dimension": "scalar"
+          },
+          {
+            "label": "B",
+            "n": "1800",
+            "d": "1",
+            "unit": "円",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "あとの差を出す",
+            "body": "はじめAはBより1600円多く、Aは3000円増え、Bは1000円減りました。差はその分だけ大きくなります。",
+            "equation": "1600＋3000＋1000＝5600円"
+          },
+          {
+            "id": "s2",
+            "title": "比の差にあてる",
+            "body": "あとの比は8:1なので、比の差は⑧−①＝⑦です。",
+            "equation": "⑦＝5600円 → ①＝800円",
+            "checkpoint": {
+              "prompt": "比の①にあたる金額は何円ですか。",
+              "answer": {
+                "n": "800",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "あとの金額を出す",
+            "body": "あとのAは⑧、Bは①です。",
+            "equation": "A：800×8＝6400円、B：800円"
+          },
+          {
+            "id": "s4",
+            "title": "はじめにもどす",
+            "body": "Aはもらった3000円を引き、Bは使った1000円を足してはじめの金額にもどします。",
+            "equation": "A：6400−3000＝3400円、B：800＋1000＝1800円"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "はじめの差は3400−1800＝1600円で、問題の条件と合います。",
+            "equation": "3400−1800＝1600"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H②-1",
+      "unitId": "ratio.multiple.constant_difference",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "Aは820円、Bは460円持っていました。2人とも同じボールペンを買ったところ、Aの所持金はBの所持金の4倍になりました。ボールペンの値段を求めなさい。",
+      "sourceText": "Aは820円、Bは460円持っていました。2人とも同じボールペンを買ったところ、Aの所持金はBの所持金の4倍になりました。ボールペンの値段を求めなさい。",
+      "source": {
+        "title": "R25H②-1",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ②-1、PDF通しp.36（再チャレンジp.37）、公式解答p.48",
+        "pdfPage": 36,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "Aは820円、Bは460円持っていました。2人とも同じボールペンを買ったところ、Aの所持金はBの所持金の4倍になりました。ボールペンの値段を求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "5498836a0e5cc7161d11bde9eebc5f324df26fd9c323b5aa85742f597900a026",
+        "notionSourceText": "Aは820円、Bは460円持っていました。2人とも同じボールペンを買ったところ、Aの所持金はBの所持金の4倍になりました。ボールペンの値段を求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c81c8acdafbe8fb997574",
+        "notionId": "3fb2b010-743c-81c8-acda-fbe8fb997574",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "340円",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "n": "340",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "差は変わらない",
+            "body": "2人とも同じボールペンを買うので、2人の所持金の差は買う前と同じです。",
+            "equation": "820−460＝360円"
+          },
+          {
+            "id": "s2",
+            "title": "あとの比で表す",
+            "body": "買ったあと、AはBの4倍なので A:B＝④:①。比の差は③です。",
+            "equation": "③＝360円 → ①＝120円",
+            "checkpoint": {
+              "prompt": "比の①にあたる金額は何円ですか。",
+              "answer": {
+                "n": "120",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "あとのBを出す",
+            "body": "あとのBの所持金は①なので120円です。",
+            "equation": "B＝120円"
+          },
+          {
+            "id": "s4",
+            "title": "ボールペンの値段",
+            "body": "Bは460円から120円になったので、その差がボールペンの値段です。",
+            "equation": "460−120＝340円"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "Aは820−340＝480円で、480は120の4倍です。",
+            "equation": "480＝120×4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H②-4",
+      "unitId": "ratio.multiple.constant_difference_products",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "Aは8000円、Bは5000円持っていました。2人とも同じ金額のおこづかいをもらったので、Aの所持金の4倍がBの所持金の5倍と等しくなりました。Aがもらったおこづかいを求めなさい。",
+      "sourceText": "Aは8000円、Bは5000円持っていました。2人とも同じ金額のおこづかいをもらったので、Aの所持金の4倍がBの所持金の5倍と等しくなりました。Aがもらったおこづかいを求めなさい。",
+      "source": {
+        "title": "R25H②-4",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ②-4、PDF通しp.36（再チャレンジp.37）、公式解答p.48",
+        "pdfPage": 36,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "Aは8000円、Bは5000円持っていました。2人とも同じ金額のおこづかいをもらったので、Aの所持金の4倍がBの所持金の5倍と等しくなりました。Aがもらったおこづかいを求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "b73909c963fc35b1e1fb96178ea2871d8f868f6102cb70286bb5c19c86a7016c",
+        "notionSourceText": "Aは8000円、Bは5000円持っていました。2人とも同じ金額のおこづかいをもらったので、Aの所持金の4倍がBの所持金の5倍と等しくなりました。Aがもらったおこづかいを求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c81c9bda7f253e745a74d",
+        "notionId": "3fb2b010-743c-81c9-bda7-f253e745a74d",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          },
+          {
+            "url": "https://app.notion.com/3f52b010743c8126b758c2ec5d0e0bb4",
+            "name": "連比・逆比",
+            "code": "P12",
+            "baseDifficulty": 3,
+            "description": "比をそろえて連比にする。A×○＝B×△ならA:B＝△:○"
+          }
+        ],
+        "sourceAnswer": "7000円",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "n": "7000",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "等しい関係を比に直す",
+            "body": "Aの4倍とBの5倍が等しいとき、A:Bは4と5の逆の比になります。",
+            "equation": "A×4＝B×5 → A:B＝5:4"
+          },
+          {
+            "id": "s2",
+            "title": "差は変わらない",
+            "body": "2人とも同じ金額をもらうので、差は8000−5000のままです。",
+            "equation": "8000−5000＝3000円"
+          },
+          {
+            "id": "s3",
+            "title": "比の差にあてる",
+            "body": "比の差は⑤−④＝①です。この①が3000円です。",
+            "equation": "①＝3000円",
+            "checkpoint": {
+              "prompt": "比の①にあたる金額は何円ですか。",
+              "answer": {
+                "n": "3000",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "もらった金額を出す",
+            "body": "もらったあとのAは⑤なので15000円。はじめの8000円を引きます。",
+            "equation": "3000×5−8000＝7000円"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "Aは15000円、Bは12000円。15000×4＝60000、12000×5＝60000で等しくなります。",
+            "equation": "15000×4＝12000×5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H③-1",
+      "unitId": "ratio.multiple.one_side_constant",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "姉と妹の所持金の比は3:2でしたが、姉が1200円使ったので、姉と妹の所持金の比は15:14になりました。はじめの姉の所持金を求めなさい。",
+      "sourceText": "姉と妹の所持金の比は3:2でしたが、姉が1200円使ったので、姉と妹の所持金の比は15:14になりました。はじめの姉の所持金を求めなさい。",
+      "source": {
+        "title": "R25H③-1",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ③-1、PDF通しp.38（再チャレンジp.39）、公式解答p.48",
+        "pdfPage": 38,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "姉と妹の所持金の比は3:2でしたが、姉が1200円使ったので、姉と妹の所持金の比は15:14になりました。はじめの姉の所持金を求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "71ccc82a17bf4f7ccc74693ceb7f19a7914d3182acb734fc8fb1e1437a86f917",
+        "notionSourceText": "姉と妹の所持金の比は3:2でしたが、姉が1200円使ったので、姉と妹の所持金の比は15:14になりました。はじめの姉の所持金を求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c810591eedbd19208a4dd",
+        "notionId": "3fb2b010-743c-8105-91ee-dbd19208a4dd",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "4200円",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "n": "4200",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "変わらない人を見つける",
+            "body": "使ったのは姉だけなので、妹の所持金は変わりません。",
+            "equation": "妹は一定"
+          },
+          {
+            "id": "s2",
+            "title": "妹の比の数をそろえる",
+            "body": "はじめ3:2、あと15:14。妹の2と14をそろえるため、はじめの比を7倍します。",
+            "equation": "はじめ ㉑:⑭、あと ⑮:⑭"
+          },
+          {
+            "id": "s3",
+            "title": "姉の減り方を比で表す",
+            "body": "姉は㉑から⑮へ⑥減りました。この⑥が1200円です。",
+            "equation": "⑥＝1200円 → ①＝200円",
+            "checkpoint": {
+              "prompt": "比の①にあたる金額は何円ですか。",
+              "answer": {
+                "n": "200",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "はじめの姉を出す",
+            "body": "はじめの姉は㉑です。",
+            "equation": "200×21＝4200円"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "妹は200×14＝2800円。姉は4200−1200＝3000円で、3000:2800＝15:14です。",
+            "equation": "3000:2800＝15:14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H③-2",
+      "unitId": "ratio.multiple.three_people_transfer",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "A、B、Cの所持金の比は3:4:5です。AがCから1200円もらうと、3人の所持金の比は17:12:7になります。はじめの3人の所持金をそれぞれ求めなさい。",
+      "sourceText": "A、B、Cの所持金の比は3:4:5です。AがCから1200円もらうと、3人の所持金の比は17:12:7になります。はじめの3人の所持金をそれぞれ求めなさい。",
+      "source": {
+        "title": "R25H③-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ③-2、PDF通しp.38（再チャレンジp.39）、公式解答p.48",
+        "pdfPage": 38,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "A、B、Cの所持金の比は3:4:5です。AがCから1200円もらうと、3人の所持金の比は17:12:7になります。はじめの3人の所持金をそれぞれ求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "857be73ca528fd0f4d38549a9497205c3bb2cdd07326cd744e13f0f823b4ae74",
+        "notionSourceText": "A、B、Cの所持金の比は3:4:5です。AがCから1200円もらうと、3人の所持金の比は17:12:7になります。はじめの3人の所持金をそれぞれ求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c8125878dc0252e365e50",
+        "notionId": "3fb2b010-743c-8125-878d-c0252e365e50",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "A1350円・B1800円・C2250円",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "A",
+            "n": "1350",
+            "d": "1",
+            "unit": "円",
+            "dimension": "scalar"
+          },
+          {
+            "label": "B",
+            "n": "1800",
+            "d": "1",
+            "unit": "円",
+            "dimension": "scalar"
+          },
+          {
+            "label": "C",
+            "n": "2250",
+            "d": "1",
+            "unit": "円",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "変わらないものを見つける",
+            "body": "AとCの間だけでお金が動くので、3人の和もBの所持金も変わりません。",
+            "equation": "和とBは一定"
+          },
+          {
+            "id": "s2",
+            "title": "比をそろえる",
+            "body": "はじめ3:4:5（和12）、あと17:12:7（和36）。はじめを3倍すると和もBもそろいます。",
+            "equation": "はじめ ⑨:⑫:⑮、あと ⑰:⑫:⑦"
+          },
+          {
+            "id": "s3",
+            "title": "動いた金額を比で表す",
+            "body": "Aは⑨から⑰へ⑧増えました。これがCからもらった1200円です。",
+            "equation": "⑧＝1200円 → ①＝150円",
+            "checkpoint": {
+              "prompt": "比の①にあたる金額は何円ですか。",
+              "answer": {
+                "n": "150",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "はじめの3人を出す",
+            "body": "はじめはA⑨・B⑫・C⑮です。",
+            "equation": "A：150×9＝1350円、B：150×12＝1800円、C：150×15＝2250円"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "あとはA2550円・B1800円・C1050円で、17:12:7になっています。",
+            "equation": "2550:1800:1050＝17:12:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H③-3",
+      "unitId": "ratio.multiple.constant_difference_ratios",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "AとBの所持金の比は2:5でした。2人とも1200円ずつもらったので、2人の所持金の比は2:3になりました。はじめのAの所持金を求めなさい。",
+      "sourceText": "AとBの所持金の比は2:5でした。2人とも1200円ずつもらったので、2人の所持金の比は2:3になりました。はじめのAの所持金を求めなさい。",
+      "source": {
+        "title": "R25H③-3",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ③-3、PDF通しp.38（再チャレンジp.39）、公式解答p.48",
+        "pdfPage": 38,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "AとBの所持金の比は2:5でした。2人とも1200円ずつもらったので、2人の所持金の比は2:3になりました。はじめのAの所持金を求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "e773c60684ee0dea01591513228b1b3c9e7b29f25789b5f89e1554e257f02e4a",
+        "notionSourceText": "AとBの所持金の比は2:5でした。2人とも1200円ずつもらったので、2人の所持金の比は2:3になりました。はじめのAの所持金を求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c81ad99c3efbf64261649",
+        "notionId": "3fb2b010-743c-81ad-99c3-efbf64261649",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "600円",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "n": "600",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "差は変わらない",
+            "body": "2人とも1200円ずつもらうので、差は変わりません。",
+            "equation": "差は一定"
+          },
+          {
+            "id": "s2",
+            "title": "比の差をそろえる",
+            "body": "はじめ2:5の差は3、あと2:3の差は1。あとの比を3倍して差を3にそろえます。",
+            "equation": "はじめ ②:⑤、あと ⑥:⑨"
+          },
+          {
+            "id": "s3",
+            "title": "増えた分を比で表す",
+            "body": "Aは②から⑥へ④増えました。これが1200円です。",
+            "equation": "④＝1200円 → ①＝300円",
+            "checkpoint": {
+              "prompt": "比の①にあたる金額は何円ですか。",
+              "answer": {
+                "n": "300",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "はじめのAを出す",
+            "body": "はじめのAは②です。",
+            "equation": "300×2＝600円"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "Bははじめ1500円。もらったあとA1800円・B2700円で、1800:2700＝2:3です。",
+            "equation": "1800:2700＝2:3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H④-2",
+      "unitId": "ratio.multiple.constant_sum_transfer",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "はじめ兄と妹の所持金の比は4:1でしたが、兄が妹に300円あげたので、2人の所持金の比は7:3になりました。はじめの兄の所持金を求めなさい。",
+      "sourceText": "はじめ兄と妹の所持金の比は4:1でしたが、兄が妹に300円あげたので、2人の所持金の比は7:3になりました。はじめの兄の所持金を求めなさい。",
+      "source": {
+        "title": "R25H④-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ④-2、PDF通しp.40（再チャレンジp.41）、公式解答p.48",
+        "pdfPage": 40,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "はじめ兄と妹の所持金の比は4:1でしたが、兄が妹に300円あげたので、2人の所持金の比は7:3になりました。はじめの兄の所持金を求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "dbca6a00dd8d0ded5352368c630984370e1c9ba61e68a5f2a04748be2dfde0c5",
+        "notionSourceText": "はじめ兄と妹の所持金の比は4:1でしたが、兄が妹に300円あげたので、2人の所持金の比は7:3になりました。はじめの兄の所持金を求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c812da5cdf22861a8ee12",
+        "notionId": "3fb2b010-743c-812d-a5cd-f22861a8ee12",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "2400円",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "n": "2400",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "和は変わらない",
+            "body": "兄が妹にあげただけなので、2人の合計は変わりません。",
+            "equation": "和は一定"
+          },
+          {
+            "id": "s2",
+            "title": "比の和をそろえる",
+            "body": "はじめ4:1の和は5、あと7:3の和は10。はじめを2倍して和10にそろえます。",
+            "equation": "はじめ ⑧:②、あと ⑦:③"
+          },
+          {
+            "id": "s3",
+            "title": "動いた金額を比で表す",
+            "body": "兄は⑧から⑦へ①減りました。この①が300円です。",
+            "equation": "①＝300円",
+            "checkpoint": {
+              "prompt": "比の①にあたる金額は何円ですか。",
+              "answer": {
+                "n": "300",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "はじめの兄を出す",
+            "body": "はじめの兄は⑧です。",
+            "equation": "300×8＝2400円"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "妹ははじめ600円。あと兄2100円・妹900円で、2100:900＝7:3です。",
+            "equation": "2100:900＝7:3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H⑤-2",
+      "unitId": "ratio.multiple.change_both_receive",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "AとBの所持金の比は3:2でした。Aは900円、Bは700円もらったので、2人の所持金の比は7:5になりました。現在のAの所持金を求めなさい。",
+      "sourceText": "AとBの所持金の比は3:2でした。Aは900円、Bは700円もらったので、2人の所持金の比は7:5になりました。現在のAの所持金を求めなさい。",
+      "source": {
+        "title": "R25H⑤-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ⑤-2、PDF通しp.42（再チャレンジp.43）、公式解答p.48",
+        "pdfPage": 42,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "AとBの所持金の比は3:2でした。Aは900円、Bは700円もらったので、2人の所持金の比は7:5になりました。現在のAの所持金を求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "3a96670b14f04a171531760ff1ce32427dad0ea9acd18990e50077e9e1c62b66",
+        "notionSourceText": "AとBの所持金の比は3:2でした。Aは900円、Bは700円もらったので、2人の所持金の比は7:5になりました。現在のAの所持金を求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c8170a221f34747f35437",
+        "notionId": "3fb2b010-743c-8170-a221-f34747f35437",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "2100円",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "n": "2100",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "2つの式をつくる",
+            "body": "はじめの比を③:②、あとの比を[7]:[5]とします。",
+            "equation": "A：③＋900＝[7]、B：②＋700＝[5]"
+          },
+          {
+            "id": "s2",
+            "title": "○の数をそろえる",
+            "body": "③と②の最小公倍数⑥にそろえます。Aの式を2倍、Bの式を3倍します。",
+            "equation": "⑥＋1800＝[14]、⑥＋2100＝[15]"
+          },
+          {
+            "id": "s3",
+            "title": "引き算で[1]を出す",
+            "body": "2つの式を引くと⑥が消えます。",
+            "equation": "[15]−[14]＝2100−1800 → [1]＝300円",
+            "checkpoint": {
+              "prompt": "あとの比の[1]にあたる金額は何円ですか。",
+              "answer": {
+                "n": "300",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "現在のAを出す",
+            "body": "現在のAは[7]です。",
+            "equation": "300×7＝2100円"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "はじめAは2100−900＝1200円で③、①＝400円。Bははじめ800円、あと1500円で、2100:1500＝7:5です。",
+            "equation": "2100:1500＝7:5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H⑥-1",
+      "unitId": "ratio.multiple.change_mixed",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "姉と妹の所持金の比は8:5でしたが、姉は200円もらい、妹は500円使ったので、姉と妹の所持金の比は2:1になりました。はじめの姉の所持金を求めなさい。",
+      "sourceText": "姉と妹の所持金の比は8:5でしたが、姉は200円もらい、妹は500円使ったので、姉と妹の所持金の比は2:1になりました。はじめの姉の所持金を求めなさい。",
+      "source": {
+        "title": "R25H⑥-1",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ⑥-1、PDF通しp.44（再チャレンジp.45）、公式解答p.48",
+        "pdfPage": 44,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "姉と妹の所持金の比は8:5でしたが、姉は200円もらい、妹は500円使ったので、姉と妹の所持金の比は2:1になりました。はじめの姉の所持金を求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "7a1f785dc73abbbb596d4fb526538be0966c9685cf5be050e9e093dc16f36eb3",
+        "notionSourceText": "姉と妹の所持金の比は8:5でしたが、姉は200円もらい、妹は500円使ったので、姉と妹の所持金の比は2:1になりました。はじめの姉の所持金を求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c8100939cf861d9a93f6c",
+        "notionId": "3fb2b010-743c-8100-939c-f861d9a93f6c",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "4800円",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "n": "4800",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "2つの式をつくる",
+            "body": "はじめ⑧:⑤、あと[2]:[1]とします。",
+            "equation": "姉：⑧＋200＝[2]、妹：⑤−500＝[1]"
+          },
+          {
+            "id": "s2",
+            "title": "□の数をそろえる",
+            "body": "妹の式を2倍して[2]にそろえます。",
+            "equation": "妹×2：⑩−1000＝[2]"
+          },
+          {
+            "id": "s3",
+            "title": "同じ[2]を比べる",
+            "body": "⑧＋200と⑩−1000が等しいので、②が1000＋200にあたります。",
+            "equation": "⑩−⑧＝1000＋200 → ②＝1200円 → ①＝600円",
+            "checkpoint": {
+              "prompt": "はじめの比の①にあたる金額は何円ですか。",
+              "answer": {
+                "n": "600",
+                "d": "1",
+                "unit": "円",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "はじめの姉を出す",
+            "body": "はじめの姉は⑧です。",
+            "equation": "600×8＝4800円"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "妹ははじめ3000円。あと姉5000円・妹2500円で、5000:2500＝2:1です。",
+            "equation": "5000:2500＝2:1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H⑦-1",
+      "unitId": "ratio.multiple.people_count",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "ある学校の昨年の男子の人数は女子の人数の2.5倍でした。今年は男子が2人、女子が4人増えたため、男子の人数は女子の人数の2倍になりました。今年の男子と女子の人数をそれぞれ求めなさい。",
+      "sourceText": "ある学校の昨年の男子の人数は女子の人数の2.5倍でした。今年は男子が2人、女子が4人増えたため、男子の人数は女子の人数の2倍になりました。今年の男子と女子の人数をそれぞれ求めなさい。",
+      "source": {
+        "title": "R25H⑦-1",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ⑦-1、PDF通しp.46（再チャレンジp.47）、公式解答p.48",
+        "pdfPage": 46,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "ある学校の昨年の男子の人数は女子の人数の2.5倍でした。今年は男子が2人、女子が4人増えたため、男子の人数は女子の人数の2倍になりました。今年の男子と女子の人数をそれぞれ求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "5bac4cd66886daffa7b0045cb103fccf6a258d251e79d4e5afda3308c9404984",
+        "notionSourceText": "ある学校の昨年の男子の人数は女子の人数の2.5倍でした。今年は男子が2人、女子が4人増えたため、男子の人数は女子の人数の2倍になりました。今年の男子と女子の人数をそれぞれ求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c8180b00ef436996cc9eb",
+        "notionId": "3fb2b010-743c-8180-b00e-f436996cc9eb",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "男子32人・女子16人",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "男子",
+            "n": "32",
+            "d": "1",
+            "unit": "人",
+            "dimension": "scalar"
+          },
+          {
+            "label": "女子",
+            "n": "16",
+            "d": "1",
+            "unit": "人",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "倍を比に直す",
+            "body": "昨年は男子が女子の2.5倍なので5:2、今年は2倍なので[2]:[1]です。",
+            "equation": "昨年 ⑤:②、今年 [2]:[1]"
+          },
+          {
+            "id": "s2",
+            "title": "2つの式をつくる",
+            "body": "男子は2人、女子は4人増えました。",
+            "equation": "男子：⑤＋2＝[2]、女子：②＋4＝[1]"
+          },
+          {
+            "id": "s3",
+            "title": "□をそろえる",
+            "body": "女子の式を2倍して[2]にそろえます。",
+            "equation": "女子×2：④＋8＝[2]"
+          },
+          {
+            "id": "s4",
+            "title": "比べて①を出す",
+            "body": "⑤＋2と④＋8が等しいので、①が6人にあたります。",
+            "equation": "⑤−④＝8−2 → ①＝6人",
+            "checkpoint": {
+              "prompt": "昨年の比の①にあたる人数は何人ですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "人",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s5",
+            "title": "今年の人数を出す",
+            "body": "昨年は男子30人・女子12人。今年はそれぞれ2人・4人増えます。",
+            "equation": "男子30＋2＝32人、女子12＋4＝16人"
+          }
+        ]
+      }
+    },
+    {
+      "id": "R25H⑦-2",
+      "unitId": "ratio.multiple.used_in_ratio",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "2つの水そうA、Bに入っている水の重さの比は4:3です。A、Bから5:3の割合で水を使ったところ、Aには900g、Bには720gの水が残りました。Aから使った水の重さを求めなさい。",
+      "sourceText": "2つの水そうA、Bに入っている水の重さの比は4:3です。A、Bから5:3の割合で水を使ったところ、Aには900g、Bには720gの水が残りました。Aから使った水の重さを求めなさい。",
+      "source": {
+        "title": "R25H⑦-2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-25 割合と比(2)-倍数算-.pdf",
+        "locator": "51N-H25 家庭学習用 ⑦-2、PDF通しp.46（再チャレンジp.47）、公式解答p.48",
+        "pdfPage": 46,
+        "scopeUnits": [
+          "R25"
+        ],
+        "sourceText": "2つの水そうA、Bに入っている水の重さの比は4:3です。A、Bから5:3の割合で水を使ったところ、Aには900g、Bには720gの水が残りました。Aから使った水の重さを求めなさい。",
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-10-17、R25原本PDFから書き起こしたNotion本文（R25H）を出典に採用。答えは公式解答p.48と一致、Python（fractions・総当たり）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+        "sha256": "f1d13bb66a036c9b05e499a0913cb1c1dee8b1c1e542712b74b16032774713c5",
+        "notionSourceText": "2つの水そうA、Bに入っている水の重さの比は4:3です。A、Bから5:3の割合で水を使ったところ、Aには900g、Bには720gの水が残りました。Aから使った水の重さを求めなさい。",
+        "url": "https://app.notion.com/3fb2b010743c81afb83af15c816ce76b",
+        "notionId": "3fb2b010-743c-81af-b83a-f15c816ce76b",
+        "notionTypes": [
+          {
+            "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+            "name": "倍数算",
+            "code": "P13",
+            "baseDifficulty": 4,
+            "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+          }
+        ],
+        "sourceAnswer": "300g",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+      },
+      "answer": {
+        "n": "300",
+        "d": "1",
+        "unit": "g",
+        "dimension": "scalar"
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R25"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "2つの式をつくる",
+            "body": "はじめの重さを④:③、使った重さを[5]:[3]とします。",
+            "equation": "A：④−[5]＝900、B：③−[3]＝720"
+          },
+          {
+            "id": "s2",
+            "title": "○をそろえる",
+            "body": "④と③の最小公倍数⑫にそろえます。Aを3倍、Bを4倍します。",
+            "equation": "⑫−[15]＝2700、⑫−[12]＝2880"
+          },
+          {
+            "id": "s3",
+            "title": "引き算で[1]を出す",
+            "body": "2つの式を比べると、[15]と[12]の差の[3]が2880−2700にあたります。",
+            "equation": "[3]＝180 → [1]＝60g",
+            "checkpoint": {
+              "prompt": "使った重さの比の[1]にあたる重さは何gですか。",
+              "answer": {
+                "n": "60",
+                "d": "1",
+                "unit": "g",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "Aから使った重さ",
+            "body": "Aから使ったのは[5]です。",
+            "equation": "60×5＝300g"
+          },
+          {
+            "id": "s5",
+            "title": "確かめる",
+            "body": "Aははじめ900＋300＝1200g、Bは720＋180＝900g。1200:900＝4:3です。",
+            "equation": "1200:900＝4:3"
+          }
+        ]
+      }
+    },
+    {
       "id": "R24H①-2",
       "unitId": "work.parallel.complete",
       "category": "oneline",
@@ -116523,6 +120067,474 @@
       "prerequisites": []
     },
     {
+      "id": "calc.r25.k1",
+      "name": "R25計算 K-1",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-1",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k2",
+      "name": "R25計算 K-2",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-2",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k3",
+      "name": "R25計算 K-3",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-3",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k6",
+      "name": "R25計算 K-6",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-6",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k7",
+      "name": "R25計算 K-7",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-7",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k11",
+      "name": "R25計算 K-11",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-11",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k15",
+      "name": "R25計算 K-15",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-15",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k25",
+      "name": "R25計算 K-25",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-25",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k31",
+      "name": "R25計算 K-31",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-31",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k32",
+      "name": "R25計算 K-32",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-32",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k33",
+      "name": "R25計算 K-33",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-33",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k36",
+      "name": "R25計算 K-36",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-36",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k37",
+      "name": "R25計算 K-37",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-37",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k41",
+      "name": "R25計算 K-41",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-41",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k45",
+      "name": "R25計算 K-45",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-45",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k55",
+      "name": "R25計算 K-55",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-55",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k13",
+      "name": "R25計算 K-13",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-13",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k17",
+      "name": "R25計算 K-17",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-17",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k18",
+      "name": "R25計算 K-18",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-18",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k19",
+      "name": "R25計算 K-19",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-19",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k24",
+      "name": "R25計算 K-24",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-24",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k43",
+      "name": "R25計算 K-43",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-43",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k47",
+      "name": "R25計算 K-47",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-47",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k48",
+      "name": "R25計算 K-48",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-48",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k49",
+      "name": "R25計算 K-49",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-49",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r25.k54",
+      "name": "R25計算 K-54",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R25K-54",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "ratio.multiple.same_start_one_changes",
+      "name": "はじめ同じ金額で片方だけが変わる",
+      "domain": "倍数算",
+      "definition": "はじめ同じ金額なので、あとの比の差が変わった金額にあたる。",
+      "decision": "どちらが変わったかを見て、比の差＝変わった金額とする",
+      "representativeId": "R25H①-2",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.same_start_difference_change",
+      "name": "はじめ同じ金額で両方が変わる",
+      "domain": "倍数算",
+      "definition": "はじめの差は0。もらった額と使った額の合計が、あとの比の差にあたる。",
+      "decision": "差がどれだけ開いたかを足し算で出す",
+      "representativeId": "R25H①-3",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.known_difference_change",
+      "name": "はじめの差がわかっていて両方が変わる",
+      "domain": "倍数算",
+      "definition": "はじめの差に、増えた分と減った分を足すと、あとの比の差になる。",
+      "decision": "はじめの差＋増えた額＋減った額＝あとの比の差",
+      "representativeId": "R25H①-4",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.constant_difference",
+      "name": "同じ金額を使う・もらう（差が一定）",
+      "domain": "倍数算",
+      "definition": "2人とも同じ金額だけ変わるので差は変わらない。差をあとの比の差にあてる。",
+      "decision": "差一定を見ぬいて、はじめの差を比の差にあてる",
+      "representativeId": "R25H②-1",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.constant_difference_products",
+      "name": "「Aの○倍＝Bの△倍」を比に直して差一定",
+      "domain": "倍数算",
+      "definition": "A×4＝B×5 なら A:B＝5:4（逆比）。そのうえで差一定を使う。",
+      "decision": "かけ算の等式を逆比に直してから差にあてる",
+      "representativeId": "R25H②-4",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.one_side_constant",
+      "name": "片方だけが変わる（変わらない方の比をそろえる）",
+      "domain": "倍数算",
+      "definition": "変わらない人の比の数を前後でそろえ、変わった人の比の差を金額にあてる。",
+      "decision": "どちらが変わっていないかを見て、その比をそろえる",
+      "representativeId": "R25H③-1",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.three_people_transfer",
+      "name": "3人のやりとり（和と1人が一定）",
+      "domain": "倍数算",
+      "definition": "やりとりだけなら3人の和は一定。変わらない人の比もそろえて比べる。",
+      "decision": "和一定と、かかわらない人が一定の両方を使う",
+      "representativeId": "R25H③-2",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.constant_difference_ratios",
+      "name": "比だけで表された差一定",
+      "domain": "倍数算",
+      "definition": "同じ金額ずつ増えるので差は一定。前後の比の差をそろえる。",
+      "decision": "比の差をそろえて、増えた量を比で表す",
+      "representativeId": "R25H③-3",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.constant_sum_transfer",
+      "name": "2人のやりとり（和が一定）",
+      "domain": "倍数算",
+      "definition": "2人の間だけのやりとりなので和は変わらない。前後の比の和をそろえる。",
+      "decision": "やりとりを見たら和をそろえる",
+      "representativeId": "R25H④-2",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.change_both_receive",
+      "name": "2人が別々の金額をもらう（倍数変化算）",
+      "domain": "倍数算",
+      "definition": "はじめを○、あとを□で表して2つの式をつくり、○をそろえて消去算にする。",
+      "decision": "式を2本書き、○の数を最小公倍数にそろえて引く",
+      "representativeId": "R25H⑤-2",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.change_mixed",
+      "name": "増える人と減る人がいる倍数変化算",
+      "domain": "倍数算",
+      "definition": "増と減がまじると、消去算で足し算が出る。○をそろえて比べる。",
+      "decision": "○をそろえて、増えた額と減った額を合わせる",
+      "representativeId": "R25H⑥-1",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.people_count",
+      "name": "「○倍」を比に直す倍数変化算（人数）",
+      "domain": "倍数算",
+      "definition": "倍の関係を比に直し、増えた人数で2つの式をつくって消去算にする。",
+      "decision": "2.5倍・2倍を比に直してから式を立てる",
+      "representativeId": "R25H⑦-1",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
+      "id": "ratio.multiple.used_in_ratio",
+      "name": "使った量も比で表す倍数変化算",
+      "domain": "倍数算",
+      "definition": "はじめの量を○、使った量を□で表し、残りの式2本を消去算で解く。",
+      "decision": "○と□の2種類の比を区別して式を立てる",
+      "representativeId": "R25H⑦-2",
+      "prerequisites": [],
+      "notionTypes": [
+        {
+          "url": "https://app.notion.com/3f52b010743c81f5a10cc36afb2b867d",
+          "name": "倍数算",
+          "code": "P13",
+          "baseDifficulty": 4,
+          "description": "和が一定・差が一定・やりとりで、変わらない量の比をそろえる"
+        }
+      ]
+    },
+    {
       "id": "work.parallel.complete",
       "name": "2人の仕事量を合わせる",
       "domain": "仕事算",
@@ -122477,6 +126489,60 @@
       "to": "speed.meet.same_start.time",
       "relation": "contrast",
       "difference": "周回の一周差から、向かい合う二人の間隔へ変わり、速さの差でなく和を使う。"
+    },
+    {
+      "from": "ratio.multiple.same_start_one_changes",
+      "to": "ratio.multiple.same_start_difference_change",
+      "relation": "extension",
+      "difference": "片方だけの変化から、両方が変わって差が足し算で開く形へ。"
+    },
+    {
+      "from": "ratio.multiple.same_start_difference_change",
+      "to": "ratio.multiple.known_difference_change",
+      "relation": "extension",
+      "difference": "はじめの差が0から、はじめの差がある形へ。"
+    },
+    {
+      "from": "ratio.multiple.constant_difference",
+      "to": "ratio.multiple.constant_difference_products",
+      "relation": "extension",
+      "difference": "比が直接ではなく「○倍＝△倍」で与えられ、逆比に直す。"
+    },
+    {
+      "from": "ratio.multiple.constant_difference",
+      "to": "ratio.multiple.constant_sum_transfer",
+      "relation": "contrast",
+      "difference": "同じ額が変わる（差一定）か、やりとり（和一定）かで、そろえるものが変わる。"
+    },
+    {
+      "from": "ratio.multiple.one_side_constant",
+      "to": "ratio.multiple.three_people_transfer",
+      "relation": "extension",
+      "difference": "2人の片方一定から、3人で和と1人が一定の形へ。"
+    },
+    {
+      "from": "ratio.multiple.constant_difference",
+      "to": "ratio.multiple.constant_difference_ratios",
+      "relation": "extension",
+      "difference": "金額ではなく比だけで与えられた差一定。"
+    },
+    {
+      "from": "ratio.multiple.change_both_receive",
+      "to": "ratio.multiple.change_mixed",
+      "relation": "extension",
+      "difference": "両方が増える形から、増と減がまじる形へ。"
+    },
+    {
+      "from": "ratio.multiple.change_both_receive",
+      "to": "ratio.multiple.people_count",
+      "relation": "extension",
+      "difference": "倍の関係を比に直してから同じ消去算。"
+    },
+    {
+      "from": "ratio.multiple.change_both_receive",
+      "to": "ratio.multiple.used_in_ratio",
+      "relation": "extension",
+      "difference": "変化量も比で表され、○と□の2種類を使い分ける。"
     },
     {
       "from": "work.parallel.complete",

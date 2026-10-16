@@ -1994,6 +1994,188 @@
       "reason": "代表と逆算手順・主な学習要素が重複。元問題は保存し、一問一答の代表出題から外す。",
       "skill": "括弧内の和・差を先に求める2段逆算。定数側の小数計算を増やすだけの式は追加型にしない",
       "representativeKey": "3f82b010743c81488c12e3ffce2de145:14"
+    },
+    "R25K-1": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-1",
+      "representativeKey": "3fb2b010743c81d2a097caaf843940da:1"
+    },
+    "R25K-2": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-2",
+      "representativeKey": "3fb2b010743c81e19c32e78d97befe45:1"
+    },
+    "R25K-3": {
+      "active": true,
+      "tier": "basic",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-3",
+      "representativeKey": "3fb2b010743c817c8352e0143b28db20:1"
+    },
+    "R25K-6": {
+      "active": true,
+      "tier": "advanced",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-6",
+      "representativeKey": "3fb2b010743c8147b775d3fcce087a4e:1"
+    },
+    "R25K-7": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-7",
+      "representativeKey": "3fb2b010743c814aa140f28c732c4936:1"
+    },
+    "R25K-11": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-11",
+      "representativeKey": "3fb2b010743c81779fc4c201a67d8791:1"
+    },
+    "R25K-15": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-15",
+      "representativeKey": "3fb2b010743c81f2bc6cfdb9a6385589:1"
+    },
+    "R25K-25": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-25",
+      "representativeKey": "3fb2b010743c81709d9bcae243b2ae6c:1"
+    },
+    "R25K-31": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R25K-1）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-1",
+      "representativeKey": "3fb2b010743c81d2a097caaf843940da:1"
+    },
+    "R25K-32": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R25K-2）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-2",
+      "representativeKey": "3fb2b010743c81e19c32e78d97befe45:1"
+    },
+    "R25K-33": {
+      "active": false,
+      "tier": "basic",
+      "reason": "表面（R25K-3）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-3",
+      "representativeKey": "3fb2b010743c817c8352e0143b28db20:1"
+    },
+    "R25K-36": {
+      "active": false,
+      "tier": "advanced",
+      "reason": "表面（R25K-6）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-6",
+      "representativeKey": "3fb2b010743c8147b775d3fcce087a4e:1"
+    },
+    "R25K-37": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R25K-7）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-7",
+      "representativeKey": "3fb2b010743c814aa140f28c732c4936:1"
+    },
+    "R25K-41": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R25K-11）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-11",
+      "representativeKey": "3fb2b010743c81779fc4c201a67d8791:1"
+    },
+    "R25K-45": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R25K-15）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-15",
+      "representativeKey": "3fb2b010743c81f2bc6cfdb9a6385589:1"
+    },
+    "R25K-55": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R25K-25）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-25",
+      "representativeKey": "3fb2b010743c81709d9bcae243b2ae6c:1"
+    },
+    "R25K-13": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-13",
+      "representativeKey": "3fb2b010743c8153a81dcd1faa82f091:1"
+    },
+    "R25K-17": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-17",
+      "representativeKey": "3fb2b010743c81879de2de8777ba95a7:1"
+    },
+    "R25K-18": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-18",
+      "representativeKey": "3fb2b010743c81d88b99df74deae8de7:1"
+    },
+    "R25K-19": {
+      "active": true,
+      "tier": "advanced",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-19",
+      "representativeKey": "3fb2b010743c81759c96db5c71c3761b:1"
+    },
+    "R25K-24": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R25計算マスター K-24",
+      "representativeKey": "3fb2b010743c8121a0b4fe3c3f423af7:1"
+    },
+    "R25K-43": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R25K-13）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-13",
+      "representativeKey": "3fb2b010743c8153a81dcd1faa82f091:1"
+    },
+    "R25K-47": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R25K-17）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-17",
+      "representativeKey": "3fb2b010743c81879de2de8777ba95a7:1"
+    },
+    "R25K-48": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R25K-18）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-18",
+      "representativeKey": "3fb2b010743c81d88b99df74deae8de7:1"
+    },
+    "R25K-49": {
+      "active": false,
+      "tier": "advanced",
+      "reason": "表面（R25K-19）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-19",
+      "representativeKey": "3fb2b010743c81759c96db5c71c3761b:1"
+    },
+    "R25K-54": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R25K-24）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R25計算マスター K-24",
+      "representativeKey": "3fb2b010743c8121a0b4fe3c3f423af7:1"
     }
   }
 }

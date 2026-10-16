@@ -14,20 +14,25 @@
   const names = {calc:'計算', oneline:'一行問題', geometry:'図形'};
   const storage = C.createStorage('sansu-pilot-v1');
   let state = C.initialState(), storageBroken = false, writeQueue = Promise.resolve(), session = null, view = 'home';
-  let settings = {category:'oneline', mode:'review', domain:'', tier:'standard',difficulty:10, recentUnits:['R24'],star:1, grade:5, testDate:'2026-11-11', scopeUnits:['R24']};
+  let settings = {category:'oneline', mode:'review', domain:'', tier:'standard',difficulty:10, recentUnits:['R25'],star:1, grade:5, testDate:'2026-11-11', scopeUnits:['R24','R25']};
   try { settings = {...settings, ...JSON.parse(localStorage.getItem('sansu-pilot-preferences') || '{}')}; } catch (_) {}
   if(!['review','gnorev','all'].includes(settings.mode))settings.mode='review';
   if(!['basic','standard','advanced','hard'].includes(settings.tier))settings.tier='standard';
-  if(!Array.isArray(settings.recentUnits))settings.recentUnits=['R24'];
+  if(!Array.isArray(settings.recentUnits))settings.recentUnits=['R25'];
   // Replace the original pilot's demo default, preserving other chosen lessons.
   if(!settings.learnedScopeVersion&&settings.recentUnits.length===1&&settings.recentUnits[0]==='R20')settings.recentUnits=['R24'];
-  if(!Array.isArray(settings.scopeUnits))settings.scopeUnits=['R24'];
+  if(!Array.isArray(settings.scopeUnits))settings.scopeUnits=['R24','R25'];
   // Explicit user correction: lessons 25–27 are not yet studied.
   if(!settings.learnedScopeVersion){
     settings.recentUnits=settings.recentUnits.filter(u=>!['R25','R26','R27'].includes(u));
     settings.scopeUnits=settings.scopeUnits.filter(u=>!['R25','R26','R27'].includes(u));
   }
-  settings.learnedScopeVersion=1;
+  // 2026-10-16: R25 (倍数算) studied. Make it the recent lesson and add it to the learned scope; R26/R27 stay excluded.
+  if((settings.learnedScopeVersion||0)<2){
+    settings.recentUnits=['R25'];
+    settings.scopeUnits=[...new Set([...settings.scopeUnits.filter(u=>!['R26','R27'].includes(u)),'R24','R25'])];
+  }
+  settings.learnedScopeVersion=2;
   let ink = [], figureInk = [], tool = 'pen', color = '#203c42', width = 3, finger = false, zoom = 1, lastPenAt = 0, penNoticeShown = false, eraserSize = 'm', penDownNow = false, scratchBinding = null;
   const ERASER_RADIUS = {s:7, m:16, l:32};
   let canvasBindings = [], toastTimer;
@@ -322,7 +327,7 @@
   }
   function openSettings(tab='settings'){
     const dialog=$('#settings-dialog');dialog.classList.remove('guild-dialog');$('.dialog-head h2').textContent='記録と設定';
-    $('#settings-content').innerHTML=tab==='inventory'?`<div class="settings-section">${inventoryHtml()}</div>`:`<div class="settings-section"><h3>保護者の設定</h3><p><button id="b57-open" class="quiet">代表問・難易度・保留を見る</button></p><p>直近授業と次回グノレブの範囲を別々に設定します。直近授業は第24回、次回グノレブは既習の第24回を対象にしています。第25〜27回は未習のため含めていません。授業が進んだら変更してください。</p><label>学年 <select id="grade-setting"><option value="5" ${settings.grade===5?'selected':''}>5年生</option><option value="6" ${settings.grade===6?'selected':''}>6年生</option></select></label><p><label>直近授業の範囲（カンマ区切り）<br><input id="recent-scope" value="${esc(settings.recentUnits.join(','))}" style="width:100%"></label></p><p><label>次回グノレブの日 <input id="test-date" type="date" value="${esc(settings.testDate)}"></label></p><p><label>次回グノレブの範囲（カンマ区切り）<br><input id="test-scope" value="${esc(settings.scopeUnits.join(','))}" style="width:100%;padding:9px;border:1px solid #bdcdbf;border-radius:9px"></label></p><button id="save-preferences" class="primary">設定を保存</button></div><div class="settings-section"><h3>学習の記録</h3><p>${state.attempts.length}回の解答 · ${state.xp}pt · ${Object.values(state.drafts).length}件の下書き</p><button id="export-records" class="quiet">バックアップを書き出す</button><p><label>この試作のバックアップを読み込む<br><input id="import-records" type="file" accept="application/json,.json"></label></p><p id="import-message"></p><table class="history-table"><thead><tr><th>日付</th><th>教材</th><th>結果</th></tr></thead><tbody>${state.attempts.slice(-12).reverse().map(a=>`<tr><td>${esc(a.day)}</td><td>${esc(DATA.problems.find(p=>p.id===a.problemId)?.source.title||a.problemId)}</td><td>${a.correct?'○':'×'} ${a.assisted?'補助あり':''}</td></tr>`).join('')}</tbody></table></div><div class="settings-section"><h3>この試作の範囲</h3><p>段階解説・手書き・正確な数値判定・復習・報酬を確認するPhase Aです。下書きを外部へ送るAI機能はまだありません。公開もしていません。</p><button id="inventory-from-settings" class="quiet">英雄・装備の図鑑</button></div>`;
+    $('#settings-content').innerHTML=tab==='inventory'?`<div class="settings-section">${inventoryHtml()}</div>`:`<div class="settings-section"><h3>保護者の設定</h3><p><button id="b57-open" class="quiet">代表問・難易度・保留を見る</button></p><p>直近授業と次回グノレブの範囲を別々に設定します。直近授業は第25回（倍数算）、次回グノレブは既習の第24・25回を対象にしています。第26・27回は未習のため含めていません。授業が進んだら変更してください。</p><label>学年 <select id="grade-setting"><option value="5" ${settings.grade===5?'selected':''}>5年生</option><option value="6" ${settings.grade===6?'selected':''}>6年生</option></select></label><p><label>直近授業の範囲（カンマ区切り）<br><input id="recent-scope" value="${esc(settings.recentUnits.join(','))}" style="width:100%"></label></p><p><label>次回グノレブの日 <input id="test-date" type="date" value="${esc(settings.testDate)}"></label></p><p><label>次回グノレブの範囲（カンマ区切り）<br><input id="test-scope" value="${esc(settings.scopeUnits.join(','))}" style="width:100%;padding:9px;border:1px solid #bdcdbf;border-radius:9px"></label></p><button id="save-preferences" class="primary">設定を保存</button></div><div class="settings-section"><h3>学習の記録</h3><p>${state.attempts.length}回の解答 · ${state.xp}pt · ${Object.values(state.drafts).length}件の下書き</p><button id="export-records" class="quiet">バックアップを書き出す</button><p><label>この試作のバックアップを読み込む<br><input id="import-records" type="file" accept="application/json,.json"></label></p><p id="import-message"></p><table class="history-table"><thead><tr><th>日付</th><th>教材</th><th>結果</th></tr></thead><tbody>${state.attempts.slice(-12).reverse().map(a=>`<tr><td>${esc(a.day)}</td><td>${esc(DATA.problems.find(p=>p.id===a.problemId)?.source.title||a.problemId)}</td><td>${a.correct?'○':'×'} ${a.assisted?'補助あり':''}</td></tr>`).join('')}</tbody></table></div><div class="settings-section"><h3>この試作の範囲</h3><p>段階解説・手書き・正確な数値判定・復習・報酬を確認するPhase Aです。下書きを外部へ送るAI機能はまだありません。公開もしていません。</p><button id="inventory-from-settings" class="quiet">英雄・装備の図鑑</button></div>`;
     if(!dialog.open)dialog.showModal();
     if(tab==='settings'){
       $('#save-preferences').onclick=()=>{settings.grade=Number($('#grade-setting').value);settings.testDate=$('#test-date').value;settings.recentUnits=$('#recent-scope').value.split(/[,、\s]+/).filter(Boolean);settings.scopeUnits=$('#test-scope').value.split(/[,、\s]+/).filter(Boolean);if(settings.grade===5&&settings.difficulty>8)settings.difficulty=8;rememberSettings();dialog.close();if(view==='home')renderHome();toast('範囲設定を保存しました。');};
