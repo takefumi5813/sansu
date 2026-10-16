@@ -3,6 +3,7 @@ const path = require('node:path');
 const root = __dirname;
 const read = p => fs.readFileSync(path.join(root,p),'utf8').replace(/^\uFEFF/,'');
 const sources = ['content/arithmetic.json','content/selected-calc.json','content/selected-calc-2.json','content/selected-calc-3.json','content/selected-oneline.json','content/selected-geometry.json','content/expedition-foundations.json','content/expedition-ratio-speed.json','content/expedition-geometry.json','content/expedition-ready.json','content/expedition-ready-2.json','content/expedition-hold-integration.json','content/expedition-tesuji.json','content/expedition-notion-sync70.json'].map(p=>JSON.parse(read(p)));
+sources.push(JSON.parse(read('content/b57-playable-84.json')));
 const legacyCatalog = JSON.parse(read('references/legacy-catalog.json'));
 const roster=JSON.parse(read('content/heroes.json'));
 const profiles=JSON.parse(read('content/hero-profiles.json')).profiles;
@@ -58,7 +59,13 @@ for (const p of data.problems) {
   if(ids.has(p.id))throw Error('Duplicate problem '+p.id);ids.add(p.id);
   if(p.category!=='calc'&&(typeof p.domain!=='string'||!p.domain.trim()))throw Error('Missing subject domain '+p.id);
   if(p.category!=='calc'&&(!Number.isInteger(p.difficulty)||p.difficulty<1||p.difficulty>10))throw Error('Invalid difficulty '+p.id);
-  if(!/^https:\/\/(?:app\.)?notion\.(?:com|so)\//.test(p.source?.url||''))throw Error('Missing Notion selection source '+p.id);
+  const approvedPdf=p.source?.kind==='b57-approved-original'&&p.source?.approvalArtifact==='代表問棚卸し_B57細分類対応_108件承認反映_20261015.json'&&p.source?.originalSha256?.match(/^[a-f0-9]{64}$/)&&Number.isInteger(p.source?.pdfPage)&&p.source.pdfPage>0&&p.source?.path?.startsWith('/算数DB/原本/')&&p.deliveryReview?.status==='ready';
+  if(!/^https:\/\/(?:app\.)?notion\.(?:com|so)\//.test(p.source?.url||'')&&!approvedPdf)throw Error('Missing verified selection source '+p.id);
+  if(approvedPdf){
+    if(!p.deliveryReview.verification||!p.deliveryReview.independentCheck)throw Error('Missing original review '+p.id);
+    if(!p.explanation.steps.some(s=>s.checkpoint)||new Set(p.explanation.steps.map(s=>s.body)).size!==p.explanation.steps.length)throw Error('Incomplete step explanation '+p.id);
+    for(const s of p.explanation.steps)if(s.checkpoint&&!C.grade(canonicalRaw(s.checkpoint.answer),s.checkpoint.answer).correct)throw Error('Invalid checkpoint '+p.id);
+  }
   if((p.scopeUnits||[]).some(u=>excludedUnits.has(u)))throw Error('Unlearned lesson in selection '+p.id);
   if(!data.units.some(u=>u.id===p.unitId))throw Error('Missing unit '+p.unitId);
   if(!C.grade(canonicalRaw(p.answer),p.answer).correct)throw Error('Invalid answer '+p.id);
