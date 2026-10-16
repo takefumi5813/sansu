@@ -279,6 +279,17 @@ dialog::backdrop{background:#040813d6;backdrop-filter:blur(9px)}
 .party-slot:not(.empty){border-style:solid}
 .slot-tools .text-button{white-space:nowrap}
 @media (max-width:560px){.slot-tools{gap:10px}.slot-tools .text-button{font-size:11px}}
+/* 下書き欄：消しゴムの大きさ・押しやすいボタン */
+.scratch-toolbar .tool-group button{min-height:40px;min-width:44px;touch-action:manipulation}
+.scratch-toolbar .color-btn{min-width:32px!important;width:32px}
+.eraser-sizes{display:inline-flex;gap:2px;padding:2px;border-radius:9px;background:#d3dbd8}
+.scratch-toolbar .tool-group .eraser-size{min-width:36px;padding:0!important;display:inline-grid;place-items:center;background:transparent;border-color:transparent}
+.scratch-toolbar .tool-group .eraser-size.active{background:#faf9f3;color:inherit;border-color:#2b435e}
+.eraser-size i{display:block;width:var(--d);height:var(--d);border-radius:50%;border:2px solid #435873;background:#faf9f3}
+.eraser-size.active i{background:#2b435e;border-color:#2b435e}
+.scratch-canvas.erasing{cursor:cell}
+.eraser-ring{position:absolute;pointer-events:none;border:2px solid rgba(43,67,94,.55);background:rgba(250,249,243,.35);border-radius:50%;z-index:3}
+.eraser-ring[hidden]{display:none}
 
 .painted-weapon{object-fit:contain;filter:drop-shadow(0 8px 12px #0006);transform:rotate(0);padding:8px}.gear-card .painted-weapon{width:100%;height:160px;margin:4px auto 12px}.gear-card.locked .painted-weapon{opacity:.65;filter:saturate(.5) drop-shadow(0 6px 12px #0005)}.weapon-showcase .painted-weapon{width:112px;height:125px}.gear-reveal .painted-weapon{width:150px;height:150px}.resource-art{width:32px;height:32px;object-fit:contain;vertical-align:middle;filter:drop-shadow(0 0 7px #a894d033)}.guild-icon .resource-art,.mission-symbol .resource-art{width:40px;height:40px}@media(max-width:560px){.gear-card .painted-weapon{height:126px}.weapon-showcase .painted-weapon{width:90px;height:100px}.resource-art{width:26px;height:26px}.gear-reveal .painted-weapon{width:105px;height:105px}}
 .hero-specific-silhouette{object-fit:contain!important;width:100%;height:160px;max-height:210px;opacity:1!important;filter:none!important}.hero-specific-silhouette.alpha-silhouette{filter:brightness(0)!important}.hero-collection.locked .hero-specific-silhouette{opacity:.85!important}.legacy-heroes{margin-top:30px;border-top:1px solid #384259;padding-top:20px}
@@ -763,7 +774,8 @@ const api={isActiveProblem,exchangeCost,summonCost,ownedHeroCount,HERO_COST_STAR
     settings.scopeUnits=settings.scopeUnits.filter(u=>!['R25','R26','R27'].includes(u));
   }
   settings.learnedScopeVersion=1;
-  let ink = [], figureInk = [], tool = 'pen', color = '#203c42', width = 3, finger = false, zoom = 1, lastPenAt = 0, penNoticeShown = false;
+  let ink = [], figureInk = [], tool = 'pen', color = '#203c42', width = 3, finger = false, zoom = 1, lastPenAt = 0, penNoticeShown = false, eraserSize = 'm', penDownNow = false, scratchBinding = null;
+  const ERASER_RADIUS = {s:7, m:16, l:32};
   let canvasBindings = [], toastTimer;
   const today = () => C.dayKey();
   function unlockInventory(s) { return C.migrateHeroRoster(s,(DATA.reservedHeroes||[]).map(h=>h.id)); }
@@ -1107,7 +1119,7 @@ function openB57Catalog(){
     return `<article class="paper"><div class="paper-inner"><div class="question-number">${session.purpose==='variant'?'理解確認 · 数値替え':session.purpose==='practice'?'経験値なしの練習':state.units[p.unitId]?.due&&state.units[p.unitId].due<=session.day?'REVIEW · 期限の来た復習':'ONE QUESTION · 今日のひとつ'}</div><div class="question-text" id="question-text">${esc(displayText(p.text))}</div>${p.sourceConvention?`<p class="caption">${esc(p.sourceConvention)}</p>`:''}${p.figure?`<div class="question-figure" id="question-figure"><div class="figure-content"><img id="original-figure" src="${esc(p.figure)}" alt="問題の原本図版"><canvas class="figure-ink" id="figure-canvas" aria-label="図への書き込み"></canvas></div></div><div class="figure-controls"><button id="figure-enlarge" class="quiet">図を大きく見る</button><button id="figure-write" class="quiet">図に書き込む</button></div>`:''}<details class="source-info"><summary>出典と確認範囲</summary><p>${esc(p.source.title)}</p><p>${esc(p.source.locator||'')}</p><p>${esc(p.source.verification||'')}</p>${p.b57?`<p>比較用難易度：${esc(p.b57.comparisonDifficulty)} ／ 原評価：${esc(p.b57.originalDifficulty)}</p><p>確認した原本：${esc(b57Source(p.b57.source))}</p>`:''}${p.source.url?`<a href="${esc(p.source.url)}" target="_blank" rel="noopener">Notionの原文を見る ↗</a>`:''}</details></div></article>`;
   }
   function scratchMarkup(review=false) {
-    return `<section class="scratch-card"><div class="scratch-toolbar"><div class="tool-group"><button id="tool-pen" class="${tool==='pen'?'active':''}">ペン</button><button id="tool-erase" class="${tool==='eraser'?'active':''}">消しゴム</button><button id="ink-undo" class="quiet">1本戻す</button></div><div class="tool-group">${['#203c42','#29669b','#aa493d'].map(c=>`<button class="color-btn ${color===c?'active':''}" data-color="${c}" style="background:${c}" aria-label="${c==='#203c42'?'黒':c==='#29669b'?'青':'赤'}ペン"></button>`).join('')}<select id="pen-width" aria-label="ペンの太さ"><option value="2" ${width===2?'selected':''}>細</option><option value="3" ${width===3?'selected':''}>標準</option><option value="5" ${width===5?'selected':''}>太</option></select></div></div><div class="scratch-viewport"><div class="scratch-inner"><canvas id="scratch-canvas" class="scratch-canvas" aria-label="計算と図の下書き"></canvas></div></div><div class="scratch-foot"><label><input type="checkbox" id="finger-mode" ${finger?'checked':''}> 指でも書く</label><div><button id="ink-zoom" class="quiet" style="min-height:30px;padding:0 9px">拡大 ${zoom}×</button> <span id="ink-saved">${storageBroken?'未保存':'下書きは端末に保存'}</span></div></div></section>`;
+    return `<section class="scratch-card"><div class="scratch-toolbar"><div class="tool-group"><button id="tool-pen" class="${tool==='pen'?'active':''}">ペン</button><button id="tool-erase" class="${tool==='eraser'?'active':''}">消しゴム</button><span class="eraser-sizes" role="group" aria-label="消しゴムの大きさ">${[['s','小'],['m','中'],['l','大']].map(([k,l])=>`<button class="eraser-size ${eraserSize===k?'active':''}" data-eraser="${k}" aria-label="消しゴム ${l}"><i style="--d:${{s:8,m:13,l:20}[k]}px"></i></button>`).join('')}</span><button id="ink-undo" class="quiet">1つ戻す</button></div><div class="tool-group">${['#203c42','#29669b','#aa493d'].map(c=>`<button class="color-btn ${color===c?'active':''}" data-color="${c}" style="background:${c}" aria-label="${c==='#203c42'?'黒':c==='#29669b'?'青':'赤'}ペン"></button>`).join('')}<select id="pen-width" aria-label="ペンの太さ"><option value="2" ${width===2?'selected':''}>細</option><option value="3" ${width===3?'selected':''}>標準</option><option value="5" ${width===5?'selected':''}>太</option></select></div></div><div class="scratch-viewport"><div class="scratch-inner"><canvas id="scratch-canvas" class="scratch-canvas" aria-label="計算と図の下書き"></canvas></div></div><div class="scratch-foot"><label><input type="checkbox" id="finger-mode" ${finger?'checked':''}> 指でも書く</label><div><button id="ink-zoom" class="quiet" style="min-height:30px;padding:0 9px">拡大 ${zoom}×</button> <span id="ink-saved">${storageBroken?'未保存':'下書きは端末に保存'}</span></div></div></section>`;
   }
   // Answer formats: single {n,d,unit,dimension}; ratio {dimension:'ratio',terms}; clock {dimension:'clock',h,m,s?,ampm?}; multiple fields {parts:[{label,...}]}.
   const isPartsSpec=spec=>Array.isArray(spec?.parts);
@@ -1159,19 +1171,28 @@ function openB57Catalog(){
     }
   }
   function bindScratch() {
-    bindCanvas($('#scratch-canvas'),()=>ink,v=>ink=v,()=>view==='question');
-    const toolbar=$('.scratch-card');if(toolbar&&!toolbar.dataset.palmGuard){toolbar.dataset.palmGuard='1';let suppress=0;toolbar.addEventListener('pointerdown',e=>{if(e.pointerType==='touch'&&penRecently()&&!e.target.closest('canvas')){suppress=Date.now();e.preventDefault();e.stopPropagation();}},true);toolbar.addEventListener('click',e=>{if(Date.now()-suppress<700){e.preventDefault();e.stopPropagation();}},true);}
-    $('#tool-pen').onclick=()=>setTool('pen');$('#tool-erase').onclick=()=>setTool('eraser');
-    $('#ink-undo').onclick=()=>{ink.pop();redrawAll();persistInk();};
-    $$('[data-color]').forEach(b=>b.onclick=()=>{color=b.dataset.color;tool='pen';$$('[data-color]').forEach(x=>x.classList.toggle('active',x===b));setTool('pen');});
+    scratchBinding=bindCanvas($('#scratch-canvas'),()=>ink,v=>ink=v,()=>view==='question');
+    // Palm guard: only reject a toolbar touch while the pen is actually on the pad or the contact is palm-sized.
+    // (Rejecting every finger tap for 1.5 s after writing made the buttons need several taps.)
+    const toolbar=$('.scratch-card');if(toolbar&&!toolbar.dataset.palmGuard){toolbar.dataset.palmGuard='1';let suppress=0;toolbar.addEventListener('pointerdown',e=>{if(e.pointerType==='touch'&&!e.target.closest('canvas')&&(penDownNow||Math.max(e.width||0,e.height||0)>=45)){suppress=Date.now();e.preventDefault();e.stopPropagation();}},true);toolbar.addEventListener('click',e=>{if(Date.now()-suppress<400){e.preventDefault();e.stopPropagation();}},true);}
+    tap($('#tool-pen'),()=>setTool('pen'));tap($('#tool-erase'),()=>setTool('eraser'));
+    $$('[data-eraser]').forEach(b=>tap(b,()=>{eraserSize=b.dataset.eraser;$$('[data-eraser]').forEach(x=>x.classList.toggle('active',x===b));setTool('eraser');}));
+    tap($('#ink-undo'),()=>{if(!scratchBinding?.undo?.())ink.pop();redrawAll();persistInk();});
+    $$('[data-color]').forEach(b=>tap(b,()=>{color=b.dataset.color;$$('[data-color]').forEach(x=>x.classList.toggle('active',x===b));setTool('pen');}));
     $('#pen-width').onchange=e=>width=Number(e.target.value);
     $('#finger-mode').onchange=e=>finger=e.target.checked;
     $('#ink-zoom').onclick=()=>{zoom=zoom===3?1:zoom+1;const inner=$('.scratch-inner');inner.style.width=zoom*100+'%';inner.style.height=zoom*100+'%';$('#ink-zoom').textContent=`拡大 ${zoom}×`;redrawAll();};
   }
-  function setTool(t){tool=t;if($('#tool-pen'))$('#tool-pen').classList.toggle('active',t==='pen');if($('#tool-erase'))$('#tool-erase').classList.toggle('active',t==='eraser');}
+  function setTool(t){tool=t;if($('#tool-pen'))$('#tool-pen').classList.toggle('active',t==='pen');if($('#tool-erase'))$('#tool-erase').classList.toggle('active',t==='eraser');$$('.scratch-canvas').forEach(c=>c.classList.toggle('erasing',t==='eraser'));}
+  // Toolbar buttons fire on pointerup, so a tap that wobbles a few px (which iOS turns into a cancelled click) still counts.
+  function tap(el,fn){if(!el)return;let start=null,handledAt=0;
+    el.addEventListener('pointerdown',e=>{if(e.button>0)return;start={id:e.pointerId,x:e.clientX,y:e.clientY,at:Date.now()};});
+    el.addEventListener('pointerup',e=>{const s=start;start=null;if(!s||s.id!==e.pointerId||Date.now()-s.at>900||Math.hypot(e.clientX-s.x,e.clientY-s.y)>24)return;handledAt=Date.now();e.preventDefault();fn();});
+    el.addEventListener('pointercancel',()=>{start=null;});
+    el.addEventListener('click',e=>{if(Date.now()-handledAt<600){e.preventDefault();return;}fn();});}
   function redrawAll(){canvasBindings.forEach(fn=>fn.draw?.());}
   const penSeen=()=>lastPenAt>0,penRecently=()=>Date.now()-lastPenAt<1500;
-  document.addEventListener('touchmove',e=>{if(penRecently()&&(view==='question'||view==='explanation')&&e.touches.length<2)e.preventDefault();},{passive:false});
+  document.addEventListener('touchmove',e=>{if(penRecently()&&(view==='question'||view==='explanation')&&e.touches.length<2&&!e.target.closest?.('button,select,input,label,.scratch-toolbar,.scratch-foot'))e.preventDefault();},{passive:false});
   function bindCanvas(canvas,get,set,enabled) {
     // Pen input: strokes are drawn incrementally (no full redraw per move), coalesced events keep fast Pencil
     // strokes smooth, and the pen always wins over touches so a resting palm cannot block or scroll the pad.
@@ -1182,10 +1203,30 @@ function openB57Catalog(){
     function strokeStyle(s){ctx.strokeStyle=s.color;ctx.lineWidth=s.width;ctx.lineCap='round';ctx.lineJoin='round';}
     function draw(){if(!resize())return;ctx.clearRect(0,0,cssW,cssH);for(const s of get()){if(!s.points.length)continue;ctx.beginPath();strokeStyle(s);s.points.forEach((p,i)=>i?ctx.lineTo(p.x*cssW,p.y*cssH):ctx.moveTo(p.x*cssW,p.y*cssH));if(s.points.length===1){const p=s.points[0];ctx.lineTo(p.x*cssW+.1,p.y*cssH+.1);}ctx.stroke();}}
     function segment(s,from){if(!s||s.points.length<2)return;ctx.beginPath();strokeStyle(s);const pts=s.points;ctx.moveTo(pts[from-1].x*cssW,pts[from-1].y*cssH);for(let i=from;i<pts.length;i++)ctx.lineTo(pts[i].x*cssW,pts[i].y*cssH);ctx.stroke();}
-    function erase(point){const strokes=get();const index=strokes.findLastIndex(s=>s.points.some(p=>Math.hypot((p.x-point.x)*cssW,(p.y-point.y)*cssH)<17));if(index>=0){strokes.splice(index,1);set(strokes);draw();dirty=true;}}
+    // Area eraser: removes only the part of each stroke inside the eraser circle (size 小/中/大) and splits the rest.
+    function segDist(px,py,ax,ay,bx,by){const dx=bx-ax,dy=by-ay,l=dx*dx+dy*dy;let t=l?((px-ax)*dx+(py-ay)*dy)/l:0;t=Math.max(0,Math.min(1,t));return Math.hypot(px-ax-t*dx,py-ay-t*dy);}
+    function erase(point){
+      const r=ERASER_RADIUS[eraserSize]||16,px=point.x*cssW,py=point.y*cssH,strokes=get();let changed=false;const next=[];
+      for(const s of strokes){
+        const pts=s.points,P=pts.map(p=>[p.x*cssW,p.y*cssH]);
+        const hit=P.length===1?Math.hypot(P[0][0]-px,P[0][1]-py)<r+s.width/2:P.some((q,i)=>i&&segDist(px,py,P[i-1][0],P[i-1][1],q[0],q[1])<r+s.width/2);
+        if(!hit){next.push(s);continue;}
+        changed=true;if(P.length===1)continue;
+        // Resample so a long straight segment through the eraser is cut, not kept whole.
+        const step=Math.max(1.5,r/4),dense=[pts[0]];
+        for(let i=1;i<pts.length;i++){const a=pts[i-1],b=pts[i],n=Math.ceil(Math.hypot(P[i][0]-P[i-1][0],P[i][1]-P[i-1][1])/step);for(let k=1;k<=n;k++){const f=k/n;dense.push(k===n?b:{x:a.x+(b.x-a.x)*f,y:a.y+(b.y-a.y)*f,p:a.p,t:a.t});}}
+        let run=[];const flush=()=>{if(run.length>=2)next.push({id:uid(),color:s.color,width:s.width,points:run});run=[];};
+        for(const p of dense){if(Math.hypot(p.x*cssW-px,p.y*cssH-py)<r+s.width/2)flush();else run.push(p);}flush();
+      }
+      if(changed){set(next);draw();dirty=true;}
+    }
+    let ring=null;function showRing(e){if(tool!=='eraser'){hideRing();return;}const host=canvas.parentElement;if(!ring){ring=document.createElement('div');ring.className='eraser-ring';if(getComputedStyle(host).position==='static')host.style.position='relative';host.appendChild(ring);}const r=canvas.getBoundingClientRect(),hr=host.getBoundingClientRect(),d=(ERASER_RADIUS[eraserSize]||16)*2;ring.style.width=ring.style.height=d+'px';ring.style.left=(e.clientX-hr.left-d/2)+'px';ring.style.top=(e.clientY-hr.top-d/2)+'px';ring.hidden=false;}
+    function hideRing(){if(ring)ring.hidden=true;}
+    const history=[];function snapshot(){history.push(JSON.parse(JSON.stringify(get())));if(history.length>40)history.shift();}
     function release(id){try{if(canvas.hasPointerCapture?.(id))canvas.releasePointerCapture(id);}catch(_){}}
-    function endStroke(save=true){if(active===null)return;for(const s of get())if(s.pointerId===active)delete s.pointerId;release(active);active=null;activeType=null;if(save&&dirty){dirty=false;persistInk();}}
-    function cancelTouchStroke(){if(activeType!=='touch')return;const strokes=get(),s=strokes.at(-1);if(s&&s.pointerId===active){strokes.pop();set(strokes);}release(active);active=null;activeType=null;draw();}
+    function endStroke(save=true){if(active===null)return;for(const s of get())if(s.pointerId===active)delete s.pointerId;release(active);if(activeType==='pen')penDownNow=false;active=null;activeType=null;hideRing();if(!dirty&&gestureSnap){history.pop();}gestureSnap=false;if(save&&dirty){dirty=false;persistInk();}}
+    let gestureSnap=false;
+    function cancelTouchStroke(){if(activeType!=='touch')return;const strokes=get(),s=strokes.at(-1);if(s&&s.pointerId===active){strokes.pop();set(strokes);}if(gestureSnap)history.pop();gestureSnap=false;dirty=false;release(active);active=null;activeType=null;draw();}
     const isPalm=e=>e.pointerType==='touch'&&(Math.max(e.width||0,e.height||0)>=40||penRecently());
     const down=e=>{
       if(e.pointerType==='pen'){lastPenAt=Date.now();if(finger&&!penNoticeShown){finger=false;penNoticeShown=true;const box=$('#finger-mode');if(box)box.checked=false;toast('ペンを検出しました。手のひらで線が書かれないよう「指でも書く」を切りました。');}pan=null;}
@@ -1195,27 +1236,35 @@ function openB57Catalog(){
         if(!finger){const viewport=canvas.closest('.scratch-viewport');if(viewport&&touches.size===2&&!penRecently()){const [a,b]=[...touches.values()];pan={x:(a.x+b.x)/2,y:(a.y+b.y)/2,viewport};}else if(viewport&&touches.size===1&&!penSeen()){canvas.setPointerCapture(e.pointerId);pan={id:e.pointerId,x:e.clientX,y:e.clientY,viewport};}return;}
       }
       if(!enabled())return;
-      if(active!==null){if(e.pointerType==='pen'&&activeType!=='pen')cancelTouchStroke();else if(Date.now()-lastMoveAt>1500)endStroke();else return;}
+      // A new pen contact always starts a new stroke. (iPad reuses the same pointerId for every Pencil touch,
+      // so a missed pointerup used to glue the next stroke onto the previous one, e.g. "7" and "." joined.)
+      if(active!==null){if(e.pointerType==='pen'){if(activeType!=='pen')cancelTouchStroke();else endStroke();}else if(Date.now()-lastMoveAt>1500)endStroke();else return;}
+      if(e.pointerType==='pen')penDownNow=true;
       e.preventDefault();try{canvas.setPointerCapture(e.pointerId);}catch(_){}active=e.pointerId;activeType=e.pointerType;lastMoveAt=Date.now();resize();const r=canvas.getBoundingClientRect(),p=coordinate(e,r);
-      if(tool==='eraser')erase(p);else{get().push({id:uid(),color,width,points:[p],pointerId:e.pointerId});const s=get().at(-1);ctx.beginPath();strokeStyle(s);ctx.moveTo(p.x*cssW,p.y*cssH);ctx.lineTo(p.x*cssW+.1,p.y*cssH+.1);ctx.stroke();dirty=true;}
+      snapshot();gestureSnap=true;
+      if(tool==='eraser'){showRing(e);erase(p);}else{get().push({id:uid(),color,width,points:[p],pointerId:e.pointerId});const s=get().at(-1);ctx.beginPath();strokeStyle(s);ctx.moveTo(p.x*cssW,p.y*cssH);ctx.lineTo(p.x*cssW+.1,p.y*cssH+.1);ctx.stroke();dirty=true;}
     };
     const move=e=>{
       if(e.pointerType==='touch'&&touches.has(e.pointerId)){const t=touches.get(e.pointerId);
         if(pan&&pan.id===undefined&&touches.size===2){t.x=e.clientX;t.y=e.clientY;const [a,b]=[...touches.values()],cx=(a.x+b.x)/2,cy=(a.y+b.y)/2;pan.viewport.scrollLeft+=pan.x-cx;pan.viewport.scrollTop+=pan.y-cy;pan.x=cx;pan.y=cy;e.preventDefault();return;}
         if(pan?.id===e.pointerId&&!penRecently()){e.preventDefault();pan.viewport.scrollLeft+=pan.x-e.clientX;pan.viewport.scrollTop+=pan.y-e.clientY;pan.x=e.clientX;pan.y=e.clientY;t.x=e.clientX;t.y=e.clientY;return;}
         t.x=e.clientX;t.y=e.clientY;}
-      if(e.pointerId!==active)return;e.preventDefault();lastMoveAt=Date.now();if(activeType==='pen')lastPenAt=lastMoveAt;
-      const r=canvas.getBoundingClientRect(),events=e.getCoalescedEvents?.()||[];const list=events.length?events:[e];
-      if(tool==='eraser'){for(const ev of list)erase(coordinate(ev,r));return;}
+      if(e.pointerId!==active)return;
+      // Pen lifted but no pointerup arrived (hovering Pencil reports buttons 0 / pressure 0): finish the stroke here.
+      if(activeType==='pen'&&e.pointerType==='pen'&&(e.buttons===0||e.pressure===0)){const s=get().at(-1);if(s&&s.pointerId===active)delete s.pointerId;endStroke();return;}
+      e.preventDefault();lastMoveAt=Date.now();if(activeType==='pen')lastPenAt=lastMoveAt;
+      const r=canvas.getBoundingClientRect(),events=e.getCoalescedEvents?.()||[];let list=events.length?events:[e];
+      if(activeType==='pen')list=list.filter(ev=>ev.pressure!==0);
+      if(tool==='eraser'){showRing(e);for(const ev of list)erase(coordinate(ev,r));return;}
       const s=get().at(-1);if(!s||s.pointerId!==active)return;const from=s.points.length;for(const ev of list)s.points.push(coordinate(ev,r));segment(s,from);
     };
-    const up=e=>{if(e.pointerType==='touch'){touches.delete(e.pointerId);if(pan&&(pan.id===e.pointerId||pan.id===undefined))pan=null;}if(e.pointerId!==active)return;if(activeType==='pen')lastPenAt=Date.now();const s=get().at(-1);if(s&&s.pointerId===e.pointerId)delete s.pointerId;endStroke();};
+    const up=e=>{if(e.pointerType==='touch'){touches.delete(e.pointerId);if(pan&&(pan.id===e.pointerId||pan.id===undefined))pan=null;}if(e.pointerType==='pen'&&activeType!=='pen')penDownNow=false;if(e.pointerId!==active)return;if(activeType==='pen')lastPenAt=Date.now();const s=get().at(-1);if(s&&s.pointerId===e.pointerId)delete s.pointerId;endStroke();};
     const lost=e=>{if(e.pointerId===active){const s=get().at(-1);if(s&&s.pointerId===e.pointerId)delete s.pointerId;endStroke();}};
     const block=e=>e.preventDefault();
     canvas.addEventListener('pointerdown',down);canvas.addEventListener('pointermove',move);canvas.addEventListener('pointerup',up);canvas.addEventListener('pointercancel',up);canvas.addEventListener('lostpointercapture',lost);
     canvas.addEventListener('touchstart',block,{passive:false});canvas.addEventListener('touchmove',block,{passive:false});canvas.addEventListener('contextmenu',block);
     const observer=new ResizeObserver(draw);observer.observe(canvas.parentElement);draw();
-    const dispose=()=>{endStroke();observer.disconnect();canvas.removeEventListener('pointerdown',down);canvas.removeEventListener('pointermove',move);canvas.removeEventListener('pointerup',up);canvas.removeEventListener('pointercancel',up);canvas.removeEventListener('lostpointercapture',lost);canvas.removeEventListener('touchstart',block);canvas.removeEventListener('touchmove',block);canvas.removeEventListener('contextmenu',block);};dispose.draw=draw;canvasBindings.push(dispose);
+    const dispose=()=>{endStroke();observer.disconnect();canvas.removeEventListener('pointerdown',down);canvas.removeEventListener('pointermove',move);canvas.removeEventListener('pointerup',up);canvas.removeEventListener('pointercancel',up);canvas.removeEventListener('lostpointercapture',lost);canvas.removeEventListener('touchstart',block);canvas.removeEventListener('touchmove',block);canvas.removeEventListener('contextmenu',block);};dispose.draw=draw;dispose.undo=()=>{if(active!==null)endStroke();if(!history.length)return false;set(history.pop());draw();return true;};canvasBindings.push(dispose);return dispose;
   }
   function persistInk(){if(!session)return;const id=session.id,problem=session.problem,snapshot={problemId:problem.id,revision:problem.revision,ink:clone(ink),figureInk:clone(figureInk),day:session.day,purpose:session.purpose,assisted:session.assisted,chainIndex:session.chainIndex,mode:session.mode,heroId:session.heroId,party:session.party};enqueue(s=>{const next=clone(s);next.drafts[id]=snapshot;return next;}).then(()=>{if($('#ink-saved'))$('#ink-saved').textContent=storageBroken?'未保存':'下書きを保存しました';});}
   async function submitAnswer(e) {
