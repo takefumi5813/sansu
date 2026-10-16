@@ -1,6 +1,14 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const data=require('../content/combined.json'),batch=require('../content/b57-playable-84.json'),C=require('../src/core.js');
 function raw(s){if(s.parts)return s.parts.map(raw);if(s.dimension==='ratio')return s.terms.join(':');if(s.dimension==='text')return s.value;if(s.dimension==='clock')return (s.ampm||'')+(s.ampm?Number(s.h)%12:s.h)+'時'+s.m+'分'+(s.s?s.s+'秒':'');return s.n+'/'+s.d;}
+test('released 193 and 200 grade correctly and retain source quality history',()=>{
+ const a=data.problems.find(p=>p.id==='b57-APP108-P193-01-B'),b=data.problems.find(p=>p.id==='b57-APP108-P200-01-A');
+ assert.equal(a.source.pdfPage,2);assert.ok(C.grade('5:2',a.answer).correct);assert.ok(!C.grade('2:5',a.answer).correct);
+ assert.ok(C.grade('125cm',b.answer).correct);assert.ok(!C.grade('85cm',b.answer).correct);
+ const r=data.b57Catalog.representatives.find(r=>r.appProblemId===b.id);
+ assert.equal(r.deliveryStatus,'出題可能');assert.ok(r.quality.current.some(x=>x.type==='旧DB説明の品質記録'&&x.deliveryBlocking===false));
+ assert.ok(r.qualityHistory.length);assert.ok(r.quality.relatedPoint.some(x=>x.text.includes('a/r')));
+});
 test('new speed answer accepts equivalent hour and minute expressions',()=>{const p=batch.problems.find(p=>p.id==='b57-APP108-P226-01-A');for(const raw of ['14km/h','14km/時','時速14km','700/3m/分'])assert.ok(C.grade(raw,p.answer).correct,raw);assert.equal(C.grade('14m/分',p.answer).correct,false);});
 test('enumeration independently verifies counting answers',()=>{
  const counts={P092:0,P094:0,P101:0,P235:0,P237:0,P238:0};

@@ -7228,6 +7228,169 @@
         "verification": "原PDFの対象問題ページを実際にレンダリングして本文と図を照合し、答えを独立計算。",
         "independentCheck": "チョコ=5n+39、グミ=3n+10。5n+39=2(3n+10)+7からn=12。合計99+46=145個。"
       }
+    },
+    {
+      "id": "b57-APP108-P193-01-B",
+      "unitId": "b57.APP108-P193-01-B",
+      "category": "oneline",
+      "domain": "比・加比の理",
+      "text": "A:B=5:2、C:D=5:2、A>C、B>D。(A−C):(B−D)を最も簡単な整数の比で答える。",
+      "source": {
+        "title": "KB193①反(2)",
+        "path": "/算数DB/原本/コベツバ/共通の型/point193_共通の型_教材問題解答セット.pdf",
+        "locator": "元PDF物理2ページ／KB193①反(2)。解答：物理6ページ",
+        "verification": "正しい①反復(2)はPDF2ページ下段。採用記録と一致し、原本の欠落・条件不一致はない。",
+        "kind": "b57-approved-original",
+        "pdfPage": 2,
+        "answerPage": 6,
+        "originalSha256": "192c6d459b6cf198c052e7a0232bc7c4bbe6798667aafeb2e05c26ee24025cd1",
+        "approvalArtifact": "代表問棚卸し_B57細分類対応_108件承認反映_20261015.json",
+        "originalDifficulty": "★1（親設問の難度）"
+      },
+      "answer": {
+        "dimension": "ratio",
+        "terms": [
+          "5",
+          "2"
+        ],
+        "unit": ""
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "scopeUnits": [],
+      "expeditionOnly": true,
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "同じ比をそろえる",
+            "body": "A=5x、B=2x、C=5y、D=2yと置く。",
+            "equation": "A=5x、B=2x、C=5y、D=2y"
+          },
+          {
+            "id": "s2",
+            "title": "差が正であることを確かめる",
+            "body": "A>Cよりx>yで、差は正。",
+            "equation": "x>y"
+          },
+          {
+            "id": "s3",
+            "title": "それぞれの差を表す",
+            "body": "A−C=5(x−y)、B−D=2(x−y)。",
+            "equation": "A−C=5(x−y)、B−D=2(x−y)"
+          },
+          {
+            "id": "s4",
+            "title": "共通部分を除いて比を求める",
+            "body": "共通の(x−y)を除き、比は5:2。",
+            "equation": "5(x−y):2(x−y)=5:2",
+            "checkpoint": {
+              "prompt": "求める差の比を最も簡単な整数の比で答えましょう。",
+              "answer": {
+                "dimension": "ratio",
+                "terms": [
+                  "5",
+                  "2"
+                ],
+                "unit": ""
+              }
+            }
+          }
+        ]
+      },
+      "reviewEligible": false,
+      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "deliveryReview": {
+        "status": "ready",
+        "inventoryId": "APP108-P193-01-B",
+        "subdivisionId": "P193-01",
+        "originalSha256": "192c6d459b6cf198c052e7a0232bc7c4bbe6798667aafeb2e05c26ee24025cd1",
+        "checkedOn": "2026-10-16",
+        "verification": "正しい①反復(2)はPDF2ページ下段。採用記録と一致し、原本の欠落・条件不一致はない。",
+        "independentCheck": "A=5x、B=2x、C=5y、D=2yと置く。 A>Cよりx>yで、差は正。 A−C=5(x−y)、B−D=2(x−y)。 共通の(x−y)を除き、比は5:2。"
+      }
+    },
+    {
+      "id": "b57-APP108-P200-01-A",
+      "unitId": "b57.APP108-P200-01-A",
+      "category": "geometry",
+      "domain": "円柱の影と相似",
+      "text": "下の図は、太陽光線でできた半径15cmの円柱の影が、40cm先にある壁にうつった様子です。この円柱の高さは何cmですか。",
+      "source": {
+        "title": "KB200③例",
+        "path": "/算数DB/原本/コベツバ/共通の型/point200_共通の型_教材問題解答セット.pdf",
+        "locator": "元PDF物理6ページ／KB200③例。解答：物理8ページ",
+        "verification": "B18で検証済みの正しい対応は、壁の高さ差30cmと半径15cm。B57にもDB説明の品質記録がある。原図・印刷解答・独立計算は125cmで一致する。",
+        "kind": "b57-approved-original",
+        "pdfPage": 6,
+        "answerPage": 8,
+        "originalSha256": "e37fae5a75834062349245d7ac8b1d30d36ef0b7e68d3ad3d336a1428ef385c8",
+        "approvalArtifact": "代表問棚卸し_B57細分類対応_108件承認反映_20261015.json",
+        "originalDifficulty": "★3"
+      },
+      "answer": {
+        "n": "125",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 6,
+      "figureRequired": true,
+      "scopeUnits": [],
+      "expeditionOnly": true,
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "高さ差に対応する半径を読む",
+            "body": "壁の影の高さ差30cmは、円柱上面の中心から壁に近い縁までの半径15cmに対応する。",
+            "equation": "高さ差30cm ↔ 半径15cm"
+          },
+          {
+            "id": "s2",
+            "title": "光線の傾きを求める",
+            "body": "平行光線は水平15cmにつき30cm下がるので、鉛直/水平の比は2。",
+            "equation": "30÷15=2"
+          },
+          {
+            "id": "s3",
+            "title": "中心から壁までの距離を求める",
+            "body": "上面の中心から壁までの水平距離は15+40=55cm。",
+            "equation": "40+15=55cm",
+            "checkpoint": {
+              "prompt": "円柱の中心から壁までの水平距離は何cmですか。",
+              "answer": {
+                "n": "55",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "円柱の高さを求める",
+            "body": "円柱の高さは15+2×55=125cm。",
+            "equation": "15+2×55=125cm"
+          }
+        ]
+      },
+      "reviewEligible": false,
+      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "deliveryReview": {
+        "status": "ready",
+        "inventoryId": "APP108-P200-01-A",
+        "subdivisionId": "P200-01",
+        "originalSha256": "e37fae5a75834062349245d7ac8b1d30d36ef0b7e68d3ad3d336a1428ef385c8",
+        "checkedOn": "2026-10-16",
+        "verification": "B18で検証済みの正しい対応は、壁の高さ差30cmと半径15cm。B57にもDB説明の品質記録がある。原図・印刷解答・独立計算は125cmで一致する。",
+        "independentCheck": "壁の影の高さ差30cmは、円柱上面の中心から壁に近い縁までの半径15cmに対応する。 平行光線は水平15cmにつき30cm下がるので、鉛直/水平の比は2。 上面の中心から壁までの水平距離は15+40=55cm。 円柱の高さは15+2×55=125cm。"
+      },
+      "figure": "figs/b57/APP108-P200-01-A.png"
     }
   ],
   "units": [
@@ -7967,6 +8130,24 @@
       "definition": "過不足算の条件を数量関係に整理して答えを求める。",
       "representativeId": "b57-APP108-P260-01-A",
       "decision": "原PDFの指定小問を確認し、独立計算して新規出題として採用。",
+      "prerequisites": []
+    },
+    {
+      "id": "b57.APP108-P193-01-B",
+      "name": "加比の理／KB193①反(2)",
+      "domain": "比・加比の理",
+      "definition": "同じ5:2の二組について、対応項の和・差も同じ比となる直接適用。図形中で比を発見する現代表の前の入口にできる。",
+      "representativeId": "b57-APP108-P193-01-B",
+      "decision": "同じ5:2の二組について、対応項の和・差も同じ比となる直接適用。図形中で比を発見する現代表の前の入口にできる。",
+      "prerequisites": []
+    },
+    {
+      "id": "b57.APP108-P200-01-A",
+      "name": "突き刺さりから地面に平行補助線／KB200③例",
+      "domain": "円柱の影と相似",
+      "definition": "③例だけ応用候補として採用し、①例(2)は基本追加を見送る案を推奨。段差と壁をつなぐ①(2)は既存①(1)より単純とは言えない。円柱と壁の影から傾きを復元する③は条件統合を増やす。",
+      "representativeId": "b57-APP108-P200-01-A",
+      "decision": "③例だけ応用候補として採用し、①例(2)は基本追加を見送る案を推奨。段差と壁をつなぐ①(2)は既存①(1)より単純とは言えない。円柱と壁の影から傾きを復元する③は条件統合を増やす。",
       "prerequisites": []
     }
   ],

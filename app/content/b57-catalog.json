@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "B57-playable84-2026-10-16",
+  "version": "B57-playable84-complete-2026-10-16",
   "sourceArtifact": "代表問棚卸し_B57細分類対応_108件承認反映_20261015.json",
   "sourceSha256": "ffa7e6a4fec925af05c3c7a7e12b87aacce59c83659613b867f11807617042e1",
   "classification": "B57（分類定義は読取専用）",
@@ -78907,11 +78907,11 @@
     },
     {
       "inventoryId": "APP108-P193-01-B",
-      "appProblemId": null,
+      "appProblemId": "b57-APP108-P193-01-B",
       "questionId": "KB193①反(2)",
       "name": "加比の理／KB193①反(2)",
       "adoptionStatus": "採用済み",
-      "deliveryStatus": "品質保留",
+      "deliveryStatus": "出題可能",
       "primaryMappings": [
         {
           "part": "KB193①反(2)",
@@ -78928,10 +78928,10 @@
       "comparisonApproved": "比較用評価をユーザー承認。原資料の難度とは別尺度。",
       "source": {
         "path": "/算数DB/原本/コベツバ/共通の型/point193_共通の型_教材問題解答セット.pdf",
-        "pdf_page": null,
-        "additional_page_location": "本文 KB193①反／対象 KB193①反(2)。PDF物理ページ未再照合。",
-        "method": "B57小問ID完全一致・承認済み判断案・KB本文照合",
-        "verified_this_inventory": false
+        "pdf_page": 2,
+        "additional_page_location": "元PDF物理2ページ／KB193①反(2)。解答：物理6ページ",
+        "method": "問題・原図・印刷解答・B18検証記録を照合",
+        "verified_this_inventory": true
       },
       "designation": {
         "status": "ユーザー承認により本成果物上で採用",
@@ -78941,19 +78941,27 @@
         "note": "既存Notion・アプリの代表指定は変更しない。"
       },
       "quality": {
-        "current": [
-          {
-            "type": "教材化確認保留",
-            "text": "原PDF物理p.3の反復問題は「はじめ聖・栄の貯金比5:6、毎日200円・240円を貯金し、聖が24000円の日の栄の額」を問う単独問題で、指定KB193①反(2)の「同じ5:2の二組の和・差比」と条件・設問番号が一致しません。内容を別問題へ置き換えて出題するとB57小問IDを誤付与するため保留します。",
-            "date": "2026-10-16"
-          }
-        ],
+        "current": [],
         "inherited": [],
         "additional": [],
         "relatedPoint": [],
         "verificationLimit": "今回全解答再検算・全PDF再目視は実施していない。"
       },
-      "qualityHistory": [],
+      "qualityHistory": [
+        {
+          "date": "2026-10-16",
+          "previous": [
+            {
+              "type": "教材化確認保留",
+              "text": "原PDF物理p.3の反復問題は「はじめ聖・栄の貯金比5:6、毎日200円・240円を貯金し、聖が24000円の日の栄の額」を問う単独問題で、指定KB193①反(2)の「同じ5:2の二組の和・差比」と条件・設問番号が一致しません。内容を別問題へ置き換えて出題するとB57小問IDを誤付与するため保留します。",
+              "date": "2026-10-16"
+            }
+          ],
+          "resolution": "正しい①反復(2)はPDF2ページ下段。採用記録と一致し、原本の欠落・条件不一致はない。",
+          "status": "教材化保留解除",
+          "approval": "ユーザーが2問の整備・保留解除・通常出題を承認"
+        }
+      ],
       "approvedCorrectConditions": null
     },
     {
@@ -79178,11 +79186,11 @@
     },
     {
       "inventoryId": "APP108-P200-01-A",
-      "appProblemId": null,
+      "appProblemId": "b57-APP108-P200-01-A",
       "questionId": "KB200③例",
       "name": "突き刺さりから地面に平行補助線／KB200③例",
       "adoptionStatus": "採用済み",
-      "deliveryStatus": "品質保留",
+      "deliveryStatus": "出題可能",
       "primaryMappings": [
         {
           "part": "KB200③例",
@@ -79199,10 +79207,10 @@
       "comparisonApproved": "比較用評価をユーザー承認。原資料の難度とは別尺度。",
       "source": {
         "path": "/算数DB/原本/コベツバ/共通の型/point200_共通の型_教材問題解答セット.pdf",
-        "pdf_page": null,
-        "additional_page_location": "本文 KB200③例／対象 KB200③例。PDF物理ページ未再照合。",
-        "method": "B57小問ID完全一致・承認済み判断案・KB本文照合",
-        "verified_this_inventory": false
+        "pdf_page": 6,
+        "additional_page_location": "元PDF物理6ページ／KB200③例。解答：物理8ページ",
+        "method": "問題・原図・印刷解答・B18検証記録を照合",
+        "verified_this_inventory": true
       },
       "designation": {
         "status": "ユーザー承認により本成果物上で採用",
@@ -79214,8 +79222,9 @@
       "quality": {
         "current": [
           {
-            "type": "教材化確認保留",
-            "text": "原PDF物理p.6の図と指定KB式の水平距離の対応を独立に確定できません。図の40cmと円柱直径30cm・壁の影の15cmから、解説で使う110cm（2×40+2×15）を図上で根拠づけられず、別の読みでは85cmとなります。原PDF物理p.8には公式答え125cmとありますが、正しい図解説を確認できるまで保留します。",
+            "type": "旧DB説明の品質記録",
+            "text": "旧DBの「傾きa/(2r)、水平距離2d+2r」は物理解釈が不正確。答えは同値変形により一致する。旧DB本文の品質上の保留・出典・訂正経緯は残す。原本の誤りではない。",
+            "deliveryBlocking": false,
             "date": "2026-10-16"
           }
         ],
@@ -79261,7 +79270,21 @@
         ],
         "verificationLimit": "今回全解答再検算・全PDF再目視は実施していない。"
       },
-      "qualityHistory": [],
+      "qualityHistory": [
+        {
+          "date": "2026-10-16",
+          "previous": [
+            {
+              "type": "教材化確認保留",
+              "text": "原PDF物理p.6の図と指定KB式の水平距離の対応を独立に確定できません。図の40cmと円柱直径30cm・壁の影の15cmから、解説で使う110cm（2×40+2×15）を図上で根拠づけられず、別の読みでは85cmとなります。原PDF物理p.8には公式答え125cmとありますが、正しい図解説を確認できるまで保留します。",
+              "date": "2026-10-16"
+            }
+          ],
+          "resolution": "B18で検証済みの正しい対応は、壁の高さ差30cmと半径15cm。B57にもDB説明の品質記録がある。原図・印刷解答・独立計算は125cmで一致する。",
+          "status": "教材化保留解除",
+          "approval": "ユーザーが2問の整備・保留解除・通常出題を承認"
+        }
+      ],
       "approvedCorrectConditions": null
     },
     {
@@ -91134,11 +91157,10 @@
       },
       "qualityReference": [],
       "playableLevels": [
+        "基本",
         "応用"
       ],
-      "deliveryHoldIds": [
-        "APP108-P193-01-B"
-      ]
+      "deliveryHoldIds": []
     },
     {
       "id": "P194-01",
@@ -91674,10 +91696,10 @@
           "status": "B57 holds欄に記録。小問別の最新判定と照合するまで文面を保持。"
         }
       ],
-      "playableLevels": [],
-      "deliveryHoldIds": [
-        "APP108-P200-01-A"
-      ]
+      "playableLevels": [
+        "応用"
+      ],
+      "deliveryHoldIds": []
     },
     {
       "id": "P201-01",
@@ -101331,10 +101353,10 @@
   ],
   "counts": {
     "adopted": 937,
-    "runtimeLinked": 717,
+    "runtimeLinked": 719,
     "delivery": {
-      "出題可能": 716,
-      "品質保留": 4,
+      "出題可能": 718,
+      "品質保留": 2,
       "教材化待ち": 217
     }
   },
@@ -101346,8 +101368,8 @@
   "deliveryRound": {
     "date": "2026-10-16",
     "requested": 84,
-    "ready": 82,
-    "held": 2,
+    "ready": 84,
+    "held": 0,
     "records": [
       {
         "inventoryId": "APP108-P009-01-A",
@@ -102049,17 +102071,20 @@
       {
         "inventoryId": "APP108-P193-01-B",
         "questionId": "KB193①反(2)",
-        "status": "hold",
-        "holdReason": "原PDF物理p.3の反復問題は「はじめ聖・栄の貯金比5:6、毎日200円・240円を貯金し、聖が24000円の日の栄の額」を問う単独問題で、指定KB193①反(2)の「同じ5:2の二組の和・差比」と条件・設問番号が一致しません。内容を別問題へ置き換えて出題するとB57小問IDを誤付与するため保留します。",
+        "status": "ready",
+        "holdReason": null,
         "pdfPath": "C:/Users/tsuzu/Dropbox/算数DB/原本/コベツバ/共通の型/point193_共通の型_教材問題解答セット.pdf",
-        "pdfPage": 3,
-        "answerPage": null,
-        "verification": "原PDF物理p.3をレンダリングして本文とページ下部のPoint193「加比の理」を目視確認。KB本文との対象条件不一致を確認。",
-        "independentCheck": "初期比5:6と毎日の貯金比200:240=5:6が等しいため比は保たれ、24000×6/5=28800円。ただし指定KB193①反(2)とは別問題のため教材化しない。",
+        "pdfPage": 2,
+        "answerPage": 6,
+        "verification": "正しい①反復(2)はPDF2ページ下段。採用記録と一致し、原本の欠落・条件不一致はない。",
+        "independentCheck": "A=5x、B=2x、C=5y、D=2yと置く。 A>Cよりx>yで、差は正。 A−C=5(x−y)、B−D=2(x−y)。 共通の(x−y)を除き、比は5:2。",
         "figureLocalPath": null,
         "subdivisionId": "P193-01",
         "originalSha256": "192c6d459b6cf198c052e7a0232bc7c4bbe6798667aafeb2e05c26ee24025cd1",
-        "rootReview": ""
+        "rootReview": "原本参照をPDF2ページの①反復(2)に合わせ、この条件と段階解説で出題保留を解除する。専用図は不要。",
+        "appProblemId": "b57-APP108-P193-01-B",
+        "runtimeDifficulty": 2,
+        "comparisonDifficulty": "基本"
       },
       {
         "inventoryId": "APP108-P195-01-B",
@@ -102140,17 +102165,21 @@
       {
         "inventoryId": "APP108-P200-01-A",
         "questionId": "KB200③例",
-        "status": "hold",
-        "holdReason": "原PDF物理p.6の図と指定KB式の水平距離の対応を独立に確定できません。図の40cmと円柱直径30cm・壁の影の15cmから、解説で使う110cm（2×40+2×15）を図上で根拠づけられず、別の読みでは85cmとなります。原PDF物理p.8には公式答え125cmとありますが、正しい図解説を確認できるまで保留します。",
+        "status": "ready",
+        "holdReason": null,
         "pdfPath": "C:/Users/tsuzu/Dropbox/算数DB/原本/コベツバ/共通の型/point200_共通の型_教材問題解答セット.pdf",
         "pdfPage": 6,
         "answerPage": 8,
-        "verification": "原PDF物理p.6の問題図・条件と物理p.8の解答欄「③例題125cm」を目視。指定KB本文の相似式も照合したが、図中40cmと式の水平距離の対応は独立確認できず。",
-        "independentCheck": "指定KB式 h=15+30×(2×40+2×15)/(2×15) では125cm、原PDF解答欄も125cm。一方、物理p.6の図から水平距離の重ね方を確定できず、独立した図解説は未成立。",
+        "verification": "B18で検証済みの正しい対応は、壁の高さ差30cmと半径15cm。B57にもDB説明の品質記録がある。原図・印刷解答・独立計算は125cmで一致する。",
+        "independentCheck": "壁の影の高さ差30cmは、円柱上面の中心から壁に近い縁までの半径15cmに対応する。 平行光線は水平15cmにつき30cm下がるので、鉛直/水平の比は2。 上面の中心から壁までの水平距離は15+40=55cm。 円柱の高さは15+2×55=125cm。",
         "figureLocalPath": null,
         "subdivisionId": "P200-01",
         "originalSha256": "e37fae5a75834062349245d7ac8b1d30d36ef0b7e68d3ad3d336a1428ef385c8",
-        "rootReview": ""
+        "rootReview": "原本PDF6ページの図を使い、30/15と40+15の対応を明示した段階解説で出題保留を解除する。原図と説明が同時に見える形にする。",
+        "appProblemId": "b57-APP108-P200-01-A",
+        "runtimeDifficulty": 6,
+        "comparisonDifficulty": "応用",
+        "figureSha256": "53d0912b971e2148a9a5864e8fe0ed381ca5b7f744418e47e5ef3fa318b57682"
       },
       {
         "inventoryId": "APP108-P203-01-A",
