@@ -1725,5 +1725,401 @@
    "notionDb": 4,
    "reason": "Notion問題DBの4S12L⑥-2は大問全体（小問1〜3）の1行でD4。アプリの1問目（小問1）は一問一答ページの見直しD3が正しい（ユーザー確認 2026-10-17）"
   }
- ]
+ ],
+ "uwanoseSync": {
+  "date": "2026-10-18",
+  "note": "コベツバ3,290行の上乗せをNotionで判定・入力したあとの再整合",
+  "changes": [
+   {
+    "id": "sync70-1c48099184c4d28c",
+    "previous": 2,
+    "notion": 3,
+    "notionTitle": "KB194②例 Point194「縮尺」（グレード2）"
+   },
+   {
+    "id": "notion70-f7fdec10f6ccc0b5",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB43②例 Point43「組み合わせ(Cの利用)」（グレ"
+   },
+   {
+    "id": "notion70-0d02fd268db1464f",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB132②例 Point132「時間のイチイチ」（グレード"
+   },
+   {
+    "id": "b57-APP108-P011-01-A",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB11③例 Point11「1からの個数を求めて引く」（グ"
+   },
+   {
+    "id": "b57-APP108-P024-01-A",
+    "previous": 2,
+    "notion": 3,
+    "notionTitle": "KB24③例 Point24「2つの和差算」（グレード1）"
+   },
+   {
+    "id": "b57-APP108-P036-02-S",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB36③例 Point36「等差数列」（グレード1）"
+   },
+   {
+    "id": "b57-APP108-P038-01-S",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB38③例 Point38「群数列」（グレード1）"
+   },
+   {
+    "id": "b57-APP108-P052-01-A",
+    "previous": 2,
+    "notion": 3,
+    "notionTitle": "KB52②例 Point52「外角定理」（グレード1）"
+   },
+   {
+    "id": "b57-APP108-P057-01-A",
+    "previous": 2,
+    "notion": 3,
+    "notionTitle": "KB57③例 Point57「正方形=対角線×対角線÷2」（"
+   },
+   {
+    "id": "b57-APP108-P059-01-S",
+    "previous": 2,
+    "notion": 3,
+    "notionTitle": "KB59③例 Point59「四角形の図形の性質」（グレード"
+   },
+   {
+    "id": "b57-APP108-P060-01-B",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB60③例 Point60「周の延長解法」（グレード1）"
+   },
+   {
+    "id": "b57-APP108-P074-01-S",
+    "previous": 4,
+    "notion": 6,
+    "notionTitle": "KB74③例 Point74「上から見た図で推論」（グレード"
+   },
+   {
+    "id": "b57-APP108-P076-01-A",
+    "previous": 3,
+    "notion": 5,
+    "notionTitle": "KB76③例 Point76「正八面体のナナメ頂点打ち」（グ"
+   },
+   {
+    "id": "b57-APP108-P079-01-A",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB79③例 Point79「速さのつるかめ」（グレード1）"
+   },
+   {
+    "id": "b57-APP108-P085-01-A",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB85③例 Point85「石入れ」（グレード1）"
+   },
+   {
+    "id": "b57-APP108-P090-01-A",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB90③例 Point90「約分前の分数→分子・分母を○で"
+   },
+   {
+    "id": "b57-APP108-P092-01-A",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB92③例 Point92「倍数判定法(3、9)」（グレー"
+   },
+   {
+    "id": "b57-APP108-P094-01-A",
+    "previous": 3,
+    "notion": 5,
+    "notionTitle": "KB94③例 Point94「倍数判定法(11)」（グレード"
+   },
+   {
+    "id": "b57-APP108-P121-02-S",
+    "previous": 2,
+    "notion": 4,
+    "notionTitle": "KB121③例 Point121「和差の奇偶一致」（グレード"
+   },
+   {
+    "id": "b57-APP108-P130-01-S",
+    "previous": 2,
+    "notion": 3,
+    "notionTitle": "KB130②例 Point130「トーナメント」（グレード1"
+   },
+   {
+    "id": "b57-APP108-P138-01-A",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB138③例 Point138「ガづくり」（グレード1）"
+   },
+   {
+    "id": "b57-APP108-P141-01-S",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB141③例 Point141「円周角=90°」（グレード"
+   },
+   {
+    "id": "b57-APP108-P146-01-A",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB146③例 Point146「半径×半径」（グレード1）"
+   },
+   {
+    "id": "b57-APP108-P148-01-A",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB148③例 Point148「高さの和の利用」（グレード"
+   },
+   {
+    "id": "b57-APP108-P151-01-A",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB151③例 Point151「等積変形(道)」（グレード"
+   },
+   {
+    "id": "b57-APP108-P165-01-A",
+    "previous": 2,
+    "notion": 4,
+    "notionTitle": "KB165③例 Point165「休み歩き」（グレード1）"
+   },
+   {
+    "id": "b57-APP108-P185-01-A",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB185③反 Point185「×＝×の逆比」（グレード2"
+   },
+   {
+    "id": "b57-APP108-P186-01-S",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB186②反 Point186「3つの逆比」（グレード2）"
+   },
+   {
+    "id": "b57-APP108-P190-01-A",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB190③反 Point190「3つ目の比の場所で比例式」"
+   },
+   {
+    "id": "b57-APP108-P192-01-A",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB192③反 Point192「歯車の積一定(割合有)」（"
+   },
+   {
+    "id": "b57-APP108-P196-01-A",
+    "previous": 4,
+    "notion": 6,
+    "notionTitle": "KB196③反 Point196「チョウチョ」（グレード2）"
+   },
+   {
+    "id": "b57-APP108-P203-01-A",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB203③反 Point203「面→相」（グレード2）"
+   },
+   {
+    "id": "b57-APP108-P204-01-A",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB204③反 Point204「区切り面積」（グレード2）"
+   },
+   {
+    "id": "b57-APP108-P207-01-A",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB207③反 Point207「足して180°の隣辺比」（"
+   },
+   {
+    "id": "b57-APP108-P208-01-A",
+    "previous": 5,
+    "notion": 6,
+    "notionTitle": "KB208③反 Point208「台形ペケポン」（グレード2"
+   },
+   {
+    "id": "b57-APP108-P212-01-A",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB212③反 Point212「時間一定折り返し型」（グレ"
+   },
+   {
+    "id": "b57-APP108-P213-01-A",
+    "previous": 3,
+    "notion": 5,
+    "notionTitle": "KB213③反 Point213「速さの『の比の比』」（グレ"
+   },
+   {
+    "id": "b57-APP108-P216-01-A",
+    "previous": 4,
+    "notion": 6,
+    "notionTitle": "KB216③反 Point216「間隔でキョリ一定」（グレー"
+   },
+   {
+    "id": "b57-APP108-P217-02-A",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB217③例 Point217「ダイヤグラムの基本」（グレ"
+   },
+   {
+    "id": "b57-APP108-P219-01-A",
+    "previous": 3,
+    "notion": 5,
+    "notionTitle": "KB219③例 Point219「ダイヤグラムの相似」（グレ"
+   },
+   {
+    "id": "b57-APP108-P220-01-A",
+    "previous": 3,
+    "notion": 6,
+    "notionTitle": "KB220③例 Point220「ダイヤグラムの距離一定」（"
+   },
+   {
+    "id": "b57-APP108-P222-01-A",
+    "previous": 3,
+    "notion": 6,
+    "notionTitle": "KB222③例 Point222「へだたりグラフの基本」（グ"
+   },
+   {
+    "id": "b57-APP108-P223-01-A",
+    "previous": 4,
+    "notion": 6,
+    "notionTitle": "KB223②反 Point223「角速度求め」（グレード2）"
+   },
+   {
+    "id": "b57-APP108-P226-01-A",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB226③例 Point226「2列の速さ整理」（グレード"
+   },
+   {
+    "id": "b57-APP108-P229-01-A",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB229③反 Point229「三角形の面積変化グラフ」（"
+   },
+   {
+    "id": "b57-APP108-P233-01-A",
+    "previous": 4,
+    "notion": 6,
+    "notionTitle": "KB233③反 Point233「おうぎ形の転がり移動」（グ"
+   },
+   {
+    "id": "b57-APP108-P237-01-B",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB237①例 Point237「サイコロの和分解」（グレー"
+   },
+   {
+    "id": "b57-APP108-P238-01-A",
+    "previous": 2,
+    "notion": 5,
+    "notionTitle": "KB238③例 Point238「同じ数が複数ある並べ方」（"
+   },
+   {
+    "id": "b57-APP108-P240-01-S",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB240③例 Point240「当選確実」（グレード2）"
+   },
+   {
+    "id": "b57-APP108-P241-01-A",
+    "previous": 3,
+    "notion": 5,
+    "notionTitle": "KB241③例 Point241「途中開始の当選確実」（グレ"
+   },
+   {
+    "id": "b57-APP108-P242-01-A",
+    "previous": 4,
+    "notion": 6,
+    "notionTitle": "KB242③例 Point242「相→体」（グレード2）"
+   },
+   {
+    "id": "b57-APP108-P243-01-S",
+    "previous": 2,
+    "notion": 3,
+    "notionTitle": "KB243③例 Point243「スーパー三角形」（グレード"
+   },
+   {
+    "id": "b57-APP108-P244-01-A",
+    "previous": 4,
+    "notion": 6,
+    "notionTitle": "KB244③例 Point244「スーパー台形」（グレード2"
+   },
+   {
+    "id": "b57-APP108-P245-01-S",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB245③例 Point245「円すいの回転数」（グレード"
+   },
+   {
+    "id": "b57-APP108-P246-01-A",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB246③例 Point246「円すい糸巻き」（グレード2"
+   },
+   {
+    "id": "b57-APP108-P248-01-A",
+    "previous": 3,
+    "notion": 5,
+    "notionTitle": "KB248③例 Point248「→補助線」（グレード2）"
+   },
+   {
+    "id": "b57-APP108-P249-01-A",
+    "previous": 4,
+    "notion": 5,
+    "notionTitle": "KB249③反 Point249「元の立体を使って推論」（グ"
+   },
+   {
+    "id": "b57-APP108-P252-02-A",
+    "previous": 4,
+    "notion": 6,
+    "notionTitle": "KB252③反 Point252「全部バラバラ」（グレード2"
+   },
+   {
+    "id": "b57-APP108-P254-01-S",
+    "previous": 3,
+    "notion": 4,
+    "notionTitle": "KB254③例 Point254「差のつるかめ」（グレード2"
+   },
+   {
+    "id": "b57-APP108-P256-01-A",
+    "previous": 3,
+    "notion": 5,
+    "notionTitle": "KB256③例 Point256「セットのつるかめ」（グレー"
+   },
+   {
+    "id": "b57-APP108-P257-01-A",
+    "previous": 3,
+    "notion": 5,
+    "notionTitle": "KB257③反 Point257「じゃんけんの和差注目」（グ"
+   },
+   {
+    "id": "b57-APP108-P258-01-S",
+    "previous": 2,
+    "notion": 3,
+    "notionTitle": "KB258③例 Point258「植木算の規則性解法」（グレ"
+   },
+   {
+    "id": "b57-APP108-P259-01-A",
+    "previous": 3,
+    "notion": 5,
+    "notionTitle": "KB259③反 Point259「不公平の過不足」（グレード"
+   },
+   {
+    "id": "b57-APP108-P260-01-A",
+    "previous": 3,
+    "notion": 5,
+    "notionTitle": "KB260③例 Point260「配るもの違いの過不足算」（"
+   },
+   {
+    "id": "b57-APP108-P200-01-A",
+    "previous": 4,
+    "notion": 6,
+    "notionTitle": "KB200③例 Point200「突き刺さりから地面に平行補"
+   }
+  ]
+ }
 }

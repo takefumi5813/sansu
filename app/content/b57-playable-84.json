@@ -114,7 +114,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -461,7 +461,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -540,7 +540,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -619,7 +619,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -699,7 +699,7 @@
         "dimension": "scalar",
         "display": "decimal"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -779,7 +779,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -859,7 +859,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -938,7 +938,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -1018,7 +1018,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 6,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -1132,7 +1132,7 @@
           }
         ]
       },
-      "difficulty": 3,
+      "difficulty": 5,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -1212,7 +1212,7 @@
         "unit": "m",
         "dimension": "length"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -1292,7 +1292,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -1372,7 +1372,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -1451,7 +1451,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -1530,7 +1530,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -1692,7 +1692,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -1771,7 +1771,7 @@
         "unit": "試合",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -1850,7 +1850,7 @@
         "unit": "°",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -1930,7 +1930,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -2015,7 +2015,7 @@
         },
         "display": "decimal"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -2101,7 +2101,7 @@
         },
         "display": "decimal"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -2186,7 +2186,7 @@
           "平方センチメートル": "1"
         }
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -2388,7 +2388,7 @@
         "unit": "秒",
         "dimension": "time"
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -2831,7 +2831,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -2919,7 +2919,7 @@
         "unit": "円",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -3095,7 +3095,7 @@
         "unit": "分",
         "dimension": "time"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -3183,7 +3183,7 @@
         "unit": "秒",
         "dimension": "time"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -3361,7 +3361,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 4,
+      "difficulty": 6,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -3634,7 +3634,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -3727,7 +3727,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -3891,7 +3891,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -3997,7 +3997,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 5,
+      "difficulty": 6,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -4084,7 +4084,7 @@
         "unit": "km",
         "dimension": "length"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -4181,7 +4181,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 5,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -4288,7 +4288,7 @@
           }
         ]
       },
-      "difficulty": 4,
+      "difficulty": 6,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -4376,7 +4376,7 @@
         "unit": "分",
         "dimension": "time"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -4465,7 +4465,7 @@
         "unit": "時間",
         "dimension": "time"
       },
-      "difficulty": 3,
+      "difficulty": 5,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -4554,7 +4554,7 @@
         "unit": "分",
         "dimension": "time"
       },
-      "difficulty": 3,
+      "difficulty": 6,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -4642,7 +4642,7 @@
         "unit": "分",
         "dimension": "time"
       },
-      "difficulty": 3,
+      "difficulty": 6,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -4731,7 +4731,7 @@
         "unit": "秒",
         "dimension": "time"
       },
-      "difficulty": 4,
+      "difficulty": 6,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -4827,7 +4827,7 @@
           "m/s": "18/5"
         }
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -5017,7 +5017,7 @@
           }
         ]
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -5107,7 +5107,7 @@
         "dimension": "area",
         "display": "decimal"
       },
-      "difficulty": 4,
+      "difficulty": 6,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -5372,7 +5372,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -5460,7 +5460,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 5,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -5560,7 +5560,7 @@
           }
         ]
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -5648,7 +5648,7 @@
         "unit": "票",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 5,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -5736,7 +5736,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 4,
+      "difficulty": 6,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -5826,7 +5826,7 @@
         "dimension": "area",
         "display": "decimal"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -5916,7 +5916,7 @@
         "dimension": "area",
         "display": "decimal"
       },
-      "difficulty": 4,
+      "difficulty": 6,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -6005,7 +6005,7 @@
         "unit": "回転",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -6094,7 +6094,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -6190,7 +6190,7 @@
         "dimension": "text",
         "unit": ""
       },
-      "difficulty": 3,
+      "difficulty": 5,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -6279,7 +6279,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -6635,7 +6635,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 4,
+      "difficulty": 6,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -6724,7 +6724,7 @@
         "unit": "m",
         "dimension": "length"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -6812,7 +6812,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 5,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -6900,7 +6900,7 @@
         "unit": "回",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 5,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -6988,7 +6988,7 @@
         "unit": "度",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -7077,7 +7077,7 @@
         "unit": "人",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 5,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -7165,7 +7165,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 5,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -7336,7 +7336,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 4,
+      "difficulty": 6,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,

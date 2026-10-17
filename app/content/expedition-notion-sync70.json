@@ -985,7 +985,7 @@
         "unit": "km²",
         "dimension": "area"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -4504,7 +4504,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -4582,7 +4582,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
