@@ -33227,12 +33227,12 @@
         ]
       },
       "score": 36,
-      "star": 2,
-      "difficulty": 7,
+      "star": 1,
+      "difficulty": 5,
       "curation": {
         "active": true,
-        "tier": "advanced",
-        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。（2026-10-17 Notionの難易度方針に合わせて応用→標準：分数・小数・分配法則だけでは応用にしない）",
         "skill": "R25計算マスター K-6",
         "representativeKey": "3fb2b010743c8147b775d3fcce087a4e:1"
       },
@@ -33941,11 +33941,11 @@
         ]
       },
       "score": 36,
-      "star": 2,
-      "difficulty": 7,
+      "star": 1,
+      "difficulty": 5,
       "curation": {
         "active": false,
-        "tier": "advanced",
+        "tier": "standard",
         "reason": "表面（R25K-6）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
         "skill": "R25計算マスター K-6",
         "representativeKey": "3fb2b010743c8147b775d3fcce087a4e:1"
@@ -34643,12 +34643,12 @@
         ]
       },
       "score": 15,
-      "star": 2,
+      "star": 1,
       "difficulty": 5,
       "curation": {
         "active": true,
-        "tier": "advanced",
-        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。",
+        "tier": "standard",
+        "reason": "R25（10/16授業）の計算マスター。原式どおりの代表として出題する。（2026-10-17 Notionの難易度方針に合わせて応用→標準：分数・小数・分配法則だけでは応用にしない）",
         "skill": "R25計算マスター K-19",
         "representativeKey": "3fb2b010743c81759c96db5c71c3761b:1"
       },
@@ -35078,11 +35078,11 @@
         ]
       },
       "score": 15,
-      "star": 2,
+      "star": 1,
       "difficulty": 5,
       "curation": {
         "active": false,
-        "tier": "advanced",
+        "tier": "standard",
         "reason": "表面（R25K-19）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
         "skill": "R25計算マスター K-19",
         "representativeKey": "3fb2b010743c81759c96db5c71c3761b:1"
