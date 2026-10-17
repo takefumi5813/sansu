@@ -1,0 +1,1646 @@
+{
+ "date": "2026-10-17",
+ "rule": "アプリの出題はNotion問題DBの難易度（型の基礎難度の最大＋上乗せ）にそろえる。計算はNotion「一問一答・問題と解説」の区分。",
+ "changes": [
+  {
+   "id": "4R17N⑦-3",
+   "file": "content/expedition-geometry.json",
+   "previous": 5,
+   "notion": 4,
+   "notionTitle": "4R17N⑦-3",
+   "types": [
+    "V04",
+    "V02"
+   ],
+   "baseMax": 4,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "4R18N①-3",
+   "file": "content/expedition-geometry.json",
+   "previous": 2,
+   "notion": 3,
+   "notionTitle": "4R18N①-3",
+   "types": [
+    "V02",
+    "V01"
+   ],
+   "baseMax": 3,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "4R20N③-1",
+   "file": "content/expedition-geometry.json",
+   "previous": 3,
+   "notion": 4,
+   "notionTitle": "4R20N③-1",
+   "types": [
+    "F08"
+   ],
+   "baseMax": 4,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "4R21T③-3",
+   "file": "content/expedition-geometry.json",
+   "previous": 5,
+   "notion": 4,
+   "notionTitle": "4R21T③-3",
+   "types": [
+    "F08",
+    "F15"
+   ],
+   "baseMax": 4,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "R01N③-1",
+   "file": "content/expedition-geometry.json",
+   "previous": 3,
+   "notion": 4,
+   "notionTitle": "R01N③-1",
+   "types": [
+    "F11"
+   ],
+   "baseMax": 4,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "R01N③-2",
+   "file": "content/expedition-geometry.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "R01N③-2",
+   "types": [
+    "F10"
+   ],
+   "baseMax": 3,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "R01N⑥-2",
+   "file": "content/expedition-geometry.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "R01N⑥-2",
+   "types": [
+    "F06",
+    "F09"
+   ],
+   "baseMax": 2,
+   "uwanose": 1,
+   "flags": []
+  },
+  {
+   "id": "R12N⑦-2",
+   "file": "content/expedition-geometry.json",
+   "previous": 6,
+   "notion": 5,
+   "notionTitle": "R12N⑦-2",
+   "types": [
+    "V05",
+    "V02"
+   ],
+   "baseMax": 3,
+   "uwanose": 2,
+   "flags": []
+  },
+  {
+   "id": "R14N⑤-3",
+   "file": "content/expedition-geometry.json",
+   "previous": 5,
+   "notion": 4,
+   "notionTitle": "R14N⑤-3",
+   "types": [
+    "V07"
+   ],
+   "baseMax": 4,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "R24T⑥-1(5)",
+   "file": "content/selected-geometry.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "R24T⑥-1",
+   "types": [
+    "N01",
+    "N04",
+    "W04",
+    "W09",
+    "F03"
+   ],
+   "baseMax": 3,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "R25H②-4",
+   "file": "content/selected-r25-oneline.json",
+   "previous": 5,
+   "notion": 4,
+   "notionTitle": "R25H②-4",
+   "types": [
+    "P13",
+    "P12"
+   ],
+   "baseMax": 4,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "S09H①-2(4)",
+   "file": "content/expedition-geometry.json",
+   "previous": 3,
+   "notion": 2,
+   "notionTitle": "S09H①-2",
+   "types": [
+    "F13"
+   ],
+   "baseMax": 2,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "TS平11-1",
+   "file": "content/expedition-tesuji.json",
+   "previous": 5,
+   "notion": 6,
+   "notionTitle": "TS平11",
+   "types": [
+    "FTS11"
+   ],
+   "baseMax": 5,
+   "uwanose": 1,
+   "flags": []
+  },
+  {
+   "id": "b57-APP108-P009-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB9③例 Point9「整数の割り算と約数線分図」（グレード1）",
+   "types": [
+    "N03"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB9③例(2)->KB9③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P011-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB11③例 Point11「1からの個数を求めて引く」（グレード1）",
+   "types": [
+    "N04"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P013-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "KB13③例 Point13「LCM（最小公倍数）求め」（グレード1）",
+   "types": [
+    "N04"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P014-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB14③例 Point14「最小公倍数(LCM)と公倍数」（グレード1）",
+   "types": [
+    "N04"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P017-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "KB17③例 Point17「GCM/LCMからの逆算」（グレード1）",
+   "types": [
+    "N04"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB17③例(1)->KB17③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P024-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 2,
+   "notionTitle": "KB24③例 Point24「2つの和差算」（グレード1）",
+   "types": [
+    "X02"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB24③例(1)->KB24③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P036-02-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "KB36③例 Point36「等差数列」（グレード1）",
+   "types": [
+    "Q02"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB36③例(2)->KB36③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P052-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 2,
+   "notionTitle": "KB52②例 Point52「外角定理」（グレード1）",
+   "types": [
+    "F02"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P057-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 2,
+   "notionTitle": "KB57③例 Point57「正方形=対角線×対角線÷2」（グレード1）",
+   "types": [
+    "F06"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P059-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 2,
+   "notionTitle": "KB59③例 Point59「四角形の図形の性質」（グレード1）",
+   "types": [
+    "F01"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P060-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 3,
+   "notionTitle": "KB60③例 Point60「周の延長解法」（グレード1）",
+   "types": [
+    "FTS01"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB60③例(1)->KB60③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P076-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB76③例 Point76「正八面体のナナメ頂点打ち」（グレード1）",
+   "types": [
+    "V03"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P079-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB79③例 Point79「速さのつるかめ」（グレード1）",
+   "types": [
+    "T13"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P085-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB85③例 Point85「石入れ」（グレード1）",
+   "types": [
+    "V05"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB85③例(1)->KB85③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P090-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB90③例 Point90「約分前の分数→分子・分母を○でおく」（グレード1）",
+   "types": [
+    "N06"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P092-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB92③例 Point92「倍数判定法(3、9)」（グレード1）",
+   "types": [
+    "N04"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB92③例(1)->KB92③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P094-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB94③例 Point94「倍数判定法(11)」（グレード1）",
+   "types": [
+    "N04"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P101-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB101③例 Point101「既約分数(個数と和)」（グレード1）",
+   "types": [
+    "N06"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB101③例-個数->KB101③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P121-02-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 2,
+   "notionTitle": "KB121③例 Point121「和差の奇偶一致」（グレード1）",
+   "types": [
+    "X02"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P130-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 2,
+   "notionTitle": "KB130②例 Point130「トーナメント」（グレード1）",
+   "types": [
+    "C01"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P138-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB138③例 Point138「ガづくり」（グレード1）",
+   "types": [
+    "F04"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P141-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "KB141③例 Point141「円周角=90°」（グレード1）",
+   "types": [
+    "FTS08"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P146-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB146③例 Point146「半径×半径」（グレード1）",
+   "types": [
+    "F10"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P148-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB148③例 Point148「高さの和の利用」（グレード1）",
+   "types": [
+    "F08"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P151-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB151③例 Point151「等積変形(道)」（グレード1）",
+   "types": [
+    "F08"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P162-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 4,
+   "notionTitle": "KB162①例 Point162「水の入る順序と正面から見た図」（グレード1）",
+   "types": [
+    "V06"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P165-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 2,
+   "notionTitle": "KB165③例 Point165「休み歩き」（グレード1）",
+   "types": [
+    "T12"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P177-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 2,
+   "notionTitle": "KB177②反 Point177「歩合」（グレード2）",
+   "types": [
+    "P01"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB177②反(5)->KB177②反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P179-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 3,
+   "notionTitle": "KB179①反 Point179「増減の割合」（グレード2）",
+   "types": [
+    "P02"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB179①反(4)->KB179①反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P182-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "KB182③例 Point182「はねた場所から地面に平行補助線」（グレード2）",
+   "types": [
+    "P03"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P185-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB185③反 Point185「×＝×の逆比」（グレード2）",
+   "types": [
+    "P12"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB185③反(3)->KB185③反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P186-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "KB186②反 Point186「3つの逆比」（グレード2）",
+   "types": [
+    "P12"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB186②反(2)->KB186②反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P188-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 4,
+   "notionTitle": "KB188①反 Point188「和一定」（グレード2）",
+   "types": [
+    "P13"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB188①反(2)->KB188①反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P192-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB192③反 Point192「歯車の積一定(割合有)」（グレード2）",
+   "types": [
+    "P14"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB192③反(2)->KB192③反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P195-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 4,
+   "notionTitle": "KB195①例 Point195「相似の基本」（グレード2）",
+   "types": [
+    "F15"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB195①例(1)->KB195①例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P196-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB196③反 Point196「チョウチョ」（グレード2）",
+   "types": [
+    "F15"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P197-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 4,
+   "notionTitle": "KB197①反 Point197「ピラミッド」（グレード2）",
+   "types": [
+    "F15"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB197①反(3)->KB197①反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P198-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 5,
+   "notionTitle": "KB198①反 Point198「台形ピラミッドのグラフ解法」（グレード2）",
+   "types": [
+    "FTS27"
+   ],
+   "baseMax": 5,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB198①反(2)○->KB198①反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P200-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB200③例 Point200「突き刺さりから地面に平行補助線」（グレード2）",
+   "types": [
+    "F15"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P203-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB203③反 Point203「面→相」（グレード2）",
+   "types": [
+    "FTS25"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P204-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB204③反 Point204「区切り面積」（グレード2）",
+   "types": [
+    "F15"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P206-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 4,
+   "notionTitle": "KB206①反 Point206「隣辺比」（グレード2）",
+   "types": [
+    "FTS28"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB206①反(3)->KB206①反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P207-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB207③反 Point207「足して180°の隣辺比」（グレード2）",
+   "types": [
+    "FTS28"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P208-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 5,
+   "notionTitle": "KB208③反 Point208「台形ペケポン」（グレード2）",
+   "types": [
+    "FTS27"
+   ],
+   "baseMax": 5,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P212-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB212③反 Point212「時間一定折り返し型」（グレード2）",
+   "types": [
+    "T06"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P213-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB213③反 Point213「速さの『の比の比』」（グレード2）",
+   "types": [
+    "T11"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P216-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB216③反 Point216「間隔でキョリ一定」（グレード2）",
+   "types": [
+    "T24"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P217-02-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB217③例 Point217「ダイヤグラムの基本」（グレード2）",
+   "types": [
+    "T23"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB217③例(1)->KB217③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P219-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB219③例 Point219「ダイヤグラムの相似」（グレード2）",
+   "types": [
+    "T23"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB219③例(1)->KB219③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P220-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB220③例 Point220「ダイヤグラムの距離一定」（グレード2）",
+   "types": [
+    "T23"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB220③例(2)->KB220③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P222-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB222③例 Point222「へだたりグラフの基本」（グレード2）",
+   "types": [
+    "T23"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB222③例(1)->KB222③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P223-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB223②反 Point223「角速度求め」（グレード2）",
+   "types": [
+    "T26"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB223②反(3)->KB223②反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P226-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB226③例 Point226「2列の速さ整理」（グレード2）",
+   "types": [
+    "T18"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P227-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 4,
+   "notionTitle": "KB227①例 Point227「回転移動の面積」（グレード2）",
+   "types": [
+    "FTS44"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P229-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB229③反 Point229「三角形の面積変化グラフ」（グレード2）",
+   "types": [
+    "T25"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB229③反(3)->KB229③反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P233-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB233③反 Point233「おうぎ形の転がり移動」（グレード2）",
+   "types": [
+    "F11"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB233③反(2)->KB233③反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P234-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 4,
+   "notionTitle": "KB234①例 Point234「分ける(棒入れ)」（グレード2）",
+   "types": [
+    "C06"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB234①例(1)->KB234①例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P237-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 4,
+   "notionTitle": "KB237①例 Point237「サイコロの和分解」（グレード2）",
+   "types": [
+    "C06"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB237①例(1)->KB237①例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P238-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 2,
+   "notionTitle": "KB238③例 Point238「同じ数が複数ある並べ方」（グレード2）",
+   "types": [
+    "C01"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P243-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 2,
+   "notionTitle": "KB243③例 Point243「スーパー三角形」（グレード2）",
+   "types": [
+    "F09"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P244-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB244③例 Point244「スーパー台形」（グレード2）",
+   "types": [
+    "V08"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB244③例(1)->KB244③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P246-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB246③例 Point246「円すい糸巻き」（グレード2）",
+   "types": [
+    "V03"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P248-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB248③例 Point248「→補助線」（グレード2）",
+   "types": [
+    "V03"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB248③例(1)->KB248③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P249-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB249③反 Point249「元の立体を使って推論」（グレード2）",
+   "types": [
+    "V04"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB249③反(3)->KB249③反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P250-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 4,
+   "notionTitle": "KB250①例 Point250「立方体・直方体の色ぬり」（グレード2）",
+   "types": [
+    "V04"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB250①例(1)->KB250①例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P251-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 4,
+   "notionTitle": "KB251①例 Point251「複合図形の色ぬり」（グレード2）",
+   "types": [
+    "V04"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB251①例(1)->KB251①例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P252-02-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
+   "notionTitle": "KB252③反 Point252「全部バラバラ」（グレード2）",
+   "types": [
+    "V04"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB252③反(2)->KB252③反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P254-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "KB254③例 Point254「差のつるかめ」（グレード2）",
+   "types": [
+    "W04"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P256-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB256③例 Point256「セットのつるかめ」（グレード2）",
+   "types": [
+    "W04"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P257-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB257③反 Point257「じゃんけんの和差注目」（グレード2）",
+   "types": [
+    "W04"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB257③反(2)->KB257③反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P258-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 2,
+   "notionTitle": "KB258③例 Point258「植木算の規則性解法」（グレード2）",
+   "types": [
+    "W03"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB258③例(1)->KB258③例(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P259-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB259③反 Point259「不公平の過不足」（グレード2）",
+   "types": [
+    "W05"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByStem:KB259③反②->KB259③反(sub-question suffix dropped)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "b57-APP108-P260-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
+   "notionTitle": "KB260③例 Point260「配るもの違いの過不足算」（グレード2）",
+   "types": [
+    "W05"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "matchedByTitlePrefix(Notion title has \" Point...\" suffix)",
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "notion70-0d02fd268db1464f",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "KB132②例 Point132「時間のイチイチ」（グレード1）",
+   "types": [
+    "C04"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "notion70-44324c0b38336270",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 4,
+   "notion": 5,
+   "notionTitle": "GW416-29①",
+   "types": [
+    "C01",
+    "Q06"
+   ],
+   "baseMax": 4,
+   "uwanose": 1,
+   "flags": []
+  },
+  {
+   "id": "notion70-66b3e06266649056",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 4,
+   "notion": 5,
+   "notionTitle": "4S12L④-2",
+   "types": [
+    "C06",
+    "C01"
+   ],
+   "baseMax": 4,
+   "uwanose": 1,
+   "flags": []
+  },
+  {
+   "id": "notion70-868bcc8dc791f6ae",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 3,
+   "notion": 4,
+   "notionTitle": "GN場合③Ch-2",
+   "types": [
+    "C06",
+    "C04"
+   ],
+   "baseMax": 4,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "notion70-9ea2e3f8d1f69b8e",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 3,
+   "notion": 4,
+   "notionTitle": "S08L⑤-1",
+   "types": [
+    "C05"
+   ],
+   "baseMax": 4,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "notion70-a494ef2ff9dce46a",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 4,
+   "notion": 5,
+   "notionTitle": "4R30H⑤-3",
+   "types": [
+    "C06"
+   ],
+   "baseMax": 4,
+   "uwanose": 1,
+   "flags": []
+  },
+  {
+   "id": "notion70-f7fdec10f6ccc0b5",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "KB43②例 Point43「組み合わせ(Cの利用)」（グレード1）",
+   "types": [
+    "C02"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "ready-f096985c519d5fbf",
+   "file": "content/expedition-ready-2.json",
+   "previous": 3,
+   "notion": 4,
+   "notionTitle": "4S12L⑥-2",
+   "types": [
+    "C06",
+    "C01"
+   ],
+   "baseMax": 4,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "sync70-14b9532df33ea7a1",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 1,
+   "notion": 3,
+   "notionTitle": "4R34N④-1",
+   "types": [
+    "W09"
+   ],
+   "baseMax": 3,
+   "uwanose": 0,
+   "flags": []
+  },
+  {
+   "id": "sync70-69b5db4f5c3a1eba",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 5,
+   "notion": 3,
+   "notionTitle": "KB99②例 Point99「連続整数の積と割れる回数」（グレード1）",
+   "types": [
+    "N03"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "sync70-7d66c57734763006",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "KB289①例 Point289「約数の和」（グレード2）",
+   "types": [
+    "N03"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "sync70-8ab66030c4742c9b",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 4,
+   "notion": 2,
+   "notionTitle": "KB295①例 Point295「ケタバラシの表」（グレード2）",
+   "types": [
+    "N02"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "sync70-8ff2060f504d0560",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 5,
+   "notion": 4,
+   "notionTitle": "KB309③例 Point309「「はじめ」不明のニュートン算」（グレード2）",
+   "types": [
+    "P16"
+   ],
+   "baseMax": 4,
+   "uwanose": null,
+   "flags": [
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "sync70-97b0e5ddca1e07f8",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 2,
+   "notion": 4,
+   "notionTitle": "4春4L④-1",
+   "types": [
+    "Q05"
+   ],
+   "baseMax": 2,
+   "uwanose": 2,
+   "flags": []
+  },
+  {
+   "id": "sync70-e414c82655ab9ce8",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 4,
+   "notion": 3,
+   "notionTitle": "KB301①例 Point301「年令表」（グレード2）",
+   "types": [
+    "W06"
+   ],
+   "baseMax": 3,
+   "uwanose": null,
+   "flags": [
+    "uwanoseNull(treated as 0)"
+   ]
+  },
+  {
+   "id": "sync70-e4ba16c816c0ab33",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 3,
+   "notion": 2,
+   "notionTitle": "KB121①例 Point121「和差の奇偶一致」（グレード1）",
+   "types": [
+    "X02"
+   ],
+   "baseMax": 2,
+   "uwanose": null,
+   "flags": [
+    "uwanoseNull(treated as 0)"
+   ]
+  }
+ ],
+ "noNotionDifficulty": [
+  {
+   "id": "sync70-b4ceb5a4daa6bb14",
+   "types": [
+    "KBType286"
+   ],
+   "appD": 4
+  },
+  {
+   "id": "sync70-af42ac9220f381b5",
+   "types": [
+    "KBType194"
+   ],
+   "appD": 2
+  },
+  {
+   "id": "sync70-1c48099184c4d28c",
+   "types": [
+    "KBType194"
+   ],
+   "appD": 3
+  },
+  {
+   "id": "b57-APP108-P184-01-S",
+   "types": [
+    "KBType184"
+   ],
+   "appD": 4
+  },
+  {
+   "id": "b57-APP108-P190-01-A",
+   "types": [
+    "KBType189"
+   ],
+   "appD": 6
+  },
+  {
+   "id": "b57-APP108-P240-01-S",
+   "types": [
+    "KBType240"
+   ],
+   "appD": 4
+  },
+  {
+   "id": "b57-APP108-P241-01-A",
+   "types": [
+    "KBType240"
+   ],
+   "appD": 6
+  },
+  {
+   "id": "b57-APP108-P242-01-A",
+   "types": [
+    "KBType242"
+   ],
+   "appD": 6
+  },
+  {
+   "id": "b57-APP108-P193-01-B",
+   "types": [
+    "KBType193"
+   ],
+   "appD": 2
+  }
+ ]
+}

@@ -327,7 +327,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": true,
       "figure": "figs/expedition/geo-04.svg",
       "scopeUnits": [
@@ -421,7 +421,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "figure": "figs/expedition/geo-05.svg",
       "scopeUnits": [
@@ -515,7 +515,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": true,
       "figure": "figs/expedition/geo-06.svg",
       "scopeUnits": [
@@ -704,7 +704,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "figure": "figs/expedition/geo-08.svg",
       "scopeUnits": [
@@ -987,7 +987,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "figureRequired": true,
       "figure": "figs/expedition/geo-11.svg",
       "scopeUnits": [
@@ -1081,7 +1081,7 @@
         "unit": "本",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 2,
       "figureRequired": true,
       "figure": "figs/expedition/geo-12.svg",
       "scopeUnits": [
@@ -1176,7 +1176,7 @@
         "unit": "cm³",
         "dimension": "volume"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": true,
       "figure": "figs/expedition/geo-13.svg",
       "scopeUnits": [
@@ -1366,7 +1366,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "figureRequired": true,
       "figure": "figs/expedition/geo-15.svg",
       "scopeUnits": [
@@ -1555,7 +1555,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 6,
+      "difficulty": 5,
       "figureRequired": true,
       "figure": "figs/expedition/geo-17.svg",
       "scopeUnits": [
@@ -1655,7 +1655,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "figureRequired": true,
       "figure": "figs/expedition/geo-18.svg",
       "scopeUnits": [

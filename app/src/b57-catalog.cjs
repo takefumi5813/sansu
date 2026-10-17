@@ -11,7 +11,7 @@ function attachCatalog(data, catalog) {
     if(p.b57)throw Error('Duplicate problem link '+p.id);
     p.b57={inventoryId:r.inventoryId,primaryMappings:r.primaryMappings,auxiliaryIds:r.auxiliaryIds,originalDifficulty:r.originalDifficulty,comparisonDifficulty:r.comparisonDifficulty,comparisonBasis:r.comparisonBasis,source:r.source,quality:r.quality,deliveryStatus:r.deliveryStatus,approvedCorrectConditions:r.approvedCorrectConditions};
     // Only the explicitly approved runtime calibration changes the selection band.
-    if(p.source?.kind==='b57-approved-original'||catalog.calibrations.some(c=>c.inventory_id===r.inventoryId))p.b57.selectionTier={基本:'basic',標準:'standard',応用:'advanced'}[r.comparisonDifficulty];
+    if(p.source?.kind==='b57-approved-original'||catalog.calibrations.some(c=>c.inventory_id===r.inventoryId))p.b57.selectionTier=String(p.difficultyOrigin||'').startsWith('comparison-band')?{基本:'basic',標準:'standard',応用:'advanced'}[r.comparisonDifficulty]:(p.difficulty<=2?'basic':p.difficulty<=4?'standard':p.difficulty<=6?'advanced':'hard');
   }
   for(const p of data.problems)if(p.source?.kind==='b57-approved-original'&&!p.b57)throw Error('Unregistered original problem '+p.id);
   data.b57Catalog=catalog;

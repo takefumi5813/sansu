@@ -35604,7 +35604,7 @@
         "unit": "円",
         "dimension": "scalar"
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [
         "R25"
@@ -39574,7 +39574,7 @@
           "°": "1"
         }
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": true,
       "figure": "figs/r24t-octagon.png",
       "scopeUnits": [
@@ -47838,7 +47838,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": true,
       "figure": "figs/expedition/geo-04.svg",
       "scopeUnits": [
@@ -48015,7 +48015,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "figure": "figs/expedition/geo-05.svg",
       "scopeUnits": [
@@ -48147,7 +48147,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": true,
       "figure": "figs/expedition/geo-06.svg",
       "scopeUnits": [
@@ -48412,7 +48412,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "figure": "figs/expedition/geo-08.svg",
       "scopeUnits": [
@@ -48842,7 +48842,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "figureRequired": true,
       "figure": "figs/expedition/geo-11.svg",
       "scopeUnits": [
@@ -48976,7 +48976,7 @@
         "unit": "本",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 2,
       "figureRequired": true,
       "figure": "figs/expedition/geo-12.svg",
       "scopeUnits": [
@@ -49119,7 +49119,7 @@
         "unit": "cm³",
         "dimension": "volume"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": true,
       "figure": "figs/expedition/geo-13.svg",
       "scopeUnits": [
@@ -49405,7 +49405,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "figureRequired": true,
       "figure": "figs/expedition/geo-15.svg",
       "scopeUnits": [
@@ -49680,7 +49680,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 6,
+      "difficulty": 5,
       "figureRequired": true,
       "figure": "figs/expedition/geo-17.svg",
       "scopeUnits": [
@@ -49843,7 +49843,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "figureRequired": true,
       "figure": "figs/expedition/geo-18.svg",
       "scopeUnits": [
@@ -51866,7 +51866,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -93410,7 +93410,7 @@
         "unit": "度",
         "dimension": "angle"
       },
-      "difficulty": 5,
+      "difficulty": 6,
       "figureRequired": true,
       "figure": "figs/tesuji-TS平11.png",
       "scopeUnits": [],
@@ -98305,7 +98305,7 @@
         "unit": "回",
         "dimension": "scalar"
       },
-      "difficulty": 5,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -98410,7 +98410,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -98515,7 +98515,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 2,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -98624,7 +98624,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 3,
+      "difficulty": 2,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -98729,7 +98729,7 @@
         "unit": "歳",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -99044,7 +99044,7 @@
         "unit": "頭",
         "dimension": "scalar"
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -100474,7 +100474,7 @@
         "unit": "回",
         "dimension": "scalar"
       },
-      "difficulty": 1,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -100819,7 +100819,7 @@
           }
         ]
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -104207,7 +104207,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -104341,7 +104341,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -104463,7 +104463,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -104597,7 +104597,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -104713,7 +104713,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -104939,7 +104939,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -105055,7 +105055,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -106641,7 +106641,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -106685,7 +106685,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P009-01-A",
@@ -106724,7 +106724,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -106755,7 +106755,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -106799,7 +106799,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P011-01-A",
@@ -106838,7 +106838,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -106877,7 +106877,7 @@
           }
         ]
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -106921,7 +106921,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P013-01-S",
@@ -106999,7 +106999,7 @@
           }
         ]
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -107043,7 +107043,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P014-01-A",
@@ -107082,7 +107082,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -107116,7 +107116,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -107160,7 +107160,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P017-01-S",
@@ -107226,7 +107226,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 2,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -107270,7 +107270,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P024-01-A",
@@ -107309,7 +107309,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "basic"
       }
     },
     {
@@ -107336,7 +107336,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -107380,7 +107380,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P036-02-S",
@@ -107557,7 +107557,7 @@
         "dimension": "scalar",
         "display": "decimal"
       },
-      "difficulty": 6,
+      "difficulty": 2,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -107602,7 +107602,7 @@
       },
       "figure": "figs/b57/APP108-P052-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P052-01-A",
@@ -107641,7 +107641,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "basic"
       }
     },
     {
@@ -107668,7 +107668,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 6,
+      "difficulty": 2,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -107713,7 +107713,7 @@
       },
       "figure": "figs/b57/APP108-P057-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P057-01-A",
@@ -107752,7 +107752,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "basic"
       }
     },
     {
@@ -107779,7 +107779,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 2,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -107823,7 +107823,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P059-01-S",
@@ -107877,7 +107877,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "standard"
+        "selectionTier": "basic"
       }
     },
     {
@@ -107904,7 +107904,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -107949,7 +107949,7 @@
       },
       "figure": "figs/b57/APP108-P060-01-B.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P060-01-B",
@@ -108003,7 +108003,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -108183,7 +108183,7 @@
           }
         ]
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -108228,7 +108228,7 @@
       },
       "figure": "figs/b57/APP108-P076-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P076-01-A",
@@ -108267,7 +108267,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -108294,7 +108294,7 @@
         "unit": "m",
         "dimension": "length"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -108339,7 +108339,7 @@
       },
       "figure": "figs/b57/APP108-P079-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P079-01-A",
@@ -108378,7 +108378,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -108405,7 +108405,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -108450,7 +108450,7 @@
       },
       "figure": "figs/b57/APP108-P085-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P085-01-A",
@@ -108489,7 +108489,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -108516,7 +108516,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -108560,7 +108560,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P090-01-A",
@@ -108599,7 +108599,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -108626,7 +108626,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -108670,7 +108670,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P092-01-A",
@@ -108709,7 +108709,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -108736,7 +108736,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -108780,7 +108780,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P094-01-A",
@@ -108819,7 +108819,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -108846,7 +108846,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -108890,7 +108890,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P101-01-A",
@@ -108937,7 +108937,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -108968,7 +108968,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 4,
+      "difficulty": 2,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -109012,7 +109012,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P121-02-S",
@@ -109051,7 +109051,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "standard"
+        "selectionTier": "basic"
       }
     },
     {
@@ -109078,7 +109078,7 @@
         "unit": "試合",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 2,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -109122,7 +109122,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P130-01-S",
@@ -109161,7 +109161,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "standard"
+        "selectionTier": "basic"
       }
     },
     {
@@ -109188,7 +109188,7 @@
         "unit": "°",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -109233,7 +109233,7 @@
       },
       "figure": "figs/b57/APP108-P138-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P138-01-A",
@@ -109272,7 +109272,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -109299,7 +109299,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -109343,7 +109343,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P141-01-S",
@@ -109452,7 +109452,7 @@
         },
         "display": "decimal"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -109497,7 +109497,7 @@
       },
       "figure": "figs/b57/APP108-P146-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P146-01-A",
@@ -109573,7 +109573,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -109606,7 +109606,7 @@
         },
         "display": "decimal"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -109651,7 +109651,7 @@
       },
       "figure": "figs/b57/APP108-P148-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P148-01-A",
@@ -109690,7 +109690,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -109722,7 +109722,7 @@
           "平方センチメートル": "1"
         }
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -109766,7 +109766,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P151-01-A",
@@ -109824,7 +109824,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -109894,7 +109894,7 @@
           }
         ]
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -109939,7 +109939,7 @@
       },
       "figure": "figs/b57/APP108-P162-01-B.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P162-01-B",
@@ -109988,7 +109988,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -110015,7 +110015,7 @@
         "unit": "秒",
         "dimension": "time"
       },
-      "difficulty": 6,
+      "difficulty": 2,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -110074,7 +110074,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P165-01-A",
@@ -110113,7 +110113,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "basic"
       }
     },
     {
@@ -110152,7 +110152,7 @@
           }
         ]
       },
-      "difficulty": 4,
+      "difficulty": 2,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -110196,7 +110196,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P177-01-S",
@@ -110235,7 +110235,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "standard"
+        "selectionTier": "basic"
       }
     },
     {
@@ -110262,7 +110262,7 @@
         "unit": "円",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -110306,7 +110306,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P179-01-B",
@@ -110345,7 +110345,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -110372,7 +110372,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -110426,7 +110426,7 @@
       },
       "figure": "figs/b57/APP108-P182-01-S.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P182-01-S",
@@ -110613,7 +110613,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -110666,7 +110666,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P185-01-A",
@@ -110705,7 +110705,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -110732,7 +110732,7 @@
         "unit": "円",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -110785,7 +110785,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P186-01-S",
@@ -110859,7 +110859,7 @@
         "unit": "枚",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -110912,7 +110912,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P188-01-B",
@@ -110951,7 +110951,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -111097,7 +111097,7 @@
         "unit": "秒",
         "dimension": "time"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -111151,7 +111151,7 @@
       },
       "figure": "figs/b57/APP108-P192-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P192-01-A",
@@ -111198,7 +111198,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -111225,7 +111225,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -111279,7 +111279,7 @@
       },
       "figure": "figs/b57/APP108-P195-01-B.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P195-01-B",
@@ -111318,7 +111318,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -111345,7 +111345,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -111405,7 +111405,7 @@
       },
       "figure": "figs/b57/APP108-P196-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P196-01-A",
@@ -111454,7 +111454,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -111481,7 +111481,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -111535,7 +111535,7 @@
       },
       "figure": "figs/b57/APP108-P197-01-B.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P197-01-B",
@@ -111574,7 +111574,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -111601,7 +111601,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 2,
+      "difficulty": 5,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -111655,7 +111655,7 @@
       },
       "figure": "figs/b57/APP108-P198-01-B.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P198-01-B",
@@ -111722,7 +111722,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "advanced"
       }
     },
     {
@@ -111749,7 +111749,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -111803,7 +111803,7 @@
       },
       "figure": "figs/b57/APP108-P203-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P203-01-A",
@@ -111842,7 +111842,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -111873,7 +111873,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -111918,7 +111918,7 @@
       },
       "figure": "figs/b57/APP108-P204-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P204-01-A",
@@ -111957,7 +111957,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -111986,7 +111986,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -112031,7 +112031,7 @@
       },
       "figure": "figs/b57/APP108-P206-01-B.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P206-01-B",
@@ -112070,7 +112070,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -112099,7 +112099,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -112168,7 +112168,7 @@
       },
       "figure": "figs/b57/APP108-P207-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P207-01-A",
@@ -112217,7 +112217,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -112246,7 +112246,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 6,
+      "difficulty": 5,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -112298,7 +112298,7 @@
       "figure": "figs/b57/APP108-P208-01-A.png",
       "sourceConvention": "原本の「四角形EFGH」は、図の中央の領域（周順E→F→H→G）として扱います。",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P208-01-A",
@@ -112383,7 +112383,7 @@
         "unit": "km",
         "dimension": "length"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -112445,7 +112445,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P212-01-A",
@@ -112484,7 +112484,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -112511,7 +112511,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -112571,7 +112571,7 @@
       },
       "figure": "figs/b57/APP108-P213-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P213-01-A",
@@ -112610,7 +112610,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -112649,7 +112649,7 @@
           }
         ]
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -112702,7 +112702,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P216-01-A",
@@ -112741,7 +112741,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -112768,7 +112768,7 @@
         "unit": "分",
         "dimension": "time"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -112822,7 +112822,7 @@
       },
       "figure": "figs/b57/APP108-P217-02-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P217-02-A",
@@ -112861,7 +112861,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -112888,7 +112888,7 @@
         "unit": "時間",
         "dimension": "time"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -112942,7 +112942,7 @@
       },
       "figure": "figs/b57/APP108-P219-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P219-01-A",
@@ -112981,7 +112981,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -113008,7 +113008,7 @@
         "unit": "分",
         "dimension": "time"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -113061,7 +113061,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P220-01-A",
@@ -113155,7 +113155,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -113182,7 +113182,7 @@
         "unit": "分",
         "dimension": "time"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -113236,7 +113236,7 @@
       },
       "figure": "figs/b57/APP108-P222-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P222-01-A",
@@ -113303,7 +113303,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -113330,7 +113330,7 @@
         "unit": "秒",
         "dimension": "time"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -113384,7 +113384,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P223-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P223-01-A",
@@ -113423,7 +113423,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -113457,7 +113457,7 @@
           "m/s": "18/5"
         }
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -113510,7 +113510,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P226-01-A",
@@ -113549,7 +113549,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -113577,7 +113577,7 @@
         "dimension": "area",
         "display": "decimal"
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -113631,7 +113631,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P227-01-B.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P227-01-B",
@@ -113670,7 +113670,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -113709,7 +113709,7 @@
           }
         ]
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -113763,7 +113763,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P229-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P229-01-A",
@@ -113965,7 +113965,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -113993,7 +113993,7 @@
         "dimension": "area",
         "display": "decimal"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -114047,7 +114047,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P233-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P233-01-A",
@@ -114086,7 +114086,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -114113,7 +114113,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -114166,7 +114166,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P234-01-B",
@@ -114205,7 +114205,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -114351,7 +114351,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -114404,7 +114404,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P237-01-B",
@@ -114443,7 +114443,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -114470,7 +114470,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 2,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -114523,7 +114523,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P238-01-A",
@@ -114562,7 +114562,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "basic"
       }
     },
     {
@@ -114979,7 +114979,7 @@
         "dimension": "area",
         "display": "decimal"
       },
-      "difficulty": 4,
+      "difficulty": 2,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -115033,7 +115033,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P243-01-S.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P243-01-S",
@@ -115109,7 +115109,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "standard"
+        "selectionTier": "basic"
       }
     },
     {
@@ -115137,7 +115137,7 @@
         "dimension": "area",
         "display": "decimal"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -115191,7 +115191,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P244-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P244-01-A",
@@ -115375,7 +115375,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -115667,7 +115667,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -115721,7 +115721,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P246-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P246-01-A",
@@ -115760,7 +115760,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -115794,7 +115794,7 @@
         "dimension": "text",
         "unit": ""
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -115848,7 +115848,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P248-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P248-01-A",
@@ -115887,7 +115887,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -115914,7 +115914,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -115968,7 +115968,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P249-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P249-01-A",
@@ -116026,7 +116026,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -116053,7 +116053,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -116107,7 +116107,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P250-01-B.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P250-01-B",
@@ -116146,7 +116146,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -116173,7 +116173,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -116227,7 +116227,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P251-01-B.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P251-01-B",
@@ -116266,7 +116266,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "basic"
+        "selectionTier": "standard"
       }
     },
     {
@@ -116413,7 +116413,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -116467,7 +116467,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P252-02-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P252-02-A",
@@ -116506,7 +116506,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -116533,7 +116533,7 @@
         "unit": "m",
         "dimension": "length"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -116586,7 +116586,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P254-01-S",
@@ -116652,7 +116652,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -116705,7 +116705,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P256-01-A",
@@ -116744,7 +116744,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -116771,7 +116771,7 @@
         "unit": "回",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -116824,7 +116824,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P257-01-A",
@@ -116863,7 +116863,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -116890,7 +116890,7 @@
         "unit": "度",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 2,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -116944,7 +116944,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P258-01-S.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P258-01-S",
@@ -116983,7 +116983,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "standard"
+        "selectionTier": "basic"
       }
     },
     {
@@ -117010,7 +117010,7 @@
         "unit": "人",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -117063,7 +117063,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P259-01-A",
@@ -117102,7 +117102,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -117129,7 +117129,7 @@
         "unit": "個",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -117182,7 +117182,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P260-01-A",
@@ -117221,7 +117221,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     },
     {
@@ -117362,7 +117362,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -117406,7 +117406,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P200-01-A",
@@ -117490,7 +117490,7 @@
         },
         "deliveryStatus": "出題可能",
         "approvedCorrectConditions": null,
-        "selectionTier": "advanced"
+        "selectionTier": "standard"
       }
     }
   ],

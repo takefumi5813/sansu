@@ -428,7 +428,7 @@
         "unit": "円",
         "dimension": "scalar"
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [
         "R25"

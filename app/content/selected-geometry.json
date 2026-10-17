@@ -4,7 +4,7 @@
     "text": "次の□にあてはまる数を求めなさい。\n(5) 正八角形で、あの角度は□度です。",
     "source": {"title":"R24T⑥-1(5)","url":"https://app.notion.com/p/3f52b010743c81dba770eacddbff2695","locator":"Notion 問題 R24T⑥-1 小問(5)。原本PDF第59頁、正八角形の図のみ切出し。","sourceText":"次の□にあてはまる数を求めなさい。\n(5) 正八角形で、あの角度は□度です。","verification":"Notion本文・答え・図の記述を読取確認。原本PDF第59頁を目視し中心/放射線/弦/あの位置の一致を確認。Notionの確度は低、native verificationはunverified。小問だけを独立採用し、最難小問(4)の難度を転用しない。","notionTypeUrls":["https://app.notion.com/p/3f52b010743c81ae8c32f055417d8f6e"],"path":"C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-24 割合と比(1)-仕事算-.pdf"},
     "answer":{"n":"135","d":"2","unit":"度","dimension":"angle","acceptedUnits":{"度":"1","°":"1"}},
-    "difficulty":4,"figureRequired":true,"figure":"figs/r24t-octagon.png","scopeUnits":["R24"],"homeStudy":false,"reviewEligible":true,
+    "difficulty":3,"figureRequired":true,"figure":"figs/r24t-octagon.png","scopeUnits":["R24"],"homeStudy":false,"reviewEligible":true,
     "explanation":{"steps":[
       {"id":"name","title":"中心と頂点を目印にする","body":"説明では中心をO、いちばん上の頂点をA、右上の頂点をB、右下の頂点をCと呼びます。実線ACと点線OBの交点をPとします。求めるあは角APBです。"},
       {"id":"central","title":"中心のまわりを8等分する","body":"正八角形なので、となり合う頂点を結ぶ二つの半径の角は同じです。中心の一周360度を8等分します。","equation":"角AOB＝360÷8＝45度","checkpoint":{"prompt":"中心を8等分した一つの角は何度ですか。","answer":{"n":"45","d":"1","unit":"度","dimension":"angle"}}},

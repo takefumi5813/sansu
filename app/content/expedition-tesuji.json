@@ -665,7 +665,7 @@
         "unit": "度",
         "dimension": "angle"
       },
-      "difficulty": 5,
+      "difficulty": 6,
       "figureRequired": true,
       "figure": "figs/tesuji-TS平11.png",
       "scopeUnits": [],

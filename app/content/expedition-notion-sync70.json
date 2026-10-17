@@ -108,7 +108,7 @@
         "unit": "回",
         "dimension": "scalar"
       },
-      "difficulty": 5,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -175,7 +175,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -242,7 +242,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 2,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -313,7 +313,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 3,
+      "difficulty": 2,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -380,7 +380,7 @@
         "unit": "歳",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -581,7 +581,7 @@
         "unit": "頭",
         "dimension": "scalar"
       },
-      "difficulty": 5,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -1461,7 +1461,7 @@
         "unit": "回",
         "dimension": "scalar"
       },
-      "difficulty": 1,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -1698,7 +1698,7 @@
           }
         ]
       },
-      "difficulty": 2,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -4000,7 +4000,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -4096,7 +4096,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -4180,7 +4180,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -4276,7 +4276,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -4354,7 +4354,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -4504,7 +4504,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -4582,7 +4582,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
