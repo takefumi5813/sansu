@@ -784,7 +784,7 @@
         "unit": "",
         "dimension": "scalar"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
@@ -985,7 +985,7 @@
         "unit": "km²",
         "dimension": "area"
       },
-      "difficulty": 3,
+      "difficulty": 2,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,

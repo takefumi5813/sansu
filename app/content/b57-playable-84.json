@@ -663,7 +663,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P038-01-S",
@@ -1063,7 +1063,7 @@
       },
       "figure": "figs/b57/APP108-P074-01-S.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P074-01-S",
@@ -2741,7 +2741,7 @@
         "unit": "分",
         "dimension": "time"
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -2794,7 +2794,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P184-01-S",
@@ -3095,7 +3095,7 @@
         "unit": "分",
         "dimension": "time"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -3148,7 +3148,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P190-01-A",
@@ -5337,7 +5337,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P235-01-S",
@@ -5560,7 +5560,7 @@
           }
         ]
       },
-      "difficulty": 4,
+      "difficulty": 3,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -5613,7 +5613,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P240-01-S",
@@ -5648,7 +5648,7 @@
         "unit": "票",
         "dimension": "scalar"
       },
-      "difficulty": 6,
+      "difficulty": 3,
       "figureRequired": false,
       "explanation": {
         "steps": [
@@ -5701,7 +5701,7 @@
       "homeStudy": false,
       "revision": 1,
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P241-01-A",
@@ -5736,7 +5736,7 @@
         "unit": "cm",
         "dimension": "length"
       },
-      "difficulty": 6,
+      "difficulty": 4,
       "figureRequired": true,
       "explanation": {
         "steps": [
@@ -5790,7 +5790,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P242-01-A.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P242-01-A",
@@ -6059,7 +6059,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P245-01-S.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P245-01-S",
@@ -6600,7 +6600,7 @@
       "revision": 1,
       "figure": "figs/b57/APP108-P252-01-S.png",
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P252-01-S",
@@ -7255,7 +7255,7 @@
         ],
         "unit": ""
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": false,
       "scopeUnits": [],
       "expeditionOnly": true,
@@ -7301,7 +7301,7 @@
         ]
       },
       "reviewEligible": false,
-      "difficultyOrigin": "comparison-band-runtime-compatibility-not-original-D",
+      "difficultyOrigin": "notion-db-difficulty-2026-10-17",
       "deliveryReview": {
         "status": "ready",
         "inventoryId": "APP108-P193-01-B",

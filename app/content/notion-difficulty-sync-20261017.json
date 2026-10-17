@@ -1576,71 +1576,154 @@
    "flags": [
     "uwanoseNull(treated as 0)"
    ]
-  }
- ],
- "noNotionDifficulty": [
+  },
   {
    "id": "sync70-b4ceb5a4daa6bb14",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 4,
+   "notion": 3,
    "types": [
     "KBType286"
    ],
-   "appD": 4
+   "baseMax": 3,
+   "uwanose": 0,
+   "flags": [
+    "基礎難度を2026-10-17に追加（上乗せ未記入）"
+   ]
   },
   {
    "id": "sync70-af42ac9220f381b5",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 2,
+   "notion": 2,
    "types": [
     "KBType194"
    ],
-   "appD": 2
+   "baseMax": 2,
+   "uwanose": 0,
+   "flags": [
+    "基礎難度を2026-10-17に追加（上乗せ未記入）"
+   ]
   },
   {
    "id": "sync70-1c48099184c4d28c",
+   "file": "content/expedition-notion-sync70.json",
+   "previous": 3,
+   "notion": 2,
    "types": [
     "KBType194"
    ],
-   "appD": 3
+   "baseMax": 2,
+   "uwanose": 0,
+   "flags": [
+    "基礎難度を2026-10-17に追加（上乗せ未記入）"
+   ]
   },
   {
    "id": "b57-APP108-P184-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 3,
    "types": [
     "KBType184"
    ],
-   "appD": 4
+   "baseMax": 3,
+   "uwanose": 0,
+   "flags": [
+    "基礎難度を2026-10-17に追加（上乗せ未記入）"
+   ]
   },
   {
    "id": "b57-APP108-P190-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
    "types": [
     "KBType189"
    ],
-   "appD": 6
+   "baseMax": 3,
+   "uwanose": 0,
+   "flags": [
+    "基礎難度を2026-10-17に追加（上乗せ未記入）"
+   ]
   },
   {
    "id": "b57-APP108-P240-01-S",
+   "file": "content/b57-playable-84.json",
+   "previous": 4,
+   "notion": 3,
    "types": [
     "KBType240"
    ],
-   "appD": 4
+   "baseMax": 3,
+   "uwanose": 0,
+   "flags": [
+    "基礎難度を2026-10-17に追加（上乗せ未記入）"
+   ]
   },
   {
    "id": "b57-APP108-P241-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 3,
    "types": [
     "KBType240"
    ],
-   "appD": 6
+   "baseMax": 3,
+   "uwanose": 0,
+   "flags": [
+    "基礎難度を2026-10-17に追加（上乗せ未記入）"
+   ]
   },
   {
    "id": "b57-APP108-P242-01-A",
+   "file": "content/b57-playable-84.json",
+   "previous": 6,
+   "notion": 4,
    "types": [
     "KBType242"
    ],
-   "appD": 6
+   "baseMax": 4,
+   "uwanose": 0,
+   "flags": [
+    "基礎難度を2026-10-17に追加（上乗せ未記入）"
+   ]
   },
   {
    "id": "b57-APP108-P193-01-B",
+   "file": "content/b57-playable-84.json",
+   "previous": 2,
+   "notion": 3,
    "types": [
     "KBType193"
    ],
-   "appD": 2
+   "baseMax": 3,
+   "uwanose": 0,
+   "flags": [
+    "基礎難度を2026-10-17に追加（上乗せ未記入）"
+   ]
+  }
+ ],
+ "noNotionDifficulty": [],
+ "typeBaseAdded": {
+  "KBType193": 3,
+  "KBType272": 3,
+  "KBType046": 2,
+  "KBType189": 3,
+  "KBType133": 3,
+  "KBType070": 2,
+  "KBType184": 3,
+  "KBType194": 2,
+  "KBType240": 3,
+  "KBType286": 3,
+  "KBType242": 4
+ },
+ "exceptions": [
+  {
+   "id": "ready-f096985c519d5fbf",
+   "app": 3,
+   "notionDb": 4,
+   "reason": "Notion問題DBの4S12L⑥-2は大問全体（小問1〜3）の1行でD4。アプリの1問目（小問1）は一問一答ページの見直しD3が正しい（ユーザー確認 2026-10-17）"
   }
  ]
 }
