@@ -1,5 +1,5 @@
 {
-  "reviewDate": "2026-10-14",
+  "reviewDate": "2026-10-18",
   "representatives": [
     {
       "key": "3f82b010743c8159ba4bdcc3ac680268:1",
@@ -4445,6 +4445,62 @@
       "tier": "standard",
       "notionTier": "standard",
       "pageId": "3f92b010743c8148b2aae6f3ecbca70c"
+    },
+    {
+      "key": "adopt:3fd2b010743c81818d5ff4bf65ced3c5:",
+      "id": "GW519-25①",
+      "tier": "advanced",
+      "notionTier": "advanced",
+      "pageId": "3f92b010743c819c9276da13773728f0"
+    },
+    {
+      "key": "adopt:3fd2b010743c81c3be09e07294cee747:",
+      "id": "GW519-26①",
+      "tier": "standard",
+      "notionTier": "standard",
+      "pageId": "3f82b010743c8174aae3e5f0ef885df8"
+    },
+    {
+      "key": "adopt:3fd2b010743c813c8185d9d780c0f50c:",
+      "id": "GN速さ②練4",
+      "tier": "standard",
+      "notionTier": "standard",
+      "pageId": "3f82b010743c81f2bf17e3772ae40e70"
+    },
+    {
+      "key": "adopt:3fd2b010743c813993a9f229eaaadbcb:",
+      "id": "GN速さ③練3",
+      "tier": "standard",
+      "notionTier": "standard",
+      "pageId": "3f82b010743c81058b86e4d3bfaf4a4c"
+    },
+    {
+      "key": "adopt:3fd2b010743c81029bf4f7d1d1dc4144:",
+      "id": "GN速さ③練5",
+      "tier": "standard",
+      "notionTier": "standard",
+      "pageId": "3f82b010743c81058b86e4d3bfaf4a4c"
+    },
+    {
+      "key": "adopt:3fd2b010743c81b8a1c1c31715242eac:",
+      "id": "GW519-29①",
+      "tier": "standard",
+      "notionTier": "standard",
+      "pageId": "3f82b010743c81589c8cd1fbcd2476fc"
+    },
+    {
+      "key": "adopt:3fd2b010743c8171874dcf8df2f5552b:",
+      "id": "GW519-30①",
+      "tier": "hard",
+      "notionTier": "hard",
+      "pageId": "3fd2b010743c81a4b17fe919a6dde9ce"
+    },
+    {
+      "key": "adopt:3fd2b010743c811f81c5f2d4304bc908:(5)",
+      "id": "GN速さ③Ch-1(5)",
+      "tier": "advanced",
+      "notionTier": "advanced",
+      "pageId": "3f92b010743c81e2a21de29968109b88"
     }
   ],
   "archived": [
