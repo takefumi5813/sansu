@@ -2176,6 +2176,230 @@
       "reason": "表面（R25K-24）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
       "skill": "R25計算マスター K-24",
       "representativeKey": "3fb2b010743c8121a0b4fe3c3f423af7:1"
+    },
+    "R26K-1": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-1",
+      "representativeKey": "4022b010743c8193b298ca2b879e30e1:1"
+    },
+    "R26K-4": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-4",
+      "representativeKey": "4022b010743c8120a704df2893a2dd7d:1"
+    },
+    "R26K-5": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-5",
+      "representativeKey": "4022b010743c816aba5eebd74db2cdc7:1"
+    },
+    "R26K-6": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-6",
+      "representativeKey": "4022b010743c817d97abd3859ab0d37d:1"
+    },
+    "R26K-9": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-9",
+      "representativeKey": "4022b010743c8156a9eed808b0f3541e:1"
+    },
+    "R26K-12": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-12",
+      "representativeKey": "4022b010743c81318219d2da982185ee:1"
+    },
+    "R26K-14": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-14",
+      "representativeKey": "4022b010743c815b8464f1236b67c7ae:1"
+    },
+    "R26K-17": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-17",
+      "representativeKey": "4022b010743c81a7ade3ff16ae2d139a:1"
+    },
+    "R26K-19": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-19",
+      "representativeKey": "4022b010743c81408b98c36617fe8c43:1"
+    },
+    "R26K-27": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-27",
+      "representativeKey": "4022b010743c81249fd9fda6af7897d5:1"
+    },
+    "R26K-28": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-28",
+      "representativeKey": "4022b010743c8119b2d8c50fa1244df2:1"
+    },
+    "R26K-29": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-29",
+      "representativeKey": "4022b010743c81899e49dd27851a120a:1"
+    },
+    "R26K-31": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-1）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-1",
+      "representativeKey": "4022b010743c8193b298ca2b879e30e1:1"
+    },
+    "R26K-34": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-4）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-4",
+      "representativeKey": "4022b010743c8120a704df2893a2dd7d:1"
+    },
+    "R26K-35": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-5）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-5",
+      "representativeKey": "4022b010743c816aba5eebd74db2cdc7:1"
+    },
+    "R26K-36": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-6）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-6",
+      "representativeKey": "4022b010743c817d97abd3859ab0d37d:1"
+    },
+    "R26K-39": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-9）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-9",
+      "representativeKey": "4022b010743c8156a9eed808b0f3541e:1"
+    },
+    "R26K-42": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-12）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-12",
+      "representativeKey": "4022b010743c81318219d2da982185ee:1"
+    },
+    "R26K-44": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-14）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-14",
+      "representativeKey": "4022b010743c815b8464f1236b67c7ae:1"
+    },
+    "R26K-47": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-17）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-17",
+      "representativeKey": "4022b010743c81a7ade3ff16ae2d139a:1"
+    },
+    "R26K-49": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-19）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-19",
+      "representativeKey": "4022b010743c81408b98c36617fe8c43:1"
+    },
+    "R26K-57": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-27）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-27",
+      "representativeKey": "4022b010743c81249fd9fda6af7897d5:1"
+    },
+    "R26K-58": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-28）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-28",
+      "representativeKey": "4022b010743c8119b2d8c50fa1244df2:1"
+    },
+    "R26K-59": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-29）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-29",
+      "representativeKey": "4022b010743c81899e49dd27851a120a:1"
+    },
+    "R26K-13": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-13",
+      "representativeKey": "4022b010743c81328470f547d4ac14c3:1"
+    },
+    "R26K-20": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。（Notionの難易度方針に合わせて応用→標準：分数・小数・分配法則だけでは応用にしない）",
+      "skill": "R26計算マスター K-20",
+      "representativeKey": "4022b010743c81eeb955d242223c9780:1"
+    },
+    "R26K-21": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R26計算マスター K-21",
+      "representativeKey": "4022b010743c8107bdddd88837fa69fd:1"
+    },
+    "R26K-26": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R26（10/23授業）の計算マスター。原式どおりの代表として出題する。（Notionの難易度方針に合わせて応用→標準：分数・小数・分配法則だけでは応用にしない）",
+      "skill": "R26計算マスター K-26",
+      "representativeKey": "4022b010743c8198ac31cb99890c721d:1"
+    },
+    "R26K-43": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-13）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-13",
+      "representativeKey": "4022b010743c81328470f547d4ac14c3:1"
+    },
+    "R26K-50": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-20）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-20",
+      "representativeKey": "4022b010743c81eeb955d242223c9780:1"
+    },
+    "R26K-51": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-21）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-21",
+      "representativeKey": "4022b010743c8107bdddd88837fa69fd:1"
+    },
+    "R26K-56": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R26K-26）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R26計算マスター K-26",
+      "representativeKey": "4022b010743c8198ac31cb99890c721d:1"
     }
   }
 }

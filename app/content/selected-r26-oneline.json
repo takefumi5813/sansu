@@ -1,0 +1,2266 @@
+{
+ "problems": [
+  {
+   "id": "R26H①-2",
+   "unitId": "ratio.equal_fraction_parts.inverse",
+   "category": "oneline",
+   "domain": "比",
+   "text": "A、B2種類の積み木が合計87個あり、Aの個数の2/5とBの個数の3/7は同じです。(1) AとBの個数の比をもっとも簡単な整数の比で求めなさい。(2) A、Bの個数をそれぞれ求めなさい。",
+   "sourceText": "A、B2種類の積み木が合計87個あり、Aの個数の2/5とBの個数の3/7は同じです。(1) AとBの個数の比をもっとも簡単な整数の比で求めなさい。(2) A、Bの個数をそれぞれ求めなさい。",
+   "source": {
+    "title": "R26H①-2",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ①-2、PDF通しp.29（再チャレンジp.30）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 29,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "A、B2種類の積み木が合計87個あり、Aの個数の2/5とBの個数の3/7は同じです。(1) AとBの個数の比をもっとも簡単な整数の比で求めなさい。(2) A、Bの個数をそれぞれ求めなさい。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "4c0c80acd0dc0f6c19cab9cc7396a68adfe034126bc0c6abb6b2e1879241ac2c",
+    "notionSourceText": "A、B2種類の積み木が合計87個あり、Aの個数の2/5とBの個数の3/7は同じです。(1) AとBの個数の比をもっとも簡単な整数の比で求めなさい。(2) A、Bの個数をそれぞれ求めなさい。",
+    "url": "https://app.notion.com/4022b010743c814fb86dd5d2bda1f936",
+    "notionId": "4022b010-743c-814f-b86d-d5d2bda1f936",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f42b010743c81008c50c935e9ce6855",
+      "name": "比の基本（連比・逆比）",
+      "code": "X03",
+      "baseDifficulty": 3,
+      "description": "比をそろえる（連比）、逆比。速さと比の土台"
+     }
+    ],
+    "sourceAnswer": "(1)15:14 (2)A45個・B42個",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "dimension": "ratio",
+      "terms": [
+       "15",
+       "14"
+      ],
+      "unit": ""
+     },
+     {
+      "label": "(2)A",
+      "n": "45",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(2)B",
+      "n": "42",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "等しい量を1とおく",
+      "body": "Aの2/5とBの3/7が等しいので、その等しい量を1とします。Aは1÷2/5、Bは1÷3/7で表せます。",
+      "equation": "A＝1÷2/5＝5/2、B＝1÷3/7＝7/3",
+      "id": "s1"
+     },
+     {
+      "title": "整数の比に直す",
+      "body": "5/2:7/3 の両方に分母の最小公倍数6をかけて整数にします。",
+      "equation": "A:B＝5/2:7/3＝15:14",
+      "id": "s2"
+     },
+     {
+      "title": "比の合計を出す",
+      "body": "A:B＝15:14なので、合計87個は比の15＋14＝29にあたります。",
+      "equation": "15＋14＝29",
+      "checkpoint": {
+       "prompt": "A:B＝15:14のとき、比の合計はいくつですか。",
+       "answer": {
+        "n": "29",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s3"
+     },
+     {
+      "title": "比の1にあたる個数",
+      "body": "87個を29で割ると、比の1にあたる個数が出ます。",
+      "equation": "87÷29＝3（個）",
+      "id": "s4"
+     },
+     {
+      "title": "それぞれの個数",
+      "body": "Aは比の15、Bは比の14です。",
+      "equation": "A＝3×15＝45（個）、B＝3×14＝42（個）",
+      "id": "s5"
+     },
+     {
+      "title": "確かめる",
+      "body": "45×2/5＝18、42×3/7＝18で等しくなっています。",
+      "equation": "45×2/5＝42×3/7＝18",
+      "id": "s6"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H①-4",
+   "unitId": "ratio.chain_to_sum",
+   "category": "oneline",
+   "domain": "比",
+   "text": "A、B、C、Dの4人がそれぞれ何個かボールを持っています。AとBの持っているボールの数の比は5:12です。CはAの2と1/2倍のボールを持っています。DはAより12個多くボールを持っています。4人の持っているボールの数の合計が150個のとき、Cの持っているボールの数は何個ですか。",
+   "sourceText": "A、B、C、Dの4人がそれぞれ何個かボールを持っています。AとBの持っているボールの数の比は5:12です。CはAの2と1/2倍のボールを持っています。DはAより12個多くボールを持っています。4人の持っているボールの数の合計が150個のとき、Cの持っているボールの数は何個ですか。",
+   "source": {
+    "title": "R26H①-4",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ①-4、PDF通しp.29（再チャレンジp.30）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 29,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "A、B、C、Dの4人がそれぞれ何個かボールを持っています。AとBの持っているボールの数の比は5:12です。CはAの2と1/2倍のボールを持っています。DはAより12個多くボールを持っています。4人の持っているボールの数の合計が150個のとき、Cの持っているボールの数は何個ですか。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "ea37d355538373373de7ca6135268659fd166296a1944d7e0d7e5d4e0685be1c",
+    "notionSourceText": "A、B、C、Dの4人がそれぞれ何個かボールを持っています。AとBの持っているボールの数の比は5:12です。CはAの2と1/2倍のボールを持っています。DはAより12個多くボールを持っています。4人の持っているボールの数の合計が150個のとき、Cの持っているボールの数は何個ですか。",
+    "url": "https://app.notion.com/4022b010743c8122b2e9fd2373123f4b",
+    "notionId": "4022b010-743c-8122-b2e9-fd2373123f4b",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f42b010743c81008c50c935e9ce6855",
+      "name": "比の基本（連比・逆比）",
+      "code": "X03",
+      "baseDifficulty": 3,
+      "description": "比をそろえる（連比）、逆比。速さと比の土台"
+     }
+    ],
+    "sourceAnswer": "50個",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "n": "50",
+    "d": "1",
+    "unit": "個",
+    "dimension": "scalar"
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "Aを基準に比をそろえる",
+      "body": "CはAの2と1/2倍です。A:B＝5:12のAを5のままにするとCが12と1/2になるので、全部2倍してA＝⑩にそろえます。",
+      "equation": "A:B:C＝⑩:㉔:㉕",
+      "id": "s1"
+     },
+     {
+      "title": "Dを比で表す",
+      "body": "DはAより12個多いので、⑩＋12個です。",
+      "equation": "D＝⑩＋12",
+      "id": "s2"
+     },
+     {
+      "title": "合計の式をつくる",
+      "body": "4人の合計は⑩＋㉔＋㉕＋⑩＋12＝(69)＋12です。これが150個です。",
+      "equation": "(69)＝150−12＝138",
+      "checkpoint": {
+       "prompt": "⑩＋㉔＋㉕＋⑩は、比の数でいくつですか。",
+       "answer": {
+        "n": "69",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s3"
+     },
+     {
+      "title": "①を求める",
+      "body": "138個を69で割ります。",
+      "equation": "①＝138÷69＝2（個）",
+      "id": "s4"
+     },
+     {
+      "title": "Cの個数",
+      "body": "Cは㉕です。",
+      "equation": "2×25＝50（個）",
+      "id": "s5"
+     },
+     {
+      "title": "確かめる",
+      "body": "A20個、B48個、C50個、D32個で、合計は150個です。",
+      "equation": "20＋48＋50＋32＝150",
+      "id": "s6"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H②-1",
+   "unitId": "ratio.equivalent.difference_of_fractions",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "AとBはそれぞれ同じ本を読みます。Aは全体の3/4を、Bは全体の2/5を読んだところ、2人の読んだページ数の差は56ページになりました。2人の読んだページ数をそれぞれ求めなさい。",
+   "sourceText": "AとBはそれぞれ同じ本を読みます。Aは全体の3/4を、Bは全体の2/5を読んだところ、2人の読んだページ数の差は56ページになりました。2人の読んだページ数をそれぞれ求めなさい。",
+   "source": {
+    "title": "R26H②-1",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ②-1、PDF通しp.31（再チャレンジp.32）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 31,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "AとBはそれぞれ同じ本を読みます。Aは全体の3/4を、Bは全体の2/5を読んだところ、2人の読んだページ数の差は56ページになりました。2人の読んだページ数をそれぞれ求めなさい。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "152c9f6cd1b611c236914cc33a323844662785fc9f9b3d25452f5621d15b2fb4",
+    "notionSourceText": "AとBはそれぞれ同じ本を読みます。Aは全体の3/4を、Bは全体の2/5を読んだところ、2人の読んだページ数の差は56ページになりました。2人の読んだページ数をそれぞれ求めなさい。",
+    "url": "https://app.notion.com/4022b010743c818da876e7481ab0e396",
+    "notionId": "4022b010-743c-818d-a876-e7481ab0e396",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+      "name": "相当算の基本",
+      "code": "P03",
+      "baseDifficulty": 3,
+      "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+     }
+    ],
+    "sourceAnswer": "A120ページ・B64ページ",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "A",
+      "n": "120",
+      "d": "1",
+      "unit": "ページ",
+      "dimension": "scalar"
+     },
+     {
+      "label": "B",
+      "n": "64",
+      "d": "1",
+      "unit": "ページ",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "同じ全体を1とする",
+      "body": "AもBも同じ本を読んでいるので、本全体のページ数を1とします。",
+      "equation": "全体＝1",
+      "id": "s1"
+     },
+     {
+      "title": "割合の差を出す",
+      "body": "Aは3/4、Bは2/5なので、割合の差は3/4−2/5です。",
+      "equation": "3/4−2/5＝15/20−8/20＝7/20",
+      "checkpoint": {
+       "prompt": "3/4−2/5を分数で答えましょう。",
+       "answer": {
+        "n": "7",
+        "d": "20",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "全体のページ数",
+      "body": "7/20が56ページにあたるので、全体は56÷7/20です。",
+      "equation": "56÷7/20＝160（ページ）",
+      "id": "s3"
+     },
+     {
+      "title": "それぞれのページ数",
+      "body": "全体の3/4と2/5を計算します。",
+      "equation": "A＝160×3/4＝120、B＝160×2/5＝64",
+      "id": "s4"
+     },
+     {
+      "title": "確かめる",
+      "body": "差は120−64＝56ページで、問題と合います。",
+      "equation": "120−64＝56",
+      "id": "s5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H②-2",
+   "unitId": "ratio.equivalent.bottle_weight",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "ビンに水をいっぱいに入れて、重さをはかると1.4kgありました。次に、ビンに水を2/5だけ入れて重さをはかると920gありました。ビンの重さは何gですか。",
+   "sourceText": "ビンに水をいっぱいに入れて、重さをはかると1.4kgありました。次に、ビンに水を2/5だけ入れて重さをはかると920gありました。ビンの重さは何gですか。",
+   "source": {
+    "title": "R26H②-2",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ②-2、PDF通しp.31（再チャレンジp.32）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 31,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "ビンに水をいっぱいに入れて、重さをはかると1.4kgありました。次に、ビンに水を2/5だけ入れて重さをはかると920gありました。ビンの重さは何gですか。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "5bd3fd5d1f2e95a15d276b536f0fd6b564470b7fc837fc0f1f4c38b2d62ba213",
+    "notionSourceText": "ビンに水をいっぱいに入れて、重さをはかると1.4kgありました。次に、ビンに水を2/5だけ入れて重さをはかると920gありました。ビンの重さは何gですか。",
+    "url": "https://app.notion.com/4022b010743c811ebd78dc49cf8f302e",
+    "notionId": "4022b010-743c-811e-bd78-dc49cf8f302e",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+      "name": "相当算の基本",
+      "code": "P03",
+      "baseDifficulty": 3,
+      "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+     }
+    ],
+    "sourceAnswer": "600g",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "n": "600",
+    "d": "1",
+    "unit": "g",
+    "dimension": "scalar"
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "単位をそろえる",
+      "body": "1.4kgをgに直します。",
+      "equation": "1.4kg＝1400g",
+      "id": "s1"
+     },
+     {
+      "title": "重さの差を出す",
+      "body": "ビンの重さは同じなので、重さの差は水の量の差です。",
+      "equation": "1400−920＝480（g）",
+      "checkpoint": {
+       "prompt": "1400gと920gの差は何gですか。",
+       "answer": {
+        "n": "480",
+        "d": "1",
+        "unit": "g",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "水の割合の差",
+      "body": "いっぱい（1）と2/5の差は3/5です。3/5が480gにあたります。",
+      "equation": "1−2/5＝3/5",
+      "id": "s3"
+     },
+     {
+      "title": "水いっぱいの重さ",
+      "body": "480gを3/5で割ります。",
+      "equation": "480÷3/5＝800（g）",
+      "id": "s4"
+     },
+     {
+      "title": "ビンの重さ",
+      "body": "いっぱいのときの重さから水の重さをひきます。",
+      "equation": "1400−800＝600（g）",
+      "id": "s5"
+     },
+     {
+      "title": "確かめる",
+      "body": "ビン600g＋水800gの2/5（320g）＝920gで合います。",
+      "equation": "600＋800×2/5＝920",
+      "id": "s6"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H②-3",
+   "unitId": "ratio.equivalent.remaining_fraction",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "ナツキさんは、おこづかい全体の2/3を貯金し、おこづかい全体の1/5で本を買ったら、800円残りました。本の値段を求めなさい。",
+   "sourceText": "ナツキさんは、おこづかい全体の2/3を貯金し、おこづかい全体の1/5で本を買ったら、800円残りました。本の値段を求めなさい。",
+   "source": {
+    "title": "R26H②-3",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ②-3、PDF通しp.31（再チャレンジp.32）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 31,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "ナツキさんは、おこづかい全体の2/3を貯金し、おこづかい全体の1/5で本を買ったら、800円残りました。本の値段を求めなさい。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "e36bb6496225f91544f818fef74f8d5d6f8ef568759eadd5e3205b6da4a8b116",
+    "notionSourceText": "ナツキさんは、おこづかい全体の2/3を貯金し、おこづかい全体の1/5で本を買ったら、800円残りました。本の値段を求めなさい。",
+    "url": "https://app.notion.com/4022b010743c8104b954fdd1031741a0",
+    "notionId": "4022b010-743c-8104-b954-fdd1031741a0",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+      "name": "相当算の基本",
+      "code": "P03",
+      "baseDifficulty": 3,
+      "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+     }
+    ],
+    "sourceAnswer": "1200円",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "n": "1200",
+    "d": "1",
+    "unit": "円",
+    "dimension": "scalar"
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "全体を1とする",
+      "body": "おこづかい全体を1とします。貯金も本も「全体の」割合です。",
+      "equation": "全体＝1",
+      "id": "s1"
+     },
+     {
+      "title": "残りの割合",
+      "body": "全体から2/3と1/5をひきます。",
+      "equation": "1−2/3−1/5＝15/15−10/15−3/15＝2/15",
+      "checkpoint": {
+       "prompt": "残りはおこづかい全体の何分のいくつですか。",
+       "answer": {
+        "n": "2",
+        "d": "15",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "全体の金額",
+      "body": "2/15が800円にあたります。",
+      "equation": "800÷2/15＝6000（円）",
+      "id": "s3"
+     },
+     {
+      "title": "本の値段",
+      "body": "本は全体の1/5です。",
+      "equation": "6000×1/5＝1200（円）",
+      "id": "s4"
+     },
+     {
+      "title": "確かめる",
+      "body": "貯金4000円、本1200円、残り800円で合計6000円です。",
+      "equation": "4000＋1200＋800＝6000",
+      "id": "s5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H②-4",
+   "unitId": "ratio.equivalent.two_parts_with_extra",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "ある学校の男子の人数は全体の4/7より6人多く、女子の人数は全体の5/12より4人少ないそうです。この学校の全体の人数を求めなさい。",
+   "sourceText": "ある学校の男子の人数は全体の4/7より6人多く、女子の人数は全体の5/12より4人少ないそうです。この学校の全体の人数を求めなさい。",
+   "source": {
+    "title": "R26H②-4",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ②-4、PDF通しp.31（再チャレンジp.32）、公式解答p.42〜43",
+    "pdfPage": 31,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "ある学校の男子の人数は全体の4/7より6人多く、女子の人数は全体の5/12より4人少ないそうです。この学校の全体の人数を求めなさい。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答p.42〜43と一致、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "019f52825af70c7eda4c4793346ed32b7c7f07ec22f5e6ab516e0ca812e5085f",
+    "notionSourceText": "ある学校の男子の人数は全体の4/7より6人多く、女子の人数は全体の5/12より4人少ないそうです。この学校の全体の人数を求めなさい。",
+    "url": "https://app.notion.com/4022b010743c811f8bd5d25eff6fab34",
+    "notionId": "4022b010-743c-811f-8bd5-d25eff6fab34",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+      "name": "相当算の基本",
+      "code": "P03",
+      "baseDifficulty": 3,
+      "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+     }
+    ],
+    "sourceAnswer": "168人",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "n": "168",
+    "d": "1",
+    "unit": "人",
+    "dimension": "scalar"
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "男子と女子を足す",
+      "body": "男子＋女子＝全体です。割合の部分を足すと4/7＋5/12、人数の部分は＋6人と−4人で＋2人です。",
+      "equation": "4/7＋5/12＝48/84＋35/84＝83/84",
+      "id": "s1"
+     },
+     {
+      "title": "足りない割合を出す",
+      "body": "全体は1なので、83/84では1/84足りません。その1/84が2人にあたります。",
+      "equation": "1−83/84＝1/84",
+      "checkpoint": {
+       "prompt": "1−(4/7＋5/12)を分数で答えましょう。",
+       "answer": {
+        "n": "1",
+        "d": "84",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "人数のずれ",
+      "body": "男子の＋6人と女子の−4人を合わせると、＋2人です。",
+      "equation": "6−4＝2（人）",
+      "id": "s3"
+     },
+     {
+      "title": "全体の人数",
+      "body": "1/84が2人なので、全体は2÷1/84です。",
+      "equation": "2÷1/84＝168（人）",
+      "id": "s4"
+     },
+     {
+      "title": "確かめる",
+      "body": "男子168×4/7＋6＝102人、女子168×5/12−4＝66人で、合計168人です。",
+      "equation": "102＋66＝168",
+      "id": "s5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H②-5",
+   "unitId": "ratio.reduction.remainder_fraction_plus",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "ケンタ君は、持っているお金の2/5で本を買いました。次に、残りの1/4より60円多い金額でノートを買ったので、300円残りました。ケンタ君は、はじめ何円持っていましたか。",
+   "sourceText": "ケンタ君は、持っているお金の2/5で本を買いました。次に、残りの1/4より60円多い金額でノートを買ったので、300円残りました。ケンタ君は、はじめ何円持っていましたか。",
+   "source": {
+    "title": "R26H②-5",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ②-5、PDF通しp.31（再チャレンジp.32）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 31,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "ケンタ君は、持っているお金の2/5で本を買いました。次に、残りの1/4より60円多い金額でノートを買ったので、300円残りました。ケンタ君は、はじめ何円持っていましたか。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "e4324f8bed2b42985f01e7e808818fb63b92a7dd9b81702836e3c37b6bb54aa9",
+    "notionSourceText": "ケンタ君は、持っているお金の2/5で本を買いました。次に、残りの1/4より60円多い金額でノートを買ったので、300円残りました。ケンタ君は、はじめ何円持っていましたか。",
+    "url": "https://app.notion.com/4022b010743c817a9cbbca3ae01198ad",
+    "notionId": "4022b010-743c-817a-9cbb-ca3ae01198ad",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c8168af55c91ebc13807c",
+      "name": "相当算：残りのさらに○分の1",
+      "code": "P04",
+      "baseDifficulty": 4,
+      "description": "残りを1として線分図をうしろからたどる"
+     }
+    ],
+    "sourceAnswer": "800円",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "n": "800",
+    "d": "1",
+    "unit": "円",
+    "dimension": "scalar"
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "本を買った残りを1とする",
+      "body": "ノートは「残りの1/4より60円多い」ので、本を買った残りを1とします。",
+      "equation": "残り＝1",
+      "id": "s1"
+     },
+     {
+      "title": "60円を戻す",
+      "body": "ノートを買ったあとの300円に、多く使った60円を足すと、残りの3/4になります。",
+      "equation": "300＋60＝360（円）",
+      "checkpoint": {
+       "prompt": "300円に60円を戻すと何円ですか。",
+       "answer": {
+        "n": "360",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "本を買った残り",
+      "body": "3/4が360円なので、残りは360÷3/4です。",
+      "equation": "360÷3/4＝480（円）",
+      "id": "s3"
+     },
+     {
+      "title": "はじめの金額",
+      "body": "本で2/5使ったので、残りの480円は全体の3/5です。",
+      "equation": "480÷3/5＝800（円）",
+      "id": "s4"
+     },
+     {
+      "title": "確かめる",
+      "body": "本320円、残り480円、ノート120＋60＝180円、残り300円です。",
+      "equation": "800−320−180＝300",
+      "id": "s5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H③-1",
+   "unitId": "ratio.reduction.use_receive_use",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "ナツキさんは、持っていたお金の1/3を使いましたが、父から400円もらいました。ところが、そのときに持っていたお金の2/5より40円少ない金額で本を買ったので、残りは1000円になりました。ナツキさんは、はじめ何円持っていましたか。",
+   "sourceText": "ナツキさんは、持っていたお金の1/3を使いましたが、父から400円もらいました。ところが、そのときに持っていたお金の2/5より40円少ない金額で本を買ったので、残りは1000円になりました。ナツキさんは、はじめ何円持っていましたか。",
+   "source": {
+    "title": "R26H③-1",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ③-1、PDF通しp.33（再チャレンジp.34）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 33,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "ナツキさんは、持っていたお金の1/3を使いましたが、父から400円もらいました。ところが、そのときに持っていたお金の2/5より40円少ない金額で本を買ったので、残りは1000円になりました。ナツキさんは、はじめ何円持っていましたか。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "6bf68240c5d61883f09e1fb2d51556073959189862ed14ae0e5615c0dcbc4f51",
+    "notionSourceText": "ナツキさんは、持っていたお金の1/3を使いましたが、父から400円もらいました。ところが、そのときに持っていたお金の2/5より40円少ない金額で本を買ったので、残りは1000円になりました。ナツキさんは、はじめ何円持っていましたか。",
+    "url": "https://app.notion.com/4022b010743c81268e4dead5c3183b9c",
+    "notionId": "4022b010-743c-8126-8e4d-ead5c3183b9c",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c8168af55c91ebc13807c",
+      "name": "相当算：残りのさらに○分の1",
+      "code": "P04",
+      "baseDifficulty": 4,
+      "description": "残りを1として線分図をうしろからたどる"
+     }
+    ],
+    "sourceAnswer": "1800円",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "n": "1800",
+    "d": "1",
+    "unit": "円",
+    "dimension": "scalar"
+   },
+   "difficulty": 5,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "本を買う前を1とする",
+      "body": "本は「そのときの2/5より40円少ない」ので、本を買う前の金額を1とします。",
+      "equation": "本を買う前＝1",
+      "id": "s1"
+     },
+     {
+      "title": "40円を戻す",
+      "body": "少なく使った40円をひくと、本を買う前の3/5になります。",
+      "equation": "1000−40＝960（円）",
+      "checkpoint": {
+       "prompt": "1000円から40円をひくと何円ですか。",
+       "answer": {
+        "n": "960",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "本を買う前の金額",
+      "body": "3/5が960円です。",
+      "equation": "960÷3/5＝1600（円）",
+      "id": "s3"
+     },
+     {
+      "title": "もらう前に戻す",
+      "body": "父から400円もらう前は400円少ないです。",
+      "equation": "1600−400＝1200（円）",
+      "id": "s4"
+     },
+     {
+      "title": "はじめの金額",
+      "body": "はじめの1/3を使った残り（2/3）が1200円です。",
+      "equation": "1200÷2/3＝1800（円）",
+      "id": "s5"
+     },
+     {
+      "title": "確かめる",
+      "body": "1800→1200→1600→本600円→1000円で合います。",
+      "equation": "1600×2/5−40＝600、1600−600＝1000",
+      "id": "s6"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H③-4",
+   "unitId": "ratio.reduction.chain_of_remainders",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "ある本を3日かかって読みました。1日目に全体の2/5を読み、2日目に残りの2/7を読み、3日目にまたその残りの2/3を読みました。(1) 残ったページ数は、本全体の何分のいくつですか。分数で答えなさい。(2) もし、3日目に残りの1/8を読んだとすると、残ったページ数は、残りの2/3を読んだときより65ページ多くなります。この本は全部で何ページありますか。",
+   "sourceText": "ある本を3日かかって読みました。1日目に全体の2/5を読み、2日目に残りの2/7を読み、3日目にまたその残りの2/3を読みました。(1) 残ったページ数は、本全体の何分のいくつですか。分数で答えなさい。(2) もし、3日目に残りの1/8を読んだとすると、残ったページ数は、残りの2/3を読んだときより65ページ多くなります。この本は全部で何ページありますか。",
+   "source": {
+    "title": "R26H③-4",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ③-4、PDF通しp.33（再チャレンジp.34）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 33,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "ある本を3日かかって読みました。1日目に全体の2/5を読み、2日目に残りの2/7を読み、3日目にまたその残りの2/3を読みました。(1) 残ったページ数は、本全体の何分のいくつですか。分数で答えなさい。(2) もし、3日目に残りの1/8を読んだとすると、残ったページ数は、残りの2/3を読んだときより65ページ多くなります。この本は全部で何ページありますか。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "0a023d5c15f97466a29ec8918092b0489f5114e69a3aad33faabedcf4392f664",
+    "notionSourceText": "ある本を3日かかって読みました。1日目に全体の2/5を読み、2日目に残りの2/7を読み、3日目にまたその残りの2/3を読みました。(1) 残ったページ数は、本全体の何分のいくつですか。分数で答えなさい。(2) もし、3日目に残りの1/8を読んだとすると、残ったページ数は、残りの2/3を読んだときより65ページ多くなります。この本は全部で何ページありますか。",
+    "url": "https://app.notion.com/4022b010743c81ffa0e7e54857c1bd99",
+    "notionId": "4022b010-743c-81ff-a0e7-e54857c1bd99",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c8168af55c91ebc13807c",
+      "name": "相当算：残りのさらに○分の1",
+      "code": "P04",
+      "baseDifficulty": 4,
+      "description": "残りを1として線分図をうしろからたどる"
+     }
+    ],
+    "sourceAnswer": "(1)1/7 (2)280ページ",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "1",
+      "d": "7",
+      "unit": "",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(2)",
+      "n": "280",
+      "d": "1",
+      "unit": "ページ",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "difficulty": 5,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "1日目の残り",
+      "body": "全体を1とすると、1日目の残りは1−2/5＝3/5です。",
+      "equation": "1−2/5＝3/5",
+      "id": "s1"
+     },
+     {
+      "title": "2日目の残り",
+      "body": "2日目は残りの2/7を読んだので、残りはその5/7です。",
+      "equation": "3/5×5/7＝3/7",
+      "id": "s2"
+     },
+     {
+      "title": "3日目の残り",
+      "body": "3日目は残りの2/3を読んだので、残りは1/3です。",
+      "equation": "3/7×1/3＝1/7",
+      "id": "s3"
+     },
+     {
+      "title": "(2) 残りの割合の差",
+      "body": "2日目の残りを1とすると、1/8読んだ残りは7/8、2/3読んだ残りは1/3です。差は7/8−1/3です。",
+      "equation": "7/8−1/3＝21/24−8/24＝13/24",
+      "checkpoint": {
+       "prompt": "7/8−1/3を分数で答えましょう。",
+       "answer": {
+        "n": "13",
+        "d": "24",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s4"
+     },
+     {
+      "title": "2日目の残りのページ数",
+      "body": "13/24が65ページにあたります。",
+      "equation": "65÷13/24＝120（ページ）",
+      "id": "s5"
+     },
+     {
+      "title": "全体のページ数",
+      "body": "2日目の残りは全体の3/7です。",
+      "equation": "120÷3/7＝280（ページ）",
+      "id": "s6"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H④-1",
+   "unitId": "exchange.double_backward",
+   "category": "oneline",
+   "domain": "やりとり算",
+   "text": "A、B、Cの3人が持っている金額の合計は4800円でした。まず、AからBへ、そのときBが持っていたのと同じ金額のお金をわたしました。次に、BからCへ、そのときCが持っていたのと同じ金額のお金をわたしました。最後に、CからAへ、そのときAが持っていたのと同じ金額のお金をわたしたら、3人の持っている金額が同じになりました。最初に3人が持っていた金額をそれぞれ求めなさい。",
+   "sourceText": "A、B、Cの3人が持っている金額の合計は4800円でした。まず、AからBへ、そのときBが持っていたのと同じ金額のお金をわたしました。次に、BからCへ、そのときCが持っていたのと同じ金額のお金をわたしました。最後に、CからAへ、そのときAが持っていたのと同じ金額のお金をわたしたら、3人の持っている金額が同じになりました。最初に3人が持っていた金額をそれぞれ求めなさい。",
+   "source": {
+    "title": "R26H④-1",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ④-1、PDF通しp.35（再チャレンジp.36）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 35,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "A、B、Cの3人が持っている金額の合計は4800円でした。まず、AからBへ、そのときBが持っていたのと同じ金額のお金をわたしました。次に、BからCへ、そのときCが持っていたのと同じ金額のお金をわたしました。最後に、CからAへ、そのときAが持っていたのと同じ金額のお金をわたしたら、3人の持っている金額が同じになりました。最初に3人が持っていた金額をそれぞれ求めなさい。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "4f735ca6c119a93f20e5bc89c8b034f5de3c71043cfb391d7ff5adef4a445445",
+    "notionSourceText": "A、B、Cの3人が持っている金額の合計は4800円でした。まず、AからBへ、そのときBが持っていたのと同じ金額のお金をわたしました。次に、BからCへ、そのときCが持っていたのと同じ金額のお金をわたしました。最後に、CからAへ、そのときAが持っていたのと同じ金額のお金をわたしたら、3人の持っている金額が同じになりました。最初に3人が持っていた金額をそれぞれ求めなさい。",
+    "url": "https://app.notion.com/4022b010743c8114bf82c970a470e5c7",
+    "notionId": "4022b010-743c-8114-bf82-c970a470e5c7",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c81bfb555ff15a10c9bb7",
+      "name": "やりとり算・年齢算",
+      "code": "W06",
+      "baseDifficulty": 3,
+      "description": "やりとりの前後、年齢の差は一定"
+     }
+    ],
+    "sourceAnswer": "A2200円・B1400円・C1200円",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "A",
+      "n": "2200",
+      "d": "1",
+      "unit": "円",
+      "dimension": "scalar"
+     },
+     {
+      "label": "B",
+      "n": "1400",
+      "d": "1",
+      "unit": "円",
+      "dimension": "scalar"
+     },
+     {
+      "label": "C",
+      "n": "1200",
+      "d": "1",
+      "unit": "円",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "最後の金額",
+      "body": "合計4800円が3人同じになったので、1人1600円です。",
+      "equation": "4800÷3＝1600（円）",
+      "id": "s1"
+     },
+     {
+      "title": "CからAへわたす前",
+      "body": "Aはもらって2倍になったので、前は半分の800円です。Cはその800円を返して2400円です。",
+      "equation": "A＝1600÷2＝800、C＝1600＋800＝2400",
+      "checkpoint": {
+       "prompt": "最後のやりとりの前、Aは何円持っていましたか。",
+       "answer": {
+        "n": "800",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "BからCへわたす前",
+      "body": "Cはもらって2倍になっていたので、前は2400÷2＝1200円。Bは1200円を返して2800円です。",
+      "equation": "C＝2400÷2＝1200、B＝1600＋1200＝2800",
+      "id": "s3"
+     },
+     {
+      "title": "AからBへわたす前",
+      "body": "Bはもらって2倍になっていたので、前は2800÷2＝1400円。Aは1400円を返して2200円です。",
+      "equation": "B＝2800÷2＝1400、A＝800＋1400＝2200",
+      "id": "s4"
+     },
+     {
+      "title": "確かめる",
+      "body": "はじめ2200・1400・1200円（合計4800円）から順にやりとりすると、最後に全員1600円になります。",
+      "equation": "2200＋1400＋1200＝4800",
+      "id": "s5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H④-2",
+   "unitId": "exchange.fraction_backward",
+   "category": "oneline",
+   "domain": "やりとり算",
+   "text": "AとBはお金を何円かずつ持っていました。まず、Aが持っていたお金の1/3をBにあげました。次に、Bがそのとき持っていたお金の1/2をAにあげました。最後に、Aがそのとき持っていたお金の1/4をBにあげたところ、Aの持っている金額は1350円、Bの持っている金額は1450円になりました。最初に2人が持っていた金額をそれぞれ求めなさい。",
+   "sourceText": "AとBはお金を何円かずつ持っていました。まず、Aが持っていたお金の1/3をBにあげました。次に、Bがそのとき持っていたお金の1/2をAにあげました。最後に、Aがそのとき持っていたお金の1/4をBにあげたところ、Aの持っている金額は1350円、Bの持っている金額は1450円になりました。最初に2人が持っていた金額をそれぞれ求めなさい。",
+   "source": {
+    "title": "R26H④-2",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ④-2、PDF通しp.35（再チャレンジp.36）、公式解答p.42〜43",
+    "pdfPage": 35,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "AとBはお金を何円かずつ持っていました。まず、Aが持っていたお金の1/3をBにあげました。次に、Bがそのとき持っていたお金の1/2をAにあげました。最後に、Aがそのとき持っていたお金の1/4をBにあげたところ、Aの持っている金額は1350円、Bの持っている金額は1450円になりました。最初に2人が持っていた金額をそれぞれ求めなさい。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答p.42〜43と一致、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "8f2bb14fa661d8dad9bd637bc50cc4a3d6d7c9867568463c2a9f5792a31e336d",
+    "notionSourceText": "AとBはお金を何円かずつ持っていました。まず、Aが持っていたお金の1/3をBにあげました。次に、Bがそのとき持っていたお金の1/2をAにあげました。最後に、Aがそのとき持っていたお金の1/4をBにあげたところ、Aの持っている金額は1350円、Bの持っている金額は1450円になりました。最初に2人が持っていた金額をそれぞれ求めなさい。",
+    "url": "https://app.notion.com/4022b010743c810daf2ef53b423eafea",
+    "notionId": "4022b010-743c-810d-af2e-f53b423eafea",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c81bfb555ff15a10c9bb7",
+      "name": "やりとり算・年齢算",
+      "code": "W06",
+      "baseDifficulty": 3,
+      "description": "やりとりの前後、年齢の差は一定"
+     }
+    ],
+    "sourceAnswer": "A1200円・B1600円",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "A",
+      "n": "1200",
+      "d": "1",
+      "unit": "円",
+      "dimension": "scalar"
+     },
+     {
+      "label": "B",
+      "n": "1600",
+      "d": "1",
+      "unit": "円",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "合計は一定",
+      "body": "2人の間のやりとりなので、合計はずっと1350＋1450＝2800円です。",
+      "equation": "1350＋1450＝2800（円）",
+      "id": "s1"
+     },
+     {
+      "title": "最後のやりとりの前",
+      "body": "Aは1/4をあげて3/4が残り1350円になりました。",
+      "equation": "A＝1350÷3/4＝1800、B＝2800−1800＝1000",
+      "checkpoint": {
+       "prompt": "最後にあげる前、Aは何円持っていましたか。",
+       "answer": {
+        "n": "1800",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "2回目のやりとりの前",
+      "body": "Bは1/2をあげて1/2が残り1000円になりました。",
+      "equation": "B＝1000÷1/2＝2000、A＝2800−2000＝800",
+      "id": "s3"
+     },
+     {
+      "title": "はじめの金額",
+      "body": "Aは1/3をあげて2/3が残り800円になりました。",
+      "equation": "A＝800÷2/3＝1200、B＝2800−1200＝1600",
+      "id": "s4"
+     },
+     {
+      "title": "確かめる",
+      "body": "A1200円の1/3（400円）をBへ→A800・B2000、Bの半分1000円をAへ→A1800・B1000、Aの1/4（450円）をBへ→A1350・B1450。",
+      "equation": "1800−450＝1350、1000＋450＝1450",
+      "id": "s5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H④-4",
+   "unitId": "ratio.bounce.basic",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "落とした高さの2/5まではね上がるボールをある高さから落とすと、3回目に16cmはね上がりました。(1) はじめに落とした高さを1とすると、3回目にはね上がる高さはどれだけになりますか。(2) はじめに何cmの高さからボールを落としましたか。",
+   "sourceText": "落とした高さの2/5まではね上がるボールをある高さから落とすと、3回目に16cmはね上がりました。(1) はじめに落とした高さを1とすると、3回目にはね上がる高さはどれだけになりますか。(2) はじめに何cmの高さからボールを落としましたか。",
+   "source": {
+    "title": "R26H④-4",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ④-4、PDF通しp.35（再チャレンジp.36）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 35,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "落とした高さの2/5まではね上がるボールをある高さから落とすと、3回目に16cmはね上がりました。(1) はじめに落とした高さを1とすると、3回目にはね上がる高さはどれだけになりますか。(2) はじめに何cmの高さからボールを落としましたか。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "f958dfd02cdd14971e95aa9e10168e60714950df2fc05ca8e0380203e72ff0be",
+    "notionSourceText": "落とした高さの2/5まではね上がるボールをある高さから落とすと、3回目に16cmはね上がりました。(1) はじめに落とした高さを1とすると、3回目にはね上がる高さはどれだけになりますか。(2) はじめに何cmの高さからボールを落としましたか。",
+    "url": "https://app.notion.com/4022b010743c81258a71e824e85086c0",
+    "notionId": "4022b010-743c-8125-8a71-e824e85086c0",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+      "name": "相当算の基本",
+      "code": "P03",
+      "baseDifficulty": 3,
+      "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+     }
+    ],
+    "sourceAnswer": "(1)8/125 (2)250cm",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "8",
+      "d": "125",
+      "unit": "",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(2)",
+      "n": "250",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "はじめの高さを1とする",
+      "body": "落とした高さの2/5まではね上がるので、1回ごとに2/5をかけます。",
+      "equation": "はじめ＝1",
+      "id": "s1"
+     },
+     {
+      "title": "2回目の高さ",
+      "body": "1回目は2/5、2回目はその2/5です。",
+      "equation": "2/5×2/5＝4/25",
+      "checkpoint": {
+       "prompt": "2回目にはね上がる高さは、はじめの高さの何分のいくつですか。",
+       "answer": {
+        "n": "4",
+        "d": "25",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "3回目の高さ",
+      "body": "もう一度2/5をかけます。",
+      "equation": "4/25×2/5＝8/125",
+      "id": "s3"
+     },
+     {
+      "title": "はじめの高さ",
+      "body": "8/125が16cmにあたります。",
+      "equation": "16÷8/125＝250（cm）",
+      "id": "s4"
+     },
+     {
+      "title": "確かめる",
+      "body": "250cm→100cm→40cm→16cmで合います。",
+      "equation": "250×2/5＝100、100×2/5＝40、40×2/5＝16",
+      "id": "s5"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H⑤-1",
+   "unitId": "ratio.bounce.two_balls",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "落とした高さの1/2の高さまではね上がるボールAと、落とした高さの2/3の高さまではね上がるボールBがあります。(1) A、Bを同じ高さから落とすと、2回目にはね上がった高さの差が35cmになりました。はじめに何cmの高さから落としましたか。(2) A、Bをちがう高さから落とすと、3回目にはね上がった高さが同じになりました。はじめにAはBの何倍の高さから落としましたか。",
+   "sourceText": "落とした高さの1/2の高さまではね上がるボールAと、落とした高さの2/3の高さまではね上がるボールBがあります。(1) A、Bを同じ高さから落とすと、2回目にはね上がった高さの差が35cmになりました。はじめに何cmの高さから落としましたか。(2) A、Bをちがう高さから落とすと、3回目にはね上がった高さが同じになりました。はじめにAはBの何倍の高さから落としましたか。",
+   "source": {
+    "title": "R26H⑤-1",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ⑤-1、PDF通しp.37（再チャレンジp.38）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 37,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "落とした高さの1/2の高さまではね上がるボールAと、落とした高さの2/3の高さまではね上がるボールBがあります。(1) A、Bを同じ高さから落とすと、2回目にはね上がった高さの差が35cmになりました。はじめに何cmの高さから落としましたか。(2) A、Bをちがう高さから落とすと、3回目にはね上がった高さが同じになりました。はじめにAはBの何倍の高さから落としましたか。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "1553ed0021391d49e5076aabf51a84715c33e9cef19cd384315fb80458436ebc",
+    "notionSourceText": "落とした高さの1/2の高さまではね上がるボールAと、落とした高さの2/3の高さまではね上がるボールBがあります。(1) A、Bを同じ高さから落とすと、2回目にはね上がった高さの差が35cmになりました。はじめに何cmの高さから落としましたか。(2) A、Bをちがう高さから落とすと、3回目にはね上がった高さが同じになりました。はじめにAはBの何倍の高さから落としましたか。",
+    "url": "https://app.notion.com/4022b010743c81aa99bee6364e504947",
+    "notionId": "4022b010-743c-81aa-99be-e6364e504947",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+      "name": "相当算の基本",
+      "code": "P03",
+      "baseDifficulty": 3,
+      "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+     }
+    ],
+    "sourceAnswer": "(1)180cm (2)2と10/27倍",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "180",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(2)",
+      "n": "64",
+      "d": "27",
+      "unit": "倍",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "2回目の割合",
+      "body": "はじめの高さを1とすると、Aの2回目は1/2×1/2、Bの2回目は2/3×2/3です。",
+      "equation": "A＝1/4、B＝4/9",
+      "id": "s1"
+     },
+     {
+      "title": "割合の差",
+      "body": "2回目の差は4/9−1/4です。",
+      "equation": "4/9−1/4＝16/36−9/36＝7/36",
+      "checkpoint": {
+       "prompt": "4/9−1/4を分数で答えましょう。",
+       "answer": {
+        "n": "7",
+        "d": "36",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "はじめの高さ",
+      "body": "7/36が35cmにあたります。",
+      "equation": "35÷7/36＝180（cm）",
+      "id": "s3"
+     },
+     {
+      "title": "(2) 3回目の割合",
+      "body": "Aの3回目は1/2を3回、Bの3回目は2/3を3回かけます。",
+      "equation": "A＝1/8、B＝8/27",
+      "id": "s4"
+     },
+     {
+      "title": "等しいとおく",
+      "body": "Aのはじめ×1/8＝Bのはじめ×8/27なので、AはBの8/27÷1/8倍です。",
+      "equation": "8/27÷1/8＝64/27＝2と10/27",
+      "id": "s5"
+     },
+     {
+      "title": "確かめる",
+      "body": "Bを27とするとAは64。Aの3回目は64×1/8＝8、Bの3回目は27×8/27＝8で同じです。",
+      "equation": "64×1/8＝27×8/27＝8",
+      "id": "s6"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H⑥-1",
+   "unitId": "distribution.quotient_remainder_and_mistake",
+   "category": "oneline",
+   "domain": "分配算",
+   "text": "(1) AをBでわると商は15、あまりは12で、AとBの和は300です。AとBを求めなさい。(2) ある数を5倍して30を加えるはずであったところをまちがえて、30を加えてから5倍してしまったので、その結果は、正しい答えの3倍になってしまいました。ある数を求めなさい。",
+   "sourceText": "(1) AをBでわると商は15、あまりは12で、AとBの和は300です。AとBを求めなさい。(2) ある数を5倍して30を加えるはずであったところをまちがえて、30を加えてから5倍してしまったので、その結果は、正しい答えの3倍になってしまいました。ある数を求めなさい。",
+   "source": {
+    "title": "R26H⑥-1",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ⑥-1、PDF通しp.39（再チャレンジp.40）、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 39,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "(1) AをBでわると商は15、あまりは12で、AとBの和は300です。AとBを求めなさい。(2) ある数を5倍して30を加えるはずであったところをまちがえて、30を加えてから5倍してしまったので、その結果は、正しい答えの3倍になってしまいました。ある数を求めなさい。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "54a4acfebef090ca77a5f250ad9a008729af0bda1ccdca69a89dd41129aa4300",
+    "notionSourceText": "(1) AをBでわると商は15、あまりは12で、AとBの和は300です。AとBを求めなさい。(2) ある数を5倍して30を加えるはずであったところをまちがえて、30を加えてから5倍してしまったので、その結果は、正しい答えの3倍になってしまいました。ある数を求めなさい。",
+    "url": "https://app.notion.com/4022b010743c81929f90f8c808a58d16",
+    "notionId": "4022b010-743c-8192-9f90-f8c808a58d16",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c81d4a1a7e8fbc2318568",
+      "name": "分配算",
+      "code": "W02",
+      "baseDifficulty": 3,
+      "description": "倍数関係の線分図（2倍より○多い）"
+     }
+    ],
+    "sourceAnswer": "(1)A282・B18 (2)6",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)A",
+      "n": "282",
+      "d": "1",
+      "unit": "",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(1)B",
+      "n": "18",
+      "d": "1",
+      "unit": "",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(2)",
+      "n": "6",
+      "d": "1",
+      "unit": "",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "わり算を式にする",
+      "body": "AをBでわると商15、あまり12なので、AはBの15倍より12大きい数です。",
+      "equation": "A＝B×15＋12",
+      "id": "s1"
+     },
+     {
+      "title": "和を使う",
+      "body": "A＋B＝300なので、Bの16倍＋12＝300です。",
+      "equation": "B×16＝300−12＝288",
+      "checkpoint": {
+       "prompt": "Bの16倍はいくつですか。",
+       "answer": {
+        "n": "288",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "AとBを求める",
+      "body": "288を16で割るとBです。AはBの15倍＋12です。",
+      "equation": "B＝288÷16＝18、A＝18×15＋12＝282",
+      "id": "s3"
+     },
+     {
+      "title": "(2) まちがえた式",
+      "body": "ある数を□とします。30を加えてから5倍すると、□×5＋150です。",
+      "equation": "(□＋30)×5＝□×5＋150",
+      "id": "s4"
+     },
+     {
+      "title": "正しい答えの3倍",
+      "body": "正しい答えは□×5＋30なので、その3倍は□×15＋90です。",
+      "equation": "(□×5＋30)×3＝□×15＋90",
+      "id": "s5"
+     },
+     {
+      "title": "□を求める",
+      "body": "□×5＋150＝□×15＋90なので、□×10＝60です。",
+      "equation": "□＝60÷10＝6",
+      "id": "s6"
+     },
+     {
+      "title": "確かめる",
+      "body": "正しい答えは6×5＋30＝60、まちがえた答えは(6＋30)×5＝180で3倍です。",
+      "equation": "180＝60×3",
+      "id": "s7"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H⑥-3",
+   "unitId": "ratio.equivalent.three_people_chain",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "A、B、C3人の子供が山にくり拾いに行って、全部で634個拾いました。そのうちBはAの5/6より6個多く拾い、CはBの3/4より4個多く拾いました。3人の拾ったくりはそれぞれいくつですか。",
+   "sourceText": "A、B、C3人の子供が山にくり拾いに行って、全部で634個拾いました。そのうちBはAの5/6より6個多く拾い、CはBの3/4より4個多く拾いました。3人の拾ったくりはそれぞれいくつですか。",
+   "source": {
+    "title": "R26H⑥-3",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ⑥-3、PDF通しp.39（再チャレンジp.40）、公式解答p.42〜43",
+    "pdfPage": 39,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "A、B、C3人の子供が山にくり拾いに行って、全部で634個拾いました。そのうちBはAの5/6より6個多く拾い、CはBの3/4より4個多く拾いました。3人の拾ったくりはそれぞれいくつですか。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答p.42〜43と一致、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "f86cfc2bc3e5fe2bb49f9c06b203c222b8bae553d1049f8093a1c32e664802bf",
+    "notionSourceText": "A、B、C3人の子供が山にくり拾いに行って、全部で634個拾いました。そのうちBはAの5/6より6個多く拾い、CはBの3/4より4個多く拾いました。3人の拾ったくりはそれぞれいくつですか。",
+    "url": "https://app.notion.com/4022b010743c811995fbf1ab64a550fc",
+    "notionId": "4022b010-743c-8119-95fb-f1ab64a550fc",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c81efb0fddce5cf665e11",
+      "name": "相当算：2つ以上の量を①とおく",
+      "code": "P05",
+      "baseDifficulty": 4,
+      "description": "①の式を立てて、①にあたる量を出す。比の式に直すこともある"
+     }
+    ],
+    "sourceAnswer": "A252個・B216個・C166個",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "A",
+      "n": "252",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar"
+     },
+     {
+      "label": "B",
+      "n": "216",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar"
+     },
+     {
+      "label": "C",
+      "n": "166",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "Aを①とする",
+      "body": "BはAの5/6より6個多いので、Aを①とします。",
+      "equation": "A＝①、B＝①×5/6＋6",
+      "id": "s1"
+     },
+     {
+      "title": "Cを①で表す",
+      "body": "CはBの3/4より4個多いので、Bの式に3/4をかけて4を足します。",
+      "equation": "C＝(①×5/6＋6)×3/4＋4＝①×5/8＋8.5",
+      "id": "s2"
+     },
+     {
+      "title": "合計の式",
+      "body": "①の部分は1＋5/6＋5/8＝59/24、数の部分は6＋8.5＝14.5です。",
+      "equation": "①×59/24＋14.5＝634",
+      "checkpoint": {
+       "prompt": "1＋5/6＋5/8を分数で答えましょう。",
+       "answer": {
+        "n": "59",
+        "d": "24",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s3"
+     },
+     {
+      "title": "①を求める",
+      "body": "634から14.5をひいて、59/24で割ります。",
+      "equation": "(634−14.5)÷59/24＝252",
+      "id": "s4"
+     },
+     {
+      "title": "BとCを求める",
+      "body": "①にあてはめます。",
+      "equation": "B＝252×5/6＋6＝216、C＝216×3/4＋4＝166",
+      "id": "s5"
+     },
+     {
+      "title": "確かめる",
+      "body": "252＋216＋166＝634個です。",
+      "equation": "252＋216＋166＝634",
+      "id": "s6"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H⑥-4",
+   "unitId": "ratio.reduction.percent_and_fixed",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "ある日の朝、水そうに水を入れ、昼にその20%の水を使い、夕方に16L使いました。夜に残りの30%の水を使ったら、朝入れた量の半分より0.5L多く残りました。朝、何Lの水を入れましたか。",
+   "sourceText": "ある日の朝、水そうに水を入れ、昼にその20%の水を使い、夕方に16L使いました。夜に残りの30%の水を使ったら、朝入れた量の半分より0.5L多く残りました。朝、何Lの水を入れましたか。",
+   "source": {
+    "title": "R26H⑥-4",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ⑥-4、PDF通しp.39（再チャレンジp.40）、公式解答p.42〜43",
+    "pdfPage": 39,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "ある日の朝、水そうに水を入れ、昼にその20%の水を使い、夕方に16L使いました。夜に残りの30%の水を使ったら、朝入れた量の半分より0.5L多く残りました。朝、何Lの水を入れましたか。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答p.42〜43と一致、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "05e605b3626aba886fbafb9d445f70637c730fbf8a0bea2716ac63e9e587c2f3",
+    "notionSourceText": "ある日の朝、水そうに水を入れ、昼にその20%の水を使い、夕方に16L使いました。夜に残りの30%の水を使ったら、朝入れた量の半分より0.5L多く残りました。朝、何Lの水を入れましたか。",
+    "url": "https://app.notion.com/4022b010743c81b2a96ac7d5411c463c",
+    "notionId": "4022b010-743c-81b2-a96a-c7d5411c463c",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c8168af55c91ebc13807c",
+      "name": "相当算：残りのさらに○分の1",
+      "code": "P04",
+      "baseDifficulty": 4,
+      "description": "残りを1として線分図をうしろからたどる"
+     }
+    ],
+    "sourceAnswer": "195L",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "n": "195",
+    "d": "1",
+    "unit": "L",
+    "dimension": "scalar"
+   },
+   "difficulty": 5,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "朝の量を①とする",
+      "body": "朝入れた水の量を①とします。昼に20%使うと、残りは0.8倍です。",
+      "equation": "①×0.8＝(0.8)",
+      "id": "s1"
+     },
+     {
+      "title": "夕方に16L使う",
+      "body": "16Lひきます。",
+      "equation": "(0.8)−16",
+      "id": "s2"
+     },
+     {
+      "title": "夜に30%使う",
+      "body": "残りの70%が残ります。",
+      "equation": "((0.8)−16)×0.7＝(0.56)−11.2",
+      "checkpoint": {
+       "prompt": "0.8×0.7はいくつですか。",
+       "answer": {
+        "n": "14",
+        "d": "25",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s3"
+     },
+     {
+      "title": "もう1つの表し方",
+      "body": "残りは朝の半分より0.5L多いので、(0.5)＋0.5です。",
+      "equation": "(0.56)−11.2＝(0.5)＋0.5",
+      "id": "s4"
+     },
+     {
+      "title": "①を求める",
+      "body": "(0.56)−(0.5)＝(0.06)が11.2＋0.5＝11.7Lにあたります。",
+      "equation": "11.7÷0.06＝195（L）",
+      "id": "s5"
+     },
+     {
+      "title": "確かめる",
+      "body": "195L→156L→140L→98Lで、195÷2＋0.5＝98Lと合います。",
+      "equation": "140×0.7＝98、195÷2＋0.5＝98",
+      "id": "s6"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H⑦-1",
+   "unitId": "ratio.equivalent.price_equals_remainder",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "マサト君はみかんとりんごを買いに行きました。持っていたお金の1/3でみかんを買い、残りのお金の3/5より80円安いりんごを買ったら、りんごの値段と同じお金が残りました。(1) みかんを買った後に、お金はいくら残っていましたか。(2) マサト君は、はじめにいくら持っていましたか。",
+   "sourceText": "マサト君はみかんとりんごを買いに行きました。持っていたお金の1/3でみかんを買い、残りのお金の3/5より80円安いりんごを買ったら、りんごの値段と同じお金が残りました。(1) みかんを買った後に、お金はいくら残っていましたか。(2) マサト君は、はじめにいくら持っていましたか。",
+   "source": {
+    "title": "R26H⑦-1",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ⑦-1、PDF通しp.41、公式解答p.42〜43",
+    "pdfPage": 41,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "マサト君はみかんとりんごを買いに行きました。持っていたお金の1/3でみかんを買い、残りのお金の3/5より80円安いりんごを買ったら、りんごの値段と同じお金が残りました。(1) みかんを買った後に、お金はいくら残っていましたか。(2) マサト君は、はじめにいくら持っていましたか。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答p.42〜43と一致、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "68e9937e14566c0c8f315bebb77f7697aed3f6abb70ddec70e48c470a1b290c1",
+    "notionSourceText": "マサト君はみかんとりんごを買いに行きました。持っていたお金の1/3でみかんを買い、残りのお金の3/5より80円安いりんごを買ったら、りんごの値段と同じお金が残りました。(1) みかんを買った後に、お金はいくら残っていましたか。(2) マサト君は、はじめにいくら持っていましたか。",
+    "url": "https://app.notion.com/4022b010743c818d9cf8e0f4425657bf",
+    "notionId": "4022b010-743c-818d-9cf8-e0f4425657bf",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c8168af55c91ebc13807c",
+      "name": "相当算：残りのさらに○分の1",
+      "code": "P04",
+      "baseDifficulty": 4,
+      "description": "残りを1として線分図をうしろからたどる"
+     }
+    ],
+    "sourceAnswer": "(1)800円 (2)1200円",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "(1)",
+      "n": "800",
+      "d": "1",
+      "unit": "円",
+      "dimension": "scalar"
+     },
+     {
+      "label": "(2)",
+      "n": "1200",
+      "d": "1",
+      "unit": "円",
+      "dimension": "scalar"
+     }
+    ]
+   },
+   "difficulty": 5,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "みかんの後を1とする",
+      "body": "りんごは「残りの3/5より80円安い」ので、みかんを買った後の残りを1とします。",
+      "equation": "残り＝1",
+      "id": "s1"
+     },
+     {
+      "title": "りんご代と残金",
+      "body": "りんご代は残りの3/5−80円、残金は残りの2/5＋80円です。",
+      "equation": "りんご＝3/5−80、残金＝2/5＋80",
+      "id": "s2"
+     },
+     {
+      "title": "等しくおく",
+      "body": "りんご代と残金は同じなので、3/5−2/5＝1/5が80＋80＝160円にあたります。",
+      "equation": "1/5＝160（円）",
+      "checkpoint": {
+       "prompt": "残りの1/5にあたる金額は何円ですか。",
+       "answer": {
+        "n": "160",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s3"
+     },
+     {
+      "title": "みかんを買った後",
+      "body": "1/5が160円なので、残りは800円です。",
+      "equation": "160÷1/5＝800（円）",
+      "id": "s4"
+     },
+     {
+      "title": "はじめの金額",
+      "body": "みかんで1/3使った残り（2/3）が800円です。",
+      "equation": "800÷2/3＝1200（円）",
+      "id": "s5"
+     },
+     {
+      "title": "確かめる",
+      "body": "りんご代は800×3/5−80＝400円、残りは800−400＝400円で同じです。",
+      "equation": "800×3/5−80＝400",
+      "id": "s6"
+     }
+    ]
+   }
+  },
+  {
+   "id": "R26H⑦-2",
+   "unitId": "ratio.equivalent.first_equals_last_day",
+   "category": "oneline",
+   "domain": "相当算",
+   "text": "ある本を3日間で読もうと思い、1日目は全体の5/12と4ページを読み、2日目は残りの6/25だけ読んだところ、3日目は1日目と同じページ数だけ読んで、読み終わることができました。この本全体のページ数を求めなさい。",
+   "sourceText": "ある本を3日間で読もうと思い、1日目は全体の5/12と4ページを読み、2日目は残りの6/25だけ読んだところ、3日目は1日目と同じページ数だけ読んで、読み終わることができました。この本全体のページ数を求めなさい。",
+   "source": {
+    "title": "R26H⑦-2",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-26 割合と比(3)-相当算・還元算-.pdf",
+    "locator": "51N-H26 家庭学習用 ⑦-2、PDF通しp.41、公式解答なし（解答一覧がスキャンにない）",
+    "pdfPage": 41,
+    "scopeUnits": [
+     "R26"
+    ],
+    "sourceText": "ある本を3日間で読もうと思い、1日目は全体の5/12と4ページを読み、2日目は残りの6/25だけ読んだところ、3日目は1日目と同じページ数だけ読んで、読み終わることができました。この本全体のページ数を求めなさい。",
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-10-23、R26原本PDFから書き起こしたNotion本文（R26H）を出典に採用。答えは公式解答がスキャンにないため、Nの同型問題の公式解答の解き方に沿って求め、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "sha256": "2add504bbc4624a58c32ac4842a6b36c486cb3fc14c15a9826058ca988cc8163",
+    "notionSourceText": "ある本を3日間で読もうと思い、1日目は全体の5/12と4ページを読み、2日目は残りの6/25だけ読んだところ、3日目は1日目と同じページ数だけ読んで、読み終わることができました。この本全体のページ数を求めなさい。",
+    "url": "https://app.notion.com/4022b010743c81c8ba5cc00c5b333fab",
+    "notionId": "4022b010-743c-81c8-ba5c-c00c5b333fab",
+    "notionTypes": [
+     {
+      "url": "https://app.notion.com/3f52b010743c81efb0fddce5cf665e11",
+      "name": "相当算：2つ以上の量を①とおく",
+      "code": "P05",
+      "baseDifficulty": 4,
+      "description": "①の式を立てて、①にあたる量を出す。比の式に直すこともある"
+     }
+    ],
+    "sourceAnswer": "264ページ",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。"
+   },
+   "answer": {
+    "n": "264",
+    "d": "1",
+    "unit": "ページ",
+    "dimension": "scalar"
+   },
+   "difficulty": 5,
+   "figureRequired": false,
+   "scopeUnits": [
+    "R26"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "全体を①とする",
+      "body": "1日目は①×5/12＋4ページなので、残りは①×7/12−4ページです。",
+      "equation": "残り＝①×7/12−4",
+      "id": "s1"
+     },
+     {
+      "title": "3日目の量",
+      "body": "2日目に残りの6/25を読んだので、3日目は残りの19/25です。",
+      "equation": "3日目＝(①×7/12−4)×19/25",
+      "id": "s2"
+     },
+     {
+      "title": "3日目を①の式にする",
+      "body": "かっこをはずすと、①×133/300−3と1/25です。",
+      "equation": "(①×7/12−4)×19/25＝①×133/300−3と1/25",
+      "id": "s3"
+     },
+     {
+      "title": "1日目と等しくおく",
+      "body": "①×133/300−3と1/25＝①×5/12＋4なので、①×(133/300−5/12)＝4＋3と1/25です。",
+      "equation": "133/300−125/300＝8/300＝2/75",
+      "checkpoint": {
+       "prompt": "133/300−5/12を分数で答えましょう。",
+       "answer": {
+        "n": "2",
+        "d": "75",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s4"
+     },
+     {
+      "title": "①を求める",
+      "body": "2/75が7と1/25ページにあたります。",
+      "equation": "7と1/25÷2/75＝264（ページ）",
+      "id": "s5"
+     },
+     {
+      "title": "確かめる",
+      "body": "1日目114ページ、残り150ページ、2日目36ページ、3日目114ページで、1日目と同じです。",
+      "equation": "114＋36＋114＝264",
+      "id": "s6"
+     }
+    ]
+   }
+  }
+ ],
+ "units": [
+  {
+   "id": "ratio.equal_fraction_parts.inverse",
+   "name": "「Aの○分の△とBの□分の◇が等しい」を比に直す",
+   "domain": "比",
+   "definition": "等しい量を1とおくと、A・Bは割合の逆数になる。比にそろえて比例配分する。",
+   "decision": "等しい量を1とおき、逆数の比→比例配分",
+   "representativeId": "R26H①-2",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f42b010743c81008c50c935e9ce6855",
+     "name": "比の基本（連比・逆比）",
+     "code": "X03",
+     "baseDifficulty": 3,
+     "description": "比をそろえる（連比）、逆比。速さと比の土台"
+    }
+   ]
+  },
+  {
+   "id": "ratio.chain_to_sum",
+   "name": "比と倍の関係を1つの比にそろえて合計から求める",
+   "domain": "比",
+   "definition": "A:Bの比と「Aの何倍」「Aより何個多い」をAの比にそろえ、合計から①を出す。",
+   "decision": "基準（A）を決めて比の数をそろえる",
+   "representativeId": "R26H①-4",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f42b010743c81008c50c935e9ce6855",
+     "name": "比の基本（連比・逆比）",
+     "code": "X03",
+     "baseDifficulty": 3,
+     "description": "比をそろえる（連比）、逆比。速さと比の土台"
+    }
+   ]
+  },
+  {
+   "id": "ratio.equivalent.difference_of_fractions",
+   "name": "2人の割合の差にあたる量から全体を出す",
+   "domain": "相当算",
+   "definition": "同じ全体の3/4と2/5の差が56ページにあたる。",
+   "decision": "割合の差＝量の差",
+   "representativeId": "R26H②-1",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+     "name": "相当算の基本",
+     "code": "P03",
+     "baseDifficulty": 3,
+     "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+    }
+   ]
+  },
+  {
+   "id": "ratio.equivalent.bottle_weight",
+   "name": "入れ物と中身の重さ（ちがいが中身の割合）",
+   "domain": "相当算",
+   "definition": "全体の重さの差は、水の割合の差にあたる。",
+   "decision": "重さの差÷水の割合の差＝水いっぱいの重さ",
+   "representativeId": "R26H②-2",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+     "name": "相当算の基本",
+     "code": "P03",
+     "baseDifficulty": 3,
+     "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+    }
+   ]
+  },
+  {
+   "id": "ratio.equivalent.remaining_fraction",
+   "name": "全体のいくつかを使った残りから全体を出す",
+   "domain": "相当算",
+   "definition": "全体を1として、使った割合を全部ひいた残りの割合が残金にあたる。",
+   "decision": "1−（使った割合の和）＝残りの割合",
+   "representativeId": "R26H②-3",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+     "name": "相当算の基本",
+     "code": "P03",
+     "baseDifficulty": 3,
+     "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+    }
+   ]
+  },
+  {
+   "id": "ratio.equivalent.two_parts_with_extra",
+   "name": "男子・女子が「全体の○より多い・少ない」相当算",
+   "domain": "相当算",
+   "definition": "男子と女子を足すと全体になる。割合の不足分が人数の過不足にあたる。",
+   "decision": "2つの部分を足して全体＝1と比べる",
+   "representativeId": "R26H②-4",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+     "name": "相当算の基本",
+     "code": "P03",
+     "baseDifficulty": 3,
+     "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+    }
+   ]
+  },
+  {
+   "id": "ratio.reduction.remainder_fraction_plus",
+   "name": "「残りの○分の1より何円多い」を後ろから戻す",
+   "domain": "相当算",
+   "definition": "最後の残りから、ノート代の「多い60円」を戻して残りの割合にあてる。",
+   "decision": "後ろから：残り＋60円＝残りの3/4",
+   "representativeId": "R26H②-5",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c8168af55c91ebc13807c",
+     "name": "相当算：残りのさらに○分の1",
+     "code": "P04",
+     "baseDifficulty": 4,
+     "description": "残りを1として線分図をうしろからたどる"
+    }
+   ]
+  },
+  {
+   "id": "ratio.reduction.use_receive_use",
+   "name": "使う・もらう・使うを後ろから戻す還元算",
+   "domain": "相当算",
+   "definition": "最後の残りから順に、少なく使った分→割合→もらった分→割合と戻す。",
+   "decision": "後ろから1つずつ逆の操作をする",
+   "representativeId": "R26H③-1",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c8168af55c91ebc13807c",
+     "name": "相当算：残りのさらに○分の1",
+     "code": "P04",
+     "baseDifficulty": 4,
+     "description": "残りを1として線分図をうしろからたどる"
+    }
+   ]
+  },
+  {
+   "id": "ratio.reduction.chain_of_remainders",
+   "name": "残りの割合をかけ合わせる／読み方を変えた差から全体",
+   "domain": "相当算",
+   "definition": "残りの割合を順にかけると全体に対する割合になる。読み方を変えたときの差を、2日目の残りの割合の差にあてる。",
+   "decision": "残りの割合の積と、割合の差",
+   "representativeId": "R26H③-4",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c8168af55c91ebc13807c",
+     "name": "相当算：残りのさらに○分の1",
+     "code": "P04",
+     "baseDifficulty": 4,
+     "description": "残りを1として線分図をうしろからたどる"
+    }
+   ]
+  },
+  {
+   "id": "exchange.double_backward",
+   "name": "「持っている分と同じだけわたす」やりとりを後ろから戻す",
+   "domain": "やりとり算",
+   "definition": "もらった人は2倍になるので、半分に戻し、わたした人にその分を返す。合計は一定。",
+   "decision": "もらった人を半分にして後ろから戻す",
+   "representativeId": "R26H④-1",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c81bfb555ff15a10c9bb7",
+     "name": "やりとり算・年齢算",
+     "code": "W06",
+     "baseDifficulty": 3,
+     "description": "やりとりの前後、年齢の差は一定"
+    }
+   ]
+  },
+  {
+   "id": "exchange.fraction_backward",
+   "name": "「持っている分の○分の1をあげる」やりとりを後ろから戻す",
+   "domain": "やりとり算",
+   "definition": "あげた人の残りの割合から前の金額を出し、合計一定でもう1人を出す。",
+   "decision": "あげた人の残りの割合で戻し、合計一定を使う",
+   "representativeId": "R26H④-2",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c81bfb555ff15a10c9bb7",
+     "name": "やりとり算・年齢算",
+     "code": "W06",
+     "baseDifficulty": 3,
+     "description": "やりとりの前後、年齢の差は一定"
+    }
+   ]
+  },
+  {
+   "id": "ratio.bounce.basic",
+   "name": "はね上がり（同じ割合で何回かはね上がる）",
+   "domain": "相当算",
+   "definition": "はね上がるたびに同じ割合をかける。3回目は割合を3回かける。",
+   "decision": "回数分だけ割合をかけ、逆は割る",
+   "representativeId": "R26H④-4",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+     "name": "相当算の基本",
+     "code": "P03",
+     "baseDifficulty": 3,
+     "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+    }
+   ]
+  },
+  {
+   "id": "ratio.bounce.two_balls",
+   "name": "はね上がる割合のちがう2つのボール",
+   "domain": "相当算",
+   "definition": "同じ高さなら割合の差が高さの差にあたる。同じ高さになるなら、はじめの高さは割合の逆比。",
+   "decision": "割合の差にあてる／逆比で比べる",
+   "representativeId": "R26H⑤-1",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c81889624eba585c66c67",
+     "name": "相当算の基本",
+     "code": "P03",
+     "baseDifficulty": 3,
+     "description": "全体を1として、割合の差（和）にあたる量から全体を出す"
+    }
+   ]
+  },
+  {
+   "id": "distribution.quotient_remainder_and_mistake",
+   "name": "わり算の商とあまり／まちがえた計算を式で比べる",
+   "domain": "分配算",
+   "definition": "A＝B×商＋あまりを和の式に入れる。まちがい算は、正しい式とまちがえた式をそれぞれ表して比べる。",
+   "decision": "式を2つ書いて比べる",
+   "representativeId": "R26H⑥-1",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c81d4a1a7e8fbc2318568",
+     "name": "分配算",
+     "code": "W02",
+     "baseDifficulty": 3,
+     "description": "倍数関係の線分図（2倍より○多い）"
+    }
+   ]
+  },
+  {
+   "id": "ratio.equivalent.three_people_chain",
+   "name": "3人の関係を1人を①として表す相当算",
+   "domain": "相当算",
+   "definition": "Aを①とし、BをAで、CをBで表して①の式にまとめる。",
+   "decision": "基準の人を①にして式をつなぐ",
+   "representativeId": "R26H⑥-3",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c81efb0fddce5cf665e11",
+     "name": "相当算：2つ以上の量を①とおく",
+     "code": "P05",
+     "baseDifficulty": 4,
+     "description": "①の式を立てて、①にあたる量を出す。比の式に直すこともある"
+    }
+   ]
+  },
+  {
+   "id": "ratio.reduction.percent_and_fixed",
+   "name": "割合と定量がまじった水そう（①を小数倍で追う）",
+   "domain": "相当算",
+   "definition": "朝の量を①として、使うたびに①の式を更新し、最後の残りの2つの表し方を等しくおく。",
+   "decision": "①の式を順に作り、2通りの表し方を等しくおく",
+   "representativeId": "R26H⑥-4",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c8168af55c91ebc13807c",
+     "name": "相当算：残りのさらに○分の1",
+     "code": "P04",
+     "baseDifficulty": 4,
+     "description": "残りを1として線分図をうしろからたどる"
+    }
+   ]
+  },
+  {
+   "id": "ratio.equivalent.price_equals_remainder",
+   "name": "「代金と残りが同じ」相当算",
+   "domain": "相当算",
+   "definition": "みかんの後の残りを1として、りんご代と残金の2通りを比べる。",
+   "decision": "残りを1として2つの量を等しくおく",
+   "representativeId": "R26H⑦-1",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c8168af55c91ebc13807c",
+     "name": "相当算：残りのさらに○分の1",
+     "code": "P04",
+     "baseDifficulty": 4,
+     "description": "残りを1として線分図をうしろからたどる"
+    }
+   ]
+  },
+  {
+   "id": "ratio.equivalent.first_equals_last_day",
+   "name": "1日目と3日目が同じページ数の相当算",
+   "domain": "相当算",
+   "definition": "全体を①とし、1日目と3日目をそれぞれ①の式で表して等しくおく。",
+   "decision": "2つの日を①の式にして等しくおく",
+   "representativeId": "R26H⑦-2",
+   "prerequisites": [],
+   "notionTypes": [
+    {
+     "url": "https://app.notion.com/3f52b010743c81efb0fddce5cf665e11",
+     "name": "相当算：2つ以上の量を①とおく",
+     "code": "P05",
+     "baseDifficulty": 4,
+     "description": "①の式を立てて、①にあたる量を出す。比の式に直すこともある"
+    }
+   ]
+  }
+ ],
+ "links": [
+  {
+   "from": "ratio.equivalent.difference_of_fractions",
+   "to": "ratio.equivalent.two_parts_with_extra",
+   "relation": "extension",
+   "difference": "割合の差だけから、「○より多い・少ない」の人数のずれも合わせる形へ。"
+  },
+  {
+   "from": "ratio.equivalent.remaining_fraction",
+   "to": "ratio.reduction.remainder_fraction_plus",
+   "relation": "extension",
+   "difference": "全体の割合から、「残りの」割合＋定量を後ろから戻す形へ。"
+  },
+  {
+   "from": "ratio.reduction.remainder_fraction_plus",
+   "to": "ratio.reduction.use_receive_use",
+   "relation": "extension",
+   "difference": "途中で「もらう」が入り、戻す操作が増える。"
+  },
+  {
+   "from": "ratio.bounce.basic",
+   "to": "ratio.bounce.two_balls",
+   "relation": "extension",
+   "difference": "1つのボールから、割合のちがう2つのボールの比較へ。"
+  },
+  {
+   "from": "exchange.double_backward",
+   "to": "exchange.fraction_backward",
+   "relation": "contrast",
+   "difference": "「同じ金額をわたす（2倍）」と「○分の1をあげる」で戻し方が変わる。"
+  },
+  {
+   "from": "ratio.equal_fraction_parts.inverse",
+   "to": "ratio.chain_to_sum",
+   "relation": "extension",
+   "difference": "2つの量の逆比から、4人の比をそろえて合計を使う形へ。"
+  },
+  {
+   "from": "ratio.equivalent.three_people_chain",
+   "to": "ratio.equivalent.first_equals_last_day",
+   "relation": "extension",
+   "difference": "①の式をつなぐだけから、2つの式を等しくおく形へ。"
+  }
+ ],
+ "analysis": [
+  {
+   "kind": "selection_basis",
+   "detail": "Notion問題DBのR26H全27件から、必要な判断が変わるところで18の学習単位に分け、各単位の代表問を採用。配信を見送ったもの：H①-1（①-2と同じ「分数倍が等しい→逆比」）、H①-3（池の深さ：3つの答えの大問）、H③-2・H③-3（③-1と同じ「後ろから戻す」）、H④-3（④-4と同じはね上がりの基本）、H⑤-2（答えが「以上・未満」の範囲で入力形式がない）、H⑤-3（台の図が必要）、H⑥-2（小数の各位の入れかえで入力形式がない）、H⑦-3・H⑦-4（⑦-1・②-5と同じ「①で追う」）。"
+  },
+  {
+   "kind": "difficulty",
+   "detail": "DはNotionの難易度（型の基礎難度：X03比の基本3・P03相当算の基本3・P04残りの○分の1 4・P05 2つ以上の量を①4・W06やりとり算3・W02分配算3 の最大値＋上乗せ0〜1）。"
+  },
+  {
+   "kind": "scope",
+   "detail": "R26は10/23に履修。直近授業をR26に、次回グノレブ対策（11/11、No.24〜27）の既習範囲をR24・R25・R26に更新。R27は未習として除外。"
+  }
+ ]
+}

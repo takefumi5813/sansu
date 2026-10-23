@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "asOf": "2026-10-17",
+  "asOf": "2026-10-23",
   "sourceOfTruth": "Notion",
   "recentLesson": {
-    "unit": "R25"
+    "unit": "R26"
   },
   "nextAssessment": {
     "activeLearnedUnits": [
       "R24",
-      "R25"
+      "R25",
+      "R26"
     ],
     "excludedUnlearnedUnits": [
-      "R26",
       "R27"
     ]
   }
