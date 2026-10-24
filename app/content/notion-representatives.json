@@ -1,5 +1,5 @@
 {
-  "reviewDate": "2026-10-18",
+  "reviewDate": "2026-10-23",
   "representatives": [
     {
       "key": "3f82b010743c8159ba4bdcc3ac680268:1",
@@ -4501,6 +4501,27 @@
       "tier": "advanced",
       "notionTier": "advanced",
       "pageId": "3f92b010743c81e2a21de29968109b88"
+    },
+    {
+      "key": "adopt:4022b010743c81bcb92df35a3bea66d4:",
+      "id": "GW520-16①",
+      "tier": "standard",
+      "notionTier": "standard",
+      "pageId": "3f82b010743c81058b86e4d3bfaf4a4c"
+    },
+    {
+      "key": "adopt:4022b010743c81e9b0e4fc6def831264:",
+      "id": "GW520-24①",
+      "tier": "standard",
+      "notionTier": "standard",
+      "pageId": "3f82b010743c81058b86e4d3bfaf4a4c"
+    },
+    {
+      "key": "adopt:4022b010743c8179bb3ecd3e54b5d6b2:",
+      "id": "GW520-27①",
+      "tier": "standard",
+      "notionTier": "standard",
+      "pageId": "3f82b010743c81058b86e4d3bfaf4a4c"
     }
   ],
   "archived": [

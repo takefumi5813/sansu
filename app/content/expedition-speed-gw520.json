@@ -1,0 +1,286 @@
+{
+ "problems": [
+  {
+   "id": "GW520-16①",
+   "unitId": "speed.clock.right_angle",
+   "category": "oneline",
+   "domain": "時計算",
+   "text": "4時と5時の間で時計の長針と短針が直角になる時刻を求めなさい。\n直角になる時刻は2つあります。早い方から順に「分」を入力してください。分は分数でも答えられます。",
+   "source": {
+    "title": "GW520-16①",
+    "url": "https://app.notion.com/p/4022b010743c81bcb92df35a3bea66d4",
+    "locator": "Notion問題DB 原問全体",
+    "sourceText": "4時と5時の間で時計の長針と短針が直角になる時刻を求めなさい。",
+    "sourceAnswer": "4時5と5/11分・4時38と2/11分",
+    "path": "/算数DB/原本/G脳ワークアウト/5年/No.20 速さに関する文章問題（３） -時計算-.pdf",
+    "databasePath": "/算数DB/本文/算数DB_G脳ワークアウト.md",
+    "verification": "2026-10-23、原本PDFから書き起こした本文（Notion問題DBと同文）を出典に採用。答えは公式解答と一致し、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "notionTypes": [
+     "T21"
+    ],
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。",
+    "notionRepresentativeUrl": "https://app.notion.com/p/3f82b010743c81058b86e4d3bfaf4a4c"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "1回目 4時□分",
+      "n": "60",
+      "d": "11",
+      "unit": "分",
+      "dimension": "time"
+     },
+     {
+      "label": "2回目 4時□分",
+      "n": "420",
+      "d": "11",
+      "unit": "分",
+      "dimension": "time"
+     }
+    ]
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "scopeUnits": [],
+   "homeStudy": false,
+   "reviewEligible": false,
+   "expeditionOnly": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "1分で開く角度",
+      "body": "長針は1分に6度、短針は1分に0.5度進むので、長針は短針より1分に5.5度多く進みます。",
+      "equation": "6−0.5＝5.5度"
+     },
+     {
+      "id": "s2",
+      "title": "4時ちょうどの位置",
+      "body": "4時ちょうどは、短針が長針より120度先（4の位置）にあります。",
+      "equation": "30×4＝120度"
+     },
+     {
+      "id": "s3",
+      "title": "1回目：短針が90度先",
+      "body": "長針が短針に近づいて、短針がまだ90度先にいるときが1回目の直角です。長針が多く進むのは120−90＝30度です。",
+      "equation": "(120−90)÷5.5＝60/11＝5と5/11分",
+      "checkpoint": {
+       "prompt": "1回目の直角までに、長針は短針より何度多く進みますか。",
+       "answer": {
+        "n": "30",
+        "d": "1",
+        "unit": "度",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "2回目：長針が90度先",
+      "body": "長針が短針を追いこし、さらに90度先へ行ったときが2回目です。長針が多く進むのは120＋90＝210度です。",
+      "equation": "(120＋90)÷5.5＝420/11＝38と2/11分"
+     },
+     {
+      "id": "s5",
+      "title": "確かめる",
+      "body": "1回目のとき、長針は6×60/11＝360/11度、短針は120＋0.5×60/11＝1350/11度の位置で、差は990/11＝90度です。",
+      "equation": "1350/11−360/11＝90度"
+     }
+    ]
+   }
+  },
+  {
+   "id": "GW520-24①",
+   "unitId": "speed.clock.ratio_angle",
+   "category": "oneline",
+   "domain": "時計算",
+   "text": "2時から3時の間で長針と短針のつくる角度で、小さい方の角が大きい方の角の1/4になる時刻を求めなさい。\n2時何分かの「分」を入力してください。",
+   "source": {
+    "title": "GW520-24①",
+    "url": "https://app.notion.com/p/4022b010743c81e9b0e4fc6def831264",
+    "locator": "Notion問題DB 原問全体",
+    "sourceText": "2時から3時の間で長針と短針のつくる角度で、小さい方の角が大きい方の角の1/4になる時刻を求めなさい。",
+    "sourceAnswer": "2時24分",
+    "path": "/算数DB/原本/G脳ワークアウト/5年/No.20 速さに関する文章問題（３） -時計算-.pdf",
+    "databasePath": "/算数DB/本文/算数DB_G脳ワークアウト.md",
+    "verification": "2026-10-23、原本PDFから書き起こした本文（Notion問題DBと同文）を出典に採用。答えは公式解答と一致し、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "notionTypes": [
+     "T21",
+     "X03"
+    ],
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。",
+    "notionRepresentativeUrl": "https://app.notion.com/p/3f82b010743c81058b86e4d3bfaf4a4c"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "2時□分",
+      "n": "24",
+      "d": "1",
+      "unit": "分",
+      "dimension": "time"
+     }
+    ]
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [],
+   "homeStudy": false,
+   "reviewEligible": false,
+   "expeditionOnly": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "小さい方の角を出す",
+      "body": "小さい方の角と大きい方の角を合わせると360度です。小さい方：大きい方＝1：4なので、360度を1＋4＝5に分けた1つ分が小さい方です。",
+      "equation": "360×1/5＝72度",
+      "checkpoint": {
+       "prompt": "小さい方の角は何度ですか。",
+       "answer": {
+        "n": "72",
+        "d": "1",
+        "unit": "度",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s2",
+      "title": "2時ちょうどの位置",
+      "body": "2時ちょうどは短針が長針より60度先にあります。60度は72度より小さいので、長針が短針を追いこして72度先へ行ったときに小さい方の角が72度になります。",
+      "equation": "60＋72＝132度（長針が多く進む角度）"
+     },
+     {
+      "id": "s3",
+      "title": "時間を出す",
+      "body": "長針は短針より1分に5.5度多く進みます。",
+      "equation": "132÷5.5＝24分"
+     },
+     {
+      "id": "s4",
+      "title": "確かめる",
+      "body": "2時24分、長針は6×24＝144度、短針は60＋0.5×24＝72度の位置で、差は72度、大きい方は288度＝72×4です。",
+      "equation": "144−72＝72、360−72＝288＝72×4"
+     }
+    ]
+   }
+  },
+  {
+   "id": "GW520-27①",
+   "unitId": "speed.clock.second_hand",
+   "category": "oneline",
+   "domain": "時計算",
+   "text": "0時に長針、短針、秒針の3つの針が重なってから、最初に長針と秒針が重なる時刻は0時何分何秒ですか。\n「分」と「秒」を別々に入力してください。秒は分数でも答えられます。",
+   "source": {
+    "title": "GW520-27①",
+    "url": "https://app.notion.com/p/4022b010743c8179bb3ecd3e54b5d6b2",
+    "locator": "Notion問題DB 原問全体",
+    "sourceText": "0時に長針、短針、秒針の3つの針が重なってから、最初に長針と秒針が重なる時刻は0時何分何秒ですか。",
+    "sourceAnswer": "0時1分1と1/59秒",
+    "path": "/算数DB/原本/G脳ワークアウト/5年/No.20 速さに関する文章問題（３） -時計算-.pdf",
+    "databasePath": "/算数DB/本文/算数DB_G脳ワークアウト.md",
+    "verification": "2026-10-23、原本PDFから書き起こした本文（Notion問題DBと同文）を出典に採用。答えは公式解答と一致し、Python（fractions）で独立検算。解説・途中確認は独立制作し、各式を数値で検算。",
+    "notionTypes": [
+     "T21"
+    ],
+    "difficultyProvenance": "Notion型の基礎難度の最大値＋上乗せ。",
+    "notionRepresentativeUrl": "https://app.notion.com/p/3f82b010743c81058b86e4d3bfaf4a4c"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "0時□分",
+      "n": "1",
+      "d": "1",
+      "unit": "分",
+      "dimension": "time"
+     },
+     {
+      "label": "□秒",
+      "n": "60",
+      "d": "59",
+      "unit": "秒",
+      "dimension": "time"
+     }
+    ]
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "scopeUnits": [],
+   "homeStudy": false,
+   "reviewEligible": false,
+   "expeditionOnly": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "1分で進む角度",
+      "body": "秒針は1分で1周するので1分に360度、長針は1分に6度進みます。秒針は長針より1分に354度多く進みます。",
+      "equation": "360−6＝354度",
+      "checkpoint": {
+       "prompt": "秒針は長針より1分に何度多く進みますか。",
+       "answer": {
+        "n": "354",
+        "d": "1",
+        "unit": "度",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s2",
+      "title": "次に重なる条件",
+      "body": "重なった状態から次に重なるのは、秒針が長針よりちょうど1周＝360度多く進んだときです。",
+      "equation": "360度多く進めばよい"
+     },
+     {
+      "id": "s3",
+      "title": "時間を出す",
+      "body": "360度を1分に354度ずつ縮めるので、",
+      "equation": "360÷354＝60/59＝1と1/59分"
+     },
+     {
+      "id": "s4",
+      "title": "分と秒に直す",
+      "body": "1/59分を秒に直します。",
+      "equation": "1/59×60＝60/59＝1と1/59秒 → 0時1分1と1/59秒"
+     }
+    ]
+   }
+  }
+ ],
+ "units": [
+  {
+   "id": "speed.clock.right_angle",
+   "name": "長針と短針が直角になる時刻",
+   "domain": "時計算",
+   "definition": "直角は2本の針の間が90度。1時間に2回あり、長針が短針より（ちょうどの時刻の角−90）度多く進んだときと（ちょうどの時刻の角＋90）度多く進んだときになる。1分に5.5度で割る。",
+   "decision": "ちょうどの時刻の角から90度を引いた角と足した角を、それぞれ5.5で割る（60分をこえるものは除く）",
+   "representativeId": "GW520-16①",
+   "prerequisites": []
+  },
+  {
+   "id": "speed.clock.ratio_angle",
+   "name": "小さい方の角と大きい方の角の比から時刻を出す",
+   "domain": "時計算",
+   "definition": "長針と短針がつくる小さい方の角と大きい方の角を合わせると360度。比で小さい方の角を出せば、指定の角度になる時刻の問題になる。",
+   "decision": "360度を比で分けて小さい方の角を出し、長針が短針より何度多く進めばよいかを決めて5.5で割る",
+   "representativeId": "GW520-24①",
+   "prerequisites": []
+  },
+  {
+   "id": "speed.clock.second_hand",
+   "name": "秒針と長針が重なる時刻",
+   "domain": "時計算",
+   "definition": "秒針は1分に360度、長針は1分に6度進む。重なってから次に重なるまでに、秒針は長針より360度多く進む。",
+   "decision": "360÷（360−6）で次に重なるまでの時間を出し、分の端数を秒に直す",
+   "representativeId": "GW520-27①",
+   "prerequisites": []
+  }
+ ],
+ "links": []
+}
