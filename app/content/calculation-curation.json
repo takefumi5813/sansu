@@ -2400,6 +2400,84 @@
       "reason": "表面（R26K-26）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
       "skill": "R26計算マスター K-26",
       "representativeKey": "4022b010743c8198ac31cb99890c721d:1"
+    },
+    "4R34T⑥-1(1)": {
+      "active": true,
+      "tier": "standard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f52b010743c8104a88ddea3755d0209:1"
+    },
+    "R10T⑥-1(1)": {
+      "active": true,
+      "tier": "standard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f52b010743c811e8570e929030b31cb:1"
+    },
+    "GW419-19③": {
+      "active": true,
+      "tier": "standard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f52b010743c81f485ebf570346e04e4:1"
+    },
+    "4R34K-60": {
+      "active": true,
+      "tier": "hard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f62b010743c81498e5ace21804ca5fe:1"
+    },
+    "R11K-60": {
+      "active": true,
+      "tier": "hard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f62b010743c814cb4a6d393f4559762:1"
+    },
+    "R11K-28": {
+      "active": true,
+      "tier": "hard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f62b010743c8152b7a4fb65e88b3244:1"
+    },
+    "R08K-30": {
+      "active": true,
+      "tier": "hard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f62b010743c81a4b18ee7acf842ecaa:1"
+    },
+    "4S02K-30": {
+      "active": true,
+      "tier": "standard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f52b010743c8112985bf2a134278509:1"
+    },
+    "GR8-1(3)": {
+      "active": true,
+      "tier": "standard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f52b010743c811da64ac2cd8b61e024:1"
+    },
+    "4R27K-23": {
+      "active": true,
+      "tier": "standard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f52b010743c8182b86bf119ba1f9fee:1"
+    },
+    "4R23K-21": {
+      "active": true,
+      "tier": "standard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f52b010743c819f940ed383ac8e5cbc:1"
+    },
+    "4S16K-15": {
+      "active": true,
+      "tier": "standard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f52b010743c81a39ca5d6ec8141ef30:1"
+    },
+    "R16K-2": {
+      "active": true,
+      "tier": "standard",
+      "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
+      "representativeKey": "3f52b010743c81d5b82ffc25c96181c9:1"
     }
   }
 }
