@@ -261,19 +261,26 @@ function calcInverse(expression){try{
  const answer=out(x),p={expression:s,answer},tier=calcTier(p),sh=calcShape(p);
  return {supported:true,answer,tier,star:CALC_STAR_BY_TIER[tier],score:3*sh.ops+(sh.frac?6:0)+(sh.dec?4:0)+(sh.par?3:0)};
 }catch(e){return {supported:false,error:e.message};}}
-function isActiveProblem(p){return p.curation?.active!==false&&p.b57?.deliveryStatus!=='品質保留';}
+// 出題区分（Notion問題DB）：代表＝通常の出題、類題・数値替え＝細分類ごとの類題ポット。
+function isPlayable(p){return p.b57?.deliveryStatus!=='品質保留'&&p.quality!=='hold';}
+function isActiveProblem(p){if(!isPlayable(p))return false;if(p.role)return p.role==='代表';return p.curation?.active!==false;}
+function isPotProblem(p){return isPlayable(p)&&p.category!=='calc'&&!!p.subdivision&&!isActiveProblem(p);}
+const TIER_RANGES={basic:[1,2],standard:[3,4],advanced:[5,6],hard:[7,10]},TIER_ORDER=['basic','standard','advanced','hard'];
+function tierOf(p){if(p.category==='calc')return calcTier(p);const d=Number(p.difficulty)||0;return d<=2?'basic':d<=4?'standard':d<=6?'advanced':'hard';}
 function eligible(p,f={}){
- if(!isActiveProblem(p))return false;
+ if(f.mode==='pot'?!isPotProblem(p):f.pool==='subdivision'?!isPlayable(p):!isActiveProblem(p))return false;
+ if(f.subdivisionId&&p.subdivision?.id!==f.subdivisionId)return false;
+ if(f.chu&&p.subdivision?.chu!==f.chu)return false;
  if(f.category&&p.category!==f.category)return false;if(p.figureRequired&&!p.figure)return false;
  if(p.category==='calc')return f.tier?calcTier(p)===f.tier:(!f.star||p.star===Number(f.star));
  if(Number(f.grade||5)===5&&p.difficulty>8)return false;
- const tier=f.tier||'standard',range={basic:[1,2],standard:[3,4],advanced:[5,6],hard:[7,10]}[tier];if(!range)return false;if(p.b57?.selectionTier){if(p.b57.selectionTier!==tier)return false;}else if(p.difficulty<range[0]||p.difficulty>range[1])return false;
+ const tier=f.tier||'standard',range=TIER_RANGES[tier];if(!range)return false;if(p.difficulty<range[0]||p.difficulty>range[1])return false;
  if(f.domains?.length&&!f.domains.includes(p.domain)&&!f.domains.some(d=>(p.domains||[]).includes(d)))return false;
  if(f.mode==='review'&&!inScope(p,f.recentUnits,'review'))return false;if(f.mode==='gnorev'&&!inScope(p,f.scopeUnits))return false;return true;
 }
 function shuffleKey(day,id){let h=2166136261;for(const c of day+'|'+id){h^=c.charCodeAt(0);h=Math.imul(h,16777619)>>>0;}return h;}
 function selectProblem(problems,state,filters={},day=dayKey()){
- if(filters.category!=='calc'&&(filters.mode||'all')==='all'&&!getCampaignStatus(problems,state,filters,day).allUnlocked)return null;
+ if(filters.category!=='calc'&&['all','pot'].includes(filters.mode||'all')&&!getCampaignStatus(problems,state,filters,day).allUnlocked)return null;
  const seen=new Set(),targeted=['review','gnorev'].includes(filters.mode);
  const active=Object.values(state.units).filter(u=>u.stage<4&&(u.stage>0||u.due)).length;
  const soon=Object.values(state.units).filter(u=>u.due&&u.due>=day&&u.due<=addDays(day,7)).length;
@@ -324,15 +331,18 @@ function completeLearning(state,p,{attemptId,day,checkpointId,random=Math.random
  if(!(p.explanation?.steps||[]).some(x=>x.checkpoint&&(x.checkpoint.id||x.id)===checkpointId))return {state,result:{valid:false,error:'確認問題が一致しません'}};
  const s=normalizeState(state),next=s.attempts.find(x=>x.id===attemptId),bm=s.materials,bs=s.souls,bb=s.equipmentBoxes,hadLottery=!!s.daily[day]?.equipmentLottery;learningCurrency(s,p,day,true);const ctx={party,log:[]};markComplete(s,p,next,random,ctx);const result={valid:true,xp:0,stars:0,materials:s.materials-bm,souls:s.souls-bs,equipmentBoxes:s.equipmentBoxes-bb,completed:true};if(ctx.log.length)result.abilities=ctx.log;if(!hadLottery&&s.daily[day].equipmentLottery)result.equipmentLottery={...s.daily[day].equipmentLottery};return {state:s,result};
 }
+// 類題：同じ細分類（解き筋が同じ）から、同じ難易度帯か一段上の帯の問題を出す。代表・類題ポットの両方が対象。
 function getRelated(problems,links,current,state,{direction,filters={},day=dayKey()}){
- if((filters.mode||'all')==='all'&&!getCampaignStatus(problems,state,filters,day).allUnlocked)return null;
- const target=direction==='up'?current.difficulty+1:current.difficulty,ids=links.filter(l=>l.from===current.unitId&&['contrast','extension','transfer'].includes(l.relation)).map(l=>l.to);
- const candidates=problems.filter(p=>ids.includes(p.unitId)&&p.unitId!==current.unitId&&p.difficulty===target);return selectProblem(candidates,state,filters,day);
+ if(['all','pot'].includes(filters.mode||'all')&&!getCampaignStatus(problems,state,filters,day).allUnlocked)return null;
+ if(!current?.subdivision?.id||current.category==='calc')return null;
+ const i=TIER_ORDER.indexOf(tierOf(current)),tier=direction==='up'?TIER_ORDER[i+1]:TIER_ORDER[i];if(!tier)return null;
+ const candidates=problems.filter(p=>p.id!==current.id&&p.unitId!==current.unitId&&p.subdivision?.id===current.subdivision.id&&p.category===current.category);
+ return selectProblem(candidates,state,{...filters,mode:'related',pool:'subdivision',tier,domains:[],chu:'',subdivisionId:current.subdivision.id},day);
 }
 
 // Parse only arithmetic syntax. No executable strings are evaluated.
 function calcScore(expression){try{let input=norm(expression).replace(/[×✕]/g,'*').replace(/[{}\[\]]/g,x=>'{['.includes(x)?'(':')');if(input.length>500||/[□=a-zA-Z]/.test(input))throw Error('逆算・未知数はこの試作の自動評価対象外です');let i=0;const features={n:0,f:0,d:0,u:0,p:0,z:1,t:1,h:0,w:0,B:0,A:0},denoms=new Set();const digits=x=>String(abs(x)).length;const digitDecimal=s=>{const r=dec(s);features.d|=s.includes('.')?1:0;features.z=Math.max(features.z,(s.split('.')[0].replace(/^[-+]/,'')||'0').length);features.t=Math.max(features.t,digits(r.d));return r;};function spaces(){while(/\s/.test(input[i]||'')&&i<input.length)i++;}function atom(depth){spaces();if(input[i]==='('){i++;features.p=Math.max(features.p,depth+1);const a=sum(depth+1);spaces();if(input[i++]!==')')throw Error('括弧を確かめてください');return a;}if(input[i]==='+'||input[i]==='-'){const sign=input[i++];const a=atom(depth);return sign==='-'?rat(-a.n,a.d):a;}const m=input.slice(i).match(/^(\d+(?:\.\d*)?|\.\d+)/);if(!m)throw Error('対応していない数式です');i+=m[0].length;let value=digitDecimal(m[0]);const frac=input.slice(i).match(/^\s*\/\s*(\d+)(?![\d.])/);if(frac&&!m[0].includes('.')){i+=frac[0].length;features.f=1;denoms.add(frac[1]);features.t=Math.max(features.t,frac[1].length);value=rat(value.n,frac[1]);}return value;}function op(a,b,c){features.n++;const da=digits(a.n),db=digits(b.n);features.w+=c==='+'||c==='-'?Math.max(0,Math.max(da,db)-2):c==='*'?Math.max(0,da*db-2):Math.max(0,da+db-3);let r;if(c==='+'||c==='-'){if(a.d!==b.d)features.h++;features.t=Math.max(features.t,digits(a.d/gcd(a.d,b.d)*b.d));r=plus(a,rat(c==='-'?-b.n:b.n,b.d));}else r=times(a,c==='/'?rat(b.d,b.n):b);features.t=Math.max(features.t,digits(r.d));return r;}function product(depth){let a=atom(depth);for(;;){spaces();const c=input[i];if(c!=='*'&&c!=='/'&&c!=='÷')return a;i++;a=op(a,atom(depth),c==='÷'?'/':c);}}function sum(depth){let a=product(depth);for(;;){spaces();const c=input[i];if(c!=='+'&&c!=='-')return a;i++;a=op(a,product(depth),c);}}const answer=sum(0);spaces();if(i!==input.length)throw Error('対応していない数式です');if(denoms.size){const v=Math.max(...[...denoms].map(x=>x.length));features.B=denoms.size===1?2*(v-1):4*(v-1)**2;}let q=answer.d,two=0,five=0;while(q%2n===0n){q/=2n;two++;}while(q%5n===0n){q/=5n;five++;}features.A=q===1n?(Math.max(two,five)>3?2:0):(answer.d<=99n?2:4);const {n,f,d,u,p,z,t,h,w,B,A}=features;const score=3*Math.max(n-1,0)+6*f+4*d+4*f*d+10*u+3*p+2*Math.max(z-1,0)+B+2*Math.max(t-1,0)+3*h+2*w+A;return {supported:true,score,star:score<=12?1:score<=27?2:3,answer:out(answer),features};}catch(e){return {supported:false,error:e.message};}}
 
 function createStorage(dbName='sansu-pilot-v1'){let dbPromise;function db(){return dbPromise||(dbPromise=new Promise((resolve,reject)=>{if(typeof indexedDB==='undefined')return reject(Error('この環境では保存機能を利用できません'));const r=indexedDB.open(dbName,1);r.onupgradeneeded=()=>r.result.createObjectStore('state');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error||Error('保存領域を開けません'));r.onblocked=()=>reject(Error('他の画面が保存領域を使用中です'));}));}let queue=Promise.resolve();return {async load(){await queue;const connection=await db();return new Promise((resolve,reject)=>{const tx=connection.transaction('state','readonly');let value;const r=tx.objectStore('state').get('current');r.onsuccess=()=>{value=r.result;};tx.oncomplete=()=>{if(value&&value.schemaVersion!==1)reject(Error('保存データの版が対応外です'));else resolve(normalizeState(value||initialState()));};tx.onerror=tx.onabort=()=>reject(tx.error||Error('保存データを読めません'));});},save(state){const snapshot=clone(state);const action=queue.catch(()=>{}).then(async()=>{const connection=await db();return new Promise((resolve,reject)=>{const tx=connection.transaction('state','readwrite');tx.objectStore('state').put(snapshot,'current');tx.oncomplete=()=>resolve();tx.onerror=tx.onabort=()=>reject(tx.error||Error('端末への保存に失敗しました'));});});queue=action;return action;},async close(){await queue.catch(()=>{});if(dbPromise)(await dbPromise).close();}};}
-const api={isActiveProblem,exchangeCost,summonCost,ownedHeroCount,HERO_COST_START,HERO_COST_MAX,calcTier,calcShape,calcInverse,CALC_TIER_LABELS,initialState,normalizeState,migrateHeroRoster,bondProgress,HERO_ABILITIES,abilityTier,abilityValue,summonHero,prepareHeroExchange,exchangeHero,getCampaignStatus,dayKey,addDays,level,parseAnswer,grade,formatAnswer,selectProblem,commitAttempt,completeLearning,getRelated,calcScore,createStorage};if(typeof module!=='undefined'&&module.exports)module.exports=api;root.SansuCore=api;
+const api={isActiveProblem,isPlayable,isPotProblem,tierOf,TIER_RANGES,exchangeCost,summonCost,ownedHeroCount,HERO_COST_START,HERO_COST_MAX,calcTier,calcShape,calcInverse,CALC_TIER_LABELS,initialState,normalizeState,migrateHeroRoster,bondProgress,HERO_ABILITIES,abilityTier,abilityValue,summonHero,prepareHeroExchange,exchangeHero,getCampaignStatus,dayKey,addDays,level,parseAnswer,grade,formatAnswer,selectProblem,commitAttempt,completeLearning,getRelated,calcScore,createStorage};if(typeof module!=='undefined'&&module.exports)module.exports=api;root.SansuCore=api;
 })(typeof globalThis!=='undefined'?globalThis:this);

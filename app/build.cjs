@@ -3,7 +3,7 @@ const path = require('node:path');
 const root = __dirname;
 const read = p => fs.readFileSync(path.join(root,p),'utf8').replace(/^\uFEFF/,'');
 const sources = ['content/arithmetic.json','content/selected-calc.json','content/selected-calc-2.json','content/selected-calc-3.json','content/selected-calc-r25.json','content/selected-r25-oneline.json','content/selected-calc-r26.json','content/selected-r26-oneline.json','content/selected-oneline.json','content/selected-geometry.json','content/expedition-foundations.json','content/expedition-ratio-speed.json','content/expedition-geometry.json','content/expedition-ready.json','content/expedition-ready-2.json','content/expedition-hold-integration.json','content/expedition-tesuji.json','content/expedition-notion-sync70.json','content/expedition-speed-gw519-gn.json','content/expedition-speed-gw520.json'].map(p=>JSON.parse(read(p)));
-sources.push(JSON.parse(read('content/b57-playable-84.json')));
+sources.push(JSON.parse(read('content/b57-playable-84.json'))); // コベツバ原本から教材化した84問（Notionのコベツバ行に対応づけ済み）
 const legacyCatalog = JSON.parse(read('references/legacy-catalog.json'));
 const roster=JSON.parse(read('content/heroes.json'));
 const profiles=JSON.parse(read('content/hero-profiles.json')).profiles;
@@ -33,6 +33,22 @@ for(const [id, review] of Object.entries(curation)){
  if(typeof review.active!=='boolean'||!['basic','standard','advanced','hard'].includes(review.tier)||!review.reason)throw Error('Invalid calculation review '+id);
  const p=matches[0];p.curation=review;
  if(p.category!=='calc'){const range={basic:[1,2],standard:[3,4],advanced:[5,6],hard:[7,10]}[review.tier];if(p.difficulty<range[0]||p.difficulty>range[1])p.difficulty=range[1];}
+}
+
+// Notion問題DBが分類・難易度・出題区分の正本。content/notion-classification.json はNotionからの書き出し（scripts/export-notion-classification.md）。
+const notionCls=JSON.parse(read('content/notion-classification.json'));
+const holds=new Set(JSON.parse(read('content/quality-holds.json')).problems);
+for(const p of data.problems){
+  if(holds.has(p.id))p.quality='hold';
+  const nid=(p.source?.notionPageId||(p.source?.url||'').replace(/-/g,'').match(/[0-9a-f]{32}/)?.[0]||p.source?.notionMatchId||'');
+  const row=nid&&notionCls.problems[nid];
+  if(!row){if(p.category!=='calc')throw Error('Notion classification missing '+p.id);p.role=p.curation?.active===false?'類題':'代表';continue;}
+  const sub=notionCls.subdivisions[row.sub];if(!sub)throw Error('Unknown subdivision '+row.sub+' '+p.id);
+  p.notionId=nid;p.subdivision={id:row.sub,name:sub.name,chu:sub.chu,dai:sub.dai,order:sub.order};
+  // 代表かどうかはNotionの「代表」（大問単位）。同じ大問の中で同型練習に回した小問（curation.active=false）は類題ポット側に置く。
+  p.role=row.rep&&p.curation?.active!==false?'代表':row.variant?'数値替え':'類題';
+  // 小問ごとの難易度見直し（difficulty-reviews）と個別キュレーションは、Notionの大問単位の難易度より優先する。
+  if(p.category!=='calc'&&Number.isInteger(row.difficulty)&&!difficultyReviews[p.id]&&!curation[p.id])p.difficulty=row.difficulty;
 }
 
 // Canonical input for each answer format: single → "n/d", ratio → "a:b(:c)", clock → "(午前|午後)h時m分(s秒)", parts → array of each part's canonical input.
@@ -78,10 +94,9 @@ for (const p of data.problems) {
   }
   if(p.explanation.steps.length<4||p.explanation.steps.length>8)throw Error('Explanation length '+p.id);
 }
-require('./src/b57-catalog.cjs').attachCatalog(data,JSON.parse(read('content/b57-catalog.json')));
 const json=JSON.stringify(data).replace(/</g,'\\u003c');
 let html=read('src/shell.html');
-for(const [key,value] of [['__DATA__',json],['/*__CSS__*/',read('src/style.css')+'\n'+read('src/campaign.css')+'\n'+read('src/visual-assets.css')+'\n'+read('src/opening.css')],['/*__CORE__*/',read('src/core.js')],['/*__GEAR__*/',read('src/gear.js')],['/*__APP__*/',read('src/app.js').replace('/*__CAMPAIGN_UI__*/',()=>read('src/campaign-ui.js')+'\n'+read('src/hero-ui.js')+'\n'+read('src/b57-ui.js'))]])html=html.replace(key,()=>value);
+for(const [key,value] of [['__DATA__',json],['/*__CSS__*/',read('src/style.css')+'\n'+read('src/campaign.css')+'\n'+read('src/visual-assets.css')+'\n'+read('src/opening.css')],['/*__CORE__*/',read('src/core.js')],['/*__GEAR__*/',read('src/gear.js')],['/*__APP__*/',read('src/app.js').replace('/*__CAMPAIGN_UI__*/',()=>read('src/campaign-ui.js')+'\n'+read('src/hero-ui.js'))]])html=html.replace(key,()=>value);
 fs.writeFileSync(path.join(root,'dist/index.html'),html);
 fs.writeFileSync(path.join(root,'content/combined.json'),JSON.stringify(data,null,2));
 console.log(JSON.stringify({problems:data.problems.length,activeProblems:data.problems.filter(C.isActiveProblem).length,units:data.units.length,links:data.links.length,htmlBytes:Buffer.byteLength(html),heroes:catalog.heroes.length,equipment:catalog.equipment.length}));
