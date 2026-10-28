@@ -136,3 +136,30 @@ test('speed answers written as 分速/時速/秒速 are accepted',()=>{
  assert.equal(C.grade('秒速3cm',{n:'3',d:'1',unit:'cm/秒',dimension:'speed'}).correct,true);
  assert.equal(C.grade('分速210m',{n:'200',d:'1',unit:'m/分',dimension:'speed'}).correct,false);
 });
+
+// set（2026-10-28）：順不同の記号、並び順のある記号、組の集合
+test('set: unordered symbols accept any order and separators; count mismatch hints',()=>{
+ const s={dimension:'set',items:['イ','ウ','オ'],unit:''};
+ for(const raw of ['イ、ウ、オ','オ ウ イ','イウオ','ｲ,ｳ,ｵ','オ・イ・ウ'])assert.equal(C.grade(raw,s).correct,true,raw);
+ assert.equal(C.grade('イ、ウ、エ',s).correct,false);
+ const short=C.grade('イ、ウ',s);assert.equal(short.valid,true);assert.equal(short.correct,false);assert.equal(short.hint,'答えの個数を確かめよう');
+ assert.equal(C.grade('',s).valid,false);assert.equal(C.formatAnswer(s),'イ、ウ、オ');
+});
+test('set: ordered sequences require the order',()=>{
+ const o={dimension:'set',items:['イ','ア','ウ'],ordered:true,unit:''};
+ assert.equal(C.grade('㋑，㋐，㋒',o).correct,true);assert.equal(C.grade('イアウ',o).correct,true);assert.equal(C.grade('アイウ',o).correct,false);
+ assert.equal(C.formatAnswer(o),'イ → ア → ウ');
+});
+test('set: tuples, ordered or unordered inside, groups in any order',()=>{
+ const t={dimension:'set',items:['2,3,12','2,4,9','3,4,6'],tuple:'unordered',unit:''};
+ for(const raw of ['2×3×12、2×4×9、3×4×6','(3,4,6)(12,3,2)(2,4,9)','（2，4，9）（3，4，6）（2，3，12）'])assert.equal(C.grade(raw,t).correct,true,raw);
+ const u={dimension:'set',items:['18,1','13,3','8,5','3,7'],tuple:'ordered',unit:''};
+ assert.equal(C.grade('(3,7)(8,5)(13,3)(18,1)',u).correct,true);assert.equal(C.grade('(1,18)(13,3)(8,5)(3,7)',u).correct,false);
+ assert.equal(C.formatAnswer(u),'(18, 1)(13, 3)(8, 5)(3, 7)');
+});
+test('set inside parts and commitAttempt',()=>{
+ const spec={parts:[{label:'(1)',dimension:'set',items:['ア','イ','ウ'],unit:''},{label:'(2)',n:'77',d:'1',unit:'',dimension:'scalar'}]};
+ assert.equal(C.grade(['ウ、イ、ア','77'],spec).correct,true);assert.equal(C.grade(['ア、イ','77'],spec).correct,false);
+ const p={...base,id:'setparts',answer:spec};
+ const r=C.commitAttempt(C.initialState(),p,{id:'x1',day:'2026-10-28',raw:['ア、イ、ウ','77']});assert.equal(r.result.correct,true);
+});

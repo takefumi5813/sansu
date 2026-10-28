@@ -97,14 +97,15 @@
   const isRatioSpec=spec=>spec?.dimension==='ratio';
   const isClockSpec=spec=>spec?.dimension==='clock';
   const isTextSpec=spec=>spec?.dimension==='text';
-  const fieldPlaceholder=part=>isTextSpec(part)?'文字・記号を入力':isRatioSpec(part)?'比を入力（例 3：2）':isClockSpec(part)?'例 8時19分':'数を入力';
+  const isSetSpec=spec=>spec?.dimension==='set';
+  const fieldPlaceholder=part=>isSetSpec(part)?(part.tuple?'例 (1,2)(3,4)　組は順不同':part.ordered?'順に「、」で区切って入力':'「、」で区切って入力（順不同）'):isTextSpec(part)?'文字・記号を入力':isRatioSpec(part)?'比を入力（例 3：2）':isClockSpec(part)?'例 8時19分':'数を入力';
   function answerFieldsMarkup(spec){
-    const field=(part,id,label)=>`<input id="${id}" class="answer-input" type="text" inputmode="${isTextSpec(part)||isRatioSpec(part)||isClockSpec(part)?'text':'decimal'}" autocomplete="off" maxlength="200" placeholder="${fieldPlaceholder(part)}" aria-describedby="answer-error"${label?` aria-label="${esc(label)}の答え"`:''}><span class="unit-label"${label?' style="min-width:2.2em"':''}>${esc(part.unit||'')}</span>`;
+    const field=(part,id,label)=>`<input id="${id}" class="answer-input" type="text" inputmode="${isTextSpec(part)||isSetSpec(part)||isRatioSpec(part)||isClockSpec(part)?'text':'decimal'}" autocomplete="off" maxlength="200" placeholder="${fieldPlaceholder(part)}" aria-describedby="answer-error"${label?` aria-label="${esc(label)}の答え"`:''}><span class="unit-label"${label?' style="min-width:2.2em"':''}>${esc(part.unit||'')}</span>`;
     if(!isPartsSpec(spec))return `<label for="answer">答え</label>${field(spec||{},'answer')}`;
     return `<label>答え</label><div class="answer-parts" style="display:flex;flex-direction:column;gap:8px;width:100%">${spec.parts.map((part,i)=>{const label=part.label||`(${i+1})`;return `<div class="answer-part" data-part="${i}" style="display:flex;align-items:center;gap:10px;flex-wrap:nowrap"><span class="part-label" style="min-width:2.6em;font-weight:700">${esc(label)}</span>${field(part,'answer-'+i,label)}</div>`;}).join('')}</div>`;
   }
   function keypadMarkup(spec){
-    if(isTextSpec(spec)||(isPartsSpec(spec)&&spec.parts.every(isTextSpec)))return '';
+    if(isTextSpec(spec)||isSetSpec(spec)||(isPartsSpec(spec)&&spec.parts.every(p=>isTextSpec(p)||isSetSpec(p))))return '';
     const has=test=>isPartsSpec(spec)?spec.parts.some(test):test(spec),ratio=has(isRatioSpec),clock=has(isClockSpec);
     const keys=['7','8','9','4','5','6','／','1','2','3','0','．','−','⌫'];if(ratio)keys.splice(13,0,'：');if(clock)keys.splice(keys.length-1,0,'時','分');
     const columns=7+(ratio?1:0)+(clock?1:0);

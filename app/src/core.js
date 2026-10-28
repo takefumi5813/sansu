@@ -16,6 +16,7 @@ function parseSingleAnswer(raw,spec={}){try{let s=norm(raw);if(!s||s.length>200)
 function parseAnswer(raw,spec={}){
  if(isParts(spec)){const g=gradeParts(raw,spec);return g.valid?{valid:true,value:g.normalized}:{valid:false,error:g.error};}
  if(isText(spec))return parseText(raw);
+ if(isSet(spec)){const p=parseSet(raw,spec);return p;}
  if(isRatio(spec))return parseRatio(raw,spec);
  if(isClock(spec)){const p=parseClock(raw,spec);return p.valid?{valid:true,value:p.value}:p;}
  let s=norm(raw).replace(/\s/g,'');
@@ -44,6 +45,36 @@ function gradeText(raw,spec){
  const p=parseText(raw);if(!p.valid)return p;
  return {valid:true,correct:[spec.value,...(spec.accepted||[])].some(x=>textNorm(x)===p.value),normalized:p.value};
 }
+// Set (2026-10-28): {dimension:'set',items:[string],ordered?:boolean,tuple?:'ordered'|'unordered',unit:''}.
+// items without tuple: tokens like ア・イ・ウ (順不同; ordered:true なら並び順も採点)。区切りは「、，,・/／」と空白。
+// tuple あり: 組の集合。入力は (1,2,3)(1,2,4) や 2×3×12、2×4×9。tuple:'unordered' なら組の中も順不同。組どうしは常に順不同。
+const isSet=spec=>!!spec&&spec.dimension==='set'&&Array.isArray(spec.items);
+const SET_SEP=/[、，,・\/\s]+/;
+function setTokens(s,sep){return textNorm(s.replace(/\s+/g,' ')).length?s.split(sep).map(textNorm).filter(Boolean):[];}
+function setKey(group,spec){const t=group.slice();if(spec.tuple==='unordered')t.sort();return t.join(',');}
+function parseSet(raw,spec){
+ if(!['string','number'].includes(typeof raw)||String(raw).length>200)return {valid:false,error:'答えを入力してください'};
+ const s=String(raw).normalize('NFKC').trim();if(!s)return {valid:false,error:'答えを入力してください'};
+ if(!spec.tuple){const t=setTokens(s,SET_SEP);if(!t.length)return {valid:false,error:'答えを入力してください'};return {valid:true,value:t};}
+ let groups=[...s.matchAll(/[(（]([^)）]*)[)）]/g)].map(m=>m[1]);
+ if(!groups.length)groups=s.split(/[、，;；\/]+|\s{1,}(?=\S)/).filter(x=>x.trim());
+ const parsed=groups.map(g=>g.split(/[,，、・×x*\s]+/i).map(textNorm).filter(Boolean));
+ if(!parsed.length||parsed.some(g=>!g.length))return {valid:false,error:'組を「(1,2)(3,4)」のように入力してください'};
+ return {valid:true,value:parsed.map(g=>setKey(g,spec))};
+}
+function gradeSet(raw,spec){
+ if(!spec.items.length||spec.items.some(x=>typeof x!=='string'||!textNorm(x)))return {valid:false,error:'答えの形式を確認できません'};
+ const p=parseSet(raw,spec);if(!p.valid)return p;
+ const expected=spec.tuple?spec.items.map(x=>setKey(x.split(/[,，、・×]+/).map(textNorm).filter(Boolean),spec)):spec.items.map(textNorm);
+ let a=p.value.slice();const b=expected.slice();
+ if(!spec.tuple&&a.length===1&&b.length>1&&b.every(x=>[...x].length===1)&&[...a[0]].length===b.length)a=[...a[0]];
+ if(!(spec.ordered&&!spec.tuple)){a.sort();b.sort();}
+ const correct=a.length===b.length&&a.every((x,i)=>x===b[i]);
+ const result={valid:true,correct,normalized:p.value};
+ if(!correct&&a.length!==b.length){const hint='答えの個数を確かめよう';result.hint=hint;result.error=hint;}
+ return result;
+}
+function formatSet(spec){if(spec.tuple)return spec.items.map(x=>'('+x.split(/[,，、・×]+/).join(', ')+')').join('');return spec.items.join(spec.ordered?' → ':'、');}
 const RATIO_HINT='最も簡単な整数の比で答えよう';
 const isRatio=spec=>!!spec&&spec.dimension==='ratio'&&Array.isArray(spec.terms);
 const isParts=spec=>!!spec&&Array.isArray(spec.parts);
@@ -102,7 +133,7 @@ function formatClock(spec){
  const h=Number(norm(spec.h)),hour=spec.ampm?spec.ampm+(h%12):String(h),sec=spec.s!=null&&spec.s!==''&&Number(norm(spec.s))!==0?Number(norm(spec.s))+'秒':'';
  return hour+'時'+Number(norm(spec.m))+'分'+sec;
 }
-function gradeOne(raw,spec){if(!spec||typeof spec!=='object'||isParts(spec))return {valid:false,error:'答えの形式を確認できません'};if(isText(spec))return gradeText(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);if(Array.isArray(raw))return {valid:false,error:'答えを入力してください'};return gradeSingle(raw,spec);}
+function gradeOne(raw,spec){if(!spec||typeof spec!=='object'||isParts(spec))return {valid:false,error:'答えの形式を確認できません'};if(isText(spec))return gradeText(raw,spec);if(isSet(spec))return gradeSet(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);if(Array.isArray(raw))return {valid:false,error:'答えを入力してください'};return gradeSingle(raw,spec);}
 function gradeParts(raw,spec){
  if(!spec.parts.length)return {valid:false,error:'答えの形式を確認できません'};
  if(!Array.isArray(raw)||raw.length!==spec.parts.length)return {valid:false,error:'すべての欄に答えを入力してください',parts:spec.parts.map(()=>({valid:false,correct:false}))};
@@ -114,12 +145,13 @@ function gradeParts(raw,spec){
  return result;
 }
 // Single answers keep the original path unchanged (gradeSingle), including raw coercion.
-function grade(raw,spec){if(isParts(spec))return gradeParts(raw,spec);if(isText(spec))return gradeText(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);return gradeSingle(raw,spec);}
+function grade(raw,spec){if(isParts(spec))return gradeParts(raw,spec);if(isText(spec))return gradeText(raw,spec);if(isSet(spec))return gradeSet(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);return gradeSingle(raw,spec);}
 function decimalText(n,d){let N=BigInt(n),D=BigInt(d),neg=N<0n;if(neg)N=-N;let k=0,t=D;while(t%2n===0n){t/=2n;k++}let j=0;while(t%5n===0n){t/=5n;j++}if(t!==1n)return null;const e=Math.max(k,j),scaled=N*10n**BigInt(e)/D,str=scaled.toString().padStart(e+1,'0'),out=e?str.slice(0,-e)+'.'+str.slice(-e):str;return (neg?'-':'')+out;}
 function formatAnswer(spec){
  if(!spec)return '';
  if(isParts(spec))return spec.parts.map((p,i)=>(p.label||'('+(i+1)+')')+' '+formatAnswer(p)).join('　');
  if(isText(spec))return spec.value;
+ if(isSet(spec))return formatSet(spec);
  if(isRatio(spec))return spec.terms.map(x=>norm(x)).join('：');
  if(isClock(spec))return formatClock(spec);
  const value=String(spec.d)==='1'?String(spec.n):spec.display==='decimal'&&decimalText(spec.n,spec.d)||spec.n+'/'+spec.d,plain=spec.unit?value+' '+spec.unit:value;

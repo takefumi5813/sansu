@@ -58,6 +58,7 @@ function canonicalRaw(spec){
   if(spec.dimension==='ratio'){if(!Array.isArray(spec.terms)||spec.terms.length<2)throw Error('Ratio needs 2+ terms');return spec.terms.join(':');}
   if(spec.dimension==='clock'){if(spec.h==null||spec.m==null)throw Error('Clock needs h and m');return (spec.ampm||'')+(spec.ampm?Number(spec.h)%12:Number(spec.h))+'時'+spec.m+'分'+(spec.s!=null&&spec.s!==''?spec.s+'秒':'');}
   if(spec.dimension==='text')return spec.value;
+  if(spec.dimension==='set'){if(!Array.isArray(spec.items)||!spec.items.length)throw Error('Set needs items');return spec.tuple?spec.items.map(x=>'('+x+')').join(''):spec.items.join('、');}
   return spec.n+'/'+spec.d;
 }
 const unitIds=new Set();
