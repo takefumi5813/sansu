@@ -1,5 +1,5 @@
 {
- "exportedAt": "2026-10-25",
+ "exportedAt": "2026-10-28",
  "source": "Notion 問題DB collection://531d42cc-9767-4652-ac87-5fd5cef74df7（細分類・代表・難易度＝細分類の基礎難度＋上乗せ）",
  "subdivisions": {
   "3fd2b010743c8134ade3f9ba1563d4ff": {
@@ -13247,6 +13247,258 @@
    "sub": "3fd2b010743c819886abdd520885e031",
    "related": [],
    "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8194a63de59605e66328": {
+   "sub": "3fd2b010743c819584fae505452e5741",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81b1a86fd54bd3a51e99": {
+   "sub": "3fd2b010743c81ae93d9c19a6783b070",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c815ba790f194caf5be71": {
+   "sub": "3fd2b010743c81788541c18b24f23fe2",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8124b549e37548b23aff": {
+   "sub": "3fd2b010743c8134ade3f9ba1563d4ff",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8103b550ec25644a8d32": {
+   "sub": "3fd2b010743c81ecafdfd7b2b6fea049",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81629b3ce4f06830351d": {
+   "sub": "3fd2b010743c81218dbfc938a7ddba97",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c818ba143d91bc035f59e": {
+   "sub": "3fd2b010743c812285d0e614a7d9b0bd",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c8168b7cbedc7fadc8890": {
+   "sub": "3fd2b010743c81f3a031d5ccb12fd986",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8177ae9fe8f4697429b2": {
+   "sub": "3fd2b010743c81839a11f4fc0eb73a96",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ab9406d88172d34200": {
+   "sub": "3fd2b010743c81d497fae48996335d6f",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814fade6f378d4945e5c": {
+   "sub": "3fd2b010743c819b8b24da4754b84e26",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81089904fdd0311e4502": {
+   "sub": "3fd2b010743c81f08589c6b95897d838",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81eeb01cdd96eceeba5a": {
+   "sub": "3fd2b010743c817d961de51bd86ca617",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81218b4bf3b119041006": {
+   "sub": "3fd2b010743c817dbe46d215e41302c7",
+   "related": [],
+   "difficulty": 7,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819d954fe32cff502d87": {
+   "sub": "3fd2b010743c817298b2f8cfc8552019",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c817b9b21dec82dc56a09": {
+   "sub": "3fd2b010743c817d961de51bd86ca617",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81aabd7bcbed9884a568": {
+   "sub": "3fd2b010743c817dbe46d215e41302c7",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81aa8032dfaae69bed89": {
+   "sub": "3fd2b010743c818aaeb0dc4ead12d2f5",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8192a5e5cab3972270f1": {
+   "sub": "3fd2b010743c81d497fae48996335d6f",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8195a6f6de8e7a9a85b1": {
+   "sub": "3fd2b010743c8152b285d66dae645ef8",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812c85ebfda38cf93a92": {
+   "sub": "3fd2b010743c817dbc08c10035208ed4",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8197a29fe0b8e0234b22": {
+   "sub": "3fd2b010743c811f9cf2c31def4d3dad",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d8b0cadac76c4f2bcc": {
+   "sub": "3fd2b010743c81aeb09ff9dae7c19d5f",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81059a7ede37b0b81379": {
+   "sub": "3fd2b010743c816ca7daf15444ff47e4",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81849dc6c3f4b503f26b": {
+   "sub": "3fd2b010743c8198a0b7cecc7ad8ab5e",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c813ba7f4f412dd2dae22": {
+   "sub": "3fd2b010743c81b78b5cdc2cc689268b",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e1b699e2e93973720b": {
+   "sub": "3fd2b010743c81659f82cce2e8246b96",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81038d7be69130eadfdb": {
+   "sub": "3fd2b010743c81709536d1bf1b9886bf",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81659194c77b239f3267": {
+   "sub": "3fd2b010743c81aa8c8de74ff10975bb",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81d6beaae0fd826c40d7": {
+   "sub": "3fd2b010743c81aeb09ff9dae7c19d5f",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c815ebd7af0262103e1e2": {
+   "sub": "3fd2b010743c81c6bd8fff8a6c7f06e9",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c813c90b2f296bfae53dd": {
+   "sub": "3fd2b010743c81aabef1eb607194f7be",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4072b010743c81f0952bd7f4bd917a77": {
+   "sub": "3fd2b010743c81599f4eceabb2f3c9f5",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "4072b010743c815c80d9f631677d006d": {
+   "sub": "3fd2b010743c81f996bada727b0d9ba7",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "4072b010743c81b6acd1c92a7e4e5b0f": {
+   "sub": "3fd2b010743c8176ad75ce93e3a762da",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4072b010743c8100865ad79843f309c4": {
+   "sub": "3fd2b010743c81c59099c8bb124e2fc2",
+   "related": [],
+   "difficulty": 5,
    "rep": true,
    "variant": false
   }
