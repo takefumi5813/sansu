@@ -163,3 +163,7 @@ test('set inside parts and commitAttempt',()=>{
  const p={...base,id:'setparts',answer:spec};
  const r=C.commitAttempt(C.initialState(),p,{id:'x1',day:'2026-10-28',raw:['ア、イ、ウ','77']});assert.equal(r.result.correct,true);
 });
+test('set: aliases accept short names',()=>{
+ const s={dimension:'set',items:['社会','算数','理科','国語'],ordered:true,aliases:{'社':'社会','算':'算数','理':'理科','国':'国語'},unit:''};
+ assert.equal(C.grade('社会、算数、理科、国語',s).correct,true);assert.equal(C.grade('社 算 理 国',s).correct,true);assert.equal(C.grade('算 社 理 国',s).correct,false);
+});

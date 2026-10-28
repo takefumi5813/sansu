@@ -46,6 +46,7 @@ function gradeText(raw,spec){
  return {valid:true,correct:[spec.value,...(spec.accepted||[])].some(x=>textNorm(x)===p.value),normalized:p.value};
 }
 // Set (2026-10-28): {dimension:'set',items:[string],ordered?:boolean,tuple?:'ordered'|'unordered',unit:''}.
+// aliases:{別名:正式名} で「国」→「国語」のような略記も受け付ける（tuple なしのとき）。
 // items without tuple: tokens like ア・イ・ウ (順不同; ordered:true なら並び順も採点)。区切りは「、，,・/／」と空白。
 // tuple あり: 組の集合。入力は (1,2,3)(1,2,4) や 2×3×12、2×4×9。tuple:'unordered' なら組の中も順不同。組どうしは常に順不同。
 const isSet=spec=>!!spec&&spec.dimension==='set'&&Array.isArray(spec.items);
@@ -65,6 +66,7 @@ function parseSet(raw,spec){
 function gradeSet(raw,spec){
  if(!spec.items.length||spec.items.some(x=>typeof x!=='string'||!textNorm(x)))return {valid:false,error:'答えの形式を確認できません'};
  const p=parseSet(raw,spec);if(!p.valid)return p;
+ if(spec.aliases&&typeof spec.aliases==='object'){const al={};for(const [k,v] of Object.entries(spec.aliases))al[textNorm(k)]=textNorm(v);p.value=p.value.map(x=>al[x]||x);}
  const expected=spec.tuple?spec.items.map(x=>setKey(x.split(/[,，、・×]+/).map(textNorm).filter(Boolean),spec)):spec.items.map(textNorm);
  let a=p.value.slice();const b=expected.slice();
  if(!spec.tuple&&a.length===1&&b.length>1&&b.every(x=>[...x].length===1)&&[...a[0]].length===b.length)a=[...a[0]];
