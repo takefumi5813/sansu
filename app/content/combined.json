@@ -126225,6 +126225,196 @@
       "role": "代表"
     },
     {
+      "id": "PWⅢ03-4",
+      "unitId": "notion.4082b010743c81d88597fcccba0ac2b4",
+      "category": "oneline",
+      "domain": "記号・定義された演算",
+      "text": "ある計算のきまりがあり、その計算を行うと次のようになります。\n1▷2＝2、1▷3＝4、1▷4＝6、2▷1＝0、2▷4＝9、3▷2＝4、3▷4＝12、4▷1＝0、…\nこのきまりで計算すると、(2▷3)▷5 はいくつになりますか。",
+      "source": {
+        "title": "PWⅢ03-4",
+        "url": "https://app.notion.com/4082b010743c81d88597fcccba0ac2b4",
+        "notionPageId": "4082b010743c81d88597fcccba0ac2b4",
+        "locator": "算数プラスワン問題集 第2部Ⅲ-03 ❹ / 本p.42（PDF 44ページ）・解答p.128（PDF 134ページ）（2026-10-29 原本照合）",
+        "verification": "Claudeが原本の問題・解答を照合し、答えと各段の式をPythonで検算（例として示された値をすべて再現することも確認）。公式解答と一致。",
+        "kind": "claude-20261029",
+        "problemSource": {
+          "file": "/算数DB/原本/プラスワン/算数プラスワン問題集.pdf",
+          "page": 44
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/プラスワン/算数プラスワン問題集.pdf",
+          "page": 134
+        }
+      },
+      "answer": {
+        "n": "28",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "scopeUnits": [],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "同じ左の数ごとに並べる",
+            "body": "例を左の数ごとに、右の数の小さい順に並べます。1▷□は 1▷2＝2、1▷3＝4、1▷4＝6 で、2ずつ増えています。2▷□は 2▷1＝0、2▷4＝9 なので、0から9まで3回で9増える＝3ずつ増えています。",
+            "equation": "1▷□：(0)、2、4、6　2▷□：0、3、6、9",
+            "visual": {
+              "kind": "image",
+              "src": "figs/n-4082b010743c81d88597fcccba0ac2b4-solution.png",
+              "alt": "原本の解説の表（左の数ごとに並べたもの）"
+            },
+            "checkpoint": {
+              "prompt": "2▷3はいくつですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "きまりを言葉と式にする",
+            "body": "3▷□は 3▷2＝4、3▷4＝12 で4ずつ、4▷□は4▷1＝0から始まって5ずつ増えます。どれも「右の数が1のとき0」で、「左の数＋1」ずつ増えています。だから A▷B＝(A＋1)×(B−1) です。例の 3▷4＝4×3＝12 などで確かめられます。",
+            "equation": "A▷B＝(A＋1)×(B−1)",
+            "checkpoint": {
+              "prompt": "このきまりで、4▷3はいくつですか。",
+              "answer": {
+                "n": "10",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "かっこの中から計算する",
+            "body": "まず (2▷3) を計算します。",
+            "equation": "2▷3＝(2＋1)×(3−1)＝6"
+          },
+          {
+            "id": "s4",
+            "title": "6▷5を計算する",
+            "body": "(2▷3)▷5 は 6▷5 です。",
+            "equation": "6▷5＝(6＋1)×(5−1)＝28"
+          }
+        ]
+      },
+      "notionId": "4082b010743c81d88597fcccba0ac2b4",
+      "subdivision": {
+        "id": "3fd2b010743c81a8ab59fb07ccb843c1",
+        "name": "約束記号の計算",
+        "chu": "記号・定義された演算",
+        "dai": "条件整理・論理",
+        "order": 467
+      },
+      "role": "代表"
+    },
+    {
+      "id": "PWⅢ03-7",
+      "unitId": "notion.4082b010743c819f8f1bdf9a50e3b8b1",
+      "category": "oneline",
+      "domain": "N進法",
+      "text": "右のような規則で数を表します。このとき、次の計算の答えを求め、その答えを同じような表し方で答えなさい。",
+      "sourceConvention": "図の右側が規則の例（マスの下の数が、その表し方が表す数）、左側が計算です。アプリでは計算の答えを数で答えます。同じ表し方（どのマスに○がつくか）は解説で確かめましょう。",
+      "source": {
+        "title": "PWⅢ03-7",
+        "url": "https://app.notion.com/4082b010743c819f8f1bdf9a50e3b8b1",
+        "notionPageId": "4082b010743c819f8f1bdf9a50e3b8b1",
+        "locator": "算数プラスワン問題集 第2部Ⅲ-03 ❼ / 本p.42（PDF 44ページ）・解答p.129（PDF 135ページ）（2026-10-29 原本照合）",
+        "verification": "Claudeが原本の問題・解答を照合し、答えと各段の式をPythonで検算（例として示された値をすべて再現することも確認）。公式解答と一致。",
+        "kind": "claude-20261029",
+        "problemSource": {
+          "file": "/算数DB/原本/プラスワン/算数プラスワン問題集.pdf",
+          "page": 44
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/プラスワン/算数プラスワン問題集.pdf",
+          "page": 135
+        }
+      },
+      "answer": {
+        "n": "181",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/n-4082b010743c819f8f1bdf9a50e3b8b1.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "各マスが表す数を読む",
+            "body": "1は右下、2は右の真ん中、4は右上、8は下の真ん中に○が1つです。○1つずつの例から、右下から順に1、2、4、8…と2倍ずつになっていると考えます。26＝16＋8＋2、84＝64＋16＋4 も合うので、各マスは 上の段 256・32・4、真ん中の段 128・16・2、下の段 64・8・1 です。",
+            "equation": "1→2→4→8→16→32→64→128→256（2倍ずつ）",
+            "visual": {
+              "kind": "image",
+              "src": "figs/n-4082b010743c819f8f1bdf9a50e3b8b1-solution.png",
+              "alt": "原本の解説図（各マスが表す数と、ア＋イの計算）"
+            },
+            "checkpoint": {
+              "prompt": "真ん中のマスはいくつを表していますか。",
+              "answer": {
+                "n": "16",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "左の数アを読む",
+            "body": "たし算の左の図（ア）は、真ん中の段の左と右、下の段の真ん中と右に○があります。",
+            "equation": "ア＝128＋2＋8＋1＝139",
+            "checkpoint": {
+              "prompt": "アが表す数はいくつですか。",
+              "answer": {
+                "n": "139",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "右の数イを読んでたす",
+            "body": "右の図（イ）は、上の段の真ん中、真ん中の段の右、下の段の真ん中に○があります。",
+            "equation": "イ＝32＋2＋8＝42、139＋42＝181"
+          },
+          {
+            "id": "s4",
+            "title": "同じ表し方に直す",
+            "body": "181＝128＋32＋16＋4＋1 なので、上の段の真ん中と右、真ん中の段の左と真ん中、下の段の右に○をつけます。計算結果から考えなくても、アとイを見くらべて、同じマスの○が2つになったら1つ上の数のマスに○1つ（2＋2＝4、8＋8＝16）と書き入れていけば同じ図になります。",
+            "equation": "181＝128＋32＋16＋4＋1"
+          }
+        ]
+      },
+      "notionId": "4082b010743c819f8f1bdf9a50e3b8b1",
+      "subdivision": {
+        "id": "3fd2b010743c8119824ced82cf24b36d",
+        "name": "2進法の応用",
+        "chu": "N進法",
+        "dai": "規則性",
+        "order": 276
+      },
+      "role": "代表"
+    },
+    {
       "id": "b57-APP108-P009-01-A",
       "unitId": "b57.APP108-P009-01-A",
       "category": "oneline",
@@ -146992,6 +147182,24 @@
       "definition": "印の角の和",
       "decision": "外角の和を思い出す",
       "representativeId": "TS平C6-6",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.4082b010743c81d88597fcccba0ac2b4",
+      "name": "約束記号の計算",
+      "domain": "記号・定義された演算",
+      "definition": "約束記号の計算",
+      "decision": "例を並べてきまりを見つける",
+      "representativeId": "PWⅢ03-4",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.4082b010743c819f8f1bdf9a50e3b8b1",
+      "name": "2進法の応用",
+      "domain": "N進法",
+      "definition": "2進法の応用",
+      "decision": "各マスが表す数を例から読む",
+      "representativeId": "PWⅢ03-7",
       "prerequisites": []
     },
     {

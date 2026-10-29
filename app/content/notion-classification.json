@@ -13529,6 +13529,20 @@
    "difficulty": 7,
    "rep": true,
    "variant": false
+  },
+  "4082b010743c81d88597fcccba0ac2b4": {
+   "sub": "3fd2b010743c81a8ab59fb07ccb843c1",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4082b010743c819f8f1bdf9a50e3b8b1": {
+   "sub": "3fd2b010743c8119824ced82cf24b36d",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
   }
  }
 }
