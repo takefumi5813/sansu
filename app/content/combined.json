@@ -125945,6 +125945,286 @@
       "role": "代表"
     },
     {
+      "id": "TS平C5-6",
+      "unitId": "notion.4082b010743c817f9f78f9643ef3d082",
+      "category": "geometry",
+      "domain": "円を含む複合図形の面積",
+      "text": "図は、1辺18cmの正五角形の各頂点を中心にして、半径18cmのおうぎ形の弧をかいたものです。色のついた部分（まん中の部分）のまわりの長さを求めなさい。",
+      "sourceConvention": "図の長さはcm。円周率は3.14。",
+      "source": {
+        "title": "TS平C5-6",
+        "url": "https://app.notion.com/4082b010743c817f9f78f9643ef3d082",
+        "notionPageId": "4082b010743c817f9f78f9643ef3d082",
+        "locator": "図形の必勝手筋 カード編 TS平C5-6 / カード図形.pdf PDF 33ページ（問題）・34ページ（解答）（2026-10-29 原本照合）",
+        "verification": "Claudeが原本カードの問題面・解答面を照合し、答えと各段の式をPython（fractions）で検算。公式解答と一致。",
+        "kind": "claude-20261029",
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 33
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 34
+        }
+      },
+      "answer": {
+        "n": "471",
+        "d": "25",
+        "unit": "cm",
+        "dimension": "length",
+        "display": "decimal"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "figure": "figs/n-4082b010743c817f9f78f9643ef3d082.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "正五角形の1つの角",
+            "body": "正五角形の外角は360÷5＝72度なので、1つの内角は180−72＝108度です。",
+            "equation": "180−360÷5＝108（度）",
+            "checkpoint": {
+              "prompt": "正五角形の1つの角は何度ですか。",
+              "answer": {
+                "n": "108",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "正三角形を見つける",
+            "body": "色のついた部分の頂点の1つ（2本の弧が交わる点）と、正五角形の下の辺の両はしを結ぶと、3辺とも半径18cmなので正三角形です。その角は60度です。",
+            "equation": "3辺とも18cm → 正三角形（60度）",
+            "visual": {
+              "kind": "image",
+              "src": "figs/n-4082b010743c817f9f78f9643ef3d082-solution.png",
+              "alt": "原本の解説図（アカ線の正三角形）"
+            }
+          },
+          {
+            "id": "s3",
+            "title": "弧1本の中心角",
+            "body": "頂点の108度の中に正三角形の60度が2つ重なって入っています。重なった分が、色のついた部分の弧1本の中心角です。",
+            "equation": "60＋60−108＝12（度）",
+            "checkpoint": {
+              "prompt": "弧1本の中心角は何度ですか。",
+              "answer": {
+                "n": "12",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "5本分をたす",
+            "body": "弧1本は18×2×3.14×12/360＝1.2×3.14。まわりはこれが5本なので、1.2×3.14×5＝6×3.14＝18.84cmです。",
+            "equation": "18×2×3.14×12/360×5＝6×3.14＝18.84（cm）"
+          }
+        ]
+      },
+      "notionId": "4082b010743c817f9f78f9643ef3d082",
+      "subdivision": {
+        "id": "3fd2b010743c81f99561c287500749d4",
+        "name": "重なりと太線の長さ",
+        "chu": "円を含む複合図形の面積",
+        "dai": "平面図形",
+        "order": 371
+      },
+      "role": "代表"
+    },
+    {
+      "id": "TS平C5-7",
+      "unitId": "notion.4082b010743c8179958ddcb49ee9e078",
+      "category": "geometry",
+      "domain": "角度",
+      "text": "図の四角形ABCDで、AD＝DC＝BC、角C＝150度、角D＝90度です。角ア（角A）の大きさを求めなさい。",
+      "sourceConvention": "図の長さはcm。円周率は3.14。",
+      "source": {
+        "title": "TS平C5-7",
+        "url": "https://app.notion.com/4082b010743c8179958ddcb49ee9e078",
+        "notionPageId": "4082b010743c8179958ddcb49ee9e078",
+        "locator": "図形の必勝手筋 カード編 TS平C5-7 / カード図形.pdf PDF 35ページ（問題）・36ページ（解答）（2026-10-29 原本照合）",
+        "verification": "Claudeが原本カードの問題面・解答面を照合し、答えと各段の式をPython（fractions）で検算。公式解答と一致。",
+        "kind": "claude-20261029",
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 35
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 36
+        }
+      },
+      "answer": {
+        "n": "75",
+        "d": "1",
+        "unit": "度",
+        "dimension": "scalar"
+      },
+      "difficulty": 7,
+      "figureRequired": true,
+      "figure": "figs/n-4082b010743c8179958ddcb49ee9e078.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "150度を分ける",
+            "body": "角Cの150度は、正三角形の角60度と正方形の角90度の和です。長さの等しい辺が3本あるので、「正三角形と正方形をくっつけた形の一部」と見ます。",
+            "equation": "150＝60＋90"
+          },
+          {
+            "id": "s2",
+            "title": "点Eを作る",
+            "body": "辺ABの下側に点Eをとり、三角形BCEを正三角形、四角形CDAEを正方形にします。CE＝BC＝CD＝DAなので、Eはちょうど正方形の4つ目の頂点になります。",
+            "equation": "BE＝CE＝EA（＝BC）",
+            "visual": {
+              "kind": "image",
+              "src": "figs/n-4082b010743c8179958ddcb49ee9e078-solution.png",
+              "alt": "原本の解説図（正三角形と正方形を補う）"
+            },
+            "checkpoint": {
+              "prompt": "角BEA（正三角形の角と正方形の角の和）は何度ですか。",
+              "answer": {
+                "n": "150",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "二等辺三角形ABE",
+            "body": "EB＝EAなので、三角形ABEは二等辺三角形です。底角イは(180−150)÷2＝15度です。",
+            "equation": "(180−60−90)÷2＝15（度）",
+            "checkpoint": {
+              "prompt": "二等辺三角形ABEの底角イは何度ですか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "角アを出す",
+            "body": "正方形の角DAE＝90度から、イの15度を引きます。",
+            "equation": "ア＝90−15＝75（度）"
+          }
+        ]
+      },
+      "notionId": "4082b010743c8179958ddcb49ee9e078",
+      "subdivision": {
+        "id": "3fd2b010743c81d9b074f214e52ac02b",
+        "name": "二等辺三角形を使う",
+        "chu": "角度",
+        "dai": "平面図形",
+        "order": 328
+      },
+      "role": "代表"
+    },
+    {
+      "id": "TS平C6-6",
+      "unitId": "notion.4082b010743c819983d5c4e2677dda7c",
+      "category": "geometry",
+      "domain": "角度",
+      "text": "図の a〜h は、折れ線で囲まれた図形の各頂点の外側の角です（c と g はへこんだ頂点の角）。a＋b−c＋d＋e＋f−g＋h の大きさを求めなさい。",
+      "sourceConvention": "図の長さはcm。円周率は3.14。",
+      "source": {
+        "title": "TS平C6-6",
+        "url": "https://app.notion.com/4082b010743c819983d5c4e2677dda7c",
+        "notionPageId": "4082b010743c819983d5c4e2677dda7c",
+        "locator": "図形の必勝手筋 カード編 TS平C6-6 / カード図形.pdf PDF 47ページ（問題）・48ページ（解答）（2026-10-29 原本照合）",
+        "verification": "Claudeが原本カードの問題面・解答面を照合し、答えと各段の式をPython（fractions）で検算。公式解答と一致。",
+        "kind": "claude-20261029",
+        "problemSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 47
+        },
+        "answerSource": {
+          "file": "/算数DB/原本/図形の必勝手筋/カード図形.pdf",
+          "page": 48
+        }
+      },
+      "answer": {
+        "n": "360",
+        "d": "1",
+        "unit": "度",
+        "dimension": "scalar"
+      },
+      "difficulty": 7,
+      "figureRequired": true,
+      "figure": "figs/n-4082b010743c819983d5c4e2677dda7c.png",
+      "scopeUnits": [],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "外角の和を思い出す",
+            "body": "へこみのない多角形なら、外角の和はいつも360度です。辺に沿って1周すると、進む向きがちょうど1回転するからです。",
+            "equation": "外角の和＝360（度）",
+            "checkpoint": {
+              "prompt": "五角形の外角の和は何度ですか。",
+              "answer": {
+                "n": "360",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "矢印で1周する",
+            "body": "上の辺から右向きに矢印を進め、辺に沿って1周させます。a・b・d・e・f・hの頂点では、矢印はその角の分だけ右に曲がります。",
+            "equation": "右に曲がる：a, b, d, e, f, h",
+            "visual": {
+              "kind": "image",
+              "src": "figs/n-4082b010743c819983d5c4e2677dda7c-solution.png",
+              "alt": "原本の解説図（辺に沿って1周する矢印）"
+            }
+          },
+          {
+            "id": "s3",
+            "title": "へこんだ頂点は引く",
+            "body": "c と g の頂点はへこんでいるので、矢印は左に曲がります。右回りの回転を足し算とすると、c と g は引き算になります。",
+            "equation": "回転の合計＝a＋b−c＋d＋e＋f−g＋h"
+          },
+          {
+            "id": "s4",
+            "title": "1周で360度",
+            "body": "矢印は図形のまわりを1周してもとの向きに戻るので、向きは全部で360度回転しています。",
+            "equation": "a＋b−c＋d＋e＋f−g＋h＝360（度）"
+          }
+        ]
+      },
+      "notionId": "4082b010743c819983d5c4e2677dda7c",
+      "subdivision": {
+        "id": "3fd2b010743c81abbc02e23a2f9f5ed1",
+        "name": "印の角の和",
+        "chu": "角度",
+        "dai": "平面図形",
+        "order": 332
+      },
+      "role": "代表"
+    },
+    {
       "id": "b57-APP108-P009-01-A",
       "unitId": "b57.APP108-P009-01-A",
       "category": "oneline",
@@ -146685,6 +146965,33 @@
       "definition": "3種類（条件で2種類にまとめる）",
       "decision": "まとめる条件がないときは式を整理して組を書き出し、条件で選ぶ",
       "representativeId": "PWⅠ02-4",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.4082b010743c817f9f78f9643ef3d082",
+      "name": "重なりと太線の長さ",
+      "domain": "円を含む複合図形の面積",
+      "definition": "重なりと太線の長さ",
+      "decision": "正五角形の1つの角",
+      "representativeId": "TS平C5-6",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.4082b010743c8179958ddcb49ee9e078",
+      "name": "二等辺三角形を使う",
+      "domain": "角度",
+      "definition": "二等辺三角形を使う",
+      "decision": "150度を分ける",
+      "representativeId": "TS平C5-7",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.4082b010743c819983d5c4e2677dda7c",
+      "name": "印の角の和",
+      "domain": "角度",
+      "definition": "印の角の和",
+      "decision": "外角の和を思い出す",
+      "representativeId": "TS平C6-6",
       "prerequisites": []
     },
     {

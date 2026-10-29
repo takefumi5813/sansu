@@ -1,5 +1,5 @@
 {
- "exportedAt": "2026-10-28",
+ "exportedAt": "2026-10-29",
  "source": "Notion 問題DB collection://531d42cc-9767-4652-ac87-5fd5cef74df7（細分類・代表・難易度＝細分類の基礎難度＋上乗せ）",
  "subdivisions": {
   "3fd2b010743c8134ade3f9ba1563d4ff": {
@@ -13499,6 +13499,34 @@
    "sub": "3fd2b010743c81c59099c8bb124e2fc2",
    "related": [],
    "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4082b010743c817f9f78f9643ef3d082": {
+   "sub": "3fd2b010743c81f99561c287500749d4",
+   "related": [
+    "3fd2b010743c818fa935d81f6fcaffaa",
+    "3fd2b010743c812dbb65cdaf5b5a34f0"
+   ],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4082b010743c8179958ddcb49ee9e078": {
+   "sub": "3fd2b010743c81d9b074f214e52ac02b",
+   "related": [
+    "3fd2b010743c81159f90c829721bc5cd"
+   ],
+   "difficulty": 7,
+   "rep": true,
+   "variant": false
+  },
+  "4082b010743c819983d5c4e2677dda7c": {
+   "sub": "3fd2b010743c81abbc02e23a2f9f5ed1",
+   "related": [
+    "3fd2b010743c812dbb65cdaf5b5a34f0"
+   ],
+   "difficulty": 7,
    "rep": true,
    "variant": false
   }
