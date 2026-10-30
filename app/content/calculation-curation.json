@@ -2478,6 +2478,174 @@
       "tier": "standard",
       "reason": "細分類の代表（2026-10-25 GPT外注で教材化）。式の形から段階を判定。",
       "representativeKey": "3f52b010743c81d5b82ffc25c96181c9:1"
+    },
+    "R27K-1": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-1",
+      "representativeKey": "4092b010743c8143b3b3dc754af9b317:1"
+    },
+    "R27K-29": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R27K-1）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-1",
+      "representativeKey": "4092b010743c8143b3b3dc754af9b317:1"
+    },
+    "R27K-4": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-4",
+      "representativeKey": "4092b010743c81d68295d6de91f51bdb:1"
+    },
+    "R27K-32": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R27K-4）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-4",
+      "representativeKey": "4092b010743c81d68295d6de91f51bdb:1"
+    },
+    "R27K-5": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-5",
+      "representativeKey": "4092b010743c81728f84e6885b8dec9f:1"
+    },
+    "R27K-33": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R27K-5）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-5",
+      "representativeKey": "4092b010743c81728f84e6885b8dec9f:1"
+    },
+    "R27K-9": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-9",
+      "representativeKey": "4092b010743c81e984f6d3c43899864d:1"
+    },
+    "R27K-37": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R27K-9）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-9",
+      "representativeKey": "4092b010743c81e984f6d3c43899864d:1"
+    },
+    "R27K-13": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-13",
+      "representativeKey": "4092b010743c81bf8156ddd79e91bae8:1"
+    },
+    "R27K-41": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R27K-13）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-13",
+      "representativeKey": "4092b010743c81bf8156ddd79e91bae8:1"
+    },
+    "R27K-14": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-14",
+      "representativeKey": "4092b010743c810496f5f57a789efcaa:1"
+    },
+    "R27K-42": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R27K-14）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-14",
+      "representativeKey": "4092b010743c810496f5f57a789efcaa:1"
+    },
+    "R27K-16": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-16",
+      "representativeKey": "4092b010743c818d8977e2a352a38ff1:1"
+    },
+    "R27K-44": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R27K-16）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-16",
+      "representativeKey": "4092b010743c818d8977e2a352a38ff1:1"
+    },
+    "R27K-17": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-17",
+      "representativeKey": "4092b010743c8170a427f0bf31f3438e:1"
+    },
+    "R27K-45": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R27K-17）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-17",
+      "representativeKey": "4092b010743c8170a427f0bf31f3438e:1"
+    },
+    "R27K-19": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-19",
+      "representativeKey": "4092b010743c811eaee3e0431d3daefc:1"
+    },
+    "R27K-47": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R27K-19）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-19",
+      "representativeKey": "4092b010743c811eaee3e0431d3daefc:1"
+    },
+    "R27K-20": {
+      "active": true,
+      "tier": "advanced",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-20",
+      "representativeKey": "4092b010743c81548cfcfa7298142f85:1"
+    },
+    "R27K-48": {
+      "active": false,
+      "tier": "advanced",
+      "reason": "表面（R27K-20）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-20",
+      "representativeKey": "4092b010743c81548cfcfa7298142f85:1"
+    },
+    "R27K-22": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-22",
+      "representativeKey": "4092b010743c81fd8749f979248b709a:1"
+    },
+    "R27K-50": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R27K-22）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-22",
+      "representativeKey": "4092b010743c81fd8749f979248b709a:1"
+    },
+    "R27K-24": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R27（10/30授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R27計算マスター K-24",
+      "representativeKey": "4092b010743c81c885b9e0a7cc2f5b8a:1"
+    },
+    "R27K-52": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R27K-24）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R27計算マスター K-24",
+      "representativeKey": "4092b010743c81c885b9e0a7cc2f5b8a:1"
     }
   }
 }

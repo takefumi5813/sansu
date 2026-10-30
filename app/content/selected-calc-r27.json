@@ -1,0 +1,2197 @@
+{
+  "problems": [
+    {
+      "id": "R27K-1",
+      "unitId": "calc.r27.k1",
+      "category": "calc",
+      "text": "5/6−0.5＝□",
+      "sourceText": "5/6−0.5＝",
+      "source": {
+        "title": "R27 計算マスター K-1（通常授業）",
+        "path": "https://app.notion.com/4092b010743c8143b3b3dc754af9b317",
+        "url": "https://app.notion.com/4092b010743c8143b3b3dc754af9b317",
+        "locator": "Notion 問題DB > R27K-1",
+        "sourceText": "5/6−0.5＝",
+        "sourceAnswer": "1/3",
+        "notionPageId": "4092b010743c8143b3b3dc754af9b317",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-1",
+        "localReferenceText": "5/6−0.5＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "1",
+        "d": "3",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-29",
+      "revision": 1,
+      "expression": "5/6-0.5",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数を分数に直す",
+            "body": "分数と小数のひき算です。0.5を分数にすると1/2です。",
+            "equation": "0.5＝1/2",
+            "id": "step-1"
+          },
+          {
+            "title": "分母をそろえる",
+            "body": "6と2の最小公倍数6を分母にします。",
+            "equation": "5/6−1/2＝5/6−3/6",
+            "checkpoint": {
+              "prompt": "分母を6にそろえると、1/2の分子はいくつですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "分子どうしをひく",
+            "body": "分母はそのままで、分子だけをひきます。",
+            "equation": "5/6−3/6＝2/6",
+            "id": "step-3"
+          },
+          {
+            "title": "約分する",
+            "body": "分子と分母を同じ数で割れるだけ割ります。",
+            "equation": "2/6＝1/3",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えに0.5を足すと、はじめの数に戻ります。",
+            "equation": "1/3＋0.5＝5/6",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 19,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-29",
+      "unitId": "calc.r27.k29",
+      "category": "calc",
+      "text": "11/12−0.25＝□",
+      "sourceText": "11/12−0.25＝",
+      "source": {
+        "title": "R27 計算マスター K-29（通常授業）",
+        "path": "https://app.notion.com/4092b010743c815d9d65cba328a9a367",
+        "url": "https://app.notion.com/4092b010743c815d9d65cba328a9a367",
+        "locator": "Notion 問題DB > R27K-29",
+        "sourceText": "11/12−0.25＝",
+        "sourceAnswer": "2/3",
+        "notionPageId": "4092b010743c815d9d65cba328a9a367",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-29",
+        "localReferenceText": "11/12−0.25＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "2",
+        "d": "3",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-1",
+      "revision": 1,
+      "expression": "11/12-0.25",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数を分数に直す",
+            "body": "分数と小数のひき算です。0.25を分数にすると1/4です。",
+            "equation": "0.25＝1/4",
+            "id": "step-1"
+          },
+          {
+            "title": "分母をそろえる",
+            "body": "12と4の最小公倍数12を分母にします。",
+            "equation": "11/12−1/4＝11/12−3/12",
+            "checkpoint": {
+              "prompt": "分母を12にそろえると、1/4の分子はいくつですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "分子どうしをひく",
+            "body": "分母はそのままで、分子だけをひきます。",
+            "equation": "11/12−3/12＝8/12",
+            "id": "step-3"
+          },
+          {
+            "title": "約分する",
+            "body": "分子と分母を同じ数で割れるだけ割ります。",
+            "equation": "8/12＝2/3",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えに0.25を足すと、はじめの数に戻ります。",
+            "equation": "2/3＋0.25＝11/12",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 25,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-4",
+      "unitId": "calc.r27.k4",
+      "category": "calc",
+      "text": "7と8/15−2と7/10＝□",
+      "sourceText": "7と8/15−2と7/10＝",
+      "source": {
+        "title": "R27 計算マスター K-4（通常授業）",
+        "path": "https://app.notion.com/4092b010743c81d68295d6de91f51bdb",
+        "url": "https://app.notion.com/4092b010743c81d68295d6de91f51bdb",
+        "locator": "Notion 問題DB > R27K-4",
+        "sourceText": "7と8/15−2と7/10＝",
+        "sourceAnswer": "4と5/6",
+        "notionPageId": "4092b010743c81d68295d6de91f51bdb",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-4",
+        "localReferenceText": "7と8/15−2と7/10＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "29",
+        "d": "6",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-32",
+      "revision": 1,
+      "expression": "113/15-27/10",
+      "explanation": {
+        "steps": [
+          {
+            "title": "帯分数を仮分数にする",
+            "body": "帯分数のままだと引けないところがあるので、仮分数に直してから計算します。",
+            "equation": "7と8/15−2と7/10＝113/15−27/10",
+            "id": "step-1"
+          },
+          {
+            "title": "分母をそろえる",
+            "body": "15と10の最小公倍数30を分母にします。分母を何倍したかと同じだけ分子も何倍します。",
+            "equation": "113/15−27/10＝226/30−81/30",
+            "checkpoint": {
+              "prompt": "分母を30にそろえると、27/10の分子はいくつですか。",
+              "answer": {
+                "n": "81",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "分子どうしを計算する",
+            "body": "分母はそのままで、分子だけを計算します。",
+            "equation": "226/30−81/30＝145/30",
+            "id": "step-3"
+          },
+          {
+            "title": "約分して帯分数にする",
+            "body": "分子と分母を同じ数で割れるだけ割り、1より大きければ帯分数にします。",
+            "equation": "145/30＝4と5/6",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆の計算をして、はじめの数に戻るか確かめます。",
+            "equation": "4と5/6＋2と7/10＝7と8/15",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 23,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-32",
+      "unitId": "calc.r27.k32",
+      "category": "calc",
+      "text": "9と8/15−2と5/6＝□",
+      "sourceText": "9と8/15−2と5/6＝",
+      "source": {
+        "title": "R27 計算マスター K-32（通常授業）",
+        "path": "https://app.notion.com/4092b010743c8187ad66ee21a7c71b30",
+        "url": "https://app.notion.com/4092b010743c8187ad66ee21a7c71b30",
+        "locator": "Notion 問題DB > R27K-32",
+        "sourceText": "9と8/15−2と5/6＝",
+        "sourceAnswer": "6と7/10",
+        "notionPageId": "4092b010743c8187ad66ee21a7c71b30",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-32",
+        "localReferenceText": "9と8/15−2と5/6＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "67",
+        "d": "10",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-4",
+      "revision": 1,
+      "expression": "143/15-17/6",
+      "explanation": {
+        "steps": [
+          {
+            "title": "帯分数を仮分数にする",
+            "body": "帯分数のままだと引けないところがあるので、仮分数に直してから計算します。",
+            "equation": "9と8/15−2と5/6＝143/15−17/6",
+            "id": "step-1"
+          },
+          {
+            "title": "分母をそろえる",
+            "body": "15と6の最小公倍数30を分母にします。分母を何倍したかと同じだけ分子も何倍します。",
+            "equation": "143/15−17/6＝286/30−85/30",
+            "checkpoint": {
+              "prompt": "分母を30にそろえると、17/6の分子はいくつですか。",
+              "answer": {
+                "n": "85",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "分子どうしを計算する",
+            "body": "分母はそのままで、分子だけを計算します。",
+            "equation": "286/30−85/30＝201/30",
+            "id": "step-3"
+          },
+          {
+            "title": "約分して帯分数にする",
+            "body": "分子と分母を同じ数で割れるだけ割り、1より大きければ帯分数にします。",
+            "equation": "201/30＝6と7/10",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えから逆の計算をして、はじめの数に戻るか確かめます。",
+            "equation": "6と7/10＋2と5/6＝9と8/15",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 21,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-5",
+      "unitId": "calc.r27.k5",
+      "category": "calc",
+      "text": "□÷1/3＝72",
+      "sourceText": "□÷1/3＝72",
+      "source": {
+        "title": "R27 計算マスター K-5（通常授業）",
+        "path": "https://app.notion.com/4092b010743c81728f84e6885b8dec9f",
+        "url": "https://app.notion.com/4092b010743c81728f84e6885b8dec9f",
+        "locator": "Notion 問題DB > R27K-5",
+        "sourceText": "□÷1/3＝72",
+        "sourceAnswer": "24",
+        "notionPageId": "4092b010743c81728f84e6885b8dec9f",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-5",
+        "localReferenceText": "□÷1/3＝72",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "24",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-33",
+      "revision": 1,
+      "expression": "□÷1/3=72",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "□÷1/3＝72",
+            "id": "step-1"
+          },
+          {
+            "title": "÷1/3を外す",
+            "body": "□を1/3でわった結果が72です。わり算をもとに戻すには、かけ算をします。\n72×1/3＝24",
+            "equation": "□＝24",
+            "checkpoint": {
+              "prompt": "72×1/3はいくつですか。",
+              "answer": {
+                "n": "24",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "□の値を書く",
+            "body": "こうして、□＝24となります。",
+            "equation": "□＝24",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に24を入れて計算すると、両辺が同じ値になります。",
+            "equation": "24÷1/3＝72",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 9,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R27K-33",
+      "unitId": "calc.r27.k33",
+      "category": "calc",
+      "text": "□÷1/5＝125",
+      "sourceText": "□÷1/5＝125",
+      "source": {
+        "title": "R27 計算マスター K-33（通常授業）",
+        "path": "https://app.notion.com/4092b010743c812b806ec393897d07fd",
+        "url": "https://app.notion.com/4092b010743c812b806ec393897d07fd",
+        "locator": "Notion 問題DB > R27K-33",
+        "sourceText": "□÷1/5＝125",
+        "sourceAnswer": "25",
+        "notionPageId": "4092b010743c812b806ec393897d07fd",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-33",
+        "localReferenceText": "□÷1/5＝125",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "25",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-5",
+      "revision": 1,
+      "expression": "□÷1/5=125",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "□÷1/5＝125",
+            "id": "step-1"
+          },
+          {
+            "title": "÷1/5を外す",
+            "body": "□を1/5でわった結果が125です。わり算をもとに戻すには、かけ算をします。\n125×1/5＝25",
+            "equation": "□＝25",
+            "checkpoint": {
+              "prompt": "125×1/5はいくつですか。",
+              "answer": {
+                "n": "25",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "□の値を書く",
+            "body": "こうして、□＝25となります。",
+            "equation": "□＝25",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に25を入れて計算すると、両辺が同じ値になります。",
+            "equation": "25÷1/5＝125",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 9,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R27K-9",
+      "unitId": "calc.r27.k9",
+      "category": "calc",
+      "text": "□÷3/7＝2/21",
+      "sourceText": "□÷3/7＝2/21",
+      "source": {
+        "title": "R27 計算マスター K-9（通常授業）",
+        "path": "https://app.notion.com/4092b010743c81e984f6d3c43899864d",
+        "url": "https://app.notion.com/4092b010743c81e984f6d3c43899864d",
+        "locator": "Notion 問題DB > R27K-9",
+        "sourceText": "□÷3/7＝2/21",
+        "sourceAnswer": "2/49",
+        "notionPageId": "4092b010743c81e984f6d3c43899864d",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-9",
+        "localReferenceText": "□÷3/7＝2/21",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "2",
+        "d": "49",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-37",
+      "revision": 1,
+      "expression": "□÷3/7=2/21",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "□÷3/7＝2/21",
+            "id": "step-1"
+          },
+          {
+            "title": "÷3/7を外す",
+            "body": "□を3/7でわった結果が2/21です。わり算をもとに戻すには、かけ算をします。\n2/21×3/7＝2/49",
+            "equation": "□＝2/49",
+            "checkpoint": {
+              "prompt": "2/21×3/7はいくつですか。",
+              "answer": {
+                "n": "2",
+                "d": "49",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "□の値を書く",
+            "body": "こうして、□＝2/49となります。",
+            "equation": "□＝2/49",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に2/49を入れて計算すると、両辺が同じ値になります。",
+            "equation": "2/49÷3/7＝2/21",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 9,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R27K-37",
+      "unitId": "calc.r27.k37",
+      "category": "calc",
+      "text": "□÷7/9＝1と5/16",
+      "sourceText": "□÷7/9＝1と5/16",
+      "source": {
+        "title": "R27 計算マスター K-37（通常授業）",
+        "path": "https://app.notion.com/4092b010743c8130afeaf61ed64ddcd8",
+        "url": "https://app.notion.com/4092b010743c8130afeaf61ed64ddcd8",
+        "locator": "Notion 問題DB > R27K-37",
+        "sourceText": "□÷7/9＝1と5/16",
+        "sourceAnswer": "1と1/48",
+        "notionPageId": "4092b010743c8130afeaf61ed64ddcd8",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-37",
+        "localReferenceText": "□÷7/9＝1と5/16",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "49",
+        "d": "48",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-9",
+      "revision": 1,
+      "expression": "□÷7/9=21/16",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "□÷7/9＝1と5/16",
+            "id": "step-1"
+          },
+          {
+            "title": "÷7/9を外す",
+            "body": "□を7/9でわった結果が1と5/16です。わり算をもとに戻すには、かけ算をします。\n1と5/16×7/9＝1と1/48",
+            "equation": "□＝1と1/48",
+            "checkpoint": {
+              "prompt": "1と5/16×7/9はいくつですか。",
+              "answer": {
+                "n": "49",
+                "d": "48",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "□の値を書く",
+            "body": "こうして、□＝1と1/48となります。",
+            "equation": "□＝1と1/48",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に1と1/48を入れて計算すると、両辺が同じ値になります。",
+            "equation": "1と1/48÷7/9＝1と5/16",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 9,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R27K-13",
+      "unitId": "calc.r27.k13",
+      "category": "calc",
+      "text": "0.375×4.8＝□",
+      "sourceText": "0.375×4.8＝",
+      "source": {
+        "title": "R27 計算マスター K-13（通常授業）",
+        "path": "https://app.notion.com/4092b010743c81bf8156ddd79e91bae8",
+        "url": "https://app.notion.com/4092b010743c81bf8156ddd79e91bae8",
+        "locator": "Notion 問題DB > R27K-13",
+        "sourceText": "0.375×4.8＝",
+        "sourceAnswer": "1.8",
+        "notionPageId": "4092b010743c81bf8156ddd79e91bae8",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-13",
+        "localReferenceText": "0.375×4.8＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "9",
+        "d": "5",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-41",
+      "revision": 1,
+      "expression": "0.375*4.8",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数を分数に直す",
+            "body": "0.375はよく使う小数で、分数にすると3/8です。",
+            "equation": "0.375＝3/8",
+            "id": "step-1"
+          },
+          {
+            "title": "分数のかけ算にする",
+            "body": "0.375×4.8は、4.8を8で割って3倍することと同じです。",
+            "equation": "0.375×4.8＝4.8÷8×3",
+            "id": "step-2"
+          },
+          {
+            "title": "割り算を先にする",
+            "body": "4.8を8で割ります。",
+            "equation": "4.8÷8＝0.6",
+            "checkpoint": {
+              "prompt": "4.8÷8はいくつですか。",
+              "answer": {
+                "n": "3",
+                "d": "5",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "かけて答えを出す",
+            "body": "3倍して答えです。",
+            "equation": "0.6×3＝1.8",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えを0.375で割ると4.8に戻ります。",
+            "equation": "1.8÷0.375＝4.8",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 4,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R27K-41",
+      "unitId": "calc.r27.k41",
+      "category": "calc",
+      "text": "0.375×5.6＝□",
+      "sourceText": "0.375×5.6＝",
+      "source": {
+        "title": "R27 計算マスター K-41（通常授業）",
+        "path": "https://app.notion.com/4092b010743c8153965bca13cf257244",
+        "url": "https://app.notion.com/4092b010743c8153965bca13cf257244",
+        "locator": "Notion 問題DB > R27K-41",
+        "sourceText": "0.375×5.6＝",
+        "sourceAnswer": "2.1",
+        "notionPageId": "4092b010743c8153965bca13cf257244",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-41",
+        "localReferenceText": "0.375×5.6＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "21",
+        "d": "10",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-13",
+      "revision": 1,
+      "expression": "0.375*5.6",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数を分数に直す",
+            "body": "0.375はよく使う小数で、分数にすると3/8です。",
+            "equation": "0.375＝3/8",
+            "id": "step-1"
+          },
+          {
+            "title": "分数のかけ算にする",
+            "body": "0.375×5.6は、5.6を8で割って3倍することと同じです。",
+            "equation": "0.375×5.6＝5.6÷8×3",
+            "id": "step-2"
+          },
+          {
+            "title": "割り算を先にする",
+            "body": "5.6を8で割ります。",
+            "equation": "5.6÷8＝0.7",
+            "checkpoint": {
+              "prompt": "5.6÷8はいくつですか。",
+              "answer": {
+                "n": "7",
+                "d": "10",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "かけて答えを出す",
+            "body": "3倍して答えです。",
+            "equation": "0.7×3＝2.1",
+            "id": "step-4"
+          },
+          {
+            "title": "逆の計算で確かめる",
+            "body": "答えを0.375で割ると5.6に戻ります。",
+            "equation": "2.1÷0.375＝5.6",
+            "id": "step-5"
+          }
+        ]
+      },
+      "score": 6,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R27K-14",
+      "unitId": "calc.r27.k14",
+      "category": "calc",
+      "text": "{2014÷(60−□)−36}×6＝102",
+      "sourceText": "{2014÷(60−□)−36}×6＝102",
+      "source": {
+        "title": "R27 計算マスター K-14（通常授業）",
+        "path": "https://app.notion.com/4092b010743c810496f5f57a789efcaa",
+        "url": "https://app.notion.com/4092b010743c810496f5f57a789efcaa",
+        "locator": "Notion 問題DB > R27K-14",
+        "sourceText": "{2014÷(60−□)−36}×6＝102",
+        "sourceAnswer": "22",
+        "notionPageId": "4092b010743c810496f5f57a789efcaa",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-14",
+        "localReferenceText": "{2014÷(60−□)−36}×6＝102",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "22",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-42",
+      "revision": 1,
+      "expression": "(2014÷(60-□)-36)*6=102",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "(2014÷(60−□)−36)×6＝102",
+            "id": "step-1"
+          },
+          {
+            "title": "×6を外す",
+            "body": "□を含む部分に6をかけた結果が102です。かけ算をもとに戻すには、わり算をします。\n102÷6＝17",
+            "equation": "2014÷(60−□)−36＝17",
+            "checkpoint": {
+              "prompt": "102÷6はいくつですか。",
+              "answer": {
+                "n": "17",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "−36を外す",
+            "body": "□を含む部分から36をひいた結果が17です。ひき算をもとに戻すには、たし算をします。\n17＋36＝53",
+            "equation": "2014÷(60−□)＝53",
+            "id": "step-3"
+          },
+          {
+            "title": "2014÷（□を含む部分）を外す",
+            "body": "2014を□を含む部分でわった結果が53です。わられる数÷答え＝わる数なので、2014÷53を計算します。\n2014÷53＝38",
+            "equation": "60−□＝38",
+            "id": "step-4"
+          },
+          {
+            "title": "60−□を外す",
+            "body": "60から□をひいた結果が38です。ひかれる数−答え＝ひく数なので、60−38を計算します。\n60−38＝22",
+            "equation": "□＝22",
+            "id": "step-5"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に22を入れて計算すると、両辺が同じ値になります。",
+            "equation": "(2014÷(60−22)−36)×6＝102",
+            "id": "step-6"
+          }
+        ]
+      },
+      "score": 15,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R27K-42",
+      "unitId": "calc.r27.k42",
+      "category": "calc",
+      "text": "{2014÷(80−□)−25}×9＝117",
+      "sourceText": "{2014÷(80−□)−25}×9＝117",
+      "source": {
+        "title": "R27 計算マスター K-42（通常授業）",
+        "path": "https://app.notion.com/4092b010743c8177b1d2c028e60ad515",
+        "url": "https://app.notion.com/4092b010743c8177b1d2c028e60ad515",
+        "locator": "Notion 問題DB > R27K-42",
+        "sourceText": "{2014÷(80−□)−25}×9＝117",
+        "sourceAnswer": "27",
+        "notionPageId": "4092b010743c8177b1d2c028e60ad515",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-42",
+        "localReferenceText": "{2014÷(80−□)−25}×9＝117",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "27",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-14",
+      "revision": 1,
+      "expression": "(2014÷(80-□)-25)*9=117",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。",
+            "equation": "(2014÷(80−□)−25)×9＝117",
+            "id": "step-1"
+          },
+          {
+            "title": "×9を外す",
+            "body": "□を含む部分に9をかけた結果が117です。かけ算をもとに戻すには、わり算をします。\n117÷9＝13",
+            "equation": "2014÷(80−□)−25＝13",
+            "checkpoint": {
+              "prompt": "117÷9はいくつですか。",
+              "answer": {
+                "n": "13",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "−25を外す",
+            "body": "□を含む部分から25をひいた結果が13です。ひき算をもとに戻すには、たし算をします。\n13＋25＝38",
+            "equation": "2014÷(80−□)＝38",
+            "id": "step-3"
+          },
+          {
+            "title": "2014÷（□を含む部分）を外す",
+            "body": "2014を□を含む部分でわった結果が38です。わられる数÷答え＝わる数なので、2014÷38を計算します。\n2014÷38＝53",
+            "equation": "80−□＝53",
+            "id": "step-4"
+          },
+          {
+            "title": "80−□を外す",
+            "body": "80から□をひいた結果が53です。ひかれる数−答え＝ひく数なので、80−53を計算します。\n80−53＝27",
+            "equation": "□＝27",
+            "id": "step-5"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に27を入れて計算すると、両辺が同じ値になります。",
+            "equation": "(2014÷(80−27)−25)×9＝117",
+            "id": "step-6"
+          }
+        ]
+      },
+      "score": 15,
+      "star": 1,
+      "difficulty": 2
+    },
+    {
+      "id": "R27K-16",
+      "unitId": "calc.r27.k16",
+      "category": "calc",
+      "text": "1＋2＋4＋8＋16＋32＋64＋128＋256＋512＋1024＋2048＋4096＝□",
+      "sourceText": "1＋2＋4＋8＋16＋32＋64＋128＋256＋512＋1024＋2048＋4096＝",
+      "source": {
+        "title": "R27 計算マスター K-16（通常授業）",
+        "path": "https://app.notion.com/4092b010743c818d8977e2a352a38ff1",
+        "url": "https://app.notion.com/4092b010743c818d8977e2a352a38ff1",
+        "locator": "Notion 問題DB > R27K-16",
+        "sourceText": "1＋2＋4＋8＋16＋32＋64＋128＋256＋512＋1024＋2048＋4096＝",
+        "sourceAnswer": "8191",
+        "notionPageId": "4092b010743c818d8977e2a352a38ff1",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-16",
+        "localReferenceText": "1＋2＋4＋8＋16＋32＋64＋128＋256＋512＋1024＋2048＋4096＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "8191",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-44",
+      "revision": 1,
+      "expression": "1+2+4+8+16+32+64+128+256+512+1024+2048+4096",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小さいところで決まりを見つける",
+            "body": "1＋2＝3＝4−1、1＋2＋4＝7＝8−1のように、2倍ずつふえる数を1から足すと「次の数−1」になります。",
+            "equation": "1＋2＋4＋8＝16−1",
+            "checkpoint": {
+              "prompt": "1＋2＋4＋8はいくつですか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-1"
+          },
+          {
+            "title": "決まりを使う",
+            "body": "最後の数4096の次の数は8192です。",
+            "equation": "1＋2＋4＋8＋16＋32＋64＋128＋256＋512＋1024＋2048＋4096＝8192−1",
+            "id": "step-2"
+          },
+          {
+            "title": "答えを出す",
+            "body": "8192から1をひきます。",
+            "equation": "8192−1＝8191",
+            "id": "step-3"
+          },
+          {
+            "title": "確かめる",
+            "body": "最後の4096をのぞいた和は4096−1＝4095です。それに4096を足すと答えになります。",
+            "equation": "4095＋4096＝8191",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 57,
+      "star": 3,
+      "difficulty": 7
+    },
+    {
+      "id": "R27K-44",
+      "unitId": "calc.r27.k44",
+      "category": "calc",
+      "text": "1＋2＋4＋8＋16＋32＋64＋128＋256＋512＋1024＋2048＝□",
+      "sourceText": "1＋2＋4＋8＋16＋32＋64＋128＋256＋512＋1024＋2048＝",
+      "source": {
+        "title": "R27 計算マスター K-44（通常授業）",
+        "path": "https://app.notion.com/4092b010743c819c89ffef7b6967e45b",
+        "url": "https://app.notion.com/4092b010743c819c89ffef7b6967e45b",
+        "locator": "Notion 問題DB > R27K-44",
+        "sourceText": "1＋2＋4＋8＋16＋32＋64＋128＋256＋512＋1024＋2048＝",
+        "sourceAnswer": "4095",
+        "notionPageId": "4092b010743c819c89ffef7b6967e45b",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-44",
+        "localReferenceText": "1＋2＋4＋8＋16＋32＋64＋128＋256＋512＋1024＋2048＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "4095",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-16",
+      "revision": 1,
+      "expression": "1+2+4+8+16+32+64+128+256+512+1024+2048",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小さいところで決まりを見つける",
+            "body": "1＋2＝3＝4−1、1＋2＋4＝7＝8−1のように、2倍ずつふえる数を1から足すと「次の数−1」になります。",
+            "equation": "1＋2＋4＋8＝16−1",
+            "checkpoint": {
+              "prompt": "1＋2＋4＋8はいくつですか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-1"
+          },
+          {
+            "title": "決まりを使う",
+            "body": "最後の数2048の次の数は4096です。",
+            "equation": "1＋2＋4＋8＋16＋32＋64＋128＋256＋512＋1024＋2048＝4096−1",
+            "id": "step-2"
+          },
+          {
+            "title": "答えを出す",
+            "body": "4096から1をひきます。",
+            "equation": "4096−1＝4095",
+            "id": "step-3"
+          },
+          {
+            "title": "確かめる",
+            "body": "最後の2048をのぞいた和は2048−1＝2047です。それに2048を足すと答えになります。",
+            "equation": "2047＋2048＝4095",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 50,
+      "star": 3,
+      "difficulty": 7
+    },
+    {
+      "id": "R27K-17",
+      "unitId": "calc.r27.k17",
+      "category": "calc",
+      "text": "109−9×8＋54÷3＝□",
+      "sourceText": "109−9×8＋54÷3＝",
+      "source": {
+        "title": "R27 計算マスター K-17（通常授業）",
+        "path": "https://app.notion.com/4092b010743c8170a427f0bf31f3438e",
+        "url": "https://app.notion.com/4092b010743c8170a427f0bf31f3438e",
+        "locator": "Notion 問題DB > R27K-17",
+        "sourceText": "109−9×8＋54÷3＝",
+        "sourceAnswer": "55",
+        "notionPageId": "4092b010743c8170a427f0bf31f3438e",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-17",
+        "localReferenceText": "109−9×8＋54÷3＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "55",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-45",
+      "revision": 1,
+      "expression": "109-9*8+54÷3",
+      "explanation": {
+        "steps": [
+          {
+            "title": "計算の順番を決める",
+            "body": "ひき算・かけ算・たし算・割り算がまざっています。かけ算と割り算を先にして、そのあとたし算・ひき算を左から計算します。",
+            "equation": "109−9×8＋54÷3＝109−72＋18",
+            "id": "step-1"
+          },
+          {
+            "title": "かけ算をする",
+            "body": "9×8を先に計算します。",
+            "equation": "9×8＝72",
+            "checkpoint": {
+              "prompt": "9×8はいくつですか。",
+              "answer": {
+                "n": "72",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "割り算をする",
+            "body": "54÷3も先に計算します。",
+            "equation": "54÷3＝18",
+            "id": "step-3"
+          },
+          {
+            "title": "左から順にひき算・たし算をする",
+            "body": "たし算・ひき算は左から順に計算します。",
+            "equation": "109−72＋18＝55",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 15,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-45",
+      "unitId": "calc.r27.k45",
+      "category": "calc",
+      "text": "112−12×7＋48÷3＝□",
+      "sourceText": "112−12×7＋48÷3＝",
+      "source": {
+        "title": "R27 計算マスター K-45（通常授業）",
+        "path": "https://app.notion.com/4092b010743c8146a857c8dce004d232",
+        "url": "https://app.notion.com/4092b010743c8146a857c8dce004d232",
+        "locator": "Notion 問題DB > R27K-45",
+        "sourceText": "112−12×7＋48÷3＝",
+        "sourceAnswer": "44",
+        "notionPageId": "4092b010743c8146a857c8dce004d232",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-45",
+        "localReferenceText": "112−12×7＋48÷3＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "44",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-17",
+      "revision": 1,
+      "expression": "112-12*7+48÷3",
+      "explanation": {
+        "steps": [
+          {
+            "title": "計算の順番を決める",
+            "body": "ひき算・かけ算・たし算・割り算がまざっています。かけ算と割り算を先にして、そのあとたし算・ひき算を左から計算します。",
+            "equation": "112−12×7＋48÷3＝112−84＋16",
+            "id": "step-1"
+          },
+          {
+            "title": "かけ算をする",
+            "body": "12×7を先に計算します。",
+            "equation": "12×7＝84",
+            "checkpoint": {
+              "prompt": "12×7はいくつですか。",
+              "answer": {
+                "n": "84",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "割り算をする",
+            "body": "48÷3も先に計算します。",
+            "equation": "48÷3＝16",
+            "id": "step-3"
+          },
+          {
+            "title": "左から順にひき算・たし算をする",
+            "body": "たし算・ひき算は左から順に計算します。",
+            "equation": "112−84＋16＝44",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 15,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-19",
+      "unitId": "calc.r27.k19",
+      "category": "calc",
+      "text": "3.13×6.8÷1.7＝□",
+      "sourceText": "3.13×6.8÷1.7＝",
+      "source": {
+        "title": "R27 計算マスター K-19（通常授業）",
+        "path": "https://app.notion.com/4092b010743c811eaee3e0431d3daefc",
+        "url": "https://app.notion.com/4092b010743c811eaee3e0431d3daefc",
+        "locator": "Notion 問題DB > R27K-19",
+        "sourceText": "3.13×6.8÷1.7＝",
+        "sourceAnswer": "12.52",
+        "notionPageId": "4092b010743c811eaee3e0431d3daefc",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-19",
+        "localReferenceText": "3.13×6.8÷1.7＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "313",
+        "d": "25",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-47",
+      "revision": 1,
+      "expression": "3.13*6.8÷1.7",
+      "explanation": {
+        "steps": [
+          {
+            "title": "計算の順番をくふうする",
+            "body": "かけ算と割り算だけの式なので、割り切れる6.8÷1.7を先に計算しても答えは同じです。",
+            "equation": "3.13×6.8÷1.7＝3.13×(6.8÷1.7)",
+            "id": "step-1"
+          },
+          {
+            "title": "割り算を先にする",
+            "body": "6.8÷1.7は、どちらも10倍して68÷17と考えます。",
+            "equation": "6.8÷1.7＝4",
+            "checkpoint": {
+              "prompt": "6.8÷1.7はいくつですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "かけ算をする",
+            "body": "3.13に4をかけます。",
+            "equation": "3.13×4＝12.52",
+            "id": "step-3"
+          },
+          {
+            "title": "割り算で確かめる",
+            "body": "答えを4で割ると3.13に戻ります。",
+            "equation": "12.52÷4＝3.13",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 25,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-47",
+      "unitId": "calc.r27.k47",
+      "category": "calc",
+      "text": "1.23×7.6÷1.9＝□",
+      "sourceText": "1.23×7.6÷1.9＝",
+      "source": {
+        "title": "R27 計算マスター K-47（通常授業）",
+        "path": "https://app.notion.com/4092b010743c819ca2dac19f3958329d",
+        "url": "https://app.notion.com/4092b010743c819ca2dac19f3958329d",
+        "locator": "Notion 問題DB > R27K-47",
+        "sourceText": "1.23×7.6÷1.9＝",
+        "sourceAnswer": "4.92",
+        "notionPageId": "4092b010743c819ca2dac19f3958329d",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-47",
+        "localReferenceText": "1.23×7.6÷1.9＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "123",
+        "d": "25",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-19",
+      "revision": 1,
+      "expression": "1.23*7.6÷1.9",
+      "explanation": {
+        "steps": [
+          {
+            "title": "計算の順番をくふうする",
+            "body": "かけ算と割り算だけの式なので、割り切れる7.6÷1.9を先に計算しても答えは同じです。",
+            "equation": "1.23×7.6÷1.9＝1.23×(7.6÷1.9)",
+            "id": "step-1"
+          },
+          {
+            "title": "割り算を先にする",
+            "body": "7.6÷1.9は、どちらも10倍して76÷19と考えます。",
+            "equation": "7.6÷1.9＝4",
+            "checkpoint": {
+              "prompt": "7.6÷1.9はいくつですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "かけ算をする",
+            "body": "1.23に4をかけます。",
+            "equation": "1.23×4＝4.92",
+            "id": "step-3"
+          },
+          {
+            "title": "割り算で確かめる",
+            "body": "答えを4で割ると1.23に戻ります。",
+            "equation": "4.92÷4＝1.23",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 25,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-20",
+      "unitId": "calc.r27.k20",
+      "category": "calc",
+      "text": "2と2/7×1と3/4÷□＝2と2/5",
+      "sourceText": "2と2/7×1と3/4÷□＝2と2/5",
+      "source": {
+        "title": "R27 計算マスター K-20（通常授業）",
+        "path": "https://app.notion.com/4092b010743c81548cfcfa7298142f85",
+        "url": "https://app.notion.com/4092b010743c81548cfcfa7298142f85",
+        "locator": "Notion 問題DB > R27K-20",
+        "sourceText": "2と2/7×1と3/4÷□＝2と2/5",
+        "sourceAnswer": "1と2/3",
+        "notionPageId": "4092b010743c81548cfcfa7298142f85",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-20",
+        "localReferenceText": "2と2/7×1と3/4÷□＝2と2/5",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "5",
+        "d": "3",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-48",
+      "revision": 1,
+      "expression": "16/7*7/4÷□=12/5",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。はじめに、□を含まない部分を計算して数にしておきます。",
+            "equation": "2と2/7×1と3/4÷□＝2と2/5",
+            "id": "step-1"
+          },
+          {
+            "title": "□を含まない計算を先にする",
+            "body": "□のない部分を、かっこの内側から順に計算します。\n2と2/7×1と3/4＝4",
+            "equation": "4÷□＝2と2/5",
+            "checkpoint": {
+              "prompt": "2と2/7×1と3/4はいくつですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "4÷□を外す",
+            "body": "4を□でわった結果が2と2/5です。わられる数÷答え＝わる数なので、4÷2と2/5を計算します。\n4÷2と2/5＝1と2/3",
+            "equation": "□＝1と2/3",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に1と2/3を入れて計算すると、両辺が同じ値になります。",
+            "equation": "2と2/7×1と3/4÷1と2/3＝2と2/5",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 12,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-48",
+      "unitId": "calc.r27.k48",
+      "category": "calc",
+      "text": "2と2/3×2と7/24÷□＝4と8/9",
+      "sourceText": "2と2/3×2と7/24÷□＝4と8/9",
+      "source": {
+        "title": "R27 計算マスター K-48（通常授業）",
+        "path": "https://app.notion.com/4092b010743c81d7a7a9ed32c516bd20",
+        "url": "https://app.notion.com/4092b010743c81d7a7a9ed32c516bd20",
+        "locator": "Notion 問題DB > R27K-48",
+        "sourceText": "2と2/3×2と7/24÷□＝4と8/9",
+        "sourceAnswer": "1と1/4",
+        "notionPageId": "4092b010743c81d7a7a9ed32c516bd20",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-48",
+        "localReferenceText": "2と2/3×2と7/24÷□＝4と8/9",
+        "localComparison": {
+          "exactTextMatch": true,
+          "normalizedExpressionMatch": true,
+          "difference": "完全一致"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "5",
+        "d": "4",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-20",
+      "revision": 1,
+      "expression": "8/3*55/24÷□=44/9",
+      "explanation": {
+        "steps": [
+          {
+            "title": "□のまわりを外側からほどく",
+            "body": "□を求めるには、式の外側にある計算から順に、逆の計算（たし算↔ひき算、かけ算↔わり算）で□のまわりをほどいていきます。かっこの中に□があっても、まず外側の計算を外します。はじめに、□を含まない部分を計算して数にしておきます。",
+            "equation": "2と2/3×2と7/24÷□＝4と8/9",
+            "id": "step-1"
+          },
+          {
+            "title": "□を含まない計算を先にする",
+            "body": "□のない部分を、かっこの内側から順に計算します。\n2と2/3×2と7/24＝6と1/9",
+            "equation": "6と1/9÷□＝4と8/9",
+            "checkpoint": {
+              "prompt": "2と2/3×2と7/24はいくつですか。",
+              "answer": {
+                "n": "55",
+                "d": "9",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-2"
+          },
+          {
+            "title": "6と1/9÷□を外す",
+            "body": "6と1/9を□でわった結果が4と8/9です。わられる数÷答え＝わる数なので、6と1/9÷4と8/9を計算します。\n6と1/9÷4と8/9＝1と1/4",
+            "equation": "□＝1と1/4",
+            "id": "step-3"
+          },
+          {
+            "title": "もとの式に入れて確かめる",
+            "body": "□に1と1/4を入れて計算すると、両辺が同じ値になります。",
+            "equation": "2と2/3×2と7/24÷1と1/4＝4と8/9",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 12,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-22",
+      "unitId": "calc.r27.k22",
+      "category": "calc",
+      "text": "61/85−23/34＋20/51＝□",
+      "sourceText": "61/85−23/34＋20/51＝",
+      "source": {
+        "title": "R27 計算マスター K-22（通常授業）",
+        "path": "https://app.notion.com/4092b010743c81fd8749f979248b709a",
+        "url": "https://app.notion.com/4092b010743c81fd8749f979248b709a",
+        "locator": "Notion 問題DB > R27K-22",
+        "sourceText": "61/85−23/34＋20/51＝",
+        "sourceAnswer": "13/30",
+        "notionPageId": "4092b010743c81fd8749f979248b709a",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-22",
+        "localReferenceText": "61/85−23/34＋20/51＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "13",
+        "d": "30",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-50",
+      "revision": 1,
+      "expression": "61/85-23/34+20/51",
+      "explanation": {
+        "steps": [
+          {
+            "title": "分母を素数の積で見る",
+            "body": "分母85・34・51を素数のかけ算に分けて、最小公倍数を見つけます。",
+            "equation": "61/85−23/34＋20/51＝366/510−345/510＋200/510",
+            "checkpoint": {
+              "prompt": "3つの分母の最小公倍数はいくつですか。",
+              "answer": {
+                "n": "510",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-1"
+          },
+          {
+            "title": "分子どうしを計算する",
+            "body": "分母をそろえたら、分子だけを左から計算します。",
+            "equation": "366/510−345/510＋200/510＝221/510",
+            "id": "step-2"
+          },
+          {
+            "title": "約分する",
+            "body": "分子と分母を同じ数で割れるだけ割ります。",
+            "equation": "221/510＝13/30",
+            "id": "step-3"
+          },
+          {
+            "title": "確かめる",
+            "body": "答えにひいた数を足し、足した数をひくと、はじめの数に戻ります。",
+            "equation": "13/30＋23/34−20/51＝61/85",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 27,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-50",
+      "unitId": "calc.r27.k50",
+      "category": "calc",
+      "text": "53/85−13/34＋20/51＝□",
+      "sourceText": "53/85−13/34＋20/51＝",
+      "source": {
+        "title": "R27 計算マスター K-50（通常授業）",
+        "path": "https://app.notion.com/4092b010743c8161ab9ae4ac0994dc5d",
+        "url": "https://app.notion.com/4092b010743c8161ab9ae4ac0994dc5d",
+        "locator": "Notion 問題DB > R27K-50",
+        "sourceText": "53/85−13/34＋20/51＝",
+        "sourceAnswer": "19/30",
+        "notionPageId": "4092b010743c8161ab9ae4ac0994dc5d",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-50",
+        "localReferenceText": "53/85−13/34＋20/51＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "19",
+        "d": "30",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-22",
+      "revision": 1,
+      "expression": "53/85-13/34+20/51",
+      "explanation": {
+        "steps": [
+          {
+            "title": "分母を素数の積で見る",
+            "body": "分母85・34・51を素数のかけ算に分けて、最小公倍数を見つけます。",
+            "equation": "53/85−13/34＋20/51＝318/510−195/510＋200/510",
+            "checkpoint": {
+              "prompt": "3つの分母の最小公倍数はいくつですか。",
+              "answer": {
+                "n": "510",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-1"
+          },
+          {
+            "title": "分子どうしを計算する",
+            "body": "分母をそろえたら、分子だけを左から計算します。",
+            "equation": "318/510−195/510＋200/510＝323/510",
+            "id": "step-2"
+          },
+          {
+            "title": "約分する",
+            "body": "分子と分母を同じ数で割れるだけ割ります。",
+            "equation": "323/510＝19/30",
+            "id": "step-3"
+          },
+          {
+            "title": "確かめる",
+            "body": "答えにひいた数を足し、足した数をひくと、はじめの数に戻ります。",
+            "equation": "19/30＋13/34−20/51＝53/85",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 27,
+      "star": 2,
+      "difficulty": 5
+    },
+    {
+      "id": "R27K-24",
+      "unitId": "calc.r27.k24",
+      "category": "calc",
+      "text": "520×0.3÷7.8×3と1/4＝□",
+      "sourceText": "520×0.3÷7.8×3と1/4＝",
+      "source": {
+        "title": "R27 計算マスター K-24（通常授業）",
+        "path": "https://app.notion.com/4092b010743c81c885b9e0a7cc2f5b8a",
+        "url": "https://app.notion.com/4092b010743c81c885b9e0a7cc2f5b8a",
+        "locator": "Notion 問題DB > R27K-24",
+        "sourceText": "520×0.3÷7.8×3と1/4＝",
+        "sourceAnswer": "65",
+        "notionPageId": "4092b010743c81c885b9e0a7cc2f5b8a",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-24",
+        "localReferenceText": "520×0.3÷7.8×3と1/4＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "65",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-52",
+      "revision": 1,
+      "expression": "520*0.3÷7.8*13/4",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数・帯分数を分数に直す",
+            "body": "かけ算と割り算だけの式なので、全部を分数に直して1つにまとめると約分がしやすくなります。",
+            "equation": "520×0.3÷7.8×3と1/4＝520×3/10÷39/5×13/4",
+            "id": "step-1"
+          },
+          {
+            "title": "割り算を逆数のかけ算にする",
+            "body": "分数で割ることは、その逆数をかけることと同じです。",
+            "equation": "520×3/10÷39/5×13/4＝520×3/10×5/39×13/4",
+            "id": "step-2"
+          },
+          {
+            "title": "約分してからかける",
+            "body": "分子と分母で約分できる組を先に消してからかけます。",
+            "equation": "520×3/10×5/39×13/4＝65",
+            "checkpoint": {
+              "prompt": "520×0.3÷7.8×3と1/4はいくつですか。",
+              "answer": {
+                "n": "65",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "ふつうの順で確かめる",
+            "body": "左から順に計算しても同じ答えになります。",
+            "equation": "520×0.3÷7.8×3と1/4＝65",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 36,
+      "star": 3,
+      "difficulty": 7
+    },
+    {
+      "id": "R27K-52",
+      "unitId": "calc.r27.k52",
+      "category": "calc",
+      "text": "720×1.2÷0.8÷2と2/5＝□",
+      "sourceText": "720×1.2÷0.8÷2と2/5＝",
+      "source": {
+        "title": "R27 計算マスター K-52（通常授業）",
+        "path": "https://app.notion.com/4092b010743c8107b153f68943d5ff82",
+        "url": "https://app.notion.com/4092b010743c8107b153f68943d5ff82",
+        "locator": "Notion 問題DB > R27K-52",
+        "sourceText": "720×1.2÷0.8÷2と2/5＝",
+        "sourceAnswer": "450",
+        "notionPageId": "4092b010743c8107b153f68943d5ff82",
+        "localReferencePath": "Dropbox:/算数DB/本文/算数DB_通常授業_後期.md",
+        "localReferenceLocator": "R27 > K 計算マスター > K-52",
+        "localReferenceText": "720×1.2÷0.8÷2と2/5＝",
+        "localComparison": {
+          "exactTextMatch": false,
+          "normalizedExpressionMatch": true,
+          "difference": "表記だけを整理（等号の全角化・末尾の「の□」や「＝」の扱い）。数値・演算・正答は一致。"
+        },
+        "verification": "2026-10-30 R27原本PDF（5-27 割合と比(4)-ニュートン算-）から書き起こしてNotion問題DBに登録したR27Kを出典に採用。Dropbox本文（算数DB）の式と答えがNotionの答えと一致することを確認。□の値は厳密な分数で逆算し、もとの式への代入で検算（各ステップの式も同様に検算）。答えは原本の解答ページと照合済み。"
+      },
+      "answer": {
+        "n": "450",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "figureRequired": false,
+      "scopeUnits": [
+        "R27"
+      ],
+      "homeStudy": false,
+      "pairId": "R27K-24",
+      "revision": 1,
+      "expression": "720*1.2÷0.8÷12/5",
+      "explanation": {
+        "steps": [
+          {
+            "title": "小数・帯分数を分数に直す",
+            "body": "かけ算と割り算だけの式なので、全部を分数に直して1つにまとめると約分がしやすくなります。",
+            "equation": "720×1.2÷0.8÷2と2/5＝720×6/5÷4/5÷12/5",
+            "id": "step-1"
+          },
+          {
+            "title": "割り算を逆数のかけ算にする",
+            "body": "分数で割ることは、その逆数をかけることと同じです。",
+            "equation": "720×6/5÷4/5÷12/5＝720×6/5×5/4×5/12",
+            "id": "step-2"
+          },
+          {
+            "title": "約分してからかける",
+            "body": "分子と分母で約分できる組を先に消してからかけます。",
+            "equation": "720×6/5×5/4×5/12＝450",
+            "checkpoint": {
+              "prompt": "720×1.2÷0.8÷2と2/5はいくつですか。",
+              "answer": {
+                "n": "450",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "step-3"
+          },
+          {
+            "title": "ふつうの順で確かめる",
+            "body": "左から順に計算しても同じ答えになります。",
+            "equation": "720×1.2÷0.8÷2と2/5＝450",
+            "id": "step-4"
+          }
+        ]
+      },
+      "score": 34,
+      "star": 3,
+      "difficulty": 7
+    }
+  ],
+  "units": [
+    {
+      "id": "calc.r27.k1",
+      "name": "R27計算 K-1",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-1",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k29",
+      "name": "R27計算 K-29",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-29",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k4",
+      "name": "R27計算 K-4",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-4",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k32",
+      "name": "R27計算 K-32",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-32",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k5",
+      "name": "R27計算 K-5",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-5",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k33",
+      "name": "R27計算 K-33",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-33",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k9",
+      "name": "R27計算 K-9",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-9",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k37",
+      "name": "R27計算 K-37",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-37",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k13",
+      "name": "R27計算 K-13",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-13",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k41",
+      "name": "R27計算 K-41",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-41",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k14",
+      "name": "R27計算 K-14",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-14",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k42",
+      "name": "R27計算 K-42",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-42",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k16",
+      "name": "R27計算 K-16",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-16",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k44",
+      "name": "R27計算 K-44",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-44",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k17",
+      "name": "R27計算 K-17",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-17",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k45",
+      "name": "R27計算 K-45",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-45",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k19",
+      "name": "R27計算 K-19",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-19",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k47",
+      "name": "R27計算 K-47",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-47",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k20",
+      "name": "R27計算 K-20",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-20",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k48",
+      "name": "R27計算 K-48",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-48",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k22",
+      "name": "R27計算 K-22",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-22",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k50",
+      "name": "R27計算 K-50",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-50",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k24",
+      "name": "R27計算 K-24",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-24",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    },
+    {
+      "id": "calc.r27.k52",
+      "name": "R27計算 K-52",
+      "domain": "calculation",
+      "definition": "原資料の計算1問を独立した出題単位として保持する。型で集約しない。",
+      "representativeId": "R27K-52",
+      "decision": "計算は原式単位で採用（逆算・括弧つきの長い計算）。",
+      "prerequisites": []
+    }
+  ],
+  "links": [],
+  "analysis": [
+    {
+      "kind": "selection",
+      "detail": "Notion問題DB（計算マスター）のR27K（10/30授業）から、原式のまま評価できる四則計算と□1つの逆算を選定（表裏の数値替えを含む）。式をparserで解き、答えをNotionの答えと照合し、□に代入して検算できたものだけを採用した。"
+    },
+    {
+      "kind": "excluded",
+      "detail": "単位換算・約数倍数・数列・比・あまりのある割り算・概数・連続整数など、四則の式として評価できない問題は原文のまま除外（改題しない）。"
+    },
+    {
+      "kind": "tiers",
+      "detail": "区分は式の形で決める（core.calcTier）。基礎＝1〜2回の計算／標準＝3回以上の計算・分数や小数の掛け算割り算・割り切れない答え・逆算／応用＝逆算＋分数や、分数と小数のまじった長い式／難問＝括弧と分数を含む多段の逆算など。"
+    },
+    {
+      "kind": "explanation",
+      "detail": "逆算は外側の計算から順に逆の計算で外す。括弧つきの計算は内側のかっこから順に進める。各ステップの式は書き出した文字列を読み直し、□に答えを代入して厳密に検算した。"
+    }
+  ]
+}
