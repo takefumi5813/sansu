@@ -174650,6 +174650,4319 @@
       "role": "代表"
     },
     {
+      "id": "4S12K-23",
+      "unitId": "notion.3f62b010743c8174a9cfd386a2eca93b",
+      "category": "oneline",
+      "domain": "整数の四則・計算順序",
+      "text": "□×□×□＝729（□には同じ数が入ります。）",
+      "source": {
+        "title": "4S12K-23",
+        "url": "https://app.notion.com/3f62b010743c8174a9cfd386a2eca93b",
+        "notionPageId": "3f62b010743c8174a9cfd386a2eca93b",
+        "locator": "4-S12 場合の数(2).pdf PDF通しp.1",
+        "verification": "原本PDF通しp.1を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"root\": 9, \"value\": \"729\"}"
+      },
+      "answer": {
+        "n": "9",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 1,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "同じ数を3回かける",
+            "body": "□にはすべて同じ数が入ります。立方の積から考えます。",
+            "equation": "8×8×8＝512",
+            "checkpoint": {
+              "prompt": "9×9はいくつですか。",
+              "answer": {
+                "n": "81",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "次の整数を試す",
+            "body": "9を2回かけた積を先に求めます。",
+            "equation": "9×9＝81"
+          },
+          {
+            "id": "s3",
+            "title": "3回目をかける",
+            "body": "もう一度同じ数をかけると、右辺に一致します。",
+            "equation": "81×9＝729"
+          },
+          {
+            "id": "s4",
+            "title": "答えを戻して確認",
+            "body": "3つの□に同じ数を入れると、もとの式が成り立ちます。",
+            "equation": "9×9×9＝729"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "4S12"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f62b010743c8174a9cfd386a2eca93b",
+      "subdivision": {
+        "id": "40a2b010743c813183e5f6b5a1420e39",
+        "name": "平方数・立方数から元の数を求める",
+        "chu": "整数の四則・計算順序",
+        "dai": "計算",
+        "order": 4.5
+      },
+      "role": "代表"
+    },
+    {
+      "id": "春04K-17",
+      "unitId": "notion.3f52b010743c81059885dd2ac17c6872",
+      "category": "oneline",
+      "domain": "整数の四則・計算順序",
+      "text": "□×□＝1444（□には同じ数が入ります。）",
+      "source": {
+        "title": "春04K-17",
+        "url": "https://app.notion.com/3f52b010743c81059885dd2ac17c6872",
+        "notionPageId": "3f52b010743c81059885dd2ac17c6872",
+        "locator": "5-春04 数に関する問題(2).pdf PDF通しp.1",
+        "verification": "原本PDF通しp.1を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"root\": 38, \"value\": \"1444\"}"
+      },
+      "answer": {
+        "n": "38",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "平方の値を探す",
+            "body": "同じ数を2回かけた値が右辺になる数を探します。",
+            "equation": "37×37＝1369",
+            "checkpoint": {
+              "prompt": "38×38はいくつですか。",
+              "answer": {
+                "n": "1444",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "次の整数を試す",
+            "body": "38を2回かけます。",
+            "equation": "38×38＝1444"
+          },
+          {
+            "id": "s3",
+            "title": "割り算でも確認",
+            "body": "右辺を候補で割ると、同じ候補になります。",
+            "equation": "1444÷38＝38"
+          },
+          {
+            "id": "s4",
+            "title": "答えを確かめる",
+            "body": "どちらの□にも38を入れます。",
+            "equation": "□＝38"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "春04"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c81059885dd2ac17c6872",
+      "subdivision": {
+        "id": "40a2b010743c813183e5f6b5a1420e39",
+        "name": "平方数・立方数から元の数を求める",
+        "chu": "整数の四則・計算順序",
+        "dai": "計算",
+        "order": 4.5
+      },
+      "role": "代表"
+    },
+    {
+      "id": "4S09K-27",
+      "unitId": "notion.3f62b010743c81ddb346ef02abd45b6a",
+      "category": "oneline",
+      "domain": "整数の四則・計算順序",
+      "text": "□×□×□＝512（□には同じ数が入ります。）",
+      "source": {
+        "title": "4S09K-27",
+        "url": "https://app.notion.com/3f62b010743c81ddb346ef02abd45b6a",
+        "notionPageId": "3f62b010743c81ddb346ef02abd45b6a",
+        "locator": "4-S09 立体図形(1).pdf PDF通しp.1",
+        "verification": "原本PDF通しp.1を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"root\": 8, \"value\": \"512\"}"
+      },
+      "answer": {
+        "n": "8",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "同じ数を3回かける",
+            "body": "□にはすべて同じ数が入ります。立方の積から考えます。",
+            "equation": "7×7×7＝343",
+            "checkpoint": {
+              "prompt": "8×8はいくつですか。",
+              "answer": {
+                "n": "64",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "次の整数を試す",
+            "body": "8を2回かけた積を先に求めます。",
+            "equation": "8×8＝64"
+          },
+          {
+            "id": "s3",
+            "title": "3回目をかける",
+            "body": "もう一度同じ数をかけると、右辺に一致します。",
+            "equation": "64×8＝512"
+          },
+          {
+            "id": "s4",
+            "title": "答えを戻して確認",
+            "body": "3つの□に同じ数を入れると、もとの式が成り立ちます。",
+            "equation": "8×8×8＝512"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "4S09"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f62b010743c81ddb346ef02abd45b6a",
+      "subdivision": {
+        "id": "40a2b010743c813183e5f6b5a1420e39",
+        "name": "平方数・立方数から元の数を求める",
+        "chu": "整数の四則・計算順序",
+        "dai": "計算",
+        "order": 4.5
+      },
+      "role": "代表"
+    },
+    {
+      "id": "4R20K-24",
+      "unitId": "notion.3f52b010743c819993a7ebff1b1e4250",
+      "category": "oneline",
+      "domain": "分数・帯分数の四則",
+      "text": "5/6＞□/24＞3/4のとき、□＝□です。",
+      "source": {
+        "title": "4R20K-24",
+        "url": "https://app.notion.com/3f52b010743c819993a7ebff1b1e4250",
+        "notionPageId": "3f52b010743c819993a7ebff1b1e4250",
+        "locator": "4-20 平面図形(5)-求積・等積変形-.pdf PDF通しp.2",
+        "verification": "原本PDF通しp.2を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[19]"
+      },
+      "answer": {
+        "n": "19",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "左の分数を通分する",
+            "body": "分母を24にそろえます。",
+            "equation": "5/6＝20/24",
+            "checkpoint": {
+              "prompt": "3/4を分母24で表したときの分子はいくつですか。",
+              "answer": {
+                "n": "18",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "右の分数を通分する",
+            "body": "右の分数も分母を24にします。",
+            "equation": "3/4＝18/24"
+          },
+          {
+            "id": "s3",
+            "title": "間の整数を選ぶ",
+            "body": "分子は18より大きく20より小さい整数です。",
+            "equation": "18＋1＝19"
+          },
+          {
+            "id": "s4",
+            "title": "条件を確認する",
+            "body": "19/24は20/24より1/24小さく、18/24より1/24大きいので条件に合います。",
+            "equation": "20−19＝1"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "4R20"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c819993a7ebff1b1e4250",
+      "subdivision": {
+        "id": "3fd2b010743c81438a75e3bd38055e5a",
+        "name": "約分・仮分数と帯分数",
+        "chu": "分数・帯分数の四則",
+        "dai": "計算",
+        "order": 10
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW506-01①(1)",
+      "unitId": "notion.3f52b010743c815390bff40fe74f33b6-1",
+      "category": "oneline",
+      "domain": "小数と分数の混合計算",
+      "text": "次の□の中にあてはまる等号、または不等号をかきなさい。\n(1) 1/3 □ 0.34",
+      "source": {
+        "title": "GW506-01①",
+        "url": "https://app.notion.com/3f52b010743c815390bff40fe74f33b6",
+        "notionPageId": "3f52b010743c815390bff40fe74f33b6",
+        "locator": "No.6 数に関する問題（２） -分数と小数②-.pdf PDF通しp.6 小問(1)",
+        "verification": "原本PDF通しp.6を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"left\": \"1/3\", \"right\": \"17/50\", \"difference\": \"1/150\"}"
+      },
+      "answer": {
+        "dimension": "text",
+        "value": "＜",
+        "unit": "",
+        "accepted": [
+          "<"
+        ]
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "小数を分数にする",
+            "body": "0.34を100分の34と表します。",
+            "equation": "0.34＝34/100",
+            "checkpoint": {
+              "prompt": "34と100を2で割ると、分子はいくつですか。",
+              "answer": {
+                "n": "17",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "約分する",
+            "body": "分子と分母を2で割ります。",
+            "equation": "34/100＝17/50"
+          },
+          {
+            "id": "s3",
+            "title": "同じ分母で比べる",
+            "body": "1/3は50/150、17/50は51/150です。右の数が1/150大きいと分かります。",
+            "equation": "17/50−1/3＝1/150"
+          },
+          {
+            "id": "s4",
+            "title": "記号を決める",
+            "body": "左の1/3の方が小さいので、□には＜を入れます。",
+            "equation": "右の数−左の数＝1/150"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "GW506"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c815390bff40fe74f33b6",
+      "subdivision": {
+        "id": "3fd2b010743c817298b2f8cfc8552019",
+        "name": "小数⇔分数の変換",
+        "chu": "小数と分数の混合計算",
+        "dai": "計算",
+        "order": 14
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R23K-15",
+      "unitId": "notion.3f62b010743c81418231dddd8b853ca1",
+      "category": "oneline",
+      "domain": "円周率3.14を含む計算",
+      "text": "□×□×3.14＝113.04（□には同じ数が入ります。）",
+      "source": {
+        "title": "R23K-15",
+        "url": "https://app.notion.com/3f62b010743c81418231dddd8b853ca1",
+        "notionPageId": "3f62b010743c81418231dddd8b853ca1",
+        "locator": "5-23 速さの文章題⑷通過算.pdf PDF通しp.1",
+        "verification": "原本PDF通しp.1を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"root\": 6, \"value\": \"2826/25\"}"
+      },
+      "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 1,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "3.14のかけ算を戻す",
+            "body": "まず右辺を3.14で割り、同じ数を2回かけた値を求めます。",
+            "equation": "113.04÷3.14＝36",
+            "checkpoint": {
+              "prompt": "113.04÷3.14はいくつですか。",
+              "answer": {
+                "n": "36",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "平方を見つける",
+            "body": "36は6を2回かけた数です。",
+            "equation": "6×6＝36"
+          },
+          {
+            "id": "s3",
+            "title": "円周率をかけ直す",
+            "body": "3.14をかけると、もとの右辺に一致します。",
+            "equation": "36×3.14＝113.04"
+          },
+          {
+            "id": "s4",
+            "title": "同じ数を入れる",
+            "body": "2つの□には同じ6を入れます。",
+            "equation": "□＝6"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "R23"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f62b010743c81418231dddd8b853ca1",
+      "subdivision": {
+        "id": "40b2b010743c81f29eb0cd8eedf821c3",
+        "name": "3.14で割って平方数を見当づける",
+        "chu": "円周率3.14を含む計算",
+        "dai": "計算",
+        "order": 23.05
+      },
+      "role": "代表"
+    },
+    {
+      "id": "4R24K-23",
+      "unitId": "notion.3f52b010743c813b9769f4e539d6322d",
+      "category": "oneline",
+      "domain": "円周率3.14を含む計算",
+      "text": "□×□×3.14＝113.04（□には同じ数が入ります。）",
+      "source": {
+        "title": "4R24K-23",
+        "url": "https://app.notion.com/3f52b010743c813b9769f4e539d6322d",
+        "notionPageId": "3f52b010743c813b9769f4e539d6322d",
+        "locator": "4-24 文章題(5)-和差算・やりとり算-.pdf PDF通しp.1",
+        "verification": "原本PDF通しp.1を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"root\": 6, \"value\": \"2826/25\"}"
+      },
+      "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "3.14のかけ算を戻す",
+            "body": "まず右辺を3.14で割り、同じ数を2回かけた値を求めます。",
+            "equation": "113.04÷3.14＝36",
+            "checkpoint": {
+              "prompt": "113.04÷3.14はいくつですか。",
+              "answer": {
+                "n": "36",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "平方を見つける",
+            "body": "36は6を2回かけた数です。",
+            "equation": "6×6＝36"
+          },
+          {
+            "id": "s3",
+            "title": "円周率をかけ直す",
+            "body": "3.14をかけると、もとの右辺に一致します。",
+            "equation": "36×3.14＝113.04"
+          },
+          {
+            "id": "s4",
+            "title": "同じ数を入れる",
+            "body": "2つの□には同じ6を入れます。",
+            "equation": "□＝6"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "4R24"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c813b9769f4e539d6322d",
+      "subdivision": {
+        "id": "40b2b010743c81f29eb0cd8eedf821c3",
+        "name": "3.14で割って平方数を見当づける",
+        "chu": "円周率3.14を含む計算",
+        "dai": "計算",
+        "order": 23.05
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R18K-24",
+      "unitId": "notion.3f62b010743c814585a9de658d20d237",
+      "category": "oneline",
+      "domain": "円周率3.14を含む計算",
+      "text": "□×□×3.14＝200.96（□には同じ数が入ります。）",
+      "source": {
+        "title": "R18K-24",
+        "url": "https://app.notion.com/3f62b010743c814585a9de658d20d237",
+        "notionPageId": "3f62b010743c814585a9de658d20d237",
+        "locator": "5-18 割合(4)-食塩水-.pdf PDF通しp.1",
+        "verification": "原本PDF通しp.1を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"root\": 8, \"value\": \"5024/25\"}"
+      },
+      "answer": {
+        "n": "8",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "3.14のかけ算を戻す",
+            "body": "まず右辺を3.14で割り、同じ数を2回かけた値を求めます。",
+            "equation": "200.96÷3.14＝64",
+            "checkpoint": {
+              "prompt": "200.96÷3.14はいくつですか。",
+              "answer": {
+                "n": "64",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "平方を見つける",
+            "body": "64は8を2回かけた数です。",
+            "equation": "8×8＝64"
+          },
+          {
+            "id": "s3",
+            "title": "円周率をかけ直す",
+            "body": "3.14をかけると、もとの右辺に一致します。",
+            "equation": "64×3.14＝200.96"
+          },
+          {
+            "id": "s4",
+            "title": "同じ数を入れる",
+            "body": "2つの□には同じ8を入れます。",
+            "equation": "□＝8"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "R18"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f62b010743c814585a9de658d20d237",
+      "subdivision": {
+        "id": "40b2b010743c81f29eb0cd8eedf821c3",
+        "name": "3.14で割って平方数を見当づける",
+        "chu": "円周率3.14を含む計算",
+        "dai": "計算",
+        "order": 23.05
+      },
+      "role": "代表"
+    },
+    {
+      "id": "4R15K-29",
+      "unitId": "notion.3f62b010743c810db5b9e8435e12ee48",
+      "category": "oneline",
+      "domain": "逆算（基本）",
+      "text": "□×□＝729（□には同じ数が入ります。）",
+      "source": {
+        "title": "4R15K-29",
+        "url": "https://app.notion.com/3f62b010743c810db5b9e8435e12ee48",
+        "notionPageId": "3f62b010743c810db5b9e8435e12ee48",
+        "locator": "4-15 数に関する問題(5)分数.pdf PDF通しp.2",
+        "verification": "原本PDF通しp.2を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"root\": 27, \"value\": \"729\"}"
+      },
+      "answer": {
+        "n": "27",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "平方の値を探す",
+            "body": "同じ数を2回かけた値が右辺になる数を探します。",
+            "equation": "26×26＝676",
+            "checkpoint": {
+              "prompt": "27×27はいくつですか。",
+              "answer": {
+                "n": "729",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "次の整数を試す",
+            "body": "27を2回かけます。",
+            "equation": "27×27＝729"
+          },
+          {
+            "id": "s3",
+            "title": "割り算でも確認",
+            "body": "右辺を候補で割ると、同じ候補になります。",
+            "equation": "729÷27＝27"
+          },
+          {
+            "id": "s4",
+            "title": "答えを確かめる",
+            "body": "どちらの□にも27を入れます。",
+            "equation": "□＝27"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "4R15"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f62b010743c810db5b9e8435e12ee48",
+      "subdivision": {
+        "id": "3fd2b010743c8108bc15c394126e1f59",
+        "name": "整数の逆算",
+        "chu": "逆算（基本）",
+        "dai": "計算",
+        "order": 25
+      },
+      "role": "代表"
+    },
+    {
+      "id": "4S14K-29",
+      "unitId": "notion.3f62b010743c8126ba7be9bf5b99a8b3",
+      "category": "oneline",
+      "domain": "虫食い算・覆面算",
+      "text": "□×□＝1369（□には同じ数が入ります。）",
+      "source": {
+        "title": "4S14K-29",
+        "url": "https://app.notion.com/3f62b010743c8126ba7be9bf5b99a8b3",
+        "notionPageId": "3f62b010743c8126ba7be9bf5b99a8b3",
+        "locator": "4-S14 平面図形(3).pdf PDF通しp.1",
+        "verification": "原本PDF通しp.1を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"root\": 37, \"value\": \"1369\"}"
+      },
+      "answer": {
+        "n": "37",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "平方の値を探す",
+            "body": "同じ数を2回かけた値が右辺になる数を探します。",
+            "equation": "36×36＝1296",
+            "checkpoint": {
+              "prompt": "37×37はいくつですか。",
+              "answer": {
+                "n": "1369",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "次の整数を試す",
+            "body": "37を2回かけます。",
+            "equation": "37×37＝1369"
+          },
+          {
+            "id": "s3",
+            "title": "割り算でも確認",
+            "body": "右辺を候補で割ると、同じ候補になります。",
+            "equation": "1369÷37＝37"
+          },
+          {
+            "id": "s4",
+            "title": "答えを確かめる",
+            "body": "どちらの□にも37を入れます。",
+            "equation": "□＝37"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "4S14"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f62b010743c8126ba7be9bf5b99a8b3",
+      "subdivision": {
+        "id": "3fd2b010743c81ef9a44d24f1aedf2a0",
+        "name": "かけ算の虫食い",
+        "chu": "虫食い算・覆面算",
+        "dai": "計算",
+        "order": 41
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW404-22①(1)",
+      "unitId": "notion.3f52b010743c813aba50d251b0d9e1ed-1",
+      "category": "oneline",
+      "domain": "順列・並べ方",
+      "text": "1、2、2、3、3の5まいの数字カードがあります。同じ数字がとなりあわないように、5まいのカードを1れつにならべます。\n(1) 左はしが1の場合のカードのならべ方を書きましょう。",
+      "source": {
+        "title": "GW404-22①",
+        "url": "https://app.notion.com/3f52b010743c813aba50d251b0d9e1ed",
+        "notionPageId": "3f52b010743c813aba50d251b0d9e1ed",
+        "locator": "No.4 場合の数（１） -樹形図や表をかく-.pdf PDF通しp.47 小問(1)",
+        "verification": "原本PDF通しp.47を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[\"12323\", \"13232\"]"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "12323",
+          "13232"
+        ],
+        "unit": ""
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "左はしを固定する",
+            "body": "左はしに1を置くと、残りは2が2まい、3が2まいです。",
+            "equation": "5−1＝4",
+            "checkpoint": {
+              "prompt": "1を左はしに置いた後、残るカードは何まいですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "2から始める",
+            "body": "残りの左に2を置くと、隣に2を置けないので2、3、2、3の順になります。",
+            "equation": "2＋2＝4"
+          },
+          {
+            "id": "s3",
+            "title": "3から始める",
+            "body": "残りの左に3を置くと、3、2、3、2の順になります。",
+            "equation": "残りの3の枚数＝2"
+          },
+          {
+            "id": "s4",
+            "title": "すべての並べ方",
+            "body": "左はしの1を付けると12323と13232です。2番目は2か3だけなので、ほかにはありません。",
+            "equation": "1＋1＝2"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "GW404"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c813aba50d251b0d9e1ed",
+      "subdivision": {
+        "id": "3fd2b010743c81d88604e738adf2684e",
+        "name": "間に入れる（非隣接の隙間選択）",
+        "chu": "順列・並べ方",
+        "dai": "場合の数",
+        "order": 292
+      },
+      "role": "代表"
+    },
+    {
+      "id": "4R09T⑥-2",
+      "unitId": "notion.3f52b010743c81e2b65bfe4e65285435",
+      "category": "oneline",
+      "domain": "組合せ・選び方",
+      "text": "次のア〜エが成り立つような5つの数の組をすべて求めなさい。\nア 5つの数はすべて異なる整数です。\nイ 5つの数の合計は300です。\nウ 大きい方の2つの数の和は、小さい方の3つの数の和に等しいです。\nエ 最大の数は、最小の数の5倍です。\n答は左から大きい順に書きなさい。また、答のらんは全部使うとは限りません。",
+      "source": {
+        "title": "4R09T⑥-2",
+        "url": "https://app.notion.com/3f52b010743c81e2b65bfe4e65285435",
+        "notionPageId": "3f52b010743c81e2b65bfe4e65285435",
+        "locator": "4-09 文章題(2)-植木算-.pdf PDF通しp.52",
+        "verification": "原本PDF通しp.52を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[[80, 70, 69, 65, 16], [80, 70, 68, 66, 16]]"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "80,70,69,65,16",
+          "80,70,68,66,16"
+        ],
+        "unit": "",
+        "tuple": "ordered"
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "大小の組の和",
+            "body": "大きい2つと小さい3つの和は等しく、合計が300です。",
+            "equation": "300÷2＝150",
+            "checkpoint": {
+              "prompt": "大きい方の2つの数の和はいくつですか。",
+              "answer": {
+                "n": "150",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "最小の数をしぼる",
+            "body": "最小をnとすると最大は5n、2番目は150−5nです。最大の方が大きいのでnは16以上です。",
+            "equation": "150÷10＝15"
+          },
+          {
+            "id": "s3",
+            "title": "17以上が無理な理由",
+            "body": "nが17なら2番目は65、3・4番目の最大は64と63です。小さい3つの和は144にしかなりません。nが増えるとこの上限はさらに下がります。",
+            "equation": "64＋63＋17＝144"
+          },
+          {
+            "id": "s4",
+            "title": "最小16で考える",
+            "body": "したがって最小16、最大80、2番目70です。残る2数の和を求めます。",
+            "equation": "150−16＝134"
+          },
+          {
+            "id": "s5",
+            "title": "異なる2数を探す",
+            "body": "70未満で異なる2数の和が134となるのは69と65、68と66です。67と67は同じ数なので使えません。",
+            "equation": "69＋65＝134"
+          },
+          {
+            "id": "s6",
+            "title": "組を完成させる",
+            "body": "大きい順に(80,70,69,65,16)、(80,70,68,66,16)の2組です。",
+            "equation": "80＋70＋68＋66＋16＝300"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "4R09"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c81e2b65bfe4e65285435",
+      "subdivision": {
+        "id": "3fd2b010743c819584fae505452e5741",
+        "name": "和を固定した組合せの列挙",
+        "chu": "組合せ・選び方",
+        "dai": "場合の数",
+        "order": 293
+      },
+      "role": "代表"
+    },
+    {
+      "id": "4R11T⑥-2",
+      "unitId": "notion.3f52b010743c81258cd5c4795d37eda1",
+      "category": "oneline",
+      "domain": "組合せ・選び方",
+      "text": "ボールが48個あります。これらのボールを以下の条件1、2にあてはまるように、5つの箱に入れることにします。\n（条件1）どの箱にもボールを5個以上入れます。\n（条件2）どの2つの箱についても、入っているボールの数の公約数は1だけです。\nこのとき、5つの箱に入っているボールの数の組をすべて求めなさい。ただし、それぞれの場合に、入っている数が小さいものから順に答のらんに書きなさい。また答のらんをすべて使うとは限りません。",
+      "source": {
+        "title": "4R11T⑥-2",
+        "url": "https://app.notion.com/3f52b010743c81258cd5c4795d37eda1",
+        "notionPageId": "3f52b010743c81258cd5c4795d37eda1",
+        "locator": "4-11 文章題(4)-過不足算.pdf PDF通しp.52",
+        "verification": "原本PDF通しp.52を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[[5, 6, 7, 11, 19], [5, 6, 7, 13, 17], [5, 7, 8, 9, 19], [5, 7, 8, 11, 17], [5, 7, 9, 11, 16], [5, 7, 11, 12, 13], [7, 8, 9, 11, 13]]"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "5,6,7,11,19",
+          "5,6,7,13,17",
+          "5,7,8,9,19",
+          "5,7,8,11,17",
+          "5,7,9,11,16",
+          "5,7,11,12,13",
+          "7,8,9,11,13"
+        ],
+        "unit": "",
+        "tuple": "ordered"
+      },
+      "difficulty": 6,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "小さい順に整理",
+            "body": "同じ数は公約数が1以外にもあるので使えません。5個以上の異なる5数を小さい順に探します。",
+            "equation": "48−5×5＝23",
+            "checkpoint": {
+              "prompt": "各箱にまず5個ずつ入れると、残りは何個ですか。",
+              "answer": {
+                "n": "23",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "偶数は高々1つ",
+            "body": "偶数が2つあると公約数2を持ちます。3の倍数なども2つ同時には選べません。",
+            "equation": "6÷2＝3"
+          },
+          {
+            "id": "s3",
+            "title": "最小が5の組",
+            "body": "和が48でどの2数も互いに素になる組は、(5,6,7,11,19)、(5,6,7,13,17)、(5,7,8,9,19)、(5,7,8,11,17)、(5,7,9,11,16)、(5,7,11,12,13)です。",
+            "equation": "5＋6＋7＋11＋19＝48"
+          },
+          {
+            "id": "s4",
+            "title": "最小が5以外の組",
+            "body": "最小を6以上にして同じ条件で調べると、(7,8,9,11,13)だけが残ります。最小10以上なら和が48を超えます。",
+            "equation": "7＋8＋9＋11＋13＝48"
+          },
+          {
+            "id": "s5",
+            "title": "全組を確認",
+            "body": "上の7組はどの2数にも1以外の公約数がありません。小さい順に5数を選び、残りを48から引いて確かめれば重複なく尽くせます。",
+            "equation": "6＋1＝7"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "4R11"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c81258cd5c4795d37eda1",
+      "subdivision": {
+        "id": "3fd2b010743c819584fae505452e5741",
+        "name": "和を固定した組合せの列挙",
+        "chu": "組合せ・選び方",
+        "dai": "場合の数",
+        "order": 293
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KB272①例",
+      "unitId": "notion.3f82b010743c8106a07dd628f12b70c8",
+      "category": "geometry",
+      "domain": "合同・折り返し",
+      "text": "以下の図の三角形と合同な三角形を、アからオの三角形から、すべて選んで記号で答えなさい。",
+      "source": {
+        "title": "KB272①例",
+        "url": "https://app.notion.com/3f82b010743c8106a07dd628f12b70c8",
+        "notionPageId": "3f82b010743c8106a07dd628f12b70c8",
+        "locator": "point272_共通の型_教材問題解答セット.pdf PDF通しp.2",
+        "verification": "原本PDF通しp.2を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"SSS\": [3, 5, 7], \"SAS\": [7, 3], \"ASA\": [7, 3], \"AAA_counterexample\": [6, 10, 14], \"answer\": [\"ア\", \"イ\", \"エ\", \"オ\"], \"exact_cosines\": [\"11/14\", \"-1/2\", \"13/14\"], \"SAS_third_side_squared\": \"25\", \"ASA_squared_ratios\": [\"25/49\", \"9/49\"]}"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "ア",
+          "イ",
+          "エ",
+          "オ"
+        ],
+        "unit": ""
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "もとの3辺を読む",
+            "body": "辺の長さは3cm、5cm、7cmです。アはこの3辺が一致します。",
+            "equation": "3＋5＋7＝15",
+            "checkpoint": {
+              "prompt": "三角形の内角の和は何度ですか。",
+              "answer": {
+                "n": "180",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "2辺と間の角を見る",
+            "body": "イは7cmと3cm、その間の角ア°が一致するので合同です。",
+            "equation": "一致する辺の数＝2"
+          },
+          {
+            "id": "s3",
+            "title": "1辺と角を対応させる",
+            "body": "エは7cmの辺と角イ°・ウ°が一致し、残る角ア°も一致します。オは3cmの辺とその両端の角が一致します。",
+            "equation": "ア°＋イ°＋ウ°＝180°"
+          },
+          {
+            "id": "s4",
+            "title": "角だけでは決まらない",
+            "body": "ウは角だけが一致しても大きさが変えられます。したがって選ぶのはア、イ、エ、オです。",
+            "equation": "5−1＝4"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KB272"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "figure": "figs/n-3f82b010743c8106a07dd628f12b70c8.png",
+      "notionId": "3f82b010743c8106a07dd628f12b70c8",
+      "subdivision": {
+        "id": "3fd2b010743c810ebd39d2fe4045d000",
+        "name": "合同な図形の対応（合同判定・剛体変換）",
+        "chu": "合同・折り返し",
+        "dai": "平面図形",
+        "order": 355
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R18T⑥-2(1)",
+      "unitId": "notion.3f52b010743c813788efe304afe7e2c7-1",
+      "category": "oneline",
+      "domain": "順序・位置・対応の推理",
+      "text": "算数のテストの答案が返ってきました。A、B、C、D、Eの5人の中で、点数の高い順に1位から5位までの順位をつけます。5人の点数はすべて異なっていました。5人はこの算数のテストについて次のように話しています。\nA「私はCさんには負けない！という目標が達成できなかった。」\nB「私はEさんよりも高い点数だった。」\nC「私はDさんの点数には及ばなかった。」\nD「私とAさんの間には2人いる。」\nE「Aさんは私よりも点数が低かった。」\n(1) 全員が本当のことを言っているとき、Cの順位として考えられるものを全て答えなさい。",
+      "source": {
+        "title": "R18T⑥-2",
+        "url": "https://app.notion.com/3f52b010743c813788efe304afe7e2c7",
+        "notionPageId": "3f52b010743c813788efe304afe7e2c7",
+        "locator": "5-18 割合(4)-食塩水-.pdf PDF通しp.55 小問(1)",
+        "verification": "原本PDF通しp.55を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[3, 4]"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "3",
+          "4"
+        ],
+        "unit": "",
+        "aliases": {
+          "3位": "3",
+          "4位": "4"
+        }
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "DとAの間隔",
+            "body": "D、C、Aの順に点数が高く、DとAの間には2人いるので順位の差は3です。",
+            "equation": "2＋1＝3",
+            "checkpoint": {
+              "prompt": "DとAの順位の差はいくつですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "Dが1位の場合",
+            "body": "Aは4位です。BとEもAより上なので、C・B・Eの3人を2位と3位の2か所には入れられません。",
+            "equation": "4−1−1＝2"
+          },
+          {
+            "id": "s3",
+            "title": "Dが2位の場合",
+            "body": "Aは5位です。BとEはBが先なので、Bが1位となり、CとEを3位・4位に置けます。",
+            "equation": "5−2＝3"
+          },
+          {
+            "id": "s4",
+            "title": "Cの順位を答える",
+            "body": "Cが3位でも4位でもすべての発言に合います。考えられる順位は3位と4位です。",
+            "equation": "候補の数＝2"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "R18"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c813788efe304afe7e2c7",
+      "subdivision": {
+        "id": "3fd2b010743c817dbe46d215e41302c7",
+        "name": "順位の鎖：勝ち負けの発言を不等号でつなぎ、順位の候補を消す",
+        "chu": "順序・位置・対応の推理",
+        "dai": "条件整理・論理",
+        "order": 547
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KB47③例",
+      "unitId": "notion.3f82b010743c8194b351def1c4e48156",
+      "category": "oneline",
+      "domain": "順序・位置・対応の推理",
+      "text": "A、B、C、Dの4人のうち1人だけ赤い帽子をかぶり、残りの3人は白い帽子をかぶっています。この4人が縦に1列に並んで次のような発言をしました。\nA「私のすぐ前の人は赤色の帽子だ。」\nB「Dは私のすぐ後ろにいる。」\nC「私の帽子は白色だ。私のすぐ前の人は、白色の帽子だ。」\nD「私のすぐ前の人は白色の帽子だ。」\nこの発言がすべて正しいとき、4人の並んでいる順を前から順に答えなさい。",
+      "source": {
+        "title": "KB47③例",
+        "url": "https://app.notion.com/3f82b010743c8194b351def1c4e48156",
+        "notionPageId": "3f82b010743c8194b351def1c4e48156",
+        "locator": "point47_共通の型_教材問題解答セット.pdf PDF通しp.5",
+        "verification": "原本PDF通しp.5を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[{\"order\": [\"B\", \"D\", \"A\", \"C\"], \"red\": \"D\"}]"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "B",
+          "D",
+          "A",
+          "C"
+        ],
+        "unit": "",
+        "ordered": true
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "隣接する2人",
+            "body": "Bのすぐ後ろがDなので、B・Dはひとまとまりです。Dの前のBは白色です。",
+            "equation": "まとまりの人数＝2",
+            "checkpoint": {
+              "prompt": "B・D・Aをつなぐと何人のまとまりですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "赤い人を決める",
+            "body": "Aの前の人は赤色です。BとCは白色、A自身は自分の前にいないので赤色はDです。",
+            "equation": "4−3＝1"
+          },
+          {
+            "id": "s3",
+            "title": "3人をつなぐ",
+            "body": "赤色のDがAのすぐ前なのでB・D・Aと続きます。",
+            "equation": "2＋1＝3"
+          },
+          {
+            "id": "s4",
+            "title": "Cの位置",
+            "body": "Cには白色の前の人が必要です。先頭には置けず、B・D・Aの後ろに置くので、B、D、A、Cです。",
+            "equation": "3＋1＝4"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KB47"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f82b010743c8194b351def1c4e48156",
+      "subdivision": {
+        "id": "40a2b010743c819e93a0f3002182bf05",
+        "name": "位置の隣接ブロックと色(赤は1人)の場合分け",
+        "chu": "順序・位置・対応の推理",
+        "dai": "条件整理・論理",
+        "order": 548
+      },
+      "role": "代表"
+    },
+    {
+      "id": "4R19T⑥-2",
+      "unitId": "notion.3f52b010743c8125a5ecdadcd4cdf8e8",
+      "category": "oneline",
+      "domain": "天びんと重さの推理",
+      "text": "形も大きさも同じコインが8枚あります。そのうち、2枚が他の6枚に比べて重く、残りの6枚は同じ重さです。コインに①から⑧の番号をつけて、てんびんにかけて重さを調べたところ、図のようになりました。重い2枚のコインは何番と何番ですか。",
+      "source": {
+        "title": "4R19T⑥-2",
+        "url": "https://app.notion.com/3f52b010743c8125a5ecdadcd4cdf8e8",
+        "notionPageId": "3f52b010743c8125a5ecdadcd4cdf8e8",
+        "locator": "4-19 総合-14〜18まとめ-.pdf PDF通しp.48",
+        "verification": "原本PDF通しp.48を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[[3, 8]]"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "③",
+          "⑧"
+        ],
+        "unit": "",
+        "aliases": {
+          "3": "③",
+          "8": "⑧",
+          "3番": "③",
+          "8番": "⑧",
+          "③番": "③",
+          "⑧番": "⑧"
+        }
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "重い2枚の組を考える",
+            "body": "8枚から2枚を選ぶ組を、3回のてんびんの条件でしぼります。",
+            "equation": "8×7÷2＝28",
+            "checkpoint": {
+              "prompt": "8枚から重い2枚を選ぶ組は全部で何通りですか。",
+              "answer": {
+                "n": "28",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "1回目の条件",
+            "body": "①②③の方が④⑤⑥より重いので、重いコインが①②③に少なくとも1枚あります。",
+            "equation": "①②③にある重いコインの最少枚数＝1"
+          },
+          {
+            "id": "s3",
+            "title": "2回目と3回目も使う",
+            "body": "⑥⑧が①⑦より重く、①③④と⑥⑦⑧がつり合う組を調べると③と⑧だけが残ります。",
+            "equation": "条件に合う組の数＝1"
+          },
+          {
+            "id": "s4",
+            "title": "3回の結果を確認",
+            "body": "③と⑧なら、1回目は左に重い1枚、2回目も左に重い1枚、3回目は両側に1枚ずつで、すべて一致します。",
+            "equation": "3回目の左の重い枚数−右の重い枚数＝0"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "4R19"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "figure": "figs/n-3f52b010743c8125a5ecdadcd4cdf8e8.png",
+      "notionId": "3f52b010743c8125a5ecdadcd4cdf8e8",
+      "subdivision": {
+        "id": "3fd2b010743c8191a60cc26d6fad10c8",
+        "name": "つり合いから重さ",
+        "chu": "天びんと重さの推理",
+        "dai": "条件整理・論理",
+        "order": 553
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KB22①例(1)",
+      "unitId": "notion.3f82b010743c8152bb10de185442f6d1-1",
+      "category": "oneline",
+      "domain": "概数・四捨五入・範囲",
+      "text": "次の問いに答えなさい。\n(1) 切り上げて百の位までの概数にした時に6200になるような整数の範囲を「以上・より大きく」「以下・未満」という言葉を使って答えなさい。",
+      "source": {
+        "title": "KB22①例",
+        "url": "https://app.notion.com/3f82b010743c8152bb10de185442f6d1",
+        "notionPageId": "3f82b010743c8152bb10de185442f6d1",
+        "locator": "point22_共通の型_教材問題解答セット.pdf PDF通しp.2 小問(1)",
+        "verification": "原本PDF通しp.2を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"min\": 6101, \"max\": 6200, \"count\": 100}"
+      },
+      "answer": {
+        "dimension": "text",
+        "value": "6101以上6200以下",
+        "unit": "",
+        "accepted": [
+          "6100より大きく6200以下",
+          "6101以上6201未満",
+          "6100より大きく6201未満"
+        ]
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "切り上げの区切り",
+            "body": "百の位までの切り上げでは100ごとに区切ります。",
+            "equation": "6200−100＝6100",
+            "checkpoint": {
+              "prompt": "6200より100小さい数はいくつですか。",
+              "answer": {
+                "n": "6100",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "下端を考える",
+            "body": "6100ちょうどは6100のままです。6200になる最初の整数は6101です。",
+            "equation": "6100＋1＝6101"
+          },
+          {
+            "id": "s3",
+            "title": "上端を考える",
+            "body": "6200ちょうどは6200のままですが、その次の整数は6300へ切り上がります。",
+            "equation": "6200＋1＝6201"
+          },
+          {
+            "id": "s4",
+            "title": "範囲にまとめる",
+            "body": "6101以上6200以下、または6100より大きく6200以下と答えます。",
+            "equation": "6200−6101＋1＝100"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KB22"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f82b010743c8152bb10de185442f6d1",
+      "subdivision": {
+        "id": "40a2b010743c81e1b540cc3df4971d8e",
+        "name": "概数（切り捨て・切り上げ・四捨五入と原数範囲）",
+        "chu": "概数・四捨五入・範囲",
+        "dai": "数の性質",
+        "order": 48
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KB94①例",
+      "unitId": "notion.3f82b010743c81c2889dd93767ba3bb7",
+      "category": "oneline",
+      "domain": "倍数の判定",
+      "text": "11の倍数をすべて選びなさい。\n3456、3564、2728、66144、55154、23123、777777",
+      "source": {
+        "title": "KB94①例",
+        "url": "https://app.notion.com/3f82b010743c81c2889dd93767ba3bb7",
+        "notionPageId": "3f82b010743c81c2889dd93767ba3bb7",
+        "locator": "point94_共通の型_教材問題解答セット.pdf PDF通しp.2",
+        "verification": "原本PDF通しp.2を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[3564, 2728, 55154, 777777]"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "3564",
+          "2728",
+          "55154",
+          "777777"
+        ],
+        "unit": ""
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "11の倍数の判定",
+            "body": "一の位から交互に分けた数字の和の差が0または11の倍数なら、もとの数は11の倍数です。3564は差が0です。",
+            "equation": "(4＋5)−(6＋3)＝0",
+            "checkpoint": {
+              "prompt": "2728の交互の和の差はいくつですか。",
+              "answer": {
+                "n": "11",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "2728を確かめる",
+            "body": "交互の和の差が11なので、2728も選びます。",
+            "equation": "(8＋7)−(2＋2)＝11"
+          },
+          {
+            "id": "s3",
+            "title": "残りの正解を調べる",
+            "body": "55154は差0、777777も差0なので選びます。",
+            "equation": "(4＋1＋5)−(5＋5)＝0"
+          },
+          {
+            "id": "s4",
+            "title": "選ばない数を除く",
+            "body": "3456、66144、23123の差はそれぞれ2、1、1です。答えは3564、2728、55154、777777です。",
+            "equation": "(6＋4)−(5＋3)＝2"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KB94"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f82b010743c81c2889dd93767ba3bb7",
+      "subdivision": {
+        "id": "3fd2b010743c81778926fb8dde144b16",
+        "name": "交互和による倍数判定",
+        "chu": "倍数の判定",
+        "dai": "数の性質",
+        "order": 62
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KB1①例",
+      "unitId": "notion.3f82b010743c81a7a36eec1c177d2def",
+      "category": "oneline",
+      "domain": "約数・素因数分解",
+      "text": "1から15までの整数のうち、素数をすべて書きなさい。",
+      "source": {
+        "title": "KB1①例",
+        "url": "https://app.notion.com/3f82b010743c81a7a36eec1c177d2def",
+        "notionPageId": "3f82b010743c81a7a36eec1c177d2def",
+        "locator": "point1_共通の型_教材問題解答セット.pdf PDF通しp.2",
+        "verification": "原本PDF通しp.2を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[2, 3, 5, 7, 11, 13]"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "2",
+          "3",
+          "5",
+          "7",
+          "11",
+          "13"
+        ],
+        "unit": ""
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "素数の意味",
+            "body": "素数の約数は1とその数の2つだけです。1の約数は1つなので除きます。",
+            "equation": "1の約数の個数＝1",
+            "checkpoint": {
+              "prompt": "素数の約数は何個ですか。",
+              "answer": {
+                "n": "2",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "2の倍数を調べる",
+            "body": "2は素数ですが、4、6、8、10、12、14は2で割れるので除きます。",
+            "equation": "14÷2＝7"
+          },
+          {
+            "id": "s3",
+            "title": "奇数を調べる",
+            "body": "9と15も3で割れるので除きます。3、5、7、11、13は1と自分自身以外では割り切れません。",
+            "equation": "15÷3＝5"
+          },
+          {
+            "id": "s4",
+            "title": "すべて書く",
+            "body": "残る素数は2、3、5、7、11、13です。",
+            "equation": "1＋5＝6"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KB1"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f82b010743c81a7a36eec1c177d2def",
+      "subdivision": {
+        "id": "40a2b010743c81d2a012de0f1338a224",
+        "name": "素数の判定・列挙",
+        "chu": "約数・素因数分解",
+        "dai": "数の性質",
+        "order": 64
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KB5①例",
+      "unitId": "notion.3f82b010743c81e9ba2ee76355ae5bd1",
+      "category": "oneline",
+      "domain": "約数・素因数分解",
+      "text": "以下の整数のうち、約数が3個のものをすべて選びなさい。\n12、36、49、81、121、169、225、300",
+      "source": {
+        "title": "KB5①例",
+        "url": "https://app.notion.com/3f82b010743c81e9ba2ee76355ae5bd1",
+        "notionPageId": "3f82b010743c81e9ba2ee76355ae5bd1",
+        "locator": "point5_共通の型_教材問題解答セット.pdf PDF通しp.2",
+        "verification": "原本PDF通しp.2を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"12\": 6, \"36\": 9, \"49\": 3, \"81\": 5, \"121\": 3, \"169\": 3, \"225\": 9, \"300\": 18}"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "49",
+          "121",
+          "169"
+        ],
+        "unit": ""
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "約数が3個の形",
+            "body": "素数pを2回かけた数の約数は1、p、p×pの3つです。",
+            "equation": "約数の個数＝3",
+            "checkpoint": {
+              "prompt": "7×7はいくつですか。",
+              "answer": {
+                "n": "49",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "49を調べる",
+            "body": "49は素数7の平方なので選びます。",
+            "equation": "7×7＝49"
+          },
+          {
+            "id": "s3",
+            "title": "121と169を調べる",
+            "body": "121は11の平方、169は13の平方で、11と13は素数です。",
+            "equation": "11×11＝121"
+          },
+          {
+            "id": "s4",
+            "title": "他の数を確認",
+            "body": "81は9の平方ですが9は素数ではなく約数が5個あります。他の候補も約数が3個ではありません。答えは49、121、169です。",
+            "equation": "13×13＝169"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KB5"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f82b010743c81e9ba2ee76355ae5bd1",
+      "subdivision": {
+        "id": "40a2b010743c81189fecf625a16bc53f",
+        "name": "約数の対と中央項による平方数判定",
+        "chu": "約数・素因数分解",
+        "dai": "数の性質",
+        "order": 68
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KB100①例(1)",
+      "unitId": "notion.3f82b010743c818db4d0da88df75864b-1",
+      "category": "oneline",
+      "domain": "約数・素因数分解",
+      "text": "□にあてはまる値をすべて答えなさい。ただし、ここで「割り切れる」とは商が整数で割り切れることを指します。\n(1) 1から順番に整数をかけていった1×2×3×4×5…×□の答えは、2で7回目まで割ることができ、8回目でようやく割りきれなくなりました。",
+      "source": {
+        "title": "KB100①例",
+        "url": "https://app.notion.com/3f82b010743c818db4d0da88df75864b",
+        "notionPageId": "3f82b010743c818db4d0da88df75864b",
+        "locator": "point100_共通の型_教材問題解答セット.pdf PDF通しp.2 小問(1)",
+        "verification": "原本PDF通しp.2を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[8, 9]"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "8",
+          "9"
+        ],
+        "unit": ""
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "2の個数を数える",
+            "body": "2で割れる回数は、積の中にある素因数2の個数です。1から7まででは4個です。",
+            "equation": "1＋2＋1＝4",
+            "checkpoint": {
+              "prompt": "8の素因数2は何個ですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "8までかける",
+            "body": "8は2が3個の積なので、8までかけると2は7個になります。",
+            "equation": "4＋3＝7"
+          },
+          {
+            "id": "s3",
+            "title": "9と10を調べる",
+            "body": "9には2がないので7個のままですが、10をかけると2が1個増えて8個になります。",
+            "equation": "7＋1＝8"
+          },
+          {
+            "id": "s4",
+            "title": "条件に合う値",
+            "body": "2の個数が7個のままになるのは8までと9までです。□は8、9です。",
+            "equation": "9−8＋1＝2"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KB100"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f82b010743c818db4d0da88df75864b",
+      "subdivision": {
+        "id": "40a2b010743c8147b6cef245616bc34d",
+        "name": "割れる回数の条件を素因数の個数の範囲に直し、n!の素因数を数えてnを逆算",
+        "chu": "約数・素因数分解",
+        "dai": "数の性質",
+        "order": 70
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R15K-11",
+      "unitId": "notion.3f62b010743c812bb248e3911442b69d",
+      "category": "oneline",
+      "domain": "約数・素因数分解",
+      "text": "420を素因数分解すると、420＝□です。",
+      "source": {
+        "title": "R15K-11",
+        "url": "https://app.notion.com/3f62b010743c812bb248e3911442b69d",
+        "notionPageId": "3f62b010743c812bb248e3911442b69d",
+        "locator": "5-15 割合(1)-基本-.pdf PDF通しp.1",
+        "verification": "原本PDF通しp.1を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"factors\": [2, 2, 3, 5, 7], \"product\": 420}"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "2,2,3,5,7"
+        ],
+        "unit": "",
+        "tuple": "unordered"
+      },
+      "difficulty": 1,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "最小の素数で割る",
+            "body": "偶数なのでまず2で割ります。",
+            "equation": "420÷2＝210",
+            "checkpoint": {
+              "prompt": "420÷2はいくつですか。",
+              "answer": {
+                "n": "210",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "もう一度2で割る",
+            "body": "商も偶数なので、さらに2で割ります。",
+            "equation": "210÷2＝105"
+          },
+          {
+            "id": "s3",
+            "title": "残りを素数に分ける",
+            "body": "残りを3で割り、素数だけになるまで分けます。",
+            "equation": "105÷3＝35"
+          },
+          {
+            "id": "s4",
+            "title": "素数の積で表す",
+            "body": "すべて素数になりました。積をかけ戻すともとの数になります。",
+            "equation": "2×2×3×5×7＝420"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "R15"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f62b010743c812bb248e3911442b69d",
+      "subdivision": {
+        "id": "3fd2b010743c81ac9b3be32cb612fff1",
+        "name": "素因数分解",
+        "chu": "約数・素因数分解",
+        "dai": "数の性質",
+        "order": 65
+      },
+      "role": "代表"
+    },
+    {
+      "id": "4R11K-12",
+      "unitId": "notion.3f52b010743c8167b2e2f2ca65cdaba3",
+      "category": "oneline",
+      "domain": "約数・素因数分解",
+      "text": "60を素因数分解すると、60＝□です。",
+      "source": {
+        "title": "4R11K-12",
+        "url": "https://app.notion.com/3f52b010743c8167b2e2f2ca65cdaba3",
+        "notionPageId": "3f52b010743c8167b2e2f2ca65cdaba3",
+        "locator": "4-11 文章題(4)-過不足算.pdf PDF通しp.1",
+        "verification": "原本PDF通しp.1を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"factors\": [2, 2, 3, 5], \"product\": 60}"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "2,2,3,5"
+        ],
+        "unit": "",
+        "tuple": "unordered"
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "最小の素数で割る",
+            "body": "偶数なのでまず2で割ります。",
+            "equation": "60÷2＝30",
+            "checkpoint": {
+              "prompt": "60÷2はいくつですか。",
+              "answer": {
+                "n": "30",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "もう一度2で割る",
+            "body": "商も偶数なので、さらに2で割ります。",
+            "equation": "30÷2＝15"
+          },
+          {
+            "id": "s3",
+            "title": "残りを素数に分ける",
+            "body": "残りを3で割り、素数だけになるまで分けます。",
+            "equation": "15÷3＝5"
+          },
+          {
+            "id": "s4",
+            "title": "素数の積で表す",
+            "body": "すべて素数になりました。積をかけ戻すともとの数になります。",
+            "equation": "2×2×3×5＝60"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "4R11"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c8167b2e2f2ca65cdaba3",
+      "subdivision": {
+        "id": "3fd2b010743c81ac9b3be32cb612fff1",
+        "name": "素因数分解",
+        "chu": "約数・素因数分解",
+        "dai": "数の性質",
+        "order": 65
+      },
+      "role": "代表"
+    },
+    {
+      "id": "春04L⑥-2",
+      "unitId": "notion.3f52b010743c815494ccc7bf282b3a54",
+      "category": "oneline",
+      "domain": "概数・四捨五入・範囲",
+      "text": "ある数の小数第3位を四捨五入し、次に3.3を加えてから1.8倍し、最後に小数第1位を四捨五入すると、16になります。ある数はどのような範囲にありますか。",
+      "source": {
+        "title": "春04L⑥-2",
+        "url": "https://app.notion.com/3f52b010743c815494ccc7bf282b3a54",
+        "notionPageId": "3f52b010743c815494ccc7bf282b3a54",
+        "locator": "5-春04 数に関する問題(2).pdf PDF通しp.14",
+        "verification": "原本PDF通しp.14を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"rounded_min\": \"133/25\", \"rounded_max\": \"293/50\", \"lower\": \"1063/200\", \"upper\": \"1173/200\"}"
+      },
+      "answer": {
+        "dimension": "text",
+        "value": "5.315以上5.865未満",
+        "unit": "",
+        "accepted": [
+          "5.315以上で5.865未満",
+          "5.315≦x＜5.865",
+          "5.315≤x<5.865"
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "最後の四捨五入を戻す",
+            "body": "最後の四捨五入前は15.5以上16.5未満です。まず境目15.5を1.8で割って3.3を引きます。",
+            "equation": "15.5÷1.8−3.3＝239/45",
+            "checkpoint": {
+              "prompt": "5.32から0.005を引くといくつですか。",
+              "answer": {
+                "n": "1063",
+                "d": "200",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "百分の一の数にする",
+            "body": "最初の四捨五入の後は小数第2位までの数です。下端239/45より小さくない最初の数は5.32です。",
+            "equation": "5.32−239/45＝2/225"
+          },
+          {
+            "id": "s3",
+            "title": "上端を調べる",
+            "body": "上端16.5から逆算すると88/15です。これより小さい小数第2位までの最大の数は5.86です。",
+            "equation": "16.5÷1.8−3.3＝88/15"
+          },
+          {
+            "id": "s4",
+            "title": "最初の四捨五入を戻す",
+            "body": "5.32になる下端は5.315、5.86になる範囲の上端は5.865未満です。",
+            "equation": "5.32−0.005＝5.315"
+          },
+          {
+            "id": "s5",
+            "title": "もとの範囲",
+            "body": "したがって5.315以上5.865未満です。上端ちょうどは5.87になってしまうので含みません。",
+            "equation": "5.86＋0.005＝5.865"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "春04"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c815494ccc7bf282b3a54",
+      "subdivision": {
+        "id": "3fd2b010743c81f9bb12c9e83880911f",
+        "name": "概数（切り捨て・切り上げ・四捨五入と原数範囲）",
+        "chu": "概数・四捨五入・範囲",
+        "dai": "数の性質",
+        "order": 49
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW420-29①(1)",
+      "unitId": "notion.3f52b010743c81178b4aed4a62c02139-1",
+      "category": "oneline",
+      "domain": "最大公約数・最小公倍数",
+      "text": "1から6までの整数を1回ずつ使って、次の2つの式のA、B、C、D、E、Fにあてはめて計算します。ただし、A＜B＜Cとします。\nD/A×E/B×F/C＝ア　D/A＋E/B＋F/C＝イ\n(1) アが整数になりました。A、B、Cに入れた数はいくつですか。3通りあります。",
+      "source": {
+        "title": "GW420-29①",
+        "url": "https://app.notion.com/3f52b010743c81178b4aed4a62c02139",
+        "notionPageId": "3f52b010743c81178b4aed4a62c02139",
+        "locator": "No.20 分数のかけ算・わり算.pdf PDF通しp.61 小問(1)",
+        "verification": "原本PDF通しp.61を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[[1, 2, 3], [1, 2, 6], [1, 3, 4]]"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "1,2,3",
+          "1,2,6",
+          "1,3,4"
+        ],
+        "unit": "",
+        "tuple": "ordered"
+      },
+      "difficulty": 6,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "全体の積を使う",
+            "body": "分母の積をPとすると分子の積は720÷Pです。",
+            "equation": "1×2×3×4×5×6＝720",
+            "checkpoint": {
+              "prompt": "1×2×3×4×5×6はいくつですか。",
+              "answer": {
+                "n": "720",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "整数になる条件",
+            "body": "アは720÷(P×P)なので、P×Pが720を割り切ればよいと分かります。",
+            "equation": "720÷(6×6)＝20"
+          },
+          {
+            "id": "s3",
+            "title": "分母の組を探す",
+            "body": "1から6から異なる3数を選び、A＜B＜Cとして調べると、(1,2,3)、(1,2,6)、(1,3,4)が残ります。",
+            "equation": "1×2×6＝12"
+          },
+          {
+            "id": "s4",
+            "title": "残る組を確認",
+            "body": "後ろの2組の分母の積はどちらも12で、アは5です。したがって求める3組はこれです。",
+            "equation": "720÷(12×12)＝5"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "GW420"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c81178b4aed4a62c02139",
+      "subdivision": {
+        "id": "3fd2b010743c81659f82cce2e8246b96",
+        "name": "分子・分母ごとに約数・倍数条件を整理する",
+        "chu": "最大公約数・最小公倍数",
+        "dai": "数の性質",
+        "order": 89
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GN規則③例8",
+      "unitId": "notion.3f52b010743c81529701c3121149a597",
+      "category": "oneline",
+      "domain": "最大公約数・最小公倍数",
+      "text": "ある34人のクラスで、4月1日(水曜日)から掃除当番を、6人ずつで行うことになりました。ただし、土曜日と日曜日に当番はなく、祝日は考えません。4月1日(水曜日)は、1番から6番の人が当番をしました。4月1日に当番だった6人が、この次にそろって当番するのは、□月□日の□曜日です。",
+      "source": {
+        "title": "GN規則③例8",
+        "url": "https://app.notion.com/3f52b010743c81529701c3121149a597",
+        "notionPageId": "3f52b010743c81529701c3121149a597",
+        "locator": "規則性.pdf PDF通しp.47",
+        "verification": "原本PDF通しp.47を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"cycle\": 17, \"date\": \"2020-04-24\", \"weekday\": 4}"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "月",
+            "n": "4",
+            "d": "1",
+            "unit": "月",
+            "dimension": "scalar"
+          },
+          {
+            "label": "日",
+            "n": "24",
+            "d": "1",
+            "unit": "日",
+            "dimension": "scalar"
+          },
+          {
+            "label": "曜日",
+            "dimension": "text",
+            "value": "金曜日",
+            "unit": "",
+            "accepted": [
+              "金",
+              "金曜"
+            ]
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "同じ組に戻る人数",
+            "body": "34と6の最小公倍数は102です。のべ102人が当番をした次に同じ6人に戻ります。",
+            "equation": "34×3＝102",
+            "checkpoint": {
+              "prompt": "102人を6人ずつに分けると何日分ですか。",
+              "answer": {
+                "n": "17",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "何日目か",
+            "body": "102人を6人ずつに分けると17日分なので、戻るのは18日目です。",
+            "equation": "102÷6＋1＝18"
+          },
+          {
+            "id": "s3",
+            "title": "当番の日を数える",
+            "body": "4月1〜3日の3日と、次の2週間の10日で13日分です。残り5日を4月20日から数えます。",
+            "equation": "18−3−10＝5"
+          },
+          {
+            "id": "s4",
+            "title": "日付と曜日",
+            "body": "4月20日月曜日から5日目は4月24日金曜日です。",
+            "equation": "20＋5−1＝24"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "GN規則"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c81529701c3121149a597",
+      "subdivision": {
+        "id": "3fd2b010743c812e96a3ef2dbde13036",
+        "name": "周期内の数量積算と累計到達",
+        "chu": "最大公約数・最小公倍数",
+        "dai": "数の性質",
+        "order": 90
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GN規則③例5",
+      "unitId": "notion.3f52b010743c81d3bb57ea8efafa8df0",
+      "category": "oneline",
+      "domain": "等差数列と和",
+      "text": "ある月の月曜日の数字の和が62なら、その月の1日は□曜日です。",
+      "source": {
+        "title": "GN規則③例5",
+        "url": "https://app.notion.com/3f52b010743c81d3bb57ea8efafa8df0",
+        "notionPageId": "3f52b010743c81d3bb57ea8efafa8df0",
+        "locator": "規則性.pdf PDF通しp.44",
+        "verification": "原本PDF通しp.44を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[[4, 5]]"
+      },
+      "answer": {
+        "dimension": "text",
+        "value": "木曜日",
+        "unit": "",
+        "accepted": [
+          "木",
+          "木曜"
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "月曜日の回数",
+            "body": "月曜日が5回なら最初の日付を除いた7日ごとの差だけで70になるので、和62にはなりません。",
+            "equation": "7×(1＋2＋3＋4)＝70",
+            "checkpoint": {
+              "prompt": "最初の月曜日は何日ですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "4回の差の和",
+            "body": "月曜日は4回です。最初からの差の和は42です。",
+            "equation": "7×(1＋2＋3)＝42"
+          },
+          {
+            "id": "s3",
+            "title": "最初の月曜日",
+            "body": "62から42を引いた20は最初の日付4回分です。最初の月曜日は5日です。",
+            "equation": "(62−42)÷4＝5"
+          },
+          {
+            "id": "s4",
+            "title": "1日の曜日",
+            "body": "5日が月曜日なので、4日前の1日は木曜日です。",
+            "equation": "5−1＝4"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "GN規則"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c81d3bb57ea8efafa8df0",
+      "subdivision": {
+        "id": "3fd2b010743c813bbccaebf6138e3fe0",
+        "name": "対称な組を作る一定和の総和",
+        "chu": "等差数列と和",
+        "dai": "規則性",
+        "order": 254
+      },
+      "role": "代表"
+    },
+    {
+      "id": "春04K-22",
+      "unitId": "notion.3f52b010743c81338f6fc86698767104",
+      "category": "oneline",
+      "domain": "暦・日付・曜日",
+      "text": "ある年の3月3日は木曜日でした。この年の5月5日は□曜日です。",
+      "source": {
+        "title": "春04K-22",
+        "url": "https://app.notion.com/3f52b010743c81338f6fc86698767104",
+        "notionPageId": "3f52b010743c81338f6fc86698767104",
+        "locator": "5-春04 数に関する問題(2).pdf PDF通しp.1",
+        "verification": "原本PDF通しp.1を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"days\": 63, \"weekday\": 3}"
+      },
+      "answer": {
+        "dimension": "text",
+        "value": "木",
+        "unit": "",
+        "accepted": [
+          "木曜",
+          "木曜日"
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "3月から4月まで",
+            "body": "3月3日から4月3日までは3月の日数31日です。",
+            "equation": "3月の日数＝31",
+            "checkpoint": {
+              "prompt": "3月3日から5月5日までは何日後ですか。",
+              "answer": {
+                "n": "63",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "4月から5月まで",
+            "body": "4月3日から5月3日までは30日です。",
+            "equation": "31＋30＝61"
+          },
+          {
+            "id": "s3",
+            "title": "5月5日まで",
+            "body": "さらに2日進むので、3月3日の63日後です。",
+            "equation": "61＋2＝63"
+          },
+          {
+            "id": "s4",
+            "title": "7日周期で戻る",
+            "body": "63日はちょうど9週間なので、曜日は同じ木曜日です。",
+            "equation": "63÷7＝9"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "春04"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c81338f6fc86698767104",
+      "subdivision": {
+        "id": "3fd2b010743c81218dbfc938a7ddba97",
+        "name": "日付の通算と7日周期",
+        "chu": "暦・日付・曜日",
+        "dai": "規則性",
+        "order": 280
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KB265①例",
+      "unitId": "notion.3f82b010743c81baafebc93ef9a05adc",
+      "category": "oneline",
+      "domain": "暦・日付・曜日",
+      "text": "次の年のうち、うるう年に該当するものを全て選びなさい。\n2032年、1999年、1995年、2028年、1900年、2000年、2100年",
+      "source": {
+        "title": "KB265①例",
+        "url": "https://app.notion.com/3f82b010743c81baafebc93ef9a05adc",
+        "notionPageId": "3f82b010743c81baafebc93ef9a05adc",
+        "locator": "point265_共通の型_教材問題解答セット.pdf PDF通しp.2",
+        "verification": "原本PDF通しp.2を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：[2032, 2028, 2000]"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "2032",
+          "2028",
+          "2000"
+        ],
+        "unit": "",
+        "aliases": {
+          "2032年": "2032",
+          "2028年": "2028",
+          "2000年": "2000"
+        }
+      },
+      "difficulty": 2,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "4の倍数を選ぶ",
+            "body": "まず4で割り切れる年を選びます。2032年は4の倍数です。",
+            "equation": "2032÷4＝508",
+            "checkpoint": {
+              "prompt": "2000÷400はいくつですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "2028年も確認",
+            "body": "2028年も4の倍数です。1999年と1995年は4で割り切れません。",
+            "equation": "2028÷4＝507"
+          },
+          {
+            "id": "s3",
+            "title": "100の倍数の例外",
+            "body": "1900年、2000年、2100年は100の倍数ですが、この中で400でも割り切れるのは2000年だけです。",
+            "equation": "2000÷400＝5"
+          },
+          {
+            "id": "s4",
+            "title": "すべて選ぶ",
+            "body": "したがってうるう年は2032年、2028年、2000年です。",
+            "equation": "2＋1＝3"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KB265"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f82b010743c81baafebc93ef9a05adc",
+      "subdivision": {
+        "id": "3fd2b010743c8144ad14d562342336d6",
+        "name": "日付の通算と7日周期",
+        "chu": "暦・日付・曜日",
+        "dai": "規則性",
+        "order": 281
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GN規則③練6(1)",
+      "unitId": "notion.3f52b010743c81abb559d9f4884051da-1",
+      "category": "oneline",
+      "domain": "暦・日付・曜日",
+      "text": "西暦2023年1月1日は日曜日で、4月1日は土曜日です。\n① 西暦2024年1月1日は□曜日で、4月1日は□曜日です。",
+      "source": {
+        "title": "GN規則③練6",
+        "url": "https://app.notion.com/3f52b010743c81abb559d9f4884051da",
+        "notionPageId": "3f52b010743c81abb559d9f4884051da",
+        "locator": "規則性.pdf PDF通しp.45 小問(1)",
+        "verification": "原本PDF通しp.45を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"Jan1\": 0, \"Apr1\": 0, \"days\": 91}"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "1月1日",
+            "dimension": "text",
+            "value": "月曜日",
+            "unit": "",
+            "accepted": [
+              "月",
+              "月曜"
+            ]
+          },
+          {
+            "label": "4月1日",
+            "dimension": "text",
+            "value": "月曜日",
+            "unit": "",
+            "accepted": [
+              "月",
+              "月曜"
+            ]
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "2023年の日数",
+            "body": "2023年は平年で365日です。7で割った余りは1なので、次の1月1日は1曜日進みます。",
+            "equation": "365＝7×52＋1",
+            "checkpoint": {
+              "prompt": "2024年1月1日から4月1日までは何日ですか。",
+              "answer": {
+                "n": "91",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "1月1日の曜日",
+            "body": "日曜日の翌日は月曜日です。2024年1月1日は月曜日になります。",
+            "equation": "進む曜日の数＝1"
+          },
+          {
+            "id": "s3",
+            "title": "4月1日までの日数",
+            "body": "2024年はうるう年なので、1月から3月までの日数は31、29、31日です。",
+            "equation": "31＋29＋31＝91"
+          },
+          {
+            "id": "s4",
+            "title": "4月1日の曜日",
+            "body": "91日はちょうど13週間です。1月1日と同じ月曜日になります。",
+            "equation": "91÷7＝13"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "GN規則"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "3f52b010743c81abb559d9f4884051da",
+      "subdivision": {
+        "id": "3fd2b010743c8144ad14d562342336d6",
+        "name": "日付の通算と7日周期",
+        "chu": "暦・日付・曜日",
+        "dai": "規則性",
+        "order": 281
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KB76①例",
+      "unitId": "notion.3f82b010743c81f7af42d94984c58bae",
+      "category": "geometry",
+      "domain": "展開図・組み立て",
+      "text": "下の図は、正八面体の展開図です。この展開図を組み立てた時、頂点Aと重なる頂点をA〜Jの中から選びなさい。また、辺JIと重なる辺を以下の選択肢①〜⑰から選んで答えなさい。\n＜選択肢＞①辺AB ②辺AI ③辺AJ ④辺BC ⑤辺BI ⑥辺CH ⑦辺CD ⑧辺DH ⑨辺DG ⑩辺DF ⑪辺DE ⑫辺EF ⑬辺FG ⑭辺GH ⑮辺HI ⑯辺IC ⑰辺IJ",
+      "source": {
+        "title": "KB76①例",
+        "url": "https://app.notion.com/3f82b010743c81f7af42d94984c58bae",
+        "notionPageId": "3f82b010743c81f7af42d94984c58bae",
+        "locator": "point76_共通の型_教材問題解答セット.pdf PDF通しp.2",
+        "verification": "原本PDF通しp.2を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"coordinates\": {\"A\": [1, 0, 0], \"I\": [0, 1, 0], \"B\": [0, 0, 1], \"J\": [0, 0, -1], \"C\": [-1, 0, 0], \"H\": [0, 0, -1], \"D\": [0, -1, 0], \"G\": [1, 0, 0], \"F\": [0, 0, 1], \"E\": [-1, 0, 0]}, \"sameAsA\": [\"G\"], \"JI_HI\": true}"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "頂点",
+            "dimension": "text",
+            "value": "G",
+            "unit": "",
+            "accepted": [
+              "頂点G"
+            ]
+          },
+          {
+            "label": "辺",
+            "dimension": "text",
+            "value": "⑮",
+            "unit": "",
+            "accepted": [
+              "15",
+              "⑮辺HI",
+              "辺HI",
+              "HI",
+              "IH",
+              "辺IH"
+            ]
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "正八面体の頂点",
+            "body": "正八面体は正三角形8面からでき、各頂点に4面ずつ集まります。",
+            "equation": "8×3÷4＝6",
+            "checkpoint": {
+              "prompt": "正八面体の頂点は何個ですか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "反対側の頂点を追う",
+            "body": "辺IBを共有する三角形AIBとCIBではAとCが向かい合います。同様にたどるとCの反対がGなので、AとGが重なります。",
+            "equation": "向かい合う頂点の組数＝3"
+          },
+          {
+            "id": "s3",
+            "title": "JとHを対応させる",
+            "body": "辺AIを共有する三角形ではJとBが向かい合い、辺ICを共有する三角形ではHとBが向かい合うため、JとHが重なります。",
+            "equation": "JとHが重なる頂点の個数＝1"
+          },
+          {
+            "id": "s4",
+            "title": "辺の答え",
+            "body": "Iは共通なので、辺JIは辺HIと重なります。答えは頂点G、辺は⑮です。",
+            "equation": "辺HIの選択肢番号＝15"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KB76"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "figure": "figs/n-3f82b010743c81f7af42d94984c58bae.png",
+      "notionId": "3f82b010743c81f7af42d94984c58bae",
+      "subdivision": {
+        "id": "40a2b010743c81b69b24f42d35c5d8fe",
+        "name": "多面体の展開図と頂点・辺・面の対応",
+        "chu": "展開図・組み立て",
+        "dai": "立体図形",
+        "order": 466
+      },
+      "role": "代表"
+    },
+    {
+      "id": "4R19N⑥-1",
+      "unitId": "notion.3f52b010743c81d9ab6eff28e8f28a7e",
+      "category": "geometry",
+      "domain": "展開図・組み立て",
+      "text": "右の図は立方体の展開図です。これを組み立てて立方体を作ります。\n(1) 頂点Fと重なる頂点をすべて答えなさい。\n(2) 辺MNと重なる辺を答えなさい。",
+      "source": {
+        "title": "4R19N⑥-1",
+        "url": "https://app.notion.com/3f52b010743c81d9ab6eff28e8f28a7e",
+        "notionPageId": "3f52b010743c81d9ab6eff28e8f28a7e",
+        "locator": "4-19 総合-14〜18まとめ-.pdf PDF通しp.12",
+        "verification": "原本PDF通しp.12を今回目視照合。Python verify.pyによる厳密計算・全列挙・頂点対応の検算値：{\"coordinates\": {\"E\": [0, 1, -1], \"F\": [0, 0, -1], \"D\": [0, 1, 0], \"G\": [0, 0, 0], \"C\": [1, 1, 0], \"J\": [1, 0, 0], \"H\": [0, 0, -1], \"I\": [1, 0, -1], \"B\": [1, 1, -1], \"K\": [1, 0, -1], \"A\": [1, 1, 0], \"L\": [0, 0, -1], \"M\": [0, 1, -1], \"N\": [0, 1, 0]}, \"sameAsF\": [\"H\", \"L\"], \"MN_ED\": true}"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "dimension": "set",
+            "items": [
+              "H",
+              "L"
+            ],
+            "unit": "",
+            "aliases": {
+              "頂点H": "H",
+              "頂点L": "L"
+            }
+          },
+          {
+            "label": "(2)",
+            "dimension": "text",
+            "value": "ED",
+            "unit": "",
+            "accepted": [
+              "DE",
+              "辺ED",
+              "辺DE"
+            ]
+          }
+        ]
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "横4面を巻く",
+            "body": "横に4枚の正方形をつなげた部分が立方体の側面になります。左端と右端が重なります。",
+            "equation": "側面の数＝4",
+            "checkpoint": {
+              "prompt": "立方体の側面は何面ですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "下のふたを閉じる",
+            "body": "横4面を巻くとFとLが重なり、下に付いた正方形を折るとHも同じ頂点に来ます。",
+            "equation": "Fと重なる他の頂点の数＝2"
+          },
+          {
+            "id": "s3",
+            "title": "上のふたを閉じる",
+            "body": "上の正方形を折ると、MはE、NはDと重なります。",
+            "equation": "対応する端点の組数＝2"
+          },
+          {
+            "id": "s4",
+            "title": "頂点と辺を答える",
+            "body": "Fと重なるのはH、L、辺MNと重なるのは辺EDです。立方体の頂点8個にも整理できます。",
+            "equation": "立方体の頂点の数＝8"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "4R19"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "figure": "figs/n-3f52b010743c81d9ab6eff28e8f28a7e.png",
+      "notionId": "3f52b010743c81d9ab6eff28e8f28a7e",
+      "subdivision": {
+        "id": "3fd2b010743c81709536d1bf1b9886bf",
+        "name": "多面体の展開図と頂点・辺・面の対応",
+        "chu": "展開図・組み立て",
+        "dai": "立体図形",
+        "order": 465
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KB48②例(2)",
+      "unitId": "notion.3f82b010743c8112868ec7356acf74d3-2",
+      "category": "oneline",
+      "domain": "試合・リーグ戦・トーナメント",
+      "text": "A、B、C、D、Eの5チームで総当たり戦を行いました。その結果について、以下のことが分かっています。ただし、対戦の結果は必ず勝ちか負けであるものとし、5チームの順位は勝ち数が多い順に決めるものとします。\n\n分かっていること\n・Aチームが単独1位だった。\n・Bチームが単独で最下位だった。\n・AチームはDチームに勝った。\n・DチームはBチームに負けた。\n\n(2)Dチームが勝ったのは、どのチームと対戦した時ですか。当てはまるチームを以下からすべて選んで数字で答えなさい。たとえば、Aチームと答えたい時には1と解答しなさい。\n1.Aチーム　2.Bチーム　3.Cチーム　4.Eチーム",
+      "source": {
+        "title": "KB48②例",
+        "url": "https://app.notion.com/3f82b010743c8112868ec7356acf74d3",
+        "notionPageId": "3f82b010743c8112868ec7356acf74d3",
+        "locator": "point48_共通の型_教材問題解答セット.pdf、PDF通しp.4 (2)",
+        "verification": "原本画像を目視照合。Python厳密計算：勝敗全1024通りを列挙。条件適合2通り、Dが勝つ相手は全件C,E。"
+      },
+      "answer": {
+        "dimension": "set",
+        "items": [
+          "3",
+          "4"
+        ],
+        "unit": ""
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "KB48"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "Bの勝ち数の下限",
+            "body": "BはDに勝っているので、少なくとも1勝しています。",
+            "equation": "Bの確認できる勝ち数＝1（勝）",
+            "id": "s1"
+          },
+          {
+            "title": "B以外は最低2勝",
+            "body": "Bは単独最下位です。ほかのチームはBより1勝以上多いので、少なくとも2勝です。",
+            "equation": "1＋1＝2（勝）",
+            "checkpoint": {
+              "prompt": "Bが1勝のとき、単独最下位であるBより多く勝ったチームは最低何勝ですか。",
+              "answer": {
+                "n": "2",
+                "d": "1",
+                "unit": "勝",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "Dの残りの対戦",
+            "body": "DはAとBに負けています。4試合のうち勝てるのは残る2試合だけです。",
+            "equation": "4−2＝2（試合）",
+            "id": "s3"
+          },
+          {
+            "title": "2試合とも勝つ",
+            "body": "Dは少なくとも2勝し、勝てる試合も2試合だけなのでCとEの両方に勝ちます。選択肢では3と4です。",
+            "equation": "Dの勝ち数＝2（勝）",
+            "id": "s4"
+          }
+        ]
+      },
+      "notionId": "3f82b010743c8112868ec7356acf74d3",
+      "subdivision": {
+        "id": "3fd2b010743c817dbc08c10035208ed4",
+        "name": "対戦表の勝敗と勝ち数の制約",
+        "chu": "試合・リーグ戦・トーナメント",
+        "dai": "場合の数",
+        "order": 327
+      },
+      "role": "代表"
+    },
+    {
+      "id": "S09L②-3(3)",
+      "unitId": "notion.3f52b010743c8160808cd139cb45ae50-3",
+      "category": "geometry",
+      "domain": "図形の性質・対称・正多角形",
+      "text": "右の図は、点Oを対称の中心とする点対称な図形です。\n(3) AEの長さが14cmのとき、AOの長さは何cmですか。",
+      "source": {
+        "title": "S09L②-3",
+        "url": "https://app.notion.com/3f52b010743c8160808cd139cb45ae50",
+        "notionPageId": "3f52b010743c8160808cd139cb45ae50",
+        "locator": "5-夏09 対称な図形.pdf、PDF通しp.8 (3)",
+        "verification": "原本画像を目視照合。Python厳密計算：14/2=7。"
+      },
+      "answer": {
+        "n": "7",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 2,
+      "figureRequired": true,
+      "scopeUnits": [
+        "S09"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "点対称の回転",
+            "body": "点対称な図形は半回転すると重なります。",
+            "equation": "360÷2＝180（度）",
+            "checkpoint": {
+              "prompt": "半回転は何度ですか。",
+              "answer": {
+                "n": "180",
+                "d": "1",
+                "unit": "度",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "AとEの対応",
+            "body": "図でAに対応する点はEです。対応する2点を結ぶ線分の中点がOです。",
+            "equation": "AO＝OE",
+            "id": "s2"
+          },
+          {
+            "title": "線分を半分にする",
+            "body": "AEは等しいAOとOEの2本分です。",
+            "equation": "14÷2＝7（cm）",
+            "id": "s3"
+          },
+          {
+            "title": "長さを確認",
+            "body": "AOとOEを合わせると、与えられたAEの14cmになります。",
+            "equation": "7＋7＝14（cm）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/n-3f52b010743c8160808cd139cb45ae50.png",
+      "notionId": "3f52b010743c8160808cd139cb45ae50",
+      "subdivision": {
+        "id": "40a2b010743c8171a1c4e1f28715c848",
+        "name": "点対称（中心を介する対応）",
+        "chu": "図形の性質・対称・正多角形",
+        "dai": "平面図形",
+        "order": 333
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW501-05①(2)",
+      "unitId": "notion.3f52b010743c81e88efde74aa25b88fa-2",
+      "category": "geometry",
+      "domain": "面積の基本・分割",
+      "text": "次の図の斜線部分の面積を求めなさい。\n(2)",
+      "source": {
+        "title": "GW501-05①",
+        "url": "https://app.notion.com/3f52b010743c81e88efde74aa25b88fa",
+        "notionPageId": "3f52b010743c81e88efde74aa25b88fa",
+        "locator": "No.1 多角形の複合と求積.pdf、PDF通しp.13 (2)",
+        "verification": "原本画像を目視照合。Python厳密計算：15*16/2 - 15*(16-6)/2 =45。"
+      },
+      "answer": {
+        "n": "45",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GW501"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "下側の三角形の高さ",
+            "body": "台形の高さ16cmから交点より上の高さ6cmを引くと、交点から下底までの高さです。",
+            "equation": "16−6＝10（cm）",
+            "checkpoint": {
+              "prompt": "交点から下底までの高さは何cmですか。",
+              "answer": {
+                "n": "10",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "大きい三角形",
+            "body": "下底15cmと右上の頂点でできる三角形の高さは16cmです。",
+            "equation": "15×16÷2＝120（cm²）",
+            "id": "s2"
+          },
+          {
+            "title": "引く三角形",
+            "body": "下底15cmと交点でできる三角形の面積を求めます。",
+            "equation": "15×10÷2＝75（cm²）",
+            "id": "s3"
+          },
+          {
+            "title": "斜線部分",
+            "body": "大きい三角形から下側の三角形を引くと、右側の斜線部分になります。",
+            "equation": "120−75＝45（cm²）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/n-3f52b010743c81e88efde74aa25b88fa.png",
+      "notionId": "3f52b010743c81e88efde74aa25b88fa",
+      "subdivision": {
+        "id": "3fd2b010743c8152bc29fd99bfd83e85",
+        "name": "面積の和差・分割（既知面の組合せ）",
+        "chu": "面積の基本・分割",
+        "dai": "平面図形",
+        "order": 371
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R03N⑦-2(2)",
+      "unitId": "notion.3f52b010743c8191b89ecf3dd339e7b5-2",
+      "category": "oneline",
+      "domain": "約数・素因数分解",
+      "text": "一方の面が白、もう一方の面が赤のカード100枚の両面にそれぞれ1から100までの番号が書かれています。ただし、どのカードもその両面には同じ番号が書かれているとします。すべてのカードの白の面を上に向けて並べてから、次の［1］～［100］の作業を順に行います。\n［1］1の倍数の番号が書かれたカードをすべて裏返す。\n［2］2の倍数の番号が書かれたカードをすべて裏返す。\n［3］3の倍数の番号が書かれたカードをすべて裏返す。\n……\n［98］98の倍数の番号が書かれたカードをすべて裏返す。\n［99］99の倍数の番号が書かれたカードをすべて裏返す。\n［100］100の倍数の番号が書かれたカードをすべて裏返す。\n\n(2) 赤の面が上を向いているカードは全部で何枚ありますか。",
+      "source": {
+        "title": "R03N⑦-2",
+        "url": "https://app.notion.com/3f52b010743c8191b89ecf3dd339e7b5",
+        "notionPageId": "3f52b010743c8191b89ecf3dd339e7b5",
+        "locator": "5-03 数の性質(1)-約数-.pdf、PDF通しp.19 (2)",
+        "verification": "原本画像を目視照合。Python厳密計算：各番号1〜100の約数個数を直接列挙。奇数個の番号=[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]。計10枚。"
+      },
+      "answer": {
+        "n": "10",
+        "d": "1",
+        "unit": "枚",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "R03"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "番号の約数で裏返る",
+            "body": "番号6なら作業1・2・3・6で裏返ります。裏返る回数は約数の個数です。",
+            "equation": "6の約数の個数＝4（個）",
+            "checkpoint": {
+              "prompt": "番号6のカードは何回裏返されますか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "回",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "赤になる回数",
+            "body": "白から始め、2回裏返すと白に戻ります。赤になるのは奇数回裏返されたカードです。",
+            "equation": "2÷2＝1（組）",
+            "id": "s2"
+          },
+          {
+            "title": "約数が奇数個になる番号",
+            "body": "約数は積が番号になる2個を組にできます。平方数だけは平方根が自分自身と組になり、個数が奇数になります。",
+            "equation": "10×10＝100",
+            "id": "s3"
+          },
+          {
+            "title": "平方数を数える",
+            "body": "1²、2²、…、10²が1から100までにあります。したがって赤のカードは10枚です。",
+            "equation": "10−1＋1＝10（枚）",
+            "id": "s4"
+          }
+        ]
+      },
+      "notionId": "3f52b010743c8191b89ecf3dd339e7b5",
+      "subdivision": {
+        "id": "40a2b010743c816b8ec4c9c8576c8b33",
+        "name": "反転操作の偶奇を約数の対に置き換える",
+        "chu": "約数・素因数分解",
+        "dai": "数の性質",
+        "order": 77
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW505-19①",
+      "unitId": "notion.3f52b010743c81a99eaade661694781a",
+      "category": "oneline",
+      "domain": "分数・小数の性質",
+      "text": "18を分母とする分数を、小さい方から順に90個ならべました。\n1/18、2/18、3/18、4/18、5/18、6/18、7/18、8/18、9/18、10/18、11/18、12/18、……、88/18、89/18、90/18\n(1) 約分できない分数は何個ありますか。\n(2) (1)の分数の和を求めなさい。",
+      "source": {
+        "title": "GW505-19①",
+        "url": "https://app.notion.com/3f52b010743c81a99eaade661694781a",
+        "notionPageId": "3f52b010743c81a99eaade661694781a",
+        "locator": "No.5 数に関する問題（１） -分数と小数①-.pdf、PDF通しp.41 ",
+        "verification": "原本画像を目視照合。Python厳密計算：gcd(n,18)=1 (n=1..90)を列挙：30個。Fractionで総和75。"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "(1)",
+            "n": "30",
+            "d": "1",
+            "unit": "個",
+            "dimension": "scalar"
+          },
+          {
+            "label": "(2)",
+            "n": "75",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GW505"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "約分できる条件",
+            "body": "分母18の素因数は2と3なので、分子が2または3の倍数の分数は約分できます。",
+            "equation": "18＝2×3×3",
+            "id": "s1"
+          },
+          {
+            "title": "重なりを引く",
+            "body": "1から90のうち、2の倍数45個と3の倍数30個を足し、両方に含まれる6の倍数15個を引きます。",
+            "equation": "45＋30−15＝60（個）",
+            "checkpoint": {
+              "prompt": "2と3の両方の倍数は1から90までに何個ありますか。",
+              "answer": {
+                "n": "15",
+                "d": "1",
+                "unit": "個",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "約分できない個数",
+            "body": "全体90個から約分できる60個を引きます。",
+            "equation": "90−60＝30（個）",
+            "id": "s3"
+          },
+          {
+            "title": "両端から組を作る",
+            "body": "約分できない分子は1、5、7、…、83、85、89です。両端から組にすると分子の和はどれも90です。",
+            "equation": "(1＋89)÷18＝5",
+            "id": "s4"
+          },
+          {
+            "title": "組の数",
+            "body": "30個の分数を2個ずつ組にします。",
+            "equation": "30÷2＝15（組）",
+            "id": "s5"
+          },
+          {
+            "title": "和を求める",
+            "body": "各組の和5を15組分合わせます。",
+            "equation": "5×15＝75",
+            "id": "s6"
+          }
+        ]
+      },
+      "notionId": "3f52b010743c81a99eaade661694781a",
+      "subdivision": {
+        "id": "3fd2b010743c817c8b97f23378cfd854",
+        "name": "分母と互いに素な分子の計数と対称ペアによる和",
+        "chu": "分数・小数の性質",
+        "dai": "数の性質",
+        "order": 57
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R11N④-3(3)",
+      "unitId": "notion.3f52b010743c81f59aa4c8cdd16a3bb1-3",
+      "category": "oneline",
+      "domain": "グラフ",
+      "text": "ミドリさんは8時に家を出て、歩いて4kmはなれた公園にでかけました。お父さんは8時15分に車で家を出発し、3分後にミドリさんに追いつき、ミドリさんを乗せて公園に向かったところ、8時23分に着きました。右のグラフは、そのときの様子を表したものです。\n(3) ミドリさんが車に乗らずにそのまま歩いたとすると何時何分に公園に着きますか。",
+      "source": {
+        "title": "R11N④-3",
+        "url": "https://app.notion.com/3f52b010743c81f59aa4c8cdd16a3bb1",
+        "notionPageId": "3f52b010743c81f59aa4c8cdd16a3bb1",
+        "locator": "5-11 総合-07〜10まとめ-.pdf、PDF通しp.13 (3)",
+        "verification": "原本画像を目視照合。Python厳密計算：車分速4/8=1/2、追いつき位置3/2km。歩行4km所要時間18*4/(3/2)=48分。8時48分。"
+      },
+      "answer": {
+        "dimension": "clock",
+        "h": 8,
+        "m": 48,
+        "unit": ""
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "R11"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "車が走った時間",
+            "body": "8時15分から8時23分まで車は8分で4km進みました。",
+            "equation": "23−15＝8（分）",
+            "id": "s1"
+          },
+          {
+            "title": "車の分速",
+            "body": "車の1分あたりの道のりを求めます。",
+            "equation": "4÷8＝0.5（km/分）",
+            "checkpoint": {
+              "prompt": "車の分速は何kmですか。",
+              "answer": {
+                "n": "1",
+                "d": "2",
+                "unit": "km/分",
+                "dimension": "speed"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "追いついた場所",
+            "body": "車は出発から3分後に追いついたので、家からの距離は1.5kmです。",
+            "equation": "0.5×3＝1.5（km）",
+            "id": "s3"
+          },
+          {
+            "title": "歩く時間を比で求める",
+            "body": "ミドリさんは8時18分までの18分で1.5km歩きました。同じ速さで4km歩く時間を求めます。",
+            "equation": "18×4÷1.5＝48（分）",
+            "id": "s4"
+          },
+          {
+            "title": "到着時刻",
+            "body": "8時から48分後が到着時刻です。",
+            "equation": "8時00分＋48分＝8時48分",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/n-3f52b010743c81f59aa4c8cdd16a3bb1.png",
+      "notionId": "3f52b010743c81f59aa4c8cdd16a3bb1",
+      "subdivision": {
+        "id": "40a2b010743c81b1b8cddd8035b4f6bb",
+        "name": "出発時刻をそろえて出会いを求める",
+        "chu": "グラフ",
+        "dai": "速さ",
+        "order": 230
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW510-30①(3)",
+      "unitId": "notion.3f52b010743c816b9b31cb0ca3fb5930-3",
+      "category": "oneline",
+      "domain": "動点・図形の移動",
+      "text": "右の図のように、辺AB、BC、ADの長さがそれぞれ6cm、15cm、9cmの台形ABCDがあります。点Eは、点Aを出発し、辺AD上を毎分4cmの速さで1往復します。点Eが出発すると同時に、点Fも点Bを出発し、辺BC上を毎分6cmの速さで1往復します。\nこのとき、次の問いに答えなさい。\n(3) 四角形ABFEの面積が、もっとも大きくなるときの面積を求めなさい。",
+      "source": {
+        "title": "GW510-30①",
+        "url": "https://app.notion.com/3f52b010743c816b9b31cb0ca3fb5930",
+        "notionPageId": "3f52b010743c816b9b31cb0ca3fb5930",
+        "locator": "No.10 速さ（４） -図形上の点の移動②-.pdf、PDF通しp.63 (3)",
+        "verification": "原本画像を目視照合。Python厳密計算：区分線形の折点と停止点の(時刻,面積)=[(Fraction(0, 1), Fraction(0, 1)), (Fraction(9, 4), Fraction(135, 2)), (Fraction(5, 2), Fraction(69, 1)), (Fraction(9, 2), Fraction(9, 1)), (Fraction(5, 1), Fraction(0, 1))]。最大69cm²。"
+      },
+      "answer": {
+        "n": "69",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GW510"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "面積を決める長さ",
+            "body": "高さは6cmで一定なので、AEとBFの和が最も大きいときに面積も最大です。",
+            "equation": "四角形ABFEの面積＝(AE＋BF)×6÷2",
+            "id": "s1"
+          },
+          {
+            "title": "Eが折り返す時刻",
+            "body": "Eは9cmを毎分4cmで進むので、2.25分後に折り返します。",
+            "equation": "9÷4＝2.25（分）",
+            "id": "s2"
+          },
+          {
+            "title": "Fが折り返す時刻",
+            "body": "Fは15cmを毎分6cmで進み、2.5分後に折り返します。",
+            "equation": "15÷6＝2.5（分）",
+            "checkpoint": {
+              "prompt": "Fが折り返すのは何分後ですか。",
+              "answer": {
+                "n": "5",
+                "d": "2",
+                "unit": "分",
+                "dimension": "time"
+              }
+            },
+            "id": "s3"
+          },
+          {
+            "title": "最大になる時刻",
+            "body": "Eが先に戻り始めてもFの増加のほうが大きいため、長さの和は毎分2cm増えます。Fも折り返すと両方の長さが減るので、最大は2.5分後です。",
+            "equation": "6−4＝2（cm/分）",
+            "id": "s4"
+          },
+          {
+            "title": "そのときのAE",
+            "body": "EはDから0.25分間戻っているので、AEは8cmです。",
+            "equation": "9−4×(2.5−2.25)＝8（cm）",
+            "id": "s5"
+          },
+          {
+            "title": "最大面積",
+            "body": "BFは15cmなので、台形の面積の公式を使います。",
+            "equation": "(8＋15)×6÷2＝69（cm²）",
+            "id": "s6"
+          }
+        ]
+      },
+      "figure": "figs/n-3f52b010743c816b9b31cb0ca3fb5930.png",
+      "notionId": "3f52b010743c816b9b31cb0ca3fb5930",
+      "subdivision": {
+        "id": "3fd2b010743c813aa900f85621ef8755",
+        "name": "動点の長さを①秒後の式にして図形条件を入れる",
+        "chu": "動点・図形の移動",
+        "dai": "速さ",
+        "order": 242
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW521-13①(2)",
+      "unitId": "notion.40b2b010743c811dbdddfdd92696567e-2",
+      "category": "oneline",
+      "domain": "通過算",
+      "text": "A電車に乗っているある人が、自分の前の窓を反対方向に3秒で通り過ぎるB電車を見ました。B電車の長さは135mです。\nつぎに、この人の前の窓が長さ175mの鉄橋を通過するのに、7秒かかりました。\n(2) B電車の速さは、時速何kmですか。",
+      "source": {
+        "title": "GW521-13①",
+        "url": "https://app.notion.com/40b2b010743c811dbdddfdd92696567e",
+        "notionPageId": "40b2b010743c811dbdddfdd92696567e",
+        "path": "/算数DB/原本/G脳ワークアウト/5年/No.21 速さに関する文章問題（４） -通過算-.pdf",
+        "locator": "PDF通し29頁（冊子25頁）①(2)",
+        "verification": "問題頁と解答頁を画像目視照合。Python Fraction検算：135/3=45;175/7=25;45-25=20;20*18/5=72 km/h"
+      },
+      "answer": {
+        "n": "72",
+        "d": "1",
+        "unit": "km/h",
+        "dimension": "speed"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "title": "窓から見た速さ",
+            "body": "窓を一点と考えます。反対方向に進むB電車の長さ135mが3秒で窓の前を通るので、AとBの秒速の和を求めます。",
+            "equation": "135÷3＝45",
+            "checkpoint": {
+              "prompt": "135÷3 はいくつですか。",
+              "answer": {
+                "n": "45",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "A電車の秒速",
+            "body": "窓が鉄橋を通過するとき、窓の進む道のりは鉄橋の長さ175mです。A電車の長さは加えません。",
+            "equation": "175÷7＝25",
+            "id": "s2"
+          },
+          {
+            "title": "B電車の秒速",
+            "body": "秒速の和45mからA電車の秒速25mを引きます。",
+            "equation": "45−25＝20",
+            "id": "s3"
+          },
+          {
+            "title": "時速に直す",
+            "body": "1時間は3600秒、1kmは1000mなので、秒速20mを時速に直します。",
+            "equation": "20×3600÷1000＝72",
+            "id": "s4"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "GW521"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "40b2b010743c811dbdddfdd92696567e",
+      "subdivision": {
+        "id": "40b2b010743c81358df2edf9f7523108",
+        "name": "動くもの（列車・人）とのすれ違い・追い越し",
+        "chu": "通過算",
+        "dai": "速さ",
+        "order": 223.05
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW521-15①(2)",
+      "unitId": "notion.40b2b010743c8110bdd4fc904d3c6ab7-2",
+      "category": "oneline",
+      "domain": "通過算",
+      "text": "長さ150mの上り列車Aが300mの鉄橋を渡り始めてから渡り終わるまでに30秒かかります。いま、長さ135m、時速108kmの下り列車Bと列車Aが同時にこの橋を渡り始めました。\n(2) A列車とB列車が同時にこの橋を渡り始めてからすれちがいが終わるまでに何秒かかりましたか。",
+      "source": {
+        "title": "GW521-15①",
+        "url": "https://app.notion.com/40b2b010743c8110bdd4fc904d3c6ab7",
+        "notionPageId": "40b2b010743c8110bdd4fc904d3c6ab7",
+        "path": "/算数DB/原本/G脳ワークアウト/5年/No.21 速さに関する文章問題（４） -通過算-.pdf",
+        "locator": "PDF通し33頁（冊子29頁）①(2)",
+        "verification": "問題頁と解答頁を画像目視照合。Python Fraction検算：(150+300)/30=15 m/s;108*5/18=30 m/s;(300+150+135)/(15+30)=13 s;15*13=195 m"
+      },
+      "answer": {
+        "n": "13",
+        "d": "1",
+        "unit": "秒",
+        "dimension": "time"
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "title": "A列車の秒速",
+            "body": "A列車が鉄橋を渡り終わるまでに先頭が進むのは、鉄橋とA列車の長さの合計です。これを30秒で割ります。",
+            "equation": "(150＋300)÷30＝15",
+            "checkpoint": {
+              "prompt": "150＋300 はいくつですか。",
+              "answer": {
+                "n": "450",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "B列車の秒速",
+            "body": "時速108kmを秒速に直します。",
+            "equation": "108×1000÷3600＝30",
+            "id": "s2"
+          },
+          {
+            "title": "すれちがい終わるまでの距離",
+            "body": "両端から渡り始め、後尾同士が並ぶまでに、2列車の先頭は合わせて鉄橋と2列車の長さの合計だけ進みます。",
+            "equation": "300＋150＋135＝585",
+            "id": "s3"
+          },
+          {
+            "title": "1秒で進む距離の和",
+            "body": "2列車は向かい合って進むので、秒速を足します。",
+            "equation": "15＋30＝45",
+            "id": "s4"
+          },
+          {
+            "title": "かかる時間",
+            "body": "合計の距離585mを秒速の和45mで割ります。",
+            "equation": "585÷45＝13",
+            "id": "s5"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "GW521"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "40b2b010743c8110bdd4fc904d3c6ab7",
+      "subdivision": {
+        "id": "40b2b010743c81358df2edf9f7523108",
+        "name": "動くもの（列車・人）とのすれ違い・追い越し",
+        "chu": "通過算",
+        "dai": "速さ",
+        "order": 223.05
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW521-27①",
+      "unitId": "notion.40b2b010743c81269842cd6731b9df5e",
+      "category": "oneline",
+      "domain": "通過算",
+      "text": "長さ80mの列車が1000mのトンネルをくぐります。列車の先頭が入り口から300m進んだところで速さを半分にしたら、列車の先頭がトンネルにはいり始めてから完全に出るまでに1分33秒かかりました。列車のはじめの速さは時速何kmですか。",
+      "source": {
+        "title": "GW521-27①",
+        "url": "https://app.notion.com/40b2b010743c81269842cd6731b9df5e",
+        "notionPageId": "40b2b010743c81269842cd6731b9df5e",
+        "path": "/算数DB/原本/G脳ワークアウト/5年/No.21 速さに関する文章問題（４） -通過算-.pdf",
+        "locator": "PDF通し57頁（冊子53頁）①",
+        "verification": "問題頁と解答頁を画像目視照合。Python Fraction検算：remaining=1000-300+80=780 m;time=60+33=93 s;v=(300+2*780)/93=20 m/s;300/20+780/10=93 s;20*18/5=72 km/h"
+      },
+      "answer": {
+        "n": "72",
+        "d": "1",
+        "unit": "km/h",
+        "dimension": "speed"
+      },
+      "difficulty": 5,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "title": "速さを変えたあとの距離",
+            "body": "列車が完全に出るには、先頭が出口から列車の長さ80mだけ先まで進みます。速さを変えたあとの距離を求めます。",
+            "equation": "1000−300＋80＝780",
+            "checkpoint": {
+              "prompt": "1000−300＋80 はいくつですか。",
+              "answer": {
+                "n": "780",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "はじめの速さにそろえる",
+            "body": "半分の速さで780m進む時間は、はじめの速さでその2倍の距離を進む時間と同じです。",
+            "equation": "780×2＝1560",
+            "id": "s2"
+          },
+          {
+            "title": "時間が同じになる合計距離",
+            "body": "最初の300mに、はじめの速さで進むと考え直した1560mを足します。",
+            "equation": "300＋1560＝1860",
+            "id": "s3"
+          },
+          {
+            "title": "時間を秒に直す",
+            "body": "1分33秒を秒だけで表します。",
+            "equation": "60＋33＝93",
+            "id": "s4"
+          },
+          {
+            "title": "はじめの秒速",
+            "body": "はじめの速さで1860mを93秒で進むと考えて、秒速を求めます。",
+            "equation": "1860÷93＝20",
+            "id": "s5"
+          },
+          {
+            "title": "時速に直す",
+            "body": "秒速20mを時速に直します。",
+            "equation": "20×3600÷1000＝72",
+            "id": "s6"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "GW521"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "40b2b010743c81269842cd6731b9df5e",
+      "subdivision": {
+        "id": "3fd2b010743c8197abc1fadcef705055",
+        "name": "同じ一点の開始・終了位置から有限長を含む通過距離を構成し、相対速度と時間を対応させる。静止対象・対向・同方向は条件差。",
+        "chu": "通過算",
+        "dai": "速さ",
+        "order": 223
+      },
+      "role": "代表"
+    },
+    {
+      "id": "S09L⑥-2",
+      "unitId": "notion.3f52b010743c81dba241d819027a61fa",
+      "category": "geometry",
+      "domain": "図形の性質・対称・正多角形",
+      "text": "（図1）の正方形のまわりに、（図2）の正方形8個を（図3）の①〜⑧の位置に置いて、大きい正方形の模様を作ります。いま、3個の正方形を（図4）のように置きました。\n（図4）の大きい正方形を次のような模様にするには、残りの正方形をどのように置いたらよいですか。いくつかの方法がありますが、そのうちの1つをそれぞれ図にかき入れなさい。\n(1) 下のあ、い両方の性質をもつ\n(2) 下のあの性質をもつが、いの性質はもたない\nあ　・のまわりに180度まわすと、もとの正方形と同じ模様になる\nい　正方形をちょうど2つに折ると、模様がぴったり重なる",
+      "source": {
+        "title": "S09L⑥-2",
+        "url": "https://app.notion.com/3f52b010743c81dba241d819027a61fa",
+        "notionPageId": "3f52b010743c81dba241d819027a61fa",
+        "path": "/算数DB/原本/5年授業/5-夏09 対称な図形.pdf",
+        "locator": "PDF通し15頁 全体",
+        "verification": "原本の問題・解答を画像目視照合。Python検算：{\"remainingChoices\": [{\"corner3\": [-1, -1], \"reflectionAxes\": []}, {\"corner3\": [-1, 1], \"reflectionAxes\": [2, 3]}, {\"corner3\": [1, -1], \"reflectionAxes\": [2, 3]}, {\"corner3\": [1, 1], \"reflectionAxes\": []}], \"bothSymmetries\": 2, \"pointOnly\": 2}"
+      },
+      "answer": {
+        "dimension": "self",
+        "figure": "figs/n-3f52b010743c81dba241d819027a61fa-ans.png",
+        "unit": ""
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "S09"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "向かい合う位置を組にする",
+            "body": "中心の点のまわりに半回転させます。①と⑧、②と⑦、③と⑥、④と⑤が対応する4組です。",
+            "equation": "8÷2＝4",
+            "id": "s1"
+          },
+          {
+            "title": "決まっている模様を半回転させる",
+            "body": "⑧の模様を半回転させて①に、②を半回転させて⑦に、④を半回転させて⑤にかきます。三角形のかげの向きも反対にします。",
+            "equation": "360÷2＝180（度）",
+            "id": "s2"
+          },
+          {
+            "title": "残る2枚を点対称にする",
+            "body": "まだ決まらない③を仮に置き、中心の点を通して半回転した向きで⑥を置きます。③と⑥を別々に選ばないようにします。",
+            "equation": "8−6＝2",
+            "id": "s3"
+          },
+          {
+            "title": "(1)の模様を完成させる",
+            "body": "③のかげを右上または左下の三角形にすると、全体が対角線について線対称になります。⑥は③を半回転した向きにし、折ったときにかげが重なることを確かめてかきます。",
+            "equation": "(1)の置き方の数＝2",
+            "id": "s4"
+          },
+          {
+            "title": "(2)の模様を完成させる",
+            "body": "③のかげを左上または右下にし、⑥はその半回転の向きにします。半回転では重なりますが、縦・横・2本の対角線のいずれで折っても全体は重なりません。",
+            "equation": "(2)の置き方の数＝2",
+            "id": "s5"
+          },
+          {
+            "title": "解答図と性質を確かめる",
+            "body": "解答図にはそれぞれ2通りが示されています。自分の図がどちらか1つと一致し、(1)は点対称と線対称、(2)は点対称だけになっているかを確認します。",
+            "equation": "2＋2＝4（通り）",
+            "id": "s6"
+          }
+        ]
+      },
+      "figure": "figs/n-3f52b010743c81dba241d819027a61fa.png",
+      "notionId": "3f52b010743c81dba241d819027a61fa",
+      "subdivision": {
+        "id": "40a2b010743c8171a1c4e1f28715c848",
+        "name": "点対称（中心を介する対応）",
+        "chu": "図形の性質・対称・正多角形",
+        "dai": "平面図形",
+        "order": 333
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW406-05①",
+      "unitId": "notion.3f52b010743c81458cafea3f66070c4e",
+      "category": "geometry",
+      "domain": "図形の性質・対称・正多角形",
+      "text": "（図1）の方眼に点を3つとりました。この3つの点をそれぞれ頂点とする平行四辺形を作るには、あと1つの点をどこにとればよいですか。当てはまる場所に点をとり、平行四辺形をかきましょう。3通りあります。",
+      "source": {
+        "title": "GW406-05①",
+        "url": "https://app.notion.com/3f52b010743c81458cafea3f66070c4e",
+        "notionPageId": "3f52b010743c81458cafea3f66070c4e",
+        "path": "/算数DB/原本/G脳ワークアウト/4年/No.6 図形のせいしつ -三角形・四角形・円-.pdf",
+        "locator": "PDF通し13頁 全体",
+        "verification": "原本の問題・解答を画像目視照合。Python検算：{\"given\": [[2, 6], [6, 2], [7, 5]], \"fourthVertices\": [[1, 3], [3, 9], [11, 1]], \"method\": \"D=A+B-C etc. Opposite vertices have identical coordinate sums; parallelogram diagonals bisect.\"}"
+      },
+      "answer": {
+        "dimension": "self",
+        "figure": "figs/n-3f52b010743c81458cafea3f66070c4e-ans.png",
+        "unit": ""
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GW406"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "3点を見分ける",
+            "body": "説明のため、左下の点をA、上の点をB、右の点をCと呼びます。3点のうち、どれを2辺が集まる頂点にするかを変えると3通りになります。",
+            "equation": "選べる頂点の数＝3",
+            "id": "s1"
+          },
+          {
+            "title": "Aを2辺が集まる頂点にする",
+            "body": "AからBへは右4目盛り・上4目盛りです。Cからも同じだけ右上へ進んだ点をとります。A、B、新しい点、Cの順に結びます。",
+            "equation": "ABの横の移動量＝4（目盛り）",
+            "id": "s2"
+          },
+          {
+            "title": "Bを2辺が集まる頂点にする",
+            "body": "BからCへは右1目盛り・下3目盛りです。Aから同じだけ移動した点をとり、B、A、新しい点、Cの順に結びます。",
+            "equation": "BCの縦の移動量＝3（目盛り）",
+            "id": "s3"
+          },
+          {
+            "title": "Cを2辺が集まる頂点にする",
+            "body": "CからBへは左1目盛り・上3目盛りです。Aから同じだけ移動した点をとり、C、A、新しい点、Bの順に結びます。",
+            "equation": "CBの横の移動量＝1（目盛り）",
+            "id": "s4"
+          },
+          {
+            "title": "3つの図を確認する",
+            "body": "どの図も向かい合う2組の辺が平行で、同じ長さになっています。解答図と比べ、3通りを別々の方眼にかけていれば完成です。",
+            "equation": "平行な辺の組数＝2",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/n-3f52b010743c81458cafea3f66070c4e.png",
+      "notionId": "3f52b010743c81458cafea3f66070c4e",
+      "subdivision": {
+        "id": "3fd2b010743c8198a0b7cecc7ad8ab5e",
+        "name": "垂直・平行と作図",
+        "chu": "図形の性質・対称・正多角形",
+        "dai": "平面図形",
+        "order": 335
+      },
+      "role": "代表"
+    },
+    {
+      "id": "S09L⑤-2",
+      "unitId": "notion.3f52b010743c8141a536c80e5248c4ba",
+      "category": "geometry",
+      "domain": "図形の性質・対称・正多角形",
+      "text": "正方形の紙を4つ折りにして、かげの部分を切り取りました。紙をもとの正方形の大きさに広げたときに切り取った部分を斜線で示しなさい。",
+      "source": {
+        "title": "S09L⑤-2",
+        "url": "https://app.notion.com/3f52b010743c8141a536c80e5248c4ba",
+        "notionPageId": "3f52b010743c8141a536c80e5248c4ba",
+        "path": "/算数DB/原本/5年授業/5-夏09 対称な図形.pdf",
+        "locator": "PDF通し14頁 全体",
+        "verification": "原本の問題・解答を画像目視照合。Python検算：{\"folds\": 2, \"reflectedCopies\": 4, \"check\": \"Two successive mirror reflections create a figure symmetric about both perpendicular folds. Final outline visually matches source answer p37.\"}"
+      },
+      "answer": {
+        "dimension": "self",
+        "figure": "figs/n-3f52b010743c8141a536c80e5248c4ba-ans.png",
+        "unit": ""
+      },
+      "difficulty": 3,
+      "figureRequired": true,
+      "scopeUnits": [
+        "S09"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "折った順を逆にたどる",
+            "body": "図では縦半分に折り、さらに横半分に折っています。開くときは、最後の横の折り目から先に戻します。",
+            "equation": "2×2＝4（重なり）",
+            "id": "s1"
+          },
+          {
+            "title": "横の折り目を確認する",
+            "body": "解答欄のかげの形は左下の4分の1にあります。横の中央線を折り目として、各角から折り目までの目盛りを数えます。",
+            "equation": "折り目から対応する2点までの距離の差＝0",
+            "id": "s2"
+          },
+          {
+            "title": "上側へ線対称に写す",
+            "body": "横の中央線から同じ目盛りだけ上側に対応する点をとり、順に結びます。左半分に上下が線対称な模様ができます。",
+            "equation": "1＋1＝2（部分）",
+            "id": "s3"
+          },
+          {
+            "title": "右側へ線対称に写す",
+            "body": "次に縦の中央線を折り目として、左半分にある各角と同じ距離の点を右側にとって結びます。上下だけでなく左右も線対称になります。",
+            "equation": "2×2＝4（部分）",
+            "id": "s4"
+          },
+          {
+            "title": "切り取った部分に斜線をつける",
+            "body": "写した4部分をすべて斜線で示します。折り目をはさんだ同じ形が4つ集まり、解答図の輪郭になることを確認します。",
+            "equation": "開く操作の回数＝2",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/n-3f52b010743c8141a536c80e5248c4ba.png",
+      "notionId": "3f52b010743c8141a536c80e5248c4ba",
+      "subdivision": {
+        "id": "40b2b010743c81e3a0d4d772077bb29c",
+        "name": "切り紙（折って切って広げる）",
+        "chu": "図形の性質・対称・正多角形",
+        "dai": "平面図形",
+        "order": 337.55
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW419-20①(1)",
+      "unitId": "notion.3f52b010743c8111be8acd5b98bac695-1",
+      "category": "oneline",
+      "domain": "数のパズル・規則の発見",
+      "text": "2、3、5、7の数字カード4まいと、．の小数点カード1まい、合計5まいのカードを使って正しい式を作ります。□に当てはまる数字を書きましょう。\n(1) □□□□÷□＝7.6",
+      "source": {
+        "title": "GW419-20①",
+        "url": "https://app.notion.com/3f52b010743c8111be8acd5b98bac695",
+        "notionPageId": "3f52b010743c8111be8acd5b98bac695",
+        "path": "/算数DB/原本/G脳ワークアウト/4年/No.19 小数のかけ算・わり算.pdf",
+        "locator": "PDF通し43頁 (1)",
+        "verification": "原本の問題・解答を画像目視照合。Python検算：[[\"266/5\", \"7\"], [\"273/100\", \"5\"], [\"723/10\", \"5\"]]"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "割られる数",
+            "n": "266",
+            "d": "5",
+            "unit": "",
+            "dimension": "scalar"
+          },
+          {
+            "label": "わる数",
+            "n": "7",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GW419"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "わる数を選ぶ",
+            "body": "わる数のらんは1枚なので、2、3、5、7のいずれかの整数です。商に候補の数をかけて、割られる数を調べます。",
+            "equation": "わる数の候補の数＝4",
+            "id": "s1"
+          },
+          {
+            "title": "かけ算で戻す",
+            "body": "わる数を7として商7.6にかけると、割られる数は53.2になります。",
+            "equation": "7.6×7＝53.2",
+            "checkpoint": {
+              "prompt": "7.6×7はいくつですか。",
+              "answer": {
+                "n": "266",
+                "d": "5",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "カードを確かめる",
+            "body": "53.2と7に使われる数字は2、3、5、7が各1枚で、小数点も1枚です。5枚を過不足なく使っています。",
+            "equation": "4＋1＝5（枚）",
+            "id": "s3"
+          },
+          {
+            "title": "割り算で検算する",
+            "body": "割られる数の欄に53.2、わる数の欄に7を入れます。割り算の答えが指定の商になることを確かめます。",
+            "equation": "53.2÷7＝7.6",
+            "id": "s4"
+          }
+        ]
+      },
+      "notionId": "3f52b010743c8111be8acd5b98bac695",
+      "subdivision": {
+        "id": "40a2b010743c81aeb07dde649fab5919",
+        "name": "数字と記号で式を作る",
+        "chu": "数のパズル・規則の発見",
+        "dai": "条件整理・論理",
+        "order": 541
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW419-20①(2)",
+      "unitId": "notion.3f52b010743c8111be8acd5b98bac695-2",
+      "category": "oneline",
+      "domain": "数のパズル・規則の発見",
+      "text": "2、3、5、7の数字カード4まいと、．の小数点カード1まい、合計5まいのカードを使って正しい式を作ります。□に当てはまる数字を書きましょう。\n(2) □□□□÷□＝0.546",
+      "source": {
+        "title": "GW419-20①",
+        "url": "https://app.notion.com/3f52b010743c8111be8acd5b98bac695",
+        "notionPageId": "3f52b010743c8111be8acd5b98bac695",
+        "path": "/算数DB/原本/G脳ワークアウト/4年/No.19 小数のかけ算・わり算.pdf",
+        "locator": "PDF通し43頁 (2)",
+        "verification": "原本の問題・解答を画像目視照合。Python検算：[[\"266/5\", \"7\"], [\"273/100\", \"5\"], [\"723/10\", \"5\"]]"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "割られる数",
+            "n": "273",
+            "d": "100",
+            "unit": "",
+            "dimension": "scalar"
+          },
+          {
+            "label": "わる数",
+            "n": "5",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GW419"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "わる数を選ぶ",
+            "body": "わる数のらんは1枚なので、2、3、5、7のいずれかの整数です。商に候補の数をかけて、割られる数を調べます。",
+            "equation": "わる数の候補の数＝4",
+            "id": "s1"
+          },
+          {
+            "title": "かけ算で戻す",
+            "body": "わる数を5として商0.546にかけると、割られる数は2.73になります。",
+            "equation": "0.546×5＝2.73",
+            "checkpoint": {
+              "prompt": "0.546×5はいくつですか。",
+              "answer": {
+                "n": "273",
+                "d": "100",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "カードを確かめる",
+            "body": "2.73と5に使われる数字は2、3、5、7が各1枚で、小数点も1枚です。5枚を過不足なく使っています。",
+            "equation": "4＋1＝5（枚）",
+            "id": "s3"
+          },
+          {
+            "title": "割り算で検算する",
+            "body": "割られる数の欄に2.73、わる数の欄に5を入れます。割り算の答えが指定の商になることを確かめます。",
+            "equation": "2.73÷5＝0.546",
+            "id": "s4"
+          }
+        ]
+      },
+      "notionId": "3f52b010743c8111be8acd5b98bac695",
+      "subdivision": {
+        "id": "40a2b010743c81aeb07dde649fab5919",
+        "name": "数字と記号で式を作る",
+        "chu": "数のパズル・規則の発見",
+        "dai": "条件整理・論理",
+        "order": 541
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GW419-20①(3)",
+      "unitId": "notion.3f52b010743c8111be8acd5b98bac695-3",
+      "category": "oneline",
+      "domain": "数のパズル・規則の発見",
+      "text": "2、3、5、7の数字カード4まいと、．の小数点カード1まい、合計5まいのカードを使って正しい式を作ります。□に当てはまる数字を書きましょう。\n(3) □□□□÷□＝14.46",
+      "source": {
+        "title": "GW419-20①",
+        "url": "https://app.notion.com/3f52b010743c8111be8acd5b98bac695",
+        "notionPageId": "3f52b010743c8111be8acd5b98bac695",
+        "path": "/算数DB/原本/G脳ワークアウト/4年/No.19 小数のかけ算・わり算.pdf",
+        "locator": "PDF通し43頁 (3)",
+        "verification": "原本の問題・解答を画像目視照合。Python検算：[[\"266/5\", \"7\"], [\"273/100\", \"5\"], [\"723/10\", \"5\"]]"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "割られる数",
+            "n": "723",
+            "d": "10",
+            "unit": "",
+            "dimension": "scalar"
+          },
+          {
+            "label": "わる数",
+            "n": "5",
+            "d": "1",
+            "unit": "",
+            "dimension": "scalar"
+          }
+        ]
+      },
+      "difficulty": 4,
+      "figureRequired": false,
+      "scopeUnits": [
+        "GW419"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "わる数を選ぶ",
+            "body": "わる数のらんは1枚なので、2、3、5、7のいずれかの整数です。商に候補の数をかけて、割られる数を調べます。",
+            "equation": "わる数の候補の数＝4",
+            "id": "s1"
+          },
+          {
+            "title": "かけ算で戻す",
+            "body": "わる数を5として商14.46にかけると、割られる数は72.3になります。",
+            "equation": "14.46×5＝72.3",
+            "checkpoint": {
+              "prompt": "14.46×5はいくつですか。",
+              "answer": {
+                "n": "723",
+                "d": "10",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "カードを確かめる",
+            "body": "72.3と5に使われる数字は2、3、5、7が各1枚で、小数点も1枚です。5枚を過不足なく使っています。",
+            "equation": "4＋1＝5（枚）",
+            "id": "s3"
+          },
+          {
+            "title": "割り算で検算する",
+            "body": "割られる数の欄に72.3、わる数の欄に5を入れます。割り算の答えが指定の商になることを確かめます。",
+            "equation": "72.3÷5＝14.46",
+            "id": "s4"
+          }
+        ]
+      },
+      "notionId": "3f52b010743c8111be8acd5b98bac695",
+      "subdivision": {
+        "id": "40a2b010743c81aeb07dde649fab5919",
+        "name": "数字と記号で式を作る",
+        "chu": "数のパズル・規則の発見",
+        "dai": "条件整理・論理",
+        "order": 541
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GR5-3(3)①",
+      "unitId": "notion.3f42b010743c816a858bed3c58d77273-1",
+      "category": "oneline",
+      "domain": "旅人算",
+      "text": "右の図のような正方形ABCDの辺上を、点Pは秒速7cmでAから、点Qは秒速2cmでBから同時に出発し、それぞれ時計回りにまわりつづけます。\n① PとQがはじめて重なるのは出発してから何秒後ですか。",
+      "source": {
+        "title": "GR5-3(3)",
+        "url": "https://app.notion.com/3f42b010743c816a858bed3c58d77273",
+        "notionPageId": "3f42b010743c816a858bed3c58d77273",
+        "path": "/算数DB/原本/GnoRev・実力テスト/5年/グノレブ5年5月.pdf",
+        "locator": "PDF通し8頁 ①",
+        "verification": "原本の問題・解答を画像目視照合。Python検算：{\"first\": \"36/5\", \"second\": \"84/5\", \"vertexTime\": \"36\", \"QVertex\": \"D\"} 指定の描き直し図を改変せず使用。原本と12cm、A/B/C/D、P/Q、進行方向が一致。"
+      },
+      "answer": {
+        "n": "36",
+        "d": "5",
+        "unit": "秒",
+        "dimension": "time"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GR5"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "進む向きを確かめる",
+            "body": "PはAからDへ、QはBからAへ進みます。Pが進む向きに見たQまでの先行距離は正方形の3辺分です。",
+            "equation": "4−1＝3（辺）",
+            "id": "s1"
+          },
+          {
+            "title": "先行距離を求める",
+            "body": "1辺12cmの3辺分を求めます。",
+            "equation": "12×3＝36（cm）",
+            "checkpoint": {
+              "prompt": "1辺12cmの3辺分は何cmですか。",
+              "answer": {
+                "n": "36",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "差の速さを求める",
+            "body": "同じ向きなので、1秒ごとにPがQに近づく道のりは速さの差です。",
+            "equation": "7−2＝5（cm/秒）",
+            "id": "s3"
+          },
+          {
+            "title": "追いつく時間",
+            "body": "先行距離36cmを毎秒5cmずつ縮めるので、重なるのは7.2秒後です。",
+            "equation": "36÷5＝7.2（秒）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/n-3f42b010743c816a858bed3c58d77273.png",
+      "notionId": "3f42b010743c816a858bed3c58d77273",
+      "subdivision": {
+        "id": "3fd2b010743c813e99baeaf4f07bb66f",
+        "name": "2人で一周ごと出会う追いつく",
+        "chu": "旅人算",
+        "dai": "速さ",
+        "order": 212
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GR5-3(3)②",
+      "unitId": "notion.3f42b010743c816a858bed3c58d77273-2",
+      "category": "oneline",
+      "domain": "旅人算",
+      "text": "右の図のような正方形ABCDの辺上を、点Pは秒速7cmでAから、点Qは秒速2cmでBから同時に出発し、それぞれ時計回りにまわりつづけます。\n② PとQが2回目に重なるのは出発してから何秒後ですか。",
+      "source": {
+        "title": "GR5-3(3)",
+        "url": "https://app.notion.com/3f42b010743c816a858bed3c58d77273",
+        "notionPageId": "3f42b010743c816a858bed3c58d77273",
+        "path": "/算数DB/原本/GnoRev・実力テスト/5年/グノレブ5年5月.pdf",
+        "locator": "PDF通し8頁 ②",
+        "verification": "原本の問題・解答を画像目視照合。Python検算：{\"first\": \"36/5\", \"second\": \"84/5\", \"vertexTime\": \"36\", \"QVertex\": \"D\"} 指定の描き直し図を改変せず使用。原本と12cm、A/B/C/D、P/Q、進行方向が一致。"
+      },
+      "answer": {
+        "n": "84",
+        "d": "5",
+        "unit": "秒",
+        "dimension": "time"
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GR5"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "最初の出会い",
+            "body": "最初はPがQより3辺分多く進むと重なります。",
+            "equation": "12×3÷(7−2)＝7.2（秒）",
+            "id": "s1"
+          },
+          {
+            "title": "1周の長さ",
+            "body": "次に重なるまでに、PはQよりさらに1周分多く進みます。",
+            "equation": "12×4＝48（cm）",
+            "checkpoint": {
+              "prompt": "正方形の周りの長さは何cmですか。",
+              "answer": {
+                "n": "48",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "重なる間隔",
+            "body": "差の速さは毎秒5cmなので、1周分の差をつける時間を求めます。",
+            "equation": "48÷5＝9.6（秒）",
+            "id": "s3"
+          },
+          {
+            "title": "2回目の時刻",
+            "body": "最初の7.2秒後に、次の出会いまでの9.6秒を加えます。",
+            "equation": "7.2＋9.6＝16.8（秒）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/n-3f42b010743c816a858bed3c58d77273.png",
+      "notionId": "3f42b010743c816a858bed3c58d77273",
+      "subdivision": {
+        "id": "3fd2b010743c813e99baeaf4f07bb66f",
+        "name": "2人で一周ごと出会う追いつく",
+        "chu": "旅人算",
+        "dai": "速さ",
+        "order": 212
+      },
+      "role": "代表"
+    },
+    {
+      "id": "GR5-3(3)③",
+      "unitId": "notion.3f42b010743c816a858bed3c58d77273-3",
+      "category": "oneline",
+      "domain": "旅人算",
+      "text": "右の図のような正方形ABCDの辺上を、点Pは秒速7cmでAから、点Qは秒速2cmでBから同時に出発し、それぞれ時計回りにまわりつづけます。\n③ PとQがはじめて正方形の頂点で重なるのは出発してから何秒後ですか。またそのとき、A、B、C、Dのうちどの頂点で重なりますか。",
+      "source": {
+        "title": "GR5-3(3)",
+        "url": "https://app.notion.com/3f42b010743c816a858bed3c58d77273",
+        "notionPageId": "3f42b010743c816a858bed3c58d77273",
+        "path": "/算数DB/原本/GnoRev・実力テスト/5年/グノレブ5年5月.pdf",
+        "locator": "PDF通し8頁 ③",
+        "verification": "原本の問題・解答を画像目視照合。Python検算：{\"first\": \"36/5\", \"second\": \"84/5\", \"vertexTime\": \"36\", \"QVertex\": \"D\"} 指定の描き直し図を改変せず使用。原本と12cm、A/B/C/D、P/Q、進行方向が一致。"
+      },
+      "answer": {
+        "parts": [
+          {
+            "label": "時間",
+            "n": "36",
+            "d": "1",
+            "unit": "秒",
+            "dimension": "time"
+          },
+          {
+            "label": "頂点",
+            "dimension": "text",
+            "value": "D",
+            "unit": "",
+            "accepted": [
+              "頂点D",
+              "点D"
+            ]
+          }
+        ]
+      },
+      "difficulty": 5,
+      "figureRequired": true,
+      "scopeUnits": [
+        "GR5"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "最初に重なる時刻",
+            "body": "PとQが最初に重なるまでに、速いPが3辺分多く進みます。",
+            "equation": "12×3÷(7−2)＝7.2（秒）",
+            "id": "s1"
+          },
+          {
+            "title": "その後の出会いの間隔",
+            "body": "以後はPがQより1周分多く進むごとに重なります。",
+            "equation": "12×4÷(7−2)＝9.6（秒）",
+            "id": "s2"
+          },
+          {
+            "title": "Qが頂点に着く間隔",
+            "body": "Qは1辺12cmを毎秒2cmで進むので、6秒ごとに頂点に着きます。",
+            "equation": "12÷2＝6（秒）",
+            "checkpoint": {
+              "prompt": "Qが1辺を進むのに何秒かかりますか。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s3"
+          },
+          {
+            "title": "両方の条件を合わせる",
+            "body": "重なる時刻は7.2、16.8、26.4、36秒です。このうち初めて6の倍数になるのは36秒です。",
+            "equation": "7.2＋9.6×3＝36（秒）",
+            "id": "s4"
+          },
+          {
+            "title": "Qが通る頂点を数える",
+            "body": "Qは出発してから6回、次の頂点に進みます。順番はA、D、C、B、A、Dなので、6回目はDです。",
+            "equation": "36÷6＝6（回）",
+            "id": "s5"
+          },
+          {
+            "title": "Pの位置も確かめる",
+            "body": "36秒でPは252cm進みます。5周の240cmを除くと12cm、Aから1辺進んだDです。",
+            "equation": "7×36−48×5＝12（cm）",
+            "id": "s6"
+          }
+        ]
+      },
+      "figure": "figs/n-3f42b010743c816a858bed3c58d77273.png",
+      "notionId": "3f42b010743c816a858bed3c58d77273",
+      "subdivision": {
+        "id": "3fd2b010743c813e99baeaf4f07bb66f",
+        "name": "2人で一周ごと出会う追いつく",
+        "chu": "旅人算",
+        "dai": "速さ",
+        "order": 212
+      },
+      "role": "代表"
+    },
+    {
+      "id": "S01L④-2(1)",
+      "unitId": "notion.3f52b010743c817ea794d820898c73cc-1",
+      "category": "geometry",
+      "domain": "図形の移動・軌跡・通過面積",
+      "text": "※円周率は3.14とします。\n半径4cm、中心角45度のおうぎ形が、図のあの位置からすべることなく転がって、図のいの位置まで移動します。\n(1) 点Pは点Qまで動きました。点Pが動いた長さを求めなさい。",
+      "source": {
+        "title": "S01L④-2",
+        "url": "https://app.notion.com/3f52b010743c817ea794d820898c73cc",
+        "notionPageId": "3f52b010743c817ea794d820898c73cc",
+        "path": "/算数DB/原本/5年授業/5-夏01 平面図形⑴.pdf",
+        "locator": "PDF通し11頁 ②(1)・解答PDF通し19頁",
+        "verification": "原本p.11の問題文・数値、p.19の解答・解説と目視照合。原本の図は鉛筆の書き込みが重なるため、印刷部分（おうぎ形あ・い、P、Q、4cm、45°、回る向き）だけを Claude が描き直した図を使用。"
+      },
+      "answer": {
+        "n": "157",
+        "d": "10",
+        "unit": "cm",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "S01"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "figure": "figs/n-3f52b010743c817ea794d820898c73cc.png",
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "転がり方を3つに分ける",
+            "body": "おうぎ形は、①直線上の半径の右はしを中心に回る、②弧が直線にふれながら転がる、③もう一方の半径のはしを中心に回る、の順に動きます。",
+            "equation": "動きの区切り＝3"
+          },
+          {
+            "id": "s2",
+            "title": "①で点Pが動く長さ",
+            "body": "点Pは半径4cmの円の上を、半径がたおれて直線と垂直になるまで90度回ります。",
+            "equation": "4×2×3.14×90/360＝6.28（cm）",
+            "checkpoint": {
+              "prompt": "①で点Pが動く長さは何cmですか。",
+              "answer": {
+                "n": "628",
+                "d": "100",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "②で点Pが動く長さ",
+            "body": "弧が直線の上を転がる間、中心Pは直線から4cmの高さをまっすぐ進みます。進む長さは弧の長さと同じです。",
+            "equation": "4×2×3.14×45/360＝3.14（cm）",
+            "checkpoint": {
+              "prompt": "おうぎ形の弧の長さは何cmですか。",
+              "answer": {
+                "n": "314",
+                "d": "100",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "③で点Pが動く長さ",
+            "body": "最後はもう一方の半径のはしを中心に、点Pが直線上のQに下りるまで90度回ります。①と同じ長さです。",
+            "equation": "4×2×3.14×90/360＝6.28（cm）"
+          },
+          {
+            "id": "s5",
+            "title": "合計する",
+            "body": "3つの動きの長さを足します。",
+            "equation": "6.28＋3.14＋6.28＝15.7（cm）"
+          }
+        ]
+      },
+      "notionId": "3f52b010743c817ea794d820898c73cc",
+      "subdivision": {
+        "id": "40a2b010743c816eb185ebd1360c4c64",
+        "name": "接触状態の切替による転動軌跡",
+        "chu": "図形の移動・軌跡・通過面積",
+        "dai": "平面図形",
+        "order": 436
+      },
+      "role": "代表"
+    },
+    {
+      "id": "S01L④-2(2)",
+      "unitId": "notion.3f52b010743c817ea794d820898c73cc-2",
+      "category": "geometry",
+      "domain": "図形の移動・軌跡・通過面積",
+      "text": "※円周率は3.14とします。\n半径4cm、中心角45度のおうぎ形が、図のあの位置からすべることなく転がって、図のいの位置まで移動します。\n(2) おうぎ形が通過した部分の面積を求めなさい。",
+      "source": {
+        "title": "S01L④-2",
+        "url": "https://app.notion.com/3f52b010743c817ea794d820898c73cc",
+        "notionPageId": "3f52b010743c817ea794d820898c73cc",
+        "path": "/算数DB/原本/5年授業/5-夏01 平面図形⑴.pdf",
+        "locator": "PDF通し11頁 ②(2)・解答PDF通し19頁",
+        "verification": "原本p.11の問題文・数値、p.19の解答・解説と目視照合。原本の図は鉛筆の書き込みが重なるため、印刷部分（おうぎ形あ・い、P、Q、4cm、45°、回る向き）だけを Claude が描き直した図を使用。"
+      },
+      "answer": {
+        "n": "3768",
+        "d": "100",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "scopeUnits": [
+        "S01"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "figure": "figs/n-3f52b010743c817ea794d820898c73cc.png",
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "通過した形を分ける",
+            "body": "おうぎ形が通過した部分は、両はしの四分円2つと、そのあいだの長方形に分けられます。",
+            "equation": "四分円の数＝2"
+          },
+          {
+            "id": "s2",
+            "title": "長方形の横の長さ",
+            "body": "弧が直線の上を転がった長さが長方形の横になります。弧の長さを求めます。",
+            "equation": "4×2×3.14×45/360＝3.14（cm）",
+            "checkpoint": {
+              "prompt": "長方形の横の長さは何cmですか。",
+              "answer": {
+                "n": "314",
+                "d": "100",
+                "unit": "cm",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "長方形の面積",
+            "body": "長方形のたては半径の4cmです。",
+            "equation": "4×3.14＝12.56（cm²）"
+          },
+          {
+            "id": "s4",
+            "title": "四分円2つの面積",
+            "body": "半径4cm、中心角90度のおうぎ形が2つあります。",
+            "equation": "4×4×3.14×90/360×2＝25.12（cm²）",
+            "checkpoint": {
+              "prompt": "四分円2つの面積の合計は何cm²ですか。",
+              "answer": {
+                "n": "2512",
+                "d": "100",
+                "unit": "cm²",
+                "dimension": "area"
+              }
+            }
+          },
+          {
+            "id": "s5",
+            "title": "合計する",
+            "body": "四分円2つと長方形を合わせます。",
+            "equation": "25.12＋12.56＝37.68（cm²）"
+          }
+        ]
+      },
+      "notionId": "3f52b010743c817ea794d820898c73cc",
+      "subdivision": {
+        "id": "40a2b010743c816eb185ebd1360c4c64",
+        "name": "接触状態の切替による転動軌跡",
+        "chu": "図形の移動・軌跡・通過面積",
+        "dai": "平面図形",
+        "order": 436
+      },
+      "role": "代表"
+    },
+    {
       "id": "b57-APP108-P009-01-A",
       "unitId": "b57.APP108-P009-01-A",
       "category": "oneline",
@@ -200970,6 +205283,492 @@
       "definition": "時刻表・運行｜積一定・逆比（キョリ一定）",
       "representativeId": "KB216②例(1)",
       "decision": "追いこされる間隔は200秒です。",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f62b010743c8174a9cfd386a2eca93b",
+      "name": "整数の四則・計算順序｜平方数・立方数から元の数を求める",
+      "domain": "整数の四則・計算順序",
+      "definition": "□にはすべて同じ数が入ります。立方の積から考えます。",
+      "decision": "同じ数を3回かける",
+      "prerequisites": [],
+      "representativeId": "4S12K-23"
+    },
+    {
+      "id": "notion.3f52b010743c81059885dd2ac17c6872",
+      "name": "整数の四則・計算順序｜平方数・立方数から元の数を求める",
+      "domain": "整数の四則・計算順序",
+      "definition": "同じ数を2回かけた値が右辺になる数を探します。",
+      "decision": "平方の値を探す",
+      "prerequisites": [],
+      "representativeId": "春04K-17"
+    },
+    {
+      "id": "notion.3f62b010743c81ddb346ef02abd45b6a",
+      "name": "整数の四則・計算順序｜平方数・立方数から元の数を求める",
+      "domain": "整数の四則・計算順序",
+      "definition": "□にはすべて同じ数が入ります。立方の積から考えます。",
+      "decision": "同じ数を3回かける",
+      "prerequisites": [],
+      "representativeId": "4S09K-27"
+    },
+    {
+      "id": "notion.3f52b010743c819993a7ebff1b1e4250",
+      "name": "分数・帯分数の四則｜約分・仮分数と帯分数",
+      "domain": "分数・帯分数の四則",
+      "definition": "分母を24にそろえます。",
+      "decision": "左の分数を通分する",
+      "prerequisites": [],
+      "representativeId": "4R20K-24"
+    },
+    {
+      "id": "notion.3f52b010743c815390bff40fe74f33b6-1",
+      "name": "小数と分数の混合計算｜小数⇔分数の変換",
+      "domain": "小数と分数の混合計算",
+      "definition": "0.34を100分の34と表します。",
+      "decision": "小数を分数にする",
+      "prerequisites": [],
+      "representativeId": "GW506-01①(1)"
+    },
+    {
+      "id": "notion.3f62b010743c81418231dddd8b853ca1",
+      "name": "円周率3.14を含む計算｜3.14で割って平方数を見当づける",
+      "domain": "円周率3.14を含む計算",
+      "definition": "まず右辺を3.14で割り、同じ数を2回かけた値を求めます。",
+      "decision": "3.14のかけ算を戻す",
+      "prerequisites": [],
+      "representativeId": "R23K-15"
+    },
+    {
+      "id": "notion.3f52b010743c813b9769f4e539d6322d",
+      "name": "円周率3.14を含む計算｜3.14で割って平方数を見当づける",
+      "domain": "円周率3.14を含む計算",
+      "definition": "まず右辺を3.14で割り、同じ数を2回かけた値を求めます。",
+      "decision": "3.14のかけ算を戻す",
+      "prerequisites": [],
+      "representativeId": "4R24K-23"
+    },
+    {
+      "id": "notion.3f62b010743c814585a9de658d20d237",
+      "name": "円周率3.14を含む計算｜3.14で割って平方数を見当づける",
+      "domain": "円周率3.14を含む計算",
+      "definition": "まず右辺を3.14で割り、同じ数を2回かけた値を求めます。",
+      "decision": "3.14のかけ算を戻す",
+      "prerequisites": [],
+      "representativeId": "R18K-24"
+    },
+    {
+      "id": "notion.3f62b010743c810db5b9e8435e12ee48",
+      "name": "逆算（基本）｜整数の逆算",
+      "domain": "逆算（基本）",
+      "definition": "同じ数を2回かけた値が右辺になる数を探します。",
+      "decision": "平方の値を探す",
+      "prerequisites": [],
+      "representativeId": "4R15K-29"
+    },
+    {
+      "id": "notion.3f62b010743c8126ba7be9bf5b99a8b3",
+      "name": "虫食い算・覆面算｜かけ算の虫食い",
+      "domain": "虫食い算・覆面算",
+      "definition": "同じ数を2回かけた値が右辺になる数を探します。",
+      "decision": "平方の値を探す",
+      "prerequisites": [],
+      "representativeId": "4S14K-29"
+    },
+    {
+      "id": "notion.3f52b010743c813aba50d251b0d9e1ed-1",
+      "name": "順列・並べ方｜間に入れる（非隣接の隙間選択）",
+      "domain": "順列・並べ方",
+      "definition": "左はしに1を置くと、残りは2が2まい、3が2まいです。",
+      "decision": "左はしを固定する",
+      "prerequisites": [],
+      "representativeId": "GW404-22①(1)"
+    },
+    {
+      "id": "notion.3f52b010743c81e2b65bfe4e65285435",
+      "name": "組合せ・選び方｜和を固定した組合せの列挙",
+      "domain": "組合せ・選び方",
+      "definition": "大きい2つと小さい3つの和は等しく、合計が300です。",
+      "decision": "大小の組の和",
+      "prerequisites": [],
+      "representativeId": "4R09T⑥-2"
+    },
+    {
+      "id": "notion.3f52b010743c81258cd5c4795d37eda1",
+      "name": "組合せ・選び方｜和を固定した組合せの列挙",
+      "domain": "組合せ・選び方",
+      "definition": "同じ数は公約数が1以外にもあるので使えません。5個以上の異なる5数を小さい順に探します。",
+      "decision": "小さい順に整理",
+      "prerequisites": [],
+      "representativeId": "4R11T⑥-2"
+    },
+    {
+      "id": "notion.3f82b010743c8106a07dd628f12b70c8",
+      "name": "合同・折り返し｜合同な図形の対応（合同判定・剛体変換）",
+      "domain": "合同・折り返し",
+      "definition": "辺の長さは3cm、5cm、7cmです。アはこの3辺が一致します。",
+      "decision": "もとの3辺を読む",
+      "prerequisites": [],
+      "representativeId": "KB272①例"
+    },
+    {
+      "id": "notion.3f52b010743c813788efe304afe7e2c7-1",
+      "name": "順序・位置・対応の推理｜順位の鎖：勝ち負けの発言を不等号でつなぎ、順位の候補を消す",
+      "domain": "順序・位置・対応の推理",
+      "definition": "D、C、Aの順に点数が高く、DとAの間には2人いるので順位の差は3です。",
+      "decision": "DとAの間隔",
+      "prerequisites": [],
+      "representativeId": "R18T⑥-2(1)"
+    },
+    {
+      "id": "notion.3f82b010743c8194b351def1c4e48156",
+      "name": "順序・位置・対応の推理｜位置の隣接ブロックと色(赤は1人)の場合分け",
+      "domain": "順序・位置・対応の推理",
+      "definition": "Bのすぐ後ろがDなので、B・Dはひとまとまりです。Dの前のBは白色です。",
+      "decision": "隣接する2人",
+      "prerequisites": [],
+      "representativeId": "KB47③例"
+    },
+    {
+      "id": "notion.3f52b010743c8125a5ecdadcd4cdf8e8",
+      "name": "天びんと重さの推理｜つり合いから重さ",
+      "domain": "天びんと重さの推理",
+      "definition": "8枚から2枚を選ぶ組を、3回のてんびんの条件でしぼります。",
+      "decision": "重い2枚の組を考える",
+      "prerequisites": [],
+      "representativeId": "4R19T⑥-2"
+    },
+    {
+      "id": "notion.3f82b010743c8152bb10de185442f6d1-1",
+      "name": "概数・四捨五入・範囲｜概数（切り捨て・切り上げ・四捨五入と原数範囲）",
+      "domain": "概数・四捨五入・範囲",
+      "definition": "百の位までの切り上げでは100ごとに区切ります。",
+      "decision": "切り上げの区切り",
+      "prerequisites": [],
+      "representativeId": "KB22①例(1)"
+    },
+    {
+      "id": "notion.3f82b010743c81c2889dd93767ba3bb7",
+      "name": "倍数の判定｜交互和による倍数判定",
+      "domain": "倍数の判定",
+      "definition": "一の位から交互に分けた数字の和の差が0または11の倍数なら、もとの数は11の倍数です。3564は差が0です。",
+      "decision": "11の倍数の判定",
+      "prerequisites": [],
+      "representativeId": "KB94①例"
+    },
+    {
+      "id": "notion.3f82b010743c81a7a36eec1c177d2def",
+      "name": "約数・素因数分解｜素数の判定・列挙",
+      "domain": "約数・素因数分解",
+      "definition": "素数の約数は1とその数の2つだけです。1の約数は1つなので除きます。",
+      "decision": "素数の意味",
+      "prerequisites": [],
+      "representativeId": "KB1①例"
+    },
+    {
+      "id": "notion.3f82b010743c81e9ba2ee76355ae5bd1",
+      "name": "約数・素因数分解｜約数の対と中央項による平方数判定",
+      "domain": "約数・素因数分解",
+      "definition": "素数pを2回かけた数の約数は1、p、p×pの3つです。",
+      "decision": "約数が3個の形",
+      "prerequisites": [],
+      "representativeId": "KB5①例"
+    },
+    {
+      "id": "notion.3f82b010743c818db4d0da88df75864b-1",
+      "name": "約数・素因数分解｜割れる回数の条件を素因数の個数の範囲に直し、n!の素因数を数えてnを逆算",
+      "domain": "約数・素因数分解",
+      "definition": "2で割れる回数は、積の中にある素因数2の個数です。1から7まででは4個です。",
+      "decision": "2の個数を数える",
+      "prerequisites": [],
+      "representativeId": "KB100①例(1)"
+    },
+    {
+      "id": "notion.3f62b010743c812bb248e3911442b69d",
+      "name": "約数・素因数分解｜素因数分解",
+      "domain": "約数・素因数分解",
+      "definition": "偶数なのでまず2で割ります。",
+      "decision": "最小の素数で割る",
+      "prerequisites": [],
+      "representativeId": "R15K-11"
+    },
+    {
+      "id": "notion.3f52b010743c8167b2e2f2ca65cdaba3",
+      "name": "約数・素因数分解｜素因数分解",
+      "domain": "約数・素因数分解",
+      "definition": "偶数なのでまず2で割ります。",
+      "decision": "最小の素数で割る",
+      "prerequisites": [],
+      "representativeId": "4R11K-12"
+    },
+    {
+      "id": "notion.3f52b010743c815494ccc7bf282b3a54",
+      "name": "概数・四捨五入・範囲｜概数（切り捨て・切り上げ・四捨五入と原数範囲）",
+      "domain": "概数・四捨五入・範囲",
+      "definition": "最後の四捨五入前は15.5以上16.5未満です。まず境目15.5を1.8で割って3.3を引きます。",
+      "decision": "最後の四捨五入を戻す",
+      "prerequisites": [],
+      "representativeId": "春04L⑥-2"
+    },
+    {
+      "id": "notion.3f52b010743c81178b4aed4a62c02139-1",
+      "name": "最大公約数・最小公倍数｜分子・分母ごとに約数・倍数条件を整理する",
+      "domain": "最大公約数・最小公倍数",
+      "definition": "分母の積をPとすると分子の積は720÷Pです。",
+      "decision": "全体の積を使う",
+      "prerequisites": [],
+      "representativeId": "GW420-29①(1)"
+    },
+    {
+      "id": "notion.3f52b010743c81529701c3121149a597",
+      "name": "最大公約数・最小公倍数｜周期内の数量積算と累計到達",
+      "domain": "最大公約数・最小公倍数",
+      "definition": "34と6の最小公倍数は102です。のべ102人が当番をした次に同じ6人に戻ります。",
+      "decision": "同じ組に戻る人数",
+      "prerequisites": [],
+      "representativeId": "GN規則③例8"
+    },
+    {
+      "id": "notion.3f52b010743c81d3bb57ea8efafa8df0",
+      "name": "等差数列と和｜対称な組を作る一定和の総和",
+      "domain": "等差数列と和",
+      "definition": "月曜日が5回なら最初の日付を除いた7日ごとの差だけで70になるので、和62にはなりません。",
+      "decision": "月曜日の回数",
+      "prerequisites": [],
+      "representativeId": "GN規則③例5"
+    },
+    {
+      "id": "notion.3f52b010743c81338f6fc86698767104",
+      "name": "暦・日付・曜日｜日付の通算と7日周期",
+      "domain": "暦・日付・曜日",
+      "definition": "3月3日から4月3日までは3月の日数31日です。",
+      "decision": "3月から4月まで",
+      "prerequisites": [],
+      "representativeId": "春04K-22"
+    },
+    {
+      "id": "notion.3f82b010743c81baafebc93ef9a05adc",
+      "name": "暦・日付・曜日｜日付の通算と7日周期",
+      "domain": "暦・日付・曜日",
+      "definition": "まず4で割り切れる年を選びます。2032年は4の倍数です。",
+      "decision": "4の倍数を選ぶ",
+      "prerequisites": [],
+      "representativeId": "KB265①例"
+    },
+    {
+      "id": "notion.3f52b010743c81abb559d9f4884051da-1",
+      "name": "暦・日付・曜日｜日付の通算と7日周期",
+      "domain": "暦・日付・曜日",
+      "definition": "2023年は平年で365日です。7で割った余りは1なので、次の1月1日は1曜日進みます。",
+      "decision": "2023年の日数",
+      "prerequisites": [],
+      "representativeId": "GN規則③練6(1)"
+    },
+    {
+      "id": "notion.3f82b010743c81f7af42d94984c58bae",
+      "name": "展開図・組み立て｜多面体の展開図と頂点・辺・面の対応",
+      "domain": "展開図・組み立て",
+      "definition": "正八面体は正三角形8面からでき、各頂点に4面ずつ集まります。",
+      "decision": "正八面体の頂点",
+      "prerequisites": [],
+      "representativeId": "KB76①例"
+    },
+    {
+      "id": "notion.3f52b010743c81d9ab6eff28e8f28a7e",
+      "name": "展開図・組み立て｜多面体の展開図と頂点・辺・面の対応",
+      "domain": "展開図・組み立て",
+      "definition": "横に4枚の正方形をつなげた部分が立方体の側面になります。左端と右端が重なります。",
+      "decision": "横4面を巻く",
+      "prerequisites": [],
+      "representativeId": "4R19N⑥-1"
+    },
+    {
+      "id": "notion.3f82b010743c8112868ec7356acf74d3-2",
+      "name": "試合・リーグ戦・トーナメント｜対戦表の勝敗と勝ち数の制約",
+      "domain": "試合・リーグ戦・トーナメント",
+      "definition": "試合・リーグ戦・トーナメント｜対戦表の勝敗と勝ち数の制約",
+      "representativeId": "KB48②例(2)",
+      "decision": "総当たりの試合数と勝った相手（5チーム）",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c8160808cd139cb45ae50-3",
+      "name": "図形の性質・対称・正多角形｜点対称（中心を介する対応）",
+      "domain": "図形の性質・対称・正多角形",
+      "definition": "図形の性質・対称・正多角形｜点対称（中心を介する対応）",
+      "representativeId": "S09L②-3(3)",
+      "decision": "点対称の対応と中心で2等分される性質をそのまま使う基本（最難小問 (3)）",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c81e88efde74aa25b88fa-2",
+      "name": "面積の基本・分割｜面積の和差・分割（既知面の組合せ）",
+      "domain": "面積の基本・分割",
+      "definition": "面積の基本・分割｜面積の和差・分割（既知面の組合せ）",
+      "representativeId": "GW501-05①(2)",
+      "decision": "台形の三角形を大きい三角形から引いて高さ10cmを読みかえる（等積変形までは要らない）（最難小問 (2)）",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c8191b89ecf3dd339e7b5-2",
+      "name": "約数・素因数分解｜反転操作の偶奇を約数の対に置き換える",
+      "domain": "約数・素因数分解",
+      "definition": "約数・素因数分解｜反転操作の偶奇を約数の対に置き換える",
+      "representativeId": "R03N⑦-2(2)",
+      "decision": "裏返る回数＝約数の個数と読みかえれば、あとは約数3個・奇数個・4個の数の典型を使うだけ。（最難小問 (3)）",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c81a99eaade661694781a",
+      "name": "分数・小数の性質｜分母と互いに素な分子の計数と対称ペアによる和",
+      "domain": "分数・小数の性質",
+      "definition": "分数・小数の性質｜分母と互いに素な分子の計数と対称ペアによる和",
+      "representativeId": "GW505-19①",
+      "decision": "既約分数の個数と組の和の典型に、整数部分が1ずつ増える分の足し上げを1段つなぐ。（最難小問 (2)）",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c81f59aa4c8cdd16a3bb1-3",
+      "name": "グラフ｜出発時刻をそろえて出会いを求める",
+      "domain": "グラフ",
+      "definition": "グラフ｜出発時刻をそろえて出会いを求める",
+      "representativeId": "R11N④-3(3)",
+      "decision": "車が4kmを8分で走ることをグラフから読めばあとは公式どおり。（最難小問 (3)）",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c816b9b31cb0ca3fb5930-3",
+      "name": "動点・図形の移動｜動点の長さを①秒後の式にして図形条件を入れる",
+      "domain": "動点・図形の移動",
+      "definition": "動点・図形の移動｜動点の長さを①秒後の式にして図形条件を入れる",
+      "representativeId": "GW510-30①(3)",
+      "decision": "2点の往復で、折り返す時刻のずれを場合分けして面積が最大になる時刻を見つける。（最難小問 (3)）",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.40b2b010743c811dbdddfdd92696567e-2",
+      "name": "通過算｜動くもの（列車・人）とのすれ違い・追い越し",
+      "domain": "通過算",
+      "definition": "列車の通過で進む距離を同じ一点の位置から考える。",
+      "representativeId": "GW521-13①(2)",
+      "decision": "窓を一点と考えます。反対方向に進むB電車の長さ135mが3秒で窓の前を通るので、AとBの秒速の和を求めます。",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.40b2b010743c8110bdd4fc904d3c6ab7-2",
+      "name": "通過算｜動くもの（列車・人）とのすれ違い・追い越し",
+      "domain": "通過算",
+      "definition": "列車の通過で進む距離を同じ一点の位置から考える。",
+      "representativeId": "GW521-15①(2)",
+      "decision": "A列車が鉄橋を渡り終わるまでに先頭が進むのは、鉄橋とA列車の長さの合計です。これを30秒で割ります。",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.40b2b010743c81269842cd6731b9df5e",
+      "name": "通過算｜同じ一点の開始・終了位置から有限長を含む通過距離を構成し、相対速度と時間を対応させる。静止対象・対向・同方向は条件差。",
+      "domain": "通過算",
+      "definition": "列車の通過で進む距離を同じ一点の位置から考える。",
+      "representativeId": "GW521-27①",
+      "decision": "列車が完全に出るには、先頭が出口から列車の長さ80mだけ先まで進みます。速さを変えたあとの距離を求めます。",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c81dba241d819027a61fa",
+      "name": "図形の性質・対称・正多角形｜点対称（中心を介する対応）",
+      "domain": "図形の性質・対称・正多角形",
+      "definition": "図形の性質・対称・正多角形｜点対称（中心を介する対応）",
+      "representativeId": "S09L⑥-2",
+      "decision": "代表",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c81458cafea3f66070c4e",
+      "name": "図形の性質・対称・正多角形｜垂直・平行と作図",
+      "domain": "図形の性質・対称・正多角形",
+      "definition": "図形の性質・対称・正多角形｜垂直・平行と作図",
+      "representativeId": "GW406-05①",
+      "decision": "代表",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c8141a536c80e5248c4ba",
+      "name": "図形の性質・対称・正多角形｜切り紙（折って切って広げる）",
+      "domain": "図形の性質・対称・正多角形",
+      "definition": "図形の性質・対称・正多角形｜切り紙（折って切って広げる）",
+      "representativeId": "S09L⑤-2",
+      "decision": "代表",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c8111be8acd5b98bac695-1",
+      "name": "数のパズル・規則の発見｜数字と記号で式を作る",
+      "domain": "数のパズル・規則の発見",
+      "definition": "数のパズル・規則の発見｜数字と記号で式を作る",
+      "representativeId": "GW419-20①(1)",
+      "decision": "代表",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c8111be8acd5b98bac695-2",
+      "name": "数のパズル・規則の発見｜数字と記号で式を作る",
+      "domain": "数のパズル・規則の発見",
+      "definition": "数のパズル・規則の発見｜数字と記号で式を作る",
+      "representativeId": "GW419-20①(2)",
+      "decision": "代表",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c8111be8acd5b98bac695-3",
+      "name": "数のパズル・規則の発見｜数字と記号で式を作る",
+      "domain": "数のパズル・規則の発見",
+      "definition": "数のパズル・規則の発見｜数字と記号で式を作る",
+      "representativeId": "GW419-20①(3)",
+      "decision": "代表",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f42b010743c816a858bed3c58d77273-1",
+      "name": "旅人算｜2人で一周ごと出会う追いつく",
+      "domain": "旅人算",
+      "definition": "旅人算｜2人で一周ごと出会う追いつく",
+      "representativeId": "GR5-3(3)①",
+      "decision": "代表",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f42b010743c816a858bed3c58d77273-2",
+      "name": "旅人算｜2人で一周ごと出会う追いつく",
+      "domain": "旅人算",
+      "definition": "旅人算｜2人で一周ごと出会う追いつく",
+      "representativeId": "GR5-3(3)②",
+      "decision": "代表",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f42b010743c816a858bed3c58d77273-3",
+      "name": "旅人算｜2人で一周ごと出会う追いつく",
+      "domain": "旅人算",
+      "definition": "旅人算｜2人で一周ごと出会う追いつく",
+      "representativeId": "GR5-3(3)③",
+      "decision": "代表",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c817ea794d820898c73cc-1",
+      "name": "図形の移動・軌跡・通過面積｜接触状態の切替による転動軌跡",
+      "domain": "図形の移動・軌跡・通過面積",
+      "definition": "図形の移動・軌跡・通過面積｜接触状態の切替による転動軌跡",
+      "representativeId": "S01L④-2(1)",
+      "decision": "代表",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.3f52b010743c817ea794d820898c73cc-2",
+      "name": "図形の移動・軌跡・通過面積｜接触状態の切替による転動軌跡",
+      "domain": "図形の移動・軌跡・通過面積",
+      "definition": "図形の移動・軌跡・通過面積｜接触状態の切替による転動軌跡",
+      "representativeId": "S01L④-2(2)",
+      "decision": "代表",
       "prerequisites": []
     },
     {
