@@ -1,5 +1,5 @@
 {
- "exportedAt": "2026-11-01",
+ "exportedAt": "2026-11-02",
  "source": "Notion 問題DB collection://531d42cc-9767-4652-ac87-5fd5cef74df7（細分類・代表・難易度＝細分類の基礎難度＋上乗せ）",
  "subdivisions": {
   "3fd2b010743c813f9b88e8f444913624": {
@@ -1232,7 +1232,7 @@
    "dai": "割合と比",
    "order": 152,
    "chuOrder": 30,
-   "base": 2
+   "base": 1
   },
   "3fd2b010743c81cfac3dfd042699a8eb": {
    "name": "百分率表記と割合三用法",
@@ -5321,7 +5321,7 @@
    "related": [],
    "difficulty": 3,
    "rep": true,
-   "variant": true
+   "variant": false
   },
   "3f52b010743c8101b76efbbd2049a92d": {
    "sub": "3fd2b010743c81858968e7a4d4e0c756",
@@ -6175,7 +6175,7 @@
    "related": [],
    "difficulty": 4,
    "rep": true,
-   "variant": true
+   "variant": false
   },
   "3f52b010743c810f8920f63968b12517": {
    "sub": "3fd2b010743c81b8a59ed6b1d3ef51e9",
@@ -6357,7 +6357,7 @@
    "related": [],
    "difficulty": 3,
    "rep": false,
-   "variant": true
+   "variant": false
   },
   "3f52b010743c8113b72dfb2983ef0dbe": {
    "sub": "3fd2b010743c8129a365d93a0f2b9ebb",
@@ -6868,7 +6868,7 @@
    "related": [],
    "difficulty": 3,
    "rep": false,
-   "variant": true
+   "variant": false
   },
   "3f52b010743c813892fbe43b01b94924": {
    "sub": "3fd2b010743c816ca03cd57f0f53da32",
@@ -7491,7 +7491,7 @@
    "related": [],
    "difficulty": 3,
    "rep": false,
-   "variant": true
+   "variant": false
   },
   "3f52b010743c81799087f21a88bdee29": {
    "sub": "3fd2b010743c8108bc15c394126e1f59",
@@ -7743,7 +7743,7 @@
    "related": [],
    "difficulty": 4,
    "rep": true,
-   "variant": true
+   "variant": false
   },
   "3f52b010743c81a193e2f40513e7a067": {
    "sub": "3fd2b010743c8148a45acbc19d536c3f",
@@ -7981,7 +7981,7 @@
    "related": [],
    "difficulty": 3,
    "rep": false,
-   "variant": true
+   "variant": false
   },
   "3f52b010743c81bc978cf6d91a8b877a": {
    "sub": "3fd2b010743c81e39de0f7d1bf46960d",
@@ -8404,7 +8404,7 @@
    "variant": false
   },
   "3f52b010743c81f49ab1c9a6c98c1488": {
-   "sub": "3fd2b010743c812584f1de768aabd8dc",
+   "sub": "40a2b010743c815f94bbc088fb457721",
    "related": [],
    "difficulty": 4,
    "rep": true,
@@ -8569,14 +8569,14 @@
    "related": [],
    "difficulty": 2,
    "rep": true,
-   "variant": true
+   "variant": false
   },
   "3f62b010743c8111942ad7aa11a6adc5": {
    "sub": "3fd2b010743c815f9e10d2b4e5784d62",
    "related": [],
    "difficulty": 3,
    "rep": false,
-   "variant": true
+   "variant": false
   },
   "3f62b010743c8111954ac5f77a051d2e": {
    "sub": "3fd2b010743c81fe9bb4ee0be4f46506",
@@ -10760,7 +10760,7 @@
    "related": [],
    "difficulty": 2,
    "rep": false,
-   "variant": true
+   "variant": false
   },
   "4022b010743c818d9cf8e0f4425657bf": {
    "sub": "3fd2b010743c8192bb69d94d214e6331",

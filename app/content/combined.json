@@ -17828,7 +17828,7 @@
         "dai": "計算",
         "order": 28
       },
-      "role": "数値替え",
+      "role": "類題",
       "domain": "calculation"
     },
     {
@@ -17944,7 +17944,7 @@
         "dai": "計算",
         "order": 30
       },
-      "role": "数値替え",
+      "role": "類題",
       "domain": "calculation"
     },
     {
@@ -18628,7 +18628,7 @@
         "dai": "計算",
         "order": 28
       },
-      "role": "数値替え",
+      "role": "類題",
       "domain": "calculation"
     },
     {
@@ -18744,7 +18744,7 @@
         "dai": "計算",
         "order": 30
       },
-      "role": "数値替え",
+      "role": "類題",
       "domain": "calculation"
     },
     {
@@ -24125,7 +24125,7 @@
         "dai": "計算",
         "order": 28
       },
-      "role": "数値替え",
+      "role": "類題",
       "domain": "calculation"
     },
     {
@@ -39264,7 +39264,7 @@
         "dai": "計算",
         "order": 29
       },
-      "role": "数値替え",
+      "role": "類題",
       "domain": "calculation"
     },
     {
@@ -84491,11 +84491,11 @@
       "figure": "figs/selected-f2a2d78a5daf9038.png",
       "notionId": "3f52b010743c81f49ab1c9a6c98c1488",
       "subdivision": {
-        "id": "3fd2b010743c812584f1de768aabd8dc",
-        "name": "積一定・逆比（キョリ一定）",
+        "id": "40a2b010743c815f94bbc088fb457721",
+        "name": "運行表から必要台数・人数を数える",
         "chu": "時刻表・運行",
         "dai": "速さ",
-        "order": 247
+        "order": 247.5
       },
       "role": "代表"
     },
@@ -84580,11 +84580,11 @@
       "figure": "figs/selected-0d6faa591c32ce66.png",
       "notionId": "3f52b010743c81f49ab1c9a6c98c1488",
       "subdivision": {
-        "id": "3fd2b010743c812584f1de768aabd8dc",
-        "name": "積一定・逆比（キョリ一定）",
+        "id": "40a2b010743c815f94bbc088fb457721",
+        "name": "運行表から必要台数・人数を数える",
         "chu": "時刻表・運行",
         "dai": "速さ",
-        "order": 247
+        "order": 247.5
       },
       "role": "代表"
     },
