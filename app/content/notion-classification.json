@@ -14513,6 +14513,3933 @@
    "difficulty": 2,
    "rep": false,
    "variant": true
+  },
+  "3f82b010743c81c0ace7c1f681756cbc": {
+   "sub": "40b2b010743c81b68ff9d271d4b6678e",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814dae8bc618b911eaca": {
+   "sub": "3fd2b010743c81f79d42c9e53e032025",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81fda8d6d1458fa17077": {
+   "sub": "40a2b010743c81cda842f56b1163f765",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a18ee2d0f905599fa8": {
+   "sub": "3fd2b010743c810896e2f1d46256d95c",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c1a363e0a39f6976e0": {
+   "sub": "3fd2b010743c815096c6e48e76bb1ffa",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c811c9d74d0fdf395fade": {
+   "sub": "40a2b010743c8151b413f44dc1cf277a",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ad99e5e7e96e5887d4": {
+   "sub": "40a2b010743c8151b413f44dc1cf277a",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4022b010743c81d0b32fd7de7efd8790": {
+   "sub": "3fd2b010743c81cfac3dfd042699a8eb",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8144a418fdee017fa625": {
+   "sub": "3fd2b010743c81cfac3dfd042699a8eb",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814b903fe0d048cb581b": {
+   "sub": "3fd2b010743c81b6833cc02ffb9d443e",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ffa7e1ef9cbfafe873": {
+   "sub": "3fd2b010743c81d59aafdd43cb6e5313",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8153a875fba609c73841": {
+   "sub": "40b2b010743c81698041d352bfc43bc8",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8163af40ccd903ffc504": {
+   "sub": "3fd2b010743c8192bb69d94d214e6331",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4022b010743c81be9cb1c972a76309f3": {
+   "sub": "3fd2b010743c817e9e46f82b6eef0bbc",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c6a5d9e0b4a7ea5985": {
+   "sub": "3fd2b010743c813585f5c94a521496de",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4022b010743c8105be06de3d8b83a214": {
+   "sub": "40a2b010743c811cb58ec983cf74f322",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81b19e32ea227dbcc2f6": {
+   "sub": "3fd2b010743c8146b08df0cedfb09481",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c810ba0bed4a480b39f42": {
+   "sub": "3fd2b010743c81d38f8df686cd894a7b",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8190b89dd7d197aefdc8": {
+   "sub": "3fd2b010743c81d38f8df686cd894a7b",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81af8e0be2babc56d3c2": {
+   "sub": "3fd2b010743c8115bc53ffdbb0c040d6",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3fb2b010743c81729189f373f858441b": {
+   "sub": "3fd2b010743c819fa0bfc4c81e54aa86",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a6a4c3e52c334f63bd": {
+   "sub": "3fd2b010743c8160be4cf05c631c0a3e",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4022b010743c81ff833feb612c4b41f5": {
+   "sub": "3fd2b010743c8160be4cf05c631c0a3e",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "4022b010743c8184ab45de5b3d69f032": {
+   "sub": "3fd2b010743c81988c75ceb4a25dfd71",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816e8b1ed8dbd63f2e02": {
+   "sub": "3fd2b010743c81909fe9c02b09334bc4",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8108b435e5a72f08b4f5": {
+   "sub": "3fd2b010743c8129a365d93a0f2b9ebb",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c812f9127d0b800d59d46": {
+   "sub": "3fd2b010743c812a8d22ccc84d870b13",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c5b305efc9ea36ee5b": {
+   "sub": "3fd2b010743c813aaefcf1196015581e",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c813bbae5fa1fc3220c81": {
+   "sub": "3fd2b010743c816ca03cd57f0f53da32",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81a1b271fe3194930bbb": {
+   "sub": "3fd2b010743c815cb044fe0156eac1db",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c817382b5d8054f52a853": {
+   "sub": "3fd2b010743c81e3893eca845c534679",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c816abbd7e58f06cb1431": {
+   "sub": "40a2b010743c81e08ffff07179f41582",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816991bfd68411f900b1": {
+   "sub": "40a2b010743c81e08ffff07179f41582",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816e9262f6c4e12a3e59": {
+   "sub": "3fd2b010743c8156a468e13efa0df7fa",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8190b982cfb8ffcbf126": {
+   "sub": "3fd2b010743c817891cacc3aa184a7b1",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8167a631f05dc0c6fd44": {
+   "sub": "3fd2b010743c813ab640d16f2e035384",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ad937dd230e2f21114": {
+   "sub": "3fd2b010743c81e8baaac284e02b1a4f",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3fb2b010743c810d9495f9373989da73": {
+   "sub": "3fd2b010743c81e8baaac284e02b1a4f",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c69385c86bc5bff9ac": {
+   "sub": "40b2b010743c81819f49c5f0c43fbe37",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c817eb112f32f4702bf62": {
+   "sub": "40b2b010743c81819f49c5f0c43fbe37",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c815483ece8825c12f71c": {
+   "sub": "40b2b010743c815ea785fdd48e6f3efb",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3fb2b010743c81b596d4c273c349ea70": {
+   "sub": "3fd2b010743c81e39de0f7d1bf46960d",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81e8a619c6520d7ee53b": {
+   "sub": "3fd2b010743c81eabcfeec4e6541da49",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8107aebed4b637d1c6c3": {
+   "sub": "3fd2b010743c81a7ac89f1c486a1748a",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81d1a130dbdbea3a9a95": {
+   "sub": "40a2b010743c81469f96cd7cbc642304",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81eeb4ddf9db279f91d1": {
+   "sub": "40a2b010743c81469f96cd7cbc642304",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c818aaad7d076bfdc45e4": {
+   "sub": "3fd2b010743c817cbaeddf0631da95d6",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8120947bc48238ebac68": {
+   "sub": "3fd2b010743c81c5aa67c1c4017992d1",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ffbb1ad8ca48a67232": {
+   "sub": "3fd2b010743c81c5aa67c1c4017992d1",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8192bcabff9398327a10": {
+   "sub": "3fd2b010743c81a78168e4340798cff4",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81f8a48bf696891da007": {
+   "sub": "3fd2b010743c81299b7afd5f017536d9",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ddb6a0c60266d8fe9c": {
+   "sub": "3fd2b010743c81299b7afd5f017536d9",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c68344cbf2a7da595d": {
+   "sub": "40a2b010743c813e950fc248c8fa321e",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81918305d05512a5e6e4": {
+   "sub": "3fd2b010743c81599f4eceabb2f3c9f5",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81789913c93241198cc4": {
+   "sub": "3fd2b010743c810fb42be3c5e210a8c5",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81cda52bce9c9ac8c6bd": {
+   "sub": "3fd2b010743c810fb42be3c5e210a8c5",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81b08f05d5828ee0928f": {
+   "sub": "3fd2b010743c810fb42be3c5e210a8c5",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8108944ffc9581f51e4b": {
+   "sub": "3fd2b010743c81c59099c8bb124e2fc2",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a5afe9cd317e9ce384": {
+   "sub": "3fd2b010743c81c59099c8bb124e2fc2",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81189abbd85586b5146c": {
+   "sub": "3fd2b010743c81c59099c8bb124e2fc2",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c8b7b4c989c315a331": {
+   "sub": "40a2b010743c814486bfe575af70552d",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c817da6c1c1a04eaea234": {
+   "sub": "3fd2b010743c81c6b4d9d066a52e309a",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8187a54ef55bb3056a89": {
+   "sub": "3fd2b010743c81a099fbcae1eb999d37",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8186987bdc610341cbe7": {
+   "sub": "3fd2b010743c81b19244c16f0368aa0c",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8193ae53c8757a9c3447": {
+   "sub": "3fd2b010743c81b19244c16f0368aa0c",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8132a5f1da02d2d3a5b3": {
+   "sub": "3fd2b010743c81cb9490d3b0eab4b393",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8105a800e2b67b6e159a": {
+   "sub": "40b2b010743c81118d39ce220a7f00ef",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ee9b2ceb8247949b8b": {
+   "sub": "40b2b010743c81579fa7ced52f3bb411",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c7acd4f3539f9a5d9d": {
+   "sub": "3fd2b010743c816db131f34d64f9e1d9",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c813b950ecfe0624a7bd2": {
+   "sub": "3fd2b010743c81f291f1deea738c3b18",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e98236fcd3eae81e63": {
+   "sub": "3fd2b010743c81839ea6cf01d9a474f8",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816a950dd5c2fb71552b": {
+   "sub": "3fd2b010743c81cca951cb051424cfad",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c814791d4ecf60e1a3129": {
+   "sub": "3fd2b010743c81fc8e78fd4cfa8334a0",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c813cbb20e977bf479e1a": {
+   "sub": "3fd2b010743c8176ad75ce93e3a762da",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c9a2e9dc8309d3f3ad": {
+   "sub": "3fd2b010743c8176ad75ce93e3a762da",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812e9329ef94f4d49f2b": {
+   "sub": "3fd2b010743c81039173fab0e39d390c",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c810ca620d32e5e552f7d": {
+   "sub": "3fd2b010743c81039173fab0e39d390c",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81fca6a1e8b04ec40c53": {
+   "sub": "3fd2b010743c81c49708cbf416330603",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812481e0f1d3595116cc": {
+   "sub": "3fd2b010743c81c49708cbf416330603",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c817d9f34d4f2ebe93a1e": {
+   "sub": "40b2b010743c812f8d44d1f3fd29130e",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d3b072dfee718457f2": {
+   "sub": "40b2b010743c812f8d44d1f3fd29130e",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d49436f2be73da12e2": {
+   "sub": "3fd2b010743c8171936af054018dfeb9",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e0b177ff780fd56d59": {
+   "sub": "3fd2b010743c81e084c7d8de186aa83a",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "4092b010743c81c384ffca3f2ff59d0d": {
+   "sub": "40b2b010743c8112bccfd6857a52b2a5",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4082b010743c81a9a136c3e1c336d3c5": {
+   "sub": "40b2b010743c8112bccfd6857a52b2a5",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81f2b638cab45ee3fe21": {
+   "sub": "3fd2b010743c81e4a7adeceb555f72df",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8134a103cd2370019c43": {
+   "sub": "3fd2b010743c81c29bbac11a24b1696e",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c811b82bbff4792e9fc0b": {
+   "sub": "3fd2b010743c8134bd89f3018d243aab",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e9b4d4fc10c8548827": {
+   "sub": "3fd2b010743c8134bd89f3018d243aab",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c813e9364ca4fbf8e3626": {
+   "sub": "3fd2b010743c818cad93fdc603c36042",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8119aff1c15b2096b7e4": {
+   "sub": "3fd2b010743c818cad93fdc603c36042",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c294dbf7d6962f23c4": {
+   "sub": "3fd2b010743c816f9ea6fd73e06a821b",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8132a694eb193df5856d": {
+   "sub": "40a2b010743c8119a0eced1155938fa6",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8125b5c2e69e107e758e": {
+   "sub": "40a2b010743c8119a0eced1155938fa6",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c810dbfdeca62150c9613": {
+   "sub": "3fd2b010743c810dbe33f7e784e6934f",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8131810ae1406d9c6af6": {
+   "sub": "3fd2b010743c810dbe33f7e784e6934f",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81128360ca3390ab7c07": {
+   "sub": "3fd2b010743c8115b0e2f81f38596929",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c813b8403f64e29f0b9b6": {
+   "sub": "3fd2b010743c81b1afeff572a0261528",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816bb4bbc5e35f7da56b": {
+   "sub": "3fd2b010743c81f996bada727b0d9ba7",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e1955bc076e46a7f08": {
+   "sub": "3fd2b010743c81f996bada727b0d9ba7",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81758211f30833942d61": {
+   "sub": "3fd2b010743c81f996bada727b0d9ba7",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c817dbc45c8b4280ffedf": {
+   "sub": "3fd2b010743c81d9a746ce44dac9a7c4",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812b84b9e056a7064dfb": {
+   "sub": "3fd2b010743c81d9a746ce44dac9a7c4",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81839317e30c222d95d5": {
+   "sub": "40a2b010743c81edb30ec424f29542cf",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812b9933f2a0ce9d84ac": {
+   "sub": "3fd2b010743c81d0bec8d3e6b602667f",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81b6b051de63e3e93792": {
+   "sub": "40b2b010743c81ad825ffd85640f8a9b",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8128a549f0f3e57215cb": {
+   "sub": "3fd2b010743c8132855fcd491ff510ef",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8141868fcab9f5b83671": {
+   "sub": "3fd2b010743c817cbfd6d88d36710084",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8157b646e4f372c83576": {
+   "sub": "3fd2b010743c819aa392f1a00384139b",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81089429dd1a77c1049b": {
+   "sub": "3fd2b010743c81d88604e738adf2684e",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81cab0f9f06e50481a7d": {
+   "sub": "3fd2b010743c819584fae505452e5741",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8158b408d8aba1027538": {
+   "sub": "40a2b010743c813facf5d40a1acc8282",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e5aea4ebe55847314a": {
+   "sub": "40a2b010743c813facf5d40a1acc8282",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81848594e76e166acaeb": {
+   "sub": "40a2b010743c813facf5d40a1acc8282",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c811dbbd5f09b4c9e67c6": {
+   "sub": "3fd2b010743c81ae93d9c19a6783b070",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a69632e52af835842c": {
+   "sub": "40a2b010743c81269d45d5e47a3aec22",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c817598c8ddb2d407083c": {
+   "sub": "40a2b010743c819abdfdcce399c56fac",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81b1aca1c1b31ed0f6b6": {
+   "sub": "40a2b010743c8192881dc63aaac3be14",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c2b48cf504b4ad4f16": {
+   "sub": "40a2b010743c8192881dc63aaac3be14",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c810c9564f404dd50d66f": {
+   "sub": "40b2b010743c812da109e880ea695fb4",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81a3a65ad20760401b7f": {
+   "sub": "3fd2b010743c81fb8ec5f423dc9fe9bb",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c816ab630dbf5f411742d": {
+   "sub": "40a2b010743c8198af56ee7bbe30a8f2",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d9a431d09768ba6198": {
+   "sub": "40a2b010743c8198a2f5c3d4a0299686",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814ab499f7fcca4f9b12": {
+   "sub": "3fd2b010743c81b38403e38a4408cbbc",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d5b579c3652185a801": {
+   "sub": "3fd2b010743c81f69f96cd2d7642e2a5",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c79974d8f0e3012835": {
+   "sub": "3fd2b010743c814d99f0ebb06de97d98",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81049111f799c923a9f5": {
+   "sub": "3fd2b010743c81329b7bdccb0e55e706",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8111b530fadd67520469": {
+   "sub": "3fd2b010743c818a83f2d369598f38bd",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c2bf90eaa27c9ea4cd": {
+   "sub": "3fd2b010743c818a83f2d369598f38bd",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819d80a8dcbf9dd173a4": {
+   "sub": "40a2b010743c81e8b823f3982456dd7f",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81669f79d5a0223f4760": {
+   "sub": "3fd2b010743c817dbc08c10035208ed4",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8115bfabd50210de4b77": {
+   "sub": "3fd2b010743c817dbc08c10035208ed4",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c810eb665ce73a502e5d3": {
+   "sub": "3fd2b010743c8105aa08f79f7b2148f3",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ea808ec83946590f4d": {
+   "sub": "3fd2b010743c81769321d2b080b5262e",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e3be7ff134f54d5d99": {
+   "sub": "3fd2b010743c81aa8c8de74ff10975bb",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8124bafedd1df67cac28": {
+   "sub": "3fd2b010743c81aa8c8de74ff10975bb",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81298c9bdde0088aa9ad": {
+   "sub": "40a2b010743c8171a1c4e1f28715c848",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c819bbd61d180838c2a1b": {
+   "sub": "40a2b010743c8141aa06e7ae44fe5a0b",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812eb470fe5661219959": {
+   "sub": "40a2b010743c81f6879bcaeadc3c084d",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81fbb445d188a7edbc55": {
+   "sub": "3fd2b010743c8171a1f8dcfb150c4ea5",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81eb8bd0d557831d7d11": {
+   "sub": "40a2b010743c816db60deaee8f847198",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8148a072fd76945da5f7": {
+   "sub": "40a2b010743c813399f0f1966ccd3be2",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81f6846cfff05d118253": {
+   "sub": "3fd2b010743c81349bdffec7131c89d7",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81dfb6cad21a67e464ca": {
+   "sub": "3fd2b010743c81349bdffec7131c89d7",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c8a429d3ce8b653850": {
+   "sub": "3fd2b010743c81349bdffec7131c89d7",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81699ef2d81448d83f32": {
+   "sub": "3fd2b010743c81289adcc9a91f72a5e3",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81dfa0d3faf416146dc7": {
+   "sub": "3fd2b010743c81289adcc9a91f72a5e3",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8139bd3bdfe3eb260d7f": {
+   "sub": "3fd2b010743c812dbb65cdaf5b5a34f0",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81818850f5e0a6d409a6": {
+   "sub": "3fd2b010743c812dbb65cdaf5b5a34f0",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c816aaef9fa50fb8e905f": {
+   "sub": "40a2b010743c810d8d77f5e0835a2f1b",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d899a6dc75c9645170": {
+   "sub": "40a2b010743c815db64cc8da0bb18473",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e4a6dbc86ab8e74d1d": {
+   "sub": "40a2b010743c815db64cc8da0bb18473",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c89aaec6d290a834be": {
+   "sub": "40a2b010743c81029f41e25a18bcb3eb",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a99e8cd55192662bbd": {
+   "sub": "40a2b010743c81029f41e25a18bcb3eb",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c817aa434e5fe198df993": {
+   "sub": "3fd2b010743c81abbc02e23a2f9f5ed1",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "4082b010743c81a99befc2f7282637fb": {
+   "sub": "3fd2b010743c81abbc02e23a2f9f5ed1",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8105ac0cd39602b174ff": {
+   "sub": "3fd2b010743c818fa935d81f6fcaffaa",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8169a6a2e94aa13d1f77": {
+   "sub": "40a2b010743c8104b5fdfcca0140efdf",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c9a934cc78b928ffac": {
+   "sub": "3fd2b010743c81f99561c287500749d4",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8185914adb7e54a9b976": {
+   "sub": "3fd2b010743c81f99561c287500749d4",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c813084dec752c4433f08": {
+   "sub": "3fd2b010743c8101a860defc7cb75369",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8140ac4adc0a91b16b5c": {
+   "sub": "3fd2b010743c8101a860defc7cb75369",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c816c9bede745de03a6b1": {
+   "sub": "3fd2b010743c8101a860defc7cb75369",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81119c10f748761a432e": {
+   "sub": "40a2b010743c8183bf73fa53f0daebfa",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c810ba5e6d4df2729ebd6": {
+   "sub": "3fd2b010743c81fcbc27f2114fe464b2",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c819589b4f7090b39ce26": {
+   "sub": "3fd2b010743c81fcbc27f2114fe464b2",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81339e77cfcf2fd070f3": {
+   "sub": "3fd2b010743c81159f90c829721bc5cd",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d78e40e0ecd277bcb0": {
+   "sub": "3fd2b010743c8169aa15dc67bb28eff2",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c818ebc4bcd15713f1484": {
+   "sub": "3fd2b010743c8169aa15dc67bb28eff2",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81818e81dc69418fd718": {
+   "sub": "3fd2b010743c816e89c4d12884ec3b30",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8148a205cbc96e98f67b": {
+   "sub": "3fd2b010743c812dbfe6c061bf1d07b2",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8133a39cfa1e43b5d6bd": {
+   "sub": "40a2b010743c81338228c9e2f5cfd3b1",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c811fbf35f59ee8fa36b7": {
+   "sub": "40a2b010743c81338228c9e2f5cfd3b1",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814ab6a7c8db449fdc35": {
+   "sub": "40a2b010743c81bb884dc0ff437dfaac",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8101956aefe312b12198": {
+   "sub": "40a2b010743c81bb884dc0ff437dfaac",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a8a04de19afde54353": {
+   "sub": "40a2b010743c81bb884dc0ff437dfaac",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e58b9ec9255c8f960d": {
+   "sub": "40a2b010743c8122b423e1e4e3ee2f54",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c810c93bcd56a793da2ce": {
+   "sub": "40a2b010743c8122b423e1e4e3ee2f54",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816eb838fb0b8d6b3fe1": {
+   "sub": "40a2b010743c8122b423e1e4e3ee2f54",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81259458f8aee26a106d": {
+   "sub": "40a2b010743c818dba99d8eebfaa9073",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816aa464f989b26b57be": {
+   "sub": "40a2b010743c812c9b89f7a13550e169",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8133be8fd70171e4930e": {
+   "sub": "3fd2b010743c815aa346d607da07a911",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8121a0dff525bc98645e": {
+   "sub": "3fd2b010743c815aa346d607da07a911",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81f7ab13c891956f425c": {
+   "sub": "3fd2b010743c815aa346d607da07a911",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816898d1fadfc63eaf35": {
+   "sub": "40a2b010743c81808ce9d473e49c7233",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8168846ecf366c2a7b46": {
+   "sub": "40a2b010743c81808ce9d473e49c7233",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a089a0cf23aa538c5c": {
+   "sub": "40a2b010743c81808ce9d473e49c7233",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81738fc5f85cade0a38c": {
+   "sub": "40a2b010743c81669d84c714d76b7b2a",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c816984b8de5c9b24dc02": {
+   "sub": "40a2b010743c81669d84c714d76b7b2a",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8164bf92fac5661bc2df": {
+   "sub": "40a2b010743c8111b623f8df6dd0c7f4",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81149584c1568412c1ae": {
+   "sub": "40a2b010743c8112b6b1cf8e613aa569",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81108b7ed2e5b3513acf": {
+   "sub": "40a2b010743c8112b6b1cf8e613aa569",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819e9a23fadf6ffe7253": {
+   "sub": "40a2b010743c8112b6b1cf8e613aa569",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ae87ffccff2496beca": {
+   "sub": "3fd2b010743c8169a4e4e5d4300b37ac",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c815f8c70d12dcb943de7": {
+   "sub": "3fd2b010743c8169a4e4e5d4300b37ac",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8198bf16d7de746700e2": {
+   "sub": "3fd2b010743c8169a4e4e5d4300b37ac",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e98e36ec61137404c7": {
+   "sub": "4092b010743c815d8923c852288f615d",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81f3b39cfc38b39f4050": {
+   "sub": "4092b010743c815d8923c852288f615d",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c811b81a2c33da1f205cc": {
+   "sub": "4092b010743c815d8923c852288f615d",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8163bf56f82c7921d047": {
+   "sub": "40a2b010743c8175ba05e9e6c5f10afb",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819c8873fb211dacee93": {
+   "sub": "40a2b010743c8175ba05e9e6c5f10afb",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8175a369fb62f3e5b375": {
+   "sub": "40a2b010743c8175ba05e9e6c5f10afb",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c886c3d7cc17270b5a": {
+   "sub": "40a2b010743c81e8902dc8257772953d",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812296c3e527e6d3c575": {
+   "sub": "3fd2b010743c81b8a59ed6b1d3ef51e9",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81e7b519f908a6a60eb4": {
+   "sub": "3fd2b010743c81b8a59ed6b1d3ef51e9",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81369908cce7a0891541": {
+   "sub": "3fd2b010743c81bb9df6f9302dee80ca",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81569bb1e177d6b167d3": {
+   "sub": "3fd2b010743c81ada8cffabf55094690",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8116b508d45a341569e4": {
+   "sub": "40a2b010743c8167869fe178ec3d3dff",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81a296c1dc25ac935536": {
+   "sub": "40a2b010743c8167869fe178ec3d3dff",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81aaaffbdd5b34300044": {
+   "sub": "3fd2b010743c813abaccdad5b116e24c",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81d4bb2be59cb6219226": {
+   "sub": "3fd2b010743c813abaccdad5b116e24c",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8130b8f5d980cd1bc6ba": {
+   "sub": "40a2b010743c81bd89d3e477b66aedd2",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81918674e79cd7f323d7": {
+   "sub": "40a2b010743c817781b7f1d0f55bb817",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c810f82aec08707fe1618": {
+   "sub": "40a2b010743c817781b7f1d0f55bb817",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812591f7ec03cb5ea011": {
+   "sub": "3fd2b010743c81aba66dcdc3413f3d65",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8154837ad7a50513a74d": {
+   "sub": "40a2b010743c8154bb42e88fcad0f521",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81ba91d1e9f85510d3ac": {
+   "sub": "40a2b010743c8173a86beed247abd209",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81648694daa2142851d1": {
+   "sub": "40a2b010743c8173a86beed247abd209",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c39539d5972338186c": {
+   "sub": "40a2b010743c81e58089e61d7c3cb49a",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c811e879af7a71aecb2a1": {
+   "sub": "40a2b010743c814d8819d53f1d1e2e81",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c813ebc35e8e6d16af884": {
+   "sub": "40a2b010743c8153a22bd12bd632a8c3",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81e99712e3f2255a78f6": {
+   "sub": "3fd2b010743c81d9a6e1c483a98b2c7f",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8175aeeede4b1fc5f45c": {
+   "sub": "40a2b010743c81c6a311ee03ef54e359",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c814cbb3de781ab0a54b8": {
+   "sub": "40a2b010743c81c6a311ee03ef54e359",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8106a13af4ddcbb0a08f": {
+   "sub": "40a2b010743c81dfbeb5eaf60e82303c",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c812c9de5c5f4a149bd7e": {
+   "sub": "3fd2b010743c81d9a6e1c483a98b2c7f",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8142a6bff584c65b7bb7": {
+   "sub": "40a2b010743c81b5bd16c64364d849c1",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c8b948e50b0fd5d2d3": {
+   "sub": "3fd2b010743c81439f39fa4e0e8c952e",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c812ab5fbe444ac81b18f": {
+   "sub": "40a2b010743c811981dfd1ee190158ac",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81079f71e3c4d3e2852f": {
+   "sub": "40a2b010743c811981dfd1ee190158ac",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81198958e33c670bdd84": {
+   "sub": "3fd2b010743c81f6b4e8cc3e0ec0f83a",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81469db1f917e003e831": {
+   "sub": "40a2b010743c81cbae9df11db44d9368",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8168a5bae2f327f3fad3": {
+   "sub": "40a2b010743c81cbae9df11db44d9368",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81d69b07f9c880123998": {
+   "sub": "40a2b010743c8158985dd607d06abfb1",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81049f34dbe95383dae5": {
+   "sub": "40a2b010743c8158985dd607d06abfb1",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81e5b0a1fc751a78edfd": {
+   "sub": "40a2b010743c81c6ada3c465b1843fbc",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8194982fc20fca45c83e": {
+   "sub": "3fd2b010743c819e8cd7d9c9482a9074",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81348aabffeac09717d8": {
+   "sub": "40a2b010743c81ba9e07f104d3e0c008",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81f08be4e49cab2fe634": {
+   "sub": "3fd2b010743c81cc809aeac654355510",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81e386b7cd7df08a3ca3": {
+   "sub": "3fd2b010743c813fa747cd692bf33df6",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8173825dcb286b90ce40": {
+   "sub": "40a2b010743c815b96dccc10b8f6d8ae",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c814fa86ecac0df8373bf": {
+   "sub": "40a2b010743c815b96dccc10b8f6d8ae",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81f0bcfdfdaa920fd54a": {
+   "sub": "40a2b010743c81618099c17ea9e288ee",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c88a0ddecb7bbd0b5e": {
+   "sub": "40a2b010743c819892a5ef1f39615aed",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8139a6bbfb08a8e26bed": {
+   "sub": "40a2b010743c815d8641c81c7dae5656",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c7ab75e0e1af3b7695": {
+   "sub": "40a2b010743c815d8641c81c7dae5656",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81fb8254d030c7b2491c": {
+   "sub": "40a2b010743c8195b4a3e595cb05d786",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c812e87ebffee78718f3d": {
+   "sub": "40a2b010743c8147971ec143d963df95",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c818bb066e685d6ba983a": {
+   "sub": "3fd2b010743c816793eef81b2289dc77",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81098e60c3bd0b92b00a": {
+   "sub": "40a2b010743c81319252fed57ffd5918",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8160a205f074548f941f": {
+   "sub": "40a2b010743c81389dcfd4232b635f35",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81bea423fa655b85c752": {
+   "sub": "3fd2b010743c81e78f03eb762716a9c4",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8184951acf2737c12518": {
+   "sub": "40a2b010743c816dbc69deda3cf23859",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c814f92e6dd89201be146": {
+   "sub": "40a2b010743c816eb185ebd1360c4c64",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81e4a802c21e5289a7a3": {
+   "sub": "3fd2b010743c813882c7f1ca806b43b3",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c813583eed5ff10f3baa6": {
+   "sub": "40a2b010743c81cc99e8eed72e4912a8",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e08f90cc5eaa3bcbfd": {
+   "sub": "40a2b010743c81b5bd16c64364d849c1",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819b888af82456cb2675": {
+   "sub": "3fd2b010743c8119b2fce66ecc9ff76a",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812999e6fb6f088b8811": {
+   "sub": "3fd2b010743c81b4bee9c210cf6052d5",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81b8912bd89850605633": {
+   "sub": "40a2b010743c819ab3aac1eafa1ff854",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d4be5dddbcba05e5d5": {
+   "sub": "40a2b010743c819ab3aac1eafa1ff854",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814195aacef2a7bac08e": {
+   "sub": "40a2b010743c819ab3aac1eafa1ff854",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c810aaf39f6e20a6364b9": {
+   "sub": "3fd2b010743c814a9347d583c0eb1551",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81dca939e0e34776dbce": {
+   "sub": "3fd2b010743c81f1b16ae8875458f2b1",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81289ecbfdb2be80b1ea": {
+   "sub": "3fd2b010743c81f1b16ae8875458f2b1",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e79c1dd12e0cce153c": {
+   "sub": "40a2b010743c81319252fed57ffd5918",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c0bfa1d25c67b83be7": {
+   "sub": "40a2b010743c81319252fed57ffd5918",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819396aed8536f60a696": {
+   "sub": "3fd2b010743c81f49fbee455a19a5436",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c813cb902f754541e0541": {
+   "sub": "40a2b010743c81389dcfd4232b635f35",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d8889bf71d2f575610": {
+   "sub": "40a2b010743c81389dcfd4232b635f35",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819e8df3c944cdd928cd": {
+   "sub": "3fd2b010743c81e4b39ae6086c8424ec",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81b3867ecc38ea76c507": {
+   "sub": "3fd2b010743c8120a540f515e3853e67",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c818aa5a6ccd1a2790042": {
+   "sub": "3fd2b010743c8120a540f515e3853e67",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d2bc6ed39653d14e2c": {
+   "sub": "40a2b010743c816dbc69deda3cf23859",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819f8285c5b6a834af0c": {
+   "sub": "40a2b010743c816dbc69deda3cf23859",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816a9558db55af20bc40": {
+   "sub": "3fd2b010743c8110a831fed06a88cbde",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81b1b844fad4d260e667": {
+   "sub": "3fd2b010743c8127aee3e598aaab81d7",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c816e89acdad82b2cf4ea": {
+   "sub": "40a2b010743c81d3accdc5ebb1a88a71",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81febbdefc0bc3d533e8": {
+   "sub": "40a2b010743c81d3accdc5ebb1a88a71",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c3b187fdb66ccdef1e": {
+   "sub": "3fd2b010743c81d4a4cceb52cce07e13",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8136b1bdeed0628726c3": {
+   "sub": "3fd2b010743c81ac9b3be32cb612fff1",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81f8bea8d58993c2edb9": {
+   "sub": "40a2b010743c81e38e99cd74903fa95f",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c819487a9f7a0f13562d5": {
+   "sub": "40a2b010743c818da527eecf5356fd0f",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c8164baf8d8585d4be69e": {
+   "sub": "40a2b010743c810487a3e8b514ce4403",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c819dbd65c7d908ce6b36": {
+   "sub": "40a2b010743c81a3863ac563081598b6",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c815fbf74e4d22b40acde": {
+   "sub": "3fd2b010743c8153a48af91d6b6bf203",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d08602e3c8158acb4e": {
+   "sub": "40a2b010743c810487a3e8b514ce4403",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d2b79ef1ea2140defc": {
+   "sub": "40a2b010743c81a3863ac563081598b6",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8149bf56c273182c992e": {
+   "sub": "40a2b010743c8101bd29c4478ee8fa51",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c815bb9f0fc14eec70934": {
+   "sub": "3fd2b010743c8144856fe975c3eb0316",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8153b8afe0b115fc6dc5": {
+   "sub": "3fd2b010743c817b8687d16ca06adee5",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8179897afe356232385f": {
+   "sub": "3fd2b010743c81768a51dd0181bed3de",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816d9e7fe6165e1e84a4": {
+   "sub": "3fd2b010743c817c8b97f23378cfd854",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4082b010743c813eafbbc29cf81112a7": {
+   "sub": "3fd2b010743c8144856fe975c3eb0316",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4082b010743c81e4b18ae6284b1549d4": {
+   "sub": "3fd2b010743c81768a51dd0181bed3de",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c811cbf92d996f19bd20b": {
+   "sub": "40a2b010743c81d2a012de0f1338a224",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c813588dee0fe74298328": {
+   "sub": "40a2b010743c8169947afcbc3d4aeab3",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d08af9ca4c45b7a2d2": {
+   "sub": "3fd2b010743c81f9bb12c9e83880911f",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8121a276d2a8729bfc3a": {
+   "sub": "40a2b010743c81c6a399f80b92472aa5",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c817c811cc16414b9ea42": {
+   "sub": "3fd2b010743c81ecafdfd7b2b6fea049",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819daf12dd63273997d9": {
+   "sub": "3fd2b010743c81a08200d2c3514aacbc",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8140b565de0487e03ae4": {
+   "sub": "40a2b010743c81d2a012de0f1338a224",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812e86aae73aa0088790": {
+   "sub": "40a2b010743c81d2a012de0f1338a224",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81af8521c565214700e6": {
+   "sub": "3fd2b010743c81ac9b3be32cb612fff1",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8114b361caa800eff9c4": {
+   "sub": "40a2b010743c81e38e99cd74903fa95f",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8106bb4ffe10b82c2677": {
+   "sub": "40a2b010743c81e38e99cd74903fa95f",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81f8adf0df74ff4508b6": {
+   "sub": "40a2b010743c81189fecf625a16bc53f",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8117882ad583c6530486": {
+   "sub": "3fd2b010743c81d78582e1553c42349b",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8172ac7ff78148313bb0": {
+   "sub": "3fd2b010743c815c979cef01ceecf2e7",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d7be9dc3abc50671af": {
+   "sub": "3fd2b010743c817c8447e72ab5035d4b",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8117b52afb04cf54b793": {
+   "sub": "3fd2b010743c8124a561f2815f5560ae",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814e800fdca687308a0c": {
+   "sub": "3fd2b010743c8124a561f2815f5560ae",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81929034eb200d7e00e3": {
+   "sub": "3fd2b010743c81ac9b3be32cb612fff1",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814fbf3fc43d2ec495c8": {
+   "sub": "3fd2b010743c81b68b8ffe634d7d162c",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8156a614cc1fbfb3a76e": {
+   "sub": "3fd2b010743c814293f7c75964536071",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8194bf40cb3286628161": {
+   "sub": "3fd2b010743c81ffa619e598757e9314",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e494c1fe1f78e7b44d": {
+   "sub": "3fd2b010743c8139ab38fbee80011f55",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c893bccc0e5add2cf0": {
+   "sub": "40a2b010743c8181a359ff8451a59f40",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8120ac04cb629039cb2e": {
+   "sub": "40a2b010743c81098074d775d23ca03e",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8170a029d10942c107e8": {
+   "sub": "3fd2b010743c812e96a3ef2dbde13036",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81659ab4ddfc3e23f5da": {
+   "sub": "3fd2b010743c81948879d79b06b9a3b4",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8137afddfdb8247c0c30": {
+   "sub": "3fd2b010743c8157ad55c6c49c23a427",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d885a7f9a6292db525": {
+   "sub": "40b2b010743c816991e3fdb9966e157e",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812da60ddc7beace1de6": {
+   "sub": "3fd2b010743c81948879d79b06b9a3b4",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8136ac34db644cc3f8c7": {
+   "sub": "40a2b010743c8117b856e9bb517e4069",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c814284c0cd1c1dd5f099": {
+   "sub": "40a2b010743c81a78b5ed634b9f7bd3c",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8152baa8c2b25e6b39e0": {
+   "sub": "3fd2b010743c815f8c74c5002318ccb9",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81269631c1b43c5a65e4": {
+   "sub": "40a2b010743c81c38d78d7a39bcd515e",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8163a0bdcffb5bf90d7b": {
+   "sub": "3fd2b010743c81a99d10cebc28e0d0fc",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c819db65fd9f9fa1b716d": {
+   "sub": "3fd2b010743c81659f82cce2e8246b96",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81a499e5ce55b1db88eb": {
+   "sub": "40a2b010743c8123a3fdceca8cf4a4f8",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81bfa078c9df0b163b7e": {
+   "sub": "40a2b010743c8181a359ff8451a59f40",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81d7b5c2c323ad2defa7": {
+   "sub": "40a2b010743c815bbb66f9b5301f561c",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81478e35cfa5fd152c91": {
+   "sub": "3fd2b010743c81b78cf0fae86611f278",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8119a7f6c37b1a6d3fca": {
+   "sub": "40a2b010743c81fa80d4c2b1001ceabe",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c819f8727f05c17a5c07b": {
+   "sub": "3fd2b010743c814682bbcd3c0e8259cd",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8182883dfa76f55e8009": {
+   "sub": "3fd2b010743c814682bbcd3c0e8259cd",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8196ad8dd395f7c58ef7": {
+   "sub": "40a2b010743c818fa41cfa5c85d9e877",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8105b903c73339b0cc11": {
+   "sub": "3fd2b010743c81b68b8ffe634d7d162c",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c815587bdda8033518e02": {
+   "sub": "40b2b010743c81708cd2e3bbcd2d2678",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816392c4fa48f452583e": {
+   "sub": "40a2b010743c8194ad21da01ae0599b3",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8100ad36c14720a8a4fc": {
+   "sub": "3fd2b010743c8185a14fece23f7af434",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81178048dd9750f33ad6": {
+   "sub": "3fd2b010743c8185a14fece23f7af434",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "4092b010743c819cb4a5e7722668118e": {
+   "sub": "40a2b010743c81098074d775d23ca03e",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c81189d3cef33d1d3076f": {
+   "sub": "3fd2b010743c81a99d10cebc28e0d0fc",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c81368757c57f3a42f747": {
+   "sub": "3fd2b010743c81948879d79b06b9a3b4",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81619f98d61140f8d8eb": {
+   "sub": "3fd2b010743c81948879d79b06b9a3b4",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8145a1eff3a76b5ce668": {
+   "sub": "3fd2b010743c815f8c74c5002318ccb9",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816f990fe7e8943eced5": {
+   "sub": "3fd2b010743c817faa41e9e4b46e3f46",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c813ca22ff54fbfe6ca84": {
+   "sub": "3fd2b010743c817faa41e9e4b46e3f46",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4092b010743c818a8446ead0477f12ce": {
+   "sub": "3fd2b010743c8157ad55c6c49c23a427",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c815e8e3fef7e934c16d7": {
+   "sub": "3fd2b010743c8157ad55c6c49c23a427",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81098358c7d85e62070d": {
+   "sub": "3fd2b010743c8157ad55c6c49c23a427",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c81439966f39326eb1888": {
+   "sub": "3fd2b010743c813695f9c4a262e4a19e",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81449d15ce669fbef184": {
+   "sub": "3fd2b010743c81e5a511d40b4eac5b7f",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81639860ced8bf34227b": {
+   "sub": "3fd2b010743c81e5a511d40b4eac5b7f",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c811582d5ed4e8a10e640": {
+   "sub": "3fd2b010743c81b68b8ffe634d7d162c",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c810eb537fbcb5c95eb71": {
+   "sub": "40a2b010743c81a78b5ed634b9f7bd3c",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ff9099d3429757ea67": {
+   "sub": "40a2b010743c81a78b5ed634b9f7bd3c",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c817287d4fa9d68da31db": {
+   "sub": "40a2b010743c815bbb66f9b5301f561c",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81f68fe9f7208dd8637d": {
+   "sub": "40a2b010743c8181a359ff8451a59f40",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8148aefdf5e1b9730d82": {
+   "sub": "3fd2b010743c812e96a3ef2dbde13036",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814cadb3fb1b92f41496": {
+   "sub": "3fd2b010743c814682bbcd3c0e8259cd",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c817b938affd0a8067851": {
+   "sub": "3fd2b010743c81b78b5cdc2cc689268b",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8196bf4bea3081c91692": {
+   "sub": "3fd2b010743c8152b285d66dae645ef8",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81b18c97d68433b2adf4": {
+   "sub": "3fd2b010743c813695f9c4a262e4a19e",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c815883fbe160277aef01": {
+   "sub": "3fd2b010743c81a4a493f05f8aa95ecc",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816a85fedaacf71a2f92": {
+   "sub": "40b2b010743c8123ab5dc9f7601c4120",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812792a7ccf979181427": {
+   "sub": "3fd2b010743c81ffa619e598757e9314",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a4bb22fee29aee15ba": {
+   "sub": "3fd2b010743c814293f7c75964536071",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d7955ddc0433d4ee5f": {
+   "sub": "3fd2b010743c81a4a493f05f8aa95ecc",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c815fbb71f232a59d55ad": {
+   "sub": "40a2b010743c818fa41cfa5c85d9e877",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81649802e2038b5f88d1": {
+   "sub": "3fd2b010743c8179872ac604e114d1dc",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81028d29f1bfedf594ac": {
+   "sub": "3fd2b010743c81f28d33db1c2ba9b587",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8169a3e7e1a0563667ea": {
+   "sub": "3fd2b010743c81f28d33db1c2ba9b587",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c814aae77fae73ac242e1": {
+   "sub": "3fd2b010743c811a90c1c3692f4f6686",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81278086eb6459690302": {
+   "sub": "3fd2b010743c811a90c1c3692f4f6686",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8135ae6dcb643a0d83a2": {
+   "sub": "3fd2b010743c81c69aafc468406bd20a",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819aa6c1f432a265e9b4": {
+   "sub": "3fd2b010743c81808f40e4ce02a23f88",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c818190bee047cfbfd5e4": {
+   "sub": "40b2b010743c811daa8be2790bbaacdc",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81dcad26eb1a859754c7": {
+   "sub": "3fd2b010743c81a8ab59fb07ccb843c1",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4082b010743c811cb41dd32b942603c4": {
+   "sub": "3fd2b010743c81b98312de623d6e461e",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c817eb440e1f9b0270b5e": {
+   "sub": "3fd2b010743c819fbc87d26b84408df0",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81f0bdfbfceb24c029c4": {
+   "sub": "3fd2b010743c817d961de51bd86ca617",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c28564f89108114f4b": {
+   "sub": "40a2b010743c8186b3a5dafd43e7eb21",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c815b9b06dd8e5769372a": {
+   "sub": "40a2b010743c8186b3a5dafd43e7eb21",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8156bb64e47c756b8d69": {
+   "sub": "3fd2b010743c81a4919acf1305f377cf",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819ba958f94058368461": {
+   "sub": "3fd2b010743c81a4919acf1305f377cf",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81b5962ee811226dfb74": {
+   "sub": "3fd2b010743c817faea2c4ac8e923a0d",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8125863ff5311a7ef2b5": {
+   "sub": "3fd2b010743c81d691b8dddecb9d1738",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81658383f2006cf8ada8": {
+   "sub": "3fd2b010743c81749d45d809ce23766c",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8193a5d3ca5c855851ec": {
+   "sub": "40a2b010743c81b69b24f42d35c5d8fe",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c812bbca2dc3b2517d700": {
+   "sub": "3fd2b010743c811285b5e347bb084469",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8152bd47e7d5827d28ae": {
+   "sub": "3fd2b010743c818ba85ec12058c1a5a3",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81e68ac6fddcb10a7026": {
+   "sub": "3fd2b010743c818ba85ec12058c1a5a3",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c815ba60eea13ae5dafb0": {
+   "sub": "3fd2b010743c81c6bd8fff8a6c7f06e9",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81719e5fe11ca1e67fce": {
+   "sub": "3fd2b010743c81ea9740cb817c805821",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81cea104d2a2d44864da": {
+   "sub": "40a2b010743c81288947cfec3e4e05f2",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c811089aae958f9b7b1b9": {
+   "sub": "40a2b010743c813398bad0006911b888",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c796d1ecfe1c789479": {
+   "sub": "40a2b010743c8150a783d27d258d2c36",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81d68f29e12a8850138c": {
+   "sub": "40a2b010743c8182b3acecc9b5c3c2b9",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c814da68ad207fd7b355d": {
+   "sub": "40a2b010743c8150a783d27d258d2c36",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8118a6ddf2c84d59d3a3": {
+   "sub": "3fd2b010743c8125b5c5c09c6b35db54",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81609c39cf35a7066373": {
+   "sub": "3fd2b010743c8125b5c5c09c6b35db54",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81938a3aef7d5b09f59c": {
+   "sub": "40a2b010743c81de8179f136df6b2df7",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8102ac38cea399bac95e": {
+   "sub": "40a2b010743c81028691fabbc5d4863e",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81b7aff5eeacce79ba25": {
+   "sub": "3fd2b010743c8163933dcc88fa16f39b",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c819fa838cc322e57d2c4": {
+   "sub": "3fd2b010743c8163933dcc88fa16f39b",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8167970dc5ddb2736fce": {
+   "sub": "3fd2b010743c813db956d49a96ff118e",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81de9adaca621ef7862f": {
+   "sub": "3fd2b010743c8178bfe6fecf4d74bc52",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c811f981fffe10caeb135": {
+   "sub": "3fd2b010743c8111b944e4d0982325b3",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81e1853ffaeca58aa053": {
+   "sub": "3fd2b010743c8111b944e4d0982325b3",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c812b8d03dd6e6118b255": {
+   "sub": "3fd2b010743c81b580dcf662fa0b1ed4",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8196998afc5f66891e82": {
+   "sub": "3fd2b010743c8148addbfd134a6f8dfe",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c81ba8afcfe788dffe6e2": {
+   "sub": "3fd2b010743c81d38ea7eff65b8d6df6",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81df800bf10c31067c00": {
+   "sub": "40a2b010743c81c3a53ddc75c1efe6a3",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8191ac68d11c316e9a46": {
+   "sub": "40a2b010743c81c3a53ddc75c1efe6a3",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c811fa0a6cb90541286c3": {
+   "sub": "3fd2b010743c81a6877dfc74694cd0d7",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81198ae5c6d900c8d118": {
+   "sub": "3fd2b010743c81c4bd87fd3dc139a4d6",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8176adfcc34fd4ca2b90": {
+   "sub": "3fd2b010743c81fb8bb4c7da666350b6",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81098a5bc2a33b73a957": {
+   "sub": "3fd2b010743c81dbac2ae1b1f9c512e9",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e5bbd1c91aa12f7c33": {
+   "sub": "3fd2b010743c81aabef1eb607194f7be",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e3bcd1dd3b55d4c9ad": {
+   "sub": "40a2b010743c81ac8028f74d51f84e2a",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8128a5cffbc3e4685a93": {
+   "sub": "3fd2b010743c81bc8843db217df3acf8",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8111850df49e54df6145": {
+   "sub": "3fd2b010743c8199a948d456a9156b4d",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8111b570cf401d5a55e5": {
+   "sub": "40a2b010743c81d69bddd0f59e07e790",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a095b5e92181ed1ebf": {
+   "sub": "40a2b010743c81d69bddd0f59e07e790",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81eca4d5cde36f0fedd4": {
+   "sub": "3fd2b010743c8164b923e12b5e728193",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c818a88bde89574e488e9": {
+   "sub": "40b2b010743c812ba5d9d200e8e56dad",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81f882c5c573954aed30": {
+   "sub": "40b2b010743c810c9c68e8a0078d773e",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8121b7b4ee8c4492c5ae": {
+   "sub": "40b2b010743c810c9c68e8a0078d773e",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81998c7fcd2182864997": {
+   "sub": "3fd2b010743c81889f3bfeab5278ddc3",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ad8434e023cee3ca2c": {
+   "sub": "3fd2b010743c81889f3bfeab5278ddc3",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819895bffca186313859": {
+   "sub": "40a2b010743c8175b7bdc3b3ad573f9c",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81f09a78d842d088e366": {
+   "sub": "40a2b010743c8175b7bdc3b3ad573f9c",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8196ae03dab317db834d": {
+   "sub": "3fd2b010743c81539ba0dc8484186780",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8151bc8df5f70dc4715e": {
+   "sub": "40a2b010743c810baf00cc8341655342",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814c89d5fcbfa2f5cef6": {
+   "sub": "3fd2b010743c81858968e7a4d4e0c756",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c818196b3fb557acc182c": {
+   "sub": "3fd2b010743c8163933dcc88fa16f39b",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c818c99fdd3e6af34e597": {
+   "sub": "3fd2b010743c81f1ad18e371eca4f800",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c81949ea7f3ca8fbebaec": {
+   "sub": "3fd2b010743c81dbbc4dfe4d13dfac31",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816b87ebea973684fee1": {
+   "sub": "3fd2b010743c81b3a444d408a5a1995d",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81348e8fe4ed90544da6": {
+   "sub": "3fd2b010743c81b3a444d408a5a1995d",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81f5903bd370ec5255c1": {
+   "sub": "3fd2b010743c81eaa3abf8edebf062ff",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "4092b010743c818cb8cdd1b626db1df3": {
+   "sub": "3fd2b010743c81eaa3abf8edebf062ff",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a6b728d60aa3663291": {
+   "sub": "3fd2b010743c81eaa3abf8edebf062ff",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814ab33fe0a76a113dc9": {
+   "sub": "40b2b010743c8162a4c2fc166ffa8c51",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81df9116eb9fd0067d31": {
+   "sub": "40b2b010743c8162a4c2fc166ffa8c51",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4092b010743c814ba77eeb86d6f9a19a": {
+   "sub": "3fd2b010743c81e7a3baecac22674ca9",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81d0b4d0ddded1d3bd2f": {
+   "sub": "3fd2b010743c813bbccaebf6138e3fe0",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81cb8c04e6fdcfb1b378": {
+   "sub": "3fd2b010743c81d3ba30d4023de301f6",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81ea8127ed1dd19e96cd": {
+   "sub": "40a2b010743c81ba9763e945803b53cf",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81d4ab02da198d4e7543": {
+   "sub": "40a2b010743c813494c7da83c505e1b7",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c78f60d101307a8f72": {
+   "sub": "40a2b010743c812ca157cbd66575b5ea",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c811e96bac1be3dd3725f": {
+   "sub": "40a2b010743c812ca157cbd66575b5ea",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8130a05adad971f20dbd": {
+   "sub": "3fd2b010743c810c8927df3aa090e1eb",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8176b981e458d4be18e8": {
+   "sub": "3fd2b010743c815ebc9ed79ba81cfcd9",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81edbcebd7e596ce7a43": {
+   "sub": "40a2b010743c8191b1f7e5be1f73ef77",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e5853ed529f03b3dbc": {
+   "sub": "40a2b010743c8191b1f7e5be1f73ef77",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a09d98f12d4923f414": {
+   "sub": "3fd2b010743c813583f3ed137ba9cb0c",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814ab122f55234126cf8": {
+   "sub": "40a2b010743c81baacfaf16dbf3776a5",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c811897e6d3d79be2377a": {
+   "sub": "40a2b010743c81baacfaf16dbf3776a5",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81c0bbcbe9e7710c94d9": {
+   "sub": "3fd2b010743c81638385f162d83c2b33",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8121845ecd064ab1b1af": {
+   "sub": "3fd2b010743c81499cbaf59ee6c57dd6",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816caed3f55a9d26da03": {
+   "sub": "3fd2b010743c81cca285e9296cae5faf",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c815093c3c92c8ad27e9b": {
+   "sub": "3fd2b010743c81a3a207e798ff319bea",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8140a62ff768ad7d3321": {
+   "sub": "3fd2b010743c81d4b234d0380f17558a",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81e78e78ee8b3c8cbd94": {
+   "sub": "3fd2b010743c816c8a64dd3cf8e2bed8",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8101bf19d99d7fe0e84b": {
+   "sub": "3fd2b010743c813f9b88e8f444913624",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c81eb8685d9bd581b7938": {
+   "sub": "3fd2b010743c813f9b88e8f444913624",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81dfa4fce00a7babef70": {
+   "sub": "3fd2b010743c813f9b88e8f444913624",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c818aae6bedfcbe5074bb": {
+   "sub": "3fd2b010743c815cbb64ea8f19438836",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81649bf9c563faac0150": {
+   "sub": "3fd2b010743c815cbb64ea8f19438836",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812982beefaf83ec3255": {
+   "sub": "3fd2b010743c815cbb64ea8f19438836",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8170a518e8de73683ea8": {
+   "sub": "3fd2b010743c81a39cdad8ea248a54b7",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ba874eda7eb79c0ca1": {
+   "sub": "3fd2b010743c81a39cdad8ea248a54b7",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81dd867ddacef842ec12": {
+   "sub": "3fd2b010743c8167a76cc011b0e5abba",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8184a208c6fdb668d104": {
+   "sub": "3fd2b010743c81adb5dbce69511c3dba",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8116aa6ff86b067bfc4f": {
+   "sub": "3fd2b010743c8116b91bc77bdb26902a",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81dca5d3fc428947b809": {
+   "sub": "3fd2b010743c812285d0e614a7d9b0bd",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81fbb1d6c1f3f2c91233": {
+   "sub": "3fd2b010743c812285d0e614a7d9b0bd",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81c39ffdfd6aaf3f67bb": {
+   "sub": "3fd2b010743c818b89a1fd8d29a2a805",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8136b7c5f453abcc5a40": {
+   "sub": "3fd2b010743c818b89a1fd8d29a2a805",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819db3e6ea6996aa0131": {
+   "sub": "3fd2b010743c81eb9f7cc1045a63d2cc",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81ea8250ceebe41e0138": {
+   "sub": "3fd2b010743c81eb9f7cc1045a63d2cc",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8120915becc4a48996ac": {
+   "sub": "3fd2b010743c817298b2f8cfc8552019",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c813fa379e15c109ce6da": {
+   "sub": "3fd2b010743c8178a35af63e7fac4506",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81e286e5fae73e8272f7": {
+   "sub": "3fd2b010743c81fe9bb4ee0be4f46506",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c81ed81c7ed393acb0f95": {
+   "sub": "3fd2b010743c81aa9c15fbbf1fe29cd2",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c813ba13ac9e5d51ed2a7": {
+   "sub": "3fd2b010743c81aa9c15fbbf1fe29cd2",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814dbfbbd822a4b29cac": {
+   "sub": "3fd2b010743c81678a5fc5d4ad44269f",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81cd9644fb319edd6229": {
+   "sub": "3fd2b010743c810e9ad7c5853fa19b45",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81b0995ad762b203188b": {
+   "sub": "40b2b010743c81fcb764d0b12b4cbad6",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812d9be6cb12ada198e4": {
+   "sub": "40b2b010743c81fcb764d0b12b4cbad6",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c81babd7fd09e95291f3c": {
+   "sub": "40b2b010743c81fcb764d0b12b4cbad6",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8174b0daf9a793a208fa": {
+   "sub": "40b2b010743c81fcb764d0b12b4cbad6",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81db89ade4a9ec0aaabf": {
+   "sub": "3fd2b010743c81a8a71dfbbfdde3c6e9",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c817b846ced47c508c496": {
+   "sub": "3fd2b010743c8111962cffc42e0abd3d",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8165a580c27bbd423d10": {
+   "sub": "3fd2b010743c815f91ebe69e102cbd8a",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81e7bc68e870a271b428": {
+   "sub": "3fd2b010743c81969821f75eef904574",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c817184e0e0f72ebfef1e": {
+   "sub": "3fd2b010743c81e78eccefdd9e78b2b4",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c817a84b3ec2e57a51e35": {
+   "sub": "3fd2b010743c815f9e10d2b4e5784d62",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81f6bc81d779c0b80063": {
+   "sub": "3fd2b010743c815f9e10d2b4e5784d62",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c815db507d796a924b046": {
+   "sub": "3fd2b010743c81568c90dccda4a3603d",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "4022b010743c818dad52ef50b97a151a": {
+   "sub": "3fd2b010743c81568c90dccda4a3603d",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c813b8d13e8f00b6f9dc9": {
+   "sub": "3fd2b010743c8159885fec0b9186a285",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8118ab6ff7a05b57b537": {
+   "sub": "3fd2b010743c81bfb0e4c9be9ca4e276",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81a798ecd178e0872ec6": {
+   "sub": "3fd2b010743c81bfb0e4c9be9ca4e276",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "4092b010743c8117ad6ecf83b0898924": {
+   "sub": "3fd2b010743c814a8a87e7c9155e0162",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8148b440d96724a40732": {
+   "sub": "3fd2b010743c812e9636deb5bf76e6ee",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8103adf8d0cb61b26880": {
+   "sub": "3fd2b010743c812e9636deb5bf76e6ee",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c81299b01fd2a8fa75bc9": {
+   "sub": "3fd2b010743c81a0a240e72147ccf3a2",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c817aa709c814153dd100": {
+   "sub": "3fd2b010743c81a0a240e72147ccf3a2",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c8126bb9dc26ecb7e389b": {
+   "sub": "3fd2b010743c81bba9f9e94d16b94e3d",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c816da35af182731e4e73": {
+   "sub": "3fd2b010743c81879bbff7cbc118918a",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3f62b010743c81c89d8fe716d9284265": {
+   "sub": "3fd2b010743c81a59ba3dd00917a237a",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812abf42f6e58fbd5e0f": {
+   "sub": "40a2b010743c81299117f9e4ff6b1f1c",
+   "related": [],
+   "difficulty": 1,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8121adcaeb3963caea85": {
+   "sub": "3fd2b010743c81809bc4e9d2a1ee85b0",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8126a4ffc7731b7ada68": {
+   "sub": "3fd2b010743c8125bb24f950452abbf5",
+   "related": [],
+   "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "3fd2b010743c81c38742cec6c9eb94ca": {
+   "sub": "3fd2b010743c8150b339ea02d8169feb",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81199f6aee4e92cfee3d": {
+   "sub": "3fd2b010743c8150b339ea02d8169feb",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c813fbbd6daad5462af08": {
+   "sub": "3fd2b010743c81a6a681e48b3a9a497d",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3fd2b010743c81649bb9d243cf9de472": {
+   "sub": "40a2b010743c81499ce9dff6f7ac220b",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c814ca6c6db977631c7f1": {
+   "sub": "40a2b010743c81d9ab7be04d44f3d1d3",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81f7a0dbfb22465d15bc": {
+   "sub": "3fd2b010743c81c0810fca6b76d1e6bf",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81f5a157ef56faaf4af4": {
+   "sub": "3fd2b010743c817881b0cbe04c0f0b36",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8152b06dc137d8ac1698": {
+   "sub": "40b2b010743c81ec8699e04f6c52abea",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8195bc5af8ec62da4c6b": {
+   "sub": "3fd2b010743c81f68960c87470b40f68",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c815298d2e663fb049d6d": {
+   "sub": "40a2b010743c81ea8495fb5820d71fad",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4022b010743c81e68d2ae06d145b7de3": {
+   "sub": "40a2b010743c81efadccc1f2f7bfc73c",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c819d9b8bc438456de873": {
+   "sub": "3fd2b010743c818f8037d1941c237038",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3fd2b010743c81fa9147e8eb7012f98d": {
+   "sub": "3fd2b010743c818f8037d1941c237038",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8143bf23ccc4064f6664": {
+   "sub": "3fd2b010743c810f964bf3635e8d5c1b",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c818bb4aeea182027ba18": {
+   "sub": "3fd2b010743c814a813ad7a3ccb3df3f",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81d9ba35f99fa185a734": {
+   "sub": "3fd2b010743c816493a3e2b0085ef4f7",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3fd2b010743c817fad51d544e0bc90b0": {
+   "sub": "40a2b010743c816eaff0d1a008fb76e8",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3fd2b010743c819eab26c2ad0fb16e72": {
+   "sub": "3fd2b010743c8197abc1fadcef705055",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8136b001e7d6cca45362": {
+   "sub": "3fd2b010743c8197abc1fadcef705055",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81eea2c4edebca506bb4": {
+   "sub": "40b2b010743c81358df2edf9f7523108",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "40b2b010743c81e5890cda6c0f8f50a2": {
+   "sub": "40b2b010743c812eb32cce62fe077d25",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3fd2b010743c812ca9f1ff5f25928aa5": {
+   "sub": "40b2b010743c81e98bcad8be7d4291d7",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3fd2b010743c81f7abbee42490aa3ec2": {
+   "sub": "40b2b010743c81df9ef1ddccb24b53a2",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8156a629fb9124a51908": {
+   "sub": "40b2b010743c8158a3ebf6969097d628",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "40b2b010743c8112a4cde17e84d4cd76": {
+   "sub": "40b2b010743c8158a3ebf6969097d628",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c818080b8cd3cdbae0cff": {
+   "sub": "40b2b010743c81bf8207cd9ea9ea7c0b",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "40b2b010743c81a1ae46d23783c6ba59": {
+   "sub": "40b2b010743c81bf8207cd9ea9ea7c0b",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81b6a5d2f54982a2229d": {
+   "sub": "3fd2b010743c814c8671c0c1f23263c9",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8113b6befdc89e4ae543": {
+   "sub": "3fd2b010743c811b9dccf083051ca0f7",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c811b9ddff3080cb7c5d8": {
+   "sub": "3fd2b010743c81cc91f5ea3dbdeca812",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c818aaee7cc1fa471911b": {
+   "sub": "40a2b010743c81b1b8cddd8035b4f6bb",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812e8956c2c7c104bfa3": {
+   "sub": "3fd2b010743c81e3a150ee4838bc1d61",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c815eb958f26a8d009a8e": {
+   "sub": "3fd2b010743c81e3a150ee4838bc1d61",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8189bbb8f962cd69243b": {
+   "sub": "3fd2b010743c81e3a150ee4838bc1d61",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c812cbf8beea8b7bdb9cc": {
+   "sub": "3fd2b010743c814895bdff14db7fad83",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c819b8325dfd4a506c824": {
+   "sub": "3fd2b010743c816dbe3fd8cfb7558293",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c8167899cc1d3c35cc35c": {
+   "sub": "40a2b010743c8112ae34df17dcfcfc62",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81f38b24edca6c877d17": {
+   "sub": "40a2b010743c8112ae34df17dcfcfc62",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f52b010743c81cea3afd8f97ae82a02": {
+   "sub": "3fd2b010743c81f6865ae6a2fd81bc58",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f42b010743c81209fc1fecf1a80a2f0": {
+   "sub": "40a2b010743c81b9bbfad9359558072b",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81b3a39aec3832b5de1c": {
+   "sub": "3fd2b010743c81daa21ecba96f48b86f",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c811d8e23cea019858d95": {
+   "sub": "3fd2b010743c812584f1de768aabd8dc",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
   }
  }
 }
