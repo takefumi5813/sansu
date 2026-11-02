@@ -58,6 +58,7 @@ function canonicalRaw(spec){
   if(spec.dimension==='ratio'){if(!Array.isArray(spec.terms)||spec.terms.length<2)throw Error('Ratio needs 2+ terms');return spec.terms.join(':');}
   if(spec.dimension==='clock'){if(spec.h==null||spec.m==null)throw Error('Clock needs h and m');return (spec.ampm||'')+(spec.ampm?Number(spec.h)%12:Number(spec.h))+'時'+spec.m+'分'+(spec.s!=null&&spec.s!==''?spec.s+'秒':'');}
   if(spec.dimension==='text')return spec.value;
+  if(spec.dimension==='self')return 'できた';
   if(spec.dimension==='set'){if(!Array.isArray(spec.items)||!spec.items.length)throw Error('Set needs items');return spec.tuple?spec.items.map(x=>'('+x+')').join(''):spec.items.join('、');}
   return spec.n+'/'+spec.d;
 }
@@ -80,7 +81,7 @@ for (const p of data.problems) {
   if(!/^https:\/\/(?:app\.)?notion\.(?:com|so)\//.test(p.source?.url||'')&&!approvedPdf)throw Error('Missing verified selection source '+p.id);
   if(approvedPdf){
     if(!p.deliveryReview.verification||!p.deliveryReview.independentCheck)throw Error('Missing original review '+p.id);
-    if(!p.explanation.steps.some(s=>s.checkpoint)||new Set(p.explanation.steps.map(s=>s.body)).size!==p.explanation.steps.length)throw Error('Incomplete step explanation '+p.id);
+    if((p.answer.dimension!=='self'&&!p.explanation.steps.some(s=>s.checkpoint))||new Set(p.explanation.steps.map(s=>s.body)).size!==p.explanation.steps.length)throw Error('Incomplete step explanation '+p.id);
     for(const s of p.explanation.steps)if(s.checkpoint&&!C.grade(canonicalRaw(s.checkpoint.answer),s.checkpoint.answer).correct)throw Error('Invalid checkpoint '+p.id);
   }
   if((p.scopeUnits||[]).some(u=>excludedUnits.has(u)))throw Error('Unlearned lesson in selection '+p.id);

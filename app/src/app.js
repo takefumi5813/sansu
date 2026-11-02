@@ -103,14 +103,16 @@
   const isClockSpec=spec=>spec?.dimension==='clock';
   const isTextSpec=spec=>spec?.dimension==='text';
   const isSetSpec=spec=>spec?.dimension==='set';
+  const isSelfSpec=spec=>spec?.dimension==='self';
   const fieldPlaceholder=part=>isSetSpec(part)?(part.tuple?'例 (1,2)(3,4)　組は順不同':part.ordered?'順に「、」で区切って入力':'「、」で区切って入力（順不同）'):isTextSpec(part)?'文字・記号を入力':isRatioSpec(part)?'比を入力（例 3：2）':isClockSpec(part)?'例 8時19分':'数を入力';
   function answerFieldsMarkup(spec){
     const field=(part,id,label)=>`<input id="${id}" class="answer-input" type="text" inputmode="${isTextSpec(part)||isSetSpec(part)||isRatioSpec(part)||isClockSpec(part)?'text':'decimal'}" autocomplete="off" maxlength="200" placeholder="${fieldPlaceholder(part)}" aria-describedby="answer-error"${label?` aria-label="${esc(label)}の答え"`:''}><span class="unit-label"${label?' style="min-width:2.2em"':''}>${esc(part.unit||'')}</span>`;
+    if(isSelfSpec(spec))return `<label>答え</label><input id="answer" type="hidden" value=""><div class="self-check" style="width:100%"><p class="caption">図にかき込んでから「答えを見る」を押し、解答の図とくらべて自分で採点しよう。</p><button type="button" id="self-open" class="primary">答えを見る</button><div id="self-reveal" hidden><img src="${esc(spec.figure||'')}" alt="解答の図" style="max-width:100%;border:1px solid #ccc;margin:8px 0"><div class="result-actions"><button type="button" class="gold-btn" data-self="できた">できた</button><button type="button" class="quiet" data-self="できなかった">できなかった</button></div></div></div>`;
     if(!isPartsSpec(spec))return `<label for="answer">答え</label>${field(spec||{},'answer')}`;
     return `<label>答え</label><div class="answer-parts" style="display:flex;flex-direction:column;gap:8px;width:100%">${spec.parts.map((part,i)=>{const label=part.label||`(${i+1})`;return `<div class="answer-part" data-part="${i}" style="display:flex;align-items:center;gap:10px;flex-wrap:nowrap"><span class="part-label" style="min-width:2.6em;font-weight:700">${esc(label)}</span>${field(part,'answer-'+i,label)}</div>`;}).join('')}</div>`;
   }
   function keypadMarkup(spec){
-    if(isTextSpec(spec)||isSetSpec(spec)||(isPartsSpec(spec)&&spec.parts.every(p=>isTextSpec(p)||isSetSpec(p))))return '';
+    if(isSelfSpec(spec)||isTextSpec(spec)||isSetSpec(spec)||(isPartsSpec(spec)&&spec.parts.every(p=>isTextSpec(p)||isSetSpec(p))))return '';
     const has=test=>isPartsSpec(spec)?spec.parts.some(test):test(spec),ratio=has(isRatioSpec),clock=has(isClockSpec);
     const keys=['7','8','9','4','5','6','／','1','2','3','0','．','−','⌫'];if(ratio)keys.splice(13,0,'：');if(clock)keys.splice(keys.length-1,0,'時','分');
     const columns=7+(ratio?1:0)+(clock?1:0);
@@ -129,6 +131,7 @@
     bindPaper();bindScratch();
     $('#leave-question').onclick=finish;
     $('#answer-form').onsubmit=submitAnswer;
+    if(isSelfSpec(p.answer)){const sb=$('#submit-answer');if(sb)sb.hidden=true;$('#self-open').onclick=()=>{$('#self-reveal').hidden=false;$('#self-open').hidden=true;};$$('#answer-form [data-self]').forEach(b=>b.onclick=()=>{$('#answer').value=b.dataset.self;$$('#answer-form [data-self]').forEach(x=>x.disabled=true);$('#answer-form').requestSubmit();});}
     $('#hint-open').onclick=()=>{session.assisted=true;const step=p.explanation.steps[0];toast(step?.body||'問題の条件と、求めたいものを整理してみよう。');$('#hint-open').textContent='ヒントを利用中';};
     session.lastField=0;$$('.answer-input').forEach((input,i)=>input.addEventListener('focus',()=>{session.lastField=i;}));
     $$('[data-key]').forEach(b=>b.onclick=()=>{const input=answerInputs()[session.lastField]||answerInputs()[0];if(!input||input.disabled)return;const k=b.dataset.key;input.value=k==='⌫'?input.value.slice(0,-1):input.value+({'／':'/','．':'.','−':'-','：':':'}[k]||k);input.focus();});

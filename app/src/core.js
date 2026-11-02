@@ -38,6 +38,9 @@ function parseAnswer(raw,spec={}){
 function gradeSingle(raw,spec){const p=parseAnswer(raw,spec);if(!p.valid)return p;const a=rat(p.value.n,p.value.d),b=rat(spec.n,spec.d);return {valid:true,correct:a.n===b.n&&a.d===b.d,normalized:p.value};}
 // Answer formats: single {n,d,unit,dimension}; ratio {dimension:'ratio',terms:[...]}; clock {dimension:'clock',h,m,s?,ampm?}; multiple fields {parts:[{label,...single|ratio|clock}]}.
 const isText=spec=>!!spec&&spec.dimension==='text';
+// Self (2026-11-02): {dimension:'self',figure:'figs/…',unit:''}. 作図など。図にかき込んだあと解答の図を見て本人が「できた／できなかった」を選ぶ。
+const isSelf=spec=>!!spec&&spec.dimension==='self';
+function gradeSelf(raw,spec){if(raw==='できた')return {valid:true,correct:true,normalized:raw};if(raw==='できなかった')return {valid:true,correct:false,normalized:raw};return {valid:false,error:'答えの図を見て「できた」か「できなかった」を選んでください'};}
 function textNorm(s){return String(s).normalize('NFKC').replace(/\s/g,'').toUpperCase();}
 function parseText(raw){if(!['string','number'].includes(typeof raw)||String(raw).length>200||!textNorm(raw))return {valid:false,error:'文字や記号で答えを入力してください'};return {valid:true,value:textNorm(raw)};}
 function gradeText(raw,spec){
@@ -135,7 +138,7 @@ function formatClock(spec){
  const h=Number(norm(spec.h)),hour=spec.ampm?spec.ampm+(h%12):String(h),sec=spec.s!=null&&spec.s!==''&&Number(norm(spec.s))!==0?Number(norm(spec.s))+'秒':'';
  return hour+'時'+Number(norm(spec.m))+'分'+sec;
 }
-function gradeOne(raw,spec){if(!spec||typeof spec!=='object'||isParts(spec))return {valid:false,error:'答えの形式を確認できません'};if(isText(spec))return gradeText(raw,spec);if(isSet(spec))return gradeSet(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);if(Array.isArray(raw))return {valid:false,error:'答えを入力してください'};return gradeSingle(raw,spec);}
+function gradeOne(raw,spec){if(!spec||typeof spec!=='object'||isParts(spec))return {valid:false,error:'答えの形式を確認できません'};if(isSelf(spec))return gradeSelf(raw,spec);if(isText(spec))return gradeText(raw,spec);if(isSet(spec))return gradeSet(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);if(Array.isArray(raw))return {valid:false,error:'答えを入力してください'};return gradeSingle(raw,spec);}
 function gradeParts(raw,spec){
  if(!spec.parts.length)return {valid:false,error:'答えの形式を確認できません'};
  if(!Array.isArray(raw)||raw.length!==spec.parts.length)return {valid:false,error:'すべての欄に答えを入力してください',parts:spec.parts.map(()=>({valid:false,correct:false}))};
@@ -147,12 +150,13 @@ function gradeParts(raw,spec){
  return result;
 }
 // Single answers keep the original path unchanged (gradeSingle), including raw coercion.
-function grade(raw,spec){if(isParts(spec))return gradeParts(raw,spec);if(isText(spec))return gradeText(raw,spec);if(isSet(spec))return gradeSet(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);return gradeSingle(raw,spec);}
+function grade(raw,spec){if(isParts(spec))return gradeParts(raw,spec);if(isSelf(spec))return gradeSelf(raw,spec);if(isText(spec))return gradeText(raw,spec);if(isSet(spec))return gradeSet(raw,spec);if(isRatio(spec))return gradeRatio(raw,spec);if(isClock(spec))return gradeClock(raw,spec);return gradeSingle(raw,spec);}
 function decimalText(n,d){let N=BigInt(n),D=BigInt(d),neg=N<0n;if(neg)N=-N;let k=0,t=D;while(t%2n===0n){t/=2n;k++}let j=0;while(t%5n===0n){t/=5n;j++}if(t!==1n)return null;const e=Math.max(k,j),scaled=N*10n**BigInt(e)/D,str=scaled.toString().padStart(e+1,'0'),out=e?str.slice(0,-e)+'.'+str.slice(-e):str;return (neg?'-':'')+out;}
 function formatAnswer(spec){
  if(!spec)return '';
  if(isParts(spec))return spec.parts.map((p,i)=>(p.label||'('+(i+1)+')')+' '+formatAnswer(p)).join('　');
  if(isText(spec))return spec.value;
+ if(isSelf(spec))return '解答の図（自分で採点）';
  if(isSet(spec))return formatSet(spec);
  if(isRatio(spec))return spec.terms.map(x=>norm(x)).join('：');
  if(isClock(spec))return formatClock(spec);
@@ -336,7 +340,7 @@ function commitAttempt(state,p,options){
  if(!o.id||!/^\d{4}-\d{2}-\d{2}$/.test(o.day||''))return {state,result:{valid:false,error:'解答IDと日付が必要です'}};
  const previous=state.attempts.find(a=>a.id===o.id);if(previous){const result={...previous.result,materials:previous.result.materials||0,souls:previous.result.souls||0,equipmentBoxes:previous.result.equipmentBoxes||0,duplicate:true};delete result.equipmentLottery;return {state,result};}
  const old=status(state,p),due=(!old.due&&old.stage===0)||(old.due&&old.due<=o.day);
- if(p.category!=='calc'&&o.purpose==='normal'&&due&&old.stage===3&&g.correct&&!o.assisted&&o.checkpointPassed==null)return {state,result:{...g,needsGraduationCheck:true,xp:0,stars:0,materials:0,souls:0,equipmentBoxes:0,stage:3,due:old.due}};
+ if(p.category!=='calc'&&o.purpose==='normal'&&due&&old.stage===3&&g.correct&&!o.assisted&&o.checkpointPassed==null&&(p.explanation?.steps||[]).some(x=>x.checkpoint))return {state,result:{...g,needsGraduationCheck:true,xp:0,stars:0,materials:0,souls:0,equipmentBoxes:0,stage:3,due:old.due}};
  const s=normalizeState(state),startXp=s.xp,startMaterials=s.materials,startSouls=s.souls,startBoxes=s.equipmentBoxes,a={id:o.id,day:o.day,problemId:p.id,unitId:p.unitId,category:p.category,purpose:o.purpose,mode:o.mode||null,heroId:o.heroId||(Array.isArray(o.party)&&o.party[0]?.id)||null,heroIds:Array.isArray(o.party)?o.party.map(h=>h&&h.id).filter(x=>typeof x==='string'):(o.heroId?[o.heroId]:[]),correct:g.correct,assisted:!!o.assisted,completed:false};
  const d=daily(s,o.day),hadLottery=!!d.equipmentLottery,ctx={party:o.party,log:[]};let u=clone(old),paid=false;
  if(o.purpose==='normal'){
