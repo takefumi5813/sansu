@@ -5523,7 +5523,7 @@
         "dai": "計算",
         "order": 5
       },
-      "role": "代表",
+      "role": "数値替え",
       "domain": "calculation"
     },
     {
@@ -9783,7 +9783,7 @@
         "dai": "計算",
         "order": 6
       },
-      "role": "代表",
+      "role": "数値替え",
       "domain": "calculation"
     },
     {
@@ -50698,7 +50698,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 3,
+      "difficulty": 5,
       "figureRequired": false,
       "scopeUnits": [
         "GW416"
@@ -52083,7 +52083,7 @@
           "g": "1"
         }
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": false,
       "expeditionOnly": true,
       "scopeUnits": [
@@ -54050,7 +54050,7 @@
         "dai": "速さ",
         "order": 218
       },
-      "role": "代表"
+      "role": "数値替え"
     },
     {
       "id": "4R02N①-1",
@@ -63074,7 +63074,7 @@
         "dimension": "time",
         "display": "decimal"
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": false,
       "scopeUnits": [
         "GW428"
@@ -69167,7 +69167,7 @@
           }
         ]
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": true,
       "figure": "figs/notion/d3665351bcc36675.png",
       "scopeUnits": [
@@ -69831,7 +69831,7 @@
         "unit": "度",
         "dimension": "scalar"
       },
-      "difficulty": 2,
+      "difficulty": 3,
       "figureRequired": true,
       "figure": "figs/notion/faf423f22853f18c.png",
       "scopeUnits": [
@@ -70474,7 +70474,7 @@
           }
         ]
       },
-      "difficulty": 3,
+      "difficulty": 2,
       "figureRequired": true,
       "figure": "figs/notion/dd0131332cf520ae.png",
       "scopeUnits": [
@@ -71875,7 +71875,7 @@
           }
         ]
       },
-      "difficulty": 3,
+      "difficulty": 4,
       "figureRequired": true,
       "figure": "figs/notion/b88f6578bb6a8f36.png",
       "scopeUnits": [
@@ -71931,11 +71931,11 @@
       "selectionKey": "F07/G-211759ff3b",
       "notionId": "3f52b010743c8101aab4d90ace069152",
       "subdivision": {
-        "id": "40a2b010743c8175ba05e9e6c5f10afb",
-        "name": "長方形・正方形の面積（たて×横）と逆算",
-        "chu": "面積の基本・分割",
-        "dai": "平面図形",
-        "order": 376
+        "id": "3fd2b010743c81a099fbcae1eb999d37",
+        "name": "つるかめ算（総量と加重総量から二種類の配分）",
+        "chu": "つるかめ算",
+        "dai": "和と差・文章題",
+        "order": 122
       },
       "role": "代表"
     },
@@ -73011,7 +73011,7 @@
         "unit": "cm²",
         "dimension": "area"
       },
-      "difficulty": 4,
+      "difficulty": 5,
       "figureRequired": true,
       "figure": "figs/notion/2fd27aeda5d46ab1.png",
       "scopeUnits": [
@@ -73519,7 +73519,7 @@
         "dai": "平面図形",
         "order": 364
       },
-      "role": "代表"
+      "role": "数値替え"
     },
     {
       "id": "ready-a343f278167f0072",
@@ -74473,7 +74473,7 @@
         "dai": "平面図形",
         "order": 361
       },
-      "role": "代表"
+      "role": "数値替え"
     },
     {
       "id": "ready-e7dd5fcdec37027a",
@@ -94362,7 +94362,7 @@
         "unit": "通り",
         "dimension": "scalar"
       },
-      "difficulty": 5,
+      "difficulty": 6,
       "figureRequired": false,
       "scopeUnits": [],
       "homeStudy": false,
