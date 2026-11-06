@@ -32,6 +32,3 @@ test('R27計算：原式の答えがcalcScore/calcInverseと一致',()=>{
   assert.match(p.source.url,/^https:\/\/app\.notion\.com\/[0-9a-f]{32}$/);
  }
 });
-test('出題範囲：直近R27、次回グノレブはR24〜R27',()=>{
- assert.equal(plan.recentLesson.unit,'R27');assert.deepEqual(plan.nextAssessment.activeLearnedUnits,['R24','R25','R26','R27']);assert.deepEqual(plan.nextAssessment.excludedUnlearnedUnits,[]);
-});

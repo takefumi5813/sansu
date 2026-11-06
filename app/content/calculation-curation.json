@@ -2646,6 +2646,209 @@
       "reason": "表面（R27K-24）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
       "skill": "R27計算マスター K-24",
       "representativeKey": "4092b010743c81c885b9e0a7cc2f5b8a:1"
+    },
+    "R28K-3": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-3",
+      "representativeKey": "4102b010743c811e9951c6c568663aad:1"
+    },
+    "R28K-4": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-4",
+      "representativeKey": "4102b010743c8169b62dea295399507b:1"
+    },
+    "R28K-5": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-5",
+      "representativeKey": "4102b010743c813e8b31f1278c846b71:1"
+    },
+    "R28K-6": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-6",
+      "representativeKey": "4102b010743c81a2a5e4e2f6854cf191:1"
+    },
+    "R28K-8": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-8",
+      "representativeKey": "4102b010743c818483fadbbe2a1277a2:1"
+    },
+    "R28K-9": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-9",
+      "representativeKey": "4102b010743c8136ba48eb8979f4a204:1"
+    },
+    "R28K-12": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-12",
+      "representativeKey": "4102b010743c816094d0d4a1de94d1cd:1"
+    },
+    "R28K-13": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-13",
+      "representativeKey": "4102b010743c8155ae88e8432b840c88:1"
+    },
+    "R28K-14": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-14",
+      "representativeKey": "4102b010743c819d909fd291e5aee948:1"
+    },
+    "R28K-16": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-16",
+      "representativeKey": "4102b010743c8149b0b4c893729d50ef:1"
+    },
+    "R28K-17": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-17",
+      "representativeKey": "4102b010743c81638d6ae23f737d3b3c:1"
+    },
+    "R28K-18": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-18",
+      "representativeKey": "4102b010743c819f8366f0a4131ab97b:1"
+    },
+    "R28K-19": {
+      "active": true,
+      "tier": "advanced",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-19",
+      "representativeKey": "4102b010743c8151a8f0d9b0268e3fd6:1"
+    },
+    "R28K-20": {
+      "active": true,
+      "tier": "advanced",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-20",
+      "representativeKey": "4102b010743c81929f3eeccae1f3eb1f:1"
+    },
+    "R28K-21": {
+      "active": true,
+      "tier": "standard",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-21",
+      "representativeKey": "4102b010743c816bb3b8ea6d128fc8c8:1"
+    },
+    "R28K-22": {
+      "active": true,
+      "tier": "advanced",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-22",
+      "representativeKey": "4102b010743c814781fbe57c7d862a41:1"
+    },
+    "R28K-24": {
+      "active": true,
+      "tier": "advanced",
+      "reason": "R28（11/6授業）の計算マスター。原式どおりの代表として出題する。",
+      "skill": "R28計算マスター K-24",
+      "representativeKey": "4102b010743c81ceb349dd4e104b21ac:1"
+    },
+    "R28K-30": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R28K-3）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-3",
+      "representativeKey": "4102b010743c811e9951c6c568663aad:1"
+    },
+    "R28K-31": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R28K-4）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-4",
+      "representativeKey": "4102b010743c8169b62dea295399507b:1"
+    },
+    "R28K-32": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R28K-5）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-5",
+      "representativeKey": "4102b010743c813e8b31f1278c846b71:1"
+    },
+    "R28K-33": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R28K-6）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-6",
+      "representativeKey": "4102b010743c81a2a5e4e2f6854cf191:1"
+    },
+    "R28K-35": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R28K-8）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-8",
+      "representativeKey": "4102b010743c818483fadbbe2a1277a2:1"
+    },
+    "R28K-36": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R28K-9）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-9",
+      "representativeKey": "4102b010743c8136ba48eb8979f4a204:1"
+    },
+    "R28K-39": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R28K-12）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-12",
+      "representativeKey": "4102b010743c816094d0d4a1de94d1cd:1"
+    },
+    "R28K-40": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R28K-13）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-13",
+      "representativeKey": "4102b010743c8155ae88e8432b840c88:1"
+    },
+    "R28K-41": {
+      "active": false,
+      "tier": "standard",
+      "reason": "表面（R28K-14）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-14",
+      "representativeKey": "4102b010743c819d909fd291e5aee948:1"
+    },
+    "R28K-47": {
+      "active": false,
+      "tier": "advanced",
+      "reason": "表面（R28K-20）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-20",
+      "representativeKey": "4102b010743c81929f3eeccae1f3eb1f:1"
+    },
+    "R28K-49": {
+      "active": false,
+      "tier": "advanced",
+      "reason": "表面（R28K-22）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-22",
+      "representativeKey": "4102b010743c814781fbe57c7d862a41:1"
+    },
+    "R28K-51": {
+      "active": false,
+      "tier": "advanced",
+      "reason": "表面（R28K-24）と同じ手順の裏面数値替えなので代表出題から外す（記録は保持）。",
+      "skill": "R28計算マスター K-24",
+      "representativeKey": "4102b010743c81ceb349dd4e104b21ac:1"
     }
   }
 }
