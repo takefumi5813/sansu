@@ -45569,11 +45569,11 @@
       },
       "notionId": "4102b010743c811e9951c6c568663aad",
       "subdivision": {
-        "id": "3fd2b010743c81438a75e3bd38055e5a",
-        "name": "約分・仮分数と帯分数",
+        "id": "3fd2b010743c818b89a1fd8d29a2a805",
+        "name": "かけ算・わり算",
         "chu": "分数・帯分数の四則",
         "dai": "計算",
-        "order": 10
+        "order": 12
       },
       "role": "代表",
       "domain": "calculation"
@@ -47231,11 +47231,11 @@
       },
       "notionId": "4102b010743c812397beccbbf7366642",
       "subdivision": {
-        "id": "3fd2b010743c81438a75e3bd38055e5a",
-        "name": "約分・仮分数と帯分数",
+        "id": "3fd2b010743c818b89a1fd8d29a2a805",
+        "name": "かけ算・わり算",
         "chu": "分数・帯分数の四則",
         "dai": "計算",
-        "order": 10
+        "order": 12
       },
       "role": "数値替え",
       "domain": "calculation"
