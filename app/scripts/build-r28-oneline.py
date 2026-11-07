@@ -1,6 +1,6 @@
 """R28（平面図形(3) 面積比）家庭学習用Hの代表13問を図つきで教材化する。
 - 問題文・答え・細分類・難易度は Notion 問題DB の R28H（2026-11-06 登録）。図は原本PDFの白紙面から切り抜いたもの。
-- 解き筋は独立に作り、各ステップの数値を fractions で検算する。H の解答一覧はスキャンに無いので、答えは自力計算＋検算（Notionメモにも記載）。
+- 解き筋は独立に作り、各ステップの数値を fractions で検算する。答えは自力計算＋検算し、2026-11-07 に追加した H の解答一覧（原本p.45）と全問一致を確認。
 """
 import json, shutil, hashlib, sys
 from fractions import Fraction as F
@@ -142,7 +142,7 @@ for k, (u, ans, steps) in P.items():
     problems.append({'id': code, 'unitId': u['id'], 'category': 'geometry', 'domain': '面積比', 'text': text, 'sourceText': text,
         'source': {'title': code, 'path': 'C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-28 平面図形(3)-面積比-.pdf', 'locator': f'51N-H28 家庭学習用 {k}（図は後期2 図版の問題図と同じ切り抜き）',
                    'scopeUnits': ['R28'], 'sourceText': text, 'databasePath': 'C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md',
-                   'verification': '2026-11-06、R28原本PDFから書き起こしたNotion本文（R28H）を出典に採用。H の解答一覧ページはスキャンに無いため、答えは独立計算（Python fractions）で求め、Nの公式解説と同じ解き方で検算。解説・途中確認は独立制作し、各式を数値で検算。',
+                   'verification': '2026-11-06、R28原本PDFから書き起こしたNotion本文（R28H）を出典に採用。答えは独立計算（Python fractions）で求め、2026-11-07 に原本へ追加した H の解答一覧（原本p.45）の公式解答と全問一致を確認。解説・途中確認は独立制作し、各式を数値で検算。',
                    'url': 'https://app.notion.com/' + pid, 'notionId': pid, 'sourceAnswer': it['答え'], 'notionSourceText': text, 'textOrigin': 'notion-problem-body-verbatim',
                    'figureSha256': hashlib.sha256((ROOT/'dist'/fname).read_bytes()).hexdigest(),
                    'difficultyProvenance': 'Notion細分類の基礎難度＋上乗せ。'},
