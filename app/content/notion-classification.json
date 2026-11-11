@@ -20423,6 +20423,62 @@
    "difficulty": 3,
    "rep": true,
    "variant": false
+  },
+  "3f82b010743c819a8d3cdff11186a6cd": {
+   "sub": "3fd2b010743c81e39de0f7d1bf46960d",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81569b5fda4e3816d291": {
+   "sub": "3fd2b010743c81e39de0f7d1bf46960d",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c817ba3b3c88d19d90ca7": {
+   "sub": "3fd2b010743c81ee9354ccd1c7f4599d",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81239473ca399b90de1b": {
+   "sub": "3fd2b010743c81ee9354ccd1c7f4599d",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c81638f28c7bc83eb3232": {
+   "sub": "3fd2b010743c81c18df9db110e2cf139",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c8177a673c6ea52724b63": {
+   "sub": "3fd2b010743c81a58667e31616b72c2b",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c813e932ec8387167a661": {
+   "sub": "3fd2b010743c81a58667e31616b72c2b",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "3f82b010743c814aae3ade2301871353": {
+   "sub": "3fd2b010743c817cbaeddf0631da95d6",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
   }
  }
 }
