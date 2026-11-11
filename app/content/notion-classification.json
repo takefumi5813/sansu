@@ -20479,6 +20479,55 @@
    "difficulty": 5,
    "rep": true,
    "variant": false
+  },
+  "4152b010743c81e9bca1fc94f10e7016": {
+   "sub": "3fd2b010743c8150b339ea02d8169feb",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4152b010743c810d9ee9f0ea7ddf7fe9": {
+   "sub": "3fd2b010743c81168dcad480c37d8284",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4152b010743c81f29ff4e510f53f0f22": {
+   "sub": "3fd2b010743c816daba8c91c20b9d6f0",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4152b010743c814fb188f36d4a54cf92": {
+   "sub": "3fd2b010743c816daba8c91c20b9d6f0",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4152b010743c811e8311c0465e9b04b5": {
+   "sub": "3fd2b010743c816daba8c91c20b9d6f0",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4152b010743c8197839ecfc987ebd883": {
+   "sub": "3fd2b010743c818f8037d1941c237038",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "4152b010743c81698188e20ead0e0c3a": {
+   "sub": "3fd2b010743c810f964bf3635e8d5c1b",
+   "related": [],
+   "difficulty": 7,
+   "rep": true,
+   "variant": false
   }
  }
 }
