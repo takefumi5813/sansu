@@ -1,0 +1,2540 @@
+{
+ "problems": [
+  {
+   "id": "GR3-4(1)",
+   "unitId": "notion.3f52b010743c81f9bbceeda856722038",
+   "category": "oneline",
+   "domain": "倍数の個数",
+   "text": "9で割っても12で割っても4余る数で、600に最も近い整数を求めなさい。",
+   "source": {
+    "title": "GR3-4(1)",
+    "url": "https://app.notion.com/3f52b010743c81f9bbceeda856722038",
+    "notionPageId": "3f52b010743c81f9bbceeda856722038",
+    "path": "",
+    "locator": "GR3 大問4(1)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "616",
+    "d": "1",
+    "unit": "",
+    "dimension": "scalar"
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "どんな数かを考える",
+      "body": "9で割っても12で割っても4余る数は、9でも12でも割り切れる数（9と12の公倍数）より4大きい数です。",
+      "equation": "求める数＝(9と12の公倍数)＋4"
+     },
+     {
+      "id": "s2",
+      "title": "9と12の最小公倍数",
+      "body": "9と12を3で割ると3と4になります。最小公倍数は3×3×4で求められます。公倍数は36の倍数です。",
+      "equation": "3×3×4＝36",
+      "checkpoint": {
+       "prompt": "9と12の最小公倍数はいくつですか。",
+       "answer": {
+        "n": "36",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "600に近い36の倍数",
+      "body": "600を36で割ると16あまり24なので、600のすぐ下とすぐ上の36の倍数は、36×16と36×17です。",
+      "equation": "36×16＝576、36×17＝612"
+     },
+     {
+      "id": "s4",
+      "title": "4をたす",
+      "body": "それぞれに4をたすと、9で割っても12で割っても4余る数になります。",
+      "equation": "36×16＋4＝580、36×17＋4＝616",
+      "checkpoint": {
+       "prompt": "600より小さいほうの数はいくつですか。",
+       "answer": {
+        "n": "580",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s5",
+      "title": "600に近いほうを選ぶ",
+      "body": "600より小さい側だけでなく、600をこえる側も調べて、600との差をくらべます。616のほうが600に近いので、答えは616です。",
+      "equation": "600−580＝20、616−600＝16"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR3"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR3-5(5)",
+   "unitId": "notion.3f52b010743c81fbba55d826b3058b10",
+   "category": "geometry",
+   "domain": "角度",
+   "text": "次の問いに答えなさい。ただし、円周率は3.14とします。\n右の図は、半径12cmの半円です。かげをつけた部分の面積を求めなさい。",
+   "source": {
+    "title": "GR3-5(5)",
+    "url": "https://app.notion.com/3f52b010743c81fbba55d826b3058b10",
+    "notionPageId": "3f52b010743c81fbba55d826b3058b10",
+    "path": "",
+    "locator": "GR3 大問5(5)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "2784",
+    "d": "25",
+    "unit": "cm²",
+    "dimension": "area",
+    "display": "decimal"
+   },
+   "difficulty": 5,
+   "figureRequired": true,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "点に名前をつける",
+      "body": "半円の中心をO、直径の右のはしをAとします。Aから引いた2本の線が弧と交わる点を、上のほうからB、Cとします。ABと直径がつくる角は、15度と30度を合わせた45度です。",
+      "equation": "15＋30＝45（度）"
+     },
+     {
+      "id": "s2",
+      "title": "三角形OABを調べる",
+      "body": "OAとOBはどちらも半径で12cmなので、三角形OABは二等辺三角形です。角OABが45度なので角OBAも45度で、角AOBは90度です。三角形OABは直角二等辺三角形です。",
+      "equation": "180−45×2＝90（度）"
+     },
+     {
+      "id": "s3",
+      "title": "三角形OACを調べる",
+      "body": "OAとOCも半径なので、三角形OACは二等辺三角形で、角OCAは15度です。OCと直径の左側がつくる角は、三角形OACの外角なので、15度と15度の和になります。",
+      "equation": "15＋15＝30（度）",
+      "checkpoint": {
+       "prompt": "OCと直径の左側がつくる角は何度ですか。",
+       "answer": {
+        "n": "30",
+        "d": "1",
+        "unit": "度",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "角BOCの大きさ",
+      "body": "直径は180度です。そこから角AOBの90度と、いま求めた30度をひくと、おうぎ形OBCの中心角になります。",
+      "equation": "180−(90＋30)＝60（度）"
+     },
+     {
+      "id": "s5",
+      "title": "Cから直径までの高さ",
+      "body": "Cから直径に垂直な線を引き、直径と交わる点をDとします。三角形OCDは30度・60度・90度の直角三角形です。これを直径で折り返すと、1辺12cmの正三角形ができるので、CDはその1辺の半分です。",
+      "equation": "12÷2＝6（cm）",
+      "checkpoint": {
+       "prompt": "CDの長さは何cmですか。",
+       "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+       }
+      }
+     },
+     {
+      "id": "s6",
+      "title": "面積をたしひきする",
+      "body": "三角形OABとおうぎ形OBCを合わせた形から、三角形OACをひくと、かげをつけた部分になります。三角形OACは、底辺をOAの12cmとすると高さはCDの6cmです。",
+      "equation": "12×12÷2＝72、12×12×3.14×60/360＝75.36、12×6÷2＝36、72＋75.36−36＝111.36（cm²）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR3"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "figure": "figs/n-3f52b010743c81fbba55d826b3058b10.png"
+  },
+  {
+   "id": "GR3-6(1)",
+   "unitId": "notion.3f52b010743c8176a977dc3c08ff0fb7",
+   "category": "oneline",
+   "domain": "倍数の個数",
+   "text": "1から1000までの整数が1つずつ書かれた1000枚のカードがあります。このとき、以下の問いに答えなさい。\n1000枚のカードから7の倍数のカードをすべて取りのぞいたとき、残りのカードの中に13の倍数のカードは何枚残っていますか。",
+   "source": {
+    "title": "GR3-6(1)",
+    "url": "https://app.notion.com/3f52b010743c8176a977dc3c08ff0fb7",
+    "notionPageId": "3f52b010743c8176a977dc3c08ff0fb7",
+    "path": "",
+    "locator": "GR3 大問6(1)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "66",
+    "d": "1",
+    "unit": "枚",
+    "dimension": "scalar"
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "13の倍数のカードの枚数",
+      "body": "まず、1から1000までに13の倍数が何枚あるかを数えます。1000を13で割ると76あまり12なので、76枚です。",
+      "equation": "1000÷13＝76あまり12、13×76＝988",
+      "checkpoint": {
+       "prompt": "1から1000までに13の倍数のカードは何枚ありますか。",
+       "answer": {
+        "n": "76",
+        "d": "1",
+        "unit": "枚",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s2",
+      "title": "取りのぞかれた13の倍数",
+      "body": "13の倍数のうち、7の倍数でもあるカードは取りのぞかれています。7でも13でも割り切れる数は、7と13の最小公倍数の91の倍数です。",
+      "equation": "7×13＝91"
+     },
+     {
+      "id": "s3",
+      "title": "91の倍数のカードの枚数",
+      "body": "1000を91で割ると10あまり90なので、91の倍数は10枚です。この10枚はすでに取りのぞかれています。",
+      "equation": "1000÷91＝10あまり90、91×10＝910",
+      "checkpoint": {
+       "prompt": "取りのぞかれた13の倍数のカードは何枚ですか。",
+       "answer": {
+        "n": "10",
+        "d": "1",
+        "unit": "枚",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "残っている13の倍数",
+      "body": "13の倍数76枚から、取りのぞかれた10枚をひきます。",
+      "equation": "76−10＝66（枚）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR3"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR3-6(2)",
+   "unitId": "notion.3f52b010743c816c80f9c0f20b4b7564",
+   "category": "oneline",
+   "domain": "最大公約数・最小公倍数",
+   "text": "1から1000までの整数が1つずつ書かれた1000枚のカードがあります。このとき、以下の問いに答えなさい。\n1000枚のカードから、ある数の倍数のカードをすべて取りのぞいたとき、残りのカードの中に13の倍数のカードが57枚残っていました。ある数として考えられる数をすべて求めなさい。",
+   "source": {
+    "title": "GR3-6(2)",
+    "url": "https://app.notion.com/3f52b010743c816c80f9c0f20b4b7564",
+    "notionPageId": "3f52b010743c816c80f9c0f20b4b7564",
+    "path": "",
+    "locator": "GR3 大問6(2)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "dimension": "set",
+    "items": [
+     "4",
+     "52"
+    ],
+    "unit": ""
+   },
+   "difficulty": 5,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "13の倍数のカードの枚数",
+      "body": "1から1000までに13の倍数は、1000を13で割って76枚あります。",
+      "equation": "1000÷13＝76あまり12、13×76＝988"
+     },
+     {
+      "id": "s2",
+      "title": "取りのぞかれた13の倍数",
+      "body": "13の倍数76枚のうち57枚が残ったので、その差が取りのぞかれた枚数です。",
+      "equation": "76−57＝19（枚）",
+      "checkpoint": {
+       "prompt": "取りのぞかれた13の倍数のカードは何枚ですか。",
+       "answer": {
+        "n": "19",
+        "d": "1",
+        "unit": "枚",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "何枚ごとに取りのぞかれたか",
+      "body": "取りのぞかれるのは「ある数と13の公倍数」のカードなので、13の倍数を小さい順にならべると、等間隔に取りのぞかれます。76÷19＝4、76÷(19＋1)＝3.8より、間かくは3.8枚より大きく4枚以下なので、4枚ごとです（5枚ごとなら15枚、3枚ごとなら25枚になってしまいます）。",
+      "equation": "76÷19＝4、76÷(19＋1)＝3.8"
+     },
+     {
+      "id": "s4",
+      "title": "ある数と13の最小公倍数",
+      "body": "13の倍数の4枚ごとなので、取りのぞかれたのは13×4の倍数のカードです。つまり、ある数と13の最小公倍数は52です。",
+      "equation": "13×4＝52",
+      "checkpoint": {
+       "prompt": "ある数と13の最小公倍数はいくつですか。",
+       "answer": {
+        "n": "52",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s5",
+      "title": "すだれ算で考える",
+      "body": "ある数と13をいっしょにAで割ったとき、13のほうの商をB、ある数のほうの商をCとします。最小公倍数はA×B×Cで、これが52です。A×Bは13なので、Cが決まります。",
+      "equation": "52÷13＝4"
+     },
+     {
+      "id": "s6",
+      "title": "ある数を求める",
+      "body": "A×B＝13になる整数の組は、(A,B)＝(1,13)と(13,1)です。ある数はA×Cなので、Aが1のときは4、Aが13のときは52です。",
+      "equation": "1×4＝4、13×4＝52"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR3"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR4-2(3)",
+   "unitId": "notion.3f52b010743c812c8485ca673608cdc7",
+   "category": "oneline",
+   "domain": "比の基本",
+   "text": "分母と分子の和が120で、約分すると1/4になる分数を求めなさい。",
+   "source": {
+    "title": "GR4-2(3)",
+    "url": "https://app.notion.com/3f52b010743c812c8485ca673608cdc7",
+    "notionPageId": "3f52b010743c812c8485ca673608cdc7",
+    "path": "",
+    "locator": "GR4 大問2(3)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "dimension": "text",
+    "value": "24/96",
+    "unit": "",
+    "accepted": [
+     "96分の24"
+    ]
+   },
+   "difficulty": 2,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "約分すると1/4になるとは",
+      "body": "約分すると1/4になる分数は、分子と分母の比が1：4です。分子を①とすると、分母は④です。",
+      "equation": "分子：分母＝1：4"
+     },
+     {
+      "id": "s2",
+      "title": "和を丸数字で表す",
+      "body": "分母と分子の和は、①と④を合わせた⑤です。これが120にあたります。",
+      "equation": "1＋4＝5"
+     },
+     {
+      "id": "s3",
+      "title": "分子を求める",
+      "body": "120を⑤で割ると、①にあたる分子がわかります。",
+      "equation": "120÷(4＋1)＝24",
+      "checkpoint": {
+       "prompt": "分子はいくつですか。",
+       "answer": {
+        "n": "24",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "分母を求める",
+      "body": "分母は④なので、分子の4倍です。",
+      "equation": "24×4＝96"
+     },
+     {
+      "id": "s5",
+      "title": "確かめ",
+      "body": "分母と分子の和は120で、24/96を24で約分すると1/4になります。答えは約分しないで24/96と書きます。",
+      "equation": "24＋96＝120、24/96＝1/4"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR4"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR4-4(1)",
+   "unitId": "notion.3f52b010743c81e49056f38527652de7",
+   "category": "oneline",
+   "domain": "最大公約数・最小公倍数",
+   "text": "ある整数で88を割ると4余り、220を割ると10余ります。このような整数で最も小さい整数を求めなさい。",
+   "source": {
+    "title": "GR4-4(1)",
+    "url": "https://app.notion.com/3f52b010743c81e49056f38527652de7",
+    "notionPageId": "3f52b010743c81e49056f38527652de7",
+    "path": "",
+    "locator": "GR4 大問4(1)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "14",
+    "d": "1",
+    "unit": "",
+    "dimension": "scalar"
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "余りをひく",
+      "body": "ある整数で88を割ると4余るので、88から4をひいた数はある整数で割り切れます。同じように、220から10をひいた数も割り切れます。",
+      "equation": "88−4＝84、220−10＝210"
+     },
+     {
+      "id": "s2",
+      "title": "84と210の公約数",
+      "body": "ある整数は84も210も割り切るので、84と210の公約数です。公約数は最大公約数の約数なので、まず最大公約数を求めます。",
+      "equation": "2×3×7＝42",
+      "checkpoint": {
+       "prompt": "84と210の最大公約数はいくつですか。",
+       "answer": {
+        "n": "42",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "公約数を書き出す",
+      "body": "42の約数を、かけて42になる組で書き出します。1、2、3、6、7、14、21、42の8個です。",
+      "equation": "1×42＝42、2×21＝42、3×14＝42、6×7＝42"
+     },
+     {
+      "id": "s4",
+      "title": "余りより大きい数を選ぶ",
+      "body": "割る数は余りより大きくなければいけません。余りは4と10なので、10より大きい数にしぼると、14、21、42です。このうち最も小さいのは14です。",
+      "equation": "14＞10"
+     },
+     {
+      "id": "s5",
+      "title": "確かめ",
+      "body": "14で割ってみると、88は6あまり4、220は15あまり10になります。",
+      "equation": "14×6＋4＝88、14×15＋10＝220"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR4"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR4-5(1)",
+   "unitId": "notion.3f52b010743c81c3ad89e9b57294f73f",
+   "category": "geometry",
+   "domain": "水量・水位とおもり",
+   "text": "たて40cm、横50cm、高さ35cmの水そうがあり、この水そうにおもりが入っています。おもりは直方体を組み合わせた形をしていて、図の角はすべて直角です。（図1）のように、おもりを立てた状態で30Lの水を入れたところ、水面の高さが20cmになりました。\n（図1）のおもりの底面積（あの面積）は何cm²ですか。",
+   "source": {
+    "title": "GR4-5(1)",
+    "url": "https://app.notion.com/3f52b010743c81c3ad89e9b57294f73f",
+    "notionPageId": "3f52b010743c81c3ad89e9b57294f73f",
+    "path": "",
+    "locator": "GR4 大問5(1)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "500",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   },
+   "difficulty": 3,
+   "figureRequired": true,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "水の体積をcm³になおす",
+      "body": "1Lは1000cm³なので、30Lは30000cm³です。",
+      "equation": "30×1000＝30000（cm³）"
+     },
+     {
+      "id": "s2",
+      "title": "水が入っている部分の底面積",
+      "body": "おもりは水面より上まで出ているので、水は、おもりのまわりに高さ20cmの柱の形で入っています。水の体積を高さで割ると、水が入っている部分の底面積がわかります。",
+      "equation": "30000÷20＝1500（cm²）",
+      "checkpoint": {
+       "prompt": "水が入っている部分の底面積は何cm²ですか。",
+       "answer": {
+        "n": "1500",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "水そうの底面積",
+      "body": "水そうの底面は、たて40cm、横50cmの長方形です。",
+      "equation": "40×50＝2000（cm²）"
+     },
+     {
+      "id": "s4",
+      "title": "おもりの底面積",
+      "body": "水そうの底面積から、水が入っている部分の底面積をひくと、おもりの底面積（あの面積）になります。",
+      "equation": "2000−1500＝500（cm²）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR4"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "figure": "figs/n-3f52b010743c81c3ad89e9b57294f73f.png"
+  },
+  {
+   "id": "GR4-5(2)",
+   "unitId": "notion.3f52b010743c81bb9393f89c1d3caa80",
+   "category": "geometry",
+   "domain": "水量・水位とおもり",
+   "text": "たて40cm、横50cm、高さ35cmの水そうがあり、この水そうにおもりが入っています。おもりは直方体を組み合わせた形をしていて、図の角はすべて直角です。（図1）のように、おもりを立てた状態で30Lの水を入れたところ、水面の高さが20cmになりました。\nおもりの向きをかえて置くと、（図2）のようになりました。アの長さは何cmですか。",
+   "source": {
+    "title": "GR4-5(2)",
+    "url": "https://app.notion.com/3f52b010743c81bb9393f89c1d3caa80",
+    "notionPageId": "3f52b010743c81bb9393f89c1d3caa80",
+    "path": "",
+    "locator": "GR4 大問5(2)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "25",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   },
+   "difficulty": 4,
+   "figureRequired": true,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "図1で水が入っている部分の底面積",
+      "body": "30Lは30000cm³です。図1では、水はおもりのまわりに高さ20cmまで入っているので、水の体積を高さで割ります。",
+      "equation": "30×1000＝30000、30000÷20＝1500（cm²）"
+     },
+     {
+      "id": "s2",
+      "title": "あの面積",
+      "body": "水そうの底面積から、水が入っている部分の底面積をひくと、おもりの底面積（あの面積）がわかります。",
+      "equation": "40×50＝2000、2000−1500＝500（cm²）",
+      "checkpoint": {
+       "prompt": "あの面積は何cm²ですか。",
+       "answer": {
+        "n": "500",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "おもりの体積",
+      "body": "図2では、あの面が前にきていて、おもりは水そうの手前から奥まで40cmあります。あの面を底面とすると、おもりは高さ40cmの柱です。",
+      "equation": "500×40＝20000（cm³）",
+      "checkpoint": {
+       "prompt": "おもりの体積は何cm³ですか。",
+       "answer": {
+        "n": "20000",
+        "d": "1",
+        "unit": "cm³",
+        "dimension": "volume"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "水とおもりを合わせた体積",
+      "body": "図2では、おもりは水面から出ていません。水面の下には、水とおもりの全部が入っています。",
+      "equation": "30000＋20000＝50000（cm³）"
+     },
+     {
+      "id": "s5",
+      "title": "水面の高さ",
+      "body": "合わせた体積を水そうの底面積で割ると、水面の高さがわかります。図2のアは水面の高さなので、アは25cmです。",
+      "equation": "50000÷2000＝25（cm）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR4"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "figure": "figs/n-3f52b010743c81bb9393f89c1d3caa80.png"
+  },
+  {
+   "id": "GR4-6(1)",
+   "unitId": "notion.3f52b010743c81f998d8ce9de2a4fe95",
+   "category": "oneline",
+   "domain": "分数・小数の性質",
+   "text": "下の（図1）のような長方形のテープが1枚あります。このテープを等分するところに、次のように数をかきこみます。まず、テープを2等分する1か所に②とかき、次に3等分する2か所に③をかきます。その次は4等分するところに④をかきますが、すでに2等分されているちょうど真ん中には、②がかかれているため、それ以外の4等分するところに④をかきます。つまり、④をかくのは、（図2）のように2か所で、すでに数がかかれているところにはかきません。同様に、テープに⑤、⑥、⑦、⑧、…と順に数をかいていきます。\n⑧をかくのは何か所ですか。",
+   "source": {
+    "title": "GR4-6(1)",
+    "url": "https://app.notion.com/3f52b010743c81f998d8ce9de2a4fe95",
+    "notionPageId": "3f52b010743c81f998d8ce9de2a4fe95",
+    "path": "",
+    "locator": "GR4 大問6(1)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "4",
+    "d": "1",
+    "unit": "か所",
+    "dimension": "scalar"
+   },
+   "difficulty": 4,
+   "figureRequired": true,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "かく場所を分数で表す",
+      "body": "テープの長さを1として、左はしからの場所を分数で表します。②をかく真ん中は1/2、③をかく2か所は1/3と2/3です。",
+      "equation": "②→1/2、③→1/3、2/3"
+     },
+     {
+      "id": "s2",
+      "title": "④をかく場所",
+      "body": "4等分するところは1/4、2/4、3/4の3か所ですが、2/4は約分すると1/2で、もう②がかかれています。④をかくのは1/4と3/4の2か所です。",
+      "equation": "2/4＝1/2"
+     },
+     {
+      "id": "s3",
+      "title": "きまりを見つける",
+      "body": "②、③、④をかく場所は、分母が2、3、4の、約分できない分数（既約分数）のところです。約分できる分数のところには、前に小さい数がかかれています。",
+      "equation": "約分できない分数のところにかく"
+     },
+     {
+      "id": "s4",
+      "title": "8等分するところを調べる",
+      "body": "8等分するところは1/8から7/8までの7か所です。このうち2/8、4/8、6/8は約分できるので、もう数がかかれています。",
+      "equation": "8−1＝7、2/8＝1/4、4/8＝1/2、6/8＝3/4",
+      "checkpoint": {
+       "prompt": "8等分するところのうち、約分できる分数は何個ありますか。",
+       "answer": {
+        "n": "3",
+        "d": "1",
+        "unit": "個",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s5",
+      "title": "⑧をかく場所",
+      "body": "残りの1/8、3/8、5/8、7/8が、⑧をかく場所です。",
+      "equation": "7−3＝4（か所）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR4"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "figure": "figs/n-3f52b010743c81f998d8ce9de2a4fe95.png"
+  },
+  {
+   "id": "GR4-6(2)",
+   "unitId": "notion.3f52b010743c81a3b349dcc4b92bbab6",
+   "category": "oneline",
+   "domain": "分数・小数の性質",
+   "text": "下の（図1）のような長方形のテープが1枚あります。このテープを等分するところに、次のように数をかきこみます。まず、テープを2等分する1か所に②とかき、次に3等分する2か所に③をかきます。その次は4等分するところに④をかきますが、すでに2等分されているちょうど真ん中には、②がかかれているため、それ以外の4等分するところに④をかきます。つまり、④をかくのは、（図2）のように2か所で、すでに数がかかれているところにはかきません。同様に、テープに⑤、⑥、⑦、⑧、…と順に数をかいていきます。\n②から⑩までかくとき、数をかくのは全部で何か所ですか。",
+   "source": {
+    "title": "GR4-6(2)",
+    "url": "https://app.notion.com/3f52b010743c81a3b349dcc4b92bbab6",
+    "notionPageId": "3f52b010743c81a3b349dcc4b92bbab6",
+    "path": "",
+    "locator": "GR4 大問6(2)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "31",
+    "d": "1",
+    "unit": "か所",
+    "dimension": "scalar"
+   },
+   "difficulty": 5,
+   "figureRequired": true,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "かく場所のきまり",
+      "body": "テープの長さを1として場所を分数で表すと、4等分の2/4は約分すると1/2で、もう②がかかれています。数をかくのは、その数を分母にした、約分できない分数（既約分数）のところです。",
+      "equation": "2/4＝1/2"
+     },
+     {
+      "id": "s2",
+      "title": "②から⑤まで",
+      "body": "②は1/2の1か所、③は1/3、2/3の2か所、④は1/4、3/4の2か所、⑤は1/5、2/5、3/5、4/5の4か所です。",
+      "equation": "1＋2＋2＋4＝9"
+     },
+     {
+      "id": "s3",
+      "title": "⑥と⑦",
+      "body": "⑥は、6等分するところ5か所のうち、2/6、3/6、4/6が約分できるので、1/6と5/6の2か所です。⑦は、1/7から6/7までどれも約分できないので6か所です。",
+      "equation": "5−3＝2、7−1＝6",
+      "checkpoint": {
+       "prompt": "⑥をかくのは何か所ですか。",
+       "answer": {
+        "n": "2",
+        "d": "1",
+        "unit": "か所",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "⑧、⑨、⑩",
+      "body": "⑧は1/8、3/8、5/8、7/8の4か所です。⑨は、9等分するところ8か所のうち、3/9と6/9が約分できるので、1/9、2/9、4/9、5/9、7/9、8/9の6か所です。⑩は1/10、3/10、7/10、9/10の4か所です。",
+      "equation": "8−2＝6",
+      "checkpoint": {
+       "prompt": "⑨をかくのは何か所ですか。",
+       "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "か所",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s5",
+      "title": "全部をたす",
+      "body": "②から⑩までの、かく場所の数を合計します。",
+      "equation": "1＋2＋2＋4＋2＋6＋4＋6＋4＝31（か所）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR4"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "figure": "figs/n-3f52b010743c81a3b349dcc4b92bbab6.png"
+  },
+  {
+   "id": "GR5-1(4)",
+   "unitId": "notion.3f52b010743c8157b080d3626b0a9d3c",
+   "category": "oneline",
+   "domain": "単位換算（長さ・面積・重さ・時間）",
+   "text": "次の□にあてはまる数を答えなさい。\n0.6ha＋38000m²−48.6a＝□a",
+   "source": {
+    "title": "GR5-1(4)",
+    "url": "https://app.notion.com/3f52b010743c8157b080d3626b0a9d3c",
+    "notionPageId": "3f52b010743c8157b080d3626b0a9d3c",
+    "path": "",
+    "locator": "GR5 大問1(4)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "1957",
+    "d": "5",
+    "unit": "a",
+    "dimension": "scalar",
+    "display": "decimal"
+   },
+   "difficulty": 2,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "単位をそろえる",
+      "body": "答えの単位がaなので、haとm²をどちらもaになおしてから計算します。",
+      "equation": "ha→a、m²→a"
+     },
+     {
+      "id": "s2",
+      "title": "haをaになおす",
+      "body": "1haは100aです。",
+      "equation": "0.6×100＝60（a）",
+      "checkpoint": {
+       "prompt": "0.6haは何aですか。",
+       "answer": {
+        "n": "60",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "m²をaになおす",
+      "body": "1aは100m²なので、m²の数を100で割るとaになります。",
+      "equation": "38000÷100＝380（a）",
+      "checkpoint": {
+       "prompt": "38000m²は何aですか。",
+       "answer": {
+        "n": "380",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "aで計算する",
+      "body": "全部aにそろったので、たし算とひき算をします。",
+      "equation": "60＋380−48.6＝391.4（a）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR5"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR5-2(1)",
+   "unitId": "notion.3f52b010743c81d08bcac2eee80e620a",
+   "category": "oneline",
+   "domain": "速さの基本・速さと比",
+   "text": "分速135mで進むと12分40秒かかる道のりは、何mですか。",
+   "source": {
+    "title": "GR5-2(1)",
+    "url": "https://app.notion.com/3f52b010743c81d08bcac2eee80e620a",
+    "notionPageId": "3f52b010743c81d08bcac2eee80e620a",
+    "path": "",
+    "locator": "GR5 大問2(1)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "1710",
+    "d": "1",
+    "unit": "m",
+    "dimension": "length"
+   },
+   "difficulty": 2,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "使う式を決める",
+      "body": "道のりは「速さ×時間」で求めます。速さが分速なので、時間も分で表します。",
+      "equation": "道のり＝速さ×時間"
+     },
+     {
+      "id": "s2",
+      "title": "40秒を分になおす",
+      "body": "1分は60秒なので、40秒を60で割ります。",
+      "equation": "40÷60＝2/3",
+      "checkpoint": {
+       "prompt": "40秒は何分ですか（分数で）。",
+       "answer": {
+        "n": "2",
+        "d": "3",
+        "unit": "分",
+        "dimension": "time"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "12分40秒を分で表す",
+      "body": "12分と2/3分を合わせます。帯分数は仮分数になおしておきます。",
+      "equation": "12＋2/3＝12と2/3、12と2/3＝38/3"
+     },
+     {
+      "id": "s4",
+      "title": "道のりを求める",
+      "body": "分速135mに、12と2/3分をかけます。",
+      "equation": "135×12と2/3＝1710、135×38/3＝1710（m）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR5"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR6-1(1)",
+   "unitId": "notion.3f52b010743c815c9d30e667626fd565",
+   "category": "oneline",
+   "domain": "小数の四則",
+   "text": "次の□にあてはまる数を答えなさい。\n17.92÷2.6＝□あまり□（商は小数第1位まで求めなさい。）",
+   "source": {
+    "title": "GR6-1(1)",
+    "url": "https://app.notion.com/3f52b010743c815c9d30e667626fd565",
+    "notionPageId": "3f52b010743c815c9d30e667626fd565",
+    "path": "",
+    "locator": "GR6 大問1(1)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "label": "商",
+      "n": "34",
+      "d": "5",
+      "unit": "",
+      "dimension": "scalar",
+      "display": "decimal"
+     },
+     {
+      "label": "あまり",
+      "n": "6",
+      "d": "25",
+      "unit": "",
+      "dimension": "scalar",
+      "display": "decimal"
+     }
+    ]
+   },
+   "difficulty": 1,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "わる数を整数にする",
+      "body": "わる数の2.6を26にするために、わる数とわられる数の小数点を、同じように右へ1つずつ動かします。179.2÷26を筆算します。",
+      "equation": "2.6×10＝26、17.92×10＝179.2"
+     },
+     {
+      "id": "s2",
+      "title": "商の一の位",
+      "body": "179の中に26は6回入ります。",
+      "equation": "26×6＝156、179−156＝23",
+      "checkpoint": {
+       "prompt": "商の一の位の数はいくつですか。",
+       "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "商の小数第1位",
+      "body": "23の横に2をおろして232にします。232の中に26は8回入ります。商は小数第1位までなので、ここで止めます。商は6.8です。",
+      "equation": "26×8＝208、232−208＝24"
+     },
+     {
+      "id": "s4",
+      "title": "あまりの小数点",
+      "body": "あまりの小数点は、わられる数のもとの小数点（17.92の小数点）の位置にそろえて打ちます。残った24は小数第2位までの数なので、あまりは0.24です。",
+      "equation": "24÷100＝0.24"
+     },
+     {
+      "id": "s5",
+      "title": "確かめ",
+      "body": "「わる数×商＋あまり」がわられる数になるかを確かめます。あまりの0.24は、わる数の2.6より小さくなっています。",
+      "equation": "2.6×6.8＋0.24＝17.92"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR6"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR6-2(2)",
+   "unitId": "notion.3f52b010743c817bb922ce43c1423edc",
+   "category": "oneline",
+   "domain": "割合の基本",
+   "text": "次の□にあてはまる数を答えなさい。\n560円をもとにしたときの210円の割合は□割□分□厘です。",
+   "source": {
+    "title": "GR6-2(2)",
+    "url": "https://app.notion.com/3f52b010743c817bb922ce43c1423edc",
+    "notionPageId": "3f52b010743c817bb922ce43c1423edc",
+    "path": "",
+    "locator": "GR6 大問2(2)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "dimension": "text",
+    "value": "3割7分5厘",
+    "unit": "",
+    "accepted": [
+     "3、7、5",
+     "3,7,5",
+     "375"
+    ]
+   },
+   "difficulty": 2,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "文の意味をつかむ",
+      "body": "「560円をもとにしたときの210円の割合」は、「210は560の□倍」という意味です。もとにする量が560、比べる量が210です。",
+      "equation": "210＝560×□"
+     },
+     {
+      "id": "s2",
+      "title": "割合を小数で求める",
+      "body": "割合は「比べる量÷もとにする量」で求めます。",
+      "equation": "210÷560＝0.375",
+      "checkpoint": {
+       "prompt": "割合を小数で表すといくつですか。",
+       "answer": {
+        "n": "3",
+        "d": "8",
+        "unit": "",
+        "dimension": "scalar",
+        "display": "decimal"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "歩合の表し方",
+      "body": "歩合では、0.1を1割、0.01を1分、0.001を1厘と表します。",
+      "equation": "0.1＝1割、0.01＝1分、0.001＝1厘"
+     },
+     {
+      "id": "s4",
+      "title": "歩合になおす",
+      "body": "0.375を0.3と0.07と0.005に分けると、3割7分5厘です。",
+      "equation": "0.3＋0.07＋0.005＝0.375"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR6"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR6-3(1)②",
+   "unitId": "notion.3f52b010743c81b097d3dc92773cc9bb",
+   "category": "geometry",
+   "domain": "水量・水位とおもり",
+   "text": "次の問いに答えなさい。ただし容器や水そうの厚さは考えないものとし、円周率は3.14とします。\n下の図のような、底面の直径が4cmと6cmの円柱の形をした容器Aと容器Bに水が入っており、水の深さはそれぞれ34cmと8cmです。\n一方の容器の水の一部をもう一方の容器に移して、容器Aと容器Bの水の量を同じにすると、容器Aの水の深さは何cmになりますか。",
+   "source": {
+    "title": "GR6-3(1)②",
+    "url": "https://app.notion.com/3f52b010743c81b097d3dc92773cc9bb",
+    "notionPageId": "3f52b010743c81b097d3dc92773cc9bb",
+    "path": "",
+    "locator": "GR6 大問3(1)②",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "26",
+    "d": "1",
+    "unit": "cm",
+    "dimension": "length"
+   },
+   "difficulty": 3,
+   "figureRequired": true,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "底面積を求める",
+      "body": "底面の半径は、Aが2cm、Bが3cmです。3.14はあとでまとめて計算できるように、かけずに残しておきます。",
+      "equation": "2×2×3.14＝4×3.14、3×3×3.14＝9×3.14"
+     },
+     {
+      "id": "s2",
+      "title": "それぞれの水の体積",
+      "body": "水の体積は「底面積×深さ」です。Aは深さ34cm、Bは深さ8cmです。",
+      "equation": "4×3.14×34＝136×3.14、9×3.14×8＝72×3.14"
+     },
+     {
+      "id": "s3",
+      "title": "水の体積の合計",
+      "body": "AとBの水を合わせます。",
+      "equation": "136＋72＝208",
+      "checkpoint": {
+       "prompt": "水の体積の合計は、3.14の何倍ですか。",
+       "answer": {
+        "n": "208",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "半分に分ける",
+      "body": "水の量を同じにするので、合計をちょうど半分ずつに分けます。",
+      "equation": "208×3.14÷2＝104×3.14"
+     },
+     {
+      "id": "s5",
+      "title": "容器Aの水の深さ",
+      "body": "半分の水の体積を、Aの底面積で割ります。3.14どうしは約分できます。",
+      "equation": "(104×3.14)÷(4×3.14)＝26、104÷4＝26（cm）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR6"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "figure": "figs/n-3f52b010743c81b097d3dc92773cc9bb.png"
+  },
+  {
+   "id": "GR6-4(2)①",
+   "unitId": "notion.3f52b010743c81259d26ce451069a93a",
+   "category": "geometry",
+   "domain": "水そうとグラフ",
+   "text": "次の問いに答えなさい。ただし、水そうやしきりの厚さは考えないものとします。\n下の図のような水そうがあります。水そうには水を入れるA管とB管と、水を出すC管がついています。この水そうを空にして、はじめB管とC管を閉じて、A管のみを開いて水を入れ、次にA管はそのままでB管を開いて両方の管で水を入れ、最後に、A管を閉じてC管を開き、B管で水を入れながらC管で水を出しました。グラフは、A管を開いてからの時間と水そうの中の水量の関係を表したものです。\nB管からは毎分何Lの水を入れましたか。",
+   "source": {
+    "title": "GR6-4(2)①",
+    "url": "https://app.notion.com/3f52b010743c81259d26ce451069a93a",
+    "notionPageId": "3f52b010743c81259d26ce451069a93a",
+    "path": "",
+    "locator": "GR6 大問4(2)①",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "14",
+    "d": "1",
+    "unit": "L",
+    "dimension": "volume"
+   },
+   "difficulty": 4,
+   "figureRequired": true,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "グラフを区間に分ける",
+      "body": "グラフは12分後と21分後で折れています。はじめの12分間はA管だけ、12分後から21分後まではA管とB管、21分後からはB管とC管が開いています。",
+      "equation": "0〜12分：A、12〜21分：AとB"
+     },
+     {
+      "id": "s2",
+      "title": "A管が1分間に入れる量",
+      "body": "はじめの12分間はA管だけで、216L入っています。",
+      "equation": "216÷12＝18（L）",
+      "checkpoint": {
+       "prompt": "A管からは毎分何Lの水が入りますか。",
+       "answer": {
+        "n": "18",
+        "d": "1",
+        "unit": "L",
+        "dimension": "volume"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "12分後から21分後までに増えた量",
+      "body": "この間の時間と、増えた水の量をグラフから読み取ります。",
+      "equation": "21−12＝9（分）、504−216＝288（L）"
+     },
+     {
+      "id": "s4",
+      "title": "A管とB管を合わせた量",
+      "body": "9分間で288L増えたので、A管とB管を合わせて1分間に入る量がわかります。",
+      "equation": "288÷9＝32（L）",
+      "checkpoint": {
+       "prompt": "A管とB管を合わせると、毎分何Lの水が入りますか。",
+       "answer": {
+        "n": "32",
+        "d": "1",
+        "unit": "L",
+        "dimension": "volume"
+       }
+      }
+     },
+     {
+      "id": "s5",
+      "title": "B管が1分間に入れる量",
+      "body": "合わせた量から、A管の分をひきます。",
+      "equation": "32−18＝14（L）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR6"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "figure": "figs/n-3f52b010743c81259d26ce451069a93a.png"
+  },
+  {
+   "id": "GR7-2(2)",
+   "unitId": "notion.3f52b010743c81aca264ec1b35da2862",
+   "category": "oneline",
+   "domain": "割合の基本",
+   "text": "次の□にあてはまる数を求めなさい。\n120人の480人に対する割合は□%です。",
+   "source": {
+    "title": "GR7-2(2)",
+    "url": "https://app.notion.com/3f52b010743c81aca264ec1b35da2862",
+    "notionPageId": "3f52b010743c81aca264ec1b35da2862",
+    "path": "",
+    "locator": "GR7 大問2(2)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "25",
+    "d": "1",
+    "unit": "%",
+    "dimension": "percent"
+   },
+   "difficulty": 2,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "もとにする量を見つける",
+      "body": "「480人に対する」とあるので、480人がもとにする量で、120人が比べる量です。",
+      "equation": "もとにする量＝480人、比べる量＝120人"
+     },
+     {
+      "id": "s2",
+      "title": "割合を求める",
+      "body": "割合は、比べる量÷もとにする量で求めます。",
+      "equation": "120÷480＝0.25",
+      "checkpoint": {
+       "prompt": "120人は480人の何倍ですか（小数で答えます）。",
+       "answer": {
+        "n": "1",
+        "d": "4",
+        "unit": "",
+        "dimension": "scalar",
+        "display": "decimal"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "百分率に直す",
+      "body": "0.01が1%なので、小数で表した割合を100倍すると百分率になります。",
+      "equation": "0.25×100＝25（%）"
+     },
+     {
+      "id": "s4",
+      "title": "確かめ",
+      "body": "480人の25%が120人になることを確かめます。",
+      "equation": "480×0.25＝120（人）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR7"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR7-2(3)",
+   "unitId": "notion.3f52b010743c812bb06ae105861ac478",
+   "category": "oneline",
+   "domain": "割合の基本",
+   "text": "次の□にあてはまる数を求めなさい。\n□mに対して、63cmは1割5厘にあたります。",
+   "source": {
+    "title": "GR7-2(3)",
+    "url": "https://app.notion.com/3f52b010743c812bb06ae105861ac478",
+    "notionPageId": "3f52b010743c812bb06ae105861ac478",
+    "path": "",
+    "locator": "GR7 大問2(3)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "6",
+    "d": "1",
+    "unit": "m",
+    "dimension": "length"
+   },
+   "difficulty": 2,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "歩合を小数に直す",
+      "body": "1割は0.1、1分は0.01、1厘は0.001です。1割5厘には「分」がないので、0.105になります。",
+      "equation": "0.1＋0.005＝0.105",
+      "checkpoint": {
+       "prompt": "1割5厘を小数で表すといくつですか。",
+       "answer": {
+        "n": "21",
+        "d": "200",
+        "unit": "",
+        "dimension": "scalar",
+        "display": "decimal"
+       }
+      }
+     },
+     {
+      "id": "s2",
+      "title": "もとにする量を見つける",
+      "body": "「□mに対して」とあるので、□mがもとにする量で、63cmが比べる量です。",
+      "equation": "比べる量＝63cm、割合＝0.105"
+     },
+     {
+      "id": "s3",
+      "title": "もとにする量を求める",
+      "body": "もとにする量は、比べる量÷割合で求めます。",
+      "equation": "63÷0.105＝600（cm）"
+     },
+     {
+      "id": "s4",
+      "title": "単位をmに直す",
+      "body": "答えはmで聞かれています。100cm＝1mなので、600cmは6mです。",
+      "equation": "600÷100＝6（m）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR7"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR7-5(4)",
+   "unitId": "notion.3f52b010743c811db8cac637dc7f50ae",
+   "category": "oneline",
+   "domain": "食塩水の基本",
+   "text": "次の□にあてはまる数を求めなさい。\n9%の食塩水600gから□gの水を蒸発させると12%の食塩水になります。",
+   "source": {
+    "title": "GR7-5(4)",
+    "url": "https://app.notion.com/3f52b010743c811db8cac637dc7f50ae",
+    "notionPageId": "3f52b010743c811db8cac637dc7f50ae",
+    "path": "",
+    "locator": "GR7 大問5(4)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "150",
+    "d": "1",
+    "unit": "g",
+    "dimension": "scalar"
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "はじめの食塩の重さ",
+      "body": "9%の食塩水600gにふくまれる食塩の重さを求めます。",
+      "equation": "600×0.09＝54（g）",
+      "checkpoint": {
+       "prompt": "9%の食塩水600gには、食塩が何gふくまれていますか。",
+       "answer": {
+        "n": "54",
+        "d": "1",
+        "unit": "g",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s2",
+      "title": "蒸発しても食塩は変わらない",
+      "body": "蒸発するのは水だけなので、食塩の重さは54gのままです。",
+      "equation": "食塩＝54g"
+     },
+     {
+      "id": "s3",
+      "title": "蒸発させた後の食塩水の重さ",
+      "body": "蒸発させた後は、54gの食塩が食塩水全体の12%にあたります。",
+      "equation": "54÷0.12＝450（g）"
+     },
+     {
+      "id": "s4",
+      "title": "蒸発させた水の重さ",
+      "body": "はじめの食塩水の重さから、蒸発させた後の食塩水の重さをひきます。",
+      "equation": "600−450＝150（g）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR7"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR7-5(5)",
+   "unitId": "notion.3f52b010743c81febb6eff9bdd72f0ad",
+   "category": "oneline",
+   "domain": "食塩水の基本",
+   "text": "次の□にあてはまる数を求めなさい。\n14%の食塩水150gと□%の食塩水300gを混ぜ合わせると8%の食塩水になります。",
+   "source": {
+    "title": "GR7-5(5)",
+    "url": "https://app.notion.com/3f52b010743c81febb6eff9bdd72f0ad",
+    "notionPageId": "3f52b010743c81febb6eff9bdd72f0ad",
+    "path": "",
+    "locator": "GR7 大問5(5)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "5",
+    "d": "1",
+    "unit": "%",
+    "dimension": "percent"
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "14%の食塩水にふくまれる食塩",
+      "body": "14%の食塩水150gにふくまれる食塩の重さを求めます。",
+      "equation": "150×0.14＝21（g）"
+     },
+     {
+      "id": "s2",
+      "title": "混ぜた後の食塩",
+      "body": "混ぜた後の食塩水は150＋300＝450gで、濃度は8%です。",
+      "equation": "(150＋300)×0.08＝36（g）",
+      "checkpoint": {
+       "prompt": "混ぜた後の8%の食塩水には、食塩が何gふくまれていますか。",
+       "answer": {
+        "n": "36",
+        "d": "1",
+        "unit": "g",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "□%の食塩水にふくまれる食塩",
+      "body": "混ぜた後の食塩36gのうち、21gは14%の食塩水に入っていた分です。残りが□%の食塩水に入っていた食塩です。",
+      "equation": "36−21＝15（g）"
+     },
+     {
+      "id": "s4",
+      "title": "□%の食塩水の濃度",
+      "body": "300gの食塩水に15gの食塩がふくまれています。",
+      "equation": "15÷300＝0.05、0.05×100＝5（%）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR7"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR8-2(8)",
+   "unitId": "notion.3f42b010743c814e8b9ec47d36ea47d8",
+   "category": "oneline",
+   "domain": "旅人算",
+   "text": "何mかはなれた2地点をミドリさんとアオイさんが向かい合って同時に出発したところ、2人は2地点の真ん中より80mはなれたところで出会いました。ミドリさんとアオイさんの速さの比は5：4です。このとき、2地点は何mはなれていますか。",
+   "source": {
+    "title": "GR8-2(8)",
+    "url": "https://app.notion.com/3f42b010743c814e8b9ec47d36ea47d8",
+    "notionPageId": "3f42b010743c814e8b9ec47d36ea47d8",
+    "path": "",
+    "locator": "GR8 大問2(8)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "1440",
+    "d": "1",
+    "unit": "m",
+    "dimension": "length"
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "進んだ道のりの比",
+      "body": "2人は同時に出発して出会ったので、進んだ時間は同じです。同じ時間に進む道のりの比は、速さの比と同じ5：4です。ミドリさんが進んだ道のりを⑤、アオイさんが進んだ道のりを④とします。",
+      "equation": "ミドリ：アオイ＝5：4"
+     },
+     {
+      "id": "s2",
+      "title": "2地点の間の道のり",
+      "body": "2人が進んだ道のりを合わせると、2地点の間の道のりになります。",
+      "equation": "5＋4＝9"
+     },
+     {
+      "id": "s3",
+      "title": "真ん中までの道のり",
+      "body": "真ん中は、全体⑨の半分のところです。",
+      "equation": "9÷2＝4.5",
+      "checkpoint": {
+       "prompt": "ミドリさんの出発点から真ん中までの道のりは、①のいくつ分ですか。",
+       "answer": {
+        "n": "9",
+        "d": "2",
+        "unit": "",
+        "dimension": "scalar",
+        "display": "decimal"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "出会った地点と真ん中の差",
+      "body": "ミドリさんは⑤進んだので、真ん中を通りこしています。出会った地点と真ん中の差が80mにあたります。",
+      "equation": "5−4.5＝0.5"
+     },
+     {
+      "id": "s5",
+      "title": "①の長さ",
+      "body": "①の0.5個分が80mです。",
+      "equation": "80÷0.5＝160（m）"
+     },
+     {
+      "id": "s6",
+      "title": "2地点の間の道のり",
+      "body": "2地点の間は⑨です。",
+      "equation": "160×9＝1440（m）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR8"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "GR8-3(1)ア",
+   "unitId": "notion.3f52b010743c813f9445c2e9e5d7a69c",
+   "category": "geometry",
+   "domain": "角度",
+   "text": "右の図のように、正十角形の辺と正三角形の辺を重ね、正十角形の頂点Bと正三角形の頂点Aを通る直線を引きました。角アの大きさは何度ですか。",
+   "source": {
+    "title": "GR8-3(1)ア",
+    "url": "https://app.notion.com/3f52b010743c813f9445c2e9e5d7a69c",
+    "notionPageId": "3f52b010743c813f9445c2e9e5d7a69c",
+    "path": "",
+    "locator": "GR8 大問3(1)ア",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "144",
+    "d": "1",
+    "unit": "度",
+    "dimension": "scalar"
+   },
+   "difficulty": 3,
+   "figureRequired": true,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "角アは何の角か",
+      "body": "角アは、正十角形の1つの内角です。",
+      "equation": "角ア＝正十角形の1つの内角"
+     },
+     {
+      "id": "s2",
+      "title": "正十角形の1つの外角",
+      "body": "多角形の外角の和は、何角形でも360度です。正十角形には同じ大きさの外角が10個あります。",
+      "equation": "360÷10＝36（度）",
+      "checkpoint": {
+       "prompt": "正十角形の1つの外角は何度ですか。",
+       "answer": {
+        "n": "36",
+        "d": "1",
+        "unit": "度",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "内角と外角の関係",
+      "body": "1つの頂点で、内角と外角を合わせると一直線の180度になります。",
+      "equation": "180−36＝144（度）"
+     },
+     {
+      "id": "s4",
+      "title": "1つの式にまとめる",
+      "body": "正十角形の1つの内角は、180度から1つの外角をひいて求められます。",
+      "equation": "180−360÷10＝144（度）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR8"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "figure": "figs/n-3f52b010743c813f9445c2e9e5d7a69c.png"
+  },
+  {
+   "id": "GR8-4(2)",
+   "unitId": "notion.3f52b010743c81948311f4122f9f5c78",
+   "category": "geometry",
+   "domain": "水そうとグラフ",
+   "text": "毎分一定の割合で水を入れるA管と、毎分0.3Lの割合で水を入れるB管がついた直方体の形をした水そうがあります。この水そうにA管だけを開いて水を入れたあと、B管も開いて何分か水を入れました。そのあと、A管を閉じてB管だけで水を入れました。下のグラフは、水そうに水を入れはじめてからの時間と水そうの中の水の体積を表したものです。\nA管を開いて水を入れたのは何分間ですか。",
+   "source": {
+    "title": "GR8-4(2)",
+    "url": "https://app.notion.com/3f52b010743c81948311f4122f9f5c78",
+    "notionPageId": "3f52b010743c81948311f4122f9f5c78",
+    "path": "",
+    "locator": "GR8 大問4(2)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "16",
+    "d": "1",
+    "unit": "分",
+    "dimension": "time"
+   },
+   "difficulty": 5,
+   "figureRequired": true,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "グラフを読む",
+      "body": "はじめの12分間はA管だけで水を入れ、2.4L入りました。12分後にB管も開き、とちゅうでA管を閉じて、26分後に7.4Lになりました。",
+      "equation": "0分〜12分＝A管だけ"
+     },
+     {
+      "id": "s2",
+      "title": "A管が1分間に入れる水の量",
+      "body": "A管だけの12分間で2.4L入っています。",
+      "equation": "2.4÷12＝0.2（L）",
+      "checkpoint": {
+       "prompt": "A管は1分間に何Lの水を入れますか。",
+       "answer": {
+        "n": "1",
+        "d": "5",
+        "unit": "L",
+        "dimension": "volume",
+        "display": "decimal"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "B管を開いていた時間",
+      "body": "B管は12分後に開いてから、26分後までずっと開いています。",
+      "equation": "26−12＝14（分）"
+     },
+     {
+      "id": "s4",
+      "title": "B管が入れた水の量",
+      "body": "B管は毎分0.3Lずつ、14分間入れました。",
+      "equation": "0.3×14＝4.2（L）"
+     },
+     {
+      "id": "s5",
+      "title": "A管が入れた水の量",
+      "body": "全部の7.4Lから、B管が入れた分をひきます。",
+      "equation": "7.4−4.2＝3.2（L）",
+      "checkpoint": {
+       "prompt": "A管が入れた水は全部で何Lですか。",
+       "answer": {
+        "n": "16",
+        "d": "5",
+        "unit": "L",
+        "dimension": "volume",
+        "display": "decimal"
+       }
+      }
+     },
+     {
+      "id": "s6",
+      "title": "A管を開いていた時間",
+      "body": "A管は毎分0.2Lずつ入れるので、3.2L入れるのにかかった時間を求めます。",
+      "equation": "3.2÷0.2＝16（分間）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR8"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "figure": "figs/n-3f52b010743c81948311f4122f9f5c78.png"
+  },
+  {
+   "id": "GR8-5(3)",
+   "unitId": "notion.3f52b010743c81ce9558dcfda510bb6b",
+   "category": "oneline",
+   "domain": "比の基本",
+   "text": "Aの1.2倍とBの2倍が等しく、Cの1.5倍がAと等しいとき、AとBとCの比を最も簡単な整数の比で答えなさい。",
+   "source": {
+    "title": "GR8-5(3)",
+    "url": "https://app.notion.com/3f52b010743c81ce9558dcfda510bb6b",
+    "notionPageId": "3f52b010743c81ce9558dcfda510bb6b",
+    "path": "",
+    "locator": "GR8 大問5(3)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "dimension": "ratio",
+    "terms": [
+     "15",
+     "9",
+     "10"
+    ],
+    "unit": ""
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "AとBの関係を式にする",
+      "body": "「Aの1.2倍とBの2倍が等しい」を式で表します。",
+      "equation": "A×1.2＝B×2"
+     },
+     {
+      "id": "s2",
+      "title": "AとBの比",
+      "body": "かけた答えが等しいとき、比はかける数の逆比になります。A：B＝1/1.2：1/2＝5：3です。",
+      "equation": "5×1.2＝3×2",
+      "checkpoint": {
+       "prompt": "Aを5とすると、Bはいくつですか。",
+       "answer": {
+        "n": "3",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "AとCの比",
+      "body": "「Cの1.5倍がAと等しい」は、A×1＝C×1.5です。同じように逆比で、A：C＝1/1：1/1.5＝3：2です。",
+      "equation": "3×1＝2×1.5"
+     },
+     {
+      "id": "s4",
+      "title": "Aをそろえる",
+      "body": "Aが、A：Bでは5、A：Cでは3になっています。5と3の最小公倍数の15にそろえます。A：B＝15：9、A：C＝15：10です。",
+      "equation": "5×3＝15、3×3＝9、3×5＝15、2×5＝10"
+     },
+     {
+      "id": "s5",
+      "title": "3つの比をつなぐ",
+      "body": "Aを15にそろえたので、3つの比を1つにまとめます。",
+      "equation": "A：B：C＝15：9：10"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "GR8"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "JT7-1(4)",
+   "unitId": "notion.3f52b010743c81ea8d16dcd8c86771a0",
+   "category": "oneline",
+   "domain": "単位換算（体積・容積）",
+   "text": "次の□にあてはまる数を答えなさい。\n800dL＋0.25m³＋17000cm³＝□L",
+   "source": {
+    "title": "JT7-1(4)",
+    "url": "https://app.notion.com/3f52b010743c81ea8d16dcd8c86771a0",
+    "notionPageId": "3f52b010743c81ea8d16dcd8c86771a0",
+    "path": "",
+    "locator": "JT7 大問1(4)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "347",
+    "d": "1",
+    "unit": "L",
+    "dimension": "volume"
+   },
+   "difficulty": 2,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "単位をLにそろえる",
+      "body": "単位がちがうままではたし算ができません。答えの単位のLにそろえます。",
+      "equation": "1L＝10dL、1L＝1000cm³、1m³＝1000L"
+     },
+     {
+      "id": "s2",
+      "title": "800dLをLに直す",
+      "body": "10dLが1Lです。",
+      "equation": "800÷10＝80（L）"
+     },
+     {
+      "id": "s3",
+      "title": "0.25m³をLに直す",
+      "body": "1m³は1000Lです。",
+      "equation": "0.25×1000＝250（L）",
+      "checkpoint": {
+       "prompt": "0.25m³は何Lですか。",
+       "answer": {
+        "n": "250",
+        "d": "1",
+        "unit": "L",
+        "dimension": "volume"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "17000cm³をLに直す",
+      "body": "1000cm³が1Lです。",
+      "equation": "17000÷1000＝17（L）"
+     },
+     {
+      "id": "s5",
+      "title": "3つをたす",
+      "body": "Lにそろえた3つの量をたします。",
+      "equation": "80＋250＋17＝347（L）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "JT7"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "JT7-2(2)",
+   "unitId": "notion.3f52b010743c81caa184c040801394fb",
+   "category": "oneline",
+   "domain": "過不足算",
+   "text": "何人かの生徒に計算用紙を7枚ずつ配ろうとしたところちょうど3人分不足しました。そこで一度計算用紙をすべて回収し、4枚ずつ配り直したところ今度はちょうど6人分あまりました。計算用紙は全部で何枚ありましたか。",
+   "source": {
+    "title": "JT7-2(2)",
+    "url": "https://app.notion.com/3f52b010743c81caa184c040801394fb",
+    "notionPageId": "3f52b010743c81caa184c040801394fb",
+    "path": "",
+    "locator": "JT7 大問2(2)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "84",
+    "d": "1",
+    "unit": "枚",
+    "dimension": "scalar"
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "不足する枚数",
+      "body": "7枚ずつ配ると3人分不足します。不足を枚数に直します。",
+      "equation": "7×3＝21（枚）"
+     },
+     {
+      "id": "s2",
+      "title": "あまる枚数",
+      "body": "4枚ずつ配ると6人分あまります。あまりを枚数に直します。",
+      "equation": "4×6＝24（枚）"
+     },
+     {
+      "id": "s3",
+      "title": "全体の差",
+      "body": "7枚ずつ全員に配るのに必要な枚数と、4枚ずつ全員に配るのに必要な枚数の差は、不足とあまりを合わせた枚数です。",
+      "equation": "21＋24＝45（枚）",
+      "checkpoint": {
+       "prompt": "7枚ずつ配るときと4枚ずつ配るときで、必要な枚数の差は全部で何枚ですか。",
+       "answer": {
+        "n": "45",
+        "d": "1",
+        "unit": "枚",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "生徒の人数",
+      "body": "1人あたりの差は7−4＝3枚です。全体の差を1人あたりの差でわります。",
+      "equation": "45÷(7−4)＝15（人）",
+      "checkpoint": {
+       "prompt": "生徒は何人いますか。",
+       "answer": {
+        "n": "15",
+        "d": "1",
+        "unit": "人",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s5",
+      "title": "計算用紙の枚数",
+      "body": "15人に7枚ずつ配るには21枚不足します。",
+      "equation": "7×15−21＝84（枚）"
+     },
+     {
+      "id": "s6",
+      "title": "確かめ",
+      "body": "15人に4枚ずつ配ると24枚あまります。同じ枚数になります。",
+      "equation": "4×15＋24＝84（枚）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "JT7"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "JT7-2(8)",
+   "unitId": "notion.3f52b010743c819486fafdb43d1eba3a",
+   "category": "oneline",
+   "domain": "割合の基本",
+   "text": "500ドルの25%と3600円の3割の合計は何円ですか。ただし、1ドルは150円として計算しなさい。",
+   "source": {
+    "title": "JT7-2(8)",
+    "url": "https://app.notion.com/3f52b010743c819486fafdb43d1eba3a",
+    "notionPageId": "3f52b010743c819486fafdb43d1eba3a",
+    "path": "",
+    "locator": "JT7 大問2(8)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "19830",
+    "d": "1",
+    "unit": "円",
+    "dimension": "scalar"
+   },
+   "difficulty": 2,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "500ドルを円に直す",
+      "body": "答えは円で聞かれています。1ドルが150円なので、500ドルを円に直します。",
+      "equation": "150×500＝75000（円）",
+      "checkpoint": {
+       "prompt": "500ドルは何円ですか。",
+       "answer": {
+        "n": "75000",
+        "d": "1",
+        "unit": "円",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s2",
+      "title": "500ドルの25%",
+      "body": "25%は小数で0.25です。",
+      "equation": "75000×0.25＝18750（円）"
+     },
+     {
+      "id": "s3",
+      "title": "3600円の3割",
+      "body": "3割は小数で0.3です。",
+      "equation": "3600×0.3＝1080（円）"
+     },
+     {
+      "id": "s4",
+      "title": "合計",
+      "body": "2つをたします。",
+      "equation": "18750＋1080＝19830（円）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "JT7"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "JT7-3(3)",
+   "unitId": "notion.3f52b010743c815b8223d9b4ab485e72",
+   "category": "geometry",
+   "domain": "面積の基本・分割",
+   "text": "（図3）の四角形ABCDは長方形で、Fは辺ADの延長線上にあります。三角形BCEの面積が45cm²、三角形DEFの面積が5cm²のとき、四角形ABEDの面積は何cm²ですか。",
+   "source": {
+    "title": "JT7-3(3)",
+    "url": "https://app.notion.com/3f52b010743c815b8223d9b4ab485e72",
+    "notionPageId": "3f52b010743c815b8223d9b4ab485e72",
+    "path": "",
+    "locator": "JT7 大問3(3)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "n": "75",
+    "d": "1",
+    "unit": "cm²",
+    "dimension": "area"
+   },
+   "difficulty": 3,
+   "figureRequired": true,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "DEの長さ",
+      "body": "三角形DEFは角Dが直角で、底辺がDF＝4cm、高さがDEです。面積が5cm²なので、高さを逆算します。",
+      "equation": "5×2÷4＝2.5（cm）",
+      "checkpoint": {
+       "prompt": "DEの長さは何cmですか。",
+       "answer": {
+        "n": "5",
+        "d": "2",
+        "unit": "cm",
+        "dimension": "length",
+        "display": "decimal"
+       }
+      }
+     },
+     {
+      "id": "s2",
+      "title": "ECの長さ",
+      "body": "長方形なので、DCはABと同じ10cmです。",
+      "equation": "10−2.5＝7.5（cm）"
+     },
+     {
+      "id": "s3",
+      "title": "BCの長さ",
+      "body": "三角形BCEは角Cが直角で、底辺がEC＝7.5cm、高さがBCです。面積が45cm²なので、BCを逆算します。",
+      "equation": "45×2÷7.5＝12（cm）",
+      "checkpoint": {
+       "prompt": "BCの長さは何cmですか。",
+       "answer": {
+        "n": "12",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length"
+       }
+      }
+     },
+     {
+      "id": "s4",
+      "title": "四角形ABEDの面積",
+      "body": "四角形ABEDは、DEとABが平行な台形です。上底がDE＝2.5cm、下底がAB＝10cm、高さがAD＝BC＝12cmです。",
+      "equation": "(2.5＋10)×12÷2＝75（cm²）"
+     },
+     {
+      "id": "s5",
+      "title": "確かめ",
+      "body": "長方形ABCDから三角形BCEをひいても、同じ面積になります。",
+      "equation": "10×12−45＝75（cm²）"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "JT7"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "figure": "figs/n-3f52b010743c815b8223d9b4ab485e72.png"
+  },
+  {
+   "id": "JT7-5(2)",
+   "unitId": "notion.3f52b010743c8193ace1eaae72eff7c1",
+   "category": "oneline",
+   "domain": "群数列・数表",
+   "text": "赤、白、青、黄の4色のカードがそれぞれたくさんあります。これらのカードを下のようにある規則にしたがって左から順にならべました。\n青, 白, 黄, 青, 白, 黄, 赤, 青, 白, 黄, 青, 白, 黄, 赤, 青, 白, 黄, ……\n何枚かのカードをならべたとき、ならべた白のカードの枚数を数えたところ、83枚ありました。このときならべたカードの枚数は全部で何枚以上何枚以下と考えられますか。",
+   "source": {
+    "title": "JT7-5(2)",
+    "url": "https://app.notion.com/3f52b010743c8193ace1eaae72eff7c1",
+    "notionPageId": "3f52b010743c8193ace1eaae72eff7c1",
+    "path": "",
+    "locator": "JT7 大問5(2)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "dimension": "text",
+    "value": "289枚以上291枚以下",
+    "unit": "",
+    "accepted": [
+     "289以上291以下",
+     "289,291",
+     "289、291",
+     "289枚以上、291枚以下",
+     "289と291",
+     "289枚、291枚",
+     "289291"
+    ]
+   },
+   "difficulty": 3,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "くり返しを見つける",
+      "body": "カードは「青, 白, 黄, 青, 白, 黄, 赤」の7枚ずつのくり返しになっています。",
+      "equation": "1つのくり返し＝7枚"
+     },
+     {
+      "id": "s2",
+      "title": "1つのくり返しの中の白",
+      "body": "白のカードは、1つのくり返しの中に2枚（先頭から2枚目と5枚目）あります。83枚を2枚ずつに分けます。83÷2＝41あまり1です。",
+      "equation": "2×41＋1＝83",
+      "checkpoint": {
+       "prompt": "白のカード82枚は、くり返し何回分にあたりますか。",
+       "answer": {
+        "n": "41",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s3",
+      "title": "83枚目の白の位置",
+      "body": "41回のくり返しで白は82枚です。83枚目の白は、42回目のくり返しの中の先頭から2枚目です。",
+      "equation": "41＋1＝42"
+     },
+     {
+      "id": "s4",
+      "title": "いちばん少ない枚数",
+      "body": "83枚目の白をちょうどならべたときが、いちばん少ない枚数です。",
+      "equation": "7×41＋2＝289（枚）",
+      "checkpoint": {
+       "prompt": "83枚目の白のカードは、はじめから数えて何枚目ですか。",
+       "answer": {
+        "n": "289",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s5",
+      "title": "いちばん多い枚数",
+      "body": "42回目のくり返しは「青, 白, 黄, 青, 白, 黄, 赤」です。2枚目の白のあと、次の白（5枚目）の手前の黄・青の2枚まではならべても、白は83枚のままです。",
+      "equation": "289＋2＝291（枚）"
+     },
+     {
+      "id": "s6",
+      "title": "答えをまとめる",
+      "body": "ならべたカードは、289枚以上291枚以下です。",
+      "equation": "289枚以上291枚以下"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "JT7"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  },
+  {
+   "id": "JT7-5(3)",
+   "unitId": "notion.3f52b010743c81098523d4d1a4f6f40c",
+   "category": "oneline",
+   "domain": "群数列・数表",
+   "text": "赤、白、青、黄の4色のカードがそれぞれたくさんあります。これらのカードを下のようにある規則にしたがって左から順にならべました。\n青, 白, 黄, 青, 白, 黄, 赤, 青, 白, 黄, 青, 白, 黄, 赤, 青, 白, 黄, ……\n1010枚以上のカードをならべた後で点検したところ、1枚目から1000枚目までのカードのうち何枚かのカードが汚れていたので順番は変えずに取りのぞきました。その後でならんでいるカードの色を調べると、はじめから数えて1000枚目は青のカードでした。取りのぞいたカードの枚数が10枚以下のとき、取りのぞいたカードの枚数として考えられるものをすべて答えなさい。",
+   "source": {
+    "title": "JT7-5(3)",
+    "url": "https://app.notion.com/3f52b010743c81098523d4d1a4f6f40c",
+    "notionPageId": "3f52b010743c81098523d4d1a4f6f40c",
+    "path": "",
+    "locator": "JT7 大問5(3)",
+    "verification": "2026-11-12 Claude作成。問題文・答えは統合DB（原本書き起こし）とNotionの「答え」に一致。段階解説は教材の解説（統合DBの「解説の要点」）の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+   },
+   "answer": {
+    "dimension": "set",
+    "items": [
+     "2",
+     "5",
+     "9"
+    ],
+    "unit": ""
+   },
+   "difficulty": 4,
+   "figureRequired": false,
+   "explanation": {
+    "steps": [
+     {
+      "id": "s1",
+      "title": "取りのぞく前の1000枚目",
+      "body": "カードは「青, 白, 黄, 青, 白, 黄, 赤」の7枚ずつのくり返しです。1000÷7＝142あまり6なので、取りのぞく前の1000枚目は、143回目のくり返しの6枚目の黄です。",
+      "equation": "7×142＋6＝1000"
+     },
+     {
+      "id": "s2",
+      "title": "取りのぞくとどうなるか",
+      "body": "1000枚目までのカードを何枚か取りのぞくと、そのうしろのカードは取りのぞいた枚数だけ前につまります。だから、取りのぞいた後の1000枚目は、取りのぞく前の「1000＋取りのぞいた枚数」枚目のカードです。",
+      "equation": "取りのぞいた後の1000枚目＝取りのぞく前の（1000＋取りのぞいた枚数）枚目"
+     },
+     {
+      "id": "s3",
+      "title": "調べる範囲",
+      "body": "取りのぞいたのは10枚以下なので、取りのぞく前の1001枚目から1010枚目までの中から青のカードをさがします。",
+      "equation": "1000＋10＝1010"
+     },
+     {
+      "id": "s4",
+      "title": "1001枚目からの青のカード",
+      "body": "1001枚目は143回目のくり返しの最後の赤です。144回目のくり返しは1002枚目から始まり、青は1枚目と4枚目なので1002枚目と1005枚目です。145回目のくり返しは1009枚目から始まり、1枚目の青が1009枚目です。その次の青は1012枚目なので範囲の外です。",
+      "equation": "7×143＋1＝1002、7×143＋4＝1005、7×144＋1＝1009",
+      "checkpoint": {
+       "prompt": "144回目のくり返しの1枚目（青）は、はじめから数えて何枚目ですか。",
+       "answer": {
+        "n": "1002",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      }
+     },
+     {
+      "id": "s5",
+      "title": "取りのぞいた枚数",
+      "body": "それぞれの青のカードが1000枚目になるように、取りのぞいた枚数を求めます。",
+      "equation": "1002−1000＝2、1005−1000＝5、1009−1000＝9"
+     }
+    ]
+   },
+   "scopeUnits": [
+    "JT7"
+   ],
+   "homeStudy": false,
+   "revision": 1
+  }
+ ],
+ "units": [
+  {
+   "id": "notion.3f52b010743c81f9bbceeda856722038",
+   "name": "商と余りで等間隔列の位置を特定する",
+   "domain": "倍数の個数",
+   "definition": "商と余りで等間隔列の位置を特定する",
+   "representativeId": "GR3-4(1)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81fbba55d826b3058b10",
+   "name": "30°の直角三角形（対辺と斜辺の比）",
+   "domain": "角度",
+   "definition": "30°の直角三角形（対辺と斜辺の比）",
+   "representativeId": "GR3-5(5)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c8176a977dc3c08ff0fb7",
+   "name": "二つの倍数集合の必要領域を数える",
+   "domain": "倍数の個数",
+   "definition": "二つの倍数集合の必要領域を数える",
+   "representativeId": "GR3-6(1)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c816c80f9c0f20b4b7564",
+   "name": "共通の倍数条件と最小公倍数",
+   "domain": "最大公約数・最小公倍数",
+   "definition": "共通の倍数条件と最小公倍数",
+   "representativeId": "GR3-6(2)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c812c8485ca673608cdc7",
+   "name": "比の表記・共通尺度と和差",
+   "domain": "比の基本",
+   "definition": "比の表記・共通尺度と和差",
+   "representativeId": "GR4-2(3)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81e49056f38527652de7",
+   "name": "除法の余りを引いた整除関係",
+   "domain": "最大公約数・最小公倍数",
+   "definition": "除法の余りを引いた整除関係",
+   "representativeId": "GR4-4(1)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81c3ad89e9b57294f73f",
+   "name": "水量保存と排除体積",
+   "domain": "水量・水位とおもり",
+   "definition": "水量保存と排除体積",
+   "representativeId": "GR4-5(1)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81bb9393f89c1d3caa80",
+   "name": "水量保存と排除体積",
+   "domain": "水量・水位とおもり",
+   "definition": "水量保存と排除体積",
+   "representativeId": "GR4-5(2)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81f998d8ce9de2a4fe95",
+   "name": "分母と互いに素な分子の計数と対称ペアによる和",
+   "domain": "分数・小数の性質",
+   "definition": "分母と互いに素な分子の計数と対称ペアによる和",
+   "representativeId": "GR4-6(1)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81a3b349dcc4b92bbab6",
+   "name": "分母と互いに素な分子の計数と対称ペアによる和",
+   "domain": "分数・小数の性質",
+   "definition": "分母と互いに素な分子の計数と対称ペアによる和",
+   "representativeId": "GR4-6(2)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c8157b080d3626b0a9d3c",
+   "name": "面積",
+   "domain": "単位換算（長さ・面積・重さ・時間）",
+   "definition": "面積",
+   "representativeId": "GR5-1(4)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81d08bcac2eee80e620a",
+   "name": "速さの基本",
+   "domain": "速さの基本・速さと比",
+   "definition": "速さの基本",
+   "representativeId": "GR5-2(1)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c815c9d30e667626fd565",
+   "name": "わり算（あまり・概数）",
+   "domain": "小数の四則",
+   "definition": "わり算（あまり・概数）",
+   "representativeId": "GR6-1(1)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c817bb922ce43c1423edc",
+   "name": "歩合表記と割合三用法",
+   "domain": "割合の基本",
+   "definition": "歩合表記と割合三用法",
+   "representativeId": "GR6-2(2)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81b097d3dc92773cc9bb",
+   "name": "水量保存と排除体積",
+   "domain": "水量・水位とおもり",
+   "definition": "水量保存と排除体積",
+   "representativeId": "GR6-3(1)②",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81259d26ce451069a93a",
+   "name": "量の増減と正味の仕事率",
+   "domain": "水そうとグラフ",
+   "definition": "量の増減と正味の仕事率",
+   "representativeId": "GR6-4(2)①",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81aca264ec1b35da2862",
+   "name": "百分率表記と割合三用法",
+   "domain": "割合の基本",
+   "definition": "百分率表記と割合三用法",
+   "representativeId": "GR7-2(2)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c812bb06ae105861ac478",
+   "name": "歩合表記と割合三用法",
+   "domain": "割合の基本",
+   "definition": "歩合表記と割合三用法",
+   "representativeId": "GR7-2(3)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c811db8cac637dc7f50ae",
+   "name": "溶質量と全体量を分数の分子分母に置く",
+   "domain": "食塩水の基本",
+   "definition": "溶質量と全体量を分数の分子分母に置く",
+   "representativeId": "GR7-5(4)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81febb6eff9bdd72f0ad",
+   "name": "溶質量と全体量を分数の分子分母に置く",
+   "domain": "食塩水の基本",
+   "definition": "溶質量と全体量を分数の分子分母に置く",
+   "representativeId": "GR7-5(5)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f42b010743c814e8b9ec47d36ea47d8",
+   "name": "中点からのずれ×2＝進んだ道のりの差",
+   "domain": "旅人算",
+   "definition": "中点からのずれ×2＝進んだ道のりの差",
+   "representativeId": "GR8-2(8)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c813f9445c2e9e5d7a69c",
+   "name": "外角の和（1周の方向変化）",
+   "domain": "角度",
+   "definition": "外角の和（1周の方向変化）",
+   "representativeId": "GR8-3(1)ア",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81948311f4122f9f5c78",
+   "name": "量の増減と正味の仕事率",
+   "domain": "水そうとグラフ",
+   "definition": "量の増減と正味の仕事率",
+   "representativeId": "GR8-4(2)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81ce9558dcfda510bb6b",
+   "name": "積一定・逆比（キョリ一定）",
+   "domain": "比の基本",
+   "definition": "積一定・逆比（キョリ一定）",
+   "representativeId": "GR8-5(3)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81ea8d16dcd8c86771a0",
+   "name": "単位が混じる計算",
+   "domain": "単位換算（体積・容積）",
+   "definition": "単位が混じる計算",
+   "representativeId": "JT7-1(4)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81caa184c040801394fb",
+   "name": "差集め・過不足（同じ基準量の総差）",
+   "domain": "過不足算",
+   "definition": "差集め・過不足（同じ基準量の総差）",
+   "representativeId": "JT7-2(2)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c819486fafdb43d1eba3a",
+   "name": "単位をそろえる割合",
+   "domain": "割合の基本",
+   "definition": "単位をそろえる割合",
+   "representativeId": "JT7-2(8)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c815b8223d9b4ab485e72",
+   "name": "共通の高さを見つけ、見えている三角形の面積から高さを出して別図形に転用",
+   "domain": "面積の基本・分割",
+   "definition": "共通の高さを見つけ、見えている三角形の面積から高さを出して別図形に転用",
+   "representativeId": "JT7-3(3)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c8193ace1eaae72eff7c1",
+   "name": "周期を見つけて一周期と余りに分ける",
+   "domain": "群数列・数表",
+   "definition": "周期を見つけて一周期と余りに分ける",
+   "representativeId": "JT7-5(2)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  },
+  {
+   "id": "notion.3f52b010743c81098523d4d1a4f6f40c",
+   "name": "周期を見つけて一周期と余りに分ける",
+   "domain": "群数列・数表",
+   "definition": "周期を見つけて一周期と余りに分ける",
+   "representativeId": "JT7-5(3)",
+   "decision": "教材の解説に即して教材化・検算済みの代表問題",
+   "prerequisites": []
+  }
+ ],
+ "links": []
+}
