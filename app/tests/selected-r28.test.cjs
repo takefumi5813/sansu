@@ -34,6 +34,6 @@ test('R28計算：原式の答えがcalcScore/calcInverseと一致',()=>{
   assert.match(p.source.url,/^https:\/\/app\.notion\.com\/[0-9a-f]{32}$/);
  }
 });
-test('出題範囲：直近R28、次回グノレブ（11/11）はR24〜R27のまま',()=>{
- assert.equal(plan.recentLesson.unit,'R28');assert.deepEqual(plan.nextAssessment.activeLearnedUnits,['R24','R25','R26','R27']);assert.deepEqual(plan.nextAssessment.excludedUnlearnedUnits,[]);
+test('出題範囲：R28は次回グノレブ（12/11、No.28〜31）の範囲に入る',()=>{
+ assert.ok(plan.nextAssessment.activeLearnedUnits.includes('R28'));
 });

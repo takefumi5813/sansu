@@ -1,0 +1,2342 @@
+{
+ "problems": [
+  {
+   "id": "R29H①-1",
+   "unitId": "r29.sim.enlarge",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "（図1）は（図2）の拡大図です。(1)（図1）は（図2）の何倍の拡大図ですか。(2) 次の辺の長さや角の大きさを求めなさい。① 辺BC　② 辺GH　③ 角B　④ 角H（図：（図1）AB＝20cm、CD＝25cm、角D＝100°。（図2）EF＝8cm、FG＝12cm、角F＝70°）",
+   "sourceText": "（図1）は（図2）の拡大図です。(1)（図1）は（図2）の何倍の拡大図ですか。(2) 次の辺の長さや角の大きさを求めなさい。① 辺BC　② 辺GH　③ 角B　④ 角H（図：（図1）AB＝20cm、CD＝25cm、角D＝100°。（図2）EF＝8cm、FG＝12cm、角F＝70°）",
+   "source": {
+    "title": "R29H①-1",
+    "url": "https://app.notion.com/4172b010743c81f2be6cc14b8fb8c06e",
+    "notionPageId": "4172b010743c81f2be6cc14b8fb8c06e",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H①-1（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 2.5倍 (2) ① 30cm ② 10cm ③ 70度 ④ 100度",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "4db8a7a70a80eedf66d5cb5c68232a8ccad749728ec3ef34b6cd457130b83eb7"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "5",
+      "d": "2",
+      "unit": "倍",
+      "dimension": "scalar",
+      "label": "(1)"
+     },
+     {
+      "n": "30",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(2)① 辺BC"
+     },
+     {
+      "n": "10",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(2)② 辺GH"
+     },
+     {
+      "n": "70",
+      "d": "1",
+      "unit": "度",
+      "dimension": "scalar",
+      "acceptedUnits": {
+       "度": "1",
+       "°": "1"
+      },
+      "label": "(2)③ 角B"
+     },
+     {
+      "n": "100",
+      "d": "1",
+      "unit": "度",
+      "dimension": "scalar",
+      "acceptedUnits": {
+       "度": "1",
+       "°": "1"
+      },
+      "label": "(2)④ 角H"
+     }
+    ]
+   },
+   "difficulty": 4,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "対応する辺を見つける",
+      "body": "（図1）の辺ABと（図2）の辺EFが対応しています。20cmと8cmです。",
+      "equation": "20÷8＝2.5",
+      "checkpoint": {
+       "prompt": "（図1）は（図2）の何倍ですか。",
+       "answer": {
+        "n": "5",
+        "d": "2",
+        "unit": "倍",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s1"
+     },
+     {
+      "title": "辺BCを求める",
+      "body": "辺BCは辺FGと対応します。（図1）は2.5倍なので、FGを2.5倍します。",
+      "equation": "12×2.5＝30",
+      "id": "s2"
+     },
+     {
+      "title": "辺GHを求める",
+      "body": "辺GHは辺CDと対応します。（図2）は（図1）を2.5でわった大きさです。",
+      "equation": "25÷2.5＝10",
+      "id": "s3"
+     },
+     {
+      "title": "角を求める",
+      "body": "拡大図では、対応する角の大きさは変わりません。角Bは角F、角Hは角Dと対応します。",
+      "equation": "角B＝70°、角H＝100°",
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/H①-1.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H①-2",
+   "unitId": "r29.sim.scale_area",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "右の図は台形の土地の1/500の縮図です。(1) この土地の実際の周りの長さを求めなさい。(2) この土地の実際の面積を求めなさい。(3) この土地を、縮尺1：2000の縮図にかき直したとき、その縮図の周りの長さを求めなさい。",
+   "sourceText": "右の図は台形の土地の1/500の縮図です。(1) この土地の実際の周りの長さを求めなさい。(2) この土地の実際の面積を求めなさい。(3) この土地を、縮尺1：2000の縮図にかき直したとき、その縮図の周りの長さを求めなさい。",
+   "source": {
+    "title": "R29H①-2",
+    "url": "https://app.notion.com/4172b010743c8192949ee3a8c762c36a",
+    "notionPageId": "4172b010743c8192949ee3a8c762c36a",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H①-2（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 190m (2) 2000m² (3) 9.5cm",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "40f393b1cb941ca6414b5bc4fc4463f563f5cda3039fc4ef59f2378aafcfa95f"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "190",
+      "d": "1",
+      "unit": "m",
+      "dimension": "length",
+      "acceptedUnits": {
+       "m": "1",
+       "km": "1000",
+       "cm": "1/100"
+      },
+      "label": "(1)"
+     },
+     {
+      "n": "2000",
+      "d": "1",
+      "unit": "m²",
+      "dimension": "area",
+      "acceptedUnits": {
+       "m²": "1",
+       "m2": "1",
+       "㎡": "1",
+       "a": "100",
+       "ha": "10000"
+      },
+      "label": "(2)"
+     },
+     {
+      "n": "19",
+      "d": "2",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(3)"
+     }
+    ]
+   },
+   "difficulty": 3,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "縮図の辺の長さをそろえる",
+      "body": "左のななめの辺10cm、右の辺8cmなので、ななめの辺の横のはばは6cm（3：4：5の直角三角形）。上の辺は13−6＝7cmです。",
+      "equation": "13−6＝7",
+      "checkpoint": {
+       "prompt": "縮図の上の辺は何cmですか。",
+       "answer": {
+        "n": "7",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s1"
+     },
+     {
+      "title": "縮図の周りの長さ",
+      "body": "4つの辺を足します。",
+      "equation": "7＋8＋13＋10＝38（cm）",
+      "id": "s2"
+     },
+     {
+      "title": "(1) 実際の周りの長さ",
+      "body": "1/500の縮図なので500倍します。38×500＝19000cm＝190mです。",
+      "equation": "38×500＝19000（cm）",
+      "id": "s3"
+     },
+     {
+      "title": "(2) 実際の面積",
+      "body": "縮図の台形の面積は(7＋13)×8÷2＝80cm²。面積は500×500倍なので20000000cm²＝2000m²です。",
+      "equation": "80×500×500＝20000000（cm²）",
+      "id": "s4"
+     },
+     {
+      "title": "(3) 1：2000の縮図",
+      "body": "実際の周りの長さ19000cmを2000でわります。",
+      "equation": "19000÷2000＝9.5（cm）",
+      "id": "s5"
+     }
+    ]
+   },
+   "figure": "figs/r29/H①-2.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H①-4",
+   "unitId": "r29.sim.ratio_height_area",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "三角形ABCと三角形DEFは相似な三角形です。(1) 三角形ABCと三角形DEFの相似比を求めなさい。(2) x、yの長さを求めなさい。(3) 三角形ABCと三角形DEFの面積の比を求めなさい。（図：ABC：AB＝x、BC＝20cm、高さ12cm。DEF：DE＝21cm、EF＝30cm、高さy）",
+   "sourceText": "三角形ABCと三角形DEFは相似な三角形です。(1) 三角形ABCと三角形DEFの相似比を求めなさい。(2) x、yの長さを求めなさい。(3) 三角形ABCと三角形DEFの面積の比を求めなさい。（図：ABC：AB＝x、BC＝20cm、高さ12cm。DEF：DE＝21cm、EF＝30cm、高さy）",
+   "source": {
+    "title": "R29H①-4",
+    "url": "https://app.notion.com/4172b010743c81f39031f39966ae0918",
+    "notionPageId": "4172b010743c81f39031f39966ae0918",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H①-4（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 2：3 (2) x 14cm・y 18cm (3) 4：9",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "30d136db70dcf89ab5211bfd570017a0fecbc4fcead12926afc4fcaf2a261430"
+   },
+   "answer": {
+    "parts": [
+     {
+      "dimension": "ratio",
+      "terms": [
+       "2",
+       "3"
+      ],
+      "unit": "",
+      "label": "(1)"
+     },
+     {
+      "n": "14",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(2) x"
+     },
+     {
+      "n": "18",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(2) y"
+     },
+     {
+      "dimension": "ratio",
+      "terms": [
+       "4",
+       "9"
+      ],
+      "unit": "",
+      "label": "(3)"
+     }
+    ]
+   },
+   "difficulty": 5,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "相似比を出す",
+      "body": "○と×の角の印から、BCとEFが対応します。",
+      "equation": "20：30＝2：3",
+      "id": "s1"
+     },
+     {
+      "title": "xを求める",
+      "body": "xはABで、DE＝21cmと対応します。",
+      "equation": "21×2/3＝14",
+      "checkpoint": {
+       "prompt": "xは何cmですか。",
+       "answer": {
+        "n": "14",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "yを求める",
+      "body": "高さも相似比でのびます。yはABCの高さ12cmと対応します。",
+      "equation": "12×3/2＝18",
+      "id": "s3"
+     },
+     {
+      "title": "面積の比",
+      "body": "面積の比は相似比を2回かけた比です。",
+      "equation": "(2×2)：(3×3)＝4：9",
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/H①-4.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H②-4",
+   "unitId": "r29.sim.trapezoid_parallel",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "ADとBCとEFはそれぞれ平行です。xの長さを求めなさい。(1)(2)(3)（図：(1) AD18・AE8・EB4・BC33 (2) AD10・AE12・EB3・EF18 (3) AD6・EB9・EF16・BC22）",
+   "sourceText": "ADとBCとEFはそれぞれ平行です。xの長さを求めなさい。(1)(2)(3)（図：(1) AD18・AE8・EB4・BC33 (2) AD10・AE12・EB3・EF18 (3) AD6・EB9・EF16・BC22）",
+   "source": {
+    "title": "R29H②-4",
+    "url": "https://app.notion.com/4172b010743c81e3bb69cfb923060ace",
+    "notionPageId": "4172b010743c81e3bb69cfb923060ace",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H②-4（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 28cm (2) 20cm (3) 15cm",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "fba6485d9fd5a27e34630755d1429c4b0722e3c31cc01b8a4db4bbf4ca7046e6"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "28",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(1)"
+     },
+     {
+      "n": "20",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(2)"
+     },
+     {
+      "n": "15",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(3)"
+     }
+    ]
+   },
+   "difficulty": 6,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "考え方",
+      "body": "Aを通ってDCに平行な線を引くと、上底と同じ長さの部分と、ピラミッド形（三角形）に分かれます。EFは「上底＋三角形の部分」です。",
+      "equation": "EF＝AD＋(BC−AD)×AE/AB",
+      "id": "s1"
+     },
+     {
+      "title": "(1)",
+      "body": "下底が上底より33−18＝15cm長く、AE：AB＝8：12です。",
+      "equation": "18＋15×8/12＝28",
+      "checkpoint": {
+       "prompt": "(1)のxは何cmですか。",
+       "answer": {
+        "n": "28",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "(2) 逆算",
+      "body": "EFは上底より18−10＝8cm長く、これがAE：AB＝12：15にあたります。下底は上底より8×15/12＝10cm長くなります。",
+      "equation": "10＋8×15/12＝20",
+      "id": "s3"
+     },
+     {
+      "title": "(3) 比を出す",
+      "body": "EFは上底より16−6＝10cm、BCは上底より22−6＝16cm長いので、AE：AB＝10：16＝5：8、AE：EB＝5：3です。",
+      "equation": "10：16＝5：8",
+      "id": "s4"
+     },
+     {
+      "title": "(3) xを求める",
+      "body": "EB＝9cmが比の3にあたります。",
+      "equation": "9÷3×5＝15",
+      "id": "s5"
+     }
+    ]
+   },
+   "figure": "figs/r29/H②-4.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H③-2",
+   "unitId": "r29.sim.butterfly_pyramid",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "AB、CD、EFはそれぞれ平行です。xの長さを求めなさい。(1)(2)（図：(1) AB24・CD40 (2) CD84・EF35）",
+   "sourceText": "AB、CD、EFはそれぞれ平行です。xの長さを求めなさい。(1)(2)（図：(1) AB24・CD40 (2) CD84・EF35）",
+   "source": {
+    "title": "R29H③-2",
+    "url": "https://app.notion.com/4172b010743c81478df1f23fa374fb71",
+    "notionPageId": "4172b010743c81478df1f23fa374fb71",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H③-2（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 15cm (2) 60cm",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "957463ab2549983e8250f8f79b8fe12da85c885fd9cd94d949cc18211efc9e8e"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "15",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(1)"
+     },
+     {
+      "n": "60",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(2)"
+     }
+    ]
+   },
+   "difficulty": 5,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "(1) ちょうちょ形",
+      "body": "ABとCDが平行なので、三角形ABEと三角形DCEは相似です。",
+      "equation": "AE：ED＝AB：DC＝24：40＝3：5",
+      "checkpoint": {
+       "prompt": "AE：EDの「ED」は比でいくつですか（AE＝3）。",
+       "answer": {
+        "n": "5",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s1"
+     },
+     {
+      "title": "(1) ピラミッド形",
+      "body": "ABとEFが平行なので、三角形DABと三角形DEFは相似で、相似比はDA：DE＝(3＋5)：5＝8：5です。",
+      "equation": "24×5/8＝15",
+      "id": "s2"
+     },
+     {
+      "title": "(2) ピラミッド形",
+      "body": "EFとCDが平行なので、三角形BEFと三角形BCDは相似です。",
+      "equation": "BE：BC＝EF：CD＝35：84＝5：12",
+      "id": "s3"
+     },
+     {
+      "title": "(2) ちょうちょ形",
+      "body": "BE：EC＝5：(12−5)＝5：7。ABとCDが平行なので、AB：CD＝BE：EC＝5：7です。",
+      "equation": "84×5/7＝60",
+      "checkpoint": {
+       "prompt": "(2)のxは何cmですか。",
+       "answer": {
+        "n": "60",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/H③-2.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H③-3",
+   "unitId": "r29.sim.right_altitude",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "xとyの長さを求めなさい。（図：AB20・AC15・BC25）",
+   "sourceText": "xとyの長さを求めなさい。（図：AB20・AC15・BC25）",
+   "source": {
+    "title": "R29H③-3",
+    "url": "https://app.notion.com/4172b010743c81588288dceb68fa51db",
+    "notionPageId": "4172b010743c81588288dceb68fa51db",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H③-3（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "x 12cm・y 9cm",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "c64378d45a9044097c396615c1f9a165c0a0f438081ef61b093f07c1fd99fff0"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "12",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "x"
+     },
+     {
+      "n": "9",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "y"
+     }
+    ]
+   },
+   "difficulty": 4,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "相似な三角形を見つける",
+      "body": "角Aが直角で、AHが斜辺BCに垂直です。三角形ABC、三角形HBA、三角形HACは、どれも直角と○・×の角をもつので相似です。",
+      "equation": "AB：AC：BC＝20：15：25＝4：3：5",
+      "id": "s1"
+     },
+     {
+      "title": "xを求める",
+      "body": "三角形HACと三角形ABCは相似で、直角の頂点HとAが対応します。AHとAB、ACとBCが対応する辺です。",
+      "equation": "x＝20×15÷25＝12",
+      "checkpoint": {
+       "prompt": "xは何cmですか。",
+       "answer": {
+        "n": "12",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "yを求める",
+      "body": "同じ2つの三角形で、HCとAC、ACとBCが対応する辺です。",
+      "equation": "y＝15×15÷25＝9",
+      "id": "s3"
+     },
+     {
+      "title": "確かめ",
+      "body": "面積で確かめると、20×15÷2＝150、25×12÷2＝150で同じです。",
+      "equation": "25×12÷2＝150",
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/H③-3.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H③-4",
+   "unitId": "r29.sim.right_altitude_area",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "三角形ABCは直角三角形です。(1) AD、BCの長さをそれぞれ求めなさい。(2) 三角形ABCと三角形BDCの面積の比を求めなさい。（図：AB22.5・BD18・DC24）",
+   "sourceText": "三角形ABCは直角三角形です。(1) AD、BCの長さをそれぞれ求めなさい。(2) 三角形ABCと三角形BDCの面積の比を求めなさい。（図：AB22.5・BD18・DC24）",
+   "source": {
+    "title": "R29H③-4",
+    "url": "https://app.notion.com/4172b010743c8117a040eefc8b49b24d",
+    "notionPageId": "4172b010743c8117a040eefc8b49b24d",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H③-4（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) AD 13.5cm・BC 30cm (2) 25：16",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "6fa2d8c60e5cfd1a524f15e35fb40adaa05b098fedf01e066fa356ea89250667"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "27",
+      "d": "2",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(1) AD"
+     },
+     {
+      "n": "30",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(1) BC"
+     },
+     {
+      "dimension": "ratio",
+      "terms": [
+       "25",
+       "16"
+      ],
+      "unit": "",
+      "label": "(2)"
+     }
+    ]
+   },
+   "difficulty": 5,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "三角形ABDの形",
+      "body": "三角形ABDは角Dが直角で、BD：AB＝18：22.5＝4：5。3：4：5の直角三角形です。",
+      "equation": "22.5÷5×3＝13.5",
+      "checkpoint": {
+       "prompt": "ADは何cmですか。",
+       "answer": {
+        "n": "27",
+        "d": "2",
+        "unit": "cm",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s1"
+     },
+     {
+      "title": "三角形BCDの形",
+      "body": "三角形BCDも同じ形（相似）で、BD：DC＝18：24＝3：4です。",
+      "equation": "BC＝24÷4×5＝30",
+      "id": "s2"
+     },
+     {
+      "title": "相似比を出す",
+      "body": "三角形ABCと三角形BDCは相似です。斜辺どうしをくらべると、AC＝13.5＋24＝37.5cm、BC＝30cmです。",
+      "equation": "37.5：30＝5：4",
+      "id": "s3"
+     },
+     {
+      "title": "面積の比",
+      "body": "面積の比は相似比の2乗です。",
+      "equation": "(5×5)：(4×4)＝25：16",
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/H③-4.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H④-4",
+   "unitId": "r29.sim.strip_sum",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "長方形を6等分して、対角線を引いたものです。㋐と㋑と㋒の面積の和は長方形の面積の何分のいくつになりますか。",
+   "sourceText": "長方形を6等分して、対角線を引いたものです。㋐と㋑と㋒の面積の和は長方形の面積の何分のいくつになりますか。",
+   "source": {
+    "title": "R29H④-4",
+    "url": "https://app.notion.com/4172b010743c8137964ecb8dff801a7b",
+    "notionPageId": "4172b010743c8137964ecb8dff801a7b",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H④-4（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "7/24",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "84fb34b6d10c0019231fb3fcad45eef9bcc07d2c2b75842b260f4396ba74439e"
+   },
+   "answer": {
+    "n": "7",
+    "d": "24",
+    "unit": "",
+    "dimension": "scalar"
+   },
+   "difficulty": 4,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "ピラミッド形の面積",
+      "body": "左下の角を頂点として、対角線の下にできる三角形は、たて線で切ると相似比1：2：3：4：5：6の三角形になります。面積は1：4：9：16：25：36です。",
+      "equation": "1、4、9、16、25、36",
+      "id": "s1"
+     },
+     {
+      "title": "1つずつの部分",
+      "body": "となりどうしの差が、それぞれの細長い部分の面積です。",
+      "equation": "1、3、5、7、9、11",
+      "id": "s2"
+     },
+     {
+      "title": "㋐㋑㋒の和",
+      "body": "㋐は2番目、㋑は4番目、㋒は6番目の部分です。",
+      "equation": "3＋7＋11＝21",
+      "checkpoint": {
+       "prompt": "㋐㋑㋒の面積の和は比でいくつですか。",
+       "answer": {
+        "n": "21",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s3"
+     },
+     {
+      "title": "長方形全体と比べる",
+      "body": "対角線の下の三角形は36で、長方形はその2倍の72です。",
+      "equation": "21/72＝7/24",
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/H④-4.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29N④-4",
+   "unitId": "r29.sim.strip_ratio",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "長方形を6等分して、対角線を引いたものです。㋐と㋑と㋒の面積の比を求めなさい。（図：左から2・4・6番目の縦長の部分の、対角線より下の部分が㋐・㋑・㋒）",
+   "sourceText": "長方形を6等分して、対角線を引いたものです。㋐と㋑と㋒の面積の比を求めなさい。（図：左から2・4・6番目の縦長の部分の、対角線より下の部分が㋐・㋑・㋒）",
+   "source": {
+    "title": "R29N④-4",
+    "url": "https://app.notion.com/4172b010743c81ad8555f0a7fdc12302",
+    "notionPageId": "4172b010743c81ad8555f0a7fdc12302",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29N④-4（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "3：7：11",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "8cd570865448137d52710e4b35d2dd8d65ff4357c20f3e70e03f998aab007715"
+   },
+   "answer": {
+    "dimension": "ratio",
+    "terms": [
+     "3",
+     "7",
+     "11"
+    ],
+    "unit": ""
+   },
+   "difficulty": 4,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "ピラミッド形を見つける",
+      "body": "左下の角を頂点として、たて線で切った対角線の下の三角形は、相似比1：2：3：4：5：6です。",
+      "equation": "相似比 1：2：3：4：5：6",
+      "id": "s1"
+     },
+     {
+      "title": "三角形の面積の比",
+      "body": "面積の比は相似比の2乗です。",
+      "equation": "1：4：9：16：25：36",
+      "id": "s2"
+     },
+     {
+      "title": "細長い部分を出す",
+      "body": "それぞれの部分の面積は、となりの三角形との差です。",
+      "equation": "4−1＝3、16−9＝7、36−25＝11",
+      "checkpoint": {
+       "prompt": "㋑は比でいくつですか。",
+       "answer": {
+        "n": "7",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s3"
+     },
+     {
+      "title": "答えをまとめる",
+      "body": "㋐は2番目、㋑は4番目、㋒は6番目の部分です。1：2：3とはなりません。",
+      "equation": "3：7：11",
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/N④-4.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H⑤-3",
+   "unitId": "r29.sim.parallelogram_butterfly",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "面積が308cm²の平行四辺形ABCDがあります。また、BE：ED＝4：7です。(1) 三角形ABEの面積を求めなさい。(2) AE：EFを求めなさい。(3) 四角形EFCDの面積を求めなさい。",
+   "sourceText": "面積が308cm²の平行四辺形ABCDがあります。また、BE：ED＝4：7です。(1) 三角形ABEの面積を求めなさい。(2) AE：EFを求めなさい。(3) 四角形EFCDの面積を求めなさい。",
+   "source": {
+    "title": "R29H⑤-3",
+    "url": "https://app.notion.com/4172b010743c81619784e829d08b7250",
+    "notionPageId": "4172b010743c81619784e829d08b7250",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H⑤-3（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 56cm² (2) 7：4 (3) 122cm²",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "c3bf64e9b16788653cb83d86a31d8967b090dbae868f5db0d77087ea5b89a89a"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "56",
+      "d": "1",
+      "unit": "cm²",
+      "dimension": "area",
+      "acceptedUnits": {
+       "cm²": "1",
+       "cm2": "1",
+       "平方センチメートル": "1"
+      },
+      "label": "(1)"
+     },
+     {
+      "dimension": "ratio",
+      "terms": [
+       "7",
+       "4"
+      ],
+      "unit": "",
+      "label": "(2)"
+     },
+     {
+      "n": "122",
+      "d": "1",
+      "unit": "cm²",
+      "dimension": "area",
+      "acceptedUnits": {
+       "cm²": "1",
+       "cm2": "1",
+       "平方センチメートル": "1"
+      },
+      "label": "(3)"
+     }
+    ]
+   },
+   "difficulty": 6,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "(1) 三角形ABE",
+      "body": "三角形ABDは平行四辺形の半分で154cm²。三角形ABEとAEDは高さが同じで、底辺BE：ED＝4：7です。",
+      "equation": "308÷2×4/11＝56",
+      "checkpoint": {
+       "prompt": "三角形ABEは何cm²ですか。",
+       "answer": {
+        "n": "56",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s1"
+     },
+     {
+      "title": "(2) ちょうちょ形",
+      "body": "ADとBFが平行なので、三角形AEDと三角形FEBは相似で、相似比はED：EB＝7：4です。",
+      "equation": "AE：EF＝7：4",
+      "id": "s2"
+     },
+     {
+      "title": "(3) 三角形BEF",
+      "body": "三角形ABEと三角形BEFは高さが同じで、底辺AE：EF＝7：4です。",
+      "equation": "56×4/7＝32",
+      "id": "s3"
+     },
+     {
+      "title": "(3) 四角形EFCD",
+      "body": "三角形BCDは平行四辺形の半分の154cm²です。そこから三角形BEFを引きます。",
+      "equation": "154−32＝122",
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/H⑤-3.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H⑤-4",
+   "unitId": "r29.sim.trapezoid_four",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "右の図で、ADとBC、AEとDCはそれぞれ平行です。(1) BEの長さは何cmですか。(2) 三角形ABFと四角形CDFEの面積の比を求めなさい。（図：DC35・FE15・EC20）",
+   "sourceText": "右の図で、ADとBC、AEとDCはそれぞれ平行です。(1) BEの長さは何cmですか。(2) 三角形ABFと四角形CDFEの面積の比を求めなさい。（図：DC35・FE15・EC20）",
+   "source": {
+    "title": "R29H⑤-4",
+    "url": "https://app.notion.com/4172b010743c81079edef08194da3b96",
+    "notionPageId": "4172b010743c81079edef08194da3b96",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H⑤-4（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 15cm (2) 3：10",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "a8e61e45c355de7205529359b26951c4e8c25626f6100e16f53f7b41222a813b"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "15",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(1)"
+     },
+     {
+      "dimension": "ratio",
+      "terms": [
+       "3",
+       "10"
+      ],
+      "unit": "",
+      "label": "(2)"
+     }
+    ]
+   },
+   "difficulty": 7,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "(1) 平行四辺形を見つける",
+      "body": "AEとDC、ADとECが平行なので、四角形AECDは平行四辺形です。AE＝DC＝35cm、AD＝EC＝20cmです。",
+      "equation": "AF＝35−15＝20",
+      "id": "s1"
+     },
+     {
+      "title": "(1) ちょうちょ形",
+      "body": "ADとBEが平行なので、三角形AFDと三角形EFBは相似で、相似比はAF：EF＝20：15＝4：3です。",
+      "equation": "BE＝20×3/4＝15",
+      "checkpoint": {
+       "prompt": "BEは何cmですか。",
+       "answer": {
+        "n": "15",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "(2) 4つの三角形",
+      "body": "台形ABEDは対角線で4つの三角形に分かれます。相似比4：3から、AFD＝4×4＝16、ABF＝DFE＝4×3＝12、BFE＝3×3＝9です。",
+      "equation": "16：12：12：9",
+      "id": "s3"
+     },
+     {
+      "title": "(2) 三角形DEC",
+      "body": "三角形DBEと三角形DECは高さが同じで、底辺BE：EC＝15：20＝3：4です。",
+      "equation": "(12＋9)×4/3＝28",
+      "id": "s4"
+     },
+     {
+      "title": "(2) 比を出す",
+      "body": "四角形CDFEは三角形DFEと三角形DECを合わせたものです。",
+      "equation": "12：(12＋28)＝3：10",
+      "id": "s5"
+     }
+    ]
+   },
+   "figure": "figs/r29/H⑤-4.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H⑥-1",
+   "unitId": "r29.sim.two_butterflies",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "右の図の四角形ABCDは平行四辺形で、EはBCの3等分でCに近い点です。(1) BF：FDを求めなさい。(2) BF：FG：GDを求めなさい。(3) 三角形AFGは四角形ABCDの何倍ですか。",
+   "sourceText": "右の図の四角形ABCDは平行四辺形で、EはBCの3等分でCに近い点です。(1) BF：FDを求めなさい。(2) BF：FG：GDを求めなさい。(3) 三角形AFGは四角形ABCDの何倍ですか。",
+   "source": {
+    "title": "R29H⑥-1",
+    "url": "https://app.notion.com/4172b010743c8120adbbda47a79acbf6",
+    "notionPageId": "4172b010743c8120adbbda47a79acbf6",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H⑥-1（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 2：3 (2) 4：1：5 (3) 1/20倍",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "860e31dbcacb7f8393cceedfd6ce0ca21116bc6498e0bd5d732812b84ef8fc11"
+   },
+   "answer": {
+    "parts": [
+     {
+      "dimension": "ratio",
+      "terms": [
+       "2",
+       "3"
+      ],
+      "unit": "",
+      "label": "(1)"
+     },
+     {
+      "dimension": "ratio",
+      "terms": [
+       "4",
+       "1",
+       "5"
+      ],
+      "unit": "",
+      "label": "(2)"
+     },
+     {
+      "n": "1",
+      "d": "20",
+      "unit": "倍",
+      "dimension": "scalar",
+      "label": "(3)"
+     }
+    ]
+   },
+   "difficulty": 5,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "(1) ちょうちょ形",
+      "body": "ADとBEが平行なので、三角形FBEと三角形FDAは相似です。BE：AD＝2：3（EはBCを3等分したCに近い点）。",
+      "equation": "BF：FD＝2：3",
+      "id": "s1"
+     },
+     {
+      "title": "(2) 対角線の交点",
+      "body": "平行四辺形の対角線はたがいに真ん中で交わるので、BG：GD＝1：1です。",
+      "equation": "BG：GD＝1：1",
+      "id": "s2"
+     },
+     {
+      "title": "(2) BDの長さをそろえる",
+      "body": "BDを2＋3＝5と1＋1＝2の最小公倍数10にします。BF＝4、BG＝5、GD＝5です。",
+      "equation": "BF：FG：GD＝4：(5−4)：5＝4：1：5",
+      "checkpoint": {
+       "prompt": "FGは比でいくつですか（BD＝10）。",
+       "answer": {
+        "n": "1",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s3"
+     },
+     {
+      "title": "(3) 三角形AFG",
+      "body": "三角形ABDは平行四辺形の1/2。三角形AFGは三角形ABDと高さが同じで、底辺FGはBDの1/10です。",
+      "equation": "1/2×1/10＝1/20",
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/H⑥-1.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H⑥-4",
+   "unitId": "r29.sim.rect_in_right",
+   "category": "geometry",
+   "domain": "相似",
+   "text": "三角形ABCは直角三角形です。この三角形の中に長方形DECFを作り、DE：DF＝5：2となるようにします。(1) AF：FCを求めなさい。(2) 長方形DECFの面積を求めなさい。（図：角C＝90°、AB＝115cm、BC＝69cm、AC＝92cm）",
+   "sourceText": "三角形ABCは直角三角形です。この三角形の中に長方形DECFを作り、DE：DF＝5：2となるようにします。(1) AF：FCを求めなさい。(2) 長方形DECFの面積を求めなさい。（図：角C＝90°、AB＝115cm、BC＝69cm、AC＝92cm）",
+   "source": {
+    "title": "R29H⑥-4",
+    "url": "https://app.notion.com/4172b010743c8167a86ddc1a1be778d7",
+    "notionPageId": "4172b010743c8167a86ddc1a1be778d7",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H⑥-4（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 8：15 (2) 1440cm²",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "f26be5717c3a5fc18d657aff28f38d1e5ad3dfad1acc03c6d654a33c7736ed24"
+   },
+   "answer": {
+    "parts": [
+     {
+      "dimension": "ratio",
+      "terms": [
+       "8",
+       "15"
+      ],
+      "unit": "",
+      "label": "(1)"
+     },
+     {
+      "n": "1440",
+      "d": "1",
+      "unit": "cm²",
+      "dimension": "area",
+      "acceptedUnits": {
+       "cm²": "1",
+       "cm2": "1",
+       "平方センチメートル": "1"
+      },
+      "label": "(2)"
+     }
+    ]
+   },
+   "difficulty": 6,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "相似な三角形",
+      "body": "三角形ABCと三角形ADFは相似です。直角をはさむ2辺の比は AC：BC＝92：69＝4：3 なので、AF：DF＝4：3です。",
+      "equation": "92：69＝4：3",
+      "id": "s1"
+     },
+     {
+      "title": "比をそろえる",
+      "body": "DE：DF＝5：2 と AF：DF＝4：3 で、DFを2と3の最小公倍数6にそろえます。DE＝15、DF＝6、AF＝8。",
+      "equation": "AF：DE＝8：15",
+      "checkpoint": {
+       "prompt": "DFを6にそろえたとき、AFはいくつですか。",
+       "answer": {
+        "n": "8",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "(1) AF：FC",
+      "body": "FCは長方形のたてで、DEと同じ長さです。",
+      "equation": "AF：FC＝8：15",
+      "id": "s3"
+     },
+     {
+      "title": "(2) 1にあたる長さ",
+      "body": "AC＝92cmが比の8＋15＝23にあたります。",
+      "equation": "92÷23＝4",
+      "id": "s4"
+     },
+     {
+      "title": "(2) 長方形の面積",
+      "body": "DE＝15×4＝60cm、DF＝6×4＝24cmです。",
+      "equation": "60×24＝1440",
+      "id": "s5"
+     }
+    ]
+   },
+   "figure": "figs/r29/H⑥-4.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29H⑦-1",
+   "unitId": "r29.sim.scale_length",
+   "category": "oneline",
+   "domain": "縮尺・地図",
+   "text": "(1) 8kmの距離は、縮尺1/25000の地図の上では何cmになりますか。(2) 8kmの長さを16cmで表した地図の縮尺を分数で求めなさい。(3) 縮尺が1：25000の地図の上で20cmある距離は、実際には何kmありますか。(4) 縮尺1/50000の地図の上で18cmある距離は、縮尺1：20000の地図の上では何cmになりますか。",
+   "sourceText": "(1) 8kmの距離は、縮尺1/25000の地図の上では何cmになりますか。(2) 8kmの長さを16cmで表した地図の縮尺を分数で求めなさい。(3) 縮尺が1：25000の地図の上で20cmある距離は、実際には何kmありますか。(4) 縮尺1/50000の地図の上で18cmある距離は、縮尺1：20000の地図の上では何cmになりますか。",
+   "source": {
+    "title": "R29H⑦-1",
+    "url": "https://app.notion.com/4172b010743c811c8664f8841a5d70de",
+    "notionPageId": "4172b010743c811c8664f8841a5d70de",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H⑦-1（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 32cm (2) 1/50000 (3) 5km (4) 45cm",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "32",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(1)"
+     },
+     {
+      "n": "1",
+      "d": "50000",
+      "unit": "",
+      "dimension": "scalar",
+      "label": "(2)"
+     },
+     {
+      "n": "5",
+      "d": "1",
+      "unit": "km",
+      "dimension": "length",
+      "acceptedUnits": {
+       "km": "1",
+       "m": "1/1000",
+       "cm": "1/100000"
+      },
+      "label": "(3)"
+     },
+     {
+      "n": "45",
+      "d": "1",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(4)"
+     }
+    ]
+   },
+   "difficulty": 3,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "単位をそろえる",
+      "body": "1km＝1000m＝100000cmです。8km＝800000cmです。",
+      "equation": "8km＝800000cm",
+      "id": "s1"
+     },
+     {
+      "title": "(1)",
+      "body": "実際の長さを分母でわります。",
+      "equation": "800000÷25000＝32（cm）",
+      "checkpoint": {
+       "prompt": "(1)は何cmですか。",
+       "answer": {
+        "n": "32",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "(2)",
+      "body": "16cmが800000cmを表すので、縮尺は16/800000です。",
+      "equation": "16/800000＝1/50000",
+      "id": "s3"
+     },
+     {
+      "title": "(3)",
+      "body": "地図の長さに分母をかけます。500000cm＝5kmです。",
+      "equation": "20×25000＝500000（cm）",
+      "id": "s4"
+     },
+     {
+      "title": "(4)",
+      "body": "実際の長さは18×50000＝900000cm。これを20000でわります。",
+      "equation": "900000÷20000＝45（cm）",
+      "id": "s5"
+     }
+    ]
+   },
+   "figureRequired": false
+  },
+  {
+   "id": "R29H⑦-2",
+   "unitId": "r29.sim.scale_area_units",
+   "category": "oneline",
+   "domain": "縮尺・地図",
+   "text": "(1) 縮尺1/250000の地図上で1辺が20cmの正方形の土地があります。この土地の実際の面積は何km²ですか。(2) 30haの広さの土地は、縮尺1/5000の地図上では何cm²ですか。(3) 縮尺1/4000の地図上で面積が450cm²の土地は、縮尺1：5000の地図上では何cm²になりますか。(4) 実際には16km²の広さの土地が、ある地図上では64cm²で表されています。この地図の縮尺を分数で求めなさい。",
+   "sourceText": "(1) 縮尺1/250000の地図上で1辺が20cmの正方形の土地があります。この土地の実際の面積は何km²ですか。(2) 30haの広さの土地は、縮尺1/5000の地図上では何cm²ですか。(3) 縮尺1/4000の地図上で面積が450cm²の土地は、縮尺1：5000の地図上では何cm²になりますか。(4) 実際には16km²の広さの土地が、ある地図上では64cm²で表されています。この地図の縮尺を分数で求めなさい。",
+   "source": {
+    "title": "R29H⑦-2",
+    "url": "https://app.notion.com/4172b010743c81cca562c35934333356",
+    "notionPageId": "4172b010743c81cca562c35934333356",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29H⑦-2（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 2500km² (2) 120cm² (3) 288cm² (4) 1/50000",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "2500",
+      "d": "1",
+      "unit": "km²",
+      "dimension": "area",
+      "acceptedUnits": {
+       "km²": "1",
+       "km2": "1"
+      },
+      "label": "(1)"
+     },
+     {
+      "n": "120",
+      "d": "1",
+      "unit": "cm²",
+      "dimension": "area",
+      "acceptedUnits": {
+       "cm²": "1",
+       "cm2": "1",
+       "平方センチメートル": "1"
+      },
+      "label": "(2)"
+     },
+     {
+      "n": "288",
+      "d": "1",
+      "unit": "cm²",
+      "dimension": "area",
+      "acceptedUnits": {
+       "cm²": "1",
+       "cm2": "1",
+       "平方センチメートル": "1"
+      },
+      "label": "(3)"
+     },
+     {
+      "n": "1",
+      "d": "50000",
+      "unit": "",
+      "dimension": "scalar",
+      "label": "(4)"
+     }
+    ]
+   },
+   "difficulty": 3,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": true,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "(1)",
+      "body": "20cmの実際の長さは20×250000＝5000000cm＝50km。正方形の面積は50×50です。",
+      "equation": "50×50＝2500（km²）",
+      "checkpoint": {
+       "prompt": "実際の1辺は何kmですか。",
+       "answer": {
+        "n": "50",
+        "d": "1",
+        "unit": "km",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s1"
+     },
+     {
+      "title": "(2)",
+      "body": "30ha＝300000m²。1/5000の地図では1cmが50m、1cm²が50×50＝2500m²です。",
+      "equation": "300000÷2500＝120（cm²）",
+      "id": "s2"
+     },
+     {
+      "title": "(3)",
+      "body": "1/4000の地図の長さは、1：5000の地図では4000/5000＝4/5倍。面積は4/5×4/5倍です。",
+      "equation": "450×4/5×4/5＝288（cm²）",
+      "id": "s3"
+     },
+     {
+      "title": "(4)",
+      "body": "64cm²で16km²なので、1cm²が0.25km²＝0.5km×0.5km。地図の1cmが0.5km＝50000cmです。",
+      "equation": "縮尺＝1/50000",
+      "id": "s4"
+     }
+    ]
+   },
+   "figureRequired": false
+  },
+  {
+   "id": "R29T⑤-1",
+   "unitId": "r29.area.trisect_lines",
+   "category": "geometry",
+   "domain": "面積比",
+   "text": "図のように、三角形ABCをDG、EFで面積を三等分しました。BD：DE：ECの長さの比は4：1：1です。BG：GF：FAの長さの比を求めなさい。",
+   "sourceText": "図のように、三角形ABCをDG、EFで面積を三等分しました。BD：DE：ECの長さの比は4：1：1です。BG：GF：FAの長さの比を求めなさい。",
+   "source": {
+    "title": "R29T⑤-1",
+    "url": "https://app.notion.com/4172b010743c8110b1dafdea3b5d31b9",
+    "notionPageId": "4172b010743c8110b1dafdea3b5d31b9",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29T⑤-1（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "5：3：2",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "8a7a25cebae4c6587271fa7871ace851c4b6ab9c0e6b4f27de48ff7fb32fc739"
+   },
+   "answer": {
+    "dimension": "ratio",
+    "terms": [
+     "5",
+     "3",
+     "2"
+    ],
+    "unit": ""
+   },
+   "difficulty": 6,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "三角形BDGの割合",
+      "body": "三角形BDGは全体の1/3です。BDはBCの4/6です。三角形BDG＝ABC×BD/BC×BG/BA なので、",
+      "equation": "BG/BA＝1/3÷4/6＝1/2",
+      "checkpoint": {
+       "prompt": "BGはABの何分のいくつですか。",
+       "answer": {
+        "n": "1",
+        "d": "2",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s1"
+     },
+     {
+      "title": "三角形BEFの割合",
+      "body": "三角形BEFは全体の2/3です。BEはBCの5/6です。",
+      "equation": "BF/BA＝2/3÷5/6＝4/5",
+      "id": "s2"
+     },
+     {
+      "title": "3つの部分",
+      "body": "BG＝1/2、GF＝4/5−1/2＝3/10、FA＝1−4/5＝1/5です。",
+      "equation": "1/2：3/10：1/5",
+      "id": "s3"
+     },
+     {
+      "title": "整数の比にする",
+      "body": "10をかけます。3：2：1にはなりません。",
+      "equation": "5：3：2",
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/T⑤-1.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29T⑤-2",
+   "unitId": "r29.area.angle_bisector",
+   "category": "geometry",
+   "domain": "面積比",
+   "text": "AB＝4cm、BC＝3cm、CA＝5cm、角B＝90度の直角三角形の直角の二等分線が、ACと交わる点をDとします。このとき、CDの長さを求めなさい。",
+   "sourceText": "AB＝4cm、BC＝3cm、CA＝5cm、角B＝90度の直角三角形の直角の二等分線が、ACと交わる点をDとします。このとき、CDの長さを求めなさい。",
+   "source": {
+    "title": "R29T⑤-2",
+    "url": "https://app.notion.com/4172b010743c81ebb55bf25d090350f9",
+    "notionPageId": "4172b010743c81ebb55bf25d090350f9",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29T⑤-2（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "2と1/7cm",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "049cb8b013d9f3501e208f07fb475adc40e27bb5e3562e58c2195857b48ace31"
+   },
+   "answer": {
+    "n": "15",
+    "d": "7",
+    "unit": "cm",
+    "dimension": "length",
+    "acceptedUnits": {
+     "cm": "1",
+     "センチメートル": "1",
+     "mm": "1/10",
+     "m": "100"
+    }
+   },
+   "difficulty": 6,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "高さが等しい",
+      "body": "Dは角Bの二等分線上にあるので、DからABとBCに下ろした垂線の長さは同じです（正方形ができます）。",
+      "equation": "DE＝DF",
+      "id": "s1"
+     },
+     {
+      "title": "面積の比",
+      "body": "三角形ABDと三角形CBDは、底辺をAB・BCとすると高さが同じです。",
+      "equation": "ABD：CBD＝4：3",
+      "id": "s2"
+     },
+     {
+      "title": "もう一度、底辺の比",
+      "body": "同じ2つの三角形をAC上の底辺AD・DCで見ると、頂点Bが同じで高さが同じなので、AD：DC＝4：3です。",
+      "equation": "AD：DC＝4：3",
+      "checkpoint": {
+       "prompt": "DCはACの何分のいくつですか。",
+       "answer": {
+        "n": "3",
+        "d": "7",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s3"
+     },
+     {
+      "title": "CDを求める",
+      "body": "AC＝5cmを4：3に分けます。",
+      "equation": "5×3/7＝15/7＝2と1/7（cm）",
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/T⑤-2.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29T⑤-3",
+   "unitId": "r29.area.shared_angle_reverse",
+   "category": "geometry",
+   "domain": "面積比",
+   "text": "図の三角形ABCは直角三角形です。(1) 三角形BDEの面積を求めなさい。(2) 三角形BDEと三角形CEFの面積の比が5：4のとき、CFの長さを求めなさい。（図：角A＝90°、AD＝2cm、DB＝10cm、BE＝8cm、EC＝12cm、AC＝16cm（FはAC上））",
+   "sourceText": "図の三角形ABCは直角三角形です。(1) 三角形BDEの面積を求めなさい。(2) 三角形BDEと三角形CEFの面積の比が5：4のとき、CFの長さを求めなさい。（図：角A＝90°、AD＝2cm、DB＝10cm、BE＝8cm、EC＝12cm、AC＝16cm（FはAC上））",
+   "source": {
+    "title": "R29T⑤-3",
+    "url": "https://app.notion.com/4172b010743c81b7a566d6bbc2471473",
+    "notionPageId": "4172b010743c81b7a566d6bbc2471473",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29T⑤-3（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) 32cm² (2) 7と1/9cm",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "a6ae389433bdc30d863f79c6eae42f0e3d661d9130a6784fc4a59c189181a846"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "32",
+      "d": "1",
+      "unit": "cm²",
+      "dimension": "area",
+      "acceptedUnits": {
+       "cm²": "1",
+       "cm2": "1",
+       "平方センチメートル": "1"
+      },
+      "label": "(1)"
+     },
+     {
+      "n": "64",
+      "d": "9",
+      "unit": "cm",
+      "dimension": "length",
+      "acceptedUnits": {
+       "cm": "1",
+       "センチメートル": "1",
+       "mm": "1/10",
+       "m": "100"
+      },
+      "label": "(2)"
+     }
+    ]
+   },
+   "difficulty": 6,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "三角形ABCの面積",
+      "body": "角Aが直角なので、AB＝12cm、AC＝16cmで面積が出ます。",
+      "equation": "12×16÷2＝96",
+      "checkpoint": {
+       "prompt": "三角形ABCは何cm²ですか。",
+       "answer": {
+        "n": "96",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s1"
+     },
+     {
+      "title": "(1) 三角形BDE",
+      "body": "角Bを共有しています。BD/BA＝10/12、BE/BC＝8/20です。",
+      "equation": "96×10/12×8/20＝32",
+      "id": "s2"
+     },
+     {
+      "title": "(2) 三角形CEF",
+      "body": "BDE：CEF＝5：4なので、CEF＝32×4/5＝25.6cm²。これは三角形ABCの4/15です。",
+      "equation": "32×4/5÷96＝4/15",
+      "id": "s3"
+     },
+     {
+      "title": "(2) CFを求める",
+      "body": "角Cを共有しています。CE/CB＝12/20なので、CF/CA＝4/15÷12/20＝4/9です。",
+      "equation": "16×4/9＝7と1/9（cm）",
+      "id": "s4"
+     }
+    ]
+   },
+   "figure": "figs/r29/T⑤-3.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29T⑥-1(2)",
+   "unitId": "r29.num.permutation_sum",
+   "category": "oneline",
+   "domain": "位取り・桁数",
+   "text": "次の□にあてはまる数を求めなさい。1、2、3、4の数字を並べかえてできる4けたの整数は全部で㋐個あり、それらの整数の和は㋑です。",
+   "sourceText": "次の□にあてはまる数を求めなさい。1、2、3、4の数字を並べかえてできる4けたの整数は全部で㋐個あり、それらの整数の和は㋑です。",
+   "source": {
+    "title": "R29T⑥-1(2)",
+    "url": "https://app.notion.com/4172b010743c81348c7ae92e4f26a99f",
+    "notionPageId": "4172b010743c81348c7ae92e4f26a99f",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29T⑥-1(2)（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "㋐24 ㋑66660",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "24",
+      "d": "1",
+      "unit": "個",
+      "dimension": "scalar",
+      "label": "㋐"
+     },
+     {
+      "n": "66660",
+      "d": "1",
+      "unit": "",
+      "dimension": "scalar",
+      "label": "㋑"
+     }
+    ]
+   },
+   "difficulty": 3,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "㋐ 並べ方",
+      "body": "千の位4通り、百の位3通り、十の位2通り、一の位1通りです。",
+      "equation": "4×3×2×1＝24（個）",
+      "checkpoint": {
+       "prompt": "4けたの整数は何個ですか。",
+       "answer": {
+        "n": "24",
+        "d": "1",
+        "unit": "個",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s1"
+     },
+     {
+      "title": "各位に出る回数",
+      "body": "24個のうち、千の位が1になるのは24÷4＝6個。どの位も、1〜4がそれぞれ6回ずつ出ます。",
+      "equation": "24÷4＝6",
+      "id": "s2"
+     },
+     {
+      "title": "1つの位の合計",
+      "body": "1つの位の数字を全部足すと、(1＋2＋3＋4)×6＝60です。",
+      "equation": "10×6＝60",
+      "id": "s3"
+     },
+     {
+      "title": "㋑ 位取りで足す",
+      "body": "千・百・十・一の位でそれぞれ60なので、60×1111です。",
+      "equation": "60×1111＝66660",
+      "id": "s4"
+     }
+    ]
+   },
+   "figureRequired": false
+  },
+  {
+   "id": "R29T⑥-2",
+   "unitId": "r29.word.janken_stairs",
+   "category": "geometry",
+   "domain": "つるかめ算",
+   "text": "図のように、16段ある階段で、マサト君とミドリさんが次のようなルールのゲームをしました。ルール：じゃんけんをして勝った方が3段上がり、負けた方は1段下がります。そして、先に16段上がりきれば勝ちです。ただし、スタート地点にいるときには、じゃんけんで負けても、そのままの位置から動かないものとします。また、じゃんけんが引き分けの場合は、じゃんけんをやり直し、引き分けはじゃんけんの回数に数えないものとします。(1) 7回じゃんけんをしたとき、ミドリさんが3勝4敗で、図の⑤の位置にいました。このとき、マサト君はどの位置にいますか。考えられる位置を、図の①〜⑯からすべて選んで、記号で答えなさい。(2) マサト君が図の⑨の位置、ミドリさんが図の⑧の位置にいます。この後、どちらかがゴールに着くまで、最大何回のじゃんけんをすることになりますか。ただし、引き分けはじゃんけんの回数に数えないものとします。",
+   "sourceText": "図のように、16段ある階段で、マサト君とミドリさんが次のようなルールのゲームをしました。ルール：じゃんけんをして勝った方が3段上がり、負けた方は1段下がります。そして、先に16段上がりきれば勝ちです。ただし、スタート地点にいるときには、じゃんけんで負けても、そのままの位置から動かないものとします。また、じゃんけんが引き分けの場合は、じゃんけんをやり直し、引き分けはじゃんけんの回数に数えないものとします。(1) 7回じゃんけんをしたとき、ミドリさんが3勝4敗で、図の⑤の位置にいました。このとき、マサト君はどの位置にいますか。考えられる位置を、図の①〜⑯からすべて選んで、記号で答えなさい。(2) マサト君が図の⑨の位置、ミドリさんが図の⑧の位置にいます。この後、どちらかがゴールに着くまで、最大何回のじゃんけんをすることになりますか。ただし、引き分けはじゃんけんの回数に数えないものとします。",
+   "source": {
+    "title": "R29T⑥-2",
+    "url": "https://app.notion.com/4172b010743c81ee94e2d5340a1c010d",
+    "notionPageId": "4172b010743c81ee94e2d5340a1c010d",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29T⑥-2（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "(1) ⑩、⑪、⑫ (2) 7回",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+    "figureSha256": "4917594a31b6a1aa9e6ecc61e3a520e729fac1ac33ed5b0fc2087d61dd78b95e"
+   },
+   "answer": {
+    "parts": [
+     {
+      "dimension": "set",
+      "items": [
+       "⑩",
+       "⑪",
+       "⑫"
+      ],
+      "unit": "",
+      "label": "(1)"
+     },
+     {
+      "n": "7",
+      "d": "1",
+      "unit": "回",
+      "dimension": "scalar",
+      "label": "(2)"
+     }
+    ]
+   },
+   "difficulty": 6,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "(1) ミドリさんの動き",
+      "body": "3勝で9段上がり、⑤にいるので9−5＝4段下がっています。4敗すべてで1段ずつ下がったことになり、スタートで負けた回は0回です。",
+      "equation": "3×3−4＝5",
+      "id": "s1"
+     },
+     {
+      "title": "(1) 1回目のじゃんけん",
+      "body": "ミドリさんがスタートで負けていないので、1回目はミドリさんの勝ちです。このときマサト君はスタートで負けて動きません。",
+      "equation": "マサト君の負け3回のうち、少なくとも1回はスタート",
+      "id": "s2"
+     },
+     {
+      "title": "(1) マサト君の位置",
+      "body": "マサト君は4勝で12段上がり、スタート以外で負けた回数は0〜2回です。",
+      "equation": "12−0＝12、12−1＝11、12−2＝10",
+      "checkpoint": {
+       "prompt": "マサト君がいちばん上にいるのは何段目ですか。",
+       "answer": {
+        "n": "12",
+        "d": "1",
+        "unit": "段",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s3"
+     },
+     {
+      "title": "(2) 和の増え方",
+      "body": "2人ともスタートにいないとき、1回のじゃんけんで勝った方は3段上がり、負けた方は1段下がるので、2人の段数の和は2ずつ増えます。いまの和は9＋8＝17です。",
+      "equation": "3−1＝2",
+      "id": "s4"
+     },
+     {
+      "title": "(2) 続けられる回数",
+      "body": "どちらもゴールしないのは2人とも⑮以下のときで、和は最大15＋14＝29（和は奇数のまま）。17から29まで6回、その次の1回でどちらかがゴールします。",
+      "equation": "(29−17)÷2＋1＝7",
+      "id": "s5"
+     }
+    ]
+   },
+   "figure": "figs/r29/T⑥-2.png",
+   "figureRequired": true
+  },
+  {
+   "id": "R29K-25",
+   "unitId": "r29.seq.sum_over",
+   "category": "oneline",
+   "domain": "等差数列と和",
+   "text": "1から順に整数を加えていきます。加えていった和が、はじめて2000をこえるのは、いくつまで加えたときでしょう。また、そのときの和も求めなさい。1＋2＋3＋…＋□＝□",
+   "sourceText": "1から順に整数を加えていきます。加えていった和が、はじめて2000をこえるのは、いくつまで加えたときでしょう。また、そのときの和も求めなさい。1＋2＋3＋…＋□＝□",
+   "source": {
+    "title": "R29K-25",
+    "url": "https://app.notion.com/4172b010743c81d29442ed0615186f50",
+    "notionPageId": "4172b010743c81d29442ed0615186f50",
+    "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-29 平面図形(4)-相似形-.pdf",
+    "locator": "5年No.29 R29K-25（図は後期2 図版の問題図と同じ切り抜き）",
+    "scopeUnits": [
+     "R29"
+    ],
+    "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+    "verification": "2026-11-14 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し、各ステップの式を Python（fractions）で検算。",
+    "sourceAnswer": "63・2016",
+    "textOrigin": "notion-problem-body-verbatim",
+    "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。"
+   },
+   "answer": {
+    "parts": [
+     {
+      "n": "63",
+      "d": "1",
+      "unit": "",
+      "dimension": "scalar",
+      "label": "いくつまで"
+     },
+     {
+      "n": "2016",
+      "d": "1",
+      "unit": "",
+      "dimension": "scalar",
+      "label": "和"
+     }
+    ]
+   },
+   "difficulty": 2,
+   "scopeUnits": [
+    "R29"
+   ],
+   "homeStudy": false,
+   "revision": 1,
+   "explanation": {
+    "steps": [
+     {
+      "title": "和の公式",
+      "body": "1から□までの和は、(1＋□)×□÷2です。2000をこえるには、(1＋□)×□が4000をこえればよいです。",
+      "equation": "(1＋□)×□＞4000",
+      "id": "s1"
+     },
+     {
+      "title": "見当をつける",
+      "body": "60×61＝3660、70×71＝4970。60と70の間です。",
+      "equation": "62×63＝3906",
+      "checkpoint": {
+       "prompt": "62まで足したときの和はいくつですか。",
+       "answer": {
+        "n": "1953",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+       }
+      },
+      "id": "s2"
+     },
+     {
+      "title": "はじめてこえるところ",
+      "body": "63×64＝4032で4000をこえます。",
+      "equation": "63×64÷2＝2016",
+      "id": "s3"
+     },
+     {
+      "title": "答えをまとめる",
+      "body": "62までの和は1953で2000に足りず、63まで足すと2016です。",
+      "equation": "1953＋63＝2016",
+      "id": "s4"
+     }
+    ]
+   },
+   "figureRequired": false
+  }
+ ],
+ "units": [
+  {
+   "id": "r29.sim.enlarge",
+   "name": "拡大図・縮図：対応する辺の比と角",
+   "definition": "拡大図・縮図：対応する辺の比と角",
+   "decision": "対応する辺で何倍かを出し、辺は倍率でかける・わる。角は同じ",
+   "domain": "相似",
+   "representativeId": "R29H①-1",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.scale_area",
+   "name": "縮図の長さ・面積と縮尺のかえ方",
+   "definition": "縮図の長さ・面積と縮尺のかえ方",
+   "decision": "縮図の長さ×分母で実際の長さ。面積は分母×分母倍。別の縮尺の縮図は実際の長さ÷新しい分母",
+   "domain": "相似",
+   "representativeId": "R29H①-2",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.ratio_height_area",
+   "name": "相似比で辺と高さ、面積比は相似比の2乗",
+   "definition": "相似比で辺と高さ、面積比は相似比の2乗",
+   "decision": "対応する辺から相似比を出し、辺と高さに使う。面積比は相似比×相似比",
+   "domain": "相似",
+   "representativeId": "R29H①-4",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.trapezoid_parallel",
+   "name": "台形の中の平行線：上底と下底の差を比例配分",
+   "definition": "台形の中の平行線：上底と下底の差を比例配分",
+   "decision": "上底をこえた分（下底−上底）を、AE：ABの比で配る。逆算も同じ式",
+   "domain": "相似",
+   "representativeId": "R29H②-4",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.butterfly_pyramid",
+   "name": "ちょうちょ形とピラミッド形を続けて使う",
+   "definition": "ちょうちょ形とピラミッド形を続けて使う",
+   "decision": "ちょうちょ形で対角線の比を出し、ピラミッド形でEFや辺の長さにつなぐ",
+   "domain": "相似",
+   "representativeId": "R29H③-2",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.right_altitude",
+   "name": "直角三角形の斜辺への垂線：3つの相似な直角三角形",
+   "definition": "直角三角形の斜辺への垂線：3つの相似な直角三角形",
+   "decision": "角に○×の印をつけ、3つの直角三角形の対応する辺を比べる",
+   "domain": "相似",
+   "representativeId": "R29H③-3",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.right_altitude_area",
+   "name": "直角三角形の斜辺への垂線：相似比で辺、面積比は2乗",
+   "definition": "直角三角形の斜辺への垂線：相似比で辺、面積比は2乗",
+   "decision": "3：4：5の直角三角形の形をつかみ、相似比から辺を出す。面積比は相似比の2乗",
+   "domain": "相似",
+   "representativeId": "R29H③-4",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.strip_sum",
+   "name": "6等分した長方形の対角線：面積の和の割合",
+   "definition": "6等分した長方形の対角線：面積の和の割合",
+   "decision": "下の三角形の相似比1〜6の2乗の差が1・3・5・7・9・11。長方形全体はその2倍",
+   "domain": "相似",
+   "representativeId": "R29H④-4",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.strip_ratio",
+   "name": "6等分した長方形の対角線：細長い部分の面積比",
+   "definition": "6等分した長方形の対角線：細長い部分の面積比",
+   "decision": "相似比1〜6の2乗（1・4・9・16・25・36）の差をとる",
+   "domain": "相似",
+   "representativeId": "R29N④-4",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.parallelogram_butterfly",
+   "name": "平行四辺形の中のちょうちょ形：面積を順に出す",
+   "definition": "平行四辺形の中のちょうちょ形：面積を順に出す",
+   "decision": "BE：EDで三角形ABEを出し、ちょうちょ形の相似比でBEFを出して引く",
+   "domain": "相似",
+   "representativeId": "R29H⑤-3",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.trapezoid_four",
+   "name": "台形を対角線で4つに分けた面積比を組み合わせる",
+   "definition": "台形を対角線で4つに分けた面積比を組み合わせる",
+   "decision": "ちょうちょ形の相似比で4つの三角形の比を出し、高さが等しい三角形の底辺比でつなぐ",
+   "domain": "相似",
+   "representativeId": "R29H⑤-4",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.two_butterflies",
+   "name": "2つのちょうちょ形で対角線上の比を連比にそろえる",
+   "definition": "2つのちょうちょ形で対角線上の比を連比にそろえる",
+   "decision": "対角線BDをBF：FD と BG：GD の両方で表し、全体の長さをそろえる",
+   "domain": "相似",
+   "representativeId": "R29H⑥-1",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.rect_in_right",
+   "name": "直角三角形に入った長方形：辺の比の条件と相似比",
+   "definition": "直角三角形に入った長方形：辺の比の条件と相似比",
+   "decision": "直角をはさむ2辺の比を小さい三角形に写し、長方形の辺の比と組み合わせる",
+   "domain": "相似",
+   "representativeId": "R29H⑥-4",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.scale_length",
+   "name": "縮尺：実際の長さ＝地図上の長さ×分母",
+   "definition": "縮尺：実際の長さ＝地図上の長さ×分母",
+   "decision": "単位をcmにそろえ、分母をかける・わる。縮尺を変えるときは実際の長さを通す",
+   "domain": "縮尺・地図",
+   "representativeId": "R29H⑦-1",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.sim.scale_area_units",
+   "name": "縮尺と面積：分母×分母倍と単位換算",
+   "definition": "縮尺と面積：分母×分母倍と単位換算",
+   "decision": "長さを実際の長さに直してから面積を出すか、面積を分母×分母倍して単位を換算する",
+   "domain": "縮尺・地図",
+   "representativeId": "R29H⑦-2",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.area.trisect_lines",
+   "name": "面積を三等分する線：底辺の比から辺の割合を逆算",
+   "definition": "面積を三等分する線：底辺の比から辺の割合を逆算",
+   "decision": "BDG・BEFがABCの何分の何かと、BD・BEがBCの何分の何かから、BG・BFがABの何分の何かを出す",
+   "domain": "面積比",
+   "representativeId": "R29T⑤-1",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.area.angle_bisector",
+   "name": "角の二等分線：高さが等しく、面積比＝底辺比を2回使う",
+   "definition": "角の二等分線：高さが等しく、面積比＝底辺比を2回使う",
+   "decision": "角の二等分線上の点から2辺への距離は等しい→ABD：CBD＝AB：BC＝AD：DC",
+   "domain": "面積比",
+   "representativeId": "R29T⑤-2",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.area.shared_angle_reverse",
+   "name": "1つの角を共有する三角形：面積比から辺の長さを逆算",
+   "definition": "1つの角を共有する三角形：面積比から辺の長さを逆算",
+   "decision": "はさむ2辺の比の積で面積を出し、逆に面積の割合から辺の長さを出す",
+   "domain": "面積比",
+   "representativeId": "R29T⑤-3",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.num.permutation_sum",
+   "name": "並べかえた整数の和：各位に各数字が同じ回数ずつ",
+   "definition": "並べかえた整数の和：各位に各数字が同じ回数ずつ",
+   "decision": "並べ方の数を出し、各位に1〜4が何回ずつ出るかから位取りで足す",
+   "domain": "位取り・桁数",
+   "representativeId": "R29T⑥-1(2)",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.word.janken_stairs",
+   "name": "じゃんけん階段：1回で2人の段数の和が2ずつ増える",
+   "definition": "じゃんけん階段：1回で2人の段数の和が2ずつ増える",
+   "decision": "スタートで負けた回数で場合分けし、2人の和の増え方で回数をおさえる",
+   "domain": "つるかめ算",
+   "representativeId": "R29T⑥-2",
+   "prerequisites": []
+  },
+  {
+   "id": "r29.seq.sum_over",
+   "name": "1から順に足した和がはじめて2000をこえるとき",
+   "definition": "1から順に足した和がはじめて2000をこえるとき",
+   "decision": "1〜□の和＝(1＋□)×□÷2。かけ算(1＋□)×□が4000をこえる□をさがす",
+   "domain": "等差数列と和",
+   "representativeId": "R29K-25",
+   "prerequisites": []
+  }
+ ],
+ "links": [
+  {
+   "from": "r29.sim.strip_ratio",
+   "to": "r29.sim.strip_sum",
+   "relation": "extension",
+   "difference": "細長い部分の比から、長方形全体に対する割合へ。"
+  },
+  {
+   "from": "r29.sim.right_altitude",
+   "to": "r29.sim.right_altitude_area",
+   "relation": "extension",
+   "difference": "辺の長さから、面積比（相似比の2乗）まで。"
+  },
+  {
+   "from": "r29.sim.scale_length",
+   "to": "r29.sim.scale_area_units",
+   "relation": "extension",
+   "difference": "長さの縮尺から、面積と単位換算へ。"
+  }
+ ],
+ "analysis": [
+  {
+   "kind": "selection_basis",
+   "detail": "Notion問題DBのR29で「代表」にした21問（細分類×難易度ごと。N④-4とH④-4は問い方のちがう角度違いの代表）。"
+  },
+  {
+   "kind": "difficulty",
+   "detail": "DはNotionの難易度（細分類の基礎難度＋上乗せ）。"
+  },
+  {
+   "kind": "scope",
+   "detail": "R29は11/13に履修。直近授業をR29にし、次回グノレブ（12/11、No.28〜31）の範囲に履修済みのR28・R29を入れる。"
+  }
+ ]
+}
