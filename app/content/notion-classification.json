@@ -1,5 +1,5 @@
 {
- "exportedAt": "2026-11-12",
+ "exportedAt": "2026-11-14",
  "source": "Notion 問題DB collection://531d42cc-9767-4652-ac87-5fd5cef74df7（細分類・代表・難易度＝細分類の基礎難度＋上乗せ）",
  "subdivisions": {
   "3fd2b010743c813f9b88e8f444913624": {
@@ -20935,6 +20935,192 @@
    "sub": "3fd2b010743c81eaa3abf8edebf062ff",
    "related": [],
    "difficulty": 2,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81a49864c5f29afc274c": {
+   "sub": "3fd2b010743c81f88b1dfc18384d4025",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c8130815ed7630b7a1ecd": {
+   "sub": "3fd2b010743c816fba81cb8e7814db7d",
+   "related": [
+    "3fd2b010743c81b6833cc02ffb9d443e"
+   ],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c8199880edaebf2ba1f98": {
+   "sub": "3fd2b010743c81f88b1dfc18384d4025",
+   "related": [
+    "3fd2b010743c81d59aafdd43cb6e5313"
+   ],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81b09a3ffa25c14a3351": {
+   "sub": "3fd2b010743c81f88b1dfc18384d4025",
+   "related": [
+    "3fd2b010743c8146b08df0cedfb09481"
+   ],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c8107886bf84d1ab5fa80": {
+   "sub": "40a2b010743c81738eb0c4d40ad64650",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81968c49c0d13a111370": {
+   "sub": "3fd2b010743c8192bb69d94d214e6331",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c812ebfdbf3ab50a5da9a": {
+   "sub": "3fd2b010743c81d59aafdd43cb6e5313",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81ff88f2d91cde5d9562": {
+   "sub": "3fd2b010743c81f88b1dfc18384d4025",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81808551da88eec6f30e": {
+   "sub": "3fd2b010743c81d59aafdd43cb6e5313",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81d5a05cd0bcdb149eed": {
+   "sub": "3fd2b010743c81e8baaac284e02b1a4f",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c816c90add0b8f68ed17a": {
+   "sub": "3fd2b010743c81e8baaac284e02b1a4f",
+   "related": [
+    "40b2b010743c816dbcb8d9524391fa14"
+   ],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c811bbc97d65a6e475ef6": {
+   "sub": "3fd2b010743c81e8baaac284e02b1a4f",
+   "related": [
+    "3fd2b010743c81e39de0f7d1bf46960d"
+   ],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81288707f7d52a124328": {
+   "sub": "40b2b010743c816dbcb8d9524391fa14",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c8194a04df92c79460247": {
+   "sub": "40b2b010743c815ea785fdd48e6f3efb",
+   "related": [
+    "40b2b010743c816dbcb8d9524391fa14"
+   ],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81e29b6bf76c9bde7415": {
+   "sub": "3fd2b010743c81ee9354ccd1c7f4599d",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c8168b8cecb90df73751d": {
+   "sub": "3fd2b010743c81ee9354ccd1c7f4599d",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81e997b1d66c0f92d6f9": {
+   "sub": "3fd2b010743c81d38f8df686cd894a7b",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81feb0b4d37cfc05e443": {
+   "sub": "3fd2b010743c81988c75ceb4a25dfd71",
+   "related": [
+    "3fd2b010743c81d38f8df686cd894a7b"
+   ],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c8111999edba25f71ec30": {
+   "sub": "3fd2b010743c81d38f8df686cd894a7b",
+   "related": [
+    "3fd2b010743c81d9a746ce44dac9a7c4"
+   ],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c812394d8c4c69c8480c8": {
+   "sub": "3fd2b010743c81d9a746ce44dac9a7c4",
+   "related": [
+    "3fd2b010743c8160be4cf05c631c0a3e",
+    "3fd2b010743c819fa0bfc4c81e54aa86"
+   ],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81a998a3e870e8da8c39": {
+   "sub": "3fd2b010743c819fa0bfc4c81e54aa86",
+   "related": [
+    "3fd2b010743c81d9a746ce44dac9a7c4"
+   ],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c81c78a9bc295e9d696fb": {
+   "sub": "3fd2b010743c819fa0bfc4c81e54aa86",
+   "related": [
+    "3fd2b010743c8127aee3e598aaab81d7"
+   ],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4172b010743c816bbd20d30364898314": {
+   "sub": "3fd2b010743c8127aee3e598aaab81d7",
+   "related": [
+    "3fd2b010743c81d38f8df686cd894a7b"
+   ],
+   "difficulty": 5,
    "rep": true,
    "variant": false
   }
