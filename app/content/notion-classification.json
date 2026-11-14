@@ -21123,6 +21123,27 @@
    "difficulty": 5,
    "rep": true,
    "variant": false
+  },
+  "4182b010743c8126bf99e13a7a7a5887": {
+   "sub": "3fd2b010743c819fa0bfc4c81e54aa86",
+   "related": [],
+   "difficulty": 3,
+   "rep": true,
+   "variant": false
+  },
+  "4182b010743c8185b586c08c0db75dd4": {
+   "sub": "3fd2b010743c8148aa4be5583ab7cd0d",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4182b010743c8148be91d9b1c0393509": {
+   "sub": "40a2b010743c81b5bd16c64364d849c1",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
   }
  }
 }

@@ -209503,6 +209503,239 @@
       "role": "代表"
     },
     {
+      "id": "KT12-06(4)",
+      "unitId": "notion.4182b010743c8126bf99e13a7a7a5887",
+      "category": "oneline",
+      "domain": "倍数算",
+      "text": "43才の親と11才の子どもがいます。今から　　年後に親の年齢は子どもの年齢の3倍になります。",
+      "source": {
+        "title": "KT12-06(4)",
+        "url": "https://app.notion.com/4182b010743c8126bf99e13a7a7a5887",
+        "notionPageId": "4182b010743c8126bf99e13a7a7a5887",
+        "path": "",
+        "locator": "基礎力テスト12月号 12月6日(4)（原本p.11、解答・解説p.6）",
+        "verification": "2026-11-14 Claude作成。問題文・答えは原本（基礎力テスト12月号）とNotionの「答え」に一致。段階解説は原本の解答・解説の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+      },
+      "answer": {
+        "n": "5",
+        "d": "1",
+        "unit": "年",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "figureRequired": false,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "年齢の差は変わらない",
+            "body": "何年たっても、親も子どもも同じだけ年をとるので、2人の年齢の差は変わりません。",
+            "equation": "43−11＝32（才）",
+            "checkpoint": {
+              "prompt": "親と子どもの年齢の差は何才ですか。",
+              "answer": {
+                "n": "32",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s2",
+            "title": "□年後の年齢を丸で表す",
+            "body": "□年後、親の年齢は子どもの年齢の3倍です。子どもを①とすると、親は③、差は③−①＝②です。",
+            "equation": "親 ③　子 ①　差 ②"
+          },
+          {
+            "id": "s3",
+            "title": "①を出す",
+            "body": "差の②が32才にあたります。",
+            "equation": "②＝32才　①＝32÷2＝16（才）",
+            "checkpoint": {
+              "prompt": "□年後の子どもの年齢は何才ですか。",
+              "answer": {
+                "n": "16",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "□を出す",
+            "body": "子どもは今11才なので、16才になるのは何年後かを考えます。",
+            "equation": "16−11＝5（年後）"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KT12"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "notionId": "4182b010743c8126bf99e13a7a7a5887",
+      "subdivision": {
+        "id": "3fd2b010743c819fa0bfc4c81e54aa86",
+        "name": "差一定・等額部分を消去して比の差をそろえる",
+        "chu": "倍数算",
+        "dai": "割合と比",
+        "order": 169
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KT12-01(8)",
+      "unitId": "notion.4182b010743c8185b586c08c0db75dd4",
+      "category": "geometry",
+      "domain": "相似・辺の比・面積比",
+      "text": "図は木のかげの様子です。地面に垂直に立てた1mの棒のかげの長さが2mのとき、xは　　mです。",
+      "source": {
+        "title": "KT12-01(8)",
+        "url": "https://app.notion.com/4182b010743c8185b586c08c0db75dd4",
+        "notionPageId": "4182b010743c8185b586c08c0db75dd4",
+        "path": "",
+        "locator": "基礎力テスト12月号 12月1日(8)（原本p.2、解答・解説p.1）",
+        "verification": "2026-11-14 Claude作成。問題文・答えは原本（基礎力テスト12月号）とNotionの「答え」に一致。段階解説は原本の解答・解説の解き方に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+      },
+      "answer": {
+        "n": "6",
+        "d": "1",
+        "unit": "m",
+        "dimension": "length"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "へいのかげの先から平行な線を引く",
+            "body": "へいにうつったかげの先から、地面に平行な線を木まで引きます。木は、この線より下の部分（高さx）と、上の部分アに分かれます。線の長さイは、木からへいまでの8mと同じです。",
+            "equation": "イ＝8m"
+          },
+          {
+            "id": "s2",
+            "title": "棒とかげの比を使う",
+            "body": "木の上の部分アと、平行な線イは、地面に立てた棒とそのかげと同じ形（相似）になります。棒1mのかげが2mなので、ア：イ＝1：2です。",
+            "equation": "ア：イ＝1：2"
+          },
+          {
+            "id": "s3",
+            "title": "アの長さを出す",
+            "body": "イは8mなので、アはその1/2です。",
+            "equation": "ア＝8×1/2＝4（m）",
+            "checkpoint": {
+              "prompt": "木の上の部分アは何mですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "m",
+                "dimension": "length"
+              }
+            }
+          },
+          {
+            "id": "s4",
+            "title": "xを出す",
+            "body": "木の高さ10mから、上の部分アをひいた残りがxです。",
+            "equation": "x＝10−4＝6（m）"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KT12"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "figure": "figs/n-4182b010743c8185b586c08c0db75dd4.png",
+      "notionId": "4182b010743c8185b586c08c0db75dd4",
+      "subdivision": {
+        "id": "3fd2b010743c8148aa4be5583ab7cd0d",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 394
+      },
+      "role": "代表"
+    },
+    {
+      "id": "KT12-25(6)",
+      "unitId": "notion.4182b010743c8148be91d9b1c0393509",
+      "category": "geometry",
+      "domain": "相似・辺の比・面積比",
+      "text": "BD：DC＝3：5です。三角形ADCの面積が40cm²のとき、三角形ABCの面積は　　cm²です。",
+      "source": {
+        "title": "KT12-25(6)",
+        "url": "https://app.notion.com/4182b010743c8148be91d9b1c0393509",
+        "notionPageId": "4182b010743c8148be91d9b1c0393509",
+        "path": "",
+        "locator": "基礎力テスト12月号 12月25日(6)（原本p.50、解答・解説p.10は答えのみ）",
+        "verification": "2026-11-14 Claude作成。問題文・答えは原本（基礎力テスト12月号）とNotionの「答え」に一致。段階解説は、解答・解説が答えだけのため、同じ形の12月1日(6)の解説の解き方（面積の比＝底辺の比）に即して作成し、全ステップの式と途中確認をPython（fractions）で検算。"
+      },
+      "answer": {
+        "n": "64",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area"
+      },
+      "difficulty": 4,
+      "figureRequired": true,
+      "explanation": {
+        "steps": [
+          {
+            "id": "s1",
+            "title": "高さが等しい三角形",
+            "body": "三角形ABDと三角形ADCは、頂点Aからの高さが等しいので、面積の比は底辺の長さの比と等しくなります。",
+            "equation": "三角形ABD：三角形ADC＝BD：DC＝3：5"
+          },
+          {
+            "id": "s2",
+            "title": "①にあたる面積を出す",
+            "body": "三角形ADCの面積40cm²が⑤にあたります。",
+            "equation": "①＝40÷5＝8（cm²）",
+            "checkpoint": {
+              "prompt": "①にあたる面積は何cm²ですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "cm²",
+                "dimension": "area"
+              }
+            }
+          },
+          {
+            "id": "s3",
+            "title": "三角形ABCを丸で表す",
+            "body": "三角形ABCは三角形ABDと三角形ADCを合わせたものなので、③＋⑤＝⑧です。",
+            "equation": "③＋⑤＝⑧"
+          },
+          {
+            "id": "s4",
+            "title": "三角形ABCの面積を出す",
+            "body": "⑧にあたる面積を求めます。",
+            "equation": "8×8＝64（cm²）　（40×（3＋5）/5＝64）"
+          }
+        ]
+      },
+      "scopeUnits": [
+        "KT12"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "figure": "figs/n-4182b010743c8148be91d9b1c0393509.png",
+      "notionId": "4182b010743c8148be91d9b1c0393509",
+      "subdivision": {
+        "id": "40a2b010743c81b5bd16c64364d849c1",
+        "name": "等高図形（面積比・底辺合算・等積変形）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 398
+      },
+      "role": "代表"
+    },
+    {
       "id": "b57-APP108-P009-01-A",
       "unitId": "b57.APP108-P009-01-A",
       "category": "oneline",
@@ -239251,6 +239484,33 @@
       "domain": "分数・小数の性質",
       "definition": "分子・分母を共通の単位量で表す",
       "representativeId": "GN相仕倍③Ch-2(6)",
+      "decision": "教材の解説に即して教材化・検算済みの代表問題",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.4182b010743c8126bf99e13a7a7a5887",
+      "name": "差一定・等額部分を消去して比の差をそろえる",
+      "domain": "倍数算",
+      "definition": "差一定・等額部分を消去して比の差をそろえる",
+      "representativeId": "KT12-06(4)",
+      "decision": "教材の解説に即して教材化・検算済みの代表問題",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.4182b010743c8185b586c08c0db75dd4",
+      "name": "相似の基本（対応辺比）",
+      "domain": "相似・辺の比・面積比",
+      "definition": "相似の基本（対応辺比）",
+      "representativeId": "KT12-01(8)",
+      "decision": "教材の解説に即して教材化・検算済みの代表問題",
+      "prerequisites": []
+    },
+    {
+      "id": "notion.4182b010743c8148be91d9b1c0393509",
+      "name": "等高図形（面積比・底辺合算・等積変形）",
+      "domain": "相似・辺の比・面積比",
+      "definition": "等高図形（面積比・底辺合算・等積変形）",
+      "representativeId": "KT12-25(6)",
       "decision": "教材の解説に即して教材化・検算済みの代表問題",
       "prerequisites": []
     },
