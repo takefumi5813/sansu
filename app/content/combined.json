@@ -51962,6 +51962,2308 @@
       "role": "代表"
     },
     {
+      "id": "R30H①-1",
+      "unitId": "r30.shadow.lamp_distance",
+      "category": "geometry",
+      "domain": "かげと相似",
+      "text": "電球までの高さが4mの照明灯があります。身長1.6mのナツキさんが照明灯の近くに立ったら、かげの長さが2mになりました。照明灯からナツキさんまでの距離xを求めなさい。（図：照明灯の高さ4m、ナツキさんの身長1.6m、照明灯からナツキさんまでx、かげ2m）",
+      "sourceText": "電球までの高さが4mの照明灯があります。身長1.6mのナツキさんが照明灯の近くに立ったら、かげの長さが2mになりました。照明灯からナツキさんまでの距離xを求めなさい。（図：照明灯の高さ4m、ナツキさんの身長1.6m、照明灯からナツキさんまでx、かげ2m）",
+      "source": {
+        "title": "R30H①-1",
+        "url": "https://app.notion.com/41e2b010743c81bb8e90daee0f0acc6e",
+        "notionPageId": "41e2b010743c81bb8e90daee0f0acc6e",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H①-1（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "3m",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "be77a5f09da34816ed18111ceae1013cad78d3be65ba23be5941b12ca1cfc539"
+      },
+      "answer": {
+        "n": "3",
+        "d": "1",
+        "unit": "m",
+        "dimension": "length",
+        "acceptedUnits": {
+          "m": "1",
+          "メートル": "1",
+          "cm": "1/100"
+        }
+      },
+      "difficulty": 4,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "ピラミッド形を見つける",
+            "body": "かげの先を頂点にして、照明灯（4m）と人（1.6m）が平行に立っています。大小2つの直角三角形は相似です。",
+            "equation": "4：1.6＝5：2",
+            "id": "s1"
+          },
+          {
+            "title": "地面の長さの比",
+            "body": "高さの比5：2が、そのまま「照明灯の根もとからかげの先まで」：「かげ」の比になります。",
+            "equation": "全体⑤：かげ②",
+            "checkpoint": {
+              "prompt": "かげ2mは比のいくつにあたりますか。",
+              "answer": {
+                "n": "2",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "比の1にあたる長さ",
+            "body": "かげ2mが②なので、①は1mです。",
+            "equation": "2÷2＝1（m）",
+            "id": "s3"
+          },
+          {
+            "title": "xを求める",
+            "body": "xは全体⑤からかげ②を引いた③です。",
+            "equation": "x＝1×(5−2)＝3（m）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r30/H①-1.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c81bb8e90daee0f0acc6e",
+      "subdivision": {
+        "id": "40a2b010743c81e58089e61d7c3cb49a",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 389
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H①-2",
+      "unitId": "r30.shadow.lamp_length",
+      "category": "geometry",
+      "domain": "かげと相似",
+      "text": "身長1.4mのマサト君が、照明灯から6mはなれたところに立っています。マサト君のかげの長さを求めなさい。（図：照明灯の高さ4.9m、マサト君の身長1.4m、照明灯からマサト君まで6m）",
+      "sourceText": "身長1.4mのマサト君が、照明灯から6mはなれたところに立っています。マサト君のかげの長さを求めなさい。（図：照明灯の高さ4.9m、マサト君の身長1.4m、照明灯からマサト君まで6m）",
+      "source": {
+        "title": "R30H①-2",
+        "url": "https://app.notion.com/41e2b010743c81638084fc86e15ee1e9",
+        "notionPageId": "41e2b010743c81638084fc86e15ee1e9",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H①-2（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "2.4m",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "b0d590e6f332f5011b06d2ec3cfd5b737d8f7f81c03fc5888b4c87b9a48b17ed"
+      },
+      "answer": {
+        "n": "12",
+        "d": "5",
+        "unit": "m",
+        "dimension": "length",
+        "acceptedUnits": {
+          "m": "1",
+          "メートル": "1",
+          "cm": "1/100"
+        }
+      },
+      "difficulty": 4,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "高さの比",
+            "body": "照明灯4.9mとマサト君1.4mで、かげの先を頂点にしたピラミッド形の相似ができます。",
+            "equation": "4.9：1.4＝7：2",
+            "id": "s1"
+          },
+          {
+            "title": "地面の長さの比",
+            "body": "「照明灯からかげの先まで」：「かげ」＝7：2です。照明灯からマサト君までは、その差の⑦−②＝⑤です。",
+            "equation": "7−2＝5",
+            "checkpoint": {
+              "prompt": "照明灯からマサト君までの6mは比のいくつですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "比の1にあたる長さ",
+            "body": "6mが⑤にあたります。",
+            "equation": "6÷5＝1.2（m）",
+            "id": "s3"
+          },
+          {
+            "title": "かげの長さ",
+            "body": "かげは②です。",
+            "equation": "1.2×2＝2.4（m）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r30/H①-2.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c81638084fc86e15ee1e9",
+      "subdivision": {
+        "id": "40a2b010743c81e58089e61d7c3cb49a",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 389
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H①-3",
+      "unitId": "r30.shadow.lamp_height",
+      "category": "geometry",
+      "domain": "かげと相似",
+      "text": "電球までの高さが4mの照明灯があります。照明灯から3mはなれたところに木が植えてあります。この木のかげの長さは5mです。木の高さを求めなさい。（図：照明灯の高さ4m、照明灯から木まで3m、木のかげ5m）",
+      "sourceText": "電球までの高さが4mの照明灯があります。照明灯から3mはなれたところに木が植えてあります。この木のかげの長さは5mです。木の高さを求めなさい。（図：照明灯の高さ4m、照明灯から木まで3m、木のかげ5m）",
+      "source": {
+        "title": "R30H①-3",
+        "url": "https://app.notion.com/41e2b010743c8157803ae36e7801dce0",
+        "notionPageId": "41e2b010743c8157803ae36e7801dce0",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H①-3（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "2.5m",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "2dda5e0c6aa29c36ec35487fdc7e8d969b0e5196d53a010f9aee9e1d27a3ffa2"
+      },
+      "answer": {
+        "n": "5",
+        "d": "2",
+        "unit": "m",
+        "dimension": "length",
+        "acceptedUnits": {
+          "m": "1",
+          "メートル": "1",
+          "cm": "1/100"
+        }
+      },
+      "difficulty": 4,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "地面の長さ",
+            "body": "照明灯の根もとから木のかげの先までは、3＋5＝8mです。",
+            "equation": "3＋5＝8（m）",
+            "id": "s1"
+          },
+          {
+            "title": "相似比",
+            "body": "かげの先を頂点にしたピラミッド形で、照明灯と木が対応します。",
+            "equation": "8：5",
+            "checkpoint": {
+              "prompt": "照明灯と木の高さの比は8：□。□はいくつですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "木の高さ",
+            "body": "照明灯4mが⑧にあたるので、木は⑤です。",
+            "equation": "4×5/8＝2.5（m）",
+            "id": "s3"
+          },
+          {
+            "title": "確かめ",
+            "body": "木2.5mとかげ5mの比は1：2、照明灯4mと8mも1：2で同じ形です。",
+            "equation": "2.5：5＝4：8",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r30/H①-3.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c8157803ae36e7801dce0",
+      "subdivision": {
+        "id": "40a2b010743c81e58089e61d7c3cb49a",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 389
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H①-4",
+      "unitId": "r30.shadow.sun_basic",
+      "category": "geometry",
+      "domain": "かげと相似",
+      "text": "ある時刻に木のかげの長さをはかったら4.5mあり、同じ時刻に地面に垂直に立てた長さ1mの棒のかげの長さをはかったら1.8mでした。木の高さを求めなさい。（図：木のかげ4.5m、長さ1mの棒のかげ1.8m）",
+      "sourceText": "ある時刻に木のかげの長さをはかったら4.5mあり、同じ時刻に地面に垂直に立てた長さ1mの棒のかげの長さをはかったら1.8mでした。木の高さを求めなさい。（図：木のかげ4.5m、長さ1mの棒のかげ1.8m）",
+      "source": {
+        "title": "R30H①-4",
+        "url": "https://app.notion.com/41e2b010743c81549ac8dbcd1e966d03",
+        "notionPageId": "41e2b010743c81549ac8dbcd1e966d03",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H①-4（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "2.5m",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "09b695f8db1a1d0ee589fa0ca4fd9e4f7a3ce7d9e999eba5a8db8cb56e167487"
+      },
+      "answer": {
+        "n": "5",
+        "d": "2",
+        "unit": "m",
+        "dimension": "length",
+        "acceptedUnits": {
+          "m": "1",
+          "メートル": "1",
+          "cm": "1/100"
+        }
+      },
+      "difficulty": 3,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "太陽の光は平行",
+            "body": "同じ時刻なら、太陽の光の向きはどこでも同じです。木と棒のかげの三角形は相似です。",
+            "equation": "高さ：かげ＝1：1.8",
+            "id": "s1"
+          },
+          {
+            "title": "木のかげは棒のかげの何倍か",
+            "body": "木のかげ4.5mは、棒のかげ1.8mの何倍かを求めます。",
+            "equation": "4.5÷1.8＝2.5（倍）",
+            "checkpoint": {
+              "prompt": "木のかげは棒のかげの何倍ですか。",
+              "answer": {
+                "n": "5",
+                "d": "2",
+                "unit": "倍",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "木の高さ",
+            "body": "高さも同じ2.5倍です。",
+            "equation": "1×2.5＝2.5（m）",
+            "id": "s3"
+          },
+          {
+            "title": "確かめ",
+            "body": "2.5：4.5＝5：9、1：1.8＝5：9で同じ比です。",
+            "equation": "5：9",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r30/H①-4.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c81549ac8dbcd1e966d03",
+      "subdivision": {
+        "id": "3fd2b010743c81da9368c6cf814bebb2",
+        "name": "太陽の光の影",
+        "chu": "影と相似",
+        "dai": "平面図形",
+        "order": 449
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H②-2",
+      "unitId": "r30.shadow.wall_step_reverse",
+      "category": "geometry",
+      "domain": "かげと相似",
+      "text": "次の図は、地面に垂直に立てた長さ1mの棒のかげの長さが1.4mのときの、木のかげの様子です。xの長さはそれぞれ何mですか。(1)(2)（図：(1) 木の高さ8m、木からかべまでx、かべにうつったかげ3m。(2) 木の高さ9m、木から段差まで5m、段差の高さ3m（下り）、段差の下の地面のかげx）",
+      "sourceText": "次の図は、地面に垂直に立てた長さ1mの棒のかげの長さが1.4mのときの、木のかげの様子です。xの長さはそれぞれ何mですか。(1)(2)（図：(1) 木の高さ8m、木からかべまでx、かべにうつったかげ3m。(2) 木の高さ9m、木から段差まで5m、段差の高さ3m（下り）、段差の下の地面のかげx）",
+      "source": {
+        "title": "R30H②-2",
+        "url": "https://app.notion.com/41e2b010743c810cb7b9e6748d295b66",
+        "notionPageId": "41e2b010743c810cb7b9e6748d295b66",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H②-2（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "(1) 7m (2) 11.8m",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "bb68387eb4b5a5fd3f2068cdebca9048b7e5047f179dc07f4da19690eecfcc0e"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "7",
+            "d": "1",
+            "unit": "m",
+            "dimension": "length",
+            "acceptedUnits": {
+              "m": "1",
+              "メートル": "1",
+              "cm": "1/100"
+            },
+            "label": "(1)"
+          },
+          {
+            "n": "59",
+            "d": "5",
+            "unit": "m",
+            "dimension": "length",
+            "acceptedUnits": {
+              "m": "1",
+              "メートル": "1",
+              "cm": "1/100"
+            },
+            "label": "(2)"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "高さ：かげの比",
+            "body": "1mの棒のかげが1.4mなので、高さ：かげ＝1：1.4です。",
+            "equation": "1：1.4＝5：7",
+            "id": "s1"
+          },
+          {
+            "title": "(1) かべの高さで水平に切る",
+            "body": "かべにうつった3mの高さで水平に線を引くと、その上の木の部分8−3＝5mが比の⑤です。",
+            "equation": "⑤＝8−3＝5（m）",
+            "checkpoint": {
+              "prompt": "比の①は何mですか。",
+              "answer": {
+                "n": "1",
+                "d": "1",
+                "unit": "m",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "(1) xを求める",
+            "body": "xは水平に引いた線の長さで、比の⑦です。",
+            "equation": "⑦＝1×7＝7（m）",
+            "id": "s3"
+          },
+          {
+            "title": "(2) 低い地面で考える",
+            "body": "段差の下の地面から見ると、木の高さは9＋3＝12mです。光の線が下の地面にとどくまでの水平の長さは、12mの⑦/⑤倍です。",
+            "equation": "(9＋3)×7/5＝16.8（m）",
+            "id": "s4"
+          },
+          {
+            "title": "(2) xを求める",
+            "body": "16.8mのうち、木から段差までの5mを引いた残りがxです。",
+            "equation": "x＝16.8−5＝11.8（m）",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/r30/H②-2.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c810cb7b9e6748d295b66",
+      "subdivision": {
+        "id": "3fd2b010743c8148aa4be5583ab7cd0d",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 394
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H②-4",
+      "unitId": "r30.shadow.two_buildings",
+      "category": "geometry",
+      "domain": "かげと相似",
+      "text": "図のように、はば5mの道路をはさんで、A、B2つのビルがあります。地面にまっすぐに立てた1mの棒のかげの長さが1.6mのとき、Bのかげは12mありました。また、Bの屋上にはAのかげが1.4mうつっていました。(1) ビルBの高さを求めなさい。(2) ビルAの高さを求めなさい。（図：見取図。Bのかげ12m、道路のはば5m、Bの屋上にうつったAのかげ1.4m）",
+      "sourceText": "図のように、はば5mの道路をはさんで、A、B2つのビルがあります。地面にまっすぐに立てた1mの棒のかげの長さが1.6mのとき、Bのかげは12mありました。また、Bの屋上にはAのかげが1.4mうつっていました。(1) ビルBの高さを求めなさい。(2) ビルAの高さを求めなさい。（図：見取図。Bのかげ12m、道路のはば5m、Bの屋上にうつったAのかげ1.4m）",
+      "source": {
+        "title": "R30H②-4",
+        "url": "https://app.notion.com/41e2b010743c81c9af55c02a74b82a57",
+        "notionPageId": "41e2b010743c81c9af55c02a74b82a57",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H②-4（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "(1) 7.5m (2) 11.5m",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "3ad0552a556ed7ca3149b84b3ac2d5ed7d66b96d6ef123fb2c39c191f87f41f0"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "15",
+            "d": "2",
+            "unit": "m",
+            "dimension": "length",
+            "acceptedUnits": {
+              "m": "1",
+              "メートル": "1",
+              "cm": "1/100"
+            },
+            "label": "(1)"
+          },
+          {
+            "n": "23",
+            "d": "2",
+            "unit": "m",
+            "dimension": "length",
+            "acceptedUnits": {
+              "m": "1",
+              "メートル": "1",
+              "cm": "1/100"
+            },
+            "label": "(2)"
+          }
+        ]
+      },
+      "difficulty": 6,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "高さ：かげの比",
+            "body": "1mの棒のかげが1.6mなので、高さ：かげ＝1：1.6です。",
+            "equation": "1：1.6＝5：8",
+            "id": "s1"
+          },
+          {
+            "title": "(1) ビルBの高さ",
+            "body": "Bのかげ12mが比の⑧にあたり、高さは⑤です。",
+            "equation": "12×5/8＝7.5（m）",
+            "checkpoint": {
+              "prompt": "ビルBの高さは何mですか。",
+              "answer": {
+                "n": "15",
+                "d": "2",
+                "unit": "m",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "(2) Bの屋上の高さで切る",
+            "body": "真横から見て、Bの屋上の高さで水平に切ります。その上のAの部分のかげは、道路のはば5mと屋上のかげ1.4mを合わせた長さです。",
+            "equation": "5＋1.4＝6.4（m）",
+            "id": "s3"
+          },
+          {
+            "title": "(2) 屋上より上の部分",
+            "body": "かげ6.4mが⑧なので、高さは⑤です。",
+            "equation": "6.4×5/8＝4（m）",
+            "id": "s4"
+          },
+          {
+            "title": "(2) ビルAの高さ",
+            "body": "Bの屋上までの高さを足します。",
+            "equation": "7.5＋4＝11.5（m）",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/r30/H②-4.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c81c9af55c02a74b82a57",
+      "subdivision": {
+        "id": "3fd2b010743c8148aa4be5583ab7cd0d",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 394
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H③-1",
+      "unitId": "r30.fold.isosceles_overlap",
+      "category": "geometry",
+      "domain": "合同・折り返し",
+      "text": "図のように、長方形ABCDを、頂点Aと頂点Cが重なるように折り返します。かげの部分の面積を求めなさい。（図：AB＝15cm、BF＝8cm、BC＝25cm）",
+      "sourceText": "図のように、長方形ABCDを、頂点Aと頂点Cが重なるように折り返します。かげの部分の面積を求めなさい。（図：AB＝15cm、BF＝8cm、BC＝25cm）",
+      "source": {
+        "title": "R30H③-1",
+        "url": "https://app.notion.com/41e2b010743c81389315cb1486b17f8b",
+        "notionPageId": "41e2b010743c81389315cb1486b17f8b",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H③-1（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "127.5cm²",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "460cb23d6d28ad77f4a35768082e97f5096fd4c958004471323bbb24d272c181"
+      },
+      "answer": {
+        "n": "255",
+        "d": "2",
+        "unit": "cm²",
+        "dimension": "area",
+        "acceptedUnits": {
+          "cm²": "1",
+          "cm2": "1",
+          "平方センチメートル": "1"
+        }
+      },
+      "difficulty": 4,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "折り返しで等しい長さ",
+            "body": "AとCが重なるので、折り目EF上の点からAとCまでの長さは等しく、FA＝FCです。",
+            "equation": "FC＝25−8＝17（cm）",
+            "checkpoint": {
+              "prompt": "FAは何cmですか。",
+              "answer": {
+                "n": "17",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "二等辺三角形を見つける",
+            "body": "折り返しで角EFC＝角EFA。ADとBCが平行なので錯角で角EFC＝角FEA。よって角EFA＝角FEAで、三角形AEFはAE＝AFの二等辺三角形です。",
+            "equation": "EA＝FA＝17（cm）",
+            "id": "s2"
+          },
+          {
+            "title": "確かめ",
+            "body": "三角形ABFは直角三角形で、15×15＋8×8＝17×17 が成り立ちます。",
+            "equation": "225＋64＝289",
+            "id": "s3"
+          },
+          {
+            "title": "かげの部分の面積",
+            "body": "三角形AEFの底辺をEA＝17cmとすると、高さはAB＝15cmです。",
+            "equation": "17×15÷2＝127.5（cm²）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r30/H③-1.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c81389315cb1486b17f8b",
+      "subdivision": {
+        "id": "3fd2b010743c8101a860defc7cb75369",
+        "name": "線対称（対応線分の垂直二等分）",
+        "chu": "合同・折り返し",
+        "dai": "平面図形",
+        "order": 354
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H③-2",
+      "unitId": "r30.fold.diagonal_overhang",
+      "category": "geometry",
+      "domain": "合同・折り返し",
+      "text": "右の図は長方形を対角線で折り返した図です。かげの部分の面積は何cm²ですか。（図：長方形のたて24cm、横32cm。長方形の上の辺からはみ出した部分の辺の長さ7cm）",
+      "sourceText": "右の図は長方形を対角線で折り返した図です。かげの部分の面積は何cm²ですか。（図：長方形のたて24cm、横32cm。長方形の上の辺からはみ出した部分の辺の長さ7cm）",
+      "source": {
+        "title": "R30H③-2",
+        "url": "https://app.notion.com/41e2b010743c818f8c48e99d355f6963",
+        "notionPageId": "41e2b010743c818f8c48e99d355f6963",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H③-2（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "300cm²",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "e47b3334b881a5f21c36fa9c35d1eb153a468b1b9c9064dbe90c211af6ef1534"
+      },
+      "answer": {
+        "n": "300",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area",
+        "acceptedUnits": {
+          "cm²": "1",
+          "cm2": "1",
+          "平方センチメートル": "1"
+        }
+      },
+      "difficulty": 4,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "折り返しで変わらない長さ",
+            "body": "対角線で折り返した三角形は、もとの三角形と合同です。上の辺からはみ出した直角三角形は、たての辺を折り返した24cmの辺と、7cmの辺をもちます。",
+            "equation": "はみ出した直角三角形：24cmと7cm",
+            "id": "s1"
+          },
+          {
+            "title": "二等辺三角形",
+            "body": "折り返しで等しい角と、平行線の錯角が等しいので、かげの部分は対角線を底辺とする二等辺三角形です。その等しい辺は、横の辺を折り返した32cmから、はみ出した7cmを引いた長さです。",
+            "equation": "32−7＝25（cm）",
+            "checkpoint": {
+              "prompt": "重なりの三角形の等しい辺は何cmですか。",
+              "answer": {
+                "n": "25",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "確かめ",
+            "body": "はみ出した直角三角形は 7、24、25 の辺をもちます。",
+            "equation": "7×7＋24×24＝25×25",
+            "id": "s3"
+          },
+          {
+            "title": "かげの部分の面積",
+            "body": "底辺25cm、高さは長方形のたて24cmです。",
+            "equation": "25×24÷2＝300（cm²）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r30/H③-2.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c818f8c48e99d355f6963",
+      "subdivision": {
+        "id": "3fd2b010743c8101a860defc7cb75369",
+        "name": "線対称（対応線分の垂直二等分）",
+        "chu": "合同・折り返し",
+        "dai": "平面図形",
+        "order": 354
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H③-3",
+      "unitId": "r30.fold.diagonal_height",
+      "category": "geometry",
+      "domain": "折り返しと相似",
+      "text": "右の図は長方形を対角線で折り返した図です。かげの部分の面積は何cm²ですか。（図：長方形のたて6cm、横14.4cm、対角線15.6cm）",
+      "sourceText": "右の図は長方形を対角線で折り返した図です。かげの部分の面積は何cm²ですか。（図：長方形のたて6cm、横14.4cm、対角線15.6cm）",
+      "source": {
+        "title": "R30H③-3",
+        "url": "https://app.notion.com/41e2b010743c81ac81e8d6cde21469ce",
+        "notionPageId": "41e2b010743c81ac81e8d6cde21469ce",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H③-3（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "25.35cm²",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "c37217404613f274c08ef895611c267c51c4520d1734ee23d504c60cb1a9fb38"
+      },
+      "answer": {
+        "n": "507",
+        "d": "20",
+        "unit": "cm²",
+        "dimension": "area",
+        "acceptedUnits": {
+          "cm²": "1",
+          "cm2": "1",
+          "平方センチメートル": "1"
+        }
+      },
+      "difficulty": 5,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "辺の比",
+            "body": "長方形のたて6cm、横14.4cm、対角線15.6cmの比を整数にします。",
+            "equation": "6：14.4：15.6＝5：12：13",
+            "id": "s1"
+          },
+          {
+            "title": "二等辺三角形の高さの位置",
+            "body": "かげの部分は対角線を底辺とする二等辺三角形です。頂点から対角線に垂線を下ろすと、対角線の真ん中に下ります。",
+            "equation": "15.6÷2＝7.8（cm）",
+            "id": "s2"
+          },
+          {
+            "title": "相似で高さを出す",
+            "body": "垂線でできる直角三角形は、長方形の半分の直角三角形（5：12：13）と相似で、7.8cmが⑫、高さが⑤にあたります。",
+            "equation": "7.8×5/12＝3.25（cm）",
+            "checkpoint": {
+              "prompt": "二等辺三角形の高さは何cmですか。",
+              "answer": {
+                "n": "13",
+                "d": "4",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s3"
+          },
+          {
+            "title": "かげの部分の面積",
+            "body": "底辺15.6cm、高さ3.25cmです。",
+            "equation": "15.6×3.25÷2＝25.35（cm²）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r30/H③-3.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c81ac81e8d6cde21469ce",
+      "subdivision": {
+        "id": "3fd2b010743c8101a860defc7cb75369",
+        "name": "線対称（対応線分の垂直二等分）",
+        "chu": "合同・折り返し",
+        "dai": "平面図形",
+        "order": 354
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H③-4",
+      "unitId": "r30.fold.side_onto_diagonal",
+      "category": "geometry",
+      "domain": "折り返しと相似",
+      "text": "AB＝32cm、BC＝60cm、AC＝68cmの長方形ABCDを、AP、CQを折り目として折り、辺AD、BCがどちらも対角線ACに重なるようにしました。このようにしてできた平行四辺形AQCPの面積を求めなさい。（図：AQの折り返しでBがAC上のF、CPの折り返しでDがAC上のEに重なる）",
+      "sourceText": "AB＝32cm、BC＝60cm、AC＝68cmの長方形ABCDを、AP、CQを折り目として折り、辺AD、BCがどちらも対角線ACに重なるようにしました。このようにしてできた平行四辺形AQCPの面積を求めなさい。（図：AQの折り返しでBがAC上のF、CPの折り返しでDがAC上のEに重なる）",
+      "source": {
+        "title": "R30H③-4",
+        "url": "https://app.notion.com/41e2b010743c81a69e95f0a5339f7835",
+        "notionPageId": "41e2b010743c81a69e95f0a5339f7835",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H③-4（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "1020cm²",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "487c6e7a87b1ff0617aa8b94a673ef2a43567da4ce4f8d806d1b59cd37444c4a"
+      },
+      "answer": {
+        "n": "1020",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area",
+        "acceptedUnits": {
+          "cm²": "1",
+          "cm2": "1",
+          "平方センチメートル": "1"
+        }
+      },
+      "difficulty": 5,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "辺の比",
+            "body": "長方形の半分の三角形ABCの辺の比を整数にします。",
+            "equation": "32：60：68＝8：15：17",
+            "id": "s1"
+          },
+          {
+            "title": "AFの長さ",
+            "body": "CQで折ると辺BCが対角線ACに重なり、BはAC上の点Fにきます。CF＝CB＝60cmです。",
+            "equation": "AF＝68−60＝8（cm）",
+            "checkpoint": {
+              "prompt": "AFは何cmですか。",
+              "answer": {
+                "n": "8",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "相似でQFを出す",
+            "body": "三角形AFQは角Fが直角で角Aが共通なので、三角形ABCと相似です。AF：FQ＝AB：BC＝8：15です。",
+            "equation": "QF＝8×15/8＝15（cm）",
+            "id": "s3"
+          },
+          {
+            "title": "三角形AQCの面積",
+            "body": "三角形AQCは、底辺AC＝68cm、高さQF＝15cmです。",
+            "equation": "68×15÷2＝510（cm²）",
+            "id": "s4"
+          },
+          {
+            "title": "平行四辺形AQCPの面積",
+            "body": "平行四辺形AQCPは対角線ACで同じ大きさの三角形2つに分かれます。",
+            "equation": "510×2＝1020（cm²）",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/r30/H③-4.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c81a69e95f0a5339f7835",
+      "subdivision": {
+        "id": "3fd2b010743c819e8cd7d9c9482a9074",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 393
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H④-1",
+      "unitId": "r30.fold.corner_on_side",
+      "category": "geometry",
+      "domain": "折り返しと相似",
+      "text": "図のように、横の長さが17cmの長方形を折り返したら、頂点Cは辺AD上の点Fのところにきました。ABの長さを求めなさい。（図：AF＝8cm、DE＝4.8cm、BC＝17cm）",
+      "sourceText": "図のように、横の長さが17cmの長方形を折り返したら、頂点Cは辺AD上の点Fのところにきました。ABの長さを求めなさい。（図：AF＝8cm、DE＝4.8cm、BC＝17cm）",
+      "source": {
+        "title": "R30H④-1",
+        "url": "https://app.notion.com/41e2b010743c8194b5c8e47e9a434f42",
+        "notionPageId": "41e2b010743c8194b5c8e47e9a434f42",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H④-1（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "15cm",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "b07a667b976e8210f72cdc130a45e9dc2a468c2d492e9cbb98a87d1cea996489"
+      },
+      "answer": {
+        "n": "15",
+        "d": "1",
+        "unit": "cm",
+        "dimension": "length",
+        "acceptedUnits": {
+          "cm": "1",
+          "センチメートル": "1",
+          "mm": "1/10",
+          "m": "100"
+        }
+      },
+      "difficulty": 4,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "DFの長さ",
+            "body": "横の長さは17cmなので、ADも17cmです。",
+            "equation": "DF＝17−8＝9（cm）",
+            "checkpoint": {
+              "prompt": "DFは何cmですか。",
+              "answer": {
+                "n": "9",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "相似を見つける",
+            "body": "角BFEは折り返す前の角Cで直角です。Fのところで○＋×＝90°になり、三角形ABFと三角形DFEは角の大きさが同じで相似です（角ABF＝角DFE）。",
+            "equation": "三角形ABF∽三角形DFE",
+            "id": "s2"
+          },
+          {
+            "title": "対応する辺の比",
+            "body": "三角形DFEで、直角をはさむ辺はDE＝4.8cmとDF＝9cmです。",
+            "equation": "4.8：9＝8：15",
+            "id": "s3"
+          },
+          {
+            "title": "ABを求める",
+            "body": "三角形ABFで、AFがDEに、ABがDFに対応します。AF：AB＝8：15です。",
+            "equation": "AB＝8×15/8＝15（cm）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r30/H④-1.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c8194b5c8e47e9a434f42",
+      "subdivision": {
+        "id": "3fd2b010743c819e8cd7d9c9482a9074",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 393
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H④-3",
+      "unitId": "r30.fold.corner_area",
+      "category": "geometry",
+      "domain": "折り返しと相似",
+      "text": "たて49cm、横175cmの長方形ABCDを、下の図のようにCEで折り返したところ、BがAD上の点Fに重なりました。(1) 三角形CFEの面積は何cm²ですか。(2) 三角形CDFの面積は何cm²ですか。（図：AE＝24cm）",
+      "sourceText": "たて49cm、横175cmの長方形ABCDを、下の図のようにCEで折り返したところ、BがAD上の点Fに重なりました。(1) 三角形CFEの面積は何cm²ですか。(2) 三角形CDFの面積は何cm²ですか。（図：AE＝24cm）",
+      "source": {
+        "title": "R30H④-3",
+        "url": "https://app.notion.com/41e2b010743c81e893fcede19263a6ee",
+        "notionPageId": "41e2b010743c81e893fcede19263a6ee",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H④-3（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "(1) 2187.5cm² (2) 4116cm²",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "5e13b058b306497324be8b1c96e9569d206c24a0d12f8080af75a92bbf3d0b57"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "4375",
+            "d": "2",
+            "unit": "cm²",
+            "dimension": "area",
+            "acceptedUnits": {
+              "cm²": "1",
+              "cm2": "1",
+              "平方センチメートル": "1"
+            },
+            "label": "(1)"
+          },
+          {
+            "n": "4116",
+            "d": "1",
+            "unit": "cm²",
+            "dimension": "area",
+            "acceptedUnits": {
+              "cm²": "1",
+              "cm2": "1",
+              "平方センチメートル": "1"
+            },
+            "label": "(2)"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "(1) 折り返した辺の長さ",
+            "body": "折り返しても長さは変わりません。CF＝CB＝175cm、EF＝EB＝49−24＝25cmです。",
+            "equation": "EF＝49−24＝25（cm）",
+            "checkpoint": {
+              "prompt": "EFは何cmですか。",
+              "answer": {
+                "n": "25",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "(1) 三角形CFE",
+            "body": "角CFEは折り返す前の角Bで直角です。",
+            "equation": "175×25÷2＝2187.5（cm²）",
+            "id": "s2"
+          },
+          {
+            "title": "(2) 相似を見つける",
+            "body": "Fのところで○＋×＝90°なので、三角形CDFと三角形FAEは相似です。斜辺どうしの比はCF：FE＝175：25です。",
+            "equation": "175：25＝7：1",
+            "id": "s3"
+          },
+          {
+            "title": "(2) DFを求める",
+            "body": "DFはAEと対応します。",
+            "equation": "DF＝24×7＝168（cm）",
+            "id": "s4"
+          },
+          {
+            "title": "(2) 三角形CDF",
+            "body": "CDは長方形のたて49cmです。",
+            "equation": "168×49÷2＝4116（cm²）",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/r30/H④-3.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c81e893fcede19263a6ee",
+      "subdivision": {
+        "id": "3fd2b010743c819e8cd7d9c9482a9074",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 393
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H⑤-1",
+      "unitId": "r30.fold.square_midpoint",
+      "category": "geometry",
+      "domain": "折り返しと相似",
+      "text": "正方形ABCDをEFで折り返して、頂点AがCDの真ん中の点Mに重なるようにしたものです。(1) CGの長さを求めなさい。(2) FGの長さを求めなさい。（図：AE＝60cm、ED＝36cm。ほかはNと同じ）",
+      "sourceText": "正方形ABCDをEFで折り返して、頂点AがCDの真ん中の点Mに重なるようにしたものです。(1) CGの長さを求めなさい。(2) FGの長さを求めなさい。（図：AE＝60cm、ED＝36cm。ほかはNと同じ）",
+      "source": {
+        "title": "R30H⑤-1",
+        "url": "https://app.notion.com/41e2b010743c818eb20ace35f4757c88",
+        "notionPageId": "41e2b010743c818eb20ace35f4757c88",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H⑤-1（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "(1) 64cm (2) 20cm",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "48a0bb285827cb99bd0bf0f8563e76dd1c8ef308d4e6a7e1da9522a904c1812e"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "64",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length",
+            "acceptedUnits": {
+              "cm": "1",
+              "センチメートル": "1",
+              "mm": "1/10",
+              "m": "100"
+            },
+            "label": "(1)"
+          },
+          {
+            "n": "20",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length",
+            "acceptedUnits": {
+              "cm": "1",
+              "センチメートル": "1",
+              "mm": "1/10",
+              "m": "100"
+            },
+            "label": "(2)"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "正方形の1辺とDM",
+            "body": "ME＝AE＝60cmです。1辺は60＋36＝96cm、MはCDの真ん中なのでDM＝48cmです。",
+            "equation": "DM＝96÷2＝48（cm）",
+            "id": "s1"
+          },
+          {
+            "title": "三角形EDMの形",
+            "body": "ED：DM：ME＝36：48：60です。",
+            "equation": "36：48：60＝3：4：5",
+            "checkpoint": {
+              "prompt": "ED：DM：ME＝3：4：□。□はいくつですか。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "(1) 三角形MCG",
+            "body": "Mのところの角は直角なので、三角形EDMと三角形MCGは相似です。MCがEDに、CGがDMに対応します（3：4）。",
+            "equation": "CG＝48×4/3＝64（cm）",
+            "id": "s3"
+          },
+          {
+            "title": "(2) GMとHG",
+            "body": "GMはMEに対応するので、GM＝48×5/3＝80cm。折り返した辺HMはもとのAB＝96cmです。",
+            "equation": "HG＝96−80＝16（cm）",
+            "id": "s4"
+          },
+          {
+            "title": "(2) 三角形FHG",
+            "body": "三角形FHGも同じ形（3：4：5）です。HGが④、FGが⑤にあたります。",
+            "equation": "FG＝16×5/4＝20（cm）",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/r30/H⑤-1.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c818eb20ace35f4757c88",
+      "subdivision": {
+        "id": "3fd2b010743c819e8cd7d9c9482a9074",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 393
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H⑥-1",
+      "unitId": "r30.shadow.two_lamps",
+      "category": "geometry",
+      "domain": "かげと相似",
+      "text": "右の図のように、12mはなれた道路上の2地点A、Bに、A地点には高さ7mの、B地点には高さ6.3mの街灯があります。両地点のあいだに、身長1.4mの子どもが立っていて子どもの前と後にできるかげの長さが等しいとき、子どもはA地点から何mのところにいますか。（図：A・Bに街灯、AB＝12m）",
+      "sourceText": "右の図のように、12mはなれた道路上の2地点A、Bに、A地点には高さ7mの、B地点には高さ6.3mの街灯があります。両地点のあいだに、身長1.4mの子どもが立っていて子どもの前と後にできるかげの長さが等しいとき、子どもはA地点から何mのところにいますか。（図：A・Bに街灯、AB＝12m）",
+      "source": {
+        "title": "R30H⑥-1",
+        "url": "https://app.notion.com/41e2b010743c8177a81bd51156ae49bb",
+        "notionPageId": "41e2b010743c8177a81bd51156ae49bb",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H⑥-1（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "6.4m",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "1dd97736bb1006945a18f2914faea6f8d4084abd0f14ae8d49a43044430891a4"
+      },
+      "answer": {
+        "n": "32",
+        "d": "5",
+        "unit": "m",
+        "dimension": "length",
+        "acceptedUnits": {
+          "m": "1",
+          "メートル": "1",
+          "cm": "1/100"
+        }
+      },
+      "difficulty": 6,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "頭の高さで水平に切る",
+            "body": "子どもの頭の高さ1.4mで水平に線を引くと、街灯の上の部分はAが7−1.4、Bが6.3−1.4です。",
+            "equation": "7−1.4＝5.6、6.3−1.4＝4.9",
+            "id": "s1"
+          },
+          {
+            "title": "相似な三角形",
+            "body": "前と後のかげが等しいので、子どもの下の小さい三角形2つは合同です。そのため、Aの街灯の上の三角形とBの街灯の上の三角形も相似になります。",
+            "equation": "5.6：4.9＝8：7",
+            "checkpoint": {
+              "prompt": "相似比は8：□。□はいくつですか。",
+              "answer": {
+                "n": "7",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "道のりを比で分ける",
+            "body": "A地点から子どもまで：子どもからB地点まで＝8：7です。全体12mを8＋7＝15に分けます。",
+            "equation": "12×8/(8＋7)＝6.4（m）",
+            "id": "s3"
+          },
+          {
+            "title": "確かめ",
+            "body": "Bから子どもまでは12−6.4＝5.6m。6.4：5.6＝8：7で合っています。",
+            "equation": "6.4：5.6＝8：7",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r30/H⑥-1.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c8177a81bd51156ae49bb",
+      "subdivision": {
+        "id": "40a2b010743c81e58089e61d7c3cb49a",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 389
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H⑥-2",
+      "unitId": "r30.shadow.walking",
+      "category": "geometry",
+      "domain": "かげと相似",
+      "text": "身長160cmのA君が、高さ8mの街灯の立っている所からへいに向かって同じ速さで歩きだしました。(1) 歩きはじめてから8秒後に等身大のかげができました。A君の歩く速さは秒速何mですか。(2) 歩きはじめてから12秒後にへいに1.2mのかげができました。街灯の立っている所からへいまでの距離は何mですか。",
+      "sourceText": "身長160cmのA君が、高さ8mの街灯の立っている所からへいに向かって同じ速さで歩きだしました。(1) 歩きはじめてから8秒後に等身大のかげができました。A君の歩く速さは秒速何mですか。(2) 歩きはじめてから12秒後にへいに1.2mのかげができました。街灯の立っている所からへいまでの距離は何mですか。",
+      "source": {
+        "title": "R30H⑥-2",
+        "url": "https://app.notion.com/41e2b010743c81b4bb69c7b99ca698c0",
+        "notionPageId": "41e2b010743c81b4bb69c7b99ca698c0",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H⑥-2（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "(1) 0.8m/秒 (2) 10.2m",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "4",
+            "d": "5",
+            "unit": "m/秒",
+            "dimension": "speed",
+            "acceptedUnits": {
+              "m/秒": "1",
+              "m/s": "1",
+              "cm/秒": "1/100"
+            },
+            "label": "(1)"
+          },
+          {
+            "n": "51",
+            "d": "5",
+            "unit": "m",
+            "dimension": "length",
+            "acceptedUnits": {
+              "m": "1",
+              "メートル": "1",
+              "cm": "1/100"
+            },
+            "label": "(2)"
+          }
+        ]
+      },
+      "difficulty": 6,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "(1) 高さの比",
+            "body": "街灯8m、A君1.6m（160cm）です。",
+            "equation": "8：1.6＝5：1",
+            "id": "s1"
+          },
+          {
+            "title": "(1) 等身大のかげの位置",
+            "body": "かげが1.6mのとき、かげの先を頂点にしたピラミッド形で「街灯からかげの先まで」：「かげ」＝5：1。A君は街灯から④のところにいます。",
+            "equation": "1.6×(5−1)＝6.4（m）",
+            "checkpoint": {
+              "prompt": "8秒後、A君は街灯から何mのところにいますか。",
+              "answer": {
+                "n": "32",
+                "d": "5",
+                "unit": "m",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "(1) 速さ",
+            "body": "8秒で6.4m歩いたので、",
+            "equation": "6.4÷8＝0.8（m/秒）",
+            "id": "s3"
+          },
+          {
+            "title": "(2) 12秒後の位置",
+            "body": "12秒後は街灯から0.8×12＝9.6mのところにいます。",
+            "equation": "0.8×12＝9.6（m）",
+            "id": "s4"
+          },
+          {
+            "title": "(2) 頭より上の三角形の相似",
+            "body": "光の線は、街灯の上（8m）からA君の頭（1.6m）を通り、へいの1.2mにとどきます。A君の頭の高さで切ると、街灯側は6.4m下がって9.6m進み、へい側は1.6−1.2＝0.4m下がります。",
+            "equation": "(8−1.6)：(1.6−1.2)＝16：1",
+            "id": "s5"
+          },
+          {
+            "title": "(2) へいまでの距離",
+            "body": "A君からへいまでは9.6mの1/16です。",
+            "equation": "9.6×1/16＋9.6＝0.6＋9.6＝10.2（m）",
+            "id": "s6"
+          }
+        ]
+      },
+      "figureRequired": false,
+      "notionId": "41e2b010743c81b4bb69c7b99ca698c0",
+      "subdivision": {
+        "id": "40a2b010743c81e58089e61d7c3cb49a",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 389
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H⑥-3",
+      "unitId": "r30.shadow.stairs",
+      "category": "geometry",
+      "domain": "かげと相似",
+      "text": "図のような3段の石段があって、各石段の高さは20cmで奥行きは40cmです。日光が石段の真正面からさしているとき、地面に長さが110cmの棒を垂直に立てたところ、かげの先端がちょうど最上段の角にきました。(1) 平地でこの棒を垂直に立てたら、かげの長さは何cmになりますか。(2) 棒を石段から真後ろに遠ざけ、かげの先端が石段のAの部分にくるようにしました。棒を何cmから何cmまで石段から遠ざければよいですか。（図：Nと同じ形。棒110cm、高さ20cm、奥行き40cm）",
+      "sourceText": "図のような3段の石段があって、各石段の高さは20cmで奥行きは40cmです。日光が石段の真正面からさしているとき、地面に長さが110cmの棒を垂直に立てたところ、かげの先端がちょうど最上段の角にきました。(1) 平地でこの棒を垂直に立てたら、かげの長さは何cmになりますか。(2) 棒を石段から真後ろに遠ざけ、かげの先端が石段のAの部分にくるようにしました。棒を何cmから何cmまで石段から遠ざければよいですか。（図：Nと同じ形。棒110cm、高さ20cm、奥行き40cm）",
+      "source": {
+        "title": "R30H⑥-3",
+        "url": "https://app.notion.com/41e2b010743c817f9c2cddab0d004fc8",
+        "notionPageId": "41e2b010743c817f9c2cddab0d004fc8",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H⑥-3（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "(1) 176cm (2) 72cmから104cmまで",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "c861484ce12dcadce5e898ab6b31c50870992750df15bf6c92b2a5ccaacdabf0"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "176",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length",
+            "acceptedUnits": {
+              "cm": "1",
+              "センチメートル": "1",
+              "mm": "1/10",
+              "m": "100"
+            },
+            "label": "(1)"
+          },
+          {
+            "n": "72",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length",
+            "acceptedUnits": {
+              "cm": "1",
+              "センチメートル": "1",
+              "mm": "1/10",
+              "m": "100"
+            },
+            "label": "(2) 何cmから"
+          },
+          {
+            "n": "104",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length",
+            "acceptedUnits": {
+              "cm": "1",
+              "センチメートル": "1",
+              "mm": "1/10",
+              "m": "100"
+            },
+            "label": "(2) 何cmまで"
+          }
+        ]
+      },
+      "difficulty": 6,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "(1) 真横から見た三角形",
+            "body": "棒は石段のすぐ前に立っています。かげの先は最上段の角で、高さ20×3＝60cm、棒からの水平の長さは40×2＝80cmです。",
+            "equation": "高さ110−60＝50、底辺80",
+            "id": "s1"
+          },
+          {
+            "title": "(1) 高さ：かげの比",
+            "body": "光の線は、50cm下がる間に水平に80cm進みます。",
+            "equation": "50：80＝5：8",
+            "id": "s2"
+          },
+          {
+            "title": "(1) 平地のかげ",
+            "body": "平地では、棒の高さ110cmが比の⑤、かげが⑧にあたります。",
+            "equation": "110×8/5＝176（cm）",
+            "checkpoint": {
+              "prompt": "平地での棒のかげは何cmですか。",
+              "answer": {
+                "n": "176",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s3"
+          },
+          {
+            "title": "(2) Aの部分",
+            "body": "Aは2段目の正面（高さ20cmから40cmまでの面）で、石段の手前のはし（1段目の正面）から奥へ40cmのところにあります。",
+            "equation": "Aの高さ：20cm〜40cm",
+            "id": "s4"
+          },
+          {
+            "title": "(2) かげの先がAの上のはし",
+            "body": "かげの先が高さ40cmにくるとき、光の線は110−40＝70cm下がるので、水平に70×8/5＝112cm進みます。棒からAまでが112cmなので、石段の手前のはしまでは40cmを引いた長さです。",
+            "equation": "70×8/5−40＝72（cm）",
+            "id": "s5"
+          },
+          {
+            "title": "(2) かげの先がAの下のはし",
+            "body": "かげの先が高さ20cmにくるとき、光の線は110−20＝90cm下がります。",
+            "equation": "90×8/5−40＝104（cm）",
+            "id": "s6"
+          },
+          {
+            "title": "(2) 答えをまとめる",
+            "body": "棒を遠ざけるほど、かげの先は低いところにきます。",
+            "equation": "72cmから104cmまで",
+            "id": "s7"
+          }
+        ]
+      },
+      "figure": "figs/r30/H⑥-3.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c817f9c2cddab0d004fc8",
+      "subdivision": {
+        "id": "3fd2b010743c8148aa4be5583ab7cd0d",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 394
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H⑦-1",
+      "unitId": "r30.shadow.wall_tower",
+      "category": "geometry",
+      "domain": "かげと相似",
+      "text": "図のように鉄塔とビルがあります。ビルのベランダに立っている人の身長は1.6mです。この人のかげは、ベランダの床にのび、Bで折れ曲がって、その先端はかべにあります。また鉄塔のかげも、やはりその先端はかべにあります。今、これらのかげのかべにうつる部分だけを見ると、鉄塔のかげの高さは、かべ（つまりAB）のちょうど半分であり、人のかげの長さは鉄塔のかげの2/5です。鉄塔の高さは何mですか。（図：ビルの高さ16m、ベランダの床の高さ10m、人からかべ（B）まで1m、ベランダの部分の奥行き4m、鉄塔からベランダの部分まで36m）",
+      "sourceText": "図のように鉄塔とビルがあります。ビルのベランダに立っている人の身長は1.6mです。この人のかげは、ベランダの床にのび、Bで折れ曲がって、その先端はかべにあります。また鉄塔のかげも、やはりその先端はかべにあります。今、これらのかげのかべにうつる部分だけを見ると、鉄塔のかげの高さは、かべ（つまりAB）のちょうど半分であり、人のかげの長さは鉄塔のかげの2/5です。鉄塔の高さは何mですか。（図：ビルの高さ16m、ベランダの床の高さ10m、人からかべ（B）まで1m、ベランダの部分の奥行き4m、鉄塔からベランダの部分まで36m）",
+      "source": {
+        "title": "R30H⑦-1",
+        "url": "https://app.notion.com/41e2b010743c817d9b7ef121a5b5ecd0",
+        "notionPageId": "41e2b010743c817d9b7ef121a5b5ecd0",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H⑦-1（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "29m",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "75c14c88769721e0bd33018e054131756e6b2494496303ccc1ca65cfa32f6362"
+      },
+      "answer": {
+        "n": "29",
+        "d": "1",
+        "unit": "m",
+        "dimension": "length",
+        "acceptedUnits": {
+          "m": "1",
+          "メートル": "1",
+          "cm": "1/100"
+        }
+      },
+      "difficulty": 7,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "かべABの高さ",
+            "body": "ビルは16m、ベランダの床は10mです。",
+            "equation": "AB＝16−10＝6（m）",
+            "id": "s1"
+          },
+          {
+            "title": "かべにうつったかげ",
+            "body": "鉄塔のかげはABの半分で3m、人のかげはその2/5です。",
+            "equation": "6×1/2×2/5＝1.2（m）",
+            "checkpoint": {
+              "prompt": "人のかげがかべにうつった高さは何mですか。",
+              "answer": {
+                "n": "6",
+                "d": "5",
+                "unit": "m",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "人で比を出す",
+            "body": "人の頭から、かべのかげの先までの光の線を考えます。高さは1.6−1.2＝0.4m下がり、水平には人からかべまでの1m進みます。",
+            "equation": "(1.6−1.2)：1＝2：5",
+            "id": "s3"
+          },
+          {
+            "title": "鉄塔の上の部分",
+            "body": "鉄塔からかべまでの水平の長さは36＋4＝40mです。かべのかげの先より上の鉄塔の部分は、40mの2/5です。",
+            "equation": "(36＋4)×2/5＝16（m）",
+            "id": "s4"
+          },
+          {
+            "title": "鉄塔の高さ",
+            "body": "かげの先の高さは、床の10mにかべの3mを足した13mです。",
+            "equation": "16＋10＋6×1/2＝29（m）",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/r30/H⑦-1.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c817d9b7ef121a5b5ecd0",
+      "subdivision": {
+        "id": "3fd2b010743c8148aa4be5583ab7cd0d",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 394
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30H⑦-2",
+      "unitId": "r30.fold.rect_four_triangles",
+      "category": "geometry",
+      "domain": "折り返しと相似",
+      "text": "AB＝33cm、AD＝51cmの長方形ABCDを直線EFで折り返したものです。GH＝6cm、HI＝10cm、IG＝8cmです。(1) BEの長さを求めなさい。(2) IKの長さを求めなさい。(3) 台形EGJFの面積は台形EBCFの面積の何倍ですか。（図：Nと同じ形。AB＝33cm、AD＝51cm、HI＝10cm、HG＝6cm、GI＝8cm）",
+      "sourceText": "AB＝33cm、AD＝51cmの長方形ABCDを直線EFで折り返したものです。GH＝6cm、HI＝10cm、IG＝8cmです。(1) BEの長さを求めなさい。(2) IKの長さを求めなさい。(3) 台形EGJFの面積は台形EBCFの面積の何倍ですか。（図：Nと同じ形。AB＝33cm、AD＝51cm、HI＝10cm、HG＝6cm、GI＝8cm）",
+      "source": {
+        "title": "R30H⑦-2",
+        "url": "https://app.notion.com/41e2b010743c8151a244d51ada82794c",
+        "notionPageId": "41e2b010743c8151a244d51ada82794c",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30H⑦-2（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "(1) 12cm (2) 40cm (3) 25/41倍",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "0aecf5bbc4312dbd0e1831d33c2d72daed4e21b54133d6f987e033b4d41de1eb"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "12",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length",
+            "acceptedUnits": {
+              "cm": "1",
+              "センチメートル": "1",
+              "mm": "1/10",
+              "m": "100"
+            },
+            "label": "(1)"
+          },
+          {
+            "n": "40",
+            "d": "1",
+            "unit": "cm",
+            "dimension": "length",
+            "acceptedUnits": {
+              "cm": "1",
+              "センチメートル": "1",
+              "mm": "1/10",
+              "m": "100"
+            },
+            "label": "(2)"
+          },
+          {
+            "n": "25",
+            "d": "41",
+            "unit": "倍",
+            "dimension": "scalar",
+            "label": "(3)"
+          }
+        ]
+      },
+      "difficulty": 7,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "三角形の形",
+            "body": "GH：GI：HI＝6：8：10です。折り返しでできた直角三角形HGI・HBE・ICK・KJFは、どれも○×の角が等しく相似です。",
+            "equation": "6：8：10＝3：4：5",
+            "id": "s1"
+          },
+          {
+            "title": "(1) BEを求める",
+            "body": "EG＝AE なので、BE＋EH＋HG＝AB＝33cm。三角形HBEで BE：EH＝4：5です。",
+            "equation": "BE＝(33−6)×4/(4＋5)＝12（cm）",
+            "checkpoint": {
+              "prompt": "BEは何cmですか。",
+              "answer": {
+                "n": "12",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "(2) BHとIC",
+            "body": "BH＝12×3/4＝9cm。BC＝AD＝51cmなので、",
+            "equation": "IC＝51−(9＋10)＝32（cm）",
+            "id": "s3"
+          },
+          {
+            "title": "(2) IKを求める",
+            "body": "三角形ICKで、ICが④、IKが⑤にあたります。",
+            "equation": "IK＝32×5/4＝40（cm）",
+            "id": "s4"
+          },
+          {
+            "title": "(3) KJとFJ",
+            "body": "GJ＝AD＝51cmなので KJ＝51−(8＋40)＝3cm。三角形KJFでKJが③、FJが④です。",
+            "equation": "FJ＝3×4/3＝4（cm）",
+            "id": "s5"
+          },
+          {
+            "title": "(3) 台形の辺",
+            "body": "台形EGJFは台形AEFDを折り返したものです。AE＝33−12＝21cm、DF＝FJ＝4cm、FC＝33−4＝29cmです。",
+            "equation": "AE＝21、DF＝4、BE＝12、FC＝29",
+            "id": "s6"
+          },
+          {
+            "title": "(3) 何倍か",
+            "body": "2つの台形は高さがどちらも51cmなので、面積の比は（上底＋下底）の比です。",
+            "equation": "(21＋4)÷(12＋29)＝25/41（倍）",
+            "id": "s7"
+          }
+        ]
+      },
+      "figure": "figs/r30/H⑦-2.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c8151a244d51ada82794c",
+      "subdivision": {
+        "id": "3fd2b010743c819e8cd7d9c9482a9074",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 393
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30K-23",
+      "unitId": "r30.calc.symbol_nested_inverse",
+      "category": "oneline",
+      "domain": "記号・定義された演算",
+      "text": "｛a，b｝＝(a＋2×b)/3とします。｛8，｛□，12｝｝＝10の、□にあてはまる数は□です。",
+      "sourceText": "｛a，b｝＝(a＋2×b)/3とします。｛8，｛□，12｝｝＝10の、□にあてはまる数は□です。",
+      "source": {
+        "title": "R30K-23",
+        "url": "https://app.notion.com/41e2b010743c814abc37f50630735db1",
+        "notionPageId": "41e2b010743c814abc37f50630735db1",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30K-23（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "9",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。"
+      },
+      "answer": {
+        "n": "9",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 4,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "約束を確かめる",
+            "body": "｛a，b｝は、aとbの2倍を足して3でわった数です。",
+            "equation": "｛a，b｝＝(a＋2×b)/3",
+            "id": "s1"
+          },
+          {
+            "title": "内側を△とおく",
+            "body": "｛□，12｝＝△とおくと、｛8，△｝＝10 です。",
+            "equation": "(8＋2×△)/3＝10",
+            "id": "s2"
+          },
+          {
+            "title": "△を求める",
+            "body": "3をかけて10×3＝30。8を引いて2でわります。",
+            "equation": "△＝(10×3−8)÷2＝11",
+            "checkpoint": {
+              "prompt": "△はいくつですか。",
+              "answer": {
+                "n": "11",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s3"
+          },
+          {
+            "title": "□を求める",
+            "body": "(□＋2×12)/3＝11 なので、11×3から2×12を引きます。",
+            "equation": "□＝11×3−2×12＝9",
+            "id": "s4"
+          },
+          {
+            "title": "確かめ",
+            "body": "｛9，12｝＝(9＋24)/3＝11、｛8，11｝＝(8＋22)/3＝10 です。",
+            "equation": "(8＋2×11)/3＝10",
+            "id": "s5"
+          }
+        ]
+      },
+      "figureRequired": false,
+      "notionId": "41e2b010743c814abc37f50630735db1",
+      "subdivision": {
+        "id": "3fd2b010743c81b98312de623d6e461e",
+        "name": "記号の逆算",
+        "chu": "記号・定義された演算",
+        "dai": "条件整理・論理",
+        "order": 544
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30K-25",
+      "unitId": "r30.num.not_multiple_2_3_nth",
+      "category": "oneline",
+      "domain": "倍数の個数",
+      "text": "2で割っても3で割っても割り切れない整数のうち、小さい方から100番目の数は□です。",
+      "sourceText": "2で割っても3で割っても割り切れない整数のうち、小さい方から100番目の数は□です。",
+      "source": {
+        "title": "R30K-25",
+        "url": "https://app.notion.com/41e2b010743c81bfbde4d7eeabdaeb7f",
+        "notionPageId": "41e2b010743c81bfbde4d7eeabdaeb7f",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30K-25（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "299",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。"
+      },
+      "answer": {
+        "n": "299",
+        "d": "1",
+        "unit": "",
+        "dimension": "scalar"
+      },
+      "difficulty": 3,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "周期を見つける",
+            "body": "2と3の最小公倍数は6です。1〜6のうち、2でも3でも割り切れないのは1と5の2個です。",
+            "equation": "1〜6：｛1，5｝の2個",
+            "id": "s1"
+          },
+          {
+            "title": "何組目か",
+            "body": "6ごとに2個ずつ出てくるので、100番目は何組目の何番目かを出します。",
+            "equation": "100÷2＝50（組）あまり0",
+            "checkpoint": {
+              "prompt": "100番目は何組目ですか。",
+              "answer": {
+                "n": "50",
+                "d": "1",
+                "unit": "組",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "50組目の数",
+            "body": "50組目は 6×49＋1 から 6×50 までで、その中の2個目（6×49＋5）です。",
+            "equation": "6×50−1＝299",
+            "id": "s3"
+          },
+          {
+            "title": "確かめ",
+            "body": "1〜299 で2でも3でも割り切れない数を数えると 299−(149＋99−49)＝100個です。",
+            "equation": "299−149−99＋49＝100",
+            "id": "s4"
+          }
+        ]
+      },
+      "figureRequired": false,
+      "notionId": "41e2b010743c81bfbde4d7eeabdaeb7f",
+      "subdivision": {
+        "id": "3fd2b010743c814f8f98d996c87a8bdc",
+        "name": "周期を見つけて一周期と余りに分ける",
+        "chu": "群数列・数表",
+        "dai": "規則性",
+        "order": 258
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30T⑤-1",
+      "unitId": "r30.area.two_parallels",
+      "category": "geometry",
+      "domain": "面積比",
+      "text": "右の図で、ABとFG、BCとEFはそれぞれ平行で、AEとEBの長さの比は1：2です。三角形AEFと四角形BGHEの面積の比を最も簡単な整数の比で答えなさい。（図：三角形ABC。EはAB上、FはAC上、GはBC上。ECを結び、FGとECの交点がH）",
+      "sourceText": "右の図で、ABとFG、BCとEFはそれぞれ平行で、AEとEBの長さの比は1：2です。三角形AEFと四角形BGHEの面積の比を最も簡単な整数の比で答えなさい。（図：三角形ABC。EはAB上、FはAC上、GはBC上。ECを結び、FGとECの交点がH）",
+      "source": {
+        "title": "R30T⑤-1",
+        "url": "https://app.notion.com/41e2b010743c815a8c4ee17145301fd2",
+        "notionPageId": "41e2b010743c815a8c4ee17145301fd2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30T⑤-1（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "3：10",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "88d242472ba34210d94186e64111e36030562af49f9a1c3118d01325cd18bc4e"
+      },
+      "answer": {
+        "dimension": "ratio",
+        "terms": [
+          "3",
+          "10"
+        ],
+        "unit": ""
+      },
+      "difficulty": 6,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "ピラミッド形の相似",
+            "body": "EBGFは平行四辺形なのでFG＝EB。三角形AEFと三角形FGCは三角形ABCと相似で、AE：FG＝AE：EB＝1：2です。",
+            "equation": "EF：GC＝1：2",
+            "id": "s1"
+          },
+          {
+            "title": "ちょうちょ形",
+            "body": "EFとGCは平行なので、三角形EHFと三角形CHGは相似比1：2です。EH：HC＝FH：HG＝1：2です。",
+            "equation": "EHF：FHC：EHG：HGC＝①：②：②：④",
+            "checkpoint": {
+              "prompt": "三角形HGCは面積の比でいくつですか（EHF＝①）。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "三角形EBG",
+            "body": "三角形EGC＝②＋④＝⑥。BG＝EFなので BG：GC＝1：2で、三角形EBGは三角形EGCの1/2です。",
+            "equation": "(2＋4)×1/2＝3",
+            "id": "s3"
+          },
+          {
+            "title": "三角形AEF",
+            "body": "三角形EFC＝①＋②＝③。AF：FC＝AE：EB＝1：2なので、三角形AEFは三角形EFCの1/2です。",
+            "equation": "(1＋2)×1/2＝1.5",
+            "id": "s4"
+          },
+          {
+            "title": "比を出す",
+            "body": "四角形BGHE＝三角形EBG＋三角形EHG＝③＋②＝⑤です。",
+            "equation": "1.5：5＝3：10",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/r30/T⑤-1.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c815a8c4ee17145301fd2",
+      "subdivision": {
+        "id": "40a2b010743c8173a86beed247abd209",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 388
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30T⑤-2",
+      "unitId": "r30.area.extend_butterfly",
+      "category": "geometry",
+      "domain": "面積比",
+      "text": "右の図の四角形ABCDは長方形で、BE＝CF＝6cm、GはAFとDEの交点です。四角形ECFGの面積を求めなさい。（図：AB＝18cm、AD＝24cm。EはBC上、FはCD上）",
+      "sourceText": "右の図の四角形ABCDは長方形で、BE＝CF＝6cm、GはAFとDEの交点です。四角形ECFGの面積を求めなさい。（図：AB＝18cm、AD＝24cm。EはBC上、FはCD上）",
+      "source": {
+        "title": "R30T⑤-2",
+        "url": "https://app.notion.com/41e2b010743c81fbb7d9c79bfb11831e",
+        "notionPageId": "41e2b010743c81fbb7d9c79bfb11831e",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30T⑤-2（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "114cm²",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "2bc7610ad1febaadb52539a38ab0d314f4a7cb0108ee8592814ddc545a819cbd"
+      },
+      "answer": {
+        "n": "114",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area",
+        "acceptedUnits": {
+          "cm²": "1",
+          "cm2": "1",
+          "平方センチメートル": "1"
+        }
+      },
+      "difficulty": 6,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "AFを延長する",
+            "body": "AFとBCの延長の交点をHとします。ADとCHが平行なので、三角形AFDと三角形HFCはちょうちょ形の相似で、DF：FC＝(18−6)：6＝2：1です。",
+            "equation": "CH＝24×1/2＝12（cm）",
+            "checkpoint": {
+              "prompt": "CHは何cmですか。",
+              "answer": {
+                "n": "12",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "もう1つのちょうちょ形",
+            "body": "HE＝(24−6)＋12＝30cm。ADとEHが平行なので、三角形AGDと三角形HGEは相似で、相似比は24：30＝4：5です。",
+            "equation": "24：30＝4：5",
+            "id": "s2"
+          },
+          {
+            "title": "三角形HGEの高さ",
+            "body": "ADとBCの間の長さ18cmを4：5に分けると、Gから辺BCまでの高さは⑤です。",
+            "equation": "18×5/9＝10（cm）",
+            "id": "s3"
+          },
+          {
+            "title": "三角形HGEと三角形HFC",
+            "body": "三角形HGEは底辺30cm、高さ10cm。三角形HFCは底辺12cm、高さ6cmです。",
+            "equation": "30×10÷2＝150、12×6÷2＝36",
+            "id": "s4"
+          },
+          {
+            "title": "四角形ECFG",
+            "body": "三角形HGEから三角形HFCを引きます。",
+            "equation": "150−36＝114（cm²）",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/r30/T⑤-2.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c81fbb7d9c79bfb11831e",
+      "subdivision": {
+        "id": "40a2b010743c819892a5ef1f39615aed",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 412
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R30T⑤-3",
+      "unitId": "r30.area.two_butterflies_link",
+      "category": "geometry",
+      "domain": "面積比",
+      "text": "平行四辺形ABCDがあります。AE：ED＝2：3、CF：FD＝1：5で、PはAFとBEの交わる点です。(1) AP：PFを求めなさい。(2) 平行四辺形ABCDの面積が180cm²のとき、四角形BCFPの面積を求めなさい。（図：EはAD上、FはCD上）",
+      "sourceText": "平行四辺形ABCDがあります。AE：ED＝2：3、CF：FD＝1：5で、PはAFとBEの交わる点です。(1) AP：PFを求めなさい。(2) 平行四辺形ABCDの面積が180cm²のとき、四角形BCFPの面積を求めなさい。（図：EはAD上、FはCD上）",
+      "source": {
+        "title": "R30T⑤-3",
+        "url": "https://app.notion.com/41e2b010743c819a81ffcffbb0644475",
+        "notionPageId": "41e2b010743c819a81ffcffbb0644475",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-30 平面図形(5)-かげ・折り返し-.pdf",
+        "locator": "5年No.30 R30T⑤-3（図は後期3 図版の問題図と同じ切り抜き）",
+        "scopeUnits": [
+          "R30"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-20 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H⑤-1・H⑥-2・H⑥-3 は H に解説がないため同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。",
+        "sourceAnswer": "(1) 3：7 (2) 78cm²",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "8f37eaa5d6541a470294d099a85d1bac9a08b37fae51f214f38387e813d2ea9b"
+      },
+      "answer": {
+        "parts": [
+          {
+            "dimension": "ratio",
+            "terms": [
+              "3",
+              "7"
+            ],
+            "unit": "",
+            "label": "(1)"
+          },
+          {
+            "n": "78",
+            "d": "1",
+            "unit": "cm²",
+            "dimension": "area",
+            "acceptedUnits": {
+              "cm²": "1",
+              "cm2": "1",
+              "平方センチメートル": "1"
+            },
+            "label": "(2)"
+          }
+        ]
+      },
+      "difficulty": 7,
+      "scopeUnits": [
+        "R30"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "(1) AFを延長する",
+            "body": "AFとBCの延長の交点をGとします。AD＝⑤とすると、三角形AFDと三角形GFCは相似比 DF：FC＝5：1 です。",
+            "equation": "CG＝①、AF：FG＝5：1",
+            "id": "s1"
+          },
+          {
+            "title": "(1) もう1つのちょうちょ形",
+            "body": "AE＝②、BG＝⑤＋①＝⑥です。AEとBGが平行なので、三角形APEと三角形GPBは相似です。",
+            "equation": "AP：PG＝2：6＝1：3",
+            "checkpoint": {
+              "prompt": "BGは比でいくつですか（AD＝⑤）。",
+              "answer": {
+                "n": "6",
+                "d": "1",
+                "unit": "",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "(1) AGの長さをそろえる",
+            "body": "AGを 5＋1＝6 と 1＋3＝4 の最小公倍数12にします。AF＝10、AP＝3です。",
+            "equation": "AP：PF＝3：(10−3)＝3：7",
+            "id": "s3"
+          },
+          {
+            "title": "(2) 三角形BCF",
+            "body": "三角形BCDは平行四辺形の1/2。CFはCDの1/6なので、",
+            "equation": "180×1/2×1/6＝15（cm²）",
+            "id": "s4"
+          },
+          {
+            "title": "(2) 三角形PBF",
+            "body": "三角形ABFは平行四辺形の1/2（底辺AB、高さは平行四辺形と同じ）。PF：AF＝7：10です。",
+            "equation": "180×1/2×7/10＝63（cm²）",
+            "id": "s5"
+          },
+          {
+            "title": "(2) 四角形BCFP",
+            "body": "2つの三角形を合わせます。",
+            "equation": "15＋63＝78（cm²）",
+            "id": "s6"
+          }
+        ]
+      },
+      "figure": "figs/r30/T⑤-3.png",
+      "figureRequired": true,
+      "notionId": "41e2b010743c819a81ffcffbb0644475",
+      "subdivision": {
+        "id": "40a2b010743c819892a5ef1f39615aed",
+        "name": "相似の基本（対応辺比）",
+        "chu": "相似・辺の比・面積比",
+        "dai": "平面図形",
+        "order": 412
+      },
+      "role": "代表"
+    },
+    {
       "id": "R24H①-2",
       "unitId": "work.parallel.complete",
       "category": "oneline",
@@ -222758,6 +225060,213 @@
       "prerequisites": []
     },
     {
+      "id": "r30.shadow.lamp_distance",
+      "name": "電灯のかげ：高さの比＝地面の長さの比（距離を求める）",
+      "definition": "電灯のかげ：高さの比＝地面の長さの比（距離を求める）",
+      "decision": "照明灯と人でピラミッド形。高さの比が「照明灯の根もとからかげの先まで」と「かげ」の比になる",
+      "domain": "かげと相似",
+      "representativeId": "R30H①-1",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.shadow.lamp_length",
+      "name": "電灯のかげ：差の比からかげの長さを出す",
+      "definition": "電灯のかげ：差の比からかげの長さを出す",
+      "decision": "高さの比で地面の長さの比を出し、照明灯から人までの長さを「全体−かげ」の比にあてる",
+      "domain": "かげと相似",
+      "representativeId": "R30H①-2",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.shadow.lamp_height",
+      "name": "電灯のかげ：地面の長さの比から高さを出す",
+      "definition": "電灯のかげ：地面の長さの比から高さを出す",
+      "decision": "「照明灯からかげの先まで」：「かげ」の比が、照明灯：木の高さの比",
+      "domain": "かげと相似",
+      "representativeId": "R30H①-3",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.shadow.sun_basic",
+      "name": "太陽のかげ：棒の高さ：かげの比を使う",
+      "definition": "太陽のかげ：棒の高さ：かげの比を使う",
+      "decision": "太陽の光は平行なので、同じ時刻なら高さ：かげの比はどこでも同じ",
+      "domain": "かげと相似",
+      "representativeId": "R30H①-4",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.shadow.wall_step_reverse",
+      "name": "かべ・段差にできるかげ（逆算）：高さの差からかげ",
+      "definition": "かべ・段差にできるかげ（逆算）：高さの差からかげ",
+      "decision": "かべにうつった高さで水平に切る／低い地面の高さで考える。高さ：かげ＝5：7",
+      "domain": "かげと相似",
+      "representativeId": "R30H②-2",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.shadow.two_buildings",
+      "name": "2つのビル：屋上にうつるかげ（Bの屋上の高さで切る）",
+      "definition": "2つのビル：屋上にうつるかげ（Bの屋上の高さで切る）",
+      "decision": "Bのかげで高さを出し、Aは「Bの屋上より上の部分」を道路＋屋上のかげから出して足す",
+      "domain": "かげと相似",
+      "representativeId": "R30H②-4",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.fold.isosceles_overlap",
+      "name": "頂点どうしを重ねる折り返し：錯角で二等辺三角形",
+      "definition": "頂点どうしを重ねる折り返し：錯角で二等辺三角形",
+      "decision": "折り返しで等しい角と、平行線の錯角で、重なりの三角形が二等辺三角形になる",
+      "domain": "合同・折り返し",
+      "representativeId": "R30H③-1",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.fold.diagonal_overhang",
+      "name": "対角線で折り返し：重なりは二等辺三角形、はみ出し分を引く",
+      "definition": "対角線で折り返し：重なりは二等辺三角形、はみ出し分を引く",
+      "decision": "折り返した辺の長さは変わらない。重なりの三角形は二等辺三角形で、底辺＝横−はみ出し",
+      "domain": "合同・折り返し",
+      "representativeId": "R30H③-2",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.fold.diagonal_height",
+      "name": "対角線で折り返し：二等辺三角形の高さを相似で出す",
+      "definition": "対角線で折り返し：二等辺三角形の高さを相似で出す",
+      "decision": "重なりの二等辺三角形は対角線の真ん中に垂線。長方形の半分の直角三角形と相似（5：12：13）",
+      "domain": "折り返しと相似",
+      "representativeId": "R30H③-3",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.fold.side_onto_diagonal",
+      "name": "辺を対角線に重ねる折り返し：相似で折り目の位置",
+      "definition": "辺を対角線に重ねる折り返し：相似で折り目の位置",
+      "decision": "折り返した辺は対角線上に重なる。小さい直角三角形は長方形の半分と相似（8：15：17）",
+      "domain": "折り返しと相似",
+      "representativeId": "R30H③-4",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.fold.corner_on_side",
+      "name": "頂点が辺上にくる折り返し：○×の角で相似",
+      "definition": "頂点が辺上にくる折り返し：○×の角で相似",
+      "decision": "折り返した頂点の角は直角のまま。その両側の直角三角形は○×の角が等しく相似",
+      "domain": "折り返しと相似",
+      "representativeId": "R30H④-1",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.fold.corner_area",
+      "name": "頂点が辺上にくる折り返し：相似の比から辺→面積",
+      "definition": "頂点が辺上にくる折り返し：相似の比から辺→面積",
+      "decision": "折り返した辺はもとの長さ。○×の角で相似を見つけ、斜辺の比から辺を出して面積へ",
+      "domain": "折り返しと相似",
+      "representativeId": "R30H④-3",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.fold.square_midpoint",
+      "name": "正方形の頂点を辺の中点へ折る：3：4：5の直角三角形が3つ並ぶ",
+      "definition": "正方形の頂点を辺の中点へ折る：3：4：5の直角三角形が3つ並ぶ",
+      "decision": "1つ目の直角三角形で辺の比をつかみ、○×の角で次々に相似な三角形に写す",
+      "domain": "折り返しと相似",
+      "representativeId": "R30H⑤-1",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.shadow.two_lamps",
+      "name": "2本の街灯：前後のかげが等しい→(街灯−身長)の比で道のりを分ける",
+      "definition": "2本の街灯：前後のかげが等しい→(街灯−身長)の比で道のりを分ける",
+      "decision": "子どもの頭の高さで水平に切る。かげが等しいので、上の三角形どうしが相似になり、比で道のりを分ける",
+      "domain": "かげと相似",
+      "representativeId": "R30H⑥-1",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.shadow.walking",
+      "name": "歩く人のかげ：等身大のかげで位置→速さ。へいのかげは身長より上の三角形の相似",
+      "definition": "歩く人のかげ：等身大のかげで位置→速さ。へいのかげは身長より上の三角形の相似",
+      "decision": "街灯：身長の比で、かげが身長と等しくなる位置を出す。へいのかげは頭の高さより上（下）の三角形で考える",
+      "domain": "かげと相似",
+      "representativeId": "R30H⑥-2",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.shadow.stairs",
+      "name": "石段のかげ：真横から見て高さ：底辺の比を一定にする",
+      "definition": "石段のかげ：真横から見て高さ：底辺の比を一定にする",
+      "decision": "棒の先から、かげの先がある段の高さまでの差と水平の長さで、比を一定にして位置を出す",
+      "domain": "かげと相似",
+      "representativeId": "R30H⑥-3",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.shadow.wall_tower",
+      "name": "かべにうつるかげ：かげの先より上の三角形の高さ：底辺を人で求めて鉄塔に使う",
+      "definition": "かべにうつるかげ：かげの先より上の三角形の高さ：底辺を人で求めて鉄塔に使う",
+      "decision": "かべにうつった高さで切った「上の三角形」の高さ：底辺を人で出し、同じ比を鉄塔に使う",
+      "domain": "かげと相似",
+      "representativeId": "R30H⑦-1",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.fold.rect_four_triangles",
+      "name": "長方形を斜めに折る：3：4：5の三角形を4つつなぐ。高さが同じ台形は上底＋下底の比",
+      "definition": "長方形を斜めに折る：3：4：5の三角形を4つつなぐ。高さが同じ台形は上底＋下底の比",
+      "decision": "GHIの3：4：5を、相似な4つの直角三角形に順に写す。辺の和で残りを出す",
+      "domain": "折り返しと相似",
+      "representativeId": "R30H⑦-2",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.calc.symbol_nested_inverse",
+      "name": "約束記号の逆算：内側を△とおいて外側から戻す",
+      "definition": "約束記号の逆算：内側を△とおいて外側から戻す",
+      "decision": "内側の｛ ｝を△とおき、外側の式から△を出してから、内側の□を出す",
+      "domain": "記号・定義された演算",
+      "representativeId": "R30K-23",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.num.not_multiple_2_3_nth",
+      "name": "2でも3でも割り切れない数のN番目：最小公倍数ごとの周期",
+      "definition": "2でも3でも割り切れない数のN番目：最小公倍数ごとの周期",
+      "decision": "6ごとに区切ると、1と5の2個ずつが並ぶ。何組目の何番目かを出す",
+      "domain": "倍数の個数",
+      "representativeId": "R30K-25",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.area.two_parallels",
+      "name": "平行線2組：ちょうちょ形と底辺比で面積をつなぐ",
+      "definition": "平行線2組：ちょうちょ形と底辺比で面積をつなぐ",
+      "decision": "FG＝EBから相似比を出し、ちょうちょ形の4つの三角形に面積を書きこんで、底辺比で広げる",
+      "domain": "面積比",
+      "representativeId": "R30T⑤-1",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.area.extend_butterfly",
+      "name": "辺を延長してちょうちょ形：高さの比で面積を出す",
+      "definition": "辺を延長してちょうちょ形：高さの比で面積を出す",
+      "decision": "AFをBCの延長と交わらせて2つのちょうちょ形を作り、大きい三角形から小さい三角形を引く",
+      "domain": "面積比",
+      "representativeId": "R30T⑤-2",
+      "prerequisites": []
+    },
+    {
+      "id": "r30.area.two_butterflies_link",
+      "name": "延長線でちょうちょ形を2つ作り、連比でそろえる",
+      "definition": "延長線でちょうちょ形を2つ作り、連比でそろえる",
+      "decision": "AFをBCの延長と交わらせ、AF：FG と AP：PG を全体AGでそろえる",
+      "domain": "面積比",
+      "representativeId": "R30T⑤-3",
+      "prerequisites": []
+    },
+    {
       "id": "work.parallel.complete",
       "name": "2人の仕事量を合わせる",
       "domain": "仕事算",
@@ -240469,6 +242978,36 @@
       "to": "r29.sim.scale_area_units",
       "relation": "extension",
       "difference": "長さの縮尺から、面積と単位換算へ。"
+    },
+    {
+      "from": "r30.shadow.lamp_distance",
+      "to": "r30.shadow.lamp_length",
+      "relation": "extension",
+      "difference": "高さの比から距離を出す形から、差の比でかげの長さを出す形へ。"
+    },
+    {
+      "from": "r30.shadow.sun_basic",
+      "to": "r30.shadow.wall_step_reverse",
+      "relation": "extension",
+      "difference": "平らな地面のかげから、かべ・段差にできるかげへ。"
+    },
+    {
+      "from": "r30.shadow.wall_step_reverse",
+      "to": "r30.shadow.two_buildings",
+      "relation": "extension",
+      "difference": "1本の木から、2つのビルの屋上にうつるかげへ。"
+    },
+    {
+      "from": "r30.fold.diagonal_overhang",
+      "to": "r30.fold.diagonal_height",
+      "relation": "extension",
+      "difference": "はみ出し分がわかる形から、二等辺三角形の高さを相似で出す形へ。"
+    },
+    {
+      "from": "r30.fold.corner_on_side",
+      "to": "r30.fold.corner_area",
+      "relation": "extension",
+      "difference": "辺の長さから、2つの三角形の面積まで。"
     },
     {
       "from": "work.parallel.complete",
