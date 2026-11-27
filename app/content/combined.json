@@ -54264,6 +54264,1091 @@
       "role": "代表"
     },
     {
+      "id": "R31H①-1",
+      "unitId": "r31.slide.overlap_isosceles",
+      "category": "geometry",
+      "domain": "図形の移動（平行移動）",
+      "text": "直角二等辺三角形を右に4cmずらしました。かげの部分の面積を求めなさい。（図：底辺14cm、ずらした長さ4cm）",
+      "sourceText": "直角二等辺三角形を右に4cmずらしました。かげの部分の面積を求めなさい。（図：底辺14cm、ずらした長さ4cm）",
+      "source": {
+        "title": "R31H①-1",
+        "url": "https://app.notion.com/4252b010743c81308fe0c9909e8a3aed",
+        "notionPageId": "4252b010743c81308fe0c9909e8a3aed",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-31 平面図形(6)-図形の移動-.pdf",
+        "locator": "5年No.31 R31H①-1（図は後期3 図版 p.657 と同じ切り抜き）",
+        "scopeUnits": [
+          "R31"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-27 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H は解説が一部だけなので同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。平行移動の3問は重なりの形・面積を座標でも検算。",
+        "sourceAnswer": "25cm²",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "ed1a2c34ae9a529f98f725392d2cd61f15ca232a80d5aafd161252df8b6fa097"
+      },
+      "answer": {
+        "n": "25",
+        "d": "1",
+        "unit": "cm²",
+        "dimension": "area",
+        "acceptedUnits": {
+          "cm²": "1",
+          "cm2": "1",
+          "平方センチメートル": "1"
+        }
+      },
+      "difficulty": 4,
+      "scopeUnits": [
+        "R31"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "重なりの形",
+            "body": "同じ直角二等辺三角形を横にずらすと、重なり（かげの部分）も直角二等辺三角形になります。",
+            "equation": "かげ＝直角二等辺三角形",
+            "id": "s1"
+          },
+          {
+            "title": "かげの底辺",
+            "body": "ずらした4cmの分だけ、かげの底辺は短くなります。",
+            "equation": "14−4＝10（cm）",
+            "checkpoint": {
+              "prompt": "かげの三角形の底辺は何cmですか。",
+              "answer": {
+                "n": "10",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "かげの高さ",
+            "body": "直角二等辺三角形の高さは、斜めの辺（底辺）の半分です。",
+            "equation": "10÷2＝5（cm）",
+            "id": "s3"
+          },
+          {
+            "title": "面積",
+            "body": "底辺10cm、高さ5cmの三角形です。",
+            "equation": "10×5÷2＝25（cm²）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r31/H①-1.png",
+      "figureRequired": true,
+      "notionId": "4252b010743c81308fe0c9909e8a3aed",
+      "subdivision": {
+        "id": "3fd2b010743c81daa21ecba96f48b86f",
+        "name": "平行移動の重なり面積",
+        "chu": "動点・図形の移動",
+        "dai": "速さ",
+        "order": 240
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R31H②-2",
+      "unitId": "r31.slide.contain_and_area",
+      "category": "geometry",
+      "domain": "図形の移動（平行移動）",
+      "text": "2つの直角二等辺三角形があります。三角形ABCを直線ℓにそって矢印の方向に秒速2cmで動かします。(1) 三角形ABCが三角形DEFの中に完全に含まれるのは何秒後から何秒後までの間ですか。(2) 2つの三角形が重なった部分の面積が4.5cm²になるのは何秒後と何秒後ですか。（図：BC＝AC＝8cm、CとEの間4cm、EF＝DF＝13cm）",
+      "sourceText": "2つの直角二等辺三角形があります。三角形ABCを直線ℓにそって矢印の方向に秒速2cmで動かします。(1) 三角形ABCが三角形DEFの中に完全に含まれるのは何秒後から何秒後までの間ですか。(2) 2つの三角形が重なった部分の面積が4.5cm²になるのは何秒後と何秒後ですか。（図：BC＝AC＝8cm、CとEの間4cm、EF＝DF＝13cm）",
+      "source": {
+        "title": "R31H②-2",
+        "url": "https://app.notion.com/4252b010743c812fb057c0d861fd4c1d",
+        "notionPageId": "4252b010743c812fb057c0d861fd4c1d",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-31 平面図形(6)-図形の移動-.pdf",
+        "locator": "5年No.31 R31H②-2（図は後期3 図版 p.661 と同じ切り抜き）",
+        "scopeUnits": [
+          "R31"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-27 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H は解説が一部だけなので同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。平行移動の3問は重なりの形・面積を座標でも検算。",
+        "sourceAnswer": "(1) 6秒後から8.5秒後まで (2) 3.5秒後と11秒後",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "dba0d0eb449cdb2fc3ab52f10606bce3942974fbf78330edb6a853fb8a88f569"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "6",
+            "d": "1",
+            "unit": "秒後",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "秒後": "1",
+              "秒": "1"
+            },
+            "label": "(1)から"
+          },
+          {
+            "n": "17",
+            "d": "2",
+            "unit": "秒後",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "秒後": "1",
+              "秒": "1"
+            },
+            "label": "(1)まで"
+          },
+          {
+            "n": "7",
+            "d": "2",
+            "unit": "秒後",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "秒後": "1",
+              "秒": "1"
+            },
+            "label": "(2)1回目"
+          },
+          {
+            "n": "11",
+            "d": "1",
+            "unit": "秒後",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "秒後": "1",
+              "秒": "1"
+            },
+            "label": "(2)2回目"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "scopeUnits": [
+        "R31"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "完全に含まれ始めるとき",
+            "body": "BがEに重なると、三角形ABCが三角形DEFの中に入りきります。Bは8＋4＝12cm動きます。",
+            "equation": "12÷2＝6（秒後）",
+            "id": "s1"
+          },
+          {
+            "title": "完全に含まれ終わるとき",
+            "body": "CがFに重なるまでは中に入っています。Cは4＋13＝17cm動きます。",
+            "equation": "17÷2＝8.5（秒後）",
+            "checkpoint": {
+              "prompt": "完全に含まれ終わるのは何秒後ですか。",
+              "answer": {
+                "n": "17",
+                "d": "2",
+                "unit": "秒後",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "重なりの形",
+            "body": "重なりはいつも直角二等辺三角形です。面積4.5cm²なら、等しい辺は3cmです。",
+            "equation": "□×□÷2＝4.5 → □＝3（cm）",
+            "id": "s3"
+          },
+          {
+            "title": "1回目",
+            "body": "CがEより3cm右に進んだときです。",
+            "equation": "(4＋3)÷2＝3.5（秒後）",
+            "id": "s4"
+          },
+          {
+            "title": "2回目",
+            "body": "三角形ABCがFをこえていき、BがFの3cm手前にきたときです。",
+            "equation": "(8＋4＋13−3)÷2＝11（秒後）",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/r31/H②-2.png",
+      "figureRequired": true,
+      "notionId": "4252b010743c812fb057c0d861fd4c1d",
+      "subdivision": {
+        "id": "3fd2b010743c81daa21ecba96f48b86f",
+        "name": "平行移動の重なり面積",
+        "chu": "動点・図形の移動",
+        "dai": "速さ",
+        "order": 240
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R31H②-3",
+      "unitId": "r31.slide.both_move",
+      "category": "geometry",
+      "domain": "図形の移動（平行移動）",
+      "text": "図のような位置に直角二等辺三角形と正方形があります。直線ℓにそって、それぞれ矢印の方向に直角二等辺三角形は秒速2cm、正方形は秒速1cmで同時に動き出しました。重なった部分がはじめて8cm²になるのは、出発してから何秒後ですか。（図：直角をはさむ辺10cm、間20cm、正方形は1辺14cm）",
+      "sourceText": "図のような位置に直角二等辺三角形と正方形があります。直線ℓにそって、それぞれ矢印の方向に直角二等辺三角形は秒速2cm、正方形は秒速1cmで同時に動き出しました。重なった部分がはじめて8cm²になるのは、出発してから何秒後ですか。（図：直角をはさむ辺10cm、間20cm、正方形は1辺14cm）",
+      "source": {
+        "title": "R31H②-3",
+        "url": "https://app.notion.com/4252b010743c81cabadccc9ea59e8bc4",
+        "notionPageId": "4252b010743c81cabadccc9ea59e8bc4",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-31 平面図形(6)-図形の移動-.pdf",
+        "locator": "5年No.31 R31H②-3（図は後期3 図版 p.662 と同じ切り抜き）",
+        "scopeUnits": [
+          "R31"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-27 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H は解説が一部だけなので同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。平行移動の3問は重なりの形・面積を座標でも検算。",
+        "sourceAnswer": "8秒後",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "b67ae10d87c8bb16cdabd71836340c40784ebacf5e246115c79a48af29196286"
+      },
+      "answer": {
+        "n": "8",
+        "d": "1",
+        "unit": "秒後",
+        "dimension": "scalar",
+        "acceptedUnits": {
+          "秒後": "1",
+          "秒": "1"
+        }
+      },
+      "difficulty": 5,
+      "scopeUnits": [
+        "R31"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "重なりの形",
+            "body": "はじめの重なりは直角二等辺三角形です。面積8cm²なら、等しい辺は4cmです。",
+            "equation": "□×□÷2＝8 → □＝4（cm）",
+            "checkpoint": {
+              "prompt": "重なりの直角二等辺三角形の等しい辺は何cmですか。",
+              "answer": {
+                "n": "4",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "近づいた長さ",
+            "body": "間の20cmをうめて、さらに4cm重なるまでに近づく長さです。",
+            "equation": "20＋4＝24（cm）",
+            "id": "s2"
+          },
+          {
+            "title": "近づく速さ",
+            "body": "向かい合って動くので、1秒に近づく長さは速さの和です。",
+            "equation": "2＋1＝3（cm）",
+            "id": "s3"
+          },
+          {
+            "title": "時間",
+            "body": "24cmを1秒に3cmずつ近づきます。",
+            "equation": "24÷3＝8（秒後）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r31/H②-3.png",
+      "figureRequired": true,
+      "notionId": "4252b010743c81cabadccc9ea59e8bc4",
+      "subdivision": {
+        "id": "3fd2b010743c81daa21ecba96f48b86f",
+        "name": "平行移動の重なり面積",
+        "chu": "動点・図形の移動",
+        "dai": "速さ",
+        "order": 240
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R31H③-1",
+      "unitId": "r31.slide.shape_change",
+      "category": "geometry",
+      "domain": "図形の移動（平行移動）",
+      "text": "図のような直角二等辺三角形と長方形があります。直角二等辺三角形を直線ℓにそって矢印の方向に秒速2cmで動かします。(1) 次の□にあてはまる数を答えなさい。2つの図形が重なる部分の形は、㋐角形→㋑角形→㋒角形→㋓角形のように変化していきます。(2) 重なる部分の形が、(1)の㋒角形になっているのは、動かし始めてから何秒後から何秒後までの間ですか。（図：直角二等辺三角形は底辺8cm・高さ8cm（左が直角）、間6cm、長方形はたて5cm・横10cm）",
+      "sourceText": "図のような直角二等辺三角形と長方形があります。直角二等辺三角形を直線ℓにそって矢印の方向に秒速2cmで動かします。(1) 次の□にあてはまる数を答えなさい。2つの図形が重なる部分の形は、㋐角形→㋑角形→㋒角形→㋓角形のように変化していきます。(2) 重なる部分の形が、(1)の㋒角形になっているのは、動かし始めてから何秒後から何秒後までの間ですか。（図：直角二等辺三角形は底辺8cm・高さ8cm（左が直角）、間6cm、長方形はたて5cm・横10cm）",
+      "source": {
+        "title": "R31H③-1",
+        "url": "https://app.notion.com/4252b010743c81ceae18f7c59a568fc5",
+        "notionPageId": "4252b010743c81ceae18f7c59a568fc5",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-31 平面図形(6)-図形の移動-.pdf",
+        "locator": "5年No.31 R31H③-1（図は後期3 図版 p.663 と同じ切り抜き）",
+        "scopeUnits": [
+          "R31"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-27 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H は解説が一部だけなので同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。平行移動の3問は重なりの形・面積を座標でも検算。",
+        "sourceAnswer": "(1) ㋐三 ㋑四 ㋒五 ㋓四 (2) 8秒後から10.5秒後まで",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "f28e01dc75c8716caada7d40d2f65f570b6d03fce3b576c1a4937f338299971a"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "3",
+            "d": "1",
+            "unit": "角形",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "角形": "1"
+            },
+            "label": "㋐"
+          },
+          {
+            "n": "4",
+            "d": "1",
+            "unit": "角形",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "角形": "1"
+            },
+            "label": "㋑"
+          },
+          {
+            "n": "5",
+            "d": "1",
+            "unit": "角形",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "角形": "1"
+            },
+            "label": "㋒"
+          },
+          {
+            "n": "4",
+            "d": "1",
+            "unit": "角形",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "角形": "1"
+            },
+            "label": "㋓"
+          },
+          {
+            "n": "8",
+            "d": "1",
+            "unit": "秒後",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "秒後": "1",
+              "秒": "1"
+            },
+            "label": "(2)から"
+          },
+          {
+            "n": "21",
+            "d": "2",
+            "unit": "秒後",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "秒後": "1",
+              "秒": "1"
+            },
+            "label": "(2)まで"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "scopeUnits": [
+        "R31"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "はじめは三角形、次に四角形",
+            "body": "三角形の先が長方形に入ると、重なりは三角形です。重なりのはばが5cmをこえると、長方形の上の辺で切られて四角形になります。",
+            "equation": "三角形 → 四角形",
+            "id": "s1"
+          },
+          {
+            "title": "五角形になる",
+            "body": "三角形の先が長方形の右の辺をこえると、右の辺でも切られて五角形になります。",
+            "equation": "三角形の先が右の辺をこえる → 五角形",
+            "checkpoint": {
+              "prompt": "㋒は何角形ですか（数を答えます）。",
+              "answer": {
+                "n": "5",
+                "d": "1",
+                "unit": "角形",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "五角形になり始めるとき",
+            "body": "三角形の先が、間の6cmと長方形の横10cmを進んだときです。",
+            "equation": "(6＋10)÷2＝8（秒後）",
+            "id": "s3"
+          },
+          {
+            "title": "五角形が終わるとき",
+            "body": "ななめの辺の高さが5cmになる点（直角の辺から8−5＝3cm右）が、長方形の右の辺にきたときです。",
+            "equation": "(8＋6＋10−3)÷2＝10.5（秒後）",
+            "id": "s4"
+          },
+          {
+            "title": "最後の形",
+            "body": "そのあとは長方形の右側が高さ5cmいっぱいに重なり、四角形（長方形）になります。",
+            "equation": "三→四→五→四",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/r31/H③-1.png",
+      "figureRequired": true,
+      "notionId": "4252b010743c81ceae18f7c59a568fc5",
+      "subdivision": {
+        "id": "3fd2b010743c81daa21ecba96f48b86f",
+        "name": "平行移動の重なり面積",
+        "chu": "動点・図形の移動",
+        "dai": "速さ",
+        "order": 240
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R31H③-2",
+      "unitId": "r31.slide.overlap_max",
+      "category": "geometry",
+      "domain": "図形の移動（平行移動）",
+      "text": "図のような直角二等辺三角形と長方形があります。直角二等辺三角形を直線ℓにそって矢印の方向に秒速2cmで動かします。(1) 動かし始めてから4秒後の…面積を求めなさい。(2) 重なる部分の面積が最も大きくなるのは、出発してから何秒後ですか。（図：斜辺8cm、間2cm、長方形はたて3cm・横6cm）",
+      "sourceText": "図のような直角二等辺三角形と長方形があります。直角二等辺三角形を直線ℓにそって矢印の方向に秒速2cmで動かします。(1) 動かし始めてから4秒後の…面積を求めなさい。(2) 重なる部分の面積が最も大きくなるのは、出発してから何秒後ですか。（図：斜辺8cm、間2cm、長方形はたて3cm・横6cm）",
+      "source": {
+        "title": "R31H③-2",
+        "url": "https://app.notion.com/4252b010743c816d9e43ca5102518217",
+        "notionPageId": "4252b010743c816d9e43ca5102518217",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-31 平面図形(6)-図形の移動-.pdf",
+        "locator": "5年No.31 R31H③-2（図は後期3 図版 p.664 と同じ切り抜き）",
+        "scopeUnits": [
+          "R31"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-27 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H は解説が一部だけなので同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。平行移動の3問は重なりの形・面積を座標でも検算。",
+        "sourceAnswer": "(1) 13cm² (2) 4.5秒後",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "e7e139a3e87575907942fc27c2869065a71c7f46f5d4cfd31be60dc8acb300da"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "13",
+            "d": "1",
+            "unit": "cm²",
+            "dimension": "area",
+            "acceptedUnits": {
+              "cm²": "1",
+              "cm2": "1",
+              "平方センチメートル": "1"
+            },
+            "label": "(1)"
+          },
+          {
+            "n": "9",
+            "d": "2",
+            "unit": "秒後",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "秒後": "1",
+              "秒": "1"
+            },
+            "label": "(2)"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "scopeUnits": [
+        "R31"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "4秒後の位置",
+            "body": "2×4＝8cm動くので、三角形の右はしは長方形の左はしから8−2＝6cm、ちょうど右はしにきます。",
+            "equation": "2×4−2＝6（cm）",
+            "id": "s1"
+          },
+          {
+            "title": "はみ出す部分",
+            "body": "長方形の高さは3cm、三角形の高さは4cmです。長方形の左上と右上に、等しい辺1cmと3cmの直角二等辺三角形が三角形の外にはみ出します。",
+            "equation": "1cmと3cm",
+            "id": "s2"
+          },
+          {
+            "title": "(1)の面積",
+            "body": "長方形からはみ出す部分を引きます。",
+            "equation": "3×6−(1×1÷2＋3×3÷2)＝13（cm²）",
+            "checkpoint": {
+              "prompt": "(1)の答えは何cm²ですか。",
+              "answer": {
+                "n": "13",
+                "d": "1",
+                "unit": "cm²",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s3"
+          },
+          {
+            "title": "(2) 最も大きくなるとき",
+            "body": "三角形の頂点が長方形のはばの真ん中にくると、左右のはみ出しが1cmずつで最も小さくなります。三角形の左はしが長方形の左はしの1cm手前にきたときです。",
+            "equation": "(2＋8−1)÷2＝4.5（秒後）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r31/H③-2.png",
+      "figureRequired": true,
+      "notionId": "4252b010743c816d9e43ca5102518217",
+      "subdivision": {
+        "id": "3fd2b010743c81daa21ecba96f48b86f",
+        "name": "平行移動の重なり面積",
+        "chu": "動点・図形の移動",
+        "dai": "速さ",
+        "order": 240
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R31H③-3",
+      "unitId": "r31.slide.overlap_time_twice",
+      "category": "geometry",
+      "domain": "図形の移動（平行移動）",
+      "text": "図のような直角二等辺三角形と正方形があります。直角二等辺三角形を直線ℓにそって矢印の方向に秒速2cmで動かします。2つの図形の重なる部分の面積が11.5cm²になるのは、出発してから何秒後と何秒後ですか。（図：斜辺12cm、間3cm、正方形は1辺4cm）",
+      "sourceText": "図のような直角二等辺三角形と正方形があります。直角二等辺三角形を直線ℓにそって矢印の方向に秒速2cmで動かします。2つの図形の重なる部分の面積が11.5cm²になるのは、出発してから何秒後と何秒後ですか。（図：斜辺12cm、間3cm、正方形は1辺4cm）",
+      "source": {
+        "title": "R31H③-3",
+        "url": "https://app.notion.com/4252b010743c81e19c8efc69f97eea6e",
+        "notionPageId": "4252b010743c81e19c8efc69f97eea6e",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-31 平面図形(6)-図形の移動-.pdf",
+        "locator": "5年No.31 R31H③-3（図は後期3 図版 p.665 と同じ切り抜き）",
+        "scopeUnits": [
+          "R31"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-27 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H は解説が一部だけなので同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。平行移動の3問は重なりの形・面積を座標でも検算。",
+        "sourceAnswer": "4秒後と7秒後",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "cbd98f8f11acd734b9709b471db4a794f18cc54c80b9203ca8040aaf5e52128c"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "4",
+            "d": "1",
+            "unit": "秒後",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "秒後": "1",
+              "秒": "1"
+            },
+            "label": "1回目"
+          },
+          {
+            "n": "7",
+            "d": "1",
+            "unit": "秒後",
+            "dimension": "scalar",
+            "acceptedUnits": {
+              "秒後": "1",
+              "秒": "1"
+            },
+            "label": "2回目"
+          }
+        ]
+      },
+      "difficulty": 6,
+      "scopeUnits": [
+        "R31"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "切り取られる部分",
+            "body": "重なり11.5cm²のとき、正方形16cm²から直角二等辺三角形が切り取られています。その面積と等しい辺を出します。",
+            "equation": "16−11.5＝4.5、□×□÷2＝4.5 → □＝3（cm）",
+            "checkpoint": {
+              "prompt": "切り取られる直角二等辺三角形の等しい辺は何cmですか。",
+              "answer": {
+                "n": "3",
+                "d": "1",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s1"
+          },
+          {
+            "title": "1回目の位置",
+            "body": "1回目は、右のななめの辺が正方形の右上の角を切り取るときです。右はしは正方形の右下の角から4−3＝1cm右にあります。",
+            "equation": "3＋4＋1＝8（cm）動く",
+            "id": "s2"
+          },
+          {
+            "title": "1回目の時刻",
+            "body": "秒速2cmで8cm動きます。",
+            "equation": "8÷2＝4（秒後）",
+            "id": "s3"
+          },
+          {
+            "title": "2回目",
+            "body": "2回目は、左のななめの辺が正方形の左上の角を3cm切り取るときで、左はしは正方形の左の辺の1cm手前です。",
+            "equation": "(12＋3−1)÷2＝7（秒後）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r31/H③-3.png",
+      "figureRequired": true,
+      "notionId": "4252b010743c81e19c8efc69f97eea6e",
+      "subdivision": {
+        "id": "3fd2b010743c81daa21ecba96f48b86f",
+        "name": "平行移動の重なり面積",
+        "chu": "動点・図形の移動",
+        "dai": "速さ",
+        "order": 240
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R31N④-3",
+      "unitId": "r31.roll.triangle_around_square",
+      "category": "geometry",
+      "domain": "図形の移動（転がり）",
+      "text": "1辺2cmの正三角形があります。この正三角形を1辺2cmの正方形のまわりを㋐の位置から㋑の位置まですべらないように転がします。点Aの動いたあとの線の長さを求めなさい。（円周率は3.14）（図：正方形の左に正三角形㋐（底辺AC、頂点B）、右に㋑）",
+      "sourceText": "1辺2cmの正三角形があります。この正三角形を1辺2cmの正方形のまわりを㋐の位置から㋑の位置まですべらないように転がします。点Aの動いたあとの線の長さを求めなさい。（円周率は3.14）（図：正方形の左に正三角形㋐（底辺AC、頂点B）、右に㋑）",
+      "source": {
+        "title": "R31N④-3",
+        "url": "https://app.notion.com/4252b010743c8100a693ee8e022c13d9",
+        "notionPageId": "4252b010743c8100a693ee8e022c13d9",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-31 平面図形(6)-図形の移動-.pdf",
+        "locator": "5年No.31 R31N④-3（図は後期3 図版 p.646 と同じ切り抜き）",
+        "scopeUnits": [
+          "R31"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-27 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H は解説が一部だけなので同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。平行移動の3問は重なりの形・面積を座標でも検算。",
+        "sourceAnswer": "9.42cm",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "7f3766dc2c440344e65bdd467c5f1d2ea1d4f286fd83291c4280b7566b7236ed"
+      },
+      "answer": {
+        "n": "471",
+        "d": "50",
+        "unit": "cm",
+        "dimension": "length",
+        "acceptedUnits": {
+          "cm": "1",
+          "センチメートル": "1",
+          "mm": "1/10",
+          "m": "100"
+        }
+      },
+      "difficulty": 6,
+      "scopeUnits": [
+        "R31"
+      ],
+      "homeStudy": false,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "転がり方",
+            "body": "正三角形は、正方形の左下・左上・右上の角を中心に3回回ります。点Aはどの回転でも動き、半径はいつも2cmです。",
+            "equation": "半径2cmの弧が3つ",
+            "id": "s1"
+          },
+          {
+            "title": "1回目と3回目",
+            "body": "正方形の角90°から正三角形の角60°を引いた分だけ回ります。",
+            "equation": "90−60＝30（度）",
+            "id": "s2"
+          },
+          {
+            "title": "2回目",
+            "body": "正方形の上の左の角では、まわりの360°から正三角形の60°と正方形の90°を引いた分だけ回ります。",
+            "equation": "360−(60＋90)＝210（度）",
+            "checkpoint": {
+              "prompt": "3回の中心角の合計は何度ですか。",
+              "answer": {
+                "n": "270",
+                "d": "1",
+                "unit": "度",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s3"
+          },
+          {
+            "title": "長さ",
+            "body": "半径2cmの円の、270°分の弧です。",
+            "equation": "4×3.14×270/360＝9.42（cm）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r31/N④-3.png",
+      "figureRequired": true,
+      "notionId": "4252b010743c8100a693ee8e022c13d9",
+      "subdivision": {
+        "id": "3fd2b010743c81e78f03eb762716a9c4",
+        "name": "接触状態の切替による転動軌跡",
+        "chu": "図形の移動・軌跡・通過面積",
+        "dai": "平面図形",
+        "order": 433
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R31H⑤-2",
+      "unitId": "r31.roll.sector_center",
+      "category": "geometry",
+      "domain": "図形の移動（転がり）",
+      "text": "半径10cm、中心角36度のおうぎ形を、直線の上を㋐の位置から㋑の位置まですべらないように転がします。(1) 点Oの動いたあとの線の長さを求めなさい。(2) おうぎ形が通った部分の面積を求めなさい。",
+      "sourceText": "半径10cm、中心角36度のおうぎ形を、直線の上を㋐の位置から㋑の位置まですべらないように転がします。(1) 点Oの動いたあとの線の長さを求めなさい。(2) おうぎ形が通った部分の面積を求めなさい。",
+      "source": {
+        "title": "R31H⑤-2",
+        "url": "https://app.notion.com/4252b010743c8108ac30fc0f0dc0dc78",
+        "notionPageId": "4252b010743c8108ac30fc0f0dc0dc78",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-31 平面図形(6)-図形の移動-.pdf",
+        "locator": "5年No.31 R31H⑤-2（図は後期3 図版 p.670 と同じ切り抜き）",
+        "scopeUnits": [
+          "R31"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-27 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H は解説が一部だけなので同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。平行移動の3問は重なりの形・面積を座標でも検算。",
+        "sourceAnswer": "(1) 37.68cm (2) 219.8cm²",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "911eb754e111d66377a5db3bdcb4ec9e02b704274097c3b76cffe14b2518ca17"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "942",
+            "d": "25",
+            "unit": "cm",
+            "dimension": "length",
+            "acceptedUnits": {
+              "cm": "1",
+              "センチメートル": "1",
+              "mm": "1/10",
+              "m": "100"
+            },
+            "label": "(1)"
+          },
+          {
+            "n": "1099",
+            "d": "5",
+            "unit": "cm²",
+            "dimension": "area",
+            "acceptedUnits": {
+              "cm²": "1",
+              "cm2": "1",
+              "平方センチメートル": "1"
+            },
+            "label": "(2)"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "scopeUnits": [
+        "R31"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "点Oの動き",
+            "body": "① Aを中心に90°回る（半径10cm）② 弧が直線の上を転がる間、Oは直線と平行に弧の長さだけ進む ③ Bを中心に90°回る。",
+            "equation": "曲線2つ＋直線1つ",
+            "id": "s1"
+          },
+          {
+            "title": "(1) 曲線の部分",
+            "body": "半径10cm、中心角90°の弧が2つです。",
+            "equation": "20×3.14×90/360×2＝31.4（cm）",
+            "id": "s2"
+          },
+          {
+            "title": "(1) まっすぐな部分",
+            "body": "弧の長さ（中心角36°）と同じだけ進みます。",
+            "equation": "20×3.14×36/360＝6.28 → 31.4＋6.28＝37.68（cm）",
+            "checkpoint": {
+              "prompt": "(1)の答えは何cmですか。",
+              "answer": {
+                "n": "942",
+                "d": "25",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s3"
+          },
+          {
+            "title": "(2) 通った部分",
+            "body": "半径10cm・中心角90°のおうぎ形2つと、たて10cm・横6.28cmの長方形です。",
+            "equation": "10×10×3.14×90/360×2＋10×6.28＝219.8（cm²）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r31/H⑤-2.png",
+      "figureRequired": true,
+      "notionId": "4252b010743c8108ac30fc0f0dc0dc78",
+      "subdivision": {
+        "id": "40a2b010743c816eb185ebd1360c4c64",
+        "name": "接触状態の切替による転動軌跡",
+        "chu": "図形の移動・軌跡・通過面積",
+        "dai": "平面図形",
+        "order": 436
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R31H⑥-2",
+      "unitId": "r31.roll.circle_step",
+      "category": "geometry",
+      "domain": "図形の移動（転がり）",
+      "text": "図のようなところを、半径4cmの円がAの位置からBの位置まで線にそって転がります。(1) 円の中心がえがく線の長さを求めなさい。(2) 円が通った部分の面積を求めなさい。（円周率は3.14）（図：右はしにかべのある長さ30cmの段の上（A）から、段の角をまわって高さ30cmのかべにそって下の床（B）まで）",
+      "sourceText": "図のようなところを、半径4cmの円がAの位置からBの位置まで線にそって転がります。(1) 円の中心がえがく線の長さを求めなさい。(2) 円が通った部分の面積を求めなさい。（円周率は3.14）（図：右はしにかべのある長さ30cmの段の上（A）から、段の角をまわって高さ30cmのかべにそって下の床（B）まで）",
+      "source": {
+        "title": "R31H⑥-2",
+        "url": "https://app.notion.com/4252b010743c81e48d6af9377b1246b2",
+        "notionPageId": "4252b010743c81e48d6af9377b1246b2",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-31 平面図形(6)-図形の移動-.pdf",
+        "locator": "5年No.31 R31H⑥-2（図は後期3 図版 p.672 と同じ切り抜き）",
+        "scopeUnits": [
+          "R31"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-27 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H は解説が一部だけなので同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。平行移動の3問は重なりの形・面積を座標でも検算。",
+        "sourceAnswer": "(1) 58.28cm (2) 516.48cm²",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "12df188ac29eb50b2c221b1acf52e2c1c306e512202bb6020c3e9721a2d2ee80"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "1457",
+            "d": "25",
+            "unit": "cm",
+            "dimension": "length",
+            "acceptedUnits": {
+              "cm": "1",
+              "センチメートル": "1",
+              "mm": "1/10",
+              "m": "100"
+            },
+            "label": "(1)"
+          },
+          {
+            "n": "12912",
+            "d": "25",
+            "unit": "cm²",
+            "dimension": "area",
+            "acceptedUnits": {
+              "cm²": "1",
+              "cm2": "1",
+              "平方センチメートル": "1"
+            },
+            "label": "(2)"
+          }
+        ]
+      },
+      "difficulty": 5,
+      "scopeUnits": [
+        "R31"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "中心の通り道",
+            "body": "円の中心は、段の上を30−4＝26cm進み、段の角を中心に半径4cmの四分円をえがき、かべにそって30−4＝26cm下ります。",
+            "equation": "26cm、四分円、26cm",
+            "id": "s1"
+          },
+          {
+            "title": "(1) 長さ",
+            "body": "まっすぐな部分2本と、半径4cmの四分円の弧です。",
+            "equation": "26×2＋8×3.14×90/360＝58.28（cm）",
+            "checkpoint": {
+              "prompt": "(1)の答えは何cmですか。",
+              "answer": {
+                "n": "1457",
+                "d": "25",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "(2) 帯の部分",
+            "body": "中心がまっすぐ進む間、円ははば8cm（直径）の帯を通ります。",
+            "equation": "8×26×2＝416（cm²）",
+            "id": "s3"
+          },
+          {
+            "title": "(2) 角と両はし",
+            "body": "段の角では半径8cmの四分円、出発と到着の位置では半径4cmの半円が2つ加わります。",
+            "equation": "8×8×3.14×90/360＋4×4×3.14×180/360×2＝100.48 → 416＋100.48＝516.48（cm²）",
+            "id": "s4"
+          }
+        ]
+      },
+      "figure": "figs/r31/H⑥-2.png",
+      "figureRequired": true,
+      "notionId": "4252b010743c81e48d6af9377b1246b2",
+      "subdivision": {
+        "id": "3fd2b010743c819c9e3dc578a4030ebf",
+        "name": "円中心の等距離経路と掃引領域",
+        "chu": "図形の移動・軌跡・通過面積",
+        "dai": "平面図形",
+        "order": 434
+      },
+      "role": "代表"
+    },
+    {
+      "id": "R31H⑦-3",
+      "unitId": "r31.roll.circle_around_l",
+      "category": "geometry",
+      "domain": "図形の移動（転がり）",
+      "text": "図のようなかぎ形をした図形のまわりを半径4cmの円が1周します。(1) 円の中心が通ったあとの線の長さを求めなさい。(2) 円が通ったあとの部分の面積を求めなさい。（円周率は3.14）（図：1辺30cmの正方形の右下から1辺15cmの正方形を切り取ったかぎ形。辺は30・15・15・15・15・30cm）",
+      "sourceText": "図のようなかぎ形をした図形のまわりを半径4cmの円が1周します。(1) 円の中心が通ったあとの線の長さを求めなさい。(2) 円が通ったあとの部分の面積を求めなさい。（円周率は3.14）（図：1辺30cmの正方形の右下から1辺15cmの正方形を切り取ったかぎ形。辺は30・15・15・15・15・30cm）",
+      "source": {
+        "title": "R31H⑦-3",
+        "url": "https://app.notion.com/4252b010743c81cf8825c7b8fbf48f95",
+        "notionPageId": "4252b010743c81cf8825c7b8fbf48f95",
+        "path": "C:/Users/tsuzu/Dropbox/算数DB/原本/5年授業/5-31 平面図形(6)-図形の移動-.pdf",
+        "locator": "5年No.31 R31H⑦-3（図は後期3 図版 p.677 と同じ切り抜き）",
+        "scopeUnits": [
+          "R31"
+        ],
+        "databasePath": "C:/Users/tsuzu/Dropbox/算数DB/本文/算数DB_通常授業_後期.md",
+        "verification": "2026-11-27 Claude作成。問題文・答えは Notion 問題DB（原本から全文）と一致し、答えは公式解答と一致。段階解説は教材の解説の解き方に即して作成し（H は解説が一部だけなので同じ型の N の解説に合わせた）、各ステップの式を Python（fractions）で検算。平行移動の3問は重なりの形・面積を座標でも検算。",
+        "sourceAnswer": "(1) 143.4cm (2) 1143.76cm²",
+        "textOrigin": "notion-problem-body-verbatim",
+        "difficultyProvenance": "Notion細分類の基礎難度＋上乗せ。",
+        "figureSha256": "66d3aff9414573ece31ffaf2d13170148992cbe68d2a3587f91be162b6a058df"
+      },
+      "answer": {
+        "parts": [
+          {
+            "n": "717",
+            "d": "5",
+            "unit": "cm",
+            "dimension": "length",
+            "acceptedUnits": {
+              "cm": "1",
+              "センチメートル": "1",
+              "mm": "1/10",
+              "m": "100"
+            },
+            "label": "(1)"
+          },
+          {
+            "n": "28594",
+            "d": "25",
+            "unit": "cm²",
+            "dimension": "area",
+            "acceptedUnits": {
+              "cm²": "1",
+              "cm2": "1",
+              "平方センチメートル": "1"
+            },
+            "label": "(2)"
+          }
+        ]
+      },
+      "difficulty": 6,
+      "scopeUnits": [
+        "R31"
+      ],
+      "homeStudy": true,
+      "revision": 1,
+      "explanation": {
+        "steps": [
+          {
+            "title": "(1) まっすぐな部分",
+            "body": "外側の辺30・30・15・15はそのまま。へこんだ角をはさむ2辺は、半径4cmずつ短くなります。",
+            "equation": "30＋30＋15＋15＋11＋11＝112（cm）",
+            "id": "s1"
+          },
+          {
+            "title": "(1) 曲線の部分",
+            "body": "出っぱった角5か所で、半径4cmの四分円の弧をえがきます。",
+            "equation": "8×3.14×90/360×5＝31.4 → 112＋31.4＝143.4（cm）",
+            "checkpoint": {
+              "prompt": "(1)の答えは何cmですか。",
+              "answer": {
+                "n": "717",
+                "d": "5",
+                "unit": "cm",
+                "dimension": "scalar"
+              }
+            },
+            "id": "s2"
+          },
+          {
+            "title": "(2) 外側の帯と角",
+            "body": "外側の4辺にそったはば8cmの帯と、5つの角の半径8cmのおうぎ形です。",
+            "equation": "(30＋30＋15＋15)×8＝720、8×8×3.14×90/360×5＝251.2",
+            "id": "s3"
+          },
+          {
+            "title": "(2) へこんだ角",
+            "body": "へこんだ角のまわりは、1辺15cmの正方形から1辺7cmの正方形を引いた形から、円が届かないすみを引きます。",
+            "equation": "15×15−7×7＝176、4×4−4×4×3.14×90/360＝3.44 → 176−3.44＝172.56",
+            "id": "s4"
+          },
+          {
+            "title": "(2) 合計",
+            "body": "3つを合わせます。",
+            "equation": "720＋251.2＋172.56＝1143.76（cm²）",
+            "id": "s5"
+          }
+        ]
+      },
+      "figure": "figs/r31/H⑦-3.png",
+      "figureRequired": true,
+      "notionId": "4252b010743c81cf8825c7b8fbf48f95",
+      "subdivision": {
+        "id": "3fd2b010743c819c9e3dc578a4030ebf",
+        "name": "円中心の等距離経路と掃引領域",
+        "chu": "図形の移動・軌跡・通過面積",
+        "dai": "平面図形",
+        "order": 434
+      },
+      "role": "代表"
+    },
+    {
       "id": "R24H①-2",
       "unitId": "work.parallel.complete",
       "category": "oneline",
@@ -225267,6 +226352,96 @@
       "prerequisites": []
     },
     {
+      "id": "r31.slide.overlap_isosceles",
+      "name": "ずらした直角二等辺三角形の重なり：底辺から高さ",
+      "definition": "ずらした直角二等辺三角形の重なり：底辺から高さ",
+      "decision": "ずらした長さだけ底辺が短い、同じ形の直角二等辺三角形が重なり",
+      "domain": "図形の移動（平行移動）",
+      "representativeId": "R31H①-1",
+      "prerequisites": []
+    },
+    {
+      "id": "r31.slide.contain_and_area",
+      "name": "2つの直角二等辺三角形：含まれる時間・重なりが○cm²の時刻",
+      "definition": "2つの直角二等辺三角形：含まれる時間・重なりが○cm²の時刻",
+      "decision": "頂点どうしが重なる瞬間を「動いた長さ÷速さ」で出す。重なりは直角二等辺三角形",
+      "domain": "図形の移動（平行移動）",
+      "representativeId": "R31H②-2",
+      "prerequisites": []
+    },
+    {
+      "id": "r31.slide.both_move",
+      "name": "両方が動く（出会い）：重なりが○cm²→近づいた長さ÷速さの和",
+      "definition": "両方が動く（出会い）：重なりが○cm²→近づいた長さ÷速さの和",
+      "decision": "2つの図形が近づく速さは速さの和。重なりの形から近づいた長さを出す",
+      "domain": "図形の移動（平行移動）",
+      "representativeId": "R31H②-3",
+      "prerequisites": []
+    },
+    {
+      "id": "r31.slide.shape_change",
+      "name": "重なりの形の変化（三・四・五角形）と時間",
+      "definition": "重なりの形の変化（三・四・五角形）と時間",
+      "decision": "重なりの辺が長方形のどの辺で切られるかを順に見る。切られはじめ・終わりの位置を「動いた長さ」で出す",
+      "domain": "図形の移動（平行移動）",
+      "representativeId": "R31H③-1",
+      "prerequisites": []
+    },
+    {
+      "id": "r31.slide.overlap_max",
+      "name": "直角二等辺三角形と長方形：重なりの面積・最大になる時刻",
+      "definition": "直角二等辺三角形と長方形：重なりの面積・最大になる時刻",
+      "decision": "重なり＝長方形−はみ出す直角二等辺三角形。はみ出しが最も小さいのは左右に同じだけはみ出すとき",
+      "domain": "図形の移動（平行移動）",
+      "representativeId": "R31H③-2",
+      "prerequisites": []
+    },
+    {
+      "id": "r31.slide.overlap_time_twice",
+      "name": "重なりが○cm²になる2つの時刻（逆算）",
+      "definition": "重なりが○cm²になる2つの時刻（逆算）",
+      "decision": "正方形から切り取られる直角二等辺三角形の大きさを出し、右のななめの辺・左のななめの辺の位置にもどす",
+      "domain": "図形の移動（平行移動）",
+      "representativeId": "R31H③-3",
+      "prerequisites": []
+    },
+    {
+      "id": "r31.roll.triangle_around_square",
+      "name": "正方形のまわりを正三角形が転がる：中心角を1つずつ出す",
+      "definition": "正方形のまわりを正三角形が転がる：中心角を1つずつ出す",
+      "decision": "回転の中心になる頂点ごとに「何度回るか」を出し、同じ半径の弧をまとめる",
+      "domain": "図形の移動（転がり）",
+      "representativeId": "R31N④-3",
+      "prerequisites": []
+    },
+    {
+      "id": "r31.roll.sector_center",
+      "name": "おうぎ形を転がす：中心の線・おうぎ形が通った部分の面積",
+      "definition": "おうぎ形を転がす：中心の線・おうぎ形が通った部分の面積",
+      "decision": "①半径の先を中心に90°回る ②弧が転がる間は中心が直線と平行に弧の長さだけ進む ③反対の半径の先を中心に90°",
+      "domain": "図形の移動（転がり）",
+      "representativeId": "R31H⑤-2",
+      "prerequisites": []
+    },
+    {
+      "id": "r31.roll.circle_step",
+      "name": "円が段を転がる：外側の角はおうぎ形が加わる",
+      "definition": "円が段を転がる：外側の角はおうぎ形が加わる",
+      "decision": "中心の通り道は辺から半径だけはなれた線。外側の角では中心が角を中心に回る。通った部分＝帯＋角のおうぎ形＋両はしの半円",
+      "domain": "図形の移動（転がり）",
+      "representativeId": "R31H⑥-2",
+      "prerequisites": []
+    },
+    {
+      "id": "r31.roll.circle_around_l",
+      "name": "かぎ形のまわりを1周：へこんだ角は通れない部分がある",
+      "definition": "かぎ形のまわりを1周：へこんだ角は通れない部分がある",
+      "decision": "出っぱった角はおうぎ形、へこんだ角は中心の線が短くなり、すみに円が届かない部分が残る",
+      "domain": "図形の移動（転がり）",
+      "representativeId": "R31H⑦-3",
+      "prerequisites": []
+    },
+    {
       "id": "work.parallel.complete",
       "name": "2人の仕事量を合わせる",
       "domain": "仕事算",
@@ -243008,6 +244183,36 @@
       "to": "r30.fold.corner_area",
       "relation": "extension",
       "difference": "辺の長さから、2つの三角形の面積まで。"
+    },
+    {
+      "from": "r31.slide.overlap_isosceles",
+      "to": "r31.slide.contain_and_area",
+      "relation": "extension",
+      "difference": "止まった重なりから、動かして重なりが変わる形へ。"
+    },
+    {
+      "from": "r31.slide.contain_and_area",
+      "to": "r31.slide.both_move",
+      "relation": "extension",
+      "difference": "片方だけ動く形から、両方が向かい合って動く形へ。"
+    },
+    {
+      "from": "r31.slide.shape_change",
+      "to": "r31.slide.overlap_max",
+      "relation": "extension",
+      "difference": "形の変化から、面積が最大になる位置へ。"
+    },
+    {
+      "from": "r31.slide.overlap_max",
+      "to": "r31.slide.overlap_time_twice",
+      "relation": "extension",
+      "difference": "時刻から面積を出す形から、面積から2つの時刻を逆算する形へ。"
+    },
+    {
+      "from": "r31.roll.circle_step",
+      "to": "r31.roll.circle_around_l",
+      "relation": "extension",
+      "difference": "出っぱった角だけの道から、へこんだ角のある図形のまわりへ。"
     },
     {
       "from": "work.parallel.complete",

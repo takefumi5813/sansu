@@ -14,14 +14,14 @@
   const names = {calc:'計算', oneline:'一行問題', geometry:'図形'};
   const storage = C.createStorage('sansu-pilot-v1');
   let state = C.initialState(), storageBroken = false, writeQueue = Promise.resolve(), session = null, view = 'home';
-  let settings = {category:'oneline', mode:'review', domain:'', subdivision:'', tier:'standard',difficulty:10, recentUnits:['R30'],star:1, grade:5, testDate:'2026-12-11', scopeUnits:['R28','R29','R30']};
+  let settings = {category:'oneline', mode:'review', domain:'', subdivision:'', tier:'standard',difficulty:10, recentUnits:['R31'],star:1, grade:5, testDate:'2026-12-11', scopeUnits:['R28','R29','R30','R31']};
   try { settings = {...settings, ...JSON.parse(localStorage.getItem('sansu-pilot-preferences') || '{}')}; } catch (_) {}
   if(!['review','gnorev','all','pot'].includes(settings.mode))settings.mode='review';
   if(!['basic','standard','advanced','hard'].includes(settings.tier))settings.tier='standard';
-  if(!Array.isArray(settings.recentUnits))settings.recentUnits=['R30'];
+  if(!Array.isArray(settings.recentUnits))settings.recentUnits=['R31'];
   // Replace the original pilot's demo default, preserving other chosen lessons.
   if(!settings.learnedScopeVersion&&settings.recentUnits.length===1&&settings.recentUnits[0]==='R20')settings.recentUnits=['R24'];
-  if(!Array.isArray(settings.scopeUnits))settings.scopeUnits=['R28','R29','R30'];
+  if(!Array.isArray(settings.scopeUnits))settings.scopeUnits=['R28','R29','R30','R31'];
   // Explicit user correction: lessons 25–27 are not yet studied.
   if(!settings.learnedScopeVersion){
     settings.recentUnits=settings.recentUnits.filter(u=>!['R25','R26','R27'].includes(u));
@@ -58,7 +58,13 @@
     settings.scopeUnits=[...new Set([...settings.scopeUnits,'R28','R29','R30'])];
     settings.testDate='2026-12-11';
   }
-  settings.learnedScopeVersion=7;
+  // 2026-11-27: R31 (平面図形(6) 図形の移動) studied. Make it the recent lesson and add it to the 12/11 GnoRev scope (No.28–31 are now all studied).
+  if((settings.learnedScopeVersion||0)<8){
+    settings.recentUnits=['R31'];
+    settings.scopeUnits=[...new Set([...settings.scopeUnits,'R28','R29','R30','R31'])];
+    settings.testDate='2026-12-11';
+  }
+  settings.learnedScopeVersion=8;
   let ink = [], figureInk = [], tool = 'pen', color = '#203c42', width = 3, finger = false, zoom = 1, lastPenAt = 0, penNoticeShown = false, eraserSize = 'm', penDownNow = false, scratchBinding = null;
   const ERASER_RADIUS = {s:7, m:16, l:32};
   let canvasBindings = [], toastTimer;

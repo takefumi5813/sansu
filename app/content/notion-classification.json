@@ -21313,6 +21313,76 @@
    "difficulty": 7,
    "rep": true,
    "variant": false
+  },
+  "4252b010743c81308fe0c9909e8a3aed": {
+   "sub": "3fd2b010743c81daa21ecba96f48b86f",
+   "related": [],
+   "difficulty": 4,
+   "rep": true,
+   "variant": false
+  },
+  "4252b010743c812fb057c0d861fd4c1d": {
+   "sub": "3fd2b010743c81daa21ecba96f48b86f",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4252b010743c81cabadccc9ea59e8bc4": {
+   "sub": "3fd2b010743c81daa21ecba96f48b86f",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4252b010743c81ceae18f7c59a568fc5": {
+   "sub": "3fd2b010743c81daa21ecba96f48b86f",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4252b010743c816d9e43ca5102518217": {
+   "sub": "3fd2b010743c81daa21ecba96f48b86f",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4252b010743c81e19c8efc69f97eea6e": {
+   "sub": "3fd2b010743c81daa21ecba96f48b86f",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "4252b010743c8100a693ee8e022c13d9": {
+   "sub": "3fd2b010743c81e78f03eb762716a9c4",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
+  },
+  "4252b010743c8108ac30fc0f0dc0dc78": {
+   "sub": "40a2b010743c816eb185ebd1360c4c64",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4252b010743c81e48d6af9377b1246b2": {
+   "sub": "3fd2b010743c819c9e3dc578a4030ebf",
+   "related": [],
+   "difficulty": 5,
+   "rep": true,
+   "variant": false
+  },
+  "4252b010743c81cf8825c7b8fbf48f95": {
+   "sub": "3fd2b010743c819c9e3dc578a4030ebf",
+   "related": [],
+   "difficulty": 6,
+   "rep": true,
+   "variant": false
   }
  }
 }

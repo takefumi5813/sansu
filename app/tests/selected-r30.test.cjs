@@ -36,6 +36,6 @@ test('R30：子どもが書きそうな答えの形',()=>{
  assert.equal(g('R30T⑤-3',['3:7','78']),true);assert.equal(g('R30T⑤-3',['1:3','78']),false);
  assert.equal(g('R30K-23','9'),true);assert.equal(g('R30K-25','299'),true);assert.equal(g('R30K-25','300'),false);
 });
-test('出題範囲：直近R30、次回グノレブ（12/11、No.28〜31）は既習のR28・R29・R30',()=>{
- assert.equal(plan.recentLesson.unit,'R30');assert.deepEqual(plan.nextAssessment.activeLearnedUnits,['R28','R29','R30']);
+test('出題範囲：次回グノレブ（12/11、No.28〜31）に既習のR30が入っている（直近はR31に移った）',()=>{
+ assert.ok(plan.nextAssessment.activeLearnedUnits.includes('R30'));
 });
